@@ -581,3 +581,25 @@ Each entry: the rule as it should read in the prompts, then [origin].
   publish what it guards.
 - **Manifests may record foreign absolute paths as history; RESOLUTION
   is always re-rooted onto the current checkout** (provenance.local()).
+
+
+## Added during the reviewer-executed refactor (Tier 1)
+
+- **Append-only stores need an explicit READ-path resolution rule** —
+  reversibility is a requirement on resolution, not on history. "Latest
+  wins" hid verdicts; "terminal outranks" made a reviewer ruling
+  physically unlandable. Highest stage, then latest, is right in both
+  directions. [the 204 revert that could not land]
+- **When an operator decision amends a trigger, edit the OLD rule's text
+  everywhere stale readers will look** — the executor's conjunction
+  rewrite inside DECISION-001's language is the pattern.
+- **Gates assert; they never echo.** A neutrality gate that prints the
+  fixture count and commits anyway is the gate-that-doesn't-gate class,
+  reviewer edition. [two commits landed at 8/9 before the gate aborted]
+- **Read immediately before editing** — an edit written against a
+  remembered read is written against a file that may no longer exist.
+  [ledger_io had grown a write-gate between my read and my edit]
+- **A commit message is a claim and the diff is its evidence** — verify
+  the diff proves the message BEFORE committing. [three overclaims in
+  one session: 'sentinel imports TERMINAL' before it did; 'adopted at
+  the matching sites' with zero matches]

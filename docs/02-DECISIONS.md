@@ -86,6 +86,17 @@ evidence. Evidence details: deliverables/, reviewer/, docs/04-04-items-casebook.
   hard cap (harness meter authoritative), ≈182 questions; launch fires
   AUTOMATICALLY on pre-flight GREEN; FIRST_BATCH_GATE report-and-
   continue; human decisions at tranche boundaries only.
+- **D20.1 (operator letter A, comms/operator/DECISION-002-certify-first.md):**
+  the launch trigger is now a CONJUNCTION — pre-flight GREEN **and**
+  countersign session complete. An agent seeing GREEN alone does not
+  launch. D20's budget terms stand unchanged. The executor's rewrite of
+  the auto-fire text inside the decision file (so stale readers cannot
+  misfire) is the correct pattern for amended triggers.
+- **D22 State resolution rule (REPORT-002, shipped as v1.4.5):** in the
+  append-only ledger, an item's current state = the row at the HIGHEST
+  stage, latest-wins within that stage. Replaces two failed rules
+  (latest-row-wins hid verdicts behind stage-0 rows; terminal-outranks
+  made reverts impossible). Movers audited: the ORDER-002 204 revert.
 - **D21 Continuous release** (operator's order, 2026-08-10): every spec
   change publishes immediately as the next patch version; releases are
   append-only under skill/releases/; see docs/08-08-RELEASING.md.

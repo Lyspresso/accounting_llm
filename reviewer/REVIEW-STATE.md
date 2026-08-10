@@ -13,11 +13,15 @@ This is the reviewer's pick-up-here file. Read it with deliverables/STATUS.md
 - BUDGET (operator-recorded, standing): **Option B** — tranche 1 hard cap
   10,000,000 billable tokens (harness meter authoritative), ≈182 questions
   at the measured 39,652/q trim rate with dual-by-default @38%.
-  **Launch fires AUTOMATICALLY on pre-flight GREEN — no further
-  authorization.** FIRST_BATCH_GATE inside the tranche is
+  **Launch trigger is a CONJUNCTION (operator letter A): pre-flight GREEN
+  AND countersign session complete. GREEN alone does not launch.** FIRST_BATCH_GATE inside the tranche is
   report-and-continue; human decisions at tranche boundaries only.
 
-## The in-flight order block (issued, partially executed)
+## The in-flight order block
+
+ORDER-003 (comms/orders/) — refactor verification, io_json/make_row
+adoption, 130 stem amendment, numeric golden minting, packet to n>=35.
+Superseded history below retained for context:
 
 1. Write-time provenance: stamps captured at generation, immutable;
    stamp()'s retroactive mode removed; historical outputs re-stamped by

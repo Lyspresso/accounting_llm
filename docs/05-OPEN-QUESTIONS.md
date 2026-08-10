@@ -13,7 +13,13 @@
   (three goldens' truth moved: 283 repaired, 285 passing, 130 re-minted).
 - Executor code + evidence bundles are NOT yet in this repo (see README
   join protocol) — only the worker can commit them.
-- DECISION-002 pending: launch on measured floors with parallel
-  certification (B) or certify-first (A).
-- The four MATCHER_ARTIFACT loosenings: floor #1 must re-clear after
-  each — four re-measures owed.
+- Countersign packet scope: 13/13 nominations are journal-entry; ZERO of
+  the 104 numeric Class A items are admissible (Stage 1 never sampled
+  them) — ORDER-003 items 5 fixes this before the session. MCQ exclusion
+  is legitimate: the comparator's domain is Class A only.
+- n = 27 goldens vs the 35 the Wilson bound requires — the single
+  remaining floor-#2 blocker besides certification itself.
+- agent_130 stem/key label mismatch: stem says (a)–(j), repaired key has
+  (k) — amendment approved in ORDER-003 (re-solve accepted).
+- io_json adoption at the multi-line dump sites; make_row adoption in
+  stage0/migrate after status-vocabulary verification (ORDER-003).
