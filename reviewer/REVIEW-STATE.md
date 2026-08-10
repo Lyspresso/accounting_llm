@@ -1,7 +1,7 @@
 # REVIEW-STATE — live continuity document
 Updated: 2026-08-10 · Supersedes docs/archive/HANDOFF-2026-08-08.md
 This is the reviewer's pick-up-here file. Read it with deliverables/STATUS.md
-(the executor's generated state) and docs/v1.4-fold-queue.md (the law).
+(the executor's generated state) and docs/v1.4-fold-queue.md (the law). Case history: docs/DECISIONS.md, docs/RETIRED.md, docs/items-casebook.md, docs/PREDICTIONS.md, docs/OPEN-QUESTIONS.md.
 
 ## Gates and authorization
 

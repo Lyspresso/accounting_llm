@@ -43,6 +43,11 @@ accounting first; the SUBJECT PACK section swaps to port it to any class.
 
 ## Changelog
 
+- **v1.4.2 (spec catch-up — no invalidation)** — the case-history layer
+  becomes law: DECISIONS/RETIRED/casebook are maintained artifacts;
+  settled rulings reopen only by citation with new evidence; retired
+  numbers and approaches are never silently re-tried.
+
 - **v1.4.1 (spec catch-up #2 — no invalidation)** — folds the post-1.4
   campaign law: single-write-API state stores with full-vector sentinels
   and precondition-synthesizing fault injection; the declared unit ladder

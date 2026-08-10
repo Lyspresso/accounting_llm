@@ -127,6 +127,23 @@ questions being measured.
 
 ---
 
+
+## New agent? Read in this order, before acting
+1. `docs/GLOSSARY.md` — the vocabulary is load-bearing.
+2. `reviewer/REVIEW-STATE.md` + `deliverables/STATUS.md` — where we are.
+3. `docs/DECISIONS.md` — settled rulings; reopening one requires citing
+   its ID with new evidence.
+4. `docs/RETIRED.md` — numbers and approaches that are DEAD; quoting a
+   retired number as current is an error.
+5. `docs/items-casebook.md` — the famous items; do not re-investigate
+   from zero.
+Then: `docs/OPEN-QUESTIONS.md` is where genuine uncertainty lives.
+**Executor joining from Lydia's machine: your first commit is the working
+tree — scripts (canon.py, ledger_io.py, builders, fixtures, deliver.sh),
+the ledger, goldens, and evidence bundles. The repo is incomplete without
+them, and DO NOT commit textbook source files (see caution in this
+README).**
+
 ## Repository map
 
 - `README.md` — this overview.
@@ -144,8 +161,19 @@ questions being measured.
   in-flight orders, prediction ledger, runway.
 - `reviewer/hand_check_verdicts_v1.json` — the 20-item cross-check
   packet (ai_cross_checked tier; operator countersign pending).
+- `docs/DECISIONS.md`, `docs/RETIRED.md`, `docs/items-casebook.md`,
+  `docs/PREDICTIONS.md`, `docs/OPEN-QUESTIONS.md`, `docs/GLOSSARY.md` —
+  the case-history layer: settled law, dead ends, famous items,
+  scored predictions, live unknowns, vocabulary.
 - `docs/archive/` — historical snapshots, superseded but preserved.
 
 Working protocol for agents joining via this repo: pull fresh, read
 reviewer/REVIEW-STATE.md + deliverables/STATUS.md, work, commit your
 artifacts, push before ending the session. The remote is the memory.
+
+---
+
+**Caution — public repository**: do not commit textbook chapter files or
+other verbatim Hanlon 4e-derived source material here. Keep sources
+local (gitignored) or make the repo private first. Question stems/keys
+are AI-generated derivatives; the operator decides their exposure.
