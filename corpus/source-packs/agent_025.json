@@ -1,0 +1,72 @@
+{
+  "agent_id": 25,
+  "lo": "LO 17-5",
+  "chapter": 17,
+  "title": "Account for complex operating leases for a lessee",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-5",
+      "concept": "Complex operating lease — IDC + incentive; measure liability and ROU; initial JEs; liability/ROU schedules; subsequent and maturity",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-5",
+      "concept": "Complex operating lease — IDC + incentive (all numbers changed)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-5",
+      "concept": "Complex operating lease with prepayment of first payment; initial recognition; period-end expense; maturity",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-5",
+      "concept": "Guaranteed residual — criterion 4 classification PV vs measurement of lease liability (complex operating context)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 17-5",
+      "concept": "Presentation of complex operating lease expense vs finance lease; SCF classification of cash payments",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

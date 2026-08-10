@@ -1,0 +1,83 @@
+{
+  "agent_id": 178,
+  "lo": "LO 8-9",
+  "chapter": 8,
+  "title": "Account for impairment of noncurrent receivables",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "number_variant_twin",
+    "troubled_debt_restructure_impairment"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-9",
+      "concept": "Initial recognition of note receivable; period-end interest; DCF impairment at original effective rate; multi-year subsequent measurement (net carrying amount / AFDA) schedule; settlement at maturity",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-9",
+      "concept": "Number-variant twin — initial recognition, DCF impairment, subsequent measurement schedule, period-end effective-interest accruals, settlement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-9",
+      "concept": "Period-end interest accrual; restructure treated as continuation of existing loan; impairment at original effective rate; subsequent measurement schedule with partial cash interest; principal settlement",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "troubled_debt_restructure_impairment"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-9",
+      "concept": "Original effective rate vs. current market rate for measuring note receivable impairment",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule"
+      ],
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 8-9",
+      "concept": "Effective interest after impairment when no cash interest is expected",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

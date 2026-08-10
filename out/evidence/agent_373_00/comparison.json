@@ -1,0 +1,77 @@
+{
+ "id": "agent_373#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 9,
+  "routed_stage2": 3,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: Classification/presentation of Common Stock Dividends Distributable at December 31, Year 1",
+   "solver": "Stockholders' equity \u2014 paid-in capital section, an addition to contributed capital (NOT a liability); reported at par, 21600"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "f: Scenario C \u2014 journal entry required?",
+   "solver": "None \u2014 memorandum entry only for a true stock split"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Retained Earnings (Stock Dividends)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Common Stock Dividends Distributable"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Common Stock Dividends Distributable"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Retained Earnings (Stock Dividends)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Common Stock Dividends Distributable"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Common Stock Dividends Distributable"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 158400.0,
+   "solver": "retained earnings stock dividends",
+   "key_options": [
+    "retained earnings 7 200 22"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 21600.0,
+   "solver": "common stock dividends distributable",
+   "key_options": [
+    "common stock",
+    "common stock dividends distributable 7 200 3"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 90000.0,
+   "solver": "retained earnings stock dividends",
+   "key_options": [
+    "common stock dividends distributable",
+    "retained earnings 30 000 3"
+   ]
+  }
+ ]
+}

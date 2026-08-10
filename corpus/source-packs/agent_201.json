@@ -1,0 +1,40 @@
+{
+  "agent_id": 201,
+  "lo": "LO 11-5",
+  "chapter": 11,
+  "title": "Account for asset retirement obligations",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-5",
+      "concept": "Initial capitalization of ARO at PV into plant asset; full subsequent measurement (accretion) schedule under effective interest; period-end depreciation and accretion adjusting JEs; settlement of ARO with loss",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-5",
+      "concept": "Number-variant twin: combined purchase and ARO recognition; full subsequent accretion schedule (effective interest); period-end depreciation and accretion JEs; settlement of ARO with gain when cash paid is less than accreted liability",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-5",
+      "concept": "Alternate angle — purchase and ARO on same date; emphasis on multi-period accretion schedule and year-end dep + accretion pair; settlement when cash equals estimated FV (no gain/loss)",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-5",
+      "concept": "Classification and measurement — equipment cost includes PV of ARO (not undiscounted future cash); accretion increases the ARO liability and is an operating expense",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

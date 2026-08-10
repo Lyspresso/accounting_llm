@@ -1,0 +1,72 @@
+{
+  "agent_id": 292,
+  "lo": "LO 18-5",
+  "chapter": 18,
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "title": "Explain how to record a valuation allowance and report deferred taxes",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-5",
+      "concept": "Initial recognition of DTA and valuation allowance; subsequent VA measurement schedule; period-end adjusting JE to reassess realizability; settlement when DTA reverses; single noncurrent net presentation of deferred taxes",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-5",
+      "concept": "Number-variant twin — recompute gross DTA/DTL/VA, combined tax JE, period-end VA plug to new percent unrealizable, net noncurrent presentation, and VA release when realizability improves fully",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-5",
+      "concept": "Standalone period-end adjusting JE for valuation allowance when gross DTA is already recorded; classify single noncurrent net deferred tax asset vs liability",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-5",
+      "concept": "Classification / presentation — single noncurrent net deferred tax asset or liability after offsetting DTA net of VA against DTL",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 18-5",
+      "concept": "Period-end adjusting JE — increase in valuation allowance increases income tax expense",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

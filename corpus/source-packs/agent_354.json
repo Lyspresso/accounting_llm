@@ -1,0 +1,64 @@
+{
+  "agent_id": 354,
+  "lo": "LO 13-7",
+  "chapter": 13,
+  "title": "Account for research and development costs",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-7",
+      "concept": "Initial recognition of R&D (expense vs capitalize multi-use assets and materials); materials subsequent use; multi-year depreciation schedule classified as R&D; period-end adjusting JEs (depreciation + accrued wages); disposal of multi-use equipment; Year-1 R&D disclosure total",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-7",
+      "concept": "Number-variant twin: initial R&D recognition (expense vs multi-use capitalize); materials inventory and consumption; multi-year subsequent measurement depreciation schedule classified as R&D; period-end adjusting JEs; disposal of multi-use equipment; Year-1 R&D disclosure total",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-7",
+      "concept": "Period-end adjusting JEs for multi-use depreciation, multi-project intangible amortization, materials consumption, accrued R&D costs, building allocation, and write-off of single-use R&D equipment; materials inventory rollforward schedule; Year 3 R&D disclosure total",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-7",
+      "concept": "Classification of expenditures as R&D expense vs non-R&D vs capitalized multi-use asset; computation of disclosed R&D total",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

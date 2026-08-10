@@ -1,0 +1,86 @@
+{
+  "agent_id": 234,
+  "lo": "LO 16-9",
+  "chapter": 16,
+  "title": "Apply the fair value option for liabilities",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-9",
+      "concept": "Fair value option subsequent measurement schedule for a note payable (general risk → NI); initial recognition; period-end FVA adjusting entries; early settlement at fair value",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-9",
+      "concept": "Number-variant twin — FVO initial recognition at par; subsequent measurement schedule including FV above and below face; period-end adjusting JEs; maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-9",
+      "concept": "FVO period-end adjustments when FV change is own (instrument-specific) credit risk → OCI; subsequent measurement schedule; disposal/settlement with AOCI reclassification into NI",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4A",
+      "lo": "LO 16-9",
+      "concept": "Classification — general risk (NI) vs instrument-specific credit risk (OCI) under the fair value option for liabilities",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q4B",
+      "lo": "LO 16-9",
+      "concept": "FVO election rules — irrevocable, entire instrument, instrument-by-instrument",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

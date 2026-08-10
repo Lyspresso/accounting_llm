@@ -1,0 +1,57 @@
+{
+ "id": "agent_132#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 8,
+  "routed_stage2": 3,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in HTM Securities"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in HTM Securities"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Sale of Investment"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in HTM Securities"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 189915.0,
+   "solver": "investment in htm securities",
+   "key_options": [
+    "investment in htm securities redwood bonds"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 1552.0,
+   "solver": "investment in htm securities",
+   "key_options": [
+    "investment in htm securities redwood bonds"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 183470.0,
+   "solver": "investment in htm securities",
+   "key_options": [
+    "investment in htm securities redwood bonds"
+   ]
+  }
+ ]
+}

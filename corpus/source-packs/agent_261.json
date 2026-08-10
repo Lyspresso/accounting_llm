@@ -1,0 +1,40 @@
+{
+  "agent_id": 261,
+  "lo": "LO 22-8",
+  "chapter": 22,
+  "title": "Prepare a statement of cash flows using the cash T-account approach",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-8",
+      "concept": "Subsequent measurement schedules (AR, Inv/AP, Equipment, AD, RE) feeding reconstructed JEs; complete cash T-account; direct-method SCF",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-8",
+      "concept": "Number-variant twin — subsequent measurement schedules, reconstructed entries, cash T-account, and direct-method SCF (gain on disposal + note principal repayment)",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-8",
+      "concept": "Subsequent measurement schedules for AR, Inv/AP, Equipment, AD; period-end depreciation JE (noncash); PPE disposal JE; bond maturity settlement JE; map only cash legs into O/I/F sections of the cash T-account",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-8",
+      "concept": "Classification — which reconstructed items appear in the cash T-account; restricted cash in the SCF reconciliation",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

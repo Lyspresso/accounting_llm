@@ -1,0 +1,16 @@
+{
+ "id": "agent_183#01",
+ "pack_id": "agent_183",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "low",
+ "expected_verdict": "PASS",
+ "guards_rule": "corroboration_not_waving_through",
+ "rationale": "MA: unit costs 7.00/9.00/10.50, EI 10,500, COGS 8,250. FIFO: COGS 3,600+3,450=7,050, EI 11,700. LIFO: 4,800+4,950=9,750, EI 9,000. COGAS 18,750 reconciles all t",
+ "truth_as_of_hash": "c51787a76ea21ab618beb623f026d3ab7f45fa3ea14bf77417cfab054faa87c9",
+ "truth_as_of_bytes": "29a42cd5b6b734670a065af717faf5010c4d202f4417b659bd2712ee3b81c8c7",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "clean",
+ "cross_check_evidence": "MA: unit costs 7.00/9.00/10.50, EI 10,500, COGS 8,250. FIFO: COGS 3,600+3,450=7,050, EI 11,700. LIFO: 4,800+4,950=9,750, EI 9,000. COGAS 18,750 reconciles all three."
+}

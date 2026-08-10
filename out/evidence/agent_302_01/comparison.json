@@ -1,0 +1,109 @@
+{
+ "id": "agent_302#01",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 18,
+  "routed_stage2": 7,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accounts Receivable - Arden Supply"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accounts Receivable - Bristol Outlet"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accounts Receivable - Arden Supply"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Allowance for Sales Discounts"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Allowance for Sales Discounts"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accounts Receivable - Bristol Outlet"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accounts Receivable - Arden Supply"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 90000.0,
+   "solver": "accounts receivable arden supply",
+   "key_options": [
+    "accounts receivable"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 60000.0,
+   "solver": "accounts receivable bristol outlet",
+   "key_options": [
+    "accounts receivable"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 1080.0,
+   "solver": "sales discounts",
+   "key_options": [
+    "sales discount"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 36000.0,
+   "solver": "accounts receivable arden supply",
+   "key_options": [
+    "accounts receivable",
+    "inventory"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 1800.0,
+   "solver": "sales discounts",
+   "key_options": [
+    "allowance for sales discounts",
+    "sales discount"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 60000.0,
+   "solver": "accounts receivable bristol outlet",
+   "key_options": [
+    "accounts receivable",
+    "sales revenue"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 54000.0,
+   "solver": "accounts receivable arden supply",
+   "key_options": [
+    "accounts receivable",
+    "inventory"
+   ]
+  }
+ ]
+}

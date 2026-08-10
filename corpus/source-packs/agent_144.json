@@ -1,0 +1,55 @@
+{
+  "agent_id": 144,
+  "lo": "LO 16-3",
+  "chapter": 16,
+  "title": "Account for Bonds Issued at Face Value",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-3",
+      "concept": "Initial recognition of bonds issued at face value; subsequent measurement schedule (constant carrying value; interest expense = cash interest); settlement at maturity",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-3",
+      "concept": "Number-variant twin — bonds issued at face with annual interest; subsequent measurement schedule; interest JE; maturity settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-3",
+      "concept": "Period-end adjusting JE for face-value bonds when interest dates do not fall on year-end; subsequent cash settlement of Interest Payable; current-maturity reclassification; maturity settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-3",
+      "concept": "Classification / presentation — issuance at face does not reduce stockholders’ equity; liability equals face",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-3",
+      "concept": "Subsequent measurement — for bonds at face, interest expense equals cash interest each period; carrying amount stays at face",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

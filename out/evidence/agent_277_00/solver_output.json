@@ -1,0 +1,251 @@
+{
+  "id": "agent_277#00",
+  "rounding_convention": "decimal.Decimal only, ROUND_HALF_UP to the nearest whole dollar. Issue price from the exact effective-interest PV formula at 50-digit precision (i=2%, n=6), rounded once. Schedule rounded PER PERIOD with the rounded carrying amount carried forward; final period's premium amortization is the residual plug to face. Dec 31 accrual = next schedule row prorated 3/6 (expense), face x 6% x 3/12 (payable), amortization = payable - expense.",
+  "answers": [
+    {
+      "label": "a: issue price of the bonds (April 1, Year 1)",
+      "value": 264004
+    },
+    {
+      "label": "a: premium on bonds payable at issuance",
+      "value": 14004
+    },
+    {
+      "label": "b: period 1 (to Oct 1, Year 1) cash interest paid",
+      "value": 7500
+    },
+    {
+      "label": "b: period 1 (to Oct 1, Year 1) interest expense",
+      "value": 5280
+    },
+    {
+      "label": "b: period 1 (to Oct 1, Year 1) premium amortization",
+      "value": 2220
+    },
+    {
+      "label": "b: period 1 (to Oct 1, Year 1) carrying amount at end of period",
+      "value": 261784
+    },
+    {
+      "label": "b: period 2 (to Apr 1, Year 2) cash interest paid",
+      "value": 7500
+    },
+    {
+      "label": "b: period 2 (to Apr 1, Year 2) interest expense",
+      "value": 5236
+    },
+    {
+      "label": "b: period 2 (to Apr 1, Year 2) premium amortization",
+      "value": 2264
+    },
+    {
+      "label": "b: period 2 (to Apr 1, Year 2) carrying amount at end of period",
+      "value": 259520
+    },
+    {
+      "label": "b: period 3 (to Oct 1, Year 2) cash interest paid",
+      "value": 7500
+    },
+    {
+      "label": "b: period 3 (to Oct 1, Year 2) interest expense",
+      "value": 5190
+    },
+    {
+      "label": "b: period 3 (to Oct 1, Year 2) premium amortization",
+      "value": 2310
+    },
+    {
+      "label": "b: period 3 (to Oct 1, Year 2) carrying amount at end of period",
+      "value": 257210
+    },
+    {
+      "label": "b: period 4 (to Apr 1, Year 3) cash interest paid",
+      "value": 7500
+    },
+    {
+      "label": "b: period 4 (to Apr 1, Year 3) interest expense",
+      "value": 5144
+    },
+    {
+      "label": "b: period 4 (to Apr 1, Year 3) premium amortization",
+      "value": 2356
+    },
+    {
+      "label": "b: period 4 (to Apr 1, Year 3) carrying amount at end of period",
+      "value": 254854
+    },
+    {
+      "label": "b: period 5 (to Oct 1, Year 3) cash interest paid",
+      "value": 7500
+    },
+    {
+      "label": "b: period 5 (to Oct 1, Year 3) interest expense",
+      "value": 5097
+    },
+    {
+      "label": "b: period 5 (to Oct 1, Year 3) premium amortization",
+      "value": 2403
+    },
+    {
+      "label": "b: period 5 (to Oct 1, Year 3) carrying amount at end of period",
+      "value": 252451
+    },
+    {
+      "label": "b: period 6 (to Apr 1, Year 4) cash interest paid",
+      "value": 7500
+    },
+    {
+      "label": "b: period 6 (to Apr 1, Year 4) interest expense",
+      "value": 5049
+    },
+    {
+      "label": "b: period 6 (to Apr 1, Year 4) premium amortization",
+      "value": 2451
+    },
+    {
+      "label": "b: period 6 (to Apr 1, Year 4) carrying amount at end of period",
+      "value": 250000
+    },
+    {
+      "label": "d: Dec 31, Year 1 accrued interest expense (3 months)",
+      "value": 2618
+    },
+    {
+      "label": "d: Dec 31, Year 1 interest payable accrued (3 months)",
+      "value": 3750
+    },
+    {
+      "label": "d: Dec 31, Year 1 premium amortization (3 months)",
+      "value": 1132
+    },
+    {
+      "label": "e: Dec 31, Year 1 bonds payable (face)",
+      "value": 250000
+    },
+    {
+      "label": "e: Dec 31, Year 1 unamortized premium on bonds payable",
+      "value": 10652
+    },
+    {
+      "label": "e: Dec 31, Year 1 bonds payable, net (carrying amount)",
+      "value": 260652
+    },
+    {
+      "label": "e: Dec 31, Year 1 interest payable (current liability)",
+      "value": 3750
+    },
+    {
+      "label": "e: Year 1 interest expense (income statement)",
+      "value": 7898
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "April 1, Year 1",
+      "description": "Issue $250,000 of 6% bonds at a premium to yield 4%",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 264004,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable",
+          "debit": 0,
+          "credit": 250000
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 0,
+          "credit": 14004
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "October 1, Year 1",
+      "description": "Semiannual interest payment and premium amortization (period 1)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 5280,
+          "credit": 0
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 2220,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 7500
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 1",
+      "description": "Period-end adjusting accrual for Oct 1 - Dec 31 (3/6 of period 2)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 2618,
+          "credit": 0
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 1132,
+          "credit": 0
+        },
+        {
+          "account": "Interest Payable",
+          "debit": 0,
+          "credit": 3750
+        }
+      ]
+    },
+    {
+      "part": "f1",
+      "date": "April 1, Year 4",
+      "description": "Final semiannual interest payment and premium amortization (period 6)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 5049,
+          "credit": 0
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 2451,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 7500
+        }
+      ]
+    },
+    {
+      "part": "f2",
+      "date": "April 1, Year 4",
+      "description": "Derecognize the bonds at maturity (premium fully amortized)",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 250000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 250000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Premium issue: 6% coupon vs 4% yield, 6 semiannual periods at i=2%. Issue price $264,004 (premium $14,004). Using 5-decimal PV table factors instead would give $264,003 and leave the final schedule row internally inconsistent by $1, so the exact formula is used. Part f assumes no Interest Payable balance immediately before the final interest entry, per the stem."
+}

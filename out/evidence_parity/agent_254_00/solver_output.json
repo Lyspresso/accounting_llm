@@ -1,0 +1,322 @@
+{
+ "id": "agent_254#00",
+ "rounding_convention": "decimal.Decimal with ROUND_HALF_UP applied once per reported period figure; money to $0.01, reported EPS to $0.01, earnings-per-incremental-share and running schedule EPS shown to 4 decimals; dilutive/antidilutive tests use exact unrounded quotients",
+ "answers": [
+  {
+   "label": "a: Cash received on preferred stock issuance (4,000 sh x $100 par, at par)",
+   "value": 400000.0
+  },
+  {
+   "label": "a: Preferred Stock credited (par)",
+   "value": 400000.0
+  },
+  {
+   "label": "a: Cash received on Series X convertible bond issuance (at par)",
+   "value": 500000.0
+  },
+  {
+   "label": "a: Bonds Payable - Series X credited (face)",
+   "value": 500000.0
+  },
+  {
+   "label": "b: Options - assumed proceeds (10,000 x $20)",
+   "value": 200000.0
+  },
+  {
+   "label": "b: Options - treasury shares assumed repurchased ($200,000 / $40)",
+   "value": 5000.0
+  },
+  {
+   "label": "b: Options - numerator effect",
+   "value": 0.0
+  },
+  {
+   "label": "b: Options - denominator effect (incremental shares)",
+   "value": 5000.0
+  },
+  {
+   "label": "b: Options - earnings per incremental share",
+   "value": 0.0
+  },
+  {
+   "label": "b: Series X bonds - annual cash interest ($500,000 x 4%)",
+   "value": 20000.0
+  },
+  {
+   "label": "b: Series X bonds - numerator effect (interest net of 25% tax)",
+   "value": 15000.0
+  },
+  {
+   "label": "b: Series X bonds - denominator effect (500 bonds x 25 shares)",
+   "value": 12500.0
+  },
+  {
+   "label": "b: Series X bonds - earnings per incremental share",
+   "value": 1.2
+  },
+  {
+   "label": "b: Convertible preferred - numerator effect (dividends added back, no tax effect)",
+   "value": 20000.0
+  },
+  {
+   "label": "b: Convertible preferred - denominator effect (4,000 sh x 3)",
+   "value": 12000.0
+  },
+  {
+   "label": "b: Convertible preferred - earnings per incremental share",
+   "value": 1.6667
+  },
+  {
+   "label": "b: Series Y bonds - annual cash interest ($300,000 x 10%)",
+   "value": 30000.0
+  },
+  {
+   "label": "b: Series Y bonds - numerator effect (interest net of 25% tax)",
+   "value": 22500.0
+  },
+  {
+   "label": "b: Series Y bonds - denominator effect (300 bonds x 8 shares)",
+   "value": 2400.0
+  },
+  {
+   "label": "b: Series Y bonds - earnings per incremental share",
+   "value": 9.375
+  },
+  {
+   "label": "b: Rank 1 (most dilutive to least dilutive) - Employee stock options, earnings per incremental share",
+   "value": 0.0
+  },
+  {
+   "label": "b: Rank 2 (most dilutive to least dilutive) - Series X convertible bonds (4%), earnings per incremental share",
+   "value": 1.2
+  },
+  {
+   "label": "b: Rank 3 (most dilutive to least dilutive) - 5% cumulative convertible preferred stock, earnings per incremental share",
+   "value": 1.6667
+  },
+  {
+   "label": "b: Rank 4 (most dilutive to least dilutive) - Series Y convertible bonds (10%), earnings per incremental share",
+   "value": 9.375
+  },
+  {
+   "label": "c: Preferred dividends for Year 1 (cumulative, declared and paid)",
+   "value": 20000.0
+  },
+  {
+   "label": "c: Income available to common shareholders (numerator of basic EPS)",
+   "value": 360000.0
+  },
+  {
+   "label": "c: Weighted-average common shares outstanding (denominator of basic EPS)",
+   "value": 200000.0
+  },
+  {
+   "label": "c: Basic EPS",
+   "value": 1.8
+  },
+  {
+   "label": "d: Basic EPS (starting point) - cumulative numerator",
+   "value": 360000.0
+  },
+  {
+   "label": "d: Basic EPS (starting point) - cumulative denominator",
+   "value": 200000.0
+  },
+  {
+   "label": "d: Basic EPS (starting point) - cumulative EPS",
+   "value": 1.8
+  },
+  {
+   "label": "d: Basic EPS (starting point) - dilutive or antidilutive",
+   "value": "n/a"
+  },
+  {
+   "label": "d: Add Employee stock options - numerator effect",
+   "value": 0.0
+  },
+  {
+   "label": "d: Add Employee stock options - denominator effect",
+   "value": 5000.0
+  },
+  {
+   "label": "d: Add Employee stock options - cumulative numerator",
+   "value": 360000.0
+  },
+  {
+   "label": "d: Add Employee stock options - cumulative denominator",
+   "value": 205000.0
+  },
+  {
+   "label": "d: Add Employee stock options - cumulative EPS",
+   "value": 1.7561
+  },
+  {
+   "label": "d: Add Employee stock options - dilutive or antidilutive",
+   "value": "DILUTIVE - include"
+  },
+  {
+   "label": "d: Add Series X convertible bonds (4%) - numerator effect",
+   "value": 15000.0
+  },
+  {
+   "label": "d: Add Series X convertible bonds (4%) - denominator effect",
+   "value": 12500.0
+  },
+  {
+   "label": "d: Add Series X convertible bonds (4%) - cumulative numerator",
+   "value": 375000.0
+  },
+  {
+   "label": "d: Add Series X convertible bonds (4%) - cumulative denominator",
+   "value": 217500.0
+  },
+  {
+   "label": "d: Add Series X convertible bonds (4%) - cumulative EPS",
+   "value": 1.7241
+  },
+  {
+   "label": "d: Add Series X convertible bonds (4%) - dilutive or antidilutive",
+   "value": "DILUTIVE - include"
+  },
+  {
+   "label": "d: Add 5% cumulative convertible preferred stock - numerator effect",
+   "value": 20000.0
+  },
+  {
+   "label": "d: Add 5% cumulative convertible preferred stock - denominator effect",
+   "value": 12000.0
+  },
+  {
+   "label": "d: Add 5% cumulative convertible preferred stock - cumulative numerator",
+   "value": 395000.0
+  },
+  {
+   "label": "d: Add 5% cumulative convertible preferred stock - cumulative denominator",
+   "value": 229500.0
+  },
+  {
+   "label": "d: Add 5% cumulative convertible preferred stock - cumulative EPS",
+   "value": 1.7211
+  },
+  {
+   "label": "d: Add 5% cumulative convertible preferred stock - dilutive or antidilutive",
+   "value": "DILUTIVE - include"
+  },
+  {
+   "label": "d: Add Series Y convertible bonds (10%) - numerator effect",
+   "value": 22500.0
+  },
+  {
+   "label": "d: Add Series Y convertible bonds (10%) - denominator effect",
+   "value": 2400.0
+  },
+  {
+   "label": "d: Add Series Y convertible bonds (10%) - cumulative numerator",
+   "value": 417500.0
+  },
+  {
+   "label": "d: Add Series Y convertible bonds (10%) - cumulative denominator",
+   "value": 231900.0
+  },
+  {
+   "label": "d: Add Series Y convertible bonds (10%) - cumulative EPS",
+   "value": 1.8003
+  },
+  {
+   "label": "d: Add Series Y convertible bonds (10%) - dilutive or antidilutive",
+   "value": "ANTIDILUTIVE - exclude"
+  },
+  {
+   "label": "d: Final diluted EPS numerator",
+   "value": 395000.0
+  },
+  {
+   "label": "d: Final diluted EPS denominator",
+   "value": 229500.0
+  },
+  {
+   "label": "d: Diluted EPS",
+   "value": 1.72
+  },
+  {
+   "label": "e: Preferred dividend paid - Dr Retained Earnings (Dividends) / Cr Cash",
+   "value": 20000.0
+  },
+  {
+   "label": "e: Series X full-year cash interest - Dr Interest Expense / Cr Cash",
+   "value": 20000.0
+  },
+  {
+   "label": "f: Income statement face - Earnings per common share: Basic",
+   "value": 1.8
+  },
+  {
+   "label": "f: Income statement face - Earnings per common share: Diluted",
+   "value": 1.72
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 400000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Preferred Stock ($100 par, 5% cumulative convertible)",
+     "debit": 0.0,
+     "credit": 400000.0
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 500000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Bonds Payable - Series X convertible (4%)",
+     "debit": 0.0,
+     "credit": 500000.0
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Retained Earnings (Preferred Dividends Declared)",
+     "debit": 20000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 20000.0
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Interest Expense - Series X convertible bonds",
+     "debit": 20000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 20000.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Ranking by earnings per incremental share: options $0.0000, Series X $1.2000, convertible preferred $1.6667, Series Y $9.3750. Sequential schedule: options, Series X and the convertible preferred are each dilutive; Series Y is antidilutive (would raise EPS from $1.7241 to $1.8004) and is excluded. Basic $1.80 / diluted $1.72. Preferred is cumulative, so the full $20,000 annual dividend is deducted in basic EPS and added back in the if-converted step; preferred dividends carry no tax effect. Bonds were issued at par, so no discount/premium amortization and interest expense equals cash coupon."
+}

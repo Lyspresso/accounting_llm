@@ -1,0 +1,36 @@
+{
+ "id": "agent_283#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 15,
+  "routed_stage2": 2,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Gain on Sale-Leaseback"
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "dr",
+   "amount": 430000.0,
+   "solver": "accumulated depreciation buildings",
+   "key_options": [
+    "accumulated depreciation building"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "cr",
+   "amount": 700000.0,
+   "solver": "buildings",
+   "key_options": [
+    "building"
+   ]
+  }
+ ]
+}

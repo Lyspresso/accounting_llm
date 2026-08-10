@@ -1,0 +1,40 @@
+{
+  "agent_id": 131,
+  "lo": "LO 13-8",
+  "chapter": 13,
+  "title": "Account for internally developed software and cloud computing arrangements",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-8",
+      "concept": "Initial recognition of software-for-sale costs (expense vs capitalize at technological feasibility); subsequent amortization using greater of revenue method vs straight-line (multi-year schedule); period-end amortization JEs; disposal write-off of remaining book value",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-8",
+      "concept": "Number-variant twin: software-for-sale R&D vs capitalization at technological feasibility; multi-year amortization schedule (greater of revenue vs SL); period-end amortization JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-8",
+      "concept": "Internal-use software (preliminary vs application development; training expensed); cloud computing hosting as service contract — capitalize implementation, expense subscription, amortize over hosting term; period-end adjusting JEs; classification/presentation of cloud implementation costs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-8",
+      "concept": "Classification — expense vs capitalize for software-for-sale, internal-use, and cloud service-contract costs",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

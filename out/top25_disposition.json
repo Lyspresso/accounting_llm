@@ -1,0 +1,39 @@
+{
+ "admitted": [
+  "Unrealized Gain or Loss\u2014Income",
+  "Unrealized Gain or Loss\u2014OCI",
+  "Research and Development Expense",
+  "Accumulated Depreciation\u2014Building",
+  "Construction in Process",
+  "Fair Value Adjustment\u2014Equity Securities",
+  "Discount on Note Receivable",
+  "Customer List",
+  "Asset Retirement Obligation",
+  "Paid-in Capital in Excess of Par\u2014Preferred Stock",
+  "Paid-in Capital\u2014Stock Options",
+  "Income Summary",
+  "Depreciation Expense\u2014Equipment",
+  "Liability for Unrecognized Tax Benefits",
+  "Valuation Allowance for Deferred Tax Asset",
+  "Gain on Sale of Investment",
+  "Mandatorily Redeemable Preferred Stock Liability",
+  "Investment Income",
+  "Loss on Impairment",
+  "License",
+  "Software Intangible Asset",
+  "Allowance to Reduce Inventory to Market"
+ ],
+ "pairs": [
+  [
+   "Income Tax Payable",
+   "Income Taxes Payable"
+  ],
+  [
+   "Building",
+   "Buildings"
+  ]
+ ],
+ "reclassified": {
+  "Additional Paid-in Capital\u2014Common": "Paid-in Capital in Excess of Par\u2014Common Stock"
+ }
+}

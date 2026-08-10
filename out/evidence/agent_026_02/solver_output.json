@@ -1,0 +1,201 @@
+{
+  "id": "agent_026#02",
+  "rounding_convention": "decimal.Decimal only; quantized to cents with ROUND_HALF_UP, round-per-period (each year's figure is rounded as computed and the rounded figure carries forward); no present-value factors needed",
+  "answers": [
+    {
+      "label": "A: item 1 classification",
+      "value": "taxable temporary"
+    },
+    {
+      "label": "A: item 2 classification",
+      "value": "deductible temporary"
+    },
+    {
+      "label": "A: item 3 classification",
+      "value": "taxable temporary"
+    },
+    {
+      "label": "A: item 4 classification",
+      "value": "permanent (nontaxable)"
+    },
+    {
+      "label": "A: item 5 classification",
+      "value": "permanent (nondeductible)"
+    },
+    {
+      "label": "A: item 6 classification",
+      "value": "taxable temporary"
+    },
+    {
+      "label": "A: item 7 classification",
+      "value": "deductible temporary"
+    },
+    {
+      "label": "A: item 8 classification",
+      "value": "permanent (nondeductible)"
+    },
+    {
+      "label": "A: item 9 classification",
+      "value": "no book-tax difference"
+    },
+    {
+      "label": "A: item 10 classification",
+      "value": "deductible temporary"
+    },
+    {
+      "label": "B(a) Y1: origin/(reversal) of taxable temporary difference",
+      "value": 12000
+    },
+    {
+      "label": "B(a) Y2: origin/(reversal) of taxable temporary difference",
+      "value": 4000
+    },
+    {
+      "label": "B(a) Y3: origin/(reversal) of taxable temporary difference",
+      "value": -4000
+    },
+    {
+      "label": "B(a) Y4: origin/(reversal) of taxable temporary difference",
+      "value": -12000
+    },
+    {
+      "label": "B(a) Y1: ending cumulative taxable temporary difference",
+      "value": 12000
+    },
+    {
+      "label": "B(a) Y2: ending cumulative taxable temporary difference",
+      "value": 16000
+    },
+    {
+      "label": "B(a) Y3: ending cumulative taxable temporary difference",
+      "value": 12000
+    },
+    {
+      "label": "B(a) Y4: ending cumulative taxable temporary difference",
+      "value": 0
+    },
+    {
+      "label": "B(a) Y1: ending deferred tax liability",
+      "value": 3000
+    },
+    {
+      "label": "B(a) Y2: ending deferred tax liability",
+      "value": 4000
+    },
+    {
+      "label": "B(a) Y3: ending deferred tax liability",
+      "value": 3000
+    },
+    {
+      "label": "B(a) Y4: ending deferred tax liability",
+      "value": 0
+    },
+    {
+      "label": "B(b) Y1: taxable income",
+      "value": 188000
+    },
+    {
+      "label": "B(b) Y2: taxable income",
+      "value": 206000
+    },
+    {
+      "label": "B(b) Y3: taxable income",
+      "value": 214000
+    },
+    {
+      "label": "B(b) Y4: taxable income",
+      "value": 217000
+    },
+    {
+      "label": "B(b) Y1: income tax payable",
+      "value": 47000
+    },
+    {
+      "label": "B(b) Y2: income tax payable",
+      "value": 51500
+    },
+    {
+      "label": "B(b) Y3: income tax payable",
+      "value": 53500
+    },
+    {
+      "label": "B(b) Y4: income tax payable",
+      "value": 54250
+    },
+    {
+      "label": "C: decrease in deductible temporary difference",
+      "value": 7000
+    },
+    {
+      "label": "C: ending deductible temporary difference",
+      "value": 11000
+    },
+    {
+      "label": "C: decrease in deferred tax asset",
+      "value": 1750
+    },
+    {
+      "label": "C: ending deferred tax asset",
+      "value": 2750
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "B(c) Year 1",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 50000,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Liability",
+          "debit": 0,
+          "credit": 3000
+        },
+        {
+          "account": "Income Tax Payable",
+          "debit": 0,
+          "credit": 47000
+        }
+      ]
+    },
+    {
+      "part": "B(c) Year 4",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 51250,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Liability",
+          "debit": 3000,
+          "credit": 0
+        },
+        {
+          "account": "Income Tax Payable",
+          "debit": 0,
+          "credit": 54250
+        }
+      ]
+    },
+    {
+      "part": "C settlement entry (Year 2)",
+      "lines": [
+        {
+          "account": "Accrued Warranty Liability",
+          "debit": 7000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 7000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part A justifications: (1) taxable temporary - Originates when GAAP records the full gross profit; reverses as cash is collected and the tax return picks the income up -> future taxable amounts.; (2) deductible temporary - Originates when the cash is taxed ahead of the book revenue; reverses when GAAP later earns the revenue with no further tax -> future deductible amounts.; (3) taxable temporary - Originates while the tax deduction exceeds book depreciation; reverses in the later years when book depreciation exceeds tax -> future taxable amounts.; (4) permanent (nontaxable) - Book gain is excluded from taxable income permanently -- never reverses.; (5) permanent (nondeductible) - Book expense is never deductible on the return -- never reverses.; (6) taxable temporary - Originates when GAAP marks the security up; reverses on sale when the gain enters taxable income -> future taxable amounts.; (7) deductible temporary - Originates when GAAP accrues the estimated liability; reverses when the cash is paid and the deduction is taken -> future deductible amounts.; (8) permanent (nondeductible) - Book interest expense is permanently disallowed on the return -- never reverses.; (9) no book-tax difference - Book and tax revenue are the same amount this year, so there is nothing to originate or reverse.; (10) deductible temporary - Originates when GAAP books the write-down; reverses when the inventory is sold and the loss becomes deductible -> future deductible amounts. | Part C effect in words: the warranty payment reverses $7,000 of the deductible temporary difference (from $18,000 to $11,000), so the related deferred tax asset falls by $1,750 (from $4,500 to $2,750) at the 25% rate. The settlement entry itself touches no tax account; the DTA change is picked up in the year's income tax provision entry."
+}

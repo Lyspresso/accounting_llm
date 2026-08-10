@@ -1,0 +1,267 @@
+{
+  "id": "agent_356#00",
+  "rounding_convention": "decimal.Decimal throughout, no floats; ROUND_HALF_UP quantized to cents per computation. Sales tax extracted from tax-inclusive totals as S = ROUND_HALF_UP(total / 1.06) with tax taken as the residual total - S, so the reclassification entry articulates exactly. Purchase discount = ROUND_HALF_UP(invoice x 0.02) on the invoice price only (freight excluded), with cash paid as the residual. No PV factors involved.",
+  "answers": [
+    {
+      "label": "e: Mar 5 sales revenue ($19,080 / 1.06)",
+      "value": 18000
+    },
+    {
+      "label": "e: Mar 5 sales taxes payable ($19,080 - $18,000)",
+      "value": 1080
+    },
+    {
+      "label": "e: Mar 19 sales revenue ($12,720 / 1.06)",
+      "value": 12000
+    },
+    {
+      "label": "e: Mar 19 sales taxes payable ($12,720 - $12,000)",
+      "value": 720
+    },
+    {
+      "label": "e: total March sales taxes reclassified (Mar 31 adjusting entry)",
+      "value": 1800
+    },
+    {
+      "label": "g: Accounts Payable ending balance, Mar 31, 2026",
+      "value": 0
+    },
+    {
+      "label": "g: Sales Taxes Payable balance, Mar 31, 2026",
+      "value": 1800
+    },
+    {
+      "label": "g: Sales Taxes Payable ending balance after Apr 22, 2026 remittance",
+      "value": 0
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "Mar 2",
+      "memo": "Purchase of merchandise for resale on account (gross method)",
+      "lines": [
+        {
+          "account": "Inventory",
+          "debit": 32000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Payable",
+          "debit": 0,
+          "credit": 32000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "date": "Mar 2",
+      "memo": "Freight-in paid in cash, FOB shipping point (capitalized to Inventory)",
+      "lines": [
+        {
+          "account": "Inventory",
+          "debit": 480,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 480
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Mar 5",
+      "memo": "Cash sales recorded under company policy (tax not broken out)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 19080,
+          "credit": 0
+        },
+        {
+          "account": "Sales",
+          "debit": 0,
+          "credit": 19080
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Mar 5",
+      "memo": "Cost of goods sold on the March 5 cash sales (perpetual)",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 10500,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 0,
+          "credit": 10500
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "Mar 11",
+      "memo": "Payment of Mar 2 invoice within the 2/10 discount period (gross method)",
+      "lines": [
+        {
+          "account": "Accounts Payable",
+          "debit": 32000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 0,
+          "credit": 640
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 31360
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Mar 14",
+      "memo": "Payment of February accounts payable, n/30, no discount available",
+      "lines": [
+        {
+          "account": "Accounts Payable",
+          "debit": 11600,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 11600
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Mar 19",
+      "memo": "Credit sales recorded under company policy (tax not broken out)",
+      "lines": [
+        {
+          "account": "Accounts Receivable",
+          "debit": 12720,
+          "credit": 0
+        },
+        {
+          "account": "Sales",
+          "debit": 0,
+          "credit": 12720
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Mar 19",
+      "memo": "Cost of goods sold on the March 19 credit sales (perpetual)",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 7200,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 0,
+          "credit": 7200
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Mar 31",
+      "memo": "Month-end adjusting entry reclassifying embedded sales taxes out of Sales",
+      "lines": [
+        {
+          "account": "Sales",
+          "debit": 1800,
+          "credit": 0
+        },
+        {
+          "account": "Sales Taxes Payable",
+          "debit": 0,
+          "credit": 1800
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "Apr 22",
+      "memo": "Remittance of March sales taxes to the state taxing authority",
+      "lines": [
+        {
+          "account": "Sales Taxes Payable",
+          "debit": 1800,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 1800
+        }
+      ]
+    },
+    {
+      "part": "i",
+      "date": "Mar 5",
+      "memo": "ALTERNATIVE policy: tax recorded at the point of sale (cash sales)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 19080,
+          "credit": 0
+        },
+        {
+          "account": "Sales",
+          "debit": 0,
+          "credit": 18000
+        },
+        {
+          "account": "Sales Taxes Payable",
+          "debit": 0,
+          "credit": 1080
+        }
+      ]
+    },
+    {
+      "part": "i",
+      "date": "Mar 19",
+      "memo": "ALTERNATIVE policy: tax recorded at the point of sale (credit sales)",
+      "lines": [
+        {
+          "account": "Accounts Receivable",
+          "debit": 12720,
+          "credit": 0
+        },
+        {
+          "account": "Sales",
+          "debit": 0,
+          "credit": 12000
+        },
+        {
+          "account": "Sales Taxes Payable",
+          "debit": 0,
+          "credit": 720
+        }
+      ]
+    },
+    {
+      "part": "i",
+      "date": "Mar 31",
+      "memo": "ALTERNATIVE policy: no month-end adjusting entry required (tax already isolated at each sale date; COGS entries are unchanged)",
+      "lines": []
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "h (classification, narrative): At Mar 31, 2026 Sales Taxes Payable of $1,800 is a CURRENT LIABILITY - the amount is collected from customers as agent for the state, is definite in amount, and is settled Apr 22, well within one year and within the operating cycle; it is not revenue and never reaches the income statement. Accounts Payable rolls to $0 at Mar 31 (both the February balance and the March 2 invoice were settled in March), so no AP is presented; any AP that had remained would likewise be current, being trade obligations due on n/30 terms arising from the normal operating cycle. After the Apr 22 remittance, Sales Taxes Payable is $0. | i: under point-of-sale recognition the Mar 31 adjusting entry is NOT required (shown as an entry with no lines), because the tax is already isolated at each sale date; total Sales ($30,000), total Sales Taxes Payable ($1,800), and the COGS entries are identical under both policies - only the timing of the split differs. | Purchase discount is computed on the $32,000 invoice price only; the $480 cash freight-in never entered Accounts Payable and is not discountable."
+}

@@ -1,0 +1,16 @@
+{
+ "id": "agent_043#00",
+ "pack_id": "agent_043",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "low",
+ "expected_verdict": "PASS",
+ "guards_rule": "rounding_context_scope",
+ "rationale": "round-then-carry vs carry-then-plug, both close to face",
+ "truth_as_of_hash": "bfeed80ccdc8e3385bd08a6db06e998b32969d2e55ea8754b09369822c1bcea5",
+ "truth_as_of_bytes": "32cbbc6f13587f37f811b02cad6784d7b45ed70dbb20746c29a58bbd281cf50c",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "rounding_convention_context_scope",
+ "cross_check_evidence": "Key rounds-then-carries (1,127/1,240/1,364; CAs 12,396/13,636/15,000). Trim carries decimals then plugs (1,126.90/1,239.59/1,364.51; 12,395.90/13,635.49/15,000). Both internally consistent, both close exactly to face. Same blessed convention pair as ch17 \u2014 proves the rule scopes by schedule context, not chapter."
+}

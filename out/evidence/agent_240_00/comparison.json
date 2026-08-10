@@ -1,0 +1,19 @@
+{
+ "id": "agent_240#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 10,
+  "routed_stage2": 0,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: balance-sheet classification immediately after issuance",
+   "solver": "Liability, not equity. Because redemption is mandatory for a fixed amount on a fixed date (not solely upon liquidation), ASC 480 requires the instrument to be r"
+  }
+ ]
+}

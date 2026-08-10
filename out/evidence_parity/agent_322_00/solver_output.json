@@ -1,0 +1,255 @@
+{
+ "id": "agent_322#00",
+ "rounding_convention": "decimal.Decimal throughout; every money figure quantized to cents (0.01) with ROUND_HALF_UP applied per period/per figure; percentages quantized to 0.01 percentage points with ROUND_HALF_UP. All amounts here are exact whole dollars. Debits equal credits in every entry (asserted).",
+ "answers": [
+  {
+   "label": "a: Markup on cost",
+   "value": 25.0
+  },
+  {
+   "label": "a: Gross profit as a percentage of sales (25%/125%)",
+   "value": 20.0
+  },
+  {
+   "label": "a: Cost percentage of sales",
+   "value": 80.0
+  },
+  {
+   "label": "b: Q1 beginning inventory, Jan 1 (physical count)",
+   "value": 360000.0
+  },
+  {
+   "label": "b: Q1 net purchases",
+   "value": 420000.0
+  },
+  {
+   "label": "b: Q1 goods available for sale (GAS)",
+   "value": 780000.0
+  },
+  {
+   "label": "b: Q1 net sales",
+   "value": 500000.0
+  },
+  {
+   "label": "b: Q1 estimated COGS (80% x net sales)",
+   "value": 400000.0
+  },
+  {
+   "label": "b: Estimated ending inventory, March 31",
+   "value": 380000.0
+  },
+  {
+   "label": "b: Q2 beginning inventory (Mar 31 estimate)",
+   "value": 380000.0
+  },
+  {
+   "label": "b: Q2 net purchases",
+   "value": 390000.0
+  },
+  {
+   "label": "b: Q2 goods available for sale (GAS)",
+   "value": 770000.0
+  },
+  {
+   "label": "b: Q2 net sales",
+   "value": 480000.0
+  },
+  {
+   "label": "b: Q2 estimated COGS (80% x net sales)",
+   "value": 384000.0
+  },
+  {
+   "label": "b: Estimated ending inventory, June 30",
+   "value": 386000.0
+  },
+  {
+   "label": "d: Beginning inventory, July 1 (Jun 30 estimate)",
+   "value": 386000.0
+  },
+  {
+   "label": "d: Net purchases, July 1-12",
+   "value": 48000.0
+  },
+  {
+   "label": "d: Goods available for sale to July 12",
+   "value": 434000.0
+  },
+  {
+   "label": "d: Net sales, July 1-12",
+   "value": 90000.0
+  },
+  {
+   "label": "d: Estimated COGS, July 1-12 (80% x net sales)",
+   "value": 72000.0
+  },
+  {
+   "label": "d: Estimated inventory on hand at July 12 storm date (before salvage)",
+   "value": 362000.0
+  },
+  {
+   "label": "d: Less salvaged goods still salable, at cost",
+   "value": 40000.0
+  },
+  {
+   "label": "d: Estimated inventory loss from storm",
+   "value": 322000.0
+  },
+  {
+   "label": "f: Insurance receivable recognized (probable and estimable)",
+   "value": 300000.0
+  },
+  {
+   "label": "f: Net casualty loss after expected recovery",
+   "value": 22000.0
+  },
+  {
+   "label": "g: Cash received August 5 in full settlement",
+   "value": 300000.0
+  },
+  {
+   "label": "h: Inventory reported on the balance sheet immediately after the July 12 write-off (salvaged goods at cost)",
+   "value": 40000.0
+  },
+  {
+   "label": "h: Insurance receivable reported separately as a current receivable (not inventory)",
+   "value": 300000.0
+  },
+  {
+   "label": "h: One USE of the gross profit method",
+   "value": "It produces an inventory estimate without a physical count - used for interim (quarterly) reporting, to test the reasonableness of a count, and to measure inventory destroyed in a casualty such as this storm, where counting the goods is impossible."
+  },
+  {
+   "label": "h: One LIMITATION of the gross profit method",
+   "value": "It is only an estimate based on a past gross profit percentage; if the current markup, sales mix, theft or spoilage differ from history the estimate is wrong, so GAAP does not accept it as the sole basis for annual financial statements - a physical count is still required at December 31."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Inventory (March 31 estimated ending inventory)",
+     "debit": 380000.0,
+     "credit": 0
+    },
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 400000.0,
+     "credit": 0
+    },
+    {
+     "account": "Inventory (January 1 beginning balance removed)",
+     "debit": 0,
+     "credit": 360000.0
+    },
+    {
+     "account": "Purchases (Q1 net purchases closed)",
+     "debit": 0,
+     "credit": 420000.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Inventory (June 30 estimated ending inventory)",
+     "debit": 386000.0,
+     "credit": 0
+    },
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 384000.0,
+     "credit": 0
+    },
+    {
+     "account": "Inventory (March 31 beginning balance removed)",
+     "debit": 0,
+     "credit": 380000.0
+    },
+    {
+     "account": "Purchases (Q2 net purchases closed)",
+     "debit": 0,
+     "credit": 390000.0
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Inventory (July 12 estimated balance before storm)",
+     "debit": 362000.0,
+     "credit": 0
+    },
+    {
+     "account": "Cost of Goods Sold (July 1-12)",
+     "debit": 72000.0,
+     "credit": 0
+    },
+    {
+     "account": "Inventory (June 30 balance removed)",
+     "debit": 0,
+     "credit": 386000.0
+    },
+    {
+     "account": "Purchases (July 1-12 net purchases closed)",
+     "debit": 0,
+     "credit": 48000.0
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Inventory - Salvaged Goods (salable, at cost)",
+     "debit": 40000.0,
+     "credit": 0
+    },
+    {
+     "account": "Casualty Loss from Storm",
+     "debit": 322000.0,
+     "credit": 0
+    },
+    {
+     "account": "Inventory (destroyed goods written off)",
+     "debit": 0,
+     "credit": 362000.0
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "lines": [
+    {
+     "account": "Insurance Claim Receivable",
+     "debit": 300000.0,
+     "credit": 0
+    },
+    {
+     "account": "Recovery of Casualty Loss (loss reduction)",
+     "debit": 0,
+     "credit": 300000.0
+    }
+   ]
+  },
+  {
+   "part": "g",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 300000.0,
+     "credit": 0
+    },
+    {
+     "account": "Insurance Claim Receivable",
+     "debit": 0,
+     "credit": 300000.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "(a) 25% markup on cost = 25/125 = 20% gross profit on sales; cost ratio 80%. (b)-(c) Each quarter's estimated ending inventory is booked by a period-end adjusting entry and carried forward as the next period's beginning inventory. (e) Split into two entries: the first is the July 1-12 period-end adjusting entry that establishes the estimated storm-date inventory of 362,000 (removing the 386,000 June 30 balance and closing 48,000 of July purchases); the second reclassifies the 40,000 of salvaged goods and writes off the 322,000 destroyed. A single combined entry (Dr COGS 72,000, Dr Inventory-Salvaged 40,000, Dr Casualty Loss 322,000; Cr Inventory 386,000, Cr Purchases 48,000) is equivalent. (f) Because recovery is probable and reasonably estimable, the 300,000 receivable is recognized on July 12 as a reduction of the loss, leaving a net casualty loss of 22,000; no gain is recognized since the recovery does not exceed the loss. (h) Only the 40,000 of salvaged goods remains in Inventory; the 300,000 claim is a separate current receivable, not inventory."
+}

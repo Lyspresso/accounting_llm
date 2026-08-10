@@ -1,0 +1,60 @@
+{
+  "agent_id": 93,
+  "lo": "LO 14-11",
+  "chapter": 14,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-11",
+      "concept": "Initial recognition of a speculative call option at premium; period-end fair value adjustment through NI; disposal (sale) of the option; income statement presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-11",
+      "concept": "Number-variant twin — initial recognition of speculative call; period-end FV through NI; settlement/sale; NI impact; subsequent measurement rollforward",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-11",
+      "concept": "Initial recognition of put option fair value hedge; period-end adjusting JEs for hedged HTM item and put; subsequent measurement schedule; net NI residual; BS/IS presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-11",
+      "concept": "Zero-cost swap inception (no JE); interest payment; cash settlement of swap; period-end FV adjustment of swap and note (shortcut method); presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-11",
+      "concept": "Zero-cost futures inception; period-end FV through OCI; settlement at purchase; reclassification of AOCI into COGS when inventory is sold; presentation; subsequent measurement schedule",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q6",
+      "lo": "LO 14-11",
+      "concept": "Classification — where fair value changes of derivatives are reported (NI vs OCI) by designation",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q6b",
+      "lo": "LO 14-11",
+      "concept": "Classification — economic effect and presentation of a receive-fixed / pay-variable interest rate swap designated as a fair value hedge of fixed-rate debt",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 7,
+  "ok": true
+}

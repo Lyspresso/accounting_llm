@@ -1,0 +1,193 @@
+{
+ "id": "agent_151#01",
+ "rounding_convention": "decimal.Decimal throughout; PVs and schedule balances carried at full precision, every reported figure and journal-entry amount rounded once to whole dollars with ROUND_HALF_UP; schedule closes exactly to the $30,000 purchase-option face at Dec 31, Year 5 and to $0 after exercise.",
+ "answers": [
+  {
+   "label": "a: Initial lease liability / ROU asset - PV of 5 annual payments of $80,000 in advance at 7% (PO excluded, not reasonably certain)",
+   "value": 350977
+  },
+  {
+   "label": "a: Jan 1, Year 1 first lease payment (cash)",
+   "value": 80000
+  },
+  {
+   "label": "b: Annual ROU amortization Years 1-2 (SL, $350,977 over 5-year lease term)",
+   "value": 70195
+  },
+  {
+   "label": "b: Accumulated ROU amortization at Jan 1, Year 3 (2 years)",
+   "value": 140391
+  },
+  {
+   "label": "b: ROU asset carrying amount, Jan 1, Year 3 (before remeasurement)",
+   "value": 210586
+  },
+  {
+   "label": "b: Lease liability, Jan 1, Year 3 before remeasurement and before payment",
+   "value": 224641
+  },
+  {
+   "label": "c: Remeasured lease liability, Jan 1, Year 3 - 3 payments of $80,000 in advance plus $30,000 PO, discounted at 5%",
+   "value": 254668
+  },
+  {
+   "label": "c: Remeasurement adjustment (increase to liability and ROU asset)",
+   "value": 30027
+  },
+  {
+   "label": "c: Lease liability immediately after remeasurement (before Jan 1, Year 3 payment)",
+   "value": 254668
+  },
+  {
+   "label": "c: ROU asset carrying amount immediately after remeasurement",
+   "value": 240613
+  },
+  {
+   "label": "d: Jan 1, Year 3 lease payment",
+   "value": 80000
+  },
+  {
+   "label": "d: Schedule - liability balance after Jan 1, Year 3 payment",
+   "value": 174668
+  },
+  {
+   "label": "d: Schedule - Year 3 interest at 5% (Dec 31, Year 3)",
+   "value": 8733
+  },
+  {
+   "label": "d: Schedule - liability balance Dec 31, Year 3",
+   "value": 183401
+  },
+  {
+   "label": "d: Schedule - Jan 1, Year 4 payment",
+   "value": 80000
+  },
+  {
+   "label": "d: Schedule - liability balance after Jan 1, Year 4 payment",
+   "value": 103401
+  },
+  {
+   "label": "d: Schedule - Year 4 interest at 5% (Dec 31, Year 4)",
+   "value": 5170
+  },
+  {
+   "label": "d: Schedule - liability balance Dec 31, Year 4",
+   "value": 108571
+  },
+  {
+   "label": "d: Schedule - Jan 1, Year 5 payment",
+   "value": 80000
+  },
+  {
+   "label": "d: Schedule - liability balance after Jan 1, Year 5 payment",
+   "value": 28571
+  },
+  {
+   "label": "d: Schedule - Year 5 interest at 5% (Dec 31, Year 5)",
+   "value": 1429
+  },
+  {
+   "label": "d: Schedule - liability balance Dec 31, Year 5 before exercising PO (equals $30,000 option price)",
+   "value": 30000
+  },
+  {
+   "label": "d: Schedule - purchase option paid at end of Year 5",
+   "value": 30000
+  },
+  {
+   "label": "d: Schedule - liability balance after exercising the purchase option",
+   "value": 0
+  },
+  {
+   "label": "d: Dec 31, Year 3 interest expense (JE amount)",
+   "value": 8733
+  },
+  {
+   "label": "e: Remaining economic life used after remeasurement (years)",
+   "value": 4
+  },
+  {
+   "label": "e: Annual ROU amortization after remeasurement ($240,613 over 4 remaining years of economic life)",
+   "value": 60153
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Right-of-Use Asset (Jan 1, Year 1 commencement)",
+     "debit": 350977,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0,
+     "credit": 350977
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Lease Liability (Jan 1, Year 1 first payment)",
+     "debit": 80000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 80000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Right-of-Use Asset (Jan 1, Year 3 remeasurement for purchase option)",
+     "debit": 30027,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0,
+     "credit": 30027
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Lease Liability (Jan 1, Year 3 payment)",
+     "debit": 80000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 80000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Interest Expense (Dec 31, Year 3, 5% on $174,668)",
+     "debit": 8733,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0,
+     "credit": 8733
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "PO excluded at commencement (not reasonably certain), so initial PV = annuity due of 5 x $80,000 at 7% = $350,976.90 and ROU amortizes SL over the 5-year lease term. Liability rolled to Jan 1, Year 3 pre-payment = $224,641.45 (= PV of the 3 remaining payments as an annuity due at 7%). Reassessment on Jan 1, Year 3 is measured BEFORE that day's payment, so the revised payment stream is three $80,000 rents at t=0,1,2 plus the $30,000 option at t=3, discounted at the updated 5% rate = $254,667.96; the $30,026.51 increase is added to the ROU asset (no P&L). Post-remeasurement ROU = $210,586.14 + $30,026.51 = $240,612.65, amortized over the remaining 4 years of the 6-year economic life because exercise is now reasonably certain. Unrounded schedule: 174,667.96 / int 8,733.40 -> 183,401.36 / pay 80,000 -> 103,401.36 / int 5,170.07 -> 108,571.43 / pay 80,000 -> 28,571.43 / int 1,428.57 -> 30,000.00 / PO 30,000 -> 0."
+}

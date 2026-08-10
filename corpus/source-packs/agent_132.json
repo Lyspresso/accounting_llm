@@ -1,0 +1,40 @@
+{
+  "agent_id": 132,
+  "lo": "LO 14-1",
+  "chapter": 14,
+  "title": "Account for debt securities measured at amortized cost",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-1",
+      "concept": "HTM debt at discount — initial recognition JE; full subsequent measurement (amortization) schedule; period-end interest JEs; maturity settlement; classification/presentation/disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-1",
+      "concept": "Number-variant twin — HTM purchase at discount; full effective-interest subsequent measurement schedule; Year-1 period-end JEs; maturity settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-1",
+      "concept": "HTM purchased at a premium — subsequent measurement schedule; period-end premium amortization JE; sale before maturity with realized G/L in NI; classification implications of early sale",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-1",
+      "concept": "Classification — positive intent and ability required to measure debt securities at amortized cost (HTM)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

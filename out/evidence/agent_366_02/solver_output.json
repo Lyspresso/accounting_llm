@@ -1,0 +1,173 @@
+{
+  "id": "agent_366#02",
+  "rounding_convention": "ROUND_HALF_UP applied per computed amount, quantized to the cent (round-at-each-step, not round-only-at-the-end); decimal.Decimal throughout, no floats. No present-value discounting in this item, so no PV table factor vs exact formula choice arises.",
+  "answers": [
+    {
+      "label": "a: Part A - Year 2 required UTB liability for the Year 1 position after remeasurement",
+      "value": 20000
+    },
+    {
+      "label": "a: Part A - UTB recorded for current-year Position T",
+      "value": 6000
+    },
+    {
+      "label": "a: Part A - Year 2 UTB schedule, beginning balance",
+      "value": 15000
+    },
+    {
+      "label": "a: Part A - Year 2 UTB schedule, prior-year position remeasurement (increase)",
+      "value": 5000
+    },
+    {
+      "label": "a: Part A - Year 2 UTB schedule, current-year addition (Position T)",
+      "value": 6000
+    },
+    {
+      "label": "a: Part A - Year 2 UTB schedule, ending balance December 31, Year 2",
+      "value": 26000
+    },
+    {
+      "label": "b: Part B - Windmere income tax expense, December 31, Year 1",
+      "value": 143750
+    },
+    {
+      "label": "b: Part B - Windmere income taxes payable, December 31, Year 1",
+      "value": 125000
+    },
+    {
+      "label": "b: Part B - Windmere Liability for Unrecognized Tax Benefits, December 31, Year 1",
+      "value": 18750
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a(i)",
+      "description": "December 31, Year 2 - adjust Liability for Unrecognized Tax Benefits for remeasurement of the Year 1 position (required 20000.00 less recorded 15000)",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 5000,
+          "credit": 0
+        },
+        {
+          "account": "Liability for Unrecognized Tax Benefits",
+          "debit": 0,
+          "credit": 5000
+        }
+      ]
+    },
+    {
+      "part": "a(ii)",
+      "description": "December 31, Year 2 - accrue interest and penalties on the uncertain tax position (policy: recorded within income tax expense)",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 2400,
+          "credit": 0
+        },
+        {
+          "account": "Accrued Interest and Penalties Payable",
+          "debit": 0,
+          "credit": 2400
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "December 31, Year 1 - record income tax expense with no benefit recognized for the position that fails the more-likely-than-not recognition threshold",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 143750,
+          "credit": 0
+        },
+        {
+          "account": "Income Taxes Payable",
+          "debit": 0,
+          "credit": 125000
+        },
+        {
+          "account": "Liability for Unrecognized Tax Benefits",
+          "debit": 0,
+          "credit": 18750
+        }
+      ]
+    },
+    {
+      "part": "c-case1",
+      "description": "December of Year 2 - full tax benefit lost: none of the $150,000 deduction sustained; tax due on the entire deduction",
+      "lines": [
+        {
+          "account": "Liability for Unrecognized Tax Benefits",
+          "debit": 11250,
+          "credit": 0
+        },
+        {
+          "account": "Income Tax Expense",
+          "debit": 26250,
+          "credit": 0
+        },
+        {
+          "account": "Income Taxes Payable",
+          "debit": 0,
+          "credit": 37500
+        }
+      ]
+    },
+    {
+      "part": "c-case2",
+      "description": "December of Year 2 - full tax benefit realized: entire $150,000 deduction sustained; recorded UTB reversed to income tax expense",
+      "lines": [
+        {
+          "account": "Liability for Unrecognized Tax Benefits",
+          "debit": 11250,
+          "credit": 0
+        },
+        {
+          "account": "Income Tax Expense",
+          "debit": 0,
+          "credit": 11250
+        }
+      ]
+    },
+    {
+      "part": "c-case3",
+      "description": "December of Year 2 - $105,000 of the deduction allowed, exactly as previously measured; UTB reclassified to Income Taxes Payable",
+      "lines": [
+        {
+          "account": "Liability for Unrecognized Tax Benefits",
+          "debit": 11250,
+          "credit": 0
+        },
+        {
+          "account": "Income Taxes Payable",
+          "debit": 0,
+          "credit": 11250
+        }
+      ]
+    },
+    {
+      "part": "c-case4",
+      "description": "December of Year 2 - only $75,000 of the deduction allowed; additional shortfall charged to income tax expense",
+      "lines": [
+        {
+          "account": "Liability for Unrecognized Tax Benefits",
+          "debit": 11250,
+          "credit": 0
+        },
+        {
+          "account": "Income Tax Expense",
+          "debit": 7500,
+          "credit": 0
+        },
+        {
+          "account": "Income Taxes Payable",
+          "debit": 0,
+          "credit": 18750
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "b (why no benefit is measured under step two): recognition and measurement are sequential. Step one asks only whether the position is more likely than not (>50%) to be sustained on its technical merits, assuming the taxing authority examines it with full knowledge of all relevant information. Windmere's 40% assessment is not greater than 50%, so the position fails step one and the company is never permitted to reach step two; there is no recognized benefit to measure. The financial statements are therefore prepared as if the entire $75,000 deduction will be disallowed, even though the return as filed reduces taxes currently payable. d (case 3): allowing $105,000 is exactly the amount of benefit previously recognized, so the $11,250 already accrued equals the tax now owed on the $45,000 disallowed. The settlement entry simply reclassifies the Liability for Unrecognized Tax Benefits to Income Taxes Payable and has NO income statement effect - no additional expense and no benefit. By contrast, case 1 adds $26,250 of income tax expense (tax on the full $150,000 exceeds the accrual), case 4 adds $7,500 of income tax expense (tax on $75,000 disallowed exceeds the accrual), and case 2 reduces income tax expense by $11,250 as the no-longer-needed liability is reversed. Cases 1, 2 and 4 are changes in estimate accounted for prospectively in Year 2, not restatements of Year 1. e (classification and disclosure): a material UTB liability that is expected to be negotiated through examinations spanning more than one year - i.e., cash settlement is not expected within twelve months of the balance sheet date (or the operating cycle, if longer) - is reported as a NONCURRENT liability, presented separately from (and not netted against) current income taxes payable or deferred tax accounts. Typical roll-forward disclosure: a tabular reconciliation of the beginning and ending balances of total unrecognized tax benefits, showing gross additions for tax positions taken in the current year, gross additions and reductions for positions of prior years, reductions for settlements with taxing authorities, and reductions from lapses of the applicable statutes of limitations."
+}

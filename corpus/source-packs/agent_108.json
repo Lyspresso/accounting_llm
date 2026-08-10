@@ -1,0 +1,91 @@
+{
+  "agent_id": 108,
+  "lo": "LO 19-3",
+  "chapter": 19,
+  "title": "Account for reacquisition of common stock",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-3",
+      "concept": "Initial recognition of treasury stock at cost; reissuance above and below cost; year-end equity presentation; subsequent retirement",
+      "type": "multipart",
+      "company": "Meridian Harbor Corp.",
+      "angles": [
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-3",
+      "concept": "Number-variant twin — cost-method purchase, above- and below-cost reissuance, equity presentation, subsequent retirement",
+      "type": "multipart",
+      "company": "Oakridge Ventures Inc.",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-3",
+      "concept": "Direct retirement of common stock — cash paid greater than or less than original issue proceeds; share reclassification to unissued",
+      "type": "multipart",
+      "company": "Cedarline Fabricators Co.",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-3",
+      "concept": "Subsequent cost assignment for multi-lot treasury shares (FIFO); reissuance JE; remaining TS carrying amount and period-end equity presentation",
+      "type": "schedule",
+      "company": "Bluepeak Analytics LLC",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5A",
+      "lo": "LO 19-3",
+      "concept": "Classification/presentation — treasury stock is contra equity, not an asset",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5B",
+      "lo": "LO 19-3",
+      "concept": "Classification of the balancing debit when treasury stock is reissued below cost",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_108.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_108.json"
+}

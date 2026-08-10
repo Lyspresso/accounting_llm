@@ -1,0 +1,75 @@
+{
+  "agent_id": 297,
+  "lo": "LO 22-3",
+  "chapter": 22,
+  "title": "Prepare the investing activities section of the statement of cash flows",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-3",
+      "concept": "Prepare cash flows from investing activities — emphasize period-end adjusting JEs (depreciation/amortization) that feed PPE/AD schedules; plug cash purchases; record purchase/disposal JEs; report gross investing flows",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-3",
+      "concept": "Prepare cash flows from investing activities — all numbers changed (period-end depreciation feeds AD schedule; PPE/investment/loan rollforwards)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-3",
+      "concept": "Investing section with insurance recovery on destroyed PPE, cash construction, land sale, investment sale, cash-only portion of equipment purchase, and patent purchase; period-end adjusting JEs (depreciation and FV mark) excluded from investing; noncash disclosure",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-3",
+      "concept": "Distinguish investing cash flows from period-end noncash adjusting entries and from operating items",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 22-3",
+      "concept": "Compute net cash used by investing activities when insurance proceeds, cash reconstruction, and a land sale all occur",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

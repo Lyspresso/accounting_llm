@@ -1,0 +1,186 @@
+{
+ "id": "agent_248#01",
+ "rounding_convention": "decimal.Decimal throughout; every monetary amount quantized to cents (0.01) with ROUND_HALF_UP at each period/computation; whole shares only",
+ "answers": [
+  {
+   "label": "a: Plan N classification",
+   "value": "Noncompensatory - substantially all employees participate equitably, discount of 5% does not exceed the 5% safe harbor, withholdings refundable on cancellation, and the enrollment window after the price is fixed is not more than 31 days; no compensation expense is recognized"
+  },
+  {
+   "label": "a: Plan C classification",
+   "value": "Compensatory - participation is limited to designated high performers (not substantially all employees) and the 10% discount exceeds the 5% safe harbor; the discount is compensation expense"
+  },
+  {
+   "label": "b: Plan N purchase price per share (95% x $48 market)",
+   "value": 45.6
+  },
+  {
+   "label": "b: Plan N cash received (3,000 shares)",
+   "value": 136800.0
+  },
+  {
+   "label": "b: Plan N compensation expense",
+   "value": 0.0
+  },
+  {
+   "label": "c: Plan C purchase price per share (90% x $48 market)",
+   "value": 43.2
+  },
+  {
+   "label": "c: Plan C cash received (2,000 shares)",
+   "value": 86400.0
+  },
+  {
+   "label": "c: Plan C compensation expense (2,000 x $48 - $43.20)",
+   "value": 9600.0
+  },
+  {
+   "label": "d: January 31 Year 1 - withholding for the month",
+   "value": 11400.0
+  },
+  {
+   "label": "d: January 31 Year 1 - cumulative Liability-ESPP balance",
+   "value": 11400.0
+  },
+  {
+   "label": "d: February 28 Year 1 - withholding for the month",
+   "value": 11400.0
+  },
+  {
+   "label": "d: February 28 Year 1 - cumulative Liability-ESPP balance",
+   "value": 22800.0
+  },
+  {
+   "label": "d: March 31 Year 1 - withholding for the month",
+   "value": 11400.0
+  },
+  {
+   "label": "d: March 31 Year 1 - cumulative Liability-ESPP balance",
+   "value": 34200.0
+  },
+  {
+   "label": "d: April 30 Year 1 - withholding for the month",
+   "value": 11400.0
+  },
+  {
+   "label": "d: April 30 Year 1 - cumulative Liability-ESPP balance",
+   "value": 45600.0
+  },
+  {
+   "label": "d: May 31 Year 1 - withholding for the month",
+   "value": 11400.0
+  },
+  {
+   "label": "d: May 31 Year 1 - cumulative Liability-ESPP balance",
+   "value": 57000.0
+  },
+  {
+   "label": "d: June 30 Year 1 - withholding for the month",
+   "value": 11400.0
+  },
+  {
+   "label": "d: June 30 Year 1 - cumulative Liability-ESPP balance",
+   "value": 68400.0
+  },
+  {
+   "label": "d: total withholdings accumulated over the six-month offering",
+   "value": 68400.0
+  },
+  {
+   "label": "d: June 30 Plan N purchase price per share (95% x $40 market)",
+   "value": 38.0
+  },
+  {
+   "label": "d: shares issued to the payroll cohort at June 30 ($68,400 / $38)",
+   "value": 1800
+  },
+  {
+   "label": "f: total compensation expense recognized in Year 1 from these ESPP transactions",
+   "value": 9600.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 136800.0,
+     "credit": 0
+    },
+    {
+     "account": "Common Stock ($2 par, 3,000 shares)",
+     "debit": 0,
+     "credit": 6000.0
+    },
+    {
+     "account": "Paid-in Capital in Excess of Par - Common Stock",
+     "debit": 0,
+     "credit": 130800.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 86400.0,
+     "credit": 0
+    },
+    {
+     "account": "Compensation Expense",
+     "debit": 9600.0,
+     "credit": 0
+    },
+    {
+     "account": "Common Stock ($2 par, 2,000 shares)",
+     "debit": 0,
+     "credit": 4000.0
+    },
+    {
+     "account": "Paid-in Capital in Excess of Par - Common Stock",
+     "debit": 0,
+     "credit": 92000.0
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Salaries and Wages Expense (January 31 payroll withholding)",
+     "debit": 11400.0,
+     "credit": 0
+    },
+    {
+     "account": "Liability - ESPP",
+     "debit": 0,
+     "credit": 11400.0
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Liability - ESPP (June 30 settlement)",
+     "debit": 68400.0,
+     "credit": 0
+    },
+    {
+     "account": "Common Stock ($2 par, 1800 shares)",
+     "debit": 0,
+     "credit": 3600.0
+    },
+    {
+     "account": "Paid-in Capital in Excess of Par - Common Stock",
+     "debit": 0,
+     "credit": 64800.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Plan N is noncompensatory, so neither the September 30 cash purchase nor the June 30 payroll-cohort issuance produces compensation expense; the full proceeds are credited to Common Stock and APIC. Plan C is compensatory, so the $4.80 per-share discount ($48 market - $43.20 price) on 2,000 shares is compensation expense on September 30, and APIC is credited for cash plus expense less par. The January 31 withholding entry reclassifies the amount withheld from the payroll charge to Liability-ESPP; if gross payroll were given, the same debit would appear inside the full payroll entry with Cash credited for net pay. June 30: $68,400 / $38 = 1,800 whole shares, an exact fit with no residual liability."
+}

@@ -1,0 +1,40 @@
+{
+  "agent_id": 205,
+  "lo": "LO 11-9",
+  "chapter": 11,
+  "title": "Account for exchange of property, plant, and equipment",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-9",
+      "concept": "Full gain recognition on PPE exchange with commercial substance (cash paid); update depreciation to exchange date; subsequent straight-line measurement schedule on the new asset’s FV-based cost",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-9",
+      "concept": "Number-variant twin: gain on exchange lacking commercial substance with cash paid is fully deferred; new asset recorded at carrying amount of assets given up; subsequent dep schedule on stepped-down cost basis",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-9",
+      "concept": "Losses fully recognized whether or not commercial substance; partial gain when cash is received and commercial substance is lacking; disposal of old asset via exchange",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-9",
+      "concept": "Classify when full gain, no gain, or partial gain is recognized on a PPE exchange",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

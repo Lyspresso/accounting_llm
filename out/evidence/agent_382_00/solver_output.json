@@ -1,0 +1,179 @@
+{
+  "id": "agent_382#00",
+  "rounding_convention": "decimal.Decimal only, no floats. Money quantized to cents with ROUND_HALF_UP per period as computed (round-per-period). Interest = face x stated rate x months/12 (simple, at par, no amortization). After-tax add-back = interest x (1 - 25%), rounded to cents. EPS = exact Decimal quotient of rounded numerator over denominator, then quantized to 2 decimals with ROUND_HALF_UP. Weighted incremental shares prorated by months/12 and rounded to whole shares ROUND_HALF_UP.",
+  "answers": [
+    {
+      "label": "c: face amount",
+      "value": 1200000
+    },
+    {
+      "label": "c: stated rate (%)",
+      "value": 7
+    },
+    {
+      "label": "c: interest expense 20X5",
+      "value": 84000
+    },
+    {
+      "label": "c: cash interest paid during 20X5",
+      "value": 0
+    },
+    {
+      "label": "c: interest payable, December 31, 20X5",
+      "value": 84000
+    },
+    {
+      "label": "c: carrying amount, December 31, 20X5",
+      "value": 1200000
+    },
+    {
+      "label": "d: basic EPS 20X5",
+      "value": 2.8
+    },
+    {
+      "label": "e: add back interest net of tax",
+      "value": 63000
+    },
+    {
+      "label": "e: add new common shares",
+      "value": 30000
+    },
+    {
+      "label": "e: diluted EPS numerator",
+      "value": 1043000
+    },
+    {
+      "label": "e: diluted EPS denominator",
+      "value": 380000
+    },
+    {
+      "label": "e: diluted EPS 20X5",
+      "value": 2.74
+    },
+    {
+      "label": "e: bonds dilutive or antidilutive",
+      "value": "dilutive"
+    },
+    {
+      "label": "f: EPS reported on face of income statement",
+      "value": "Complex capital structure: present both basic EPS of $2.80 and diluted EPS of $2.74 on the face of the 20X5 income statement, with equal prominence."
+    },
+    {
+      "label": "g: basic EPS 20X5 (Oct 1 issuance)",
+      "value": 2.94
+    },
+    {
+      "label": "g: add back prorated interest net of tax",
+      "value": 15750
+    },
+    {
+      "label": "g: add new prorated common shares",
+      "value": 7500
+    },
+    {
+      "label": "g: diluted EPS numerator (Oct 1 issuance)",
+      "value": 1043000
+    },
+    {
+      "label": "g: diluted EPS denominator (Oct 1 issuance)",
+      "value": 357500
+    },
+    {
+      "label": "g: diluted EPS 20X5 (Oct 1 issuance)",
+      "value": 2.92
+    },
+    {
+      "label": "g: bonds dilutive or antidilutive (Oct 1 issuance)",
+      "value": "dilutive"
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "January 1, 20X5 - issue 1,200 convertible bonds at par",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 1200000,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable",
+          "debit": 0,
+          "credit": 1200000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "December 31, 20X5 AJ - accrue 12 months interest ($1,200,000 x 7% x 12/12); paid January 1, 20X6",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 84000,
+          "credit": 0
+        },
+        {
+          "account": "Interest Payable",
+          "debit": 0,
+          "credit": 84000
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "description": "December 31, 20X5 AJ (October 1 issuance alternate facts) - accrue 3 months interest ($1,200,000 x 7% x 3/12)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 21000,
+          "credit": 0
+        },
+        {
+          "account": "Interest Payable",
+          "debit": 0,
+          "credit": 21000
+        }
+      ]
+    },
+    {
+      "part": "h",
+      "description": "January 1, 20X6 (i) - pay 20X5 accrued interest",
+      "lines": [
+        {
+          "account": "Interest Payable",
+          "debit": 84000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 84000
+        }
+      ]
+    },
+    {
+      "part": "h",
+      "description": "January 1, 20X6 (ii) - all bondholders convert; book-value method, no gain or loss recognized",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 1200000,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 60000
+        },
+        {
+          "account": "Paid-In Capital in Excess of Par-Common Stock",
+          "debit": 0,
+          "credit": 1140000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Bonds issued at par, so no discount/premium and no effective-interest amortization; interest expense = cash interest = $84,000 and carrying amount stays at $1,200,000. Because interest is paid every January 1 for the preceding year, cash interest paid DURING 20X5 is $0 and the full $84,000 sits in Interest Payable at December 31, 20X5. If-converted add-back is after-tax interest at 25%. Part g weights both the add-back and the 30,000 conversion shares by 3/12. Part g basic EPS is exactly $2.935 before rounding; ROUND_HALF_UP carries it to $2.94. Conversion in part h uses the book-value method after the accrued interest is paid in cash, so no gain or loss and no accrued interest rolls into equity."
+}

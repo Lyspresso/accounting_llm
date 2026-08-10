@@ -1,0 +1,184 @@
+{
+  "id": "agent_309#01",
+  "rounding_convention": "ROUND_HALF_UP to whole dollars, applied per period: each year's effective-interest accretion is rounded before it updates the net carrying amount. PV is the $45,339 the stem directs us to use (cross-checked against both the exact 6% formula and the 5-decimal PV table factor 0.83962).",
+  "answers": [
+    {
+      "label": "b: impairment loss (bad debt expense) at Dec 31, Y1",
+      "value": 34661
+    },
+    {
+      "label": "c: net carrying amount, Dec 31, Y1 (after impairment)",
+      "value": 45339
+    },
+    {
+      "label": "c: AFDA balance, Dec 31, Y1 (after impairment)",
+      "value": 34661
+    },
+    {
+      "label": "c: net carrying amount, Dec 31, Y2",
+      "value": 48059
+    },
+    {
+      "label": "c: AFDA balance, Dec 31, Y2",
+      "value": 31941
+    },
+    {
+      "label": "c: net carrying amount, Dec 31, Y3",
+      "value": 50943
+    },
+    {
+      "label": "c: AFDA balance, Dec 31, Y3",
+      "value": 29057
+    },
+    {
+      "label": "c: net carrying amount, Dec 31, Y4 before settlement",
+      "value": 54000
+    },
+    {
+      "label": "c: AFDA balance, Dec 31, Y4 before settlement",
+      "value": 26000
+    }
+  ],
+  "schedule": [
+    {
+      "date": "Dec 31, Year 1 (after impairment)",
+      "accretion": 0,
+      "net_carrying_amount": 45339,
+      "afda": 34661
+    },
+    {
+      "date": "Dec 31, Year 2",
+      "accretion": 2720,
+      "net_carrying_amount": 48059,
+      "afda": 31941
+    },
+    {
+      "date": "Dec 31, Year 3",
+      "accretion": 2884,
+      "net_carrying_amount": 50943,
+      "afda": 29057
+    },
+    {
+      "date": "Dec 31, Year 4 (before settlement)",
+      "accretion": 3057,
+      "net_carrying_amount": 54000,
+      "afda": 26000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "Jan 1, Year 1",
+      "description": "Receipt of note in exchange for merchandise (cost of goods sold entry not given)",
+      "lines": [
+        {
+          "account": "Note Receivable",
+          "debit": 80000,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 80000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "date": "Dec 31, Year 1",
+      "description": "Collection of Year 1 interest ($80,000 x 6%)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 4800,
+          "credit": 0
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 4800
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Dec 31, Year 1",
+      "description": "Impairment AJE: amortized cost $80,000 less PV of expected cash flows $45,339 discounted at the original 6% effective rate",
+      "lines": [
+        {
+          "account": "Bad Debt Expense",
+          "debit": 34661,
+          "credit": 0
+        },
+        {
+          "account": "Allowance for Doubtful Accounts",
+          "debit": 0,
+          "credit": 34661
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Dec 31, Year 2",
+      "description": "Effective-interest accretion ($45,339 x 6%)",
+      "lines": [
+        {
+          "account": "Allowance for Doubtful Accounts",
+          "debit": 2720,
+          "credit": 0
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 2720
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Dec 31, Year 3",
+      "description": "Effective-interest accretion ($48,059 x 6%)",
+      "lines": [
+        {
+          "account": "Allowance for Doubtful Accounts",
+          "debit": 2884,
+          "credit": 0
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 2884
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Dec 31, Year 4",
+      "description": "Combined settlement: final accretion ($50,943 x 6% = $3,057) plus derecognition of the note on collection of $54,000",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 54000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance for Doubtful Accounts",
+          "debit": 29057,
+          "credit": 0
+        },
+        {
+          "account": "Note Receivable",
+          "debit": 0,
+          "credit": 80000
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 3057
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Discounted at the original 6% effective rate; the 12% current market rate is ignored per ASC 326-20-30-4 and per the stem. Interest through Dec 31, Y1 was collected in cash, so no interest receivable is written off in the impairment entry and the loss is the full $80,000 - $45,339. Accretion is recorded against the allowance (face stays $80,000): Y2 $2720, Y3 $2884, Y4 $3057; the schedule closes exactly on the $54,000 expected collection. PV cross-check (exact 54,000/1.06^3 and table factor 0.83962) agrees with the given $45,339: true. The part (c) schedule rows are in the top-level 'schedule' field."
+}

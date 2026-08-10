@@ -1,0 +1,72 @@
+{
+  "agent_id": 36,
+  "lo": "LO 22-4",
+  "chapter": 22,
+  "title": "Prepare the financing activities section of the statement of cash flows",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-4",
+      "concept": "Prepare cash flows from financing activities — stock issuance JE, bond retirement settlement, mortgage/lease principal, dividends paid",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-4",
+      "concept": "Prepare cash flows from financing activities (all numbers changed — twin of Q1)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-4",
+      "concept": "Installment note — initial recognition JE, amortization schedule, period-end payment JE, principal as financing outflow",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-4",
+      "concept": "Classify cash flows — financing vs operating vs noncash",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 22-4",
+      "concept": "Compute financing outflow for dividends using dividends payable",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

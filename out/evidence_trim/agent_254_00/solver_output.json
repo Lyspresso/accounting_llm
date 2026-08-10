@@ -1,0 +1,250 @@
+{
+ "id": "agent_254#00",
+ "rounding_convention": "decimal.Decimal only (no floats); ROUND_HALF_UP applied once per period at presentation -- dollars to $0.01, EPS to $0.01, earnings-per-incremental-share to $0.0001; all dilution ranking and dilutive/antidilutive tests performed on unrounded Decimal quotients",
+ "answers": [
+  {
+   "label": "a(1): Jan 1 -- Cash debited on convertible preferred stock issuance",
+   "value": 400000.0
+  },
+  {
+   "label": "a(1): Jan 1 -- Preferred Stock ($100 par) credited (issued at par, no APIC)",
+   "value": 400000.0
+  },
+  {
+   "label": "a(2): Jan 1 -- Cash debited on Series X convertible bond issuance",
+   "value": 500000.0
+  },
+  {
+   "label": "a(2): Jan 1 -- Bonds Payable, Series X credited (issued at par, no premium/discount)",
+   "value": 500000.0
+  },
+  {
+   "label": "b: Options -- numerator effect (no earnings adjustment)",
+   "value": 0.0
+  },
+  {
+   "label": "b: Options -- denominator effect (incremental shares, treasury stock method)",
+   "value": 5000.0
+  },
+  {
+   "label": "b: Options -- earnings per incremental share",
+   "value": 0.0
+  },
+  {
+   "label": "b: Convertible preferred -- numerator effect (dividend add-back, no tax effect)",
+   "value": 20000.0
+  },
+  {
+   "label": "b: Convertible preferred -- denominator effect (4,000 x 3)",
+   "value": 12000.0
+  },
+  {
+   "label": "b: Convertible preferred -- earnings per incremental share",
+   "value": 1.6667
+  },
+  {
+   "label": "b: Series X bonds -- numerator effect (after-tax interest add-back)",
+   "value": 15000.0
+  },
+  {
+   "label": "b: Series X bonds -- denominator effect (500 bonds x 25)",
+   "value": 12500.0
+  },
+  {
+   "label": "b: Series X bonds -- earnings per incremental share",
+   "value": 1.2
+  },
+  {
+   "label": "b: Series Y bonds -- numerator effect (after-tax interest add-back)",
+   "value": 22500.0
+  },
+  {
+   "label": "b: Series Y bonds -- denominator effect (300 bonds x 8)",
+   "value": 2400.0
+  },
+  {
+   "label": "b: Series Y bonds -- earnings per incremental share",
+   "value": 9.375
+  },
+  {
+   "label": "b: Ranking most dilutive -> least dilutive",
+   "value": "1. Employee stock options (treasury stock method) ($0.0000/share) > 2. Series X convertible bonds (4%) ($1.2000/share) > 3. 5% cumulative convertible preferred stock ($1.6667/share) > 4. Series Y convertible bonds (10%) ($9.3750/share)"
+  },
+  {
+   "label": "c: Income available to common shareholders (numerator of basic EPS)",
+   "value": 360000.0
+  },
+  {
+   "label": "c: Weighted-average common shares outstanding (denominator of basic EPS)",
+   "value": 200000.0
+  },
+  {
+   "label": "c: Basic EPS",
+   "value": 1.8
+  },
+  {
+   "label": "d: Step 1 -- add Employee stock options (treasury stock method) -- cumulative numerator",
+   "value": 360000.0
+  },
+  {
+   "label": "d: Step 1 -- add Employee stock options (treasury stock method) -- cumulative denominator",
+   "value": 205000.0
+  },
+  {
+   "label": "d: Step 1 -- add Employee stock options (treasury stock method) -- tentative EPS",
+   "value": 1.76
+  },
+  {
+   "label": "d: Step 1 -- Employee stock options (treasury stock method) -- classification",
+   "value": "DILUTIVE -- include"
+  },
+  {
+   "label": "d: Step 2 -- add Series X convertible bonds (4%) -- cumulative numerator",
+   "value": 375000.0
+  },
+  {
+   "label": "d: Step 2 -- add Series X convertible bonds (4%) -- cumulative denominator",
+   "value": 217500.0
+  },
+  {
+   "label": "d: Step 2 -- add Series X convertible bonds (4%) -- tentative EPS",
+   "value": 1.72
+  },
+  {
+   "label": "d: Step 2 -- Series X convertible bonds (4%) -- classification",
+   "value": "DILUTIVE -- include"
+  },
+  {
+   "label": "d: Step 3 -- add 5% cumulative convertible preferred stock -- cumulative numerator",
+   "value": 395000.0
+  },
+  {
+   "label": "d: Step 3 -- add 5% cumulative convertible preferred stock -- cumulative denominator",
+   "value": 229500.0
+  },
+  {
+   "label": "d: Step 3 -- add 5% cumulative convertible preferred stock -- tentative EPS",
+   "value": 1.72
+  },
+  {
+   "label": "d: Step 3 -- 5% cumulative convertible preferred stock -- classification",
+   "value": "DILUTIVE -- include"
+  },
+  {
+   "label": "d: Step 4 -- add Series Y convertible bonds (10%) -- cumulative numerator",
+   "value": 417500.0
+  },
+  {
+   "label": "d: Step 4 -- add Series Y convertible bonds (10%) -- cumulative denominator",
+   "value": 231900.0
+  },
+  {
+   "label": "d: Step 4 -- add Series Y convertible bonds (10%) -- tentative EPS",
+   "value": 1.8
+  },
+  {
+   "label": "d: Step 4 -- Series Y convertible bonds (10%) -- classification",
+   "value": "ANTIDILUTIVE -- exclude (stop)"
+  },
+  {
+   "label": "d: Diluted EPS numerator (final)",
+   "value": 395000.0
+  },
+  {
+   "label": "d: Diluted EPS denominator (final)",
+   "value": 229500.0
+  },
+  {
+   "label": "d: Diluted EPS",
+   "value": 1.72
+  },
+  {
+   "label": "e(1): Dec 31 -- Retained Earnings (Preferred Dividends) debited",
+   "value": 20000.0
+  },
+  {
+   "label": "e(1): Dec 31 -- Cash credited for preferred dividend",
+   "value": 20000.0
+  },
+  {
+   "label": "e(2): Dec 31 -- Interest Expense debited, Series X full-year coupon",
+   "value": 20000.0
+  },
+  {
+   "label": "e(2): Dec 31 -- Cash credited, Series X full-year coupon",
+   "value": 20000.0
+  },
+  {
+   "label": "f: Face of income statement -- Earnings per common share -- Basic",
+   "value": 1.8
+  },
+  {
+   "label": "f: Face of income statement -- Earnings per common share -- Diluted",
+   "value": 1.72
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a(1) Jan 1, Year 1 -- issuance of 4,000 shares of 5% cumulative convertible preferred, $100 par, at par",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 400000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Preferred Stock ($100 par, 5% cumulative convertible)",
+     "debit": 0.0,
+     "credit": 400000.0
+    }
+   ]
+  },
+  {
+   "part": "a(2) Jan 1, Year 1 -- issuance of $500,000 face Series X 4% convertible bonds at par",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 500000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Bonds Payable -- Series X convertible",
+     "debit": 0.0,
+     "credit": 500000.0
+    }
+   ]
+  },
+  {
+   "part": "e(1) Dec 31, Year 1 -- annual preferred dividend declared and paid in cash",
+   "lines": [
+    {
+     "account": "Retained Earnings (Preferred Dividends)",
+     "debit": 20000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 20000.0
+    }
+   ]
+  },
+  {
+   "part": "e(2) Dec 31, Year 1 -- full-year cash interest on Series X bonds",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 20000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 20000.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "US GAAP, complex capital structure (ASC 260). (a) Both securities were issued at par on 1/1/Yr1, so no APIC, premium, or discount arises; under US GAAP a conventional convertible bond is NOT bifurcated, so the full $500000.00 is credited to Bonds Payable. (b) Options use the treasury stock method: proceeds $200000.00 / $40.00 average market price = 5000 shares reacquired, leaving 5000 incremental shares with a $0 numerator effect, so options are always the most dilutive (earnings per incremental share = $0). The preferred is CUMULATIVE, so its $20000.00 dividend is deducted in basic EPS whether or not declared (here it was declared and paid) and is added back on an if-converted basis with NO tax effect (dividends are not deductible). Bond interest is added back NET of the 25% tax rate. (c) Basic EPS = ($380000.00 - $20000.00) / 200000 = $1.80. (d) Sequential if-converted schedule in rank order: options ($0.0000), Series X ($1.2000), preferred ($1.6667) are each dilutive; Series Y at $9.3750 per incremental share raises tentative EPS above the running subtotal, so Series Y is ANTIDILUTIVE and is excluded -- and once one security is antidilutive in a properly ranked schedule, all remaining (less dilutive) securities are too. Diluted EPS = $395000.00 / 229500 = $1.72. (e) Because the dividend was declared and paid the same day, the declaration and payment are recorded in one entry (no Dividends Payable left outstanding); bonds issued at par carry no amortization, so cash interest equals interest expense. (f) ASC 260 requires dual presentation of basic and diluted EPS with equal prominence on the face of the income statement; there are no discontinued operations, so only income-from-continuing-operations/net-income EPS lines are presented."
+}

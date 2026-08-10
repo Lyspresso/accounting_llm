@@ -1,0 +1,37 @@
+{
+ "id": "agent_167#01",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 9,
+  "routed_stage2": 1,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "KEY_SILENT_DERIVED",
+   "label": "c: bonds payable carrying amount, December 31, 20X5",
+   "solver": 391000,
+   "from_key_components": [
+    9000.0,
+    82000.0,
+    300000.0
+   ]
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Retirement of Bonds"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 1500.0,
+   "solver": "loss on retirement of bonds",
+   "key_options": [
+    "loss on bond retirement"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+  "agent_id": 125,
+  "lo": "LO 21-2",
+  "chapter": 21,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 21-2",
+      "concept": "LIFO to FIFO retrospective: cumulative Inventory/RE JE; FIFO COGS schedule; comparative IS/BS/RE; indirect bonus JE and cash settlement; ASC 250 disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 21-2",
+      "concept": "Number-variant twin: average cost to FIFO cumulative JE; COGS/NI schedule; comparative RE and inventory; indirect royalty current JE and settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 21-2",
+      "concept": "Change to LIFO when retrospective impracticable: prospective only; no cumulative RE JE; mixed-method comparative COGS; disclosure of impracticability",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 21-2",
+      "concept": "Average to FIFO: change-date JE from EI differences; comparative BS inventory presentation; Year 3 period-end COGS rollforward; earliest-period cumulative disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 21-2",
+      "concept": "Classification: prospective application when change to LIFO is impracticable to apply retrospectively",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q6",
+      "lo": "LO 21-2",
+      "concept": "Direct effects in cumulative RE entry; indirect bonus effects recognized currently, not restated",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "ok": true
+}

@@ -1,0 +1,74 @@
+{
+  "agent_id": 18,
+  "lo": "LO 16-8",
+  "chapter": 16,
+  "title": "Account for conversion of debt into equity",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-8",
+      "concept": "Initial recognition of convertible bonds as straight debt; subsequent SL premium amortization; conversion at carrying amount with no gain/loss",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-8",
+      "concept": "Convertible bonds issued at a discount; SL amort; partial conversion at carrying amount",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-8",
+      "concept": "Update interest/amortization to conversion date; induced conversion expense for cash sweetener; equity at carrying amount",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-8",
+      "concept": "Convertible debt proceeds recorded entirely as liability (no equity split for conversion option)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-8",
+      "concept": "No gain/loss on conversion; equity measured at debt carrying amount",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,89 @@
+{
+  "agent_id": 281,
+  "lo": "LO 17-1",
+  "chapter": 17,
+  "title": "Identify a lease, determine lease types for lessee, and classify leases using lease criteria",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-1",
+      "concept": "Identify lease; five-criteria finance classification (term+PV); initial ROU/liability JEs; full effective-interest liability schedule; period-end interest and ROU amort adjusting JEs; maturity settlement to zero; finance presentation",
+      "type": "multipart",
+      "company": "Brookhaven Packaging Co.",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-1",
+      "concept": "Number-variant twin — reclassify and remeasure finance lease with new FV, term, rate, and payments; full liability schedule; Year 2 period-end adjusting JEs; final payment settlement",
+      "type": "multipart",
+      "company": "Ironvale Mining LLC",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-1",
+      "concept": "Identify lease vs service (substitution); multi-scenario five-criteria classification (operating vs finance); period-end adjusting JEs only for finance case; finance vs operating expense presentation",
+      "type": "multipart",
+      "company": "Pinnacle Lab Diagnostics Inc.",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-1",
+      "concept": "Term criterion not applied when commencement is in last 25% of total economic life",
+      "type": "MC",
+      "company": "Lakeshore Imaging Partners",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 17-1",
+      "concept": "Substantive substitution right — arrangement not a lease",
+      "type": "MC",
+      "company": null,
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "C",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_281.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_281.json"
+}

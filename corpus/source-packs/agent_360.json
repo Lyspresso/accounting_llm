@@ -1,0 +1,70 @@
+{
+  "agent_id": 360,
+  "lo": "LO 15-5",
+  "chapter": 15,
+  "title": "Describe accounting for subsequent events and contingencies including litigation, warranties, and other contingencies",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-5",
+      "concept": "Period-end adjusting JEs for litigation better estimate and recognized subsequent-event remeasurement; settlement; assurance warranty period-end accruals and multi-year liability schedule",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-5",
+      "concept": "Number-variant twin: period-end litigation AJs, recognized subsequent event, settlement, multi-year warranty schedule and period-end accruals",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-5",
+      "concept": "Period-end contingency decision grid; service-type warranty period-end revenue AJ; post-issuance settlement change in estimate; nonrecognized subsequent event; gain contingency",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-5",
+      "concept": "Recognized subsequent event requiring Year 1 period-end remeasurement of litigation liability",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-5",
+      "concept": "Compute assurance-type warranty period-end accrual and ending liability after claims",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

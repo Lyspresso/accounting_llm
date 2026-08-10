@@ -1,0 +1,16 @@
+{
+ "id": "agent_392#00",
+ "pack_id": "agent_392",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "spot_audit_candidate",
+ "expected_verdict": "PASS",
+ "guards_rule": "corroboration_not_waving_through",
+ "rationale": "Collections 4,290,000; suppliers 2,535,000; employees 235,000; equipment purchases 1,250,000; dividends 906,000; O 1,436,000 / I -860,000 / F -606,000 -> -30,00",
+ "truth_as_of_hash": "c2c3af8dcd64b8232f3ae80071a16707f9a8b538bbb90405107936cd9142be04",
+ "truth_as_of_bytes": "c0c299c0630b75b87e4388a9525bbf2e0c190cff2cd25b01948c40be4cad92de",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "clean",
+ "cross_check_evidence": "Collections 4,290,000; suppliers 2,535,000; employees 235,000; equipment purchases 1,250,000; dividends 906,000; O 1,436,000 / I -860,000 / F -606,000 -> -30,000 ties to 170,000->140,000; NI cross-foots to 1,076,000."
+}

@@ -1,0 +1,46 @@
+{
+  "agent_id": 95,
+  "lo": "LO 15-2",
+  "chapter": 15,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-2",
+      "concept": "Initial recognition JE for returnable deposits and customer advances; subsequent deferred-revenue schedule; period-end adjusting JE; settlement (return) and forfeiture JEs with COGS; classification on the balance sheet",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-2",
+      "concept": "Number-variant twin — initial recognition of deposits and advances; return and forfeiture settlement; deferred-revenue schedule; period-end adjusting JE; classification",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-2",
+      "concept": "Gift card initial recognition, redemption (settlement of liability), period-end proportional breakage JE; advance on goods sale applied at delivery; classification of remaining contract liabilities",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-2",
+      "concept": "Classification of initial credit when cash is received from a customer before performance or property return",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 15-2",
+      "concept": "Classification/method — computing proportional gift card breakage revenue",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

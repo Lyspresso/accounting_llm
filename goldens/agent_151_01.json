@@ -1,0 +1,16 @@
+{
+ "id": "agent_151#01",
+ "pack_id": "agent_151",
+ "provenance_tier": "adjudicated",
+ "countersigned": false,
+ "countersign_priority": null,
+ "expected_verdict": "PASS",
+ "guards_rule": "rounding_context_scope",
+ "rationale": "sub-dollar round-then-carry drift in an ROU rollforward",
+ "truth_as_of_hash": "f68aced4f188e22d771c81d5f059dac0a5a4fa07eaeec68df35a29728ded7860",
+ "truth_as_of_bytes": "38e9a3d2f05a66bb308d36c56387ac24a9de68c64ba346709a694011c1be2e11",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": null,
+ "cross_check_evidence": null
+}

@@ -1,0 +1,56 @@
+{
+  "agent_id": 7,
+  "lo": "LO 14-6",
+  "chapter": 14,
+  "title": "Accounting for Impairment Loss on AFS Investments",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-6",
+      "concept": "AFS impairment loss measurement (credit vs noncredit; limited by FV shortfall) and initial recognition JE",
+      "type": "multipart",
+      "angles": ["initial_recognition_JE", "period_end_adjusting_JE"],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-6",
+      "concept": "AFS impairment loss measurement and initial recognition JE (number-variant twin)",
+      "type": "multipart",
+      "angles": ["number_variant_twin", "initial_recognition_JE"],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-6",
+      "concept": "Intent-to-sell AFS impairment (full write-down to FV), subsequent measurement / disposal after impairment",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-6",
+      "concept": "Classify which AFS impairment path and amount hits net income",
+      "type": "MC",
+      "angles": ["classification_presentation_or_disclosure"],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-6",
+      "concept": "Period-end adjusting JE sequence and subsequent measurement schedule (allowance rollforward)",
+      "type": "schedule",
+      "angles": ["subsequent_measurement_schedule", "period_end_adjusting_JE"],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

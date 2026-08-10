@@ -1,0 +1,152 @@
+[
+ {
+  "id": "agent_002#01",
+  "ch": 14,
+  "prone_parts": 2,
+  "key_figures": 10
+ },
+ {
+  "id": "agent_003#03",
+  "ch": 14,
+  "prone_parts": 1,
+  "key_figures": 7
+ },
+ {
+  "id": "agent_007#04",
+  "ch": 14,
+  "prone_parts": 1,
+  "key_figures": 6
+ },
+ {
+  "id": "agent_012#02",
+  "ch": 16,
+  "prone_parts": 1,
+  "key_figures": 11
+ },
+ {
+  "id": "agent_013#01",
+  "ch": 16,
+  "prone_parts": 2,
+  "key_figures": 11
+ },
+ {
+  "id": "agent_013#02",
+  "ch": 16,
+  "prone_parts": 1,
+  "key_figures": 9
+ },
+ {
+  "id": "agent_013#04",
+  "ch": 16,
+  "prone_parts": 2,
+  "key_figures": 9
+ },
+ {
+  "id": "agent_082#00",
+  "ch": 12,
+  "prone_parts": 2,
+  "key_figures": 8
+ },
+ {
+  "id": "agent_082#01",
+  "ch": 12,
+  "prone_parts": 3,
+  "key_figures": 9
+ },
+ {
+  "id": "agent_093#00",
+  "ch": 14,
+  "prone_parts": 2,
+  "key_figures": 6
+ },
+ {
+  "id": "agent_093#01",
+  "ch": 14,
+  "prone_parts": 1,
+  "key_figures": 6
+ },
+ {
+  "id": "agent_093#03",
+  "ch": 14,
+  "prone_parts": 1,
+  "key_figures": 11
+ },
+ {
+  "id": "agent_097#01",
+  "ch": 15,
+  "prone_parts": 1,
+  "key_figures": 11
+ },
+ {
+  "id": "agent_118#01",
+  "ch": 20,
+  "prone_parts": 2,
+  "key_figures": 11
+ },
+ {
+  "id": "agent_118#02",
+  "ch": 20,
+  "prone_parts": 3,
+  "key_figures": 11
+ },
+ {
+  "id": "agent_213#01",
+  "ch": 12,
+  "prone_parts": 2,
+  "key_figures": 11
+ },
+ {
+  "id": "agent_226#02",
+  "ch": 15,
+  "prone_parts": 1,
+  "key_figures": 7
+ },
+ {
+  "id": "agent_243#02",
+  "ch": 19,
+  "prone_parts": 2,
+  "key_figures": 11
+ },
+ {
+  "id": "agent_249#01",
+  "ch": 20,
+  "prone_parts": 2,
+  "key_figures": 11
+ },
+ {
+  "id": "agent_265#03",
+  "ch": 14,
+  "prone_parts": 2,
+  "key_figures": 7
+ },
+ {
+  "id": "agent_292#02",
+  "ch": 18,
+  "prone_parts": 1,
+  "key_figures": 11
+ },
+ {
+  "id": "agent_357#03",
+  "ch": 15,
+  "prone_parts": 1,
+  "key_figures": 7
+ },
+ {
+  "id": "agent_359#01",
+  "ch": 15,
+  "prone_parts": 1,
+  "key_figures": 11
+ },
+ {
+  "id": "agent_376#00",
+  "ch": 20,
+  "prone_parts": 3,
+  "key_figures": 11
+ },
+ {
+  "id": "agent_380#02",
+  "ch": 20,
+  "prone_parts": 3,
+  "key_figures": 11
+ }
+]

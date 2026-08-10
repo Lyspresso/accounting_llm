@@ -1,0 +1,157 @@
+{
+ "id": "agent_229#00",
+ "rounding_convention": "decimal.Decimal throughout; amounts quantized to the cent with ROUND_HALF_UP per period (each year's accrual rounded when computed, then rolled forward); all amounts here are exact whole dollars",
+ "answers": [
+  {
+   "label": "a: Year 1 product sales - Cash debited (= Sales revenue credited)",
+   "value": 2400000
+  },
+  {
+   "label": "b: Dec 31, Year 1 adjusting accrual - Warranty expense (1.5% x Year 1 sales)",
+   "value": 36000
+  },
+  {
+   "label": "c: Year 1 warranty claims paid - Warranty liability debited / Cash credited",
+   "value": 12000
+  },
+  {
+   "label": "d: Year 1 warranty liability - beginning balance",
+   "value": 0
+  },
+  {
+   "label": "d: Year 1 warranty liability - add accrual (1.5% of sales)",
+   "value": 36000
+  },
+  {
+   "label": "d: Year 1 warranty liability - less actual claims paid",
+   "value": 12000
+  },
+  {
+   "label": "d: Year 1 warranty liability - ending balance",
+   "value": 24000
+  },
+  {
+   "label": "d: Year 2 warranty liability - beginning balance",
+   "value": 24000
+  },
+  {
+   "label": "d: Year 2 warranty liability - add accrual (1.5% of sales)",
+   "value": 42000
+  },
+  {
+   "label": "d: Year 2 warranty liability - less actual claims paid",
+   "value": 48000
+  },
+  {
+   "label": "d: Year 2 warranty liability - ending balance",
+   "value": 18000
+  },
+  {
+   "label": "d: Year 3 warranty liability - beginning balance",
+   "value": 18000
+  },
+  {
+   "label": "d: Year 3 warranty liability - add accrual (1.5% of sales)",
+   "value": 45000
+  },
+  {
+   "label": "d: Year 3 warranty liability - less actual claims paid",
+   "value": 55000
+  },
+  {
+   "label": "d: Year 3 warranty liability - ending balance",
+   "value": 8000
+  },
+  {
+   "label": "e: Dec 31, Year 2 adjusting accrual - Warranty expense (1.5% x Year 2 sales)",
+   "value": 42000
+  },
+  {
+   "label": "f: Year 3 warranty claims paid - Warranty liability debited / Cash credited",
+   "value": 55000
+  },
+  {
+   "label": "g: Assurance-type warranty is a loss contingency, not deferred revenue",
+   "value": "It is not a separate performance obligation - it is not sold separately and simply guarantees the product already delivered meets agreed specifications, so no transaction price is allocated to it and no revenue is deferred. Instead it is a probable, reasonably estimable future sacrifice arising from the past sale, so the full estimated cost is expensed and accrued as a liability in the year of sale (matching), and later claims are charged against that liability."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 2400000,
+     "credit": 0
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0,
+     "credit": 2400000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Warranty Expense",
+     "debit": 36000,
+     "credit": 0
+    },
+    {
+     "account": "Estimated Warranty Liability",
+     "debit": 0,
+     "credit": 36000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Estimated Warranty Liability",
+     "debit": 12000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 12000
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Warranty Expense",
+     "debit": 42000,
+     "credit": 0
+    },
+    {
+     "account": "Estimated Warranty Liability",
+     "debit": 0,
+     "credit": 42000
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "lines": [
+    {
+     "account": "Estimated Warranty Liability",
+     "debit": 55000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 55000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Warranty accrual each year = 1.5% x that year's sales: Yr1 36,000; Yr2 42,000; Yr3 45,000. Liability rollforward: 0 + 36,000 - 12,000 = 24,000 (end Yr1); 24,000 + 42,000 - 48,000 = 18,000 (end Yr2); 18,000 + 45,000 - 55,000 = 8,000 (end Yr3). Claims are charged to the liability (not to expense) because the cost was already accrued; the two-year coverage is why Year 1 claims are small relative to the accrual and later years' claims exceed that year's accrual. Cost of goods sold ignored per instructions; the liability stays positive throughout, so no expense catch-up is required."
+}

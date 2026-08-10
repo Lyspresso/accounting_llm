@@ -1,0 +1,16 @@
+{
+ "id": "agent_016#00",
+ "pack_id": "agent_016",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "low",
+ "expected_verdict": "PASS",
+ "guards_rule": "corroboration_not_waving_through",
+ "rationale": "PV 4,000x2.531295+80,000x0.772183=71,899.86; schedule 6,470.99/6,693.38/6,935.77 with Y3 plug 2,935.77; totals 20,100.14 = 12,000 + 8,100.14.",
+ "truth_as_of_hash": "c39f8f7294473473fb2cd900edd4d141d51ee2db05651ef3bc38deacfff88a10",
+ "truth_as_of_bytes": "cb02eff6438c1eca506e65647a817e6e2243e328b4dc11a180db5e06cac74c81",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "clean",
+ "cross_check_evidence": "PV 4,000x2.531295+80,000x0.772183=71,899.86; schedule 6,470.99/6,693.38/6,935.77 with Y3 plug 2,935.77; totals 20,100.14 = 12,000 + 8,100.14."
+}

@@ -1,0 +1,72 @@
+{
+  "agent_id": 307,
+  "lo": "LO 8-7",
+  "chapter": 8,
+  "title": "Describe receivables disclosures and ratio analyses",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-7",
+      "concept": "Period-end adjusting JE to set the CECL allowance from aging; initial credit-sales and collections JEs; write-off and recovery settlement JEs; subsequent AR and AFDA measurement/disclosure schedules; BS net AR presentation; AR turnover and average days to collect with year-over-year analysis and concentration/collateral disclosures",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-7",
+      "concept": "Number-variant twin: period-end CECL adjusting JE from aging; AR/AFDA subsequent measurement and disclosure schedules; initial sales/collections JEs; write-off and recovery settlements; AR turnover and days to collect with comparative analysis",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-7",
+      "concept": "Comparative AR turnover and days to collect for two peers; map facts to ASC 310-10-50 disclosures; period-end adjusting JE for one company; analyze how a significant increase in bad debt expense and a factoring sale affect the ratios",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-7",
+      "concept": "Identify when a concentration of credit risk disclosure is required for receivables",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 8-7",
+      "concept": "Correct computation of accounts receivable turnover and average days to collect",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

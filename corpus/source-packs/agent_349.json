@@ -1,0 +1,71 @@
+{
+  "agent_id": 349,
+  "lo": "LO 13-2",
+  "chapter": 13,
+  "title": "Determine the initial and subsequent measurement of finite life intangible assets",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-2",
+      "concept": "Initial recognition at cost; period-end amortization AJs (emphasis); capitalize successful defense costs; subsequent-measurement schedule / carrying value; noncash note PV initial measurement; disposal JE after amortizing to sale date",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-2",
+      "concept": "Number-variant twin—initial recognition JE, period-end amortization AJs, defense capitalization, carrying-value schedule, PV of zero-interest note, full-year amort then disposal",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-2",
+      "concept": "Period-end adjusting JE emphasis for partial-year amortization of two finite-life intangibles; basket-purchase relative-FV initial allocation; subsequent amortization schedule",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-2",
+      "concept": "Subsequent measurement method for finite-life intangibles—straight-line default when consumption pattern cannot be reliably determined",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 13-2",
+      "concept": "Initial measurement—cost when acquired for equity or other noncash consideration (more reliably measurable FV) plus cash acquisition costs",
+      "type": "MC",
+      "angles": [
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

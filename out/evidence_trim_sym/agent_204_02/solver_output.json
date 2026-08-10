@@ -1,0 +1,184 @@
+{
+ "id": "agent_204#02",
+ "rounding_convention": "decimal.Decimal only; each period's depreciation rounded independently to whole dollars with ROUND_HALF_UP; accumulated depreciation and NBV are running sums of the rounded period amounts, so the schedule closes exactly to carrying value. Incidental $3,000 title cost expensed against Contribution Revenue (net), not capitalized, so it is outside the depreciable base.",
+ "answers": [
+  {
+   "label": "a: Equipment debited (full fair value)",
+   "value": 180000
+  },
+  {
+   "label": "a: Cash credited (legal title transfer paid)",
+   "value": 3000
+  },
+  {
+   "label": "a: Contribution Revenue credited (FV net of costs paid)",
+   "value": 177000
+  },
+  {
+   "label": "b: Depreciable base (cost - residual)",
+   "value": 168000
+  },
+  {
+   "label": "b: Full-year straight-line depreciation",
+   "value": 28000
+  },
+  {
+   "label": "b: Year 1 depreciation expense (9 months held)",
+   "value": 21000
+  },
+  {
+   "label": "b: Year 1 year-end accumulated depreciation",
+   "value": 21000
+  },
+  {
+   "label": "b: Year 1 year-end NBV",
+   "value": 159000
+  },
+  {
+   "label": "b: Year 2 depreciation expense",
+   "value": 28000
+  },
+  {
+   "label": "b: Year 2 year-end accumulated depreciation",
+   "value": 49000
+  },
+  {
+   "label": "b: Year 2 year-end NBV",
+   "value": 131000
+  },
+  {
+   "label": "b: Year 3 depreciation expense",
+   "value": 28000
+  },
+  {
+   "label": "b: Year 3 year-end accumulated depreciation",
+   "value": 77000
+  },
+  {
+   "label": "b: Year 3 year-end NBV",
+   "value": 103000
+  },
+  {
+   "label": "c: Dec 31 Year 1 depreciation adjusting entry amount",
+   "value": 21000
+  },
+  {
+   "label": "c: Dec 31 Year 2 depreciation adjusting entry amount",
+   "value": 28000
+  },
+  {
+   "label": "d: Dec 31 Year 3 depreciation adjusting entry amount",
+   "value": 28000
+  },
+  {
+   "label": "d: Cash received on scrapping",
+   "value": 9500
+  },
+  {
+   "label": "d: Accumulated depreciation removed at disposal",
+   "value": 77000
+  },
+  {
+   "label": "d: Equipment cost removed at disposal",
+   "value": 180000
+  },
+  {
+   "label": "d: Loss on disposal",
+   "value": 93500
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Equipment",
+     "debit": 180000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 3000
+    },
+    {
+     "account": "Contribution Revenue",
+     "debit": 0,
+     "credit": 177000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Depreciation Expense",
+     "debit": 21000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 21000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Depreciation Expense",
+     "debit": 28000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 28000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Depreciation Expense",
+     "debit": 28000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 28000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 9500,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 77000,
+     "credit": 0
+    },
+    {
+     "account": "Loss on Disposal of Equipment",
+     "debit": 93500,
+     "credit": 0
+    },
+    {
+     "account": "Equipment",
+     "debit": 0,
+     "credit": 180000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Asset recorded at full FV $180,000; Contribution Revenue = $180,000 - $3,000 = $177,000; Cash credited $3,000. Depreciable base = $180,000 - $12,000 = $168,000 over 6 years = $28,000/yr; Year 1 = 9/12 x $28,000 = $21,000. Disposal on 12/31/Yr3 after Year 3 depreciation: NBV $103,000 vs $9,500 proceeds gives a $93,500 loss. Part c is two separate entries (Yr1, Yr2); part d is two entries (Yr3 depreciation, then scrap disposal)."
+}

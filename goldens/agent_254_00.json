@@ -1,0 +1,16 @@
+{
+ "id": "agent_254#00",
+ "pack_id": "agent_254",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "spot_audit_candidate",
+ "expected_verdict": "PASS",
+ "guards_rule": "corroboration_not_waving_through",
+ "rationale": "EPIS ranking 0.00 / 1.20 / 1.6667 / 9.375; basic 360,000/200,000=1.80; sequential 1.7561 -> 1.7241 -> 1.7211; Series Y antidilutive at 1.8003; diluted 395,000/2",
+ "truth_as_of_hash": "0df0d7ea39e180dc17cbaef4afc5eb973a51fee180561d94e7a8ad824320abec",
+ "truth_as_of_bytes": "2ecc23f4273533da566771d199d92d11576643a290e56d716a40522e81fcd1b5",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "clean",
+ "cross_check_evidence": "EPIS ranking 0.00 / 1.20 / 1.6667 / 9.375; basic 360,000/200,000=1.80; sequential 1.7561 -> 1.7241 -> 1.7211; Series Y antidilutive at 1.8003; diluted 395,000/229,500=1.72."
+}

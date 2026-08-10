@@ -1,0 +1,61 @@
+{
+  "agent_id": 182,
+  "lo": "LO 9-4",
+  "chapter": 9,
+  "critical": false,
+  "title": "Demonstrate accounting in a perpetual inventory system",
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-4",
+      "concept": "Subsequent measurement schedule for perpetual Inventory (gross method); initial recognition of purchase/freight; AP settlement and returns; sale with simultaneous COGS; period-end shortage adjusting JE",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-4",
+      "concept": "Number-variant twin: perpetual gross-method initial recognition, multi-date Inventory subsequent measurement schedule, settlements/returns, sale with COGS, period-end shortage",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-4",
+      "concept": "Perpetual net method initial recognition; settlement within discount; settlement after discount → Interest Expense; sale COGS disposal; period-end inventory overage adjusting JE; Inventory subsequent measurement schedule",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-4",
+      "concept": "Classification of accounts and journal treatment under perpetual inventory (gross-method discount; perpetual vs periodic sale recognition)",
+      "type": "MC",
+      "ok": true,
+      "n_mc": 2,
+      "angles": ["classification_presentation_or_disclosure"]
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

@@ -1,0 +1,46 @@
+{
+  "agent_id": 70,
+  "lo": "LO 11-5",
+  "chapter": 11,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-5",
+      "concept": "Initial recognition of ARO (PV capitalized to PPE); Year-1 depreciation and accretion; multi-year accretion schedule; settlement with loss",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-5",
+      "concept": "Number-variant twin: initial ARO recognition, depreciation, accretion schedule, settlement with gain",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-5",
+      "concept": "Purchase + ARO initial recognition; Year-end depreciation and accretion only; multi-period schedule; settlement; classification/presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-5",
+      "concept": "When to recognize ARO; income-statement classification of accretion vs depreciation of asset retirement cost",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 11-5",
+      "concept": "Gain vs loss on ARO settlement relative to carrying amount of the liability",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

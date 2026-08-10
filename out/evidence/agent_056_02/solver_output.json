@@ -1,0 +1,82 @@
+{
+  "id": "agent_056#02",
+  "rounding_convention": "decimal.Decimal throughout, no floats. Money ROUND_HALF_UP to 2dp. Inventory turnover ROUND_HALF_UP to 2dp. Average days in inventory = 365 / (turnover already rounded to 2dp), then ROUND_HALF_UP to 2dp (textbook chained convention, Kieso 4e Review 9-9: 68.5 = 365/5.33). Gross profit % = GP / net sales x 100, ROUND_HALF_UP to 2dp. Average inventory = (beginning + ending)/2 on the same cost-flow basis as the COGS in the numerator.",
+  "answers": [
+    {
+      "label": "a: increase in LIFO reserve (LIFO effect) for Year 3",
+      "value": 20000
+    },
+    {
+      "label": "b: Year 3 FIFO cost of goods sold",
+      "value": 840000
+    },
+    {
+      "label": "c: Summitline inventory turnover - LIFO (as reported)",
+      "value": 5.38
+    },
+    {
+      "label": "c: Summitline average days in inventory - LIFO (as reported)",
+      "value": 67.84
+    },
+    {
+      "label": "c: Summitline gross profit - LIFO (as reported)",
+      "value": 540000
+    },
+    {
+      "label": "c: Summitline gross profit percentage - LIFO (as reported)",
+      "value": 38.57
+    },
+    {
+      "label": "c: Summitline inventory turnover - FIFO (as if)",
+      "value": 4.2
+    },
+    {
+      "label": "c: Summitline average days in inventory - FIFO (as if)",
+      "value": 86.9
+    },
+    {
+      "label": "c: Summitline gross profit - FIFO (as if)",
+      "value": 560000
+    },
+    {
+      "label": "c: Summitline gross profit percentage - FIFO (as if)",
+      "value": 40
+    },
+    {
+      "label": "d: Flatiron inventory turnover",
+      "value": 4.15
+    },
+    {
+      "label": "d: Flatiron average days in inventory",
+      "value": 87.95
+    },
+    {
+      "label": "e: Summitline inventory turnover restated on a FIFO-comparable basis",
+      "value": 4.2
+    },
+    {
+      "label": "e: Summitline average days in inventory on a FIFO-comparable basis",
+      "value": 86.9
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "Dec 31, Year 3 period-end adjusting entry to convert the FIFO internal records to LIFO for external reporting (the Year 3 LIFO effect).",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 20000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to LIFO",
+          "debit": 0,
+          "credit": 20000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Qualitative requirements. (e) The as-reported comparison is misleading because the two ratios are built from mismatched cost-flow bases: Summitline's numerator is LIFO COGS (which, in a rising-cost year, absorbs the newest and highest costs) while its denominator is LIFO inventory (frozen at old, low base-layer costs). Both effects push the ratio the same direction, so LIFO turnover of 5.38 overstates real inventory velocity relative to Flatiron's 4.15 and makes Summitline look far faster-moving than it is; the difference is an accounting-method artifact, not an operating difference. Adding the LIFO reserve back to both COGS and inventory puts Summitline on FIFO terms: turnover 4.20 (86.90 days) versus Flatiron's 4.15 (87.95 days) - essentially the same inventory velocity, which is the honest conclusion. (f) Two disclosure/presentation items: (1) state the inventory cost-flow method(s) used in the summary of significant accounting policies, including the fact that internal records are kept on FIFO and converted to LIFO for external reporting; and (2) disclose the LIFO reserve - the dollar amount of the Allowance to Reduce Inventory to LIFO at each balance sheet date (and the excess of FIFO/replacement cost over LIFO carrying amount), presenting the allowance as a deduction from inventory on the balance sheet so users can convert to a FIFO basis. Other acceptable items: disclose the current-year LIFO effect on COGS and income, any LIFO liquidation and its income effect, and the inventory composition by major class. Rounding variant: days computed from the UNROUNDED turnover instead of the rounded one would give LIFO 67.91 (vs 67.84 reported), FIFO 86.90, Flatiron 87.95; only the LIFO figure differs. The reported figures follow the textbook's own chained convention (Review 9-9 reports 68.5 = 365/5.33, not 68.4 = 365/5.33261)."
+}

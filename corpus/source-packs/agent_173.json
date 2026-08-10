@@ -1,0 +1,40 @@
+{
+  "agent_id": 173,
+  "lo": "LO 8-4",
+  "chapter": 8,
+  "title": "Measuring and Recording Receivables at Net Amount Expected to Be Collected",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-4",
+      "concept": "Initial recognition of AR from credit sales; subsequent measurement via AR/AFDA schedules and aging of receivables under CECL; period-end adjusting JE to desired allowance; settlement write-off and recovery JEs; BS presentation at net amount expected to be collected",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-4",
+      "concept": "Number-variant twin: credit sales initial recognition; AR/AFDA subsequent measurement schedules; aging-based desired allowance; period-end adjust when unadjusted AFDA is a debit; write-off and recovery settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-4",
+      "concept": "Period-end adjusting JE using a single expected credit loss rate on total receivables; first-year establishment of the allowance; multi-period AFDA schedule; demonstration that write-offs do not change net AR; recovery settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-4",
+      "concept": "Classification of write-off effects under the allowance method; measurement objective of CECL (net amount expected to be collected)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

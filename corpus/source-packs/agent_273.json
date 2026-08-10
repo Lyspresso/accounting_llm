@@ -1,0 +1,46 @@
+{
+  "agent_id": 273,
+  "lo": "LO 16-1",
+  "chapter": 16,
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-1",
+      "concept": "Identify bond types and features; initial recognition at premium; effective-interest schedule; period-end adjusting JE when YE ≠ interest date (emphasis); maturity settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-1",
+      "concept": "Number-variant twin — bond types/features; discount issuance; effective-interest schedule; period-end adjusting JE (2/6 of semi period); maturity settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-1",
+      "concept": "Multi-issue bond type classification; indenture vs market features; issuance between interest dates with accrued interest; period-end serial current portion and accrual presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4-1",
+      "lo": "LO 16-1",
+      "concept": "Classify municipal serial secured callable bond issue",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4-2",
+      "lo": "LO 16-1",
+      "concept": "Classify correct period-end adjusting accounts for discount bonds when YE ≠ interest date",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

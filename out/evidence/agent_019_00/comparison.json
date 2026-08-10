@@ -1,0 +1,34 @@
+{
+ "id": "agent_019#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 24,
+  "routed_stage2": 0,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: does the contract contain a lease?",
+   "solver": "Yes"
+  },
+  {
+   "kind": "KEY_SILENT_DERIVED",
+   "label": "b: PV of lease payments as % of fair value (90% bright line)",
+   "solver": 96.8,
+   "from_key_components": [
+    2.0,
+    5.0,
+    90.0
+   ]
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: lease classification",
+   "solver": "Finance"
+  }
+ ]
+}

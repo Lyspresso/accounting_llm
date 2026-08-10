@@ -1,0 +1,65 @@
+{
+  "agent_id": 192,
+  "lo": "LO 10-5",
+  "chapter": 10,
+  "title": "Demonstrate accounting for purchase commitments",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-5",
+      "concept": "Subsequent measurement schedule for remaining committed units; period-end loss JE; no reverse for recovery; settlement of residual commitment",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-5",
+      "concept": "Number-variant twin — subsequent measurement schedule; YE loss recognition; settlement with further NRV decline",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-5",
+      "concept": "Multi-period subsequent measurement under LIFO (market); allocate prior liability on partial take; second year-end further decline; final settlement",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-5",
+      "concept": "Measuring estimated liability on remaining purchase commitments; recovery and inception recognition rules",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

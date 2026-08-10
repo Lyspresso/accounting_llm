@@ -1,0 +1,76 @@
+{
+  "agent_id": 210,
+  "lo": "LO 12-3",
+  "chapter": 12,
+  "title": "Calculate depreciation using group and composite depreciation methods",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-3",
+      "concept": "Composite depreciation schedule; composite rate and useful life; initial recognition JE; subsequent measurement schedule (rate × revised cost); period-end composite dep JE; disposal with AD plug (no G/L)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-3",
+      "concept": "Number-variant twin: composite schedule, rate/life, initial recognition JE, Year-1 dep, disposal with AD plug, subsequent measurement (old rate × new cost), Year-2 dep",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-3",
+      "concept": "Group depreciation for similar assets; group rate and life; period-end adjusting JE; multi-unit disposal with AD plug; subsequent group measurement (old rate × revised cost)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-3",
+      "concept": "Classification of disposal accounting under group/composite methods (no separate G/L)",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-3",
+      "concept": "Subsequent measurement after non-material disposal — retain original rate × revised total acquisition cost",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

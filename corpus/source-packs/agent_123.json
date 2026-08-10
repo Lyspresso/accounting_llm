@@ -1,0 +1,55 @@
+{
+  "agent_id": 123,
+  "lo": "LO 20-9",
+  "chapter": 20,
+  "title": "Compute EPS given multiple securities and describe EPS financial statement presentation",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-9",
+      "concept": "Initial ranking of potentially dilutive securities by earnings per incremental share; sequential dilution schedule; period-end preferred dividend JE; face presentation of basic and diluted EPS",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-9",
+      "concept": "Number-variant twin: recompute incremental effects, rank most-to-least dilutive, sequential schedule, and dual EPS presentation with all new amounts",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-9",
+      "concept": "Classification/presentation of basic and diluted EPS for continuing operations, discontinued operations, and net income when multiple dilutive securities exist; control number is income from continuing operations",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-9",
+      "concept": "Classification of which securities enter diluted EPS after ranking by earnings per incremental share",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-9",
+      "concept": "Classification of required EPS presentation on the face of the income statement for complex vs simple capital structures",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

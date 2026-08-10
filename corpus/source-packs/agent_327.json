@@ -1,0 +1,64 @@
+{
+  "agent_id": 327,
+  "lo": "LO 10-9",
+  "chapter": 10,
+  "title": "Retail inventory methods have two other options: the LIFO retail method",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-9",
+      "concept": "LIFO retail multi-year layer schedule; initial purchase recognition; sales disposal of retail pool; period-end adjusting JEs each year (including layer liquidation year)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-9",
+      "concept": "Number-variant twin — LIFO retail EI at retail, dual cost ratios, layer valuation, and period-end inventory/COGS adjusting JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-9",
+      "concept": "Dollar-value LIFO retail layer schedule (price index × cost ratio); multi-year subsequent measurement with layer build and liquidation; adoption restatement JE; period-end adjusting JEs",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-9",
+      "concept": "Distinguishing LIFO retail vs conventional retail; measurement elements under dollar-value LIFO retail",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

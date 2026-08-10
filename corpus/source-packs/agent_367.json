@@ -1,0 +1,76 @@
+{
+  "agent_id": 367,
+  "lo": "LO 18-9",
+  "chapter": 18,
+  "title": "Apply intraperiod tax allocation",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-9",
+      "concept": "Period-end adjusting journal entry for income taxes under intraperiod allocation; tax allocation schedule; combined statement of comprehensive income (continuing ops, disc. ops loss, OCI unrealized gain)",
+      "type": "multipart",
+      "company": "Mossvale Tools LLC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-9",
+      "concept": "Number-variant twin: period-end adjusting tax JE and SCI when discontinued operations has a pretax gain and OCI has an unrealized loss (DTA)",
+      "type": "multipart",
+      "company": "Thornridge Fabricators Inc.",
+      "angles": [
+        "number_variant_twin",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-9",
+      "concept": "Disposal (settlement) journal entry for a discontinued component; intraperiod tax allocation when continuing operations includes a permanent difference and an originating taxable temporary difference; period-end tax adjusting JE and income statement",
+      "type": "multipart",
+      "company": "QuarryBend Foods Co.",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-9",
+      "concept": "Classification / presentation — which financial-statement components receive intraperiod tax allocation",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 18-9",
+      "concept": "Compute income tax allocated to continuing operations and discontinued operations, and net income under intraperiod allocation",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_367.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_367.json"
+}

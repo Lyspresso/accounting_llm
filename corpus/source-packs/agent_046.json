@@ -1,0 +1,62 @@
+{
+  "agent_id": 46,
+  "lo": "LO 8-8",
+  "chapter": 8,
+  "title": "Apply cash controls",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-8",
+      "concept": "Initial recognition of cash over/short and petty cash; subsequent petty cash replenishment; period-end bank recon schedule and book AJEs",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-8",
+      "concept": "Number-variant twin of cash drawer short/over, petty cash establish–replenish–increase, and bank recon with book AJEs",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-8",
+      "concept": "Subsequent measurement via bank recon schedule from activity data; period-end book AJEs; settlement/close of petty cash fund; classification of reconciling items",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-8",
+      "concept": "Classification of bank-reconciling items and cash-control presentation",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

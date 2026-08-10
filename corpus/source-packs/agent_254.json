@@ -1,0 +1,55 @@
+{
+  "agent_id": 254,
+  "lo": "LO 20-9",
+  "chapter": 20,
+  "title": "Compute EPS given multiple securities and describe EPS financial statement presentation",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-9",
+      "concept": "Initial recognition of convertible securities; subsequent measurement ranking and sequential diluted EPS schedules; period-end preferred dividend and bond interest JEs; dual face presentation of basic and diluted EPS",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-9",
+      "concept": "Number-variant twin: recompute incremental effects, rank most-to-least dilutive, sequential subsequent measurement schedule, period-end preferred JE, and dual EPS presentation with all new amounts",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-9",
+      "concept": "Settlement JE for conversion of convertible bonds; sequential diluted EPS using income from continuing operations as control number; full basic/diluted presentation for continuing operations, discontinued operations, and net income",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-9",
+      "concept": "Classification of which securities enter diluted EPS after ranking by earnings per incremental share on the sequential subsequent measurement schedule",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-9",
+      "concept": "Classification of required EPS financial statement presentation under ASC 260 for complex vs simple capital structures",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

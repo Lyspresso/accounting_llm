@@ -1,0 +1,74 @@
+{
+  "agent_id": 299,
+  "lo": "LO 22-5",
+  "chapter": 22,
+  "title": "Describe required disclosures including that for noncash transactions",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-5",
+      "concept": "Initial recognition of noncash PPE/lease deals; equipment additions schedule; period-end adjusting JE for mid-year equipment note; note interest path; corrected investing/financing; noncash disclosure; interest and taxes paid; restricted cash",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-5",
+      "concept": "Number-variant twin — equipment cash/noncash schedule; period-end adjusting JE on equipment note; corrected SCF; noncash disclosure; interest and taxes paid",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-5",
+      "concept": "Initial recognition of land-for-note; subsequent principal schedule on installment note; period-end interest adjusting JE; noncash bond conversion settlement; SCF classification; full noncash + cash-paid disclosures",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-5",
+      "concept": "Classification — cash investing outflow only; note issuance excluded from financing cash inflows",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 22-5",
+      "concept": "Required supplemental disclosures — interest paid, taxes paid, noncash, restricted cash",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

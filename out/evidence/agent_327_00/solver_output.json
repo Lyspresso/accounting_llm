@@ -1,0 +1,220 @@
+{
+  "id": "agent_327#00",
+  "rounding_convention": "decimal.Decimal throughout, never float. Cost ratios quantized to 4 dp ROUND_HALF_UP; each LIFO layer's cost quantized to the cent ROUND_HALF_UP per layer per period (round-per-period, not round-at-end); ending inventory at cost is the sum of the rounded layer costs; COGS taken as the periodic residual (BI cost + net purchases at cost - EI cost). No PV factors apply.",
+  "answers": [
+    {
+      "label": "a: Year 1 ending inventory at retail (average cost retail approach)",
+      "value": 160000
+    },
+    {
+      "label": "a: base (prior-year) cost ratio",
+      "value": 0.58
+    },
+    {
+      "label": "a: Year 1 current-year cost ratio",
+      "value": 0.6
+    },
+    {
+      "label": "a: Year 1 layer schedule \u2014 base layer at retail",
+      "value": 100000
+    },
+    {
+      "label": "a: Year 1 layer schedule \u2014 base layer at cost",
+      "value": 58000
+    },
+    {
+      "label": "a: Year 1 layer schedule \u2014 Year 1 layer at retail",
+      "value": 60000
+    },
+    {
+      "label": "a: Year 1 layer schedule \u2014 Year 1 layer at cost",
+      "value": 36000
+    },
+    {
+      "label": "a: Year 1 ending inventory at LIFO retail cost",
+      "value": 94000
+    },
+    {
+      "label": "a: Year 1 cost of goods sold",
+      "value": 336000
+    },
+    {
+      "label": "d: Year 2 ending inventory at retail",
+      "value": 220000
+    },
+    {
+      "label": "d: Year 2 cost ratio",
+      "value": 0.6
+    },
+    {
+      "label": "d: Year 2 layer schedule \u2014 base layer at cost",
+      "value": 58000
+    },
+    {
+      "label": "d: Year 2 layer schedule \u2014 Year 1 layer at cost",
+      "value": 36000
+    },
+    {
+      "label": "d: Year 2 layer schedule \u2014 Year 2 layer at retail",
+      "value": 60000
+    },
+    {
+      "label": "d: Year 2 layer schedule \u2014 Year 2 layer at cost",
+      "value": 36000
+    },
+    {
+      "label": "d: Year 2 ending inventory at LIFO retail cost",
+      "value": 130000
+    },
+    {
+      "label": "d: Year 2 cost of goods sold",
+      "value": 384000
+    },
+    {
+      "label": "e: Year 3 ending inventory at retail",
+      "value": 100000
+    },
+    {
+      "label": "e: Year 3 cost ratio",
+      "value": 0.6
+    },
+    {
+      "label": "e: layer liquidated \u2014 Year 2 layer, retail liquidated",
+      "value": 60000
+    },
+    {
+      "label": "e: layer liquidated \u2014 Year 2 layer, LIFO cost removed",
+      "value": 36000
+    },
+    {
+      "label": "e: layer liquidated \u2014 Year 1 layer, retail liquidated",
+      "value": 60000
+    },
+    {
+      "label": "e: layer liquidated \u2014 Year 1 layer, LIFO cost removed",
+      "value": 36000
+    },
+    {
+      "label": "e: Year 3 ending inventory at LIFO retail cost (base layer only)",
+      "value": 58000
+    },
+    {
+      "label": "e: Year 3 cost of goods sold",
+      "value": 372000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "description": "Year 1 \u2014 initial recognition of net purchases on account (periodic system)",
+      "lines": [
+        {
+          "account": "Purchases",
+          "debit": 372000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Payable",
+          "debit": 0,
+          "credit": 372000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "Year 1 \u2014 net sales (cash and on account). Under a periodic system only revenue is recorded at the date of sale; the retail pool is relieved at period end in part (c).",
+      "lines": [
+        {
+          "account": "Cash and Accounts Receivable",
+          "debit": 560000,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 560000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "December 31, Year 1 period-end adjusting entry (periodic close)",
+      "lines": [
+        {
+          "account": "Inventory, Ending (December 31, Year 1 \u2014 at LIFO retail cost)",
+          "debit": 94000,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 336000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory, Beginning (January 1, Year 1)",
+          "debit": 0,
+          "credit": 58000
+        },
+        {
+          "account": "Purchases",
+          "debit": 0,
+          "credit": 372000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "December 31, Year 2 period-end adjusting entry (periodic close)",
+      "lines": [
+        {
+          "account": "Inventory, Ending (December 31, Year 2 \u2014 at LIFO retail cost)",
+          "debit": 130000,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 384000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory, Beginning (January 1, Year 2)",
+          "debit": 0,
+          "credit": 94000
+        },
+        {
+          "account": "Purchases",
+          "debit": 0,
+          "credit": 420000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "December 31, Year 3 period-end adjusting entry (periodic close)",
+      "lines": [
+        {
+          "account": "Inventory, Ending (December 31, Year 3 \u2014 at LIFO retail cost)",
+          "debit": 58000,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 372000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory, Beginning (January 1, Year 3)",
+          "debit": 0,
+          "credit": 130000
+        },
+        {
+          "account": "Purchases",
+          "debit": 0,
+          "credit": 300000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "(f) LIFO retail uses the average cost retail cost-ratio approach \u2014 including BOTH net markups and net markdowns in the ratio \u2014 because the goal is to approximate actual LIFO cost of each layer, whereas the conventional retail approach deliberately omits net markdowns from the denominator to build in a lower-of-cost-or-market write-down, which would distort the cost of the LIFO layers. Year 3 is a liquidation year: ending inventory at retail of 100,000 is below beginning inventory at retail of 220,000, so the Year 2 layer (60,000 retail at 0.60) and the Year 1 layer (60,000 retail at 0.60) are both fully liquidated and no Year 3 layer is created; only the 100,000 base layer at 0.580 survives. The sales entry in part (b) combines cash and on-account sales on one debit line because the stem does not split the 560,000 between them."
+}

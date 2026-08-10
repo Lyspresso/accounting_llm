@@ -1,0 +1,269 @@
+{
+ "id": "agent_134#01",
+ "rounding_convention": "decimal.Decimal throughout, ROUND_HALF_UP to whole dollars applied per period as each figure is computed; bonds bought at par so no premium/discount amortization and no PV rounding -- FVA schedule closes exactly to zero residual (cumulative unrealized G/L = proceeds - cost).",
+ "answers": [
+  {
+   "label": "a: purchase price paid = par x 100% (Dr Investment in TS)",
+   "value": 40000
+  },
+  {
+   "label": "a: Cash credited",
+   "value": 40000
+  },
+  {
+   "label": "b: annual cash interest = $40,000 x 6% x 1 yr",
+   "value": 2400
+  },
+  {
+   "label": "b: interest income Year 1 (par purchase, no amortization)",
+   "value": 2400
+  },
+  {
+   "label": "c: FVA schedule Y1 -- cost (carrying at amortized/original cost)",
+   "value": 40000
+  },
+  {
+   "label": "c: FVA schedule Y1 -- fair value Dec 31 Y1",
+   "value": 38500
+  },
+  {
+   "label": "c: FVA schedule Y1 -- required FVA balance (FV - cost), negative = credit",
+   "value": -1500
+  },
+  {
+   "label": "c: FVA schedule Y1 -- FVA balance before adjustment (beginning)",
+   "value": 0
+  },
+  {
+   "label": "c: FVA schedule Y1 -- adjustment needed (negative = credit FVA)",
+   "value": -1500
+  },
+  {
+   "label": "c: Year 1 unrealized loss recognized in NI",
+   "value": 1500
+  },
+  {
+   "label": "c: FVA--TS ending balance Dec 31 Y1 (credit)",
+   "value": -1500
+  },
+  {
+   "label": "d: BS Dec 31 Y1 -- Trading securities at fair value (current asset)",
+   "value": 38500
+  },
+  {
+   "label": "d: BS Dec 31 Y1 -- investment at cost",
+   "value": 40000
+  },
+  {
+   "label": "d: BS Dec 31 Y1 -- less Fair Value Adjustment--TS (credit)",
+   "value": 1500
+  },
+  {
+   "label": "d: IS Year 1 -- Interest income",
+   "value": 2400
+  },
+  {
+   "label": "d: IS Year 1 -- Unrealized loss on trading securities (in NI, other income/expense)",
+   "value": 1500
+  },
+  {
+   "label": "d: IS Year 1 -- net pretax effect on Year 1 net income",
+   "value": 900
+  },
+  {
+   "label": "e: rollforward Y2 -- cost",
+   "value": 40000
+  },
+  {
+   "label": "e: rollforward Y2 -- fair value Dec 31 Y2",
+   "value": 41200
+  },
+  {
+   "label": "e: rollforward Y2 -- required FVA balance (FV - cost), positive = debit",
+   "value": 1200
+  },
+  {
+   "label": "e: rollforward Y2 -- FVA balance before adjustment (from Y1, credit 1,500)",
+   "value": -1500
+  },
+  {
+   "label": "e: rollforward Y2 -- adjustment needed (positive = debit FVA)",
+   "value": 2700
+  },
+  {
+   "label": "e: Year 2 unrealized gain recognized in NI",
+   "value": 2700
+  },
+  {
+   "label": "e: FVA--TS ending balance Dec 31 Y2 (debit)",
+   "value": 1200
+  },
+  {
+   "label": "e: carrying amount = fair value Dec 31 Y2",
+   "value": 41200
+  },
+  {
+   "label": "f-i: sale-date fair value (= proceeds) Jan 1 Y3",
+   "value": 41000
+  },
+  {
+   "label": "f-i: required FVA balance at sale date (FV - cost)",
+   "value": 1000
+  },
+  {
+   "label": "f-i: FVA balance before sale-date adjustment",
+   "value": 1200
+  },
+  {
+   "label": "f-i: sale-date FV-NI adjustment (negative = credit FVA)",
+   "value": -200
+  },
+  {
+   "label": "f-i: unrealized loss recognized at sale date (Year 3 NI)",
+   "value": 200
+  },
+  {
+   "label": "f-ii: Cash received on sale",
+   "value": 41000
+  },
+  {
+   "label": "f-ii: FVA--TS eliminated (credited, debit balance removed)",
+   "value": 1000
+  },
+  {
+   "label": "f-ii: Investment in TS removed at cost (credit)",
+   "value": 40000
+  },
+  {
+   "label": "f-ii: realized gain/loss on sale after FV adjustment",
+   "value": 0
+  },
+  {
+   "label": "g: holding-period unrealized G/L -- Year 1",
+   "value": -1500
+  },
+  {
+   "label": "g: holding-period unrealized G/L -- Year 2",
+   "value": 2700
+  },
+  {
+   "label": "g: holding-period unrealized G/L -- Year 3 (sale date)",
+   "value": -200
+  },
+  {
+   "label": "g: cumulative unrealized G/L recognized in NI over holding period",
+   "value": 1000
+  },
+  {
+   "label": "g: proceeds - cost",
+   "value": 1000
+  },
+  {
+   "label": "g: residual (schedule closes exactly)",
+   "value": 0
+  },
+  {
+   "label": "g: total NI effect including interest, Years 1-3 (interest 2,400 x 2 yrs + 1,000)",
+   "value": 5800
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Investment in Trading Securities (Redwood Corp. bonds), at cost",
+     "debit": 40000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 40000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 2400,
+     "credit": 0
+    },
+    {
+     "account": "Interest Income (Interest Revenue)",
+     "debit": 0,
+     "credit": 2400
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Unrealized Loss on Trading Securities (NI)",
+     "debit": 1500,
+     "credit": 0
+    },
+    {
+     "account": "Fair Value Adjustment--Trading Securities",
+     "debit": 0,
+     "credit": 1500
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Fair Value Adjustment--Trading Securities",
+     "debit": 2700,
+     "credit": 0
+    },
+    {
+     "account": "Unrealized Gain on Trading Securities (NI)",
+     "debit": 0,
+     "credit": 2700
+    }
+   ]
+  },
+  {
+   "part": "f-i",
+   "lines": [
+    {
+     "account": "Unrealized Loss on Trading Securities (NI)",
+     "debit": 200,
+     "credit": 0
+    },
+    {
+     "account": "Fair Value Adjustment--Trading Securities",
+     "debit": 0,
+     "credit": 200
+    }
+   ]
+  },
+  {
+   "part": "f-ii",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 41000,
+     "credit": 0
+    },
+    {
+     "account": "Fair Value Adjustment--Trading Securities",
+     "debit": 0,
+     "credit": 1000
+    },
+    {
+     "account": "Investment in Trading Securities (at cost)",
+     "debit": 0,
+     "credit": 40000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Cost-plus-FVA (valuation allowance) presentation: Investment in TS stays at $40,000 cost; FVA--TS carries cumulative FV-cost. Par purchase => interest income = cash interest $2,400/yr, no discount/premium. FVA rollforward: 0 -> (1,500) cr at 12/31/Y1 -> 1,200 dr at 12/31/Y2 (2,700 dr swing) -> 1,000 dr at 1/1/Y3 sale date (200 cr adjust); eliminating entry leaves zero realized gain because carrying amount was first marked to the $41,000 sale price. Cumulative unrealized: (1,500) + 2,700 + (200) = 1,000 = 41,000 proceeds - 40,000 cost. Direct-write-down (no FVA account) would give identical NI amounts. Year 2 cash interest of $2,400 (Dr Cash / Cr Interest income) is implied by the fact pattern but not requested as a separate part; no interest accrues for the Jan 1 Year 3 sale date since the 12/31/Y2 coupon was just paid."
+}

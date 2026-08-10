@@ -1,0 +1,70 @@
+{
+  "agent_id": 56,
+  "lo": "LO 9-9",
+  "chapter": 9,
+  "title": "Perform inventory ratio analysis and interpretation",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-9",
+      "concept": "Initial recognition of inventory purchases and freight; settlement of AP and returns; sale/COGS; inventory rollforward; inventory turnover, days in inventory, and gross profit % with trend interpretation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-9",
+      "concept": "Number-variant twin of perpetual purchase recognition, settlements, inventory rollforward, and inventory ratio analysis",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-9",
+      "concept": "Period-end LIFO conversion adjusting JE; inventory method effects on turnover, days, and GP%; LIFO-reserve adjustment for peer comparability; disclosure/presentation of method and reserve",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-9",
+      "concept": "Classification of cost-flow method effects on inventory turnover when acquisition costs are rising",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 9-9",
+      "concept": "Correct computation of inventory turnover and average days in inventory",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

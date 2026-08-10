@@ -1,0 +1,71 @@
+{
+  "agent_id": 138,
+  "lo": "LO 14-6",
+  "chapter": 14,
+  "title": "Accounting for Impairment Loss on AFS Investments",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-6",
+      "concept": "Initial recognition of AFS debt; period-end FV-OCI then credit impairment; multi-year subsequent measurement schedule (allowance rollforward and residual noncredit FVA)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-6",
+      "concept": "Number-variant twin — multi-period AFS credit impairment schedule (allowance rollforward and residual FVA)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-6",
+      "concept": "Intent-to-sell AFS impairment (full write-down to FV through NI); period-end adjusting JE; disposal settlement JE; presentation/disclosure",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-6",
+      "concept": "Classify which AFS impairment path applies and the amount recognized in net income",
+      "type": "MC",
+      "angles": ["classification_presentation_or_disclosure"],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-6",
+      "concept": "Period-end AFS impairment measurement across three scenarios; initial recognition of impairment JE; classification of credit vs noncredit; balance-sheet presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,159 @@
+{
+  "id": "agent_230#00",
+  "rounding_convention": "decimal.Decimal only, no floats; money quantized to the cent with ROUND_HALF_UP applied per period (each year's provision rounded before entering the rollforward); liquidity ratios computed from exact Decimal amounts and quantized to 2 decimal places with ROUND_HALF_UP per the textbook Demo 15-6 presentation; no present-value factors apply to this item.",
+  "answers": [
+    {
+      "label": "a: Year 1 warranty liability beginning balance",
+      "value": 52000
+    },
+    {
+      "label": "a: Year 1 warranty provision (estimated cost of that year's sales)",
+      "value": 120000
+    },
+    {
+      "label": "a: Year 1 warranty claims paid",
+      "value": 105000
+    },
+    {
+      "label": "a: Year 1 warranty liability ending balance",
+      "value": 67000
+    },
+    {
+      "label": "a: Year 2 warranty liability beginning balance",
+      "value": 67000
+    },
+    {
+      "label": "a: Year 2 warranty provision (estimated cost of that year's sales)",
+      "value": 135000
+    },
+    {
+      "label": "a: Year 2 warranty claims paid",
+      "value": 118000
+    },
+    {
+      "label": "a: Year 2 warranty liability ending balance",
+      "value": 84000
+    },
+    {
+      "label": "a: Year 3 warranty liability beginning balance",
+      "value": 84000
+    },
+    {
+      "label": "a: Year 3 warranty provision (estimated cost of that year's sales)",
+      "value": 114000
+    },
+    {
+      "label": "a: Year 3 warranty claims paid",
+      "value": 122000
+    },
+    {
+      "label": "a: Year 3 warranty liability ending balance",
+      "value": 76000
+    },
+    {
+      "label": "d: Year 2 contingency liability beginning balance",
+      "value": 0
+    },
+    {
+      "label": "d: Year 2 contingency provision / remeasurement",
+      "value": 160000
+    },
+    {
+      "label": "d: Year 2 contingency payments",
+      "value": 0
+    },
+    {
+      "label": "d: Year 2 contingency liability ending balance",
+      "value": 160000
+    },
+    {
+      "label": "d: Year 3 contingency liability beginning balance",
+      "value": 160000
+    },
+    {
+      "label": "d: Year 3 contingency provision / remeasurement",
+      "value": 15000
+    },
+    {
+      "label": "d: Year 3 contingency payments",
+      "value": 175000
+    },
+    {
+      "label": "d: Year 3 contingency liability ending balance",
+      "value": 0
+    },
+    {
+      "label": "f: current ratio \u2014 unadjusted Dec 31, Year 2",
+      "value": 1.78
+    },
+    {
+      "label": "f: quick ratio \u2014 unadjusted Dec 31, Year 2",
+      "value": 0.8
+    },
+    {
+      "label": "f: current ratio \u2014 after warranty true-up and litigation accrual",
+      "value": 1.62
+    },
+    {
+      "label": "f: quick ratio \u2014 after warranty true-up and litigation accrual",
+      "value": 0.73
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "description": "Dec 31, Year 2 \u2014 warranty true-up adjusting entry",
+      "lines": [
+        {
+          "account": "Warranty Expense",
+          "debit": 17000,
+          "credit": 0
+        },
+        {
+          "account": "Warranty Liability",
+          "debit": 0,
+          "credit": 17000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "Dec 31, Year 2 \u2014 initial recognition of litigation loss contingency",
+      "lines": [
+        {
+          "account": "Loss from Litigation",
+          "debit": 160000,
+          "credit": 0
+        },
+        {
+          "account": "Litigation Liability",
+          "debit": 0,
+          "credit": 160000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "Mar 5, Year 3 \u2014 settlement of the lawsuit for cash",
+      "lines": [
+        {
+          "account": "Litigation Liability",
+          "debit": 160000,
+          "credit": 0
+        },
+        {
+          "account": "Loss from Litigation",
+          "debit": 15000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 175000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part a verification: Year-1 ending warranty liability of 67,000 (52,000 + 120,000 - 105,000) ties to the Jan 1, Year 2 balance still on the unadjusted books; Year-2 ending is 84,000 (67,000 + 135,000 - 118,000). Part b: claims of 118,000 were already expensed during Year 2, so the true-up is 135,000 - 118,000 = 17,000, which equals the change in the liability. Part c: probable with a best estimate inside the range, so the best estimate of 160,000 is accrued rather than the 120,000 low end. Part d narrative: the March 5, Year 3 settlement is a RECOGNIZED (Type 1) subsequent event because it confirms a condition existing at December 31, Year 2 and occurs before the March 12, Year 3 issuance date; the Year-2 statements would therefore be adjusted to accrue the full 175,000 (an extra 15,000 of Year-2 loss), leaving no Year-3 remeasurement. Part e classification: (i) litigation accrual \u2014 ACCRUED and DISCLOSED (probable and estimable; disclose nature of the suit, the 120,000-250,000 range, and the amount accrued); (ii) warranty liability \u2014 ACCRUED and DISCLOSED (ASC 460-10-50-8 requires the accounting policy/methodology plus a tabular reconciliation of the warranty liability rollforward); (iii) plant expansion commitment of 1,500,000 \u2014 DISCLOSED ONLY, not accrued (ASC 440-10-50-1(f)(1): a commitment for plant acquisition is not a present obligation; disclose the amount, the noncancelable terms, and the expected May Year 3 closing); (iv) unused letter of credit of 600,000 \u2014 DISCLOSED ONLY (ASC 440-10-50-1(a): disclose the existence and unused amount of the facility). Part f analysis: both entries hit only the denominator, raising current liabilities by 177,000 from 1,797,000 to 1,974,000 while current assets stay at 3,200,000, so the current ratio falls from 1.78 to 1.62 and the quick ratio falls from 0.80 to 0.73 \u2014 apparent short-term liquidity deteriorates even though no cash has yet left the company, and the quick ratio staying below 1.0 shows the most liquid assets alone do not cover current obligations."
+}

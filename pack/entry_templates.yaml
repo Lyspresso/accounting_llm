@@ -1,0 +1,75 @@
+# SEED canonical entry templates — extend from your textbook's demonstrated
+# entries; adjudicated escalations propose additions automatically.
+# amount_expr uses named givens from the fact pattern; the solver evaluates
+# with decimal.Decimal. `conditions` note when the template applies.
+
+- id: bond_issue_discount
+  transaction: Issue bonds at a discount
+  lines:
+    - {account: Cash, side: dr, amount_expr: proceeds}
+    - {account: Discount on Bonds Payable, side: dr, amount_expr: face - proceeds}
+    - {account: Bonds Payable, side: cr, amount_expr: face}
+  conditions: proceeds < face
+
+- id: bond_issue_premium
+  transaction: Issue bonds at a premium
+  lines:
+    - {account: Cash, side: dr, amount_expr: proceeds}
+    - {account: Bonds Payable, side: cr, amount_expr: face}
+    - {account: Premium on Bonds Payable, side: cr, amount_expr: proceeds - face}
+  conditions: proceeds > face
+
+- id: bond_interest_effective_discount
+  transaction: Record bond interest, effective-interest method, discount case
+  lines:
+    - {account: Interest Expense, side: dr, amount_expr: carrying_value * market_rate * period_fraction}
+    - {account: Discount on Bonds Payable, side: cr, amount_expr: (carrying_value * market_rate - face * stated_rate) * period_fraction}
+    - {account: Cash, side: cr, amount_expr: face * stated_rate * period_fraction}
+  conditions: textbook demonstrates effective-interest (check edition)
+
+- id: depreciation_straight_line
+  transaction: Annual straight-line depreciation
+  lines:
+    - {account: Depreciation Expense, side: dr, amount_expr: (cost - salvage) / useful_life}
+    - {account: "Accumulated Depreciation - {asset}", side: cr, amount_expr: (cost - salvage) / useful_life}
+
+- id: accrued_interest_expense
+  transaction: Accrue interest on a note payable at period end
+  lines:
+    - {account: Interest Expense, side: dr, amount_expr: principal * rate * time_fraction}
+    - {account: Interest Payable, side: cr, amount_expr: principal * rate * time_fraction}
+
+- id: unearned_revenue_recognition
+  transaction: Recognize previously unearned revenue as earned
+  lines:
+    - {account: Unearned Revenue, side: dr, amount_expr: amount_earned}
+    - {account: Service Revenue, side: cr, amount_expr: amount_earned}
+
+- id: credit_sale_perpetual
+  transaction: Sale on account under a perpetual inventory system (two entries)
+  lines:
+    - {account: Accounts Receivable, side: dr, amount_expr: sale_price}
+    - {account: Sales Revenue, side: cr, amount_expr: sale_price}
+    - {account: Cost of Goods Sold, side: dr, amount_expr: cost}
+    - {account: Inventory, side: cr, amount_expr: cost}
+  conditions: perpetual system stated or demonstrated as book default
+
+- id: bad_debt_estimate
+  transaction: Estimate uncollectibles (allowance method)
+  lines:
+    - {account: Bad Debt Expense, side: dr, amount_expr: estimate}
+    - {account: Allowance for Doubtful Accounts, side: cr, amount_expr: estimate}
+
+- id: dividend_declaration
+  transaction: Declare a cash dividend
+  lines:
+    - {account: Retained Earnings, side: dr, amount_expr: shares * dividend_per_share}
+    - {account: Dividends Payable, side: cr, amount_expr: shares * dividend_per_share}
+  conditions: book may demonstrate Dr Dividends instead — record its convention
+
+- id: equipment_purchase_cash_note
+  transaction: Purchase equipment with cash down payment and a note
+  lines:
+    - {account: Equipment, side: dr, amount_expr: total_cost}
+    - {account: Cash, side: cr, amount_expr: down_payment}
+    - {account: Notes Payable, side: cr, amount_expr: total_cost - down_payment}

@@ -1,0 +1,313 @@
+{
+  "id": "agent_296#00",
+  "rounding_convention": "decimal.Decimal only, never float; ROUND_HALF_UP applied per line item / per period (not round-at-end); all inputs and results are whole dollars so no rounding step is actually reached; no PV factors required by this item",
+  "answers": [
+    {
+      "label": "a: gain on sale of equipment (verified)",
+      "value": 7000
+    },
+    {
+      "label": "b: loss on bond retirement (verified)",
+      "value": 1000
+    },
+    {
+      "label": "c1: depreciation expense adjusting entry amount",
+      "value": 67000
+    },
+    {
+      "label": "c2: patent amortization adjusting entry amount",
+      "value": 12000
+    },
+    {
+      "label": "c3: bond premium amortization adjusting entry amount",
+      "value": 1800
+    },
+    {
+      "label": "d: Accounts receivable (net) - SCF effect (deduct)",
+      "value": -11000
+    },
+    {
+      "label": "d: Inventory - SCF effect (add)",
+      "value": 7000
+    },
+    {
+      "label": "d: Prepaid expenses - SCF effect (add)",
+      "value": 3000
+    },
+    {
+      "label": "d: Accounts payable - SCF effect (add)",
+      "value": 9000
+    },
+    {
+      "label": "d: Salaries payable - SCF effect (deduct)",
+      "value": -4000
+    },
+    {
+      "label": "d: Interest payable - SCF effect (add)",
+      "value": 2500
+    },
+    {
+      "label": "d: Income taxes payable - SCF effect (add)",
+      "value": 3000
+    },
+    {
+      "label": "d: net working-capital change effect on operating cash flow",
+      "value": 9500
+    },
+    {
+      "label": "e: Net income",
+      "value": 102300
+    },
+    {
+      "label": "e: Add: Depreciation expense",
+      "value": 67000
+    },
+    {
+      "label": "e: Add: Amortization of patent",
+      "value": 12000
+    },
+    {
+      "label": "e: Deduct: Amortization of bond premium",
+      "value": -1800
+    },
+    {
+      "label": "e: Deduct: Gain on sale of equipment",
+      "value": -7000
+    },
+    {
+      "label": "e: Add: Loss on bond retirement",
+      "value": 1000
+    },
+    {
+      "label": "e: Deduct: Increase in Accounts receivable (net)",
+      "value": -11000
+    },
+    {
+      "label": "e: Add: Decrease in Inventory",
+      "value": 7000
+    },
+    {
+      "label": "e: Add: Decrease in Prepaid expenses",
+      "value": 3000
+    },
+    {
+      "label": "e: Add: Increase in Accounts payable",
+      "value": 9000
+    },
+    {
+      "label": "e: Deduct: Decrease in Salaries payable",
+      "value": -4000
+    },
+    {
+      "label": "e: Add: Increase in Interest payable",
+      "value": 2500
+    },
+    {
+      "label": "e: Add: Increase in Income taxes payable",
+      "value": 3000
+    },
+    {
+      "label": "e: Net cash provided by operating activities",
+      "value": 183000
+    },
+    {
+      "label": "f: $35,000 equipment sale proceeds - section",
+      "value": "Investing activities (cash inflow)"
+    },
+    {
+      "label": "f: $53,000 bond redemption cash - section",
+      "value": "Financing activities (cash outflow)"
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "Sale of equipment for cash",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 35000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation-Equipment",
+          "debit": 42000,
+          "credit": 0
+        },
+        {
+          "account": "Equipment",
+          "debit": 0,
+          "credit": 70000
+        },
+        {
+          "account": "Gain on Sale of Equipment",
+          "debit": 0,
+          "credit": 7000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "Retirement of $50,000 face bonds at 106 on January 1",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 50000,
+          "credit": 0
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 2000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Bond Retirement",
+          "debit": 1000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 53000
+        }
+      ]
+    },
+    {
+      "part": "c1",
+      "description": "Adjusting entry -- depreciation on equipment",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 67000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation-Equipment",
+          "debit": 0,
+          "credit": 67000
+        }
+      ]
+    },
+    {
+      "part": "c2",
+      "description": "Adjusting entry -- amortization of patent",
+      "lines": [
+        {
+          "account": "Amortization Expense-Patent",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Patent, net",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    },
+    {
+      "part": "c3",
+      "description": "Adjusting entry -- amortization of bond premium (reduces interest expense)",
+      "lines": [
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 1800,
+          "credit": 0
+        },
+        {
+          "account": "Interest Expense",
+          "debit": 0,
+          "credit": 1800
+        }
+      ]
+    }
+  ],
+  "supporting_schedules": {
+    "c_roll_forwards": {
+      "accumulated_depreciation_equipment": {
+        "beginning_balance": 140000,
+        "less_removed_on_disposal": 42000,
+        "plus_depreciation_expense": 67000,
+        "ending_balance": 165000
+      },
+      "patent_net": {
+        "beginning_balance": 48000,
+        "less_amortization": 12000,
+        "ending_balance": 36000
+      },
+      "premium_on_bonds_payable": {
+        "beginning_balance": 6000,
+        "less_premium_written_off_on_retirement": 2000,
+        "balance_after_retirement": 4000,
+        "less_amortization_for_year": 1800,
+        "ending_balance": 2200
+      }
+    },
+    "d_working_capital_changes": [
+      {
+        "item": "Accounts receivable (net)",
+        "beginning": 68000,
+        "ending": 79000,
+        "balance_change": "increase",
+        "balance_change_amount": 11000,
+        "scf_effect": -11000,
+        "scf_sign": "deduct"
+      },
+      {
+        "item": "Inventory",
+        "beginning": 55000,
+        "ending": 48000,
+        "balance_change": "decrease",
+        "balance_change_amount": 7000,
+        "scf_effect": 7000,
+        "scf_sign": "add"
+      },
+      {
+        "item": "Prepaid expenses",
+        "beginning": 8000,
+        "ending": 5000,
+        "balance_change": "decrease",
+        "balance_change_amount": 3000,
+        "scf_effect": 3000,
+        "scf_sign": "add"
+      },
+      {
+        "item": "Accounts payable",
+        "beginning": 42000,
+        "ending": 51000,
+        "balance_change": "increase",
+        "balance_change_amount": 9000,
+        "scf_effect": 9000,
+        "scf_sign": "add"
+      },
+      {
+        "item": "Salaries payable",
+        "beginning": 14000,
+        "ending": 10000,
+        "balance_change": "decrease",
+        "balance_change_amount": 4000,
+        "scf_effect": -4000,
+        "scf_sign": "deduct"
+      },
+      {
+        "item": "Interest payable",
+        "beginning": 5000,
+        "ending": 7500,
+        "balance_change": "increase",
+        "balance_change_amount": 2500,
+        "scf_effect": 2500,
+        "scf_sign": "add"
+      },
+      {
+        "item": "Income taxes payable",
+        "beginning": 11000,
+        "ending": 14000,
+        "balance_change": "increase",
+        "balance_change_amount": 3000,
+        "scf_effect": 3000,
+        "scf_sign": "add"
+      }
+    ]
+  },
+  "insufficient_info": false,
+  "notes": "Bond premium amortization of 1,800 is backed out of the Premium on Bonds Payable roll-forward (6,000 beginning - 2,000 written off with the retired bonds = 4,000; 4,000 - 2,200 ending = 1,800) and is DEDUCTED on the indirect method because it made cash interest paid exceed reported interest expense. The operating total of 183,000 was independently proved by a direct-method recomputation, and the full statement (183,000 operating, -125,000 investing, -41,000 financing) reconciles to the 17,000 increase in Cash."
+}

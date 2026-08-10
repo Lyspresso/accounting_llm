@@ -1,0 +1,53 @@
+{
+  "agent_id": 389,
+  "lo": "LO 21-4",
+  "chapter": 21,
+  "title": "Demonstrate the accounting for an error correction",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 21-4",
+      "concept": "Multi-error PPA correcting JEs; subsequent dep/amort schedules; period-end AJEs after correction; settlement of omitted accrual",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 21-4",
+      "concept": "Number-variant multi-error PPA, measurement schedules, period-end AJEs, settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 21-4",
+      "concept": "Counterbalancing inventory error discovery timing; restatement schedule; BS-only reclass",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 21-4",
+      "concept": "Classify error correction vs estimate change vs principle change vs reporting entity",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 21-4",
+      "concept": "No PPA JE after counterbalancing self-correction; restatement still may apply",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

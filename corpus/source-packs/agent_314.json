@@ -1,0 +1,40 @@
+{
+  "agent_id": 314,
+  "lo": "LO 9-5",
+  "chapter": 9,
+  "title": "Demonstrate moving average, FIFO, and LIFO in a perpetual inventory system",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-5",
+      "concept": "Perpetual MA/FIFO/LIFO schedules; purchase recognition; MA sale settlement; period-end shortage adjusting JEs under each method",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-5",
+      "concept": "Number-variant twin — perpetual MA/FIFO/LIFO schedules; LIFO sale settlement; period-end shortage adjusting JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-5",
+      "concept": "Period-end shortage adjusting JE emphasis; FIFO perpetual equals periodic; LIFO differs by system",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-5",
+      "concept": "Classification of perpetual moving-average update rule and FIFO perpetual-periodic identity",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

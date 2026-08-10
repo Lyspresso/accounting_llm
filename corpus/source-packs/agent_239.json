@@ -1,0 +1,60 @@
+{
+  "agent_id": 239,
+  "lo": "LO 19-3",
+  "chapter": 19,
+  "title": "Account for reacquisition of common stock",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-3",
+      "concept": "Subsequent measurement schedule for multi-lot treasury stock (FIFO); reissuance; year-end equity presentation; formal retirement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-3",
+      "concept": "Number-variant twin — cost-method reacquisition, reissuance above then below cost, ending equity, subsequent retirement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-3",
+      "concept": "Direct retirement above and below original issue price; contrast with treasury cost-method purchase",
+      "type": "multipart",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-3",
+      "concept": "Classification of treasury reissuance excess and cost-method balance-sheet presentation",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

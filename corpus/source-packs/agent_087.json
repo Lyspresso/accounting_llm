@@ -1,0 +1,85 @@
+{
+  "agent_id": 87,
+  "lo": "LO 13-2",
+  "chapter": 13,
+  "title": "Determine the initial and subsequent measurement of finite life intangible assets",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-2",
+      "concept": "Initial recognition at cash-equivalent cost (purchase + fees); subsequent SL amortization schedule; period-end adjusting JEs; capitalize successful defense; disposal gain; presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-2",
+      "concept": "Number-variant twin — initial recognition JE (purchase + fees); amortization schedule with mid-life defense; period-end adjusting JEs; disposal with loss",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-2",
+      "concept": "Initial recognition with zero-interest note (PV); basket purchase relative-FV allocation; mid-year acquisition partial-period amortization; residual value in amort base; five-year amortization disclosure",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-2",
+      "concept": "Classification of amortization life (shorter of legal vs useful) and acceptable credit account for period-end amortization",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 13-2",
+      "concept": "Classification — relative-FV cost allocation in an asset acquisition does not create goodwill",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "answer": "A",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

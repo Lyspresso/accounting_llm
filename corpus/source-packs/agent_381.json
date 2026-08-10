@@ -1,0 +1,46 @@
+{
+  "agent_id": 381,
+  "lo": "LO 20-5",
+  "chapter": 20,
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-5",
+      "concept": "Initial recognition JE for mid-year common issuance; treasury buyback settlement JE; period-end adjusting JEs that finalize net income (emphasis); preferred dividend declaration/settlement; weighted-average shares schedule with time-weighting; basic EPS with cumulative preferred subtraction",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-5",
+      "concept": "Number-variant twin: mid-year common issuance JE; treasury buyback JE; period-end AJs finalizing NI (emphasis); preferred dividend declaration/settlement; WA shares and basic EPS schedules with cumulative preferred",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-5",
+      "concept": "Weighted-average shares with retroactive restatement for a large stock dividend; mid-year issuance and buyback JEs; large stock dividend capitalization JE; noncumulative preferred dividends (subtract only when declared); basic EPS schedule",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-5",
+      "concept": "Classification of how stock splits (vs cash share issuances) enter the weighted-average common shares denominator",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-5",
+      "concept": "Classification of the preferred-dividend subtraction for basic EPS when preferred is cumulative and no dividend is declared",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

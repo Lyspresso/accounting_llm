@@ -1,0 +1,153 @@
+{
+  "id": "agent_280#00",
+  "rounding_convention": "decimal.Decimal only, no floats; ROUND_HALF_UP to the cent applied per period (round-per-period, rounded balances roll forward). Straight-line premium amortization; no PV table factors needed since the issue price is given.",
+  "answers": [
+    {
+      "label": "c: Year 1 beginning unamortized premium",
+      "value": 24000
+    },
+    {
+      "label": "c: Year 1 premium amortization (straight-line)",
+      "value": 2400
+    },
+    {
+      "label": "c: Year 1 ending unamortized premium",
+      "value": 21600
+    },
+    {
+      "label": "c: carrying amount at December 31, Year 1",
+      "value": 421600
+    },
+    {
+      "label": "c: Year 2 beginning unamortized premium",
+      "value": 21600
+    },
+    {
+      "label": "c: Year 2 premium amortization (straight-line)",
+      "value": 2400
+    },
+    {
+      "label": "c: Year 2 ending unamortized premium",
+      "value": 19200
+    },
+    {
+      "label": "c: carrying amount at December 31, Year 2",
+      "value": 419200
+    },
+    {
+      "label": "c: Year 3 beginning unamortized premium",
+      "value": 19200
+    },
+    {
+      "label": "c: Year 3 premium amortization (straight-line)",
+      "value": 2400
+    },
+    {
+      "label": "c: Year 3 ending unamortized premium",
+      "value": 16800
+    },
+    {
+      "label": "c: carrying amount at December 31, Year 3",
+      "value": 416800
+    },
+    {
+      "label": "e: face of convertible bonds remaining after the 50% conversion",
+      "value": 200000
+    },
+    {
+      "label": "e: unamortized premium remaining on the unconverted bonds, December 31, Year 3",
+      "value": 8400
+    },
+    {
+      "label": "e: carrying amount of remaining convertible bonds presented as a long-term liability, December 31, Year 3",
+      "value": 208400
+    },
+    {
+      "label": "e: Common Stock credited on conversion (par)",
+      "value": 20000
+    },
+    {
+      "label": "e: Paid-in Capital in Excess of Par credited on conversion",
+      "value": 188400
+    },
+    {
+      "label": "e: gain or loss recognized on conversion (book value method)",
+      "value": 0
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "January 1, Year 1",
+      "description": "Issuance of convertible bonds at a premium (straight-debt treatment)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 424000,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable",
+          "debit": 0,
+          "credit": 400000
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 0,
+          "credit": 24000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "December 31, Year 1",
+      "description": "Period-end interest payment and straight-line premium amortization",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 21600,
+          "credit": 0
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 2400,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 24000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 3",
+      "description": "Conversion of 50% of the bonds into common stock at book value (after the Year 3 interest/amortization entry); no gain or loss",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 200000,
+          "credit": 0
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 8400,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 20000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Common Stock",
+          "debit": 0,
+          "credit": 188400
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Straight-debt treatment: entire $424,000 to liability, no equity component at issuance. Premium $24,000 / 10 years = $2,400 straight-line per year; annual cash interest $400,000 x 6% = $24,000, so interest expense is $21,600 per year. Part e: the $200,000 face plus $8,400 unamortized premium remaining is reported as a single long-term liability line at its $208,400 carrying amount (premium shown as an addition to Bonds Payable); the bonds are not current because they do not mature until the end of Year 10. Equity accounts credited on conversion are Common Stock $20,000 (4,000 shares x $5 par) and Paid-in Capital in Excess of Par $188,400. Under the book value method required here, NO gain or loss is recognized -- the $208,400 carrying amount of the converted bonds is simply reclassified to equity. The $48 market price does NOT enter the conversion entry; it is a distractor (using it would be the market value method, which would force a loss and is not applied to conversions of the issuer's own convertible debt under U.S. GAAP)."
+}

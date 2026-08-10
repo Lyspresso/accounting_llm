@@ -1,0 +1,83 @@
+{
+  "agent_id": 218,
+  "lo": "LO 13-2",
+  "chapter": 13,
+  "title": "Determine the initial and subsequent measurement of finite life intangible assets",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-2",
+      "concept": "Initial recognition at cash-equivalent cost; multi-year subsequent measurement (amortization) schedule with successful defense recomputation; period-end adjusting JEs; mid-year disposal with amortization to date",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-2",
+      "concept": "Number-variant twin — initial recognition; amortization schedule with mid-life defense; period-end adjusting JEs; mid-year disposal with loss",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-2",
+      "concept": "Partial-period subsequent measurement for mid-year acquisitions; combined period-end amortization JE; multi-asset amortization schedule; disposal of one intangible after several years",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-2",
+      "concept": "Classification of amortization life (shorter of legal vs useful) and partial-year period-end amortization",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 13-2",
+      "concept": "Classification — successful patent defense costs are capitalized and amortized over remaining useful life",
+      "type": "MC",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

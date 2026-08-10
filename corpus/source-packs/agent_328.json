@@ -1,0 +1,73 @@
+{
+  "agent_id": 328,
+  "lo": "LO 11-1",
+  "chapter": 11,
+  "title": "Determine costs to capitalize for land, land improvements, equipment, buildings, and construction in process",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-1",
+      "concept": "Classify and capitalize land, land improvements, equipment, and CIP; expense noncapital costs; initial recognition JE; period-end depreciation adjusting JEs (emphasis); subsequent CV schedule; CIP settlement to Building; equipment disposal",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-1",
+      "concept": "Number-variant twin — classify/capitalize land, land improvements, equipment, and CIP; period-end dep AJs (emphasis); subsequent CV schedule; CIP → Building; equipment disposal",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-1",
+      "concept": "Self-constructed asset cost accumulation in CIP; completion JE with fair-value ceiling (cost > FV → loss); period-end depreciation adjusting JE (emphasis); subsequent CV schedule; disposal settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-1",
+      "concept": "Classification — which costs are capitalized as Land (nondepreciable) versus land improvements or period expense",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 11-1",
+      "concept": "Classification / method — when costs move from CIP to Building and when depreciation begins",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

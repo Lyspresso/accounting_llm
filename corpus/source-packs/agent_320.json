@@ -1,0 +1,71 @@
+{
+  "agent_id": 320,
+  "lo": "LO 10-2",
+  "chapter": 10,
+  "title": "Apply lower of cost or market rule to inventory",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-2",
+      "concept": "Initial recognition at LIFO cost; item-level LCM market (ceiling/floor/RC) schedule; multi-year subsequent measurement of allowance; period-end adjusting JEs (emphasis); disposal close of allowance",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-2",
+      "concept": "Number-variant twin — item-level LCM (ceiling/floor/RC); multi-year subsequent allowance schedule; period-end adjusting JEs; disposal close of allowance",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-2",
+      "concept": "Period-end adjusting JE emphasis — compute designated market from ceiling/floor/RC edge cases; COGS vs holding loss; two-year allowance true-up; BS/IS presentation",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-2",
+      "concept": "Classification of LCM vs LCNRV by inventory cost method; designated market as middle of RC, ceiling, and floor",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "answers": ["C", "B"],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

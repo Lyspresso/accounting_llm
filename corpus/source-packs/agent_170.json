@@ -1,0 +1,84 @@
+{
+  "agent_id": 170,
+  "lo": "LO 8-1",
+  "chapter": 8,
+  "title": "Classify cash, cash equivalents, restricted cash, and compensating balances",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-1",
+      "concept": "Subsequent measurement / classification schedule for cash, cash equivalents, and restricted cash; initial recognition and maturity JEs; Dec 31 classification",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-1",
+      "concept": "Number-variant twin — subsequent classification schedule, initial recognition, maturity, and Dec 31 cash presentation (all numbers changed)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-1",
+      "concept": "Period-end adjusting/reclassifying JEs for cash-related misclassifications; subsequent classification bridge from unadjusted cash; settlement release of restricted compensating balance",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-1",
+      "concept": "Compute cash and cash equivalents from mixed cash-related balances",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 8-1",
+      "concept": "Classification of a legally restricted compensating balance held against long-term debt",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "C",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

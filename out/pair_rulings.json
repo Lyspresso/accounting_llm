@@ -1,0 +1,25 @@
+{
+ "building_singular": {
+  "canonical": "Building",
+  "losing_form": "Buildings",
+  "evidence": "textbook 454/66 singular vs 55/15 plural; corpus 55 vs 0",
+  "compound_bases": [
+   "Accumulated Depreciation"
+  ]
+ },
+ "income_tax_payable_singular": {
+  "canonical": "Income Tax Payable",
+  "losing_form": "Income Taxes Payable",
+  "evidence": "textbook 128/59 vs 34/19; corpus 173 vs 34",
+  "compound_bases": []
+ },
+ "note_payable_singular": {
+  "canonical": "Note Payable",
+  "losing_form": "Notes Payable",
+  "evidence": "textbook 612/154 vs 82/36",
+  "compound_bases": [
+   "Discount on",
+   "Premium on"
+  ]
+ }
+}

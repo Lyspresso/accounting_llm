@@ -1,0 +1,46 @@
+{
+  "agent_id": 311,
+  "lo": "LO 9-2",
+  "chapter": 9,
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-2",
+      "concept": "Initial recognition under gross method; AP settlement and returns; sales without COGS; period-end adjusting JE that records EI, closes temps/BI, residual COGS; COGS schedule",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-2",
+      "concept": "Number-variant twin—gross-method initial recognition, AP settlement, sale without COGS, COGS schedule, period-end inventory adjusting JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-2",
+      "concept": "Net-method initial recognition; return and settlement at net; lost discount as Interest Expense; sale without COGS; period-end inventory adjusting JE and COGS schedule",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-2",
+      "concept": "Classification of when COGS is recognized and what the period-end inventory entry accomplishes in a periodic system",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 9-2",
+      "concept": "Classification of unused purchase discount under gross vs net method in a periodic system",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

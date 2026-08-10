@@ -1,0 +1,173 @@
+{
+ "id": "agent_164#02",
+ "rounding_convention": "decimal.Decimal for all money; ROUND_HALF_UP to 2 decimal places, applied once per period. No floats.",
+ "answers": [
+  {
+   "label": "a: 1. Principal payment on finance lease liability",
+   "value": "F outflow",
+   "note": "Lease principal repays a borrowing-type liability -> financing outflow."
+  },
+  {
+   "label": "a: 2. Cash purchase of trading equity securities (short-term resale profits)",
+   "value": "O outflow",
+   "note": "Trading securities bought for short-term resale -> operating outflow."
+  },
+  {
+   "label": "a: 3. Cash proceeds from sale of those same trading securities",
+   "value": "O inflow",
+   "note": "Sale of trading securities -> operating inflow (same section as the purchase)."
+  },
+  {
+   "label": "a: 4. Cash purchase of available-for-sale debt securities held for long-term yield",
+   "value": "I outflow",
+   "note": "Non-trading investment purchase -> investing outflow."
+  },
+  {
+   "label": "a: 5. Collection of principal on a short-term TRADE note receivable (from inventory sale)",
+   "value": "O inflow",
+   "note": "Trade receivable/note from selling inventory -> operating inflow."
+  },
+  {
+   "label": "a: 6. Collection of interest on that same trade note",
+   "value": "O inflow",
+   "note": "Interest received is operating under GAAP."
+  },
+  {
+   "label": "a: 7. Cash paid for early extinguishment of long-term bonds (principal + cash premium)",
+   "value": "F outflow",
+   "note": "Retirement of debt principal (and premium, per this LO) -> financing outflow."
+  },
+  {
+   "label": "a: 8. Cash proceeds from sale of a patent",
+   "value": "I inflow",
+   "note": "Disposal of a long-lived (intangible) asset -> investing inflow."
+  },
+  {
+   "label": "a: 9. Cash from issuance of a short-term NONTRADE note payable for general financing",
+   "value": "F inflow",
+   "note": "Nontrade borrowing, regardless of term -> financing inflow."
+  },
+  {
+   "label": "a: 10. Payment of cash dividend declared in the prior year",
+   "value": "F outflow",
+   "note": "Dividends paid to owners -> financing outflow."
+  },
+  {
+   "label": "b: Cash in bank (unrestricted) included in period-end cash total",
+   "value": "48000.00"
+  },
+  {
+   "label": "b: Money-market cash equivalents included",
+   "value": "12000.00"
+  },
+  {
+   "label": "b: Restricted cash included (ASU 2016-18 requires inclusion)",
+   "value": "5000.00"
+  },
+  {
+   "label": "b: Short-term AFS equity investments EXCLUDED (not a cash equivalent)",
+   "value": "22000.00"
+  },
+  {
+   "label": "b: Ending cash, cash equivalents, and restricted cash (SCF reconciliation total)",
+   "value": "65000.00"
+  },
+  {
+   "label": "b: Net cash provided by operating activities",
+   "value": "90000.00"
+  },
+  {
+   "label": "b: Net cash used by investing activities",
+   "value": "-70000.00"
+  },
+  {
+   "label": "b: Net cash used by financing activities",
+   "value": "-15000.00"
+  },
+  {
+   "label": "b: Net increase in cash, cash equivalents, and restricted cash",
+   "value": "5000.00"
+  },
+  {
+   "label": "b: Beginning cash, cash equivalents, and restricted cash (solved)",
+   "value": "60000.00"
+  },
+  {
+   "label": "c: Patent sale - Dr Cash",
+   "value": "22500.00"
+  },
+  {
+   "label": "c: Patent sale - Cr Patent (book value removed)",
+   "value": "18000.00"
+  },
+  {
+   "label": "c: Patent sale - Cr Gain on Sale of Patent",
+   "value": "4500.00"
+  },
+  {
+   "label": "c: Patent sale - SCF section",
+   "value": "Investing inflow $22,500.00 (gain of $4,500.00 subtracted from net income in operating under the indirect method)"
+  },
+  {
+   "label": "c: Finance lease principal payment - Dr Lease Liability",
+   "value": "9000.00"
+  },
+  {
+   "label": "c: Finance lease principal payment - Cr Cash",
+   "value": "9000.00"
+  },
+  {
+   "label": "c: Finance lease principal payment - SCF section",
+   "value": "Financing outflow $9,000.00 (interest paid is reported as operating)"
+  },
+  {
+   "label": "d: True/False with correction",
+   "value": "FALSE. Investing (and financing) cash flows must be reported GROSS on the face of the statement: gross cash receipts (e.g., proceeds from sales of equipment) and gross cash payments (e.g., purchases of equipment) are shown as separate line items; they may not be netted against each other merely to simplify the statement. (Net reporting is allowed only in the narrow exception for items with quick turnover, large amounts, and short maturities, such as demand-loan or commercial-paper activity.)"
+  },
+  {
+   "label": "e: Required section order on the face of the SCF",
+   "value": "1. Operating activities | 2. Investing activities | 3. Financing activities | 4. Net increase (decrease) in cash, cash equivalents, and restricted cash | 5. Cash, cash equivalents, and restricted cash - beginning of period | 6. Cash, cash equivalents, and restricted cash - end of period | 7. Supplemental disclosure of noncash investing and financing activities"
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "c",
+   "description": "Sale of patent (book value $18,000) for $22,500 cash - SCF: INVESTING INFLOW $22,500 (full proceeds); gain deducted from net income in the operating section under the indirect method.",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": "22500.00",
+     "credit": "0.00"
+    },
+    {
+     "account": "Patent",
+     "debit": "0.00",
+     "credit": "18000.00"
+    },
+    {
+     "account": "Gain on Sale of Patent",
+     "debit": "0.00",
+     "credit": "4500.00"
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "description": "Cash principal payment on finance lease liability - SCF: FINANCING OUTFLOW $9,000 (interest portion paid separately is operating).",
+   "lines": [
+    {
+     "account": "Lease Liability (finance lease)",
+     "debit": "9000.00",
+     "credit": "0.00"
+    },
+    {
+     "account": "Cash",
+     "debit": "0.00",
+     "credit": "9000.00"
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Part A: trading securities bought for short-term resale profit are operating (both purchase and sale); AFS/held-for-yield investments are investing; trade notes receivable arising from inventory sales are operating for BOTH principal and interest, while a nontrade note payable is financing; interest received/paid is operating under US GAAP; finance-lease PRINCIPAL is financing. Part B: under ASU 2016-18 restricted cash is included in the SCF total, so ending total = 48,000 + 12,000 + 5,000 = 65,000; short-term AFS equity securities of 22,000 are excluded. Net change = 90,000 - 70,000 - 15,000 = +5,000, so beginning cash = 65,000 - 5,000 = 60,000. Part C: gain on patent = 22,500 - 18,000 = 4,500; the FULL 22,500 proceeds go in investing. Part D: gross presentation is required for investing and financing."
+}

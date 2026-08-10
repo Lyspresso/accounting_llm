@@ -1,0 +1,81 @@
+{
+ "id": "agent_319#01",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent, applied once per period (Dec 31 period-end); no floating-point arithmetic",
+ "answers": [
+  {
+   "label": "a: LCNRV by item \u2014 Grain Blend",
+   "value": 32500
+  },
+  {
+   "label": "a: LCNRV by item \u2014 Senior Blend",
+   "value": 21000
+  },
+  {
+   "label": "a: LCNRV by item \u2014 Chew Rope",
+   "value": 14500
+  },
+  {
+   "label": "a: LCNRV by item \u2014 Puzzle Toy",
+   "value": 26500
+  },
+  {
+   "label": "a: Total inventory at LCNRV \u2014 individual-item approach",
+   "value": 94500
+  },
+  {
+   "label": "a: LCNRV by category \u2014 Dry Food",
+   "value": 55500
+  },
+  {
+   "label": "a: LCNRV by category \u2014 Accessories",
+   "value": 42300
+  },
+  {
+   "label": "a: Total inventory at LCNRV \u2014 category approach",
+   "value": 97800
+  },
+  {
+   "label": "a: Total inventory at LCNRV \u2014 total (whole-inventory) approach",
+   "value": 97800
+  },
+  {
+   "label": "a: Write-down required \u2014 individual-item approach",
+   "value": 6000
+  },
+  {
+   "label": "b: Dr Cost of Goods Sold",
+   "value": 6000
+  },
+  {
+   "label": "b: Cr Allowance to Reduce Inventory to NRV",
+   "value": 6000
+  },
+  {
+   "label": "c: Inventory, net on the balance sheet (cost 100500 less allowance 6000)",
+   "value": 94500
+  },
+  {
+   "label": "c: Cost of Goods Sold after adjustment",
+   "value": 261000
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 6000,
+     "credit": 0
+    },
+    {
+     "account": "Allowance to Reduce Inventory to NRV",
+     "debit": 0,
+     "credit": 6000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Item approach writes each item down to the lower of its own cost or NRV: Grain Blend and Puzzle Toy are impaired (3,500 + 2,500 = 6000); the gains on Senior Blend and Chew Rope are ignored. Category approach nets within a category (Dry Food NRV 55500 < cost 57000; Accessories NRV 42300 < cost 43500) giving a 2700 write-down, and the total approach also gives 2700 \u2014 both smaller than the item approach because gains offset losses. Company policy is the item approach, so the recorded write-down is 6000. Allowance method keeps Inventory at cost 100500 and reports it net of the allowance; the charge goes to COGS, so COGS rises from 255000 to 261000. Average cost is used, so LCNRV (not LCM with a ceiling/floor) applies."
+}

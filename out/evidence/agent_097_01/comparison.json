@@ -1,0 +1,25 @@
+{
+ "id": "agent_097#01",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 8,
+  "routed_stage2": 1,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "dr",
+   "amount": 4000.0,
+   "solver": "interest expense",
+   "key_options": [
+    "interest expense",
+    "interest expense 120 000 0 08 5 12",
+    "interest payable"
+   ]
+  }
+ ]
+}

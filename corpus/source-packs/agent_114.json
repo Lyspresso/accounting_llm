@@ -1,0 +1,46 @@
+{
+  "agent_id": 114,
+  "lo": "LO 20-1",
+  "chapter": 20,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-1",
+      "concept": "Initial recognition JE at grant-date fair value; subsequent straight-line amortization schedule; period-end adjusting JE; balance sheet presentation; forfeiture (as incurred) settlement JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-1",
+      "concept": "Number-variant twin of RSA initial recognition, multi-year amortization schedule, period-end expense, full-period vesting settlement of unearned balance, and equity presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-1",
+      "concept": "RSU period-end adjusting JEs; subsequent measurement with estimated forfeitures; cumulative catch-up for change in estimate; disposal/settlement JE when units vest and shares are issued; classification of PIC—Restricted Stock",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-1",
+      "concept": "Classification / presentation difference between restricted stock awards and restricted stock units at the grant date",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-1",
+      "concept": "Classification of forfeiture accounting methods (estimate vs as incurred) and effect on period-end expense",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

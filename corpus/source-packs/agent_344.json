@@ -1,0 +1,64 @@
+{
+  "agent_id": 344,
+  "lo": "LO 12-6",
+  "chapter": 12,
+  "title": "Account for errors in reporting property, plant, and equipment",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-6",
+      "concept": "Capital asset incorrectly expensed as maintenance; multi-year omitted-depreciation schedule; PPA; period-end adjusting dep after correction; disposal with corrected BV",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-6",
+      "concept": "Number-variant twin: capital asset incorrectly expensed; schedule, PPA, period-end dep, disposal",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-6",
+      "concept": "Wrong salvage value: schedule + PPA + period-end dep; misrecorded disposal of fully depreciated equipment via PPA; same-period correction alternate",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-6",
+      "concept": "MC: net RE effect of double depreciation + missed partial-year dep; classify error (PPA) vs change in estimate",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

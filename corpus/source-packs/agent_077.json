@@ -1,0 +1,46 @@
+{
+  "agent_id": 77,
+  "lo": "LO 12-11",
+  "chapter": 12,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-11",
+      "concept": "Initial recognition of PPE at cost; full MACRS (5-year) tax schedule vs GAAP straight-line schedule; Year-1 book depreciation adjusting JE; book vs tax total comparison",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-11",
+      "concept": "Number-variant twin: initial PPE recognition; MACRS three-year tax schedule vs book SL; period-end book JE; cumulative comparison",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-11",
+      "concept": "Subsequent book and tax bases after multi-year depreciation; period-end book adjusting JE in year of sale; disposal JE; classification of book vs tax gain/loss",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-11",
+      "concept": "Classification of MACRS as tax-only; residual value and statutory rates vs GAAP useful life",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-11",
+      "concept": "Why tax depreciation often exceeds book depreciation in early years; temporary difference driver",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

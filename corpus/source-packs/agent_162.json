@@ -1,0 +1,55 @@
+{
+  "agent_id": 162,
+  "lo": "LO 18-6",
+  "chapter": 18,
+  "title": "Explain how a change in tax rates impacts deferred taxes",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-6",
+      "concept": "Multi-rate enacted schedule for taxable TD; initial DTL+current tax JE; subsequent DTL rollforward; period-end reversal JEs; Year-4 settlement; BS classification",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-6",
+      "concept": "Number-variant twin — multi-rate DTL origin, subsequent measurement schedule, and full reverse path with changed facts",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-6",
+      "concept": "Period-end remeasurement of existing DTA and DTL when rate decreases; net income effect; Year-2 settlement of deferred balances; enactment-only rule; noncurrent presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-6",
+      "concept": "Measure DTL at enacted reversal-year rate; remeasure in period of enactment; ignore unenacted anticipated rates",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 18-6",
+      "concept": "Direction of tax expense when rate falls: DTA write-down increases expense; DTL write-down decreases expense; net effect",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

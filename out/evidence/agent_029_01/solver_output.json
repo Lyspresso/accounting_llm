@@ -1,0 +1,155 @@
+{
+  "id": "agent_029#01",
+  "rounding_convention": "decimal.Decimal throughout; money quantized to 0.01 with ROUND_HALF_UP per period (per year), not at end; percentages quantized to 0.01 percentage points with ROUND_HALF_UP; no floats",
+  "answers": [
+    {
+      "label": "a: taxable income Year 1",
+      "value": 304000
+    },
+    {
+      "label": "a: taxable income Year 2",
+      "value": 312000
+    },
+    {
+      "label": "a: taxable income Year 3",
+      "value": 334000
+    },
+    {
+      "label": "a: income tax payable Year 1",
+      "value": 76000
+    },
+    {
+      "label": "a: income tax payable Year 2",
+      "value": 78000
+    },
+    {
+      "label": "a: income tax payable Year 3",
+      "value": 83500
+    },
+    {
+      "label": "b: deferred tax liability ending balance Year 1",
+      "value": 12000
+    },
+    {
+      "label": "b: deferred tax liability ending balance Year 2",
+      "value": 0
+    },
+    {
+      "label": "b: deferred tax liability ending balance Year 3",
+      "value": 0
+    },
+    {
+      "label": "b: deferred tax asset ending balance Year 1",
+      "value": 9000
+    },
+    {
+      "label": "b: deferred tax asset ending balance Year 2",
+      "value": 6000
+    },
+    {
+      "label": "b: deferred tax asset ending balance Year 3",
+      "value": 3000
+    },
+    {
+      "label": "d: Year 1 tax at statutory rate (dollars)",
+      "value": 80000
+    },
+    {
+      "label": "d: Year 1 statutory rate (percent)",
+      "value": 25
+    },
+    {
+      "label": "d: Year 1 tax-exempt municipal interest effect (dollars)",
+      "value": -1000
+    },
+    {
+      "label": "d: Year 1 tax-exempt municipal interest effect (percent)",
+      "value": -0.31
+    },
+    {
+      "label": "d: Year 1 income tax expense / effective tax (dollars)",
+      "value": 79000
+    },
+    {
+      "label": "d: Year 1 effective tax rate (percent)",
+      "value": 24.69
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "c",
+      "description": "December 31, Year 1 income tax entry",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 79000,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Asset",
+          "debit": 9000,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Liability",
+          "debit": 0,
+          "credit": 12000
+        },
+        {
+          "account": "Income Tax Payable",
+          "debit": 0,
+          "credit": 76000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "December 31, Year 2 income tax entry",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 69000,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Liability",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Asset",
+          "debit": 0,
+          "credit": 3000
+        },
+        {
+          "account": "Income Tax Payable",
+          "debit": 0,
+          "credit": 78000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "December 31, Year 3 income tax entry",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 86500,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Asset",
+          "debit": 0,
+          "credit": 3000
+        },
+        {
+          "account": "Income Tax Payable",
+          "debit": 0,
+          "credit": 83500
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Municipal interest is a permanent difference (no deferred tax). Prepaid insurance creates a taxable temporary difference / DTL at 12/31/Y1 that fully reverses in Y2. Warranty accrual creates a deductible temporary difference / DTA reversing 12,000 per year in Y2-Y4, so 3,000 of DTA remains at 12/31/Y3 for the Y4 settlement. Deferred balances are stated gross (DTL and DTA shown separately) as the Required part asks for each."
+}

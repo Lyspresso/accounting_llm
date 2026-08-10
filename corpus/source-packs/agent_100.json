@@ -1,0 +1,46 @@
+{
+  "agent_id": 100,
+  "lo": "LO 16-10",
+  "chapter": 16,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-10",
+      "concept": "Initial recognition JE for bonds issued at a discount; effective-interest subsequent schedule; period-end interest adjusting JE; current-maturity reclass; five-year debt maturity disclosure; fair value / collateral / unused credit disclosures; leverage ratios",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-10",
+      "concept": "Number-variant twin — initial recognition of bonds at a premium; effective-interest schedule; period-end adj; five-year maturities; unused credit and FV disclosure; leverage ratios with all new amounts",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-10",
+      "concept": "Settlement JEs (coupon payment and early extinguishment); update amortization to retirement date; financing vs operating cash-flow classification; recompute leverage ratios after debt retirement; maturity disclosure change",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-10",
+      "concept": "Classification / disclosure — ASC 470 five-year aggregate maturities requirement",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-10",
+      "concept": "Times interest earned ratio definition and leverage analysis",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

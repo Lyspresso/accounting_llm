@@ -1,0 +1,206 @@
+{
+ "id": "agent_360#00",
+ "rounding_convention": "decimal.Decimal only (no floats); quantized to $0.01 with ROUND_HALF_UP, applied per period/line item (each year's 2.0% warranty accrual rounded before entering the roll-forward). Amounts here are exact whole dollars.",
+ "answers": [
+  {
+   "label": "a: 12/31/Y1 AJE - Dr Loss from Litigation / Cr Estimated Litigation Liability (better estimate within the probable, estimable range)",
+   "value": 120000
+  },
+  {
+   "label": "b: 12/31/Y1 recognized-subsequent-event AJE - additional Dr Loss from Litigation / Cr Estimated Litigation Liability",
+   "value": 25000
+  },
+  {
+   "label": "b: remeasured 12/31/Y1 Estimated Litigation Liability balance after the 2/18/Y2 settlement agreement",
+   "value": 145000
+  },
+  {
+   "label": "c: 5/1/Y2 - Dr Estimated Litigation Liability / Cr Cash",
+   "value": 145000
+  },
+  {
+   "label": "d: Year 1 product sales - Dr Cash / Cr Sales Revenue",
+   "value": 3200000
+  },
+  {
+   "label": "d: 12/31/Y1 warranty AJE - Dr Warranty Expense / Cr Estimated Warranty Liability",
+   "value": 64000
+  },
+  {
+   "label": "d: Year 1 claims settled - Dr Estimated Warranty Liability / Cr Cash",
+   "value": 18000
+  },
+  {
+   "label": "e: Year 1 beginning warranty liability",
+   "value": 0
+  },
+  {
+   "label": "e: Year 1 warranty accrual (2.0% of sales)",
+   "value": 64000
+  },
+  {
+   "label": "e: Year 1 actual claims paid",
+   "value": 18000
+  },
+  {
+   "label": "e: Year 1 ending warranty liability",
+   "value": 46000
+  },
+  {
+   "label": "e: Year 2 beginning warranty liability",
+   "value": 46000
+  },
+  {
+   "label": "e: Year 2 warranty accrual (2.0% of sales)",
+   "value": 72000
+  },
+  {
+   "label": "e: Year 2 actual claims paid",
+   "value": 52000
+  },
+  {
+   "label": "e: Year 2 ending warranty liability",
+   "value": 66000
+  },
+  {
+   "label": "e: Year 3 beginning warranty liability",
+   "value": 66000
+  },
+  {
+   "label": "e: Year 3 warranty accrual (2.0% of sales)",
+   "value": 80000
+  },
+  {
+   "label": "e: Year 3 actual claims paid",
+   "value": 61000
+  },
+  {
+   "label": "e: Year 3 ending warranty liability",
+   "value": 85000
+  },
+  {
+   "label": "f: 12/31/Y2 warranty AJE - Dr Warranty Expense / Cr Estimated Warranty Liability",
+   "value": 72000
+  },
+  {
+   "label": "g: if the litigation loss were only reasonably possible at 12/31/Y1, what period-end reporting applies?",
+   "value": "No period-end adjusting entry and no accrued liability - the $120,000 is not recorded; Ironwood instead discloses the loss contingency in the Year 1 notes, describing the nature of the lawsuit and the estimated loss (or range of $90,000-$280,000)."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "description": "12/31/Y1 period-end AJE - accrue probable & estimable litigation loss at counsel's better estimate",
+   "lines": [
+    {
+     "account": "Loss from Litigation (Litigation Expense)",
+     "debit": 120000,
+     "credit": 0
+    },
+    {
+     "account": "Estimated Litigation Liability",
+     "debit": 0,
+     "credit": 120000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "description": "12/31/Y1 period-end AJE - recognized subsequent event: remeasure litigation liability to the 2/18/Y2 settlement amount",
+   "lines": [
+    {
+     "account": "Loss from Litigation (Litigation Expense)",
+     "debit": 25000,
+     "credit": 0
+    },
+    {
+     "account": "Estimated Litigation Liability",
+     "debit": 0,
+     "credit": 25000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "description": "5/1/Y2 - pay litigation settlement",
+   "lines": [
+    {
+     "account": "Estimated Litigation Liability",
+     "debit": 145000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 145000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "description": "Year 1 - record cash product sales",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 3200000,
+     "credit": 0
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0,
+     "credit": 3200000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "description": "12/31/Y1 period-end AJE - accrue assurance-type warranty at 2.0% of Year 1 sales",
+   "lines": [
+    {
+     "account": "Warranty Expense",
+     "debit": 64000,
+     "credit": 0
+    },
+    {
+     "account": "Estimated Warranty Liability",
+     "debit": 0,
+     "credit": 64000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "description": "Year 1 - actual warranty claims paid in cash",
+   "lines": [
+    {
+     "account": "Estimated Warranty Liability",
+     "debit": 18000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 18000
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "description": "12/31/Y2 period-end AJE - accrue assurance-type warranty at 2.0% of Year 2 sales",
+   "lines": [
+    {
+     "account": "Warranty Expense",
+     "debit": 72000,
+     "credit": 0
+    },
+    {
+     "account": "Estimated Warranty Liability",
+     "debit": 0,
+     "credit": 72000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Litigation: loss is probable and reasonably estimable, so ASC 450-20 requires accrual at 12/31/Y1; when a point estimate within the range is the better estimate it is accrued (120000), not the range minimum (90000). The 2/18/Y2 settlement is a RECOGNIZED (Type 1) subsequent event because the underlying condition (the Oct Y1 accident) existed at the balance-sheet date and the agreement occurred before the 3/10/Y2 issuance date, so the 12/31/Y1 liability is adjusted up by 25000.00 to the 145000.00 settlement amount; the $350,000 amount sought is not the measurement basis. Warranty: an assurance-type (two-year) warranty is not a separate performance obligation, so no revenue is deferred - expense is accrued at 2.0% of each year's sales in the period-end AJE and actual cash claims reduce the liability, regardless of which year's sales the claims relate to. Year 1 begins with a zero warranty liability. All entries balance (Dr = Cr)."
+}

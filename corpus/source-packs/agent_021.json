@@ -1,0 +1,59 @@
+{
+  "agent_id": 21,
+  "lo": "LO 17-12",
+  "chapter": 17,
+  "title": "Describe the difference in accounting for a sale-leaseback versus a failed sale",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-12",
+      "concept": "Initial recognition JEs and Year-1 subsequent measurement — sale-leaseback (operating) versus failed sale (finance liability)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-12",
+      "concept": "Number-variant twin — initial recognition and first-year measurement for sale-leaseback vs failed sale",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-12",
+      "concept": "Failed-sale note amortization through final settlement; continued depreciation over remaining useful life",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-12",
+      "concept": "Classify transfer as sale-leaseback or failed sale based on leaseback type (control)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

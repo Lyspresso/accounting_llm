@@ -1,0 +1,47 @@
+{
+  "agent_id": 204,
+  "lo": "LO 11-8",
+  "chapter": 11,
+  "title": "Account for contributed property, plant, and equipment",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-8",
+      "concept": "Initial recognition of contributed land and building at FV; multi-year depreciation schedule; period-end dep JE; disposal of donated building",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-8",
+      "concept": "Initial recognition of contributed land and building (number variant); multi-year dep schedule; period-end dep JE; disposal with gain",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-8",
+      "concept": "Contributed equipment at FV; partial-year depreciation schedule; period-end adjusting JEs; disposal at scrap value",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-8",
+      "concept": "Contributed PPE measurement basis and contribution revenue net of recipient cash costs",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 11-8",
+      "concept": "Which portion of a contributed plant is depreciated after initial recognition at FV",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

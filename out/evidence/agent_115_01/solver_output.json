@@ -1,0 +1,167 @@
+{
+  "id": "agent_115#01",
+  "rounding_convention": "ROUND_HALF_UP to the cent, applied per period: each year's cumulative SARs liability is rounded first and the rounded balance drives the next year's expense plug. No PV discounting applies to this item.",
+  "answers": [
+    {
+      "label": "a: Year 1 aggregate compensation (year-end FV x 8,000 SARs)",
+      "value": 16000
+    },
+    {
+      "label": "a: Year 1 percent of service period accrued",
+      "value": 25
+    },
+    {
+      "label": "a: Year 1 cumulative SARs liability",
+      "value": 4000
+    },
+    {
+      "label": "a: Year 1 annual compensation expense",
+      "value": 4000
+    },
+    {
+      "label": "a: Year 2 aggregate compensation (year-end FV x 8,000 SARs)",
+      "value": 40000
+    },
+    {
+      "label": "a: Year 2 percent of service period accrued",
+      "value": 50
+    },
+    {
+      "label": "a: Year 2 cumulative SARs liability",
+      "value": 20000
+    },
+    {
+      "label": "a: Year 2 annual compensation expense",
+      "value": 16000
+    },
+    {
+      "label": "a: Year 3 aggregate compensation (year-end FV x 8,000 SARs)",
+      "value": 24000
+    },
+    {
+      "label": "a: Year 3 percent of service period accrued",
+      "value": 75
+    },
+    {
+      "label": "a: Year 3 cumulative SARs liability",
+      "value": 18000
+    },
+    {
+      "label": "a: Year 3 annual compensation expense",
+      "value": -2000
+    },
+    {
+      "label": "a: Year 4 aggregate compensation (year-end FV x 8,000 SARs)",
+      "value": 48000
+    },
+    {
+      "label": "a: Year 4 percent of service period accrued",
+      "value": 100
+    },
+    {
+      "label": "a: Year 4 cumulative SARs liability",
+      "value": 48000
+    },
+    {
+      "label": "a: Year 4 annual compensation expense",
+      "value": 30000
+    },
+    {
+      "label": "d: total compensation expense over the service period",
+      "value": 48000
+    },
+    {
+      "label": "d: cash paid at settlement",
+      "value": 48000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "date": "December 31, Year 1",
+      "description": "To record compensation expense (SARs remeasurement)",
+      "lines": [
+        {
+          "account": "Compensation Expense",
+          "debit": 4000,
+          "credit": 0
+        },
+        {
+          "account": "SARs Liability",
+          "debit": 0,
+          "credit": 4000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "December 31, Year 2",
+      "description": "To record compensation expense (SARs remeasurement)",
+      "lines": [
+        {
+          "account": "Compensation Expense",
+          "debit": 16000,
+          "credit": 0
+        },
+        {
+          "account": "SARs Liability",
+          "debit": 0,
+          "credit": 16000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "December 31, Year 3",
+      "description": "To record compensation expense (SARs remeasurement)",
+      "lines": [
+        {
+          "account": "SARs Liability",
+          "debit": 2000,
+          "credit": 0
+        },
+        {
+          "account": "Compensation Expense",
+          "debit": 0,
+          "credit": 2000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "December 31, Year 4",
+      "description": "To record compensation expense (SARs remeasurement)",
+      "lines": [
+        {
+          "account": "Compensation Expense",
+          "debit": 30000,
+          "credit": 0
+        },
+        {
+          "account": "SARs Liability",
+          "debit": 0,
+          "credit": 30000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 4",
+      "description": "To record exercise/settlement of the SARs plan in cash",
+      "lines": [
+        {
+          "account": "SARs Liability",
+          "debit": 48000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 48000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Liability-classified SARs are remeasured to fair value each period, so the annual expense is the change in the cumulative accrued liability and is negative in Year 3 (-2,000) when fair value fell from $5.00 to $3.00. At December 31, Year 4 the year-end fair value of $6.00 equals the intrinsic value ($21 - $15), so the fully accrued liability of 48,000 exactly equals the 48,000 cash paid and the settlement entry records no gain or loss. Part d is satisfied: 4,000 + 16,000 - 2,000 + 30,000 = 48,000 = cash paid."
+}

@@ -1,0 +1,90 @@
+{
+  "agent_id": 11,
+  "lo": "LO 16-1",
+  "chapter": 16,
+  "title": "Identify types and features of bonds",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-1",
+      "concept": "Bond types/features + issuer initial recognition at discount + effective-interest schedule",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-1",
+      "concept": "Bond types/features + issuer initial recognition at discount (all numbers changed)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-1",
+      "concept": "Period-end interest accrual (payment dates ≠ reporting date) + maturity derecognition",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3B",
+      "lo": "LO 16-1",
+      "concept": "Period-end adjusting JE with effective-interest discount amortization",
+      "type": "JE",
+      "angles": [
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4-1",
+      "lo": "LO 16-1",
+      "concept": "Classify bond types from indenture facts",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4-2",
+      "lo": "LO 16-1",
+      "concept": "Indenture features vs market-determined features",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "QL",
+      "lo": "LO 16-1",
+      "concept": "Types/features → issuance → schedule → final interest → maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 7,
+  "ok": true
+}

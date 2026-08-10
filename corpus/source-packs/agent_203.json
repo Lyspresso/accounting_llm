@@ -1,0 +1,62 @@
+{
+  "agent_id": 203,
+  "lo": "LO 11-7",
+  "chapter": 11,
+  "title": "Account for disposal of property, plant, and equipment",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-7",
+      "concept": "Initial PPE cost; multi-year subsequent measurement (AD/BV schedule); period-end dep; disposal-date dep update; sale with gain",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-7",
+      "concept": "Number-variant twin: acquisition, multi-year AD/BV schedule, disposal-date dep update, sale at a loss",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-7",
+      "concept": "Shared subsequent measurement schedule; dep update; sale at loss, sale at gain with removal costs, and involuntary/abandonment disposal",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-7",
+      "concept": "Reading carrying amount from the subsequent measurement schedule; required sequence before recording disposal",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

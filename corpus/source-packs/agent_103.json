@@ -1,0 +1,86 @@
+{
+  "agent_id": 103,
+  "lo": "LO 16-9",
+  "chapter": 16,
+  "title": "Apply the fair value option for liabilities",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-9",
+      "concept": "Fair value option for liabilities — initial recognition JE, period-end FV adjustments (general risk), subsequent measurement schedule, maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-9",
+      "concept": "Number-variant twin — FVO initial recognition, subsequent measurement schedule (including FV above amortized cost), period-end adjusting JEs",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-9",
+      "concept": "FVO with bonds issued at a discount — update amortized cost first, then FVA; instrument-specific credit risk to OCI; settlement and AOCI reclassification",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4A",
+      "lo": "LO 16-9",
+      "concept": "Classification — general risk vs instrument-specific credit risk under the fair value option for liabilities",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q4B",
+      "lo": "LO 16-9",
+      "concept": "FVO election rules — irrevocable, entire instrument, instrument-by-instrument",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

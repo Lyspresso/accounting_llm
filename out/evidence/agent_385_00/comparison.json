@@ -1,0 +1,126 @@
+{
+ "id": "agent_385#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 23,
+  "routed_stage2": 10,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "g: antidilutive security excluded from diluted EPS and disclosed",
+   "solver": "Series A convertible bonds (7%)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Bonds Payable - Series B"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Bonds Payable - Series A"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Dividends Payable - Preferred"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Bonds Payable - Series B"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 240000.0,
+   "solver": "common stock",
+   "key_options": [
+    "common stock 2 par"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "cr",
+   "amount": 1560000.0,
+   "solver": "paid in capital in excess of par common",
+   "key_options": [
+    "additional paid in capital common"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 400000.0,
+   "solver": "preferred stock",
+   "key_options": [
+    "convertible preferred stock 100 par"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 20000.0,
+   "solver": "paid in capital in excess of par preferred",
+   "key_options": [
+    "additional paid in capital preferred"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 500000.0,
+   "solver": "bonds payable series b",
+   "key_options": [
+    "bonds payable series b 5 convertible"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 300000.0,
+   "solver": "bonds payable series a",
+   "key_options": [
+    "bonds payable series a 7 convertible"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 24000.0,
+   "solver": "retained earnings",
+   "key_options": [
+    "retained earnings or preferred dividends"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 500000.0,
+   "solver": "bonds payable series b",
+   "key_options": [
+    "bonds payable series b 5 convertible",
+    "cash"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 40000.0,
+   "solver": "common stock",
+   "key_options": [
+    "common stock 2 par"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "cr",
+   "amount": 460000.0,
+   "solver": "paid in capital in excess of par common",
+   "key_options": [
+    "additional paid in capital common"
+   ]
+  }
+ ]
+}

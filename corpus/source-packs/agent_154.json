@@ -1,0 +1,40 @@
+{
+  "agent_id": 154,
+  "lo": "LO 17-3",
+  "chapter": 17,
+  "title": "Account for a basic operating lease for a lessee",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-3",
+      "concept": "Initial recognition JE; subsequent measurement lease-liability and ROU schedules (effective interest + SL expense); period-end adjusting JEs; maturity settlement; BS/IS presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-3",
+      "concept": "Number-variant twin: initial PV recognition; full liability + ROU subsequent measurement schedules; multi-year payment and period-end JEs; settlement to zero",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-3",
+      "concept": "Period-end adjusting JE for operating lease expense; maturity-year settlement; current/noncurrent liability split; IS and SCF presentation vs finance lease",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-3",
+      "concept": "Classification / presentation — single lease expense and SCF treatment for lessee operating leases",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

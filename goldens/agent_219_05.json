@@ -1,0 +1,16 @@
+{
+ "id": "agent_219#05",
+ "pack_id": "agent_219",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "low",
+ "expected_verdict": "PASS",
+ "guards_rule": "corroboration_not_waving_through",
+ "rationale": "Pre-impairment 12,000/yr; Y3 CA 60,000; recoverability 52,000<60,000 fails; write to FV 48,000, loss 12,000; post 9,600/yr; Y6 partial 7,200; CA at sale 21,600;",
+ "truth_as_of_hash": "fe27f46f53a2f7f3d7ba1579c86247f79520751edbae63474e3fa220cacf8889",
+ "truth_as_of_bytes": "acbbf2eddbda185bf76f533cc182930f8ebd80cc44e7c049c286c662147cefd7",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "clean",
+ "cross_check_evidence": "Pre-impairment 12,000/yr; Y3 CA 60,000; recoverability 52,000<60,000 fails; write to FV 48,000, loss 12,000; post 9,600/yr; Y6 partial 7,200; CA at sale 21,600; loss 3,100; proof rollforward ties."
+}

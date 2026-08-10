@@ -1,0 +1,93 @@
+{
+  "agent_id": 226,
+  "lo": "LO 15-2",
+  "chapter": 15,
+  "title": "Record customer deposits and advances",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-2",
+      "concept": "Subsequent measurement schedule for deferred revenue on a multi-month customer advance; initial recognition JE; period-end adjusting JE; final-period settlement JE",
+      "type": "multipart",
+      "company": "Harborline Fitness Studios",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-2",
+      "concept": "Number-variant twin: subsequent measurement schedule for deferred revenue; initial recognition; period-end adjusting JE; final settlement JE",
+      "type": "multipart",
+      "company": "Cedar & Pine Landscaping Co.",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-2",
+      "concept": "Initial recognition of returnable deposits; settlement by cash return; settlement by forfeiture with sales and COGS",
+      "type": "multipart",
+      "company": "Summit Peak Equipment Rentals",
+      "angles": [
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-2",
+      "concept": "Gift-card deferred liability subsequent measurement schedule; initial sale JE; redemption settlement; period-end proportional breakage adjusting JE; remote alternative",
+      "type": "multipart",
+      "company": "Brightline Bistro",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-2",
+      "concept": "Classify initial credit for returnable deposit vs customer advance vs immediate revenue",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q6",
+      "lo": "LO 15-2",
+      "concept": "Proportional method vs remote method for gift-card breakage",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_226.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_226.json"
+}

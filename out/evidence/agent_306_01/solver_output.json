@@ -1,0 +1,173 @@
+{
+  "id": "agent_306#01",
+  "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the nearest whole dollar applied per period (each month's interest rounded as accrued and carried forward at that rounded amount). No PV factors are used in this item.",
+  "answers": [
+    {
+      "label": "b: Mar 1, Year 1 loan balance after issuance",
+      "value": 150000
+    },
+    {
+      "label": "b: Mar 31, Year 1 beginning loan balance",
+      "value": 150000
+    },
+    {
+      "label": "b: Mar 31, Year 1 interest expense",
+      "value": 1500
+    },
+    {
+      "label": "b: Mar 31, Year 1 cash paid to finance company",
+      "value": 74000
+    },
+    {
+      "label": "b: Mar 31, Year 1 principal reduction",
+      "value": 72500
+    },
+    {
+      "label": "b: Mar 31, Year 1 ending loan balance",
+      "value": 77500
+    },
+    {
+      "label": "b: Apr 30, Year 1 beginning loan balance",
+      "value": 77500
+    },
+    {
+      "label": "b: Apr 30, Year 1 interest expense",
+      "value": 775
+    },
+    {
+      "label": "b: Apr 30, Year 1 cash paid to finance company",
+      "value": 78275
+    },
+    {
+      "label": "b: Apr 30, Year 1 principal reduction",
+      "value": 77500
+    },
+    {
+      "label": "b: Apr 30, Year 1 ending loan balance",
+      "value": 0
+    },
+    {
+      "label": "f: total financing cost (finance fee $2,250 + interest $2,275)",
+      "value": 4525
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "Mar 1, Year 1",
+      "description": "Record receipt of loan proceeds; $200,000 of AR assigned as collateral (secured borrowing - receivables stay on the books)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 147750,
+          "credit": 0
+        },
+        {
+          "account": "Finance Expense",
+          "debit": 2250,
+          "credit": 0
+        },
+        {
+          "account": "Note Payable",
+          "debit": 0,
+          "credit": 150000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "Mar 31, Year 1",
+      "description": "Record collection on assigned accounts",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 74000,
+          "credit": 0
+        },
+        {
+          "account": "Sales Discount",
+          "debit": 3000,
+          "credit": 0
+        },
+        {
+          "account": "Refund Liability",
+          "debit": 5000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Receivable",
+          "debit": 0,
+          "credit": 82000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "Mar 31, Year 1",
+      "description": "Record remittance to the finance company (March interest plus principal reduction)",
+      "lines": [
+        {
+          "account": "Note Payable",
+          "debit": 72500,
+          "credit": 0
+        },
+        {
+          "account": "Interest Expense",
+          "debit": 1500,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 74000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "April, Year 1",
+      "description": "Record April collection on assigned accounts and write-off of uncollectible assigned accounts",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 50000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance for Doubtful Accounts",
+          "debit": 2500,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Receivable",
+          "debit": 0,
+          "credit": 52500
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Apr 30, Year 1",
+      "description": "Record payment of the remaining loan balance plus April interest",
+      "lines": [
+        {
+          "account": "Note Payable",
+          "debit": 77500,
+          "credit": 0
+        },
+        {
+          "account": "Interest Expense",
+          "debit": 775,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 78275
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Secured borrowing (LO 8-6): the assigned receivables remain on Cedarpoint's books; a note payable is recorded for the 75% advance ($150,000) and the flat finance fee is netted out of the proceeds and expensed at inception. Monthly cash remitted to the finance company is applied first to that month's interest on the unpaid balance, with the remainder reducing principal: the $74,000 March 31 remittance covers $1,500 of interest (150,000 x 12% x 1/12) and $72,500 of principal, leaving $77,500, which is retired April 30 with $775 of April interest for $78,275 of cash. The April write-off and the additional $50,000 April collection do not change the loan balance. STEM INCONSISTENCY: the fee is stated as a flat $2,250 but glossed '1.5% of face AR'; 1.5% x $200,000 = $3,000, whereas $2,250 = 1.5% of the $150,000 advance. The explicit flat dollar amount ($2,250) is used. Had $3,000 been intended, part (a) cash would be $147,000 and part (f) total financing cost $5,275; nothing else in the schedule or entries would change."
+}

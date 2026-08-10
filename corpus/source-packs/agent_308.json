@@ -1,0 +1,80 @@
+{
+  "agent_id": 308,
+  "lo": "LO 8-8",
+  "chapter": 8,
+  "title": "Apply cash controls",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "number_variant_twin",
+    "classification_presentation_or_disclosure"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-8",
+      "concept": "Initial recognition of cash over/short and petty cash; subsequent petty cash and bank recon schedules; period-end book adjusting entries (emphasis); fund increase and close (settlement)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-8",
+      "concept": "Number-variant twin — cash-drawer short, petty cash establish–replenish–increase, subsequent bank recon schedule, and all period-end book AJEs (all numbers changed)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-8",
+      "concept": "Subsequent measurement bank recon built from monthly activity and prior reconciling items; period-end book AJEs (emphasis); disposal/settlement JE closing an unreimbursed petty cash fund",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-8",
+      "concept": "Classification of bank-reconciling items — which require period-end book adjusting entries",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "C",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 8-8",
+      "concept": "Petty cash presentation and replenishment accounting",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "C",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

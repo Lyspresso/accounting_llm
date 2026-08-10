@@ -1,0 +1,241 @@
+{
+ "id": "agent_052#01",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to 2 dp (cents) applied per period on every computed unit cost and dollar amount; no floating point",
+ "answers": [
+  {
+   "label": "a1 MA: Oct 1 after beginning inventory - units 500 @ avg unit cost $8.00; inventory balance",
+   "value": 4000.0
+  },
+  {
+   "label": "a1 MA: Oct 6 after purchase - units 800 @ avg unit cost $8.75; inventory balance",
+   "value": 7000.0
+  },
+  {
+   "label": "a1 MA: Oct 12 after sale - units 400 @ avg unit cost $8.75; inventory balance",
+   "value": 3500.0
+  },
+  {
+   "label": "a1 MA: Oct 18 after purchase - units 900 @ avg unit cost $10.00; inventory balance",
+   "value": 9000.0
+  },
+  {
+   "label": "a1 MA: Oct 25 after sale - units 450 @ avg unit cost $10.00; inventory balance",
+   "value": 4500.0
+  },
+  {
+   "label": "a1 MA: Oct 30 after purchase - units 550 @ avg unit cost $10.36; inventory balance",
+   "value": 5700.0
+  },
+  {
+   "label": "a2 FIFO: Oct 1 after beginning inventory - units 500, layers [500 @ $8]; inventory balance",
+   "value": 4000.0
+  },
+  {
+   "label": "a2 FIFO: Oct 6 after purchase - units 800, layers [500 @ $8 + 300 @ $10]; inventory balance",
+   "value": 7000.0
+  },
+  {
+   "label": "a2 FIFO: Oct 12 after sale - units 400, layers [100 @ $8 + 300 @ $10]; inventory balance",
+   "value": 3800.0
+  },
+  {
+   "label": "a2 FIFO: Oct 18 after purchase - units 900, layers [100 @ $8 + 300 @ $10 + 500 @ $11]; inventory balance",
+   "value": 9300.0
+  },
+  {
+   "label": "a2 FIFO: Oct 25 after sale - units 450, layers [450 @ $11]; inventory balance",
+   "value": 4950.0
+  },
+  {
+   "label": "a2 FIFO: Oct 30 after purchase - units 550, layers [450 @ $11 + 100 @ $12]; inventory balance",
+   "value": 6150.0
+  },
+  {
+   "label": "a3 LIFO: Oct 1 after beginning inventory - units 500, layers [500 @ $8]; inventory balance",
+   "value": 4000.0
+  },
+  {
+   "label": "a3 LIFO: Oct 6 after purchase - units 800, layers [500 @ $8 + 300 @ $10]; inventory balance",
+   "value": 7000.0
+  },
+  {
+   "label": "a3 LIFO: Oct 12 after sale - units 400, layers [400 @ $8]; inventory balance",
+   "value": 3200.0
+  },
+  {
+   "label": "a3 LIFO: Oct 18 after purchase - units 900, layers [400 @ $8 + 500 @ $11]; inventory balance",
+   "value": 8700.0
+  },
+  {
+   "label": "a3 LIFO: Oct 25 after sale - units 450, layers [400 @ $8 + 50 @ $11]; inventory balance",
+   "value": 3750.0
+  },
+  {
+   "label": "a3 LIFO: Oct 30 after purchase - units 550, layers [400 @ $8 + 50 @ $11 + 100 @ $12]; inventory balance",
+   "value": 4950.0
+  },
+  {
+   "label": "a1 Moving average: October ending inventory",
+   "value": 5700.0
+  },
+  {
+   "label": "a1 Moving average: October COGS",
+   "value": 8000.0
+  },
+  {
+   "label": "a2 FIFO perpetual: October ending inventory",
+   "value": 6150.0
+  },
+  {
+   "label": "a2 FIFO perpetual: October COGS",
+   "value": 7550.0
+  },
+  {
+   "label": "a3 LIFO perpetual: October ending inventory",
+   "value": 4950.0
+  },
+  {
+   "label": "a3 LIFO perpetual: October COGS",
+   "value": 8750.0
+  },
+  {
+   "label": "d: Cost of goods available for sale (all methods; 1400 units)",
+   "value": 13700.0
+  },
+  {
+   "label": "d: Moving average check COGAS - EI = COGS",
+   "value": 8000.0
+  },
+  {
+   "label": "d: FIFO check COGAS - EI = COGS",
+   "value": 7550.0
+  },
+  {
+   "label": "d: LIFO check COGAS - EI = COGS",
+   "value": 8750.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b",
+   "date": "Oct 6",
+   "memo": "Purchase on account, gross method: 300 units @ $10",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 3000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accounts Payable",
+     "debit": 0.0,
+     "credit": 3000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "date": "Oct 18",
+   "memo": "Purchase on account, gross method: 500 units @ $11",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 5500.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accounts Payable",
+     "debit": 0.0,
+     "credit": 5500.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "date": "Oct 30",
+   "memo": "Purchase on account, gross method: 100 units @ $12",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 1200.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accounts Payable",
+     "debit": 0.0,
+     "credit": 1200.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Oct 12",
+   "memo": "Credit sale 400 units @ $18 (LIFO)",
+   "lines": [
+    {
+     "account": "Accounts Receivable",
+     "debit": 7200.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0.0,
+     "credit": 7200.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Oct 12",
+   "memo": "COGS on Oct 12 sale under LIFO perpetual",
+   "lines": [
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 3800.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Inventory",
+     "debit": 0.0,
+     "credit": 3800.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Oct 25",
+   "memo": "Credit sale 450 units @ $19 (LIFO)",
+   "lines": [
+    {
+     "account": "Accounts Receivable",
+     "debit": 8550.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0.0,
+     "credit": 8550.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Oct 25",
+   "memo": "COGS on Oct 25 sale under LIFO perpetual",
+   "lines": [
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 4950.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Inventory",
+     "debit": 0.0,
+     "credit": 4950.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "COGAS = 500@$8 + 300@$10 + 500@$11 + 100@$12 = $13700.00 (1,400 units); 850 units sold, 550 on hand. MA: avg $8.75 after Oct 6 purchase, $10.00 after Oct 18 purchase. FIFO EI = 450@$11 + 100@$12. LIFO perpetual EI = 400@$8 + 50@$11 + 100@$12. Part (c) COGS entries use LIFO amounts: Oct 12 $3800.00 (300@$10 + 100@$8), Oct 25 $4950.00 (450@$11). Reciprocal test in (d) holds for all three methods."
+}

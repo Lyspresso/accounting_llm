@@ -1,0 +1,45 @@
+{
+ "id": "agent_328#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 13,
+  "routed_stage2": 3,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Construction of Equipment"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 25000.0,
+   "solver": "depreciation expense",
+   "key_options": [
+    "depreciation expense equipment"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 50000.0,
+   "solver": "depreciation expense",
+   "key_options": [
+    "depreciation expense equipment"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 10000.0,
+   "solver": "loss on sale of equipment",
+   "key_options": [
+    "loss on disposal of equipment"
+   ]
+  }
+ ]
+}

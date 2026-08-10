@@ -1,0 +1,74 @@
+{
+  "agent_id": 296,
+  "lo": "LO 22-2",
+  "chapter": 22,
+  "title": "Prepare the operating activities section of the statement of cash flows using the indirect method",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-2",
+      "concept": "Reconstruct period-end adjusting JEs (emphasis), disposal and bond-settlement JEs, supporting T-account schedules, and the full indirect-method operating activities section",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-2",
+      "concept": "Number-variant twin—indirect operating section; period-end discount amortization AJ (add); loss on PPE disposal; WC mixed signs",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-2",
+      "concept": "Period-end adjusting JE emphasis—record year-end AJs (depreciation, accruals, SBC, FV-NI, equity method, deferred taxes) and translate each into the correct indirect-method add/subtract",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-2",
+      "concept": "Classification/presentation — bond premium amortization and decrease in inventory under the indirect method",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 22-2",
+      "concept": "Period-end adjusting JE for accrued salaries and its single correct SCF effect",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

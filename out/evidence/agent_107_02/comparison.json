@@ -1,0 +1,34 @@
+{
+ "id": "agent_107#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 10,
+  "routed_stage2": 2,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 10000.0,
+   "solver": "preferred stock",
+   "key_options": [
+    "common stock 2 000 5",
+    "preferred stock 1 000 10"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 10000.0,
+   "solver": "common stock",
+   "key_options": [
+    "common stock 2 000 5",
+    "preferred stock 1 000 10"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+  "agent_id": 184,
+  "lo": "LO 9-6",
+  "chapter": 9,
+  "title": "Explain and compute a LIFO reserve",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-6",
+      "concept": "Subsequent measurement schedule of LIFO reserve over four years; initial recognition JE; period-end Δ-reserve adjusting JEs; reverse entry when reserve falls; BS net presentation",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-6",
+      "concept": "Number-variant twin — subsequent measurement schedule of LIFO reserve (average cost vs LIFO); initial create JE; period-end Δ JEs including reverse; BS presentation",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-6",
+      "concept": "Subsequent measurement schedule from a nonzero beginning allowance; period-end adjusting JEs; reverse when reserve falls; in-accounts vs outside-the-books conversion; COGS bridge",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-6",
+      "concept": "Compute ending LIFO reserve and Δ; classify Allowance to Reduce Inventory to LIFO Basis; identify correct period-end JE",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "answer": "C",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

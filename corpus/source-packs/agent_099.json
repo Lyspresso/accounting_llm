@@ -1,0 +1,46 @@
+{
+  "agent_id": 99,
+  "lo": "LO 15-6",
+  "chapter": 15,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-6",
+      "concept": "Initial recognition of probable litigation contingency; warranty provision and rollforward; settlement JE; note disclosure; current and quick ratios before/after accruals",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-6",
+      "concept": "Number-variant twin: min-of-range litigation accrual, warranty rollforward, settlement with loss, commitment disclosure, current/quick ratios",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-6",
+      "concept": "Classification/presentation of commitments and contingencies; period-end reclassification of callable debt; liquidity ratio impact of classification and of accruing a contingency",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-6",
+      "concept": "Classification of loss contingency accounting treatment (accrue vs disclose vs neither)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-6",
+      "concept": "Effect of accruing a current loss contingency on the current ratio",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

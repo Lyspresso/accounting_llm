@@ -1,0 +1,526 @@
+{
+ "id": "agent_392#00",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent, applied once per period; all amounts are whole dollars",
+ "answers": [
+  {
+   "label": "a: Change in Cash and cash equivalents (current less prior)",
+   "value": -45000
+  },
+  {
+   "label": "a: Change in Restricted cash (current less prior)",
+   "value": 15000
+  },
+  {
+   "label": "a: Change in Accounts receivable, net (current less prior)",
+   "value": -90000
+  },
+  {
+   "label": "a: Change in Inventory (current less prior)",
+   "value": 100000
+  },
+  {
+   "label": "a: Change in Equipment (current less prior)",
+   "value": 700000
+  },
+  {
+   "label": "a: Change in Accumulated depreciation-equipment (current less prior)",
+   "value": -270000
+  },
+  {
+   "label": "a: Change in Accounts payable (current less prior)",
+   "value": -35000
+  },
+  {
+   "label": "a: Change in Salaries payable (current less prior)",
+   "value": -25000
+  },
+  {
+   "label": "a: Change in Bonds payable (current less prior)",
+   "value": 150000
+  },
+  {
+   "label": "a: Change in Common stock, no-par (current less prior)",
+   "value": 150000
+  },
+  {
+   "label": "a: Change in Retained earnings (current less prior)",
+   "value": 170000
+  },
+  {
+   "label": "a: Beginning cash + cash equivalents + restricted cash",
+   "value": 170000
+  },
+  {
+   "label": "a: Ending cash + cash equivalents + restricted cash",
+   "value": 140000
+  },
+  {
+   "label": "a: Change in cash + cash equivalents + restricted cash (decrease)",
+   "value": -30000
+  },
+  {
+   "label": "b1: Accounts receivable - beginning balance",
+   "value": 400000
+  },
+  {
+   "label": "b1: Accounts receivable - add sales revenue on account",
+   "value": 4200000
+  },
+  {
+   "label": "b1: Accounts receivable - less cash collections from customers (SOLVED)",
+   "value": 4290000
+  },
+  {
+   "label": "b1: Accounts receivable - ending balance",
+   "value": 310000
+  },
+  {
+   "label": "b2: Inventory - beginning balance",
+   "value": 180000
+  },
+  {
+   "label": "b2: Inventory - add purchases (SOLVED)",
+   "value": 2500000
+  },
+  {
+   "label": "b2: Inventory - less cost of goods sold",
+   "value": 2400000
+  },
+  {
+   "label": "b2: Inventory - ending balance",
+   "value": 280000
+  },
+  {
+   "label": "b2: Accounts payable - beginning balance",
+   "value": 220000
+  },
+  {
+   "label": "b2: Accounts payable - add purchases on account",
+   "value": 2500000
+  },
+  {
+   "label": "b2: Accounts payable - less cash payments to suppliers (SOLVED)",
+   "value": 2535000
+  },
+  {
+   "label": "b2: Accounts payable - ending balance",
+   "value": 185000
+  },
+  {
+   "label": "b3: Salaries payable - beginning balance",
+   "value": 60000
+  },
+  {
+   "label": "b3: Salaries payable - add salary expense",
+   "value": 210000
+  },
+  {
+   "label": "b3: Salaries payable - less cash payments to employees (SOLVED)",
+   "value": 235000
+  },
+  {
+   "label": "b3: Salaries payable - ending balance",
+   "value": 35000
+  },
+  {
+   "label": "b4: Equipment - beginning balance",
+   "value": 2800000
+  },
+  {
+   "label": "b4: Equipment - add cash purchases of equipment (SOLVED)",
+   "value": 1250000
+  },
+  {
+   "label": "b4: Equipment - less original cost of equipment sold",
+   "value": 550000
+  },
+  {
+   "label": "b4: Equipment - ending balance",
+   "value": 3500000
+  },
+  {
+   "label": "b5: Accumulated depreciation - beginning balance",
+   "value": 350000
+  },
+  {
+   "label": "b5: Accumulated depreciation - add depreciation expense (period-end AJE)",
+   "value": 340000
+  },
+  {
+   "label": "b5: Accumulated depreciation - less accumulated depreciation removed on disposal",
+   "value": 70000
+  },
+  {
+   "label": "b5: Accumulated depreciation - ending balance",
+   "value": 620000
+  },
+  {
+   "label": "b5: Book value of equipment sold (550,000 - 70,000)",
+   "value": 480000
+  },
+  {
+   "label": "b5: Loss on sale proved (book value less 390,000 proceeds)",
+   "value": 90000
+  },
+  {
+   "label": "b6: Retained earnings - beginning balance",
+   "value": 520000
+  },
+  {
+   "label": "b6: Retained earnings - add net income",
+   "value": 1076000
+  },
+  {
+   "label": "b6: Retained earnings - less cash dividends declared and paid (SOLVED)",
+   "value": 906000
+  },
+  {
+   "label": "b6: Retained earnings - ending balance",
+   "value": 690000
+  },
+  {
+   "label": "d: Cash T-account beginning balance (cash + restricted cash)",
+   "value": 170000
+  },
+  {
+   "label": "d: Operating debit - collections from customers",
+   "value": 4290000
+  },
+  {
+   "label": "d: Operating credit - payments to suppliers",
+   "value": 2535000
+  },
+  {
+   "label": "d: Operating credit - payments to employees",
+   "value": 235000
+  },
+  {
+   "label": "d: Operating credit - interest paid",
+   "value": 84000
+  },
+  {
+   "label": "d: Net cash provided by operating activities",
+   "value": 1436000
+  },
+  {
+   "label": "d: Investing debit - proceeds from sale of equipment",
+   "value": 390000
+  },
+  {
+   "label": "d: Investing credit - purchase of equipment",
+   "value": 1250000
+  },
+  {
+   "label": "d: Net cash used in investing activities",
+   "value": -860000
+  },
+  {
+   "label": "d: Financing debit - proceeds from issuing bonds payable",
+   "value": 150000
+  },
+  {
+   "label": "d: Financing debit - proceeds from issuing common stock",
+   "value": 150000
+  },
+  {
+   "label": "d: Financing credit - dividends paid",
+   "value": 906000
+  },
+  {
+   "label": "d: Net cash used in financing activities",
+   "value": -606000
+  },
+  {
+   "label": "d: Total cash T-account debits",
+   "value": 4980000
+  },
+  {
+   "label": "d: Total cash T-account credits",
+   "value": 5010000
+  },
+  {
+   "label": "d: Net change per cash T-account (proves to change in cash + restricted cash)",
+   "value": -30000
+  },
+  {
+   "label": "d: Cash T-account ending balance (cash + restricted cash)",
+   "value": 140000
+  },
+  {
+   "label": "d: Entry that does NOT post to the cash T-account",
+   "value": "Entry (e), the December 31 period-end depreciation adjusting entry (Dr Depreciation expense 340,000 / Cr Accumulated depreciation 340,000). It is a purely internal, noncash allocation of equipment cost already paid for in a prior investing outflow, so it touches no cash or restricted-cash account and never enters the T-account. (The 15,000 internal shift of cash into restricted cash likewise nets to zero because the T-account is kept on a combined cash + restricted cash basis.)"
+  },
+  {
+   "label": "e: SCF operating - cash collected from customers",
+   "value": 4290000
+  },
+  {
+   "label": "e: SCF operating - cash paid to suppliers",
+   "value": -2535000
+  },
+  {
+   "label": "e: SCF operating - cash paid to employees",
+   "value": -235000
+  },
+  {
+   "label": "e: SCF operating - cash paid for interest",
+   "value": -84000
+  },
+  {
+   "label": "e: SCF - net cash provided by operating activities",
+   "value": 1436000
+  },
+  {
+   "label": "e: SCF investing - proceeds from sale of equipment",
+   "value": 390000
+  },
+  {
+   "label": "e: SCF investing - purchase of equipment",
+   "value": -1250000
+  },
+  {
+   "label": "e: SCF - net cash used in investing activities",
+   "value": -860000
+  },
+  {
+   "label": "e: SCF financing - proceeds from issuing bonds payable",
+   "value": 150000
+  },
+  {
+   "label": "e: SCF financing - proceeds from issuing common stock",
+   "value": 150000
+  },
+  {
+   "label": "e: SCF financing - dividends paid",
+   "value": -906000
+  },
+  {
+   "label": "e: SCF - net cash used in financing activities",
+   "value": -606000
+  },
+  {
+   "label": "e: SCF - net decrease in cash, cash equivalents and restricted cash",
+   "value": -30000
+  },
+  {
+   "label": "e: SCF - cash, cash equivalents and restricted cash, beginning of year",
+   "value": 170000
+  },
+  {
+   "label": "e: SCF - cash, cash equivalents and restricted cash, end of year",
+   "value": 140000
+  },
+  {
+   "label": "f: Why the 90,000 loss is not a separate cash outflow",
+   "value": "The loss is not a cash flow at all - it is only the difference between the equipment's 480,000 book value (550,000 cost less 70,000 accumulated depreciation) and the 390,000 cash received. A cash T-account records only actual cash debits and credits, so the disposal enters it once, as the 390,000 debit. Deducting the loss again would double-count. It is a noncash income statement item that exists only because depreciation had not yet written the asset down to its selling price."
+  },
+  {
+   "label": "f: Where the equipment disposal appears on the SCF",
+   "value": "In investing activities as a single line, 'Proceeds from sale of equipment 390,000' (the full cash received). Under the direct method the 90,000 loss appears nowhere on the statement; it would only surface as an add-back in the indirect-method operating reconciliation, which this presentation does not use. The 1,250,000 equipment purchase is the other investing line, for net cash used in investing of 860,000."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "c",
+   "label": "(a) Sales and collections from customers",
+   "posts_to_cash_t_account": true,
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 4290000,
+     "credit": 0
+    },
+    {
+     "account": "Accounts receivable, net",
+     "debit": 0,
+     "credit": 90000
+    },
+    {
+     "account": "Sales revenue",
+     "debit": 0,
+     "credit": 4200000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "label": "(b) Purchases of inventory and cash paid to suppliers",
+   "posts_to_cash_t_account": true,
+   "lines": [
+    {
+     "account": "Cost of goods sold",
+     "debit": 2400000,
+     "credit": 0
+    },
+    {
+     "account": "Inventory",
+     "debit": 100000,
+     "credit": 0
+    },
+    {
+     "account": "Accounts payable",
+     "debit": 35000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 2535000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "label": "(c) Salary expense and cash paid to employees",
+   "posts_to_cash_t_account": true,
+   "lines": [
+    {
+     "account": "Salary expense",
+     "debit": 210000,
+     "credit": 0
+    },
+    {
+     "account": "Salaries payable",
+     "debit": 25000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 235000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "label": "(d) Interest expense paid in cash",
+   "posts_to_cash_t_account": true,
+   "lines": [
+    {
+     "account": "Interest expense",
+     "debit": 84000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 84000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "label": "(e) *** HIGHLIGHTED period-end (Dec 31) depreciation ADJUSTING ENTRY - NONCASH ***",
+   "posts_to_cash_t_account": false,
+   "lines": [
+    {
+     "account": "Depreciation expense",
+     "debit": 340000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated depreciation-equipment",
+     "debit": 0,
+     "credit": 340000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "label": "(f) Sale of equipment for cash (cost 550,000; AD 70,000; BV 480,000)",
+   "posts_to_cash_t_account": true,
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 390000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated depreciation-equipment",
+     "debit": 70000,
+     "credit": 0
+    },
+    {
+     "account": "Loss on sale of equipment",
+     "debit": 90000,
+     "credit": 0
+    },
+    {
+     "account": "Equipment",
+     "debit": 0,
+     "credit": 550000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "label": "(g) Purchase of equipment for cash",
+   "posts_to_cash_t_account": true,
+   "lines": [
+    {
+     "account": "Equipment",
+     "debit": 1250000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 1250000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "label": "(h) Issuance of bonds payable for cash",
+   "posts_to_cash_t_account": true,
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 150000,
+     "credit": 0
+    },
+    {
+     "account": "Bonds payable",
+     "debit": 0,
+     "credit": 150000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "label": "(i) Issuance of no-par common stock for cash",
+   "posts_to_cash_t_account": true,
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 150000,
+     "credit": 0
+    },
+    {
+     "account": "Common stock, no-par",
+     "debit": 0,
+     "credit": 150000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "label": "(j) Dividends declared and paid in cash",
+   "posts_to_cash_t_account": true,
+   "lines": [
+    {
+     "account": "Retained earnings",
+     "debit": 906000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 906000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Net income recomputed from the income statement = 1,076,000 (ties to the given figure). Accumulated depreciation rolls forward 350,000 + 340,000 - 70,000 = 620,000, and book value 480,000 - proceeds 390,000 = the given 90,000 loss, so the data are internally consistent. The cash T-account is maintained on the ASU 2016-18 combined cash + cash equivalents + restricted cash basis, so the 15,000 transfer into restricted cash is an internal transfer with no entry of its own; total debits 4,980,000 less total credits 5,010,000 = (30,000), which proves to the 170,000 -> 140,000 combined balance change. Ten entries (a)-(j) explain every income statement account and every balance sheet change; only entry (e), the highlighted period-end depreciation AJE, is noncash."
+}

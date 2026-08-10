@@ -1,0 +1,55 @@
+{
+  "agent_id": 258,
+  "lo": "LO 21-4",
+  "chapter": 21,
+  "title": "Demonstrate the accounting for an error correction",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 21-4",
+      "concept": "Subsequent measurement schedules for multi-year depreciation, prepaid insurance, patent amortization, and omitted accrual; prior period adjustment JEs; discovery-year period-end adjusting entries; disposal of corrected equipment",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 21-4",
+      "concept": "Number-variant twin — multi-year subsequent measurement schedules for equipment charged to land and ordinary repairs capitalized; prior period adjustments; discovery-year depreciation; disposal of corrected equipment",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 21-4",
+      "concept": "Subsequent measurement schedule for a counterbalancing ending-inventory understatement; same-year correcting JE; PPA before self-correction; no JE after self-correction (settlement) with continued restatement duty",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 21-4",
+      "concept": "Classification of error correction (prior period adjustment + restatement) vs prospective estimate change or current-period catch-up",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 21-4",
+      "concept": "When a counterbalancing error requires no correcting journal entry after self-correction",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

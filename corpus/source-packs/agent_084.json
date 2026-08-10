@@ -1,0 +1,55 @@
+{
+  "agent_id": 84,
+  "lo": "LO 12-8",
+  "chapter": 12,
+  "title": "Account for assets held for sale",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-8",
+      "concept": "Initial recognition JE (lower of CA or FV − costs to sell); subsequent measurement schedule; period-end recovery JE; disposal JE; presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-8",
+      "concept": "Number-variant twin — initial HFS write-down, multi-period measurement schedule, recovery JE, disposal with small loss",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-8",
+      "concept": "Multi-asset held-for-sale measurement at reporting date; period-end write-downs and recovery; no depreciation; other-asset presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-8",
+      "concept": "Held-for-sale impairment uses lower of CA or FV less costs to sell (recoverable cost / undiscounted CF is irrelevant)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-8",
+      "concept": "Cease depreciation; measure at lower of CA or FV − costs to sell; report as other assets",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "ok": true
+}

@@ -1,0 +1,211 @@
+{
+  "id": "agent_336#00",
+  "rounding_convention": "decimal.Decimal only, no floats. ROUND_HALF_UP to the cent applied PER PERIOD: each period's straight-line charge is rounded on its own and then accumulated (not rounded once at the end). Straight-line on a residual-aware base with depreciation recorded to the nearest month, so a partial period = (cost - residual) / (life in months) x months in service. Exchange with commercial substance: acquired asset = fair value of asset given up + cash paid (the mill's fair value is not more clearly determinable); loss recognized in full.",
+  "answers": [
+    {
+      "label": "b: press depreciation expense - 20X1 (full year)",
+      "value": 13500
+    },
+    {
+      "label": "b: press cumulative accumulated depreciation at end of 20X1 (full year)",
+      "value": 13500
+    },
+    {
+      "label": "b: press depreciation expense - 20X2 (full year)",
+      "value": 13500
+    },
+    {
+      "label": "b: press cumulative accumulated depreciation at end of 20X2 (full year)",
+      "value": 27000
+    },
+    {
+      "label": "b: press depreciation expense - 20X3 (full year)",
+      "value": 13500
+    },
+    {
+      "label": "b: press cumulative accumulated depreciation at end of 20X3 (full year)",
+      "value": 40500
+    },
+    {
+      "label": "b: press depreciation expense - 20X4 Jan 1 - Sep 30 (9 months, partial)",
+      "value": 10125
+    },
+    {
+      "label": "b: press cumulative accumulated depreciation at end of 20X4 Jan 1 - Sep 30 (9 months, partial)",
+      "value": 50625
+    },
+    {
+      "label": "d: book value of press at September 30, 20X4",
+      "value": 39375
+    },
+    {
+      "label": "d: loss on exchange (negative = loss)",
+      "value": -1375
+    },
+    {
+      "label": "d: cost assigned to CNC mill",
+      "value": 63000
+    },
+    {
+      "label": "e: CNC mill depreciation expense - 20X4 Oct 1 - Dec 31 (3 months, partial)",
+      "value": 3000
+    },
+    {
+      "label": "e: CNC mill cumulative accumulated depreciation at end of 20X4 Oct 1 - Dec 31 (3 months, partial)",
+      "value": 3000
+    },
+    {
+      "label": "e: CNC mill depreciation expense - 20X5 (full year)",
+      "value": 12000
+    },
+    {
+      "label": "e: CNC mill cumulative accumulated depreciation at end of 20X5 (full year)",
+      "value": 15000
+    },
+    {
+      "label": "e: CNC mill depreciation expense - 20X6 (full year)",
+      "value": 12000
+    },
+    {
+      "label": "e: CNC mill cumulative accumulated depreciation at end of 20X6 (full year)",
+      "value": 27000
+    },
+    {
+      "label": "e: CNC mill depreciation expense - 20X7 Jan 1 - Jun 30 (6 months, partial)",
+      "value": 6000
+    },
+    {
+      "label": "e: CNC mill cumulative accumulated depreciation at end of 20X7 Jan 1 - Jun 30 (6 months, partial)",
+      "value": 33000
+    },
+    {
+      "label": "f: loss on disposal of CNC mill, June 30, 20X7 (negative = loss)",
+      "value": -2000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "January 1, 20X1 - initial recognition of hydraulic press (cash purchase)",
+      "lines": [
+        {
+          "account": "Equipment - Hydraulic Press",
+          "debit": 90000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 90000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "September 30, 20X4 - adjusting entry updating depreciation on the press through the exchange date (9 months of 20X4)",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 10125,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation - Hydraulic Press",
+          "debit": 0,
+          "credit": 10125
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "September 30, 20X4 - exchange of press plus cash for CNC mill (commercial substance; loss fully recognized)",
+      "lines": [
+        {
+          "account": "Equipment - CNC Mill",
+          "debit": 63000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation - Hydraulic Press",
+          "debit": 50625,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Exchange of Asset",
+          "debit": 1375,
+          "credit": 0
+        },
+        {
+          "account": "Equipment - Hydraulic Press",
+          "debit": 0,
+          "credit": 90000
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 25000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "December 31, 20X4 - depreciation on CNC mill (3 months, Oct 1 - Dec 31)",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 3000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation - CNC Mill",
+          "debit": 0,
+          "credit": 3000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "June 30, 20X7 - depreciation on CNC mill through disposal date (6 months)",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 6000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation - CNC Mill",
+          "debit": 0,
+          "credit": 6000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "description": "June 30, 20X7 - sale of CNC mill for cash",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 28000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation - CNC Mill",
+          "debit": 33000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Disposal of Asset",
+          "debit": 2000,
+          "credit": 0
+        },
+        {
+          "account": "Equipment - CNC Mill",
+          "debit": 0,
+          "credit": 63000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "All figures land on whole dollars, so per-period rounding is not load-bearing here but is applied deliberately. Gains/losses are signed: negative = loss. Part (d) loss = fair value of press ($38,000) less its book value at 9/30/X4; part (f) loss = proceeds ($28,000) less the mill's book value at 6/30/X7. Dr = Cr asserted on all six journal entries."
+}

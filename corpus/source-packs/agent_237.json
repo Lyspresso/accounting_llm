@@ -1,0 +1,46 @@
+{
+  "agent_id": 237,
+  "lo": "LO 19-1",
+  "chapter": 19,
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-1",
+      "concept": "Subsequent measurement schedule (statement of stockholders' equity) over two years; initial recognition of CS/PS; period-end RE/AOCI; treasury reacquisition and partial reissuance; equity section presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-1",
+      "concept": "Number-variant twin — two-year SOE subsequent measurement schedule; initial CS/PS recognition; period-end RE/AOCI; treasury purchase and below-cost reissuance",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-1",
+      "concept": "Classification into the five equity components; prepare RE and AOCI subsequent measurement schedules; build consolidated equity section including noncontrolling interest",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-1",
+      "concept": "Classification of treasury stock within the five key components of stockholders' equity",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 19-1",
+      "concept": "Computing outstanding shares for equity-section disclosure",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

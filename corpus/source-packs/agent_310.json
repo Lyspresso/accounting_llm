@@ -1,0 +1,78 @@
+{
+  "agent_id": 310,
+  "lo": "LO 9-1",
+  "chapter": 9,
+  "title": "Determine the initial recognition and measurement of inventory",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-1",
+      "concept": "Initial inventoriable-cost recognition; period-end reconciling schedule from physical count; period-end adjusting JEs (emphasis) for FOB, consignment, premature sale, and firm repurchase; consignment disposal settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-1",
+      "concept": "Number-variant twin — inventoriable cost JE; YE reconciling schedule; period-end adjusting JEs (emphasis); consignment disposal",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-1",
+      "concept": "Period-end inventory cut-off: reconciling schedule from booked physical count; full set of period-end adjusting JEs; inventoriable add-on costs; classification of repurchase liability",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-1",
+      "concept": "Classification — inventoriable product cost vs period / abnormal charge",
+      "type": "MC",
+      "angles": ["classification_presentation_or_disclosure"],
+      "answer": "C",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 9-1",
+      "concept": "Classification — goods in transit and consignment control test",
+      "type": "MC",
+      "angles": ["classification_presentation_or_disclosure"],
+      "answer": "D",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

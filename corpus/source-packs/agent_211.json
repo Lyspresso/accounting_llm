@@ -1,0 +1,40 @@
+{
+  "agent_id": 211,
+  "lo": "LO 12-4",
+  "chapter": 12,
+  "title": "Account for changes in estimate as they relate to depreciation",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-4",
+      "concept": "Initial recognition of equipment; multi-year SL depreciation schedule; prospective change in useful life and residual; period-end JE after revision; disposal with loss",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-4",
+      "concept": "Number-variant twin: initial recognition of equipment; SL schedule; prospective useful-life and residual revision; period-end JE; disposal with gain",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-4",
+      "concept": "Prospective change in residual value only (useful life unchanged); subsequent measurement schedule after residual revision; period-end adjusting JE; disposal/scrap settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-4",
+      "concept": "Classify a revision of depreciable useful life or residual value as a prospective change in estimate",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

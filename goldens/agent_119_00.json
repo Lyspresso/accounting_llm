@@ -1,0 +1,16 @@
+{
+ "id": "agent_119#00",
+ "pack_id": "agent_119",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "low",
+ "expected_verdict": "PASS",
+ "guards_rule": "corroboration_not_waving_through",
+ "rationale": "Issuance 420,000/60,000/360,000; treasury 96,000; preferred 12,000; large stock dividend 28,800 sh / 57,600 par; WAS 36,000+45,000+57,600+28,800=167,400; income",
+ "truth_as_of_hash": "8317323bd32273408c9c8b93567603557e6195ec4bbee7c006d76732b64cd315",
+ "truth_as_of_bytes": "3c272a7cf428a1c8a69d75637c40d1616fd39ed5e884a8d4b456085de57ae74d",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "clean",
+ "cross_check_evidence": "Issuance 420,000/60,000/360,000; treasury 96,000; preferred 12,000; large stock dividend 28,800 sh / 57,600 par; WAS 36,000+45,000+57,600+28,800=167,400; income available 366,000; EPS 2.18638 -> 2.19."
+}

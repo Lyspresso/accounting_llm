@@ -1,0 +1,224 @@
+{
+  "id": "agent_160#01",
+  "rounding_convention": "ROUND_HALF_UP per period, to $0.01 on every per-year figure (Decimal throughout, no floats); percentages ROUND_HALF_UP to 0.01 percentage points; no PV factors involved",
+  "answers": [
+    {
+      "label": "a: Year 1 taxable income",
+      "value": 385000
+    },
+    {
+      "label": "a: Year 1 income tax payable",
+      "value": 80850
+    },
+    {
+      "label": "a: Year 2 taxable income",
+      "value": 491000
+    },
+    {
+      "label": "a: Year 2 income tax payable",
+      "value": 103110
+    },
+    {
+      "label": "a: Year 3 taxable income",
+      "value": 361000
+    },
+    {
+      "label": "a: Year 3 income tax payable",
+      "value": 75810
+    },
+    {
+      "label": "b: Deferred tax liability ending balance, December 31 Year 1",
+      "value": 12600
+    },
+    {
+      "label": "b: Deferred tax liability ending balance, December 31 Year 2",
+      "value": 0
+    },
+    {
+      "label": "b: Deferred tax liability ending balance, December 31 Year 3",
+      "value": 0
+    },
+    {
+      "label": "b: Deferred tax asset ending balance, December 31 Year 1",
+      "value": 10080
+    },
+    {
+      "label": "b: Deferred tax asset ending balance, December 31 Year 2",
+      "value": 6720
+    },
+    {
+      "label": "b: Deferred tax asset ending balance, December 31 Year 3",
+      "value": 3360
+    },
+    {
+      "label": "b: DTL roll-forward Year 1 - beginning balance",
+      "value": 0
+    },
+    {
+      "label": "b: DTL roll-forward Year 1 - change (increase/(decrease))",
+      "value": 12600
+    },
+    {
+      "label": "b: DTL roll-forward Year 1 - ending balance",
+      "value": 12600
+    },
+    {
+      "label": "b: DTL roll-forward Year 2 - beginning balance",
+      "value": 12600
+    },
+    {
+      "label": "b: DTL roll-forward Year 2 - change (increase/(decrease))",
+      "value": -12600
+    },
+    {
+      "label": "b: DTL roll-forward Year 2 - ending balance",
+      "value": 0
+    },
+    {
+      "label": "b: DTL roll-forward Year 3 - beginning balance",
+      "value": 0
+    },
+    {
+      "label": "b: DTL roll-forward Year 3 - change (increase/(decrease))",
+      "value": 0
+    },
+    {
+      "label": "b: DTL roll-forward Year 3 - ending balance",
+      "value": 0
+    },
+    {
+      "label": "b: DTA roll-forward Year 1 - beginning balance",
+      "value": 0
+    },
+    {
+      "label": "b: DTA roll-forward Year 1 - change (increase/(decrease))",
+      "value": 10080
+    },
+    {
+      "label": "b: DTA roll-forward Year 1 - ending balance",
+      "value": 10080
+    },
+    {
+      "label": "b: DTA roll-forward Year 2 - beginning balance",
+      "value": 10080
+    },
+    {
+      "label": "b: DTA roll-forward Year 2 - change (increase/(decrease))",
+      "value": -3360
+    },
+    {
+      "label": "b: DTA roll-forward Year 2 - ending balance",
+      "value": 6720
+    },
+    {
+      "label": "b: DTA roll-forward Year 3 - beginning balance",
+      "value": 6720
+    },
+    {
+      "label": "b: DTA roll-forward Year 3 - change (increase/(decrease))",
+      "value": -3360
+    },
+    {
+      "label": "b: DTA roll-forward Year 3 - ending balance",
+      "value": 3360
+    },
+    {
+      "label": "d: Year 1 tax at statutory rate (dollars)",
+      "value": 84000
+    },
+    {
+      "label": "d: Year 1 statutory tax rate (percent)",
+      "value": 21
+    },
+    {
+      "label": "d: Year 1 tax-exempt municipal bond interest effect (dollars)",
+      "value": -630
+    },
+    {
+      "label": "d: Year 1 tax-exempt municipal bond interest effect (percent)",
+      "value": -0.16
+    },
+    {
+      "label": "d: Year 1 total income tax expense (dollars)",
+      "value": 83370
+    },
+    {
+      "label": "d: Year 1 effective tax rate (percent)",
+      "value": 20.84
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "c",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 83370,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Asset",
+          "debit": 10080,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Liability",
+          "debit": 0,
+          "credit": 12600
+        },
+        {
+          "account": "Income Taxes Payable",
+          "debit": 0,
+          "credit": 80850
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 93870,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Asset",
+          "debit": 0,
+          "credit": 3360
+        },
+        {
+          "account": "Deferred Tax Liability",
+          "debit": 12600,
+          "credit": 0
+        },
+        {
+          "account": "Income Taxes Payable",
+          "debit": 0,
+          "credit": 103110
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 79170,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Asset",
+          "debit": 0,
+          "credit": 3360
+        },
+        {
+          "account": "Income Taxes Payable",
+          "debit": 0,
+          "credit": 75810
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Year 1 book-to-tax: 400,000 pretax - 3,000 muni interest (permanent) - 60,000 prepaid insurance deducted for tax when paid + 48,000 warranty accrued for books but not yet paid = 385,000 taxable. The prepaid insurance is a taxable temporary difference (asset book basis 60,000 > tax basis 0) so it creates the DTL and fully reverses in Year 2; the warranty is a deductible temporary difference that reverses 16,000 per year in Years 2-4, so a 3,360 DTA still remains at December 31 Year 3 for the Year 4 settlement. Exact unrounded rate-reconciliation percentages: statutory 21.00%, municipal interest -0.157500%, effective 20.842500%."
+}

@@ -1,0 +1,53 @@
+{
+ "id": "agent_206#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 8,
+  "routed_stage2": 3,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Gain on Sale of Equipment"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 20000.0,
+   "solver": "accumulated depreciation",
+   "key_options": [
+    "accumulated depreciation equipment"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 39200.0,
+   "solver": "accumulated depreciation",
+   "key_options": [
+    "accumulated depreciation equipment"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 1200.0,
+   "solver": "gain on sale of equipment",
+   "key_options": [
+    "gain on disposal of equipment"
+   ]
+  }
+ ]
+}

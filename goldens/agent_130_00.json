@@ -1,0 +1,16 @@
+{
+ "id": "agent_130#00",
+ "pack_id": "agent_130",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "high",
+ "expected_verdict": "FAIL",
+ "guards_rule": "key_completeness_vs_required",
+ "rationale": "key omits the entry Required (b) demands for the restricted-cash change; awaiting approval of the proposed repair",
+ "truth_as_of_hash": "5cde8bc2d931b941e6e402af3fdcaa6512f89ce0b04ec239346c8b0981e5ec8c",
+ "truth_as_of_bytes": "139fa9c971b478dfcca2145741ce92932db2478ccb67c2fa6729c6b6ff817837",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "key_presentation_defect",
+ "cross_check_evidence": "Every comparable figure ties: collections 2,470,000; suppliers 1,540,000; employees 120,000; purchases 920,000; dividends 207,000; O 762,000 / I -820,000 / F 43,000 -> -15,000; NI cross-foots 422,000. DEFECT: key's cash T-account lists 'Net decrease in cash 15,000' on the CREDIT side with stated totals 2,820,000/2,820,000, but the credit column actually sums 2,835,000 \u2014 misplaced balancing line plus wrong column total. Prose proof below the table is correct."
+}

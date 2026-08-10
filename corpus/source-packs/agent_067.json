@@ -1,0 +1,63 @@
+{
+  "agent_id": 67,
+  "lo": "LO 11-2",
+  "chapter": 11,
+  "title": "Determine costs to capitalize for lump-sum purchases of property, plant, and equipment",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-2",
+      "concept": "Initial proportional allocation of lump-sum PPE cost (with direct attribution), subsequent depreciation schedule, period-end AJE, and disposal of one basket asset",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-2",
+      "concept": "Number-variant twin — proportional lump-sum allocation using assessed values; direct costs; initial JE and first-year depreciation AJE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-2",
+      "concept": "Incremental method when one asset’s FV is indeterminable; period-end depreciation; classification of nondepreciable vs depreciable basket assets",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-2",
+      "concept": "Relative fair-value allocation vs recording at individual appraisal totals; when incremental method applies",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

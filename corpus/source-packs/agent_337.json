@@ -1,0 +1,62 @@
+{
+  "agent_id": 337,
+  "lo": "LO 12-1",
+  "chapter": 12,
+  "title": "Calculate depreciation using straight-line, sum-of-the-years’-digits, declining-balance, and units-of-production methods",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-1",
+      "concept": "Initial recognition; period-end depreciation adjusting JEs under SL, SYD, DDB, and UOP (emphasis); full subsequent-measurement schedules for all four methods; balance sheet presentation; disposal settlement JE under straight-line",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-1",
+      "concept": "Number-variant twin — initial recognition; period-end AJs under SL, SYD, DDB, and UOP; full multi-year schedules; disposal after two years under SYD",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-1",
+      "concept": "Period-end adjusting JEs (emphasis) for three assets using different systematic methods; update depreciation through disposal date; disposal JE with gain; classification of manufacturing vs selling depreciation",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-1",
+      "concept": "Classification / method fit — units-of-production when usage drives decline; DDB residual is a floor not subtracted from the base",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

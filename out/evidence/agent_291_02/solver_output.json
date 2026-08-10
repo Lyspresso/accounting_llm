@@ -1,0 +1,104 @@
+{
+  "id": "agent_291#02",
+  "rounding_convention": "decimal.Decimal only; money quantized to cents with ROUND_HALF_UP applied per computed figure (round-per-period, tax effects rounded as computed and carried forward); rate-reconciliation percentages quantized to 0.01 percentage point with ROUND_HALF_UP, effective rate computed from total tax expense / pretax income rather than by summing rounded components; no PV factors in this item",
+  "answers": [
+    {
+      "label": "a: taxable income",
+      "value": 382000
+    },
+    {
+      "label": "a: income tax payable (current tax)",
+      "value": 80220
+    },
+    {
+      "label": "b: ending Deferred Tax Liability balance",
+      "value": 8400
+    },
+    {
+      "label": "b: ending Deferred Tax Asset balance",
+      "value": 7350
+    },
+    {
+      "label": "b: DTL roll-forward - beginning balance",
+      "value": 5040
+    },
+    {
+      "label": "b: DTL roll-forward - settlement of prepaid rent difference",
+      "value": -5040
+    },
+    {
+      "label": "b: DTL roll-forward - origination from excess tax depreciation",
+      "value": 8400
+    },
+    {
+      "label": "b: DTL roll-forward - ending balance",
+      "value": 8400
+    },
+    {
+      "label": "d: rate reconciliation - tax at 21% statutory rate ($)",
+      "value": 75600
+    },
+    {
+      "label": "d: rate reconciliation - tax at 21% statutory rate (%)",
+      "value": 21
+    },
+    {
+      "label": "d: rate reconciliation - nondeductible officer life insurance ($)",
+      "value": 1680
+    },
+    {
+      "label": "d: rate reconciliation - nondeductible officer life insurance (%)",
+      "value": 0.47
+    },
+    {
+      "label": "d: rate reconciliation - nontaxable municipal bond interest ($)",
+      "value": -1050
+    },
+    {
+      "label": "d: rate reconciliation - nontaxable municipal bond interest (%)",
+      "value": -0.29
+    },
+    {
+      "label": "d: rate reconciliation - total income tax expense ($)",
+      "value": 76230
+    },
+    {
+      "label": "d: effective tax rate (%)",
+      "value": 21.18
+    },
+    {
+      "label": "e: balance sheet - net noncurrent deferred tax liability",
+      "value": 1050
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "c",
+      "description": "December 31 period-end adjusting entry to record current and deferred income taxes",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 76230,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Asset",
+          "debit": 7350,
+          "credit": 0
+        },
+        {
+          "account": "Income Tax Payable",
+          "debit": 0,
+          "credit": 80220
+        },
+        {
+          "account": "Deferred Tax Liability",
+          "debit": 0,
+          "credit": 3360
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Taxable income = 360,000 + 35,000 warranty accrual - 40,000 excess tax depreciation - 5,000 muni interest + 8,000 officer life insurance + 24,000 prepaid rent reversal = 382,000. Ending DTL 8,400 = 5,040 beginning - 5,040 settlement of the prepaid-rent difference + 8,400 origination on excess tax depreciation; ending DTA 7,350 = 35,000 warranty x 21%. Deferred portion of the December 31 entry is a net benefit of 3,990 (DTL up 3,360, DTA up 7,350), so total tax expense is 80,220 - 3,990 = 76,230. Part (e): DTA 7,350 and DTL 8,400 are the same component and jurisdiction, so they are offset and shown as one noncurrent net deferred tax liability of 1,050 (all deferred taxes are noncurrent under ASC 740). Effective rate 76,230/360,000 = 21.18%."
+}

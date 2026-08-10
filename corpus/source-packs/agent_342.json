@@ -1,0 +1,72 @@
+{
+  "agent_id": 342,
+  "lo": "LO 12-4",
+  "chapter": 12,
+  "title": "Account for changes in estimate as they relate to depreciation",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "number_variant_twin",
+    "classification_presentation_or_disclosure"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-4",
+      "concept": "Initial recognition of equipment; original SL schedule; change in useful life and residual (prospective); period-end adjusting JE at revised amount (emphasis); subsequent measurement schedule; mid-year disposal JE",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-4",
+      "concept": "Number-variant twin — initial recognition; original SL schedule; change in total useful life and residual (prospective); period-end adjusting JEs; subsequent measurement schedule; year-end disposal",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-4",
+      "concept": "Isolate residual-only vs life-only vs dual estimate revisions; updated depreciation from carrying amount; period-end adjusting JEs only (emphasis); no prior-period restatement",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-4",
+      "concept": "Classification of residual/life revision as prospective change in estimate; compute period depreciation after dual revision",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "n_mc": 2,
+      "answers": ["B", "A"],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

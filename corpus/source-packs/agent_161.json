@@ -1,0 +1,61 @@
+{
+  "agent_id": 161,
+  "lo": "LO 18-5",
+  "chapter": 18,
+  "title": "Explain how to record a valuation allowance and report deferred taxes",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-5",
+      "concept": "Initial recognition of valuation allowance; multi-year subsequent measurement schedule (gross DTA, target VA, adjustments, net DTA); period-end current + deferred + VA JEs; full release on DTA settlement",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-5",
+      "concept": "Number-variant twin — initial recognition of DTA and valuation allowance; subsequent measurement schedule; period-end VA remeasurement at a different enacted rate",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-5",
+      "concept": "Classification / presentation — offset DTA, valuation allowance, and DTL into one noncurrent net amount; period-end VA-only adjusting JE; disclosure sketch",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-5",
+      "concept": "Net deferred tax classification MC; period-end valuation allowance adjustment amount MC",
+      "type": "MC",
+      "ok": true,
+      "n_mc": 2,
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ]
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

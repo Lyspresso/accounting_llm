@@ -1,0 +1,3672 @@
+{
+ "n_mcq": 596,
+ "identical_groups": 8,
+ "retirable_duplicates": 9,
+ "families": 496,
+ "stem_twins": 28,
+ "variants": 72,
+ "solves_required": 568,
+ "shape_tau": 0.86,
+ "detail": [
+  {
+   "lo": "LO 13-8",
+   "representative": "agent_000#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-8",
+   "representative": "agent_131#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-8",
+   "representative": "agent_262#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-8",
+   "representative": "agent_262#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-8",
+   "representative": "agent_393#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-1",
+   "representative": "agent_001#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-1",
+   "representative": "agent_132#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-1",
+   "representative": "agent_263#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-1",
+   "representative": "agent_263#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-1",
+   "representative": "agent_394#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-10",
+   "representative": "agent_002#05",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-10",
+   "representative": "agent_002#06",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-10",
+   "representative": "agent_133#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-10",
+   "representative": "agent_264#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-10",
+   "representative": "agent_264#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-10",
+   "representative": "agent_395#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-2",
+   "representative": "agent_003#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_265#05"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 14-2",
+   "representative": "agent_003#05",
+   "stem_twins": [],
+   "variants": [
+    "agent_396#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 14-2",
+   "representative": "agent_134#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-2",
+   "representative": "agent_134#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-2",
+   "representative": "agent_265#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-2",
+   "representative": "agent_396#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-3",
+   "representative": "agent_004#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_135#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 14-3",
+   "representative": "agent_004#04",
+   "stem_twins": [
+    "agent_135#04"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 14-3",
+   "representative": "agent_266#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-3",
+   "representative": "agent_266#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-3",
+   "representative": "agent_397#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-3",
+   "representative": "agent_397#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-4",
+   "representative": "agent_005#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-4",
+   "representative": "agent_005#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-4",
+   "representative": "agent_136#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-4",
+   "representative": "agent_136#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-4",
+   "representative": "agent_267#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_398#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 14-4",
+   "representative": "agent_267#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-4",
+   "representative": "agent_398#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-5",
+   "representative": "agent_006#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-5",
+   "representative": "agent_137#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-5",
+   "representative": "agent_268#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-5",
+   "representative": "agent_399#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-6",
+   "representative": "agent_007#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-6",
+   "representative": "agent_138#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-6",
+   "representative": "agent_269#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-6",
+   "representative": "agent_269#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-7",
+   "representative": "agent_008#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-7",
+   "representative": "agent_139#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_270#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 14-7",
+   "representative": "agent_139#05",
+   "stem_twins": [],
+   "variants": [
+    "agent_270#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 14-8",
+   "representative": "agent_009#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_271#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 14-8",
+   "representative": "agent_009#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_271#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 14-8",
+   "representative": "agent_140#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-8",
+   "representative": "agent_140#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-9",
+   "representative": "agent_010#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-9",
+   "representative": "agent_141#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-9",
+   "representative": "agent_272#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-1",
+   "representative": "agent_011#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-1",
+   "representative": "agent_142#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-1",
+   "representative": "agent_273#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-2",
+   "representative": "agent_012#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-2",
+   "representative": "agent_143#03",
+   "stem_twins": [
+    "agent_274#03"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 16-2",
+   "representative": "agent_143#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-2",
+   "representative": "agent_274#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-3",
+   "representative": "agent_013#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-3",
+   "representative": "agent_144#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-3",
+   "representative": "agent_144#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-3",
+   "representative": "agent_275#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-3",
+   "representative": "agent_275#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-4",
+   "representative": "agent_014#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-4",
+   "representative": "agent_014#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-4",
+   "representative": "agent_145#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-4",
+   "representative": "agent_276#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-5",
+   "representative": "agent_015#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-5",
+   "representative": "agent_015#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_146#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 16-5",
+   "representative": "agent_146#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-5",
+   "representative": "agent_277#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-5",
+   "representative": "agent_277#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-6",
+   "representative": "agent_016#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-6",
+   "representative": "agent_147#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-6",
+   "representative": "agent_278#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-7",
+   "representative": "agent_017#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_148#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 16-7",
+   "representative": "agent_279#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-8",
+   "representative": "agent_018#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-8",
+   "representative": "agent_018#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-8",
+   "representative": "agent_149#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-8",
+   "representative": "agent_280#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-8",
+   "representative": "agent_280#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-1",
+   "representative": "agent_019#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-1",
+   "representative": "agent_019#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-1",
+   "representative": "agent_150#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_281#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 17-1",
+   "representative": "agent_150#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-1",
+   "representative": "agent_281#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-11",
+   "representative": "agent_020#03",
+   "stem_twins": [
+    "agent_151#03"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 17-11",
+   "representative": "agent_282#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-11",
+   "representative": "agent_282#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-12",
+   "representative": "agent_021#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-12",
+   "representative": "agent_152#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-12",
+   "representative": "agent_283#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-12",
+   "representative": "agent_283#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-2",
+   "representative": "agent_022#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-2",
+   "representative": "agent_022#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_284#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 17-2",
+   "representative": "agent_153#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-2",
+   "representative": "agent_284#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-3",
+   "representative": "agent_023#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-3",
+   "representative": "agent_023#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-3",
+   "representative": "agent_154#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-3",
+   "representative": "agent_285#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-3",
+   "representative": "agent_285#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-1",
+   "representative": "agent_026#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-1",
+   "representative": "agent_157#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-1",
+   "representative": "agent_157#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-1",
+   "representative": "agent_288#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-1",
+   "representative": "agent_288#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-2",
+   "representative": "agent_027#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-2",
+   "representative": "agent_027#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-2",
+   "representative": "agent_158#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_289#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 18-2",
+   "representative": "agent_158#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-2",
+   "representative": "agent_289#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-4",
+   "representative": "agent_029#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_160#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 18-4",
+   "representative": "agent_291#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-5",
+   "representative": "agent_030#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_161#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 18-5",
+   "representative": "agent_292#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-5",
+   "representative": "agent_292#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-6",
+   "representative": "agent_031#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-6",
+   "representative": "agent_162#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-6",
+   "representative": "agent_162#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-6",
+   "representative": "agent_293#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-6",
+   "representative": "agent_293#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-7",
+   "representative": "agent_032#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-7",
+   "representative": "agent_163#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-7",
+   "representative": "agent_294#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-2",
+   "representative": "agent_034#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-2",
+   "representative": "agent_034#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-2",
+   "representative": "agent_165#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-2",
+   "representative": "agent_165#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-2",
+   "representative": "agent_296#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-2",
+   "representative": "agent_296#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-4",
+   "representative": "agent_036#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_298#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 22-4",
+   "representative": "agent_036#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_298#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 22-4",
+   "representative": "agent_167#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-4",
+   "representative": "agent_167#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-5",
+   "representative": "agent_037#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_168#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 22-5",
+   "representative": "agent_299#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-5",
+   "representative": "agent_299#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-7",
+   "representative": "agent_038#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-7",
+   "representative": "agent_169#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-7",
+   "representative": "agent_300#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-7",
+   "representative": "agent_300#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-1",
+   "representative": "agent_039#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-1",
+   "representative": "agent_039#04",
+   "stem_twins": [
+    "agent_170#04",
+    "agent_301#04"
+   ],
+   "variants": [],
+   "size": 3
+  },
+  {
+   "lo": "LO 8-1",
+   "representative": "agent_170#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-1",
+   "representative": "agent_301#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-2",
+   "representative": "agent_040#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_171#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 8-2",
+   "representative": "agent_302#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-2",
+   "representative": "agent_302#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-3",
+   "representative": "agent_041#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_172#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 8-3",
+   "representative": "agent_303#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-4",
+   "representative": "agent_042#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_304#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 8-4",
+   "representative": "agent_173#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-5",
+   "representative": "agent_043#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-5",
+   "representative": "agent_174#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-5",
+   "representative": "agent_305#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-6",
+   "representative": "agent_044#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-6",
+   "representative": "agent_044#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-6",
+   "representative": "agent_175#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-6",
+   "representative": "agent_175#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-6",
+   "representative": "agent_306#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-6",
+   "representative": "agent_306#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-7",
+   "representative": "agent_045#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-7",
+   "representative": "agent_045#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-7",
+   "representative": "agent_176#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-7",
+   "representative": "agent_307#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-7",
+   "representative": "agent_307#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-8",
+   "representative": "agent_046#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-8",
+   "representative": "agent_177#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-8",
+   "representative": "agent_177#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-8",
+   "representative": "agent_308#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-8",
+   "representative": "agent_308#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-1",
+   "representative": "agent_048#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-1",
+   "representative": "agent_048#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-1",
+   "representative": "agent_179#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-1",
+   "representative": "agent_179#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-1",
+   "representative": "agent_310#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-1",
+   "representative": "agent_310#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-2",
+   "representative": "agent_049#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-2",
+   "representative": "agent_180#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-2",
+   "representative": "agent_311#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-2",
+   "representative": "agent_311#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-3",
+   "representative": "agent_050#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_312#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 9-3",
+   "representative": "agent_050#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-3",
+   "representative": "agent_181#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-3",
+   "representative": "agent_181#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-3",
+   "representative": "agent_312#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-4",
+   "representative": "agent_051#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-4",
+   "representative": "agent_051#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-4",
+   "representative": "agent_182#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-4",
+   "representative": "agent_313#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-4",
+   "representative": "agent_313#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-6",
+   "representative": "agent_053#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_184#03",
+    "agent_315#03"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 9-7",
+   "representative": "agent_054#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_185#03",
+    "agent_316#03"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 9-9",
+   "representative": "agent_056#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-9",
+   "representative": "agent_056#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_187#04",
+    "agent_318#04"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 9-9",
+   "representative": "agent_187#03",
+   "stem_twins": [
+    "agent_318#03"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 10-1",
+   "representative": "agent_057#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_319#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 10-1",
+   "representative": "agent_188#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-2",
+   "representative": "agent_058#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_189#03",
+    "agent_320#03"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 10-3",
+   "representative": "agent_059#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-3",
+   "representative": "agent_190#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-3",
+   "representative": "agent_321#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-5",
+   "representative": "agent_061#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-5",
+   "representative": "agent_192#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-5",
+   "representative": "agent_323#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-6",
+   "representative": "agent_062#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-6",
+   "representative": "agent_062#05",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-6",
+   "representative": "agent_193#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-6",
+   "representative": "agent_324#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-6",
+   "representative": "agent_324#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-7",
+   "representative": "agent_063#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_194#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 10-7",
+   "representative": "agent_325#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-9",
+   "representative": "agent_065#03",
+   "stem_twins": [
+    "agent_327#03"
+   ],
+   "variants": [
+    "agent_196#03"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 11-1",
+   "representative": "agent_066#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-1",
+   "representative": "agent_197#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-1",
+   "representative": "agent_328#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-1",
+   "representative": "agent_328#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-2",
+   "representative": "agent_067#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-2",
+   "representative": "agent_198#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-2",
+   "representative": "agent_329#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-3",
+   "representative": "agent_068#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-3",
+   "representative": "agent_199#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-3",
+   "representative": "agent_330#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-4",
+   "representative": "agent_069#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_331#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 11-4",
+   "representative": "agent_200#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-4",
+   "representative": "agent_200#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-5",
+   "representative": "agent_070#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-5",
+   "representative": "agent_070#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-5",
+   "representative": "agent_201#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-5",
+   "representative": "agent_332#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-6",
+   "representative": "agent_071#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_202#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 11-6",
+   "representative": "agent_333#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-7",
+   "representative": "agent_072#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-7",
+   "representative": "agent_203#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-7",
+   "representative": "agent_334#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-8",
+   "representative": "agent_073#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-8",
+   "representative": "agent_204#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-8",
+   "representative": "agent_204#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-8",
+   "representative": "agent_335#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-9",
+   "representative": "agent_074#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_336#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 11-9",
+   "representative": "agent_074#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 11-9",
+   "representative": "agent_205#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-1",
+   "representative": "agent_075#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-1",
+   "representative": "agent_206#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-1",
+   "representative": "agent_337#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-10",
+   "representative": "agent_076#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-10",
+   "representative": "agent_076#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_207#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 12-10",
+   "representative": "agent_207#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-10",
+   "representative": "agent_338#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-11",
+   "representative": "agent_077#03",
+   "stem_twins": [
+    "agent_208#03"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 12-11",
+   "representative": "agent_077#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-11",
+   "representative": "agent_339#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-2",
+   "representative": "agent_078#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-2",
+   "representative": "agent_078#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_209#04",
+    "agent_340#04"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 12-2",
+   "representative": "agent_209#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-2",
+   "representative": "agent_340#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-3",
+   "representative": "agent_079#03",
+   "stem_twins": [
+    "agent_210#03",
+    "agent_341#03"
+   ],
+   "variants": [],
+   "size": 3
+  },
+  {
+   "lo": "LO 12-3",
+   "representative": "agent_079#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-3",
+   "representative": "agent_210#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-3",
+   "representative": "agent_341#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-4",
+   "representative": "agent_080#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-4",
+   "representative": "agent_080#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-4",
+   "representative": "agent_211#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-4",
+   "representative": "agent_342#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-5",
+   "representative": "agent_081#03",
+   "stem_twins": [
+    "agent_212#03"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 12-5",
+   "representative": "agent_081#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_212#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 12-5",
+   "representative": "agent_343#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-5",
+   "representative": "agent_343#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-6",
+   "representative": "agent_082#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-6",
+   "representative": "agent_082#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-6",
+   "representative": "agent_213#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-6",
+   "representative": "agent_344#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-7",
+   "representative": "agent_083#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-7",
+   "representative": "agent_083#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-7",
+   "representative": "agent_214#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-7",
+   "representative": "agent_214#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-7",
+   "representative": "agent_345#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-7",
+   "representative": "agent_345#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-8",
+   "representative": "agent_084#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-8",
+   "representative": "agent_084#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-8",
+   "representative": "agent_215#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 12-9",
+   "representative": "agent_085#03",
+   "stem_twins": [
+    "agent_216#03"
+   ],
+   "variants": [
+    "agent_347#03"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 12-9",
+   "representative": "agent_085#04",
+   "stem_twins": [
+    "agent_347#04"
+   ],
+   "variants": [
+    "agent_216#04"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 13-1",
+   "representative": "agent_086#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-1",
+   "representative": "agent_217#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-1",
+   "representative": "agent_348#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-2",
+   "representative": "agent_087#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-2",
+   "representative": "agent_087#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-2",
+   "representative": "agent_218#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-2",
+   "representative": "agent_218#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-2",
+   "representative": "agent_349#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-2",
+   "representative": "agent_349#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-3",
+   "representative": "agent_088#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-3",
+   "representative": "agent_088#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-3",
+   "representative": "agent_219#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-3",
+   "representative": "agent_219#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-3",
+   "representative": "agent_350#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-3",
+   "representative": "agent_350#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-4",
+   "representative": "agent_089#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_220#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 13-4",
+   "representative": "agent_089#04",
+   "stem_twins": [
+    "agent_220#04"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 13-4",
+   "representative": "agent_351#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-4",
+   "representative": "agent_351#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-5",
+   "representative": "agent_090#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-5",
+   "representative": "agent_090#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-5",
+   "representative": "agent_221#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-5",
+   "representative": "agent_352#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-5",
+   "representative": "agent_352#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-6",
+   "representative": "agent_091#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_222#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 13-6",
+   "representative": "agent_091#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-6",
+   "representative": "agent_222#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-6",
+   "representative": "agent_353#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-6",
+   "representative": "agent_353#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 13-7",
+   "representative": "agent_092#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_223#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 13-7",
+   "representative": "agent_354#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-11",
+   "representative": "agent_093#05",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-11",
+   "representative": "agent_093#06",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-11",
+   "representative": "agent_224#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 14-11",
+   "representative": "agent_355#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-1",
+   "representative": "agent_094#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_225#03",
+    "agent_356#03"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 15-1",
+   "representative": "agent_094#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-1",
+   "representative": "agent_225#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_356#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 15-2",
+   "representative": "agent_095#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-2",
+   "representative": "agent_095#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-2",
+   "representative": "agent_226#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-2",
+   "representative": "agent_226#05",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-2",
+   "representative": "agent_357#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-2",
+   "representative": "agent_357#05",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-3",
+   "representative": "agent_096#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-3",
+   "representative": "agent_096#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-3",
+   "representative": "agent_227#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-3",
+   "representative": "agent_227#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-3",
+   "representative": "agent_358#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-3",
+   "representative": "agent_358#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-4",
+   "representative": "agent_097#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-4",
+   "representative": "agent_097#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-4",
+   "representative": "agent_228#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-4",
+   "representative": "agent_228#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-4",
+   "representative": "agent_359#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-4",
+   "representative": "agent_359#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-5",
+   "representative": "agent_098#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-5",
+   "representative": "agent_229#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-5",
+   "representative": "agent_229#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-5",
+   "representative": "agent_360#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-5",
+   "representative": "agent_360#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-6",
+   "representative": "agent_099#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-6",
+   "representative": "agent_099#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-6",
+   "representative": "agent_230#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-6",
+   "representative": "agent_230#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-6",
+   "representative": "agent_361#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 15-6",
+   "representative": "agent_361#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-10",
+   "representative": "agent_100#03",
+   "stem_twins": [
+    "agent_231#03"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 16-10",
+   "representative": "agent_100#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_231#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 16-10",
+   "representative": "agent_362#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-10",
+   "representative": "agent_362#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-11",
+   "representative": "agent_101#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-11",
+   "representative": "agent_232#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-11",
+   "representative": "agent_232#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-11",
+   "representative": "agent_363#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-12",
+   "representative": "agent_102#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-12",
+   "representative": "agent_102#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-12",
+   "representative": "agent_233#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-12",
+   "representative": "agent_364#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-12",
+   "representative": "agent_364#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-9",
+   "representative": "agent_103#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_234#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 16-9",
+   "representative": "agent_365#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 16-9",
+   "representative": "agent_365#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-8",
+   "representative": "agent_104#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_235#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 18-8",
+   "representative": "agent_104#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-8",
+   "representative": "agent_235#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-8",
+   "representative": "agent_366#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-8",
+   "representative": "agent_366#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-9",
+   "representative": "agent_105#03",
+   "stem_twins": [
+    "agent_367#03"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 18-9",
+   "representative": "agent_105#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_236#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 18-9",
+   "representative": "agent_236#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-9",
+   "representative": "agent_367#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-1",
+   "representative": "agent_106#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_237#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 19-1",
+   "representative": "agent_106#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_237#04",
+    "agent_368#04"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 19-1",
+   "representative": "agent_368#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-2",
+   "representative": "agent_107#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-2",
+   "representative": "agent_107#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-2",
+   "representative": "agent_238#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-2",
+   "representative": "agent_369#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-3",
+   "representative": "agent_108#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-3",
+   "representative": "agent_108#05",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-3",
+   "representative": "agent_239#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-3",
+   "representative": "agent_370#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-3",
+   "representative": "agent_370#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-4",
+   "representative": "agent_109#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-4",
+   "representative": "agent_109#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-4",
+   "representative": "agent_240#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-4",
+   "representative": "agent_240#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-4",
+   "representative": "agent_371#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-4",
+   "representative": "agent_371#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-5",
+   "representative": "agent_110#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-5",
+   "representative": "agent_241#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-5",
+   "representative": "agent_372#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-6",
+   "representative": "agent_111#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-6",
+   "representative": "agent_111#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-6",
+   "representative": "agent_242#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-6",
+   "representative": "agent_373#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-7",
+   "representative": "agent_112#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-7",
+   "representative": "agent_112#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-7",
+   "representative": "agent_243#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-7",
+   "representative": "agent_374#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-7",
+   "representative": "agent_374#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-8",
+   "representative": "agent_113#03",
+   "stem_twins": [
+    "agent_244#03"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 19-8",
+   "representative": "agent_113#04",
+   "stem_twins": [
+    "agent_244#04"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 19-8",
+   "representative": "agent_375#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 19-8",
+   "representative": "agent_375#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-1",
+   "representative": "agent_114#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-1",
+   "representative": "agent_114#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-1",
+   "representative": "agent_245#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-1",
+   "representative": "agent_245#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_376#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 20-10",
+   "representative": "agent_115#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-10",
+   "representative": "agent_115#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-10",
+   "representative": "agent_246#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-10",
+   "representative": "agent_246#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-10",
+   "representative": "agent_377#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-10",
+   "representative": "agent_377#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-2",
+   "representative": "agent_116#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_247#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 20-2",
+   "representative": "agent_116#04",
+   "stem_twins": [
+    "agent_247#04"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 20-2",
+   "representative": "agent_378#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-3",
+   "representative": "agent_117#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_248#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 20-3",
+   "representative": "agent_248#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-3",
+   "representative": "agent_379#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-4",
+   "representative": "agent_118#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_249#03",
+    "agent_380#03"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 20-4",
+   "representative": "agent_118#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_249#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 20-4",
+   "representative": "agent_380#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-6",
+   "representative": "agent_120#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-6",
+   "representative": "agent_251#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-6",
+   "representative": "agent_382#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-7",
+   "representative": "agent_121#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-7",
+   "representative": "agent_121#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-7",
+   "representative": "agent_252#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-7",
+   "representative": "agent_252#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-7",
+   "representative": "agent_383#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-7",
+   "representative": "agent_383#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-8",
+   "representative": "agent_122#03",
+   "stem_twins": [
+    "agent_253#03"
+   ],
+   "variants": [
+    "agent_384#03"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 20-8",
+   "representative": "agent_122#04",
+   "stem_twins": [
+    "agent_253#04"
+   ],
+   "variants": [
+    "agent_384#04"
+   ],
+   "size": 3
+  },
+  {
+   "lo": "LO 20-9",
+   "representative": "agent_123#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_254#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 20-9",
+   "representative": "agent_123#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_254#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 20-9",
+   "representative": "agent_385#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-9",
+   "representative": "agent_385#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-1",
+   "representative": "agent_124#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-1",
+   "representative": "agent_124#05",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-1",
+   "representative": "agent_255#04",
+   "stem_twins": [
+    "agent_386#04"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 21-1",
+   "representative": "agent_255#05",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-1",
+   "representative": "agent_386#05",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-2",
+   "representative": "agent_125#04",
+   "stem_twins": [
+    "agent_256#04"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 21-2",
+   "representative": "agent_125#05",
+   "stem_twins": [],
+   "variants": [
+    "agent_256#05"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 21-2",
+   "representative": "agent_387#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-2",
+   "representative": "agent_387#05",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-3",
+   "representative": "agent_126#03",
+   "stem_twins": [
+    "agent_257#03",
+    "agent_388#03"
+   ],
+   "variants": [],
+   "size": 3
+  },
+  {
+   "lo": "LO 21-3",
+   "representative": "agent_126#04",
+   "stem_twins": [
+    "agent_257#04",
+    "agent_388#04"
+   ],
+   "variants": [],
+   "size": 3
+  },
+  {
+   "lo": "LO 21-4",
+   "representative": "agent_127#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-4",
+   "representative": "agent_127#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-4",
+   "representative": "agent_258#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-4",
+   "representative": "agent_258#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-4",
+   "representative": "agent_389#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-4",
+   "representative": "agent_389#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 21-5",
+   "representative": "agent_128#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_259#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 21-5",
+   "representative": "agent_390#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-6",
+   "representative": "agent_129#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-6",
+   "representative": "agent_260#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-6",
+   "representative": "agent_391#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-8",
+   "representative": "agent_130#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-8",
+   "representative": "agent_261#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-8",
+   "representative": "agent_392#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-4",
+   "representative": "agent_155#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-4",
+   "representative": "agent_155#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-4",
+   "representative": "agent_286#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-5",
+   "representative": "agent_156#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-5",
+   "representative": "agent_156#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-5",
+   "representative": "agent_287#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 17-5",
+   "representative": "agent_287#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-3",
+   "representative": "agent_159#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 18-3",
+   "representative": "agent_159#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_290#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 18-3",
+   "representative": "agent_290#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 22-1",
+   "representative": "agent_164#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-9",
+   "representative": "agent_178#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 8-9",
+   "representative": "agent_178#04",
+   "stem_twins": [],
+   "variants": [
+    "agent_309#04"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 8-9",
+   "representative": "agent_309#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-5",
+   "representative": "agent_183#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-5",
+   "representative": "agent_314#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-8",
+   "representative": "agent_186#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 9-8",
+   "representative": "agent_317#03",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 10-4",
+   "representative": "agent_191#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_322#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 10-4",
+   "representative": "agent_191#04",
+   "stem_twins": [
+    "agent_322#04"
+   ],
+   "variants": [],
+   "size": 2
+  },
+  {
+   "lo": "LO 10-8",
+   "representative": "agent_195#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_326#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 20-5",
+   "representative": "agent_250#03",
+   "stem_twins": [],
+   "variants": [
+    "agent_381#03"
+   ],
+   "size": 2
+  },
+  {
+   "lo": "LO 20-5",
+   "representative": "agent_250#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  },
+  {
+   "lo": "LO 20-5",
+   "representative": "agent_381#04",
+   "stem_twins": [],
+   "variants": [],
+   "size": 1
+  }
+ ]
+}

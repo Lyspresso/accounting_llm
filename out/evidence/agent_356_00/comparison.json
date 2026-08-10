@@ -1,0 +1,54 @@
+{
+ "id": "agent_356#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "failed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 31,
+  "routed_stage2": 1,
+  "computable_unmatched": 1
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Sales Taxes Payable"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Sales Taxes Payable"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Sales Taxes Payable"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Sales Taxes Payable"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 32000.0,
+   "solver": "inventory",
+   "key_options": [
+    "accounts payable",
+    "pay mar 2 full face inv credit for discount"
+   ]
+  },
+  {
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "side": "dr",
+   "amount": 480.0,
+   "solver": "inventory",
+   "n": 1
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "dr",
+   "amount": 32480.0,
+   "key": "inventory",
+   "n": 1
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "agent_363#00",
+  "rounding_convention": "decimal.Decimal throughout; quantized to cents with ROUND_HALF_UP applied per period. Straight-line premium amortization (premium / 5 per year), not effective-interest, so no PV table factors are used; final-period amortization is forced to drive carrying amount exactly to face (no drift arises here - all figures are exact).",
+  "answers": [
+    {
+      "label": "a: proceeds allocated to bonds (proportional method)",
+      "value": 612000
+    },
+    {
+      "label": "a: proceeds allocated to warrants (proportional method)",
+      "value": 18000
+    },
+    {
+      "label": "a: initial bond carrying amount",
+      "value": 612000
+    },
+    {
+      "label": "a: premium on bonds payable at issuance",
+      "value": 12000
+    },
+    {
+      "label": "c: Year 1 beginning carrying amount",
+      "value": 612000
+    },
+    {
+      "label": "c: Year 1 cash interest",
+      "value": 42000
+    },
+    {
+      "label": "c: Year 1 premium amortization",
+      "value": 2400
+    },
+    {
+      "label": "c: Year 1 interest expense",
+      "value": 39600
+    },
+    {
+      "label": "c: Year 1 ending carrying amount",
+      "value": 609600
+    },
+    {
+      "label": "c: Year 2 beginning carrying amount",
+      "value": 609600
+    },
+    {
+      "label": "c: Year 2 cash interest",
+      "value": 42000
+    },
+    {
+      "label": "c: Year 2 premium amortization",
+      "value": 2400
+    },
+    {
+      "label": "c: Year 2 interest expense",
+      "value": 39600
+    },
+    {
+      "label": "c: Year 2 ending carrying amount",
+      "value": 607200
+    },
+    {
+      "label": "c: Year 3 beginning carrying amount",
+      "value": 607200
+    },
+    {
+      "label": "c: Year 3 cash interest",
+      "value": 42000
+    },
+    {
+      "label": "c: Year 3 premium amortization",
+      "value": 2400
+    },
+    {
+      "label": "c: Year 3 interest expense",
+      "value": 39600
+    },
+    {
+      "label": "c: Year 3 ending carrying amount",
+      "value": 604800
+    },
+    {
+      "label": "c: Year 4 beginning carrying amount",
+      "value": 604800
+    },
+    {
+      "label": "c: Year 4 cash interest",
+      "value": 42000
+    },
+    {
+      "label": "c: Year 4 premium amortization",
+      "value": 2400
+    },
+    {
+      "label": "c: Year 4 interest expense",
+      "value": 39600
+    },
+    {
+      "label": "c: Year 4 ending carrying amount",
+      "value": 602400
+    },
+    {
+      "label": "c: Year 5 beginning carrying amount",
+      "value": 602400
+    },
+    {
+      "label": "c: Year 5 cash interest",
+      "value": 42000
+    },
+    {
+      "label": "c: Year 5 premium amortization",
+      "value": 2400
+    },
+    {
+      "label": "c: Year 5 interest expense",
+      "value": 39600
+    },
+    {
+      "label": "c: Year 5 ending carrying amount",
+      "value": 600000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "date": "January 1, Year 1",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 630000,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable",
+          "debit": 0,
+          "credit": 600000
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 0,
+          "credit": 12000
+        },
+        {
+          "account": "Paid-In Capital-Stock Warrants",
+          "debit": 0,
+          "credit": 18000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 1",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 39600,
+          "credit": 0
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 2400,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 42000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "March 1, Year 3",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 99000,
+          "credit": 0
+        },
+        {
+          "account": "Paid-In Capital-Stock Warrants",
+          "debit": 13500,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 22500
+        },
+        {
+          "account": "Paid-In Capital in Excess of Par-Common Stock",
+          "debit": 0,
+          "credit": 90000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "January 15, Year 4",
+      "lines": [
+        {
+          "account": "Paid-In Capital-Stock Warrants",
+          "debit": 4500,
+          "credit": 0
+        },
+        {
+          "account": "Paid-In Capital-Expired Stock Warrants",
+          "debit": 0,
+          "credit": 4500
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "date": "December 31, Year 5",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 600000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 600000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "h (explanation, no figure): Paid-In Capital-Stock Warrants is an equity account, not a liability or a valuation account on the debt, so nothing about it flows through interest expense. Only the bond premium/discount is amortized, because that is the adjustment that brings the bond's carrying amount to face and its effective borrowing cost into interest expense over the 5-year term. The warrant proceeds simply sit in equity until the warrants are exercised (reclassified to Common Stock and APIC) or expire (reclassified to Paid-In Capital-Expired Stock Warrants); either way the total in equity is unchanged, so amortizing it would understate equity and misstate income. Because the two fair values (bonds ex-warrants 612,000 + warrants 18,000) sum exactly to the 630,000 proceeds, the proportional allocation equals the fair values themselves."
+}

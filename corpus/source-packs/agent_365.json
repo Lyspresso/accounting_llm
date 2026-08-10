@@ -1,0 +1,73 @@
+{
+  "agent_id": 365,
+  "lo": "LO 16-9",
+  "chapter": 16,
+  "title": "Apply the fair value option for liabilities",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-9",
+      "concept": "Initial recognition at discount; effective-interest subsequent measurement schedule; period-end fair value option adjusting JE (general risk → NI); maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-9",
+      "concept": "Number-variant twin — initial recognition; subsequent AC schedule; period-end FVO adjusting JEs; disposal/early settlement JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-9",
+      "concept": "Period-end adjusting JE emphasis — general risk → NI vs instrument-specific credit risk → OCI; multi-period FVA schedule; disposal/settlement with AOCI reclassification to NI",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-9",
+      "concept": "General risk → net income; instrument-specific credit risk → OCI",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-9",
+      "concept": "Fair Value Adjustment bridges amortized cost to fair value; election is instrument-by-instrument and irrevocable",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

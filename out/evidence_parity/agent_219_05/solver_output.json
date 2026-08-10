@@ -1,0 +1,193 @@
+{
+ "id": "agent_219#05",
+ "rounding_convention": "decimal.Decimal throughout; each period's amount quantized to cents with ROUND_HALF_UP; no floats",
+ "answers": [
+  {
+   "label": "a: Year 1 \u2014 beginning carrying amount",
+   "value": 96000
+  },
+  {
+   "label": "a: Year 1 \u2014 amortization expense",
+   "value": 12000
+  },
+  {
+   "label": "a: Year 1 \u2014 ending carrying amount",
+   "value": 84000
+  },
+  {
+   "label": "a: Year 2 \u2014 beginning carrying amount",
+   "value": 84000
+  },
+  {
+   "label": "a: Year 2 \u2014 amortization expense",
+   "value": 12000
+  },
+  {
+   "label": "a: Year 2 \u2014 ending carrying amount",
+   "value": 72000
+  },
+  {
+   "label": "a: Year 3 \u2014 beginning carrying amount",
+   "value": 72000
+  },
+  {
+   "label": "a: Year 3 \u2014 amortization expense",
+   "value": 12000
+  },
+  {
+   "label": "a: Year 3 \u2014 ending carrying amount",
+   "value": 60000
+  },
+  {
+   "label": "a: 12/31 Year 3 impairment row \u2014 carrying amount before impairment",
+   "value": 60000
+  },
+  {
+   "label": "a: 12/31 Year 3 impairment row \u2014 undiscounted future net cash inflows (recoverability test)",
+   "value": 52000
+  },
+  {
+   "label": "a: 12/31 Year 3 impairment row \u2014 impairment loss",
+   "value": 12000
+  },
+  {
+   "label": "a: 12/31 Year 3 impairment row \u2014 carrying amount after impairment (new basis = fair value)",
+   "value": 48000
+  },
+  {
+   "label": "a: post-impairment annual amortization (Years 4-8, 5-year remaining life)",
+   "value": 9600
+  },
+  {
+   "label": "a: Year 4 \u2014 beginning carrying amount",
+   "value": 48000
+  },
+  {
+   "label": "a: Year 4 \u2014 amortization expense",
+   "value": 9600
+  },
+  {
+   "label": "a: Year 4 \u2014 ending carrying amount",
+   "value": 38400
+  },
+  {
+   "label": "a: Year 5 \u2014 beginning carrying amount",
+   "value": 38400
+  },
+  {
+   "label": "a: Year 5 \u2014 amortization expense",
+   "value": 9600
+  },
+  {
+   "label": "a: Year 5 \u2014 ending carrying amount",
+   "value": 28800
+  },
+  {
+   "label": "c: carrying amount at Oct 1, Year 6 (after 9 months of Year 6 amortization)",
+   "value": 21600
+  },
+  {
+   "label": "c: gain (positive) or loss (negative) on disposal \u2014 loss",
+   "value": -3100
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b(1) Jan 1, Year 1 \u2014 acquisition of patent for cash",
+   "lines": [
+    {
+     "account": "Patent",
+     "debit": 96000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 96000
+    }
+   ]
+  },
+  {
+   "part": "b(2) Dec 31, Year 3 \u2014 annual amortization",
+   "lines": [
+    {
+     "account": "Amortization Expense",
+     "debit": 12000,
+     "credit": 0
+    },
+    {
+     "account": "Patent",
+     "debit": 0,
+     "credit": 12000
+    }
+   ]
+  },
+  {
+   "part": "b(3) Dec 31, Year 3 \u2014 impairment loss (write down to fair value)",
+   "lines": [
+    {
+     "account": "Loss on Impairment of Patent",
+     "debit": 12000,
+     "credit": 0
+    },
+    {
+     "account": "Patent",
+     "debit": 0,
+     "credit": 12000
+    }
+   ]
+  },
+  {
+   "part": "b(4) Dec 31, Year 4 \u2014 annual amortization on new basis",
+   "lines": [
+    {
+     "account": "Amortization Expense",
+     "debit": 9600,
+     "credit": 0
+    },
+    {
+     "account": "Patent",
+     "debit": 0,
+     "credit": 9600
+    }
+   ]
+  },
+  {
+   "part": "b(5) Oct 1, Year 6 \u2014 amortization for 9 months of Year 6",
+   "lines": [
+    {
+     "account": "Amortization Expense",
+     "debit": 7200,
+     "credit": 0
+    },
+    {
+     "account": "Patent",
+     "debit": 0,
+     "credit": 7200
+    }
+   ]
+  },
+  {
+   "part": "b(6) Oct 1, Year 6 \u2014 sale of patent for cash",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 18500,
+     "credit": 0
+    },
+    {
+     "account": "Loss on Disposal of Patent",
+     "debit": 3100,
+     "credit": 0
+    },
+    {
+     "account": "Patent",
+     "debit": 0,
+     "credit": 21600
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Recoverability test at 12/31/Y3 after Y3 amortization: undiscounted cash flows 52,000 < carrying amount 60,000, so the patent is impaired; loss = 60,000 carrying - 48,000 fair value = 12,000, and 48,000 becomes the new basis amortized over the 5-year remaining life at 9,600/yr. Year 6 amortization runs 9 months (Jan 1 to Oct 1) = 7,200, leaving a 21,600 carrying amount; 18,500 cash proceeds produce a 3,100 LOSS on disposal (reported as -3100 in part c). Patent is credited directly (no accumulated amortization account)."
+}

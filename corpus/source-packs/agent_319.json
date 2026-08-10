@@ -1,0 +1,62 @@
+{
+  "agent_id": 319,
+  "lo": "LO 10-1",
+  "chapter": 10,
+  "title": "Apply lower of cost or net realizable value rule to inventory",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-1",
+      "concept": "Period-end LCNRV adjusting entries (multi-year allowance remeasurement); item/category/total schedule; initial recognition; disposal close of allowance",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-1",
+      "concept": "Number-variant twin — LCNRV by item/category/total and period-end allowance JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-1",
+      "concept": "Period-end adjusting JE when an unadjusted allowance already exists; derive unit NRV; method-scope classification (LCNRV vs LCM)",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-1",
+      "concept": "Classification of LCNRV application level and period-end income-statement presentation",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

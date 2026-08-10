@@ -1,0 +1,39 @@
+{
+  "agent_id": 54,
+  "lo": "LO 9-7",
+  "chapter": 9,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-7",
+      "concept": "Multi-layer LIFO liquidation schedule; pretax/after-tax income effect; initial recognition of period-end COGS under periodic LIFO",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-7",
+      "concept": "Number-variant twin — multi-layer LIFO liquidation schedule, pretax/after-tax effect, balanced period-end JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-7",
+      "concept": "Interim adjusting JE for temporary LIFO liquidation expected to be restored; settlement JE on replacement; permanent year-end liquidation measurement and disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-7",
+      "concept": "Voluntary vs involuntary liquidation classification and disclosure; after-tax liquidation effect computation",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

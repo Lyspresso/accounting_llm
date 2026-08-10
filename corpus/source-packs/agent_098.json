@@ -1,0 +1,63 @@
+{
+  "agent_id": 98,
+  "lo": "LO 15-5",
+  "chapter": 15,
+  "title": "Describe accounting for subsequent events and contingencies including litigation, warranties, and other contingencies",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-5",
+      "concept": "Initial recognition of probable/estimable litigation loss; settlement JE; range-minimum accrual; assurance warranty period-end accrual and multi-period liability schedule",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-5",
+      "concept": "Number-variant twin: initial litigation accrual, settlement with gain, range-minimum accrual, assurance warranty schedule and settlement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-5",
+      "concept": "Recognized subsequent event adjusts Year 1; nonrecognized subsequent event is disclosure only; service-type warranty deferred revenue; gain contingency never accrued",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-5",
+      "concept": "Classification of loss contingencies (accrue vs disclose) and subsequent-event type",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

@@ -1,0 +1,46 @@
+{
+  "agent_id": 376,
+  "lo": "LO 20-1",
+  "chapter": 20,
+  "title": "Accounting for Restricted Stock Plans",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-1",
+      "concept": "RSA grant, amortization schedule, YE adjusting, forfeiture settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-1",
+      "concept": "RSA number-variant full vesting lifecycle",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-1",
+      "concept": "RSU period-end adjusting, forfeiture estimate change, settlement issuance",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-1",
+      "concept": "RSA vs RSU grant-date treatment classification",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

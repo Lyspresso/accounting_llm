@@ -1,0 +1,65 @@
+{
+  "agent_id": 276,
+  "lo": "LO 16-4",
+  "chapter": 16,
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "title": "Account for Bonds Issued at a Discount",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-4",
+      "concept": "Bonds issued at a discount (market > stated); initial recognition; full effective-interest schedule; period-end adjusting JE when year-end falls between interest dates; BS/IS presentation; maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-4",
+      "concept": "Number-variant twin: recompute issue price when market > stated; effective-interest schedule; period-end adjusting JE (3/6 of next semi row); interest payment and maturity settlement; net presentation",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-4",
+      "concept": "Straight-line interest method for a discount bond (constant amort); period-end adjusting JE between interest dates; maturity derecognition; classification of unamortized discount",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-4",
+      "concept": "Classification of Discount on Bonds Payable; when straight-line vs effective interest is appropriate",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_questions": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

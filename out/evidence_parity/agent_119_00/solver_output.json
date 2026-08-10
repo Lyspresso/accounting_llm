@@ -1,0 +1,207 @@
+{
+ "id": "agent_119#00",
+ "rounding_convention": "decimal.Decimal throughout (no floats); money quantized to $0.01 and EPS to $0.01 with ROUND_HALF_UP, applied per period/per figure; share counts to whole shares (ROUND_HALF_UP).",
+ "answers": [
+  {
+   "label": "a: Apr 1 - cash received on common issuance",
+   "value": 420000
+  },
+  {
+   "label": "a: Apr 1 - credit to Common Stock at $2 par",
+   "value": 60000
+  },
+  {
+   "label": "a: Apr 1 - credit to Paid-in Capital in Excess of Par",
+   "value": 360000
+  },
+  {
+   "label": "a: Jul 1 - Treasury Stock debit at cost",
+   "value": 96000
+  },
+  {
+   "label": "a: Sep 30 - preferred cash dividend paid",
+   "value": 12000
+  },
+  {
+   "label": "a: Nov 1 - stock dividend shares distributed",
+   "value": 28800
+  },
+  {
+   "label": "a: Nov 1 - stock dividend recorded at par",
+   "value": 57600
+  },
+  {
+   "label": "b: retroactive stock-dividend restatement factor",
+   "value": 1.2
+  },
+  {
+   "label": "b: Jan 1 - Mar 31 - actual shares outstanding",
+   "value": 120000
+  },
+  {
+   "label": "b: Jan 1 - Mar 31 - restatement factor",
+   "value": 1.2
+  },
+  {
+   "label": "b: Jan 1 - Mar 31 - fraction of year (months/12)",
+   "value": "3/12"
+  },
+  {
+   "label": "b: Jan 1 - Mar 31 - weighted restated shares",
+   "value": 36000
+  },
+  {
+   "label": "b: Apr 1 - Jun 30 - actual shares outstanding",
+   "value": 150000
+  },
+  {
+   "label": "b: Apr 1 - Jun 30 - restatement factor",
+   "value": 1.2
+  },
+  {
+   "label": "b: Apr 1 - Jun 30 - fraction of year (months/12)",
+   "value": "3/12"
+  },
+  {
+   "label": "b: Apr 1 - Jun 30 - weighted restated shares",
+   "value": 45000
+  },
+  {
+   "label": "b: Jul 1 - Oct 31 - actual shares outstanding",
+   "value": 144000
+  },
+  {
+   "label": "b: Jul 1 - Oct 31 - restatement factor",
+   "value": 1.2
+  },
+  {
+   "label": "b: Jul 1 - Oct 31 - fraction of year (months/12)",
+   "value": "4/12"
+  },
+  {
+   "label": "b: Jul 1 - Oct 31 - weighted restated shares",
+   "value": 57600
+  },
+  {
+   "label": "b: Nov 1 - Dec 31 - actual shares outstanding",
+   "value": 172800
+  },
+  {
+   "label": "b: Nov 1 - Dec 31 - restatement factor",
+   "value": 1
+  },
+  {
+   "label": "b: Nov 1 - Dec 31 - fraction of year (months/12)",
+   "value": "2/12"
+  },
+  {
+   "label": "b: Nov 1 - Dec 31 - weighted restated shares",
+   "value": 28800
+  },
+  {
+   "label": "b: weighted-average common shares outstanding, 2025",
+   "value": 167400
+  },
+  {
+   "label": "c: net income",
+   "value": 378000
+  },
+  {
+   "label": "c: less preferred dividend claim (cumulative, 1 year)",
+   "value": 12000
+  },
+  {
+   "label": "c: income available to common stockholders",
+   "value": 366000
+  },
+  {
+   "label": "c: basic EPS (income avail. to common / weighted-avg shares)",
+   "value": 2.19
+  },
+  {
+   "label": "d: income-statement presentation (simple capital structure)",
+   "value": "Net income $ 378,000.00; presented on the face of the 2025 income statement immediately below net income: \"Earnings per common share - basic .... $ 2.19\" (single EPS figure only; no diluted EPS is required for a simple capital structure). A note discloses that income available to common of $ 366,000.00 is net income less the $ 12,000.00 cumulative preferred claim, over 167,400 weighted-average shares restated for the 20% stock dividend."
+  },
+  {
+   "label": "e: why the stock dividend is treated differently from the April 1 cash issuance in the denominator",
+   "value": "The April 1 issuance brought new cash into the company, so the extra 30,000 shares had earning assets behind them only from April 1 forward - they are weighted for the 9/12 of the year they were outstanding. The 20% stock dividend brought in no resources; it only slices the same equity into more certificates, so every shareholder's proportionate interest is unchanged. To keep EPS comparable across the whole period (and prior periods presented), the new shares are applied retroactively: all pre-November share counts are multiplied by 1.20 rather than weighted from November 1."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "date": "2025-04-01",
+   "description": "Issued 30,000 common shares for cash at $14",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 420000,
+     "credit": 0
+    },
+    {
+     "account": "Common Stock ($2 par)",
+     "debit": 0,
+     "credit": 60000
+    },
+    {
+     "account": "Paid-in Capital in Excess of Par - Common",
+     "debit": 0,
+     "credit": 360000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "date": "2025-07-01",
+   "description": "Purchased 6,000 treasury shares at $16 (cost method)",
+   "lines": [
+    {
+     "account": "Treasury Stock",
+     "debit": 96000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 96000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "date": "2025-09-30",
+   "description": "Declared and paid full annual preferred dividend (8,000 x $25 x 6%)",
+   "lines": [
+    {
+     "account": "Retained Earnings (Cash Dividends - Preferred)",
+     "debit": 12000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 12000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "date": "2025-11-01",
+   "description": "Declared and distributed 20% large stock dividend (28,800 shares) recorded at $2 par",
+   "lines": [
+    {
+     "account": "Retained Earnings (Stock Dividend Distributed)",
+     "debit": 57600,
+     "credit": 0
+    },
+    {
+     "account": "Common Stock ($2 par)",
+     "debit": 0,
+     "credit": 57600
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Preferred dividend = 8,000 x $25 x 6% = $12,000 (cumulative, outstanding all year, one full year deducted). Treasury shares are carried at cost and, per the scenario, excluded from EPS-outstanding shares, so the 20% stock dividend is computed on the 144,000 shares outstanding for EPS on Nov 1 (120,000 + 30,000 - 6,000) = 28,800 new shares at $2 par = $57,600 charged to Retained Earnings (large stock dividend recorded at par, per instruction). Because the Nov 1 dividend was declared and distributed the same day, the Common Stock Dividend Distributable step is collapsed into one entry. Retroactive factor 1.20 applied to all periods before Nov 1; Nov-Dec shares (172,800) already include the dividend shares. Basic EPS = $366,000 / 167,400 = $2.1864 -> $2.19."
+}

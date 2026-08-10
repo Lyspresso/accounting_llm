@@ -1,0 +1,46 @@
+{
+  "agent_id": 117,
+  "lo": "LO 20-3",
+  "chapter": 20,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-3",
+      "concept": "Initial recognition JE for noncompensatory and compensatory ESPP; payroll Liability—ESPP accumulation schedule; period-end withholding JE; settlement JE; classification and disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-3",
+      "concept": "Number-variant twin — noncompensatory and compensatory ESPP initial recognition; payroll liability schedule; settlement JE; total compensation expense",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-3",
+      "concept": "ESPP liability roll-forward; cancellation refund settlement JE; period-end compensatory share issuance JE; liability and compensation presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4a",
+      "lo": "LO 20-3",
+      "concept": "Classification — noncompensatory ESPP (5% discount, broad participation) and correct cash/equity JE",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 20-3",
+      "concept": "Classification/measurement — PIC credit when compensatory ESPP issues shares at full market value",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

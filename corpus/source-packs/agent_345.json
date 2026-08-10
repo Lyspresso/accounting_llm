@@ -1,0 +1,72 @@
+{
+  "agent_id": 345,
+  "lo": "LO 12-7",
+  "chapter": 12,
+  "title": "Account for impairment of property, plant, and equipment",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-7",
+      "concept": "Purchase (initial recognition); pre-impairment depreciation; period-end impairment adjusting JE (recoverability + measurement); subsequent depreciation schedule; disposal after impairment",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-7",
+      "concept": "Number-variant twin — purchase; recoverability; period-end impairment adjusting JE; subsequent depreciation schedule; disposal with gain",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-7",
+      "concept": "Period-end multi-asset recoverability (some pass); combined impairment adjusting JE only for failed assets; subsequent dep on written-down asset; disclosure",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-7",
+      "concept": "Recoverability uses undiscounted cash flows; impairment loss measured with fair value",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-7",
+      "concept": "New cost basis after period-end impairment; restoration prohibited for PPE held for use",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

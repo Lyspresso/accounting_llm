@@ -1,0 +1,2950 @@
+{
+ "batches": [
+  2
+ ],
+ "comparator_version": "3.2",
+ "items": 50,
+ "tally": {
+  "machine_passed": 31,
+  "failed": 19,
+  "form_differs": 1
+ },
+ "issue_kinds": {
+  "UNKNOWN_ACCOUNT": 226,
+  "ACCOUNT_TO_STAGE2": 106,
+  "NON_NUMERIC_ANSWER": 73,
+  "SOLVER_MISMATCH": 28,
+  "JE_LINE_NOT_IN_KEY": 11,
+  "ACCOUNT_SPELLING": 3,
+  "KEY_LINE_NOT_IN_SOLVER": 4,
+  "FORM_DIFFERS": 1
+ },
+ "calibration": {
+  "probes_run": 40,
+  "probes_caught": 40,
+  "vacuous_excluded": 0,
+  "vacuous_rate": 0.0,
+  "misses": []
+ },
+ "rows": [
+  {
+   "id": "agent_201#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 9,
+    "routed_stage2": 2,
+    "computable_unmatched": 0
+   },
+   "n_issues": 9,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Landfill Cell (Asset Retirement Cost)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Asset Retirement Obligation"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - Landfill Cell"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accretion Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Asset Retirement Obligation"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Asset Retirement Obligation"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Settlement of Asset Retirement Obligation"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 300000.0,
+     "solver": "landfill cell asset retirement cost",
+     "key_options": [
+      "building hazardous waste cell"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 2200000.0,
+     "solver": "accumulated depreciation landfill cell",
+     "key_options": [
+      "accumulated depreciation hazardous waste cell"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_131#02",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 14,
+    "routed_stage2": 7,
+    "computable_unmatched": 0
+   },
+   "n_issues": 22,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: internal-use software amortization schedule 2025-2028 (year, beginning carrying amount, amortization, ending carrying amount)",
+     "solver": "[[2025, 240000, 30000, 210000], [2026, 210000, 60000, 150000], [2027, 150000, 60000, 90000], [2028, 90000, 60000, 30000]]"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "c: classification of the cloud hosting arrangement",
+     "solver": "Service contract"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "e: cloud implementation asset subsequent measurement schedule (year, beginning BV, amortization, ending BV)",
+     "solver": "[[2025, 80000, 20000, 60000], [2026, 60000, 20000, 40000], [2027, 40000, 20000, 20000], [2028, 20000, 20000, 0]]"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "f(i): balance sheet presentation of capitalized cloud implementation costs",
+     "solver": "Balance sheet (ASC 350-40-45-2): present the capitalized implementation costs in the SAME line item in which a prepayment of the hosting fees would be presented"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "f(ii): income statement presentation of amortization of cloud implementation costs",
+     "solver": "Income statement (ASC 350-40-45-1): present amortization of the capitalized implementation costs in the SAME line item as the expense for the hosting/subscripti"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "f(iii): statement of cash flows classification of cloud implementation cash flows",
+     "solver": "Statement of cash flows (ASC 350-40-45-3): classify the cash paid for the capitalized implementation costs in the SAME manner as the cash flows for the hosting "
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Research and Development Expense (Preliminary Project Stage)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Software Intangible Asset (Internal-Use Software)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Training Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Software Amortization Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Amortization - Software Intangible Asset (Software Intangible Asset)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Capitalized Cloud Computing Implementation Costs"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Cloud Subscription (Hosting) Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Cloud Subscription (Hosting) Expense - Amortization of Implementation Costs"
+    }
+   ]
+  },
+  {
+   "id": "agent_194#01",
+   "status": "failed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 4,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 8,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: Year 1 cost of goods sold as recorded",
+     "solver": 189000
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: Year 1 cost of goods sold correct",
+     "solver": 173400
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: Year 2 cost of goods sold as recorded",
+     "solver": 206000
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: Year 2 cost of goods sold correct",
+     "solver": 221600
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: Year 2 pretax income as recorded",
+     "solver": 98000
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: Year 2 pretax income correct",
+     "solver": 82400
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "f: Is the error counterbalancing?",
+     "solver": "Yes"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Retained Earnings - Prior Period Adjustment"
+    }
+   ]
+  },
+  {
+   "id": "agent_150#02",
+   "status": "failed",
+   "risk_score": 6,
+   "scope": {
+    "solver_has_entries": false,
+    "key_lines": 0,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 7,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: Case A - does the contract contain a lease?",
+     "solver": "No lease - service contract"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: Option 1 - classification",
+     "solver": "Operating"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: Option 2 - classification",
+     "solver": "Finance"
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: Option 3 - PV of lease payments incl. purchase option (6 yrs, $42,000 ordinary annuity + $15,000 option @ 5.5% implicit)",
+     "solver": 220690.96
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: Option 3 - classification",
+     "solver": "Finance"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: Option 4 - classification",
+     "solver": "Finance"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "c: Case C - finance vs operating lessee expense presentation, Year 1",
+     "solver": "Finance lease (Option 2): TWO expenses appear, reported separately - straight-line amortization expense on the right-of-use asset (an operating expense) plus in"
+    }
+   ]
+  },
+  {
+   "id": "agent_026#02",
+   "status": "failed",
+   "risk_score": 7,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 8,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 14,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "A: item 1 classification",
+     "solver": "taxable temporary"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "A: item 2 classification",
+     "solver": "deductible temporary"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "A: item 3 classification",
+     "solver": "taxable temporary"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "A: item 4 classification",
+     "solver": "permanent (nontaxable)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "A: item 5 classification",
+     "solver": "permanent (nondeductible)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "A: item 6 classification",
+     "solver": "taxable temporary"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "A: item 7 classification",
+     "solver": "deductible temporary"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "A: item 8 classification",
+     "solver": "permanent (nondeductible)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "A: item 9 classification",
+     "solver": "no book-tax difference"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "A: item 10 classification",
+     "solver": "deductible temporary"
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "C: ending deferred tax asset",
+     "solver": 2750
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Income Tax Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Income Tax Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accrued Warranty Liability"
+    }
+   ]
+  },
+  {
+   "id": "agent_326#02",
+   "status": "failed",
+   "risk_score": 8,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 8,
+    "routed_stage2": 5,
+    "computable_unmatched": 0
+   },
+   "n_issues": 17,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: average cost retail cost ratio if net markdowns included in denominator (percent)",
+     "solver": 53.49
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "e: ending inventory reported on the balance sheet after settlement",
+     "solver": 37000
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss from Abnormal Casualty (Theft)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Purchases"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory (ending, 12/31/Yr 1 \u2014 estimated)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Purchase Returns"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory (beginning, 1/1/Yr 1)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Purchases"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Freight-In"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Cost of Goods Sold (inventory shrinkage)"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 20000.0,
+     "solver": "loss from abnormal casualty theft",
+     "key_options": [
+      "casualty loss or cogs abnormal"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 40000.0,
+     "solver": "inventory ending 12 31 yr 1 estimated",
+     "key_options": [
+      "inventory ending estimated"
+     ]
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 10000.0,
+     "solver": "purchase returns",
+     "n": 1
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 50000.0,
+     "solver": "inventory beginning 1 1 yr 1",
+     "key_options": [
+      "inventory beginning"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_188#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 16,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 6,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Net Realizable Value"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Holding Loss on Inventory"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Net Realizable Value"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Net Realizable Value"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Net Realizable Value"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Net Realizable Value"
+    }
+   ]
+  },
+  {
+   "id": "agent_022#01",
+   "status": "machine_passed",
+   "risk_score": 6,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 0,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 1,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: lease classification",
+     "solver": "Finance lease"
+    }
+   ]
+  },
+  {
+   "id": "agent_019#00",
+   "status": "failed",
+   "risk_score": 5,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 24,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 5,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: does the contract contain a lease?",
+     "solver": "Yes"
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: PV of lease payments as % of fair value (90% bright line)",
+     "solver": 96.8
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: lease classification",
+     "solver": "Finance"
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "f: Dec 31, Year 1 total lease liability",
+     "solver": 92930.84
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "f: Dec 31, Year 1 net right-of-use asset",
+     "solver": 90754.17
+    }
+   ]
+  },
+  {
+   "id": "agent_032#01",
+   "status": "failed",
+   "risk_score": 7,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 7,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 3,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: Net deferred tax asset reported at 12/31/Year 2",
+     "solver": 18000
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Income Tax Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Valuation Allowance for Deferred Tax Asset"
+    }
+   ]
+  },
+  {
+   "id": "agent_385#00",
+   "status": "machine_passed",
+   "risk_score": 6,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 23,
+    "routed_stage2": 10,
+    "computable_unmatched": 0
+   },
+   "n_issues": 16,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "g: antidilutive security excluded from diluted EPS and disclosed",
+     "solver": "Series A convertible bonds (7%)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Bonds Payable - Series B"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Bonds Payable - Series A"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Dividends Payable - Preferred"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Income Summary"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Bonds Payable - Series B"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 240000.0,
+     "solver": "common stock",
+     "key_options": [
+      "common stock 2 par"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 1560000.0,
+     "solver": "paid in capital in excess of par common",
+     "key_options": [
+      "additional paid in capital common"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 400000.0,
+     "solver": "preferred stock",
+     "key_options": [
+      "convertible preferred stock 100 par"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 20000.0,
+     "solver": "paid in capital in excess of par preferred",
+     "key_options": [
+      "additional paid in capital preferred"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 500000.0,
+     "solver": "bonds payable series b",
+     "key_options": [
+      "bonds payable series b 5 convertible"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 300000.0,
+     "solver": "bonds payable series a",
+     "key_options": [
+      "bonds payable series a 7 convertible"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 24000.0,
+     "solver": "retained earnings",
+     "key_options": [
+      "retained earnings or preferred dividends"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 500000.0,
+     "solver": "bonds payable series b",
+     "key_options": [
+      "bonds payable series b 5 convertible",
+      "cash"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_135#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 15,
+    "routed_stage2": 1,
+    "computable_unmatched": 0
+   },
+   "n_issues": 12,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in AFS Securities\u2014Oakmont Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss\u2014OCI"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment\u2014AFS"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment\u2014AFS"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss\u2014OCI"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment\u2014AFS"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss\u2014OCI"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss\u2014OCI"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in AFS Securities\u2014Oakmont Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Gain on Sale of Investment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment\u2014AFS"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 55000.0,
+     "solver": "investment in afs securities oakmont bonds",
+     "key_options": [
+      "cash",
+      "investment in afs oakmont bonds"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_016#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 11,
+    "routed_stage2": 5,
+    "computable_unmatched": 0
+   },
+   "n_issues": 8,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Notes Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Notes Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Notes Payable"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 8100.14,
+     "solver": "discount on notes payable",
+     "key_options": [
+      "discount on note payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 80000.0,
+     "solver": "notes payable",
+     "key_options": [
+      "cash",
+      "note payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 2470.99,
+     "solver": "discount on notes payable",
+     "key_options": [
+      "discount on note payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 2935.77,
+     "solver": "discount on notes payable",
+     "key_options": [
+      "discount on note payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 80000.0,
+     "solver": "notes payable",
+     "key_options": [
+      "note payable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_214#02",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 4,
+    "routed_stage2": 2,
+    "computable_unmatched": 0
+   },
+   "n_issues": 5,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Impairment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation (Curing oven)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation (Curing oven)"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 190000.0,
+     "solver": "accumulated depreciation curing oven",
+     "key_options": [
+      "accumulated depreciation equipment b"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 60000.0,
+     "solver": "accumulated depreciation curing oven",
+     "key_options": [
+      "accumulated depreciation equipment b"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_053#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 6,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 3,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to LIFO Basis"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to LIFO Basis"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to LIFO Basis"
+    }
+   ]
+  },
+  {
+   "id": "agent_285#00",
+   "status": "failed",
+   "risk_score": 7,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 4,
+    "routed_stage2": 3,
+    "computable_unmatched": 1
+   },
+   "n_issues": 16,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: lease classification for Riverglen (lessee)",
+     "solver": "Operating"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Lease Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Lease Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Lease Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Lease Expense"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 81911.0,
+     "solver": "right of use asset",
+     "n": 1
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 81911.0,
+     "solver": "lease liability",
+     "n": 1
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 22000.0,
+     "solver": "lease liability",
+     "key_options": [
+      "lease expense"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 22000.0,
+     "solver": "cash",
+     "key_options": [
+      "right of use asset"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_SPELLING",
+     "side": "dr",
+     "amount": 22000.0,
+     "solver": "lease expense",
+     "key_options": [
+      "lease expense"
+     ]
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 19004.0,
+     "solver": "right of use asset",
+     "n": 1
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 2045.0,
+     "solver": "lease liability",
+     "n": 1
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 19955.0,
+     "solver": "right of use asset",
+     "n": 1
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 1048.0,
+     "solver": "lease liability",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "id": "agent_206#02",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 8,
+    "routed_stage2": 3,
+    "computable_unmatched": 0
+   },
+   "n_issues": 6,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Gain on Sale of Equipment"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 20000.0,
+     "solver": "accumulated depreciation",
+     "key_options": [
+      "accumulated depreciation equipment"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 39200.0,
+     "solver": "accumulated depreciation",
+     "key_options": [
+      "accumulated depreciation equipment"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 1200.0,
+     "solver": "gain on sale of equipment",
+     "key_options": [
+      "gain on disposal of equipment"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_167#01",
+   "status": "failed",
+   "risk_score": 7,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 9,
+    "routed_stage2": 1,
+    "computable_unmatched": 0
+   },
+   "n_issues": 4,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: bonds payable carrying amount, December 31, 20X5",
+     "solver": 391000
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Common Stock ($5 par)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Retirement of Bonds"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 1500.0,
+     "solver": "loss on retirement of bonds",
+     "key_options": [
+      "loss on bond retirement"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_268#00",
+   "status": "failed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 8,
+    "routed_stage2": 6,
+    "computable_unmatched": 0
+   },
+   "n_issues": 13,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "e: net equity-method income recognized in Year 1 (after excess depreciation)",
+     "solver": 22500
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in Meridian Forge Co."
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in Meridian Forge Co."
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment Income (Equity in Investee Income)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment Income (Equity in Investee Income)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in Meridian Forge Co."
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in Meridian Forge Co."
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 240000.0,
+     "solver": "investment in meridian forge co",
+     "key_options": [
+      "investment in meridian forge stock"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 24000.0,
+     "solver": "investment in meridian forge co",
+     "key_options": [
+      "investment in meridian forge stock"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 24000.0,
+     "solver": "investment income equity in investee income",
+     "key_options": [
+      "investment income"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 1500.0,
+     "solver": "investment income equity in investee income",
+     "key_options": [
+      "investment income"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 1500.0,
+     "solver": "investment in meridian forge co",
+     "key_options": [
+      "investment in meridian forge stock"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 6000.0,
+     "solver": "investment in meridian forge co",
+     "key_options": [
+      "investment in meridian forge stock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_240#00",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 10,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 6,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: balance-sheet classification immediately after issuance",
+     "solver": "Liability, not equity. Because redemption is mandatory for a fixed amount on a fixed date (not solely upon liquidation), ASC 480 requires the instrument to be r"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Mandatorily Redeemable Preferred Stock (liability)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Mandatorily Redeemable Preferred Stock (liability)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Mandatorily Redeemable Preferred Stock (liability)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Mandatorily Redeemable Preferred Stock (liability)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Mandatorily Redeemable Preferred Stock (liability)"
+    }
+   ]
+  },
+  {
+   "id": "agent_366#02",
+   "status": "failed",
+   "risk_score": 7,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 17,
+    "routed_stage2": 5,
+    "computable_unmatched": 0
+   },
+   "n_issues": 13,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: Part A - Year 2 required UTB liability for the Year 1 position after remeasurement",
+     "solver": 20000
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Liability for Unrecognized Tax Benefits"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accrued Interest and Penalties Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Liability for Unrecognized Tax Benefits"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Liability for Unrecognized Tax Benefits"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Liability for Unrecognized Tax Benefits"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Liability for Unrecognized Tax Benefits"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Liability for Unrecognized Tax Benefits"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 2400.0,
+     "solver": "accrued interest and penalties payable",
+     "key_options": [
+      "accrued interest and penalties on uncertain tax positions"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 125000.0,
+     "solver": "income taxes payable",
+     "key_options": [
+      "income tax payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 37500.0,
+     "solver": "income taxes payable",
+     "key_options": [
+      "income tax payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 11250.0,
+     "solver": "income taxes payable",
+     "key_options": [
+      "income tax expense",
+      "income tax payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 18750.0,
+     "solver": "income taxes payable",
+     "key_options": [
+      "income tax payable",
+      "liability for unrecognized tax benefits"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_382#00",
+   "status": "machine_passed",
+   "risk_score": 7,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 11,
+    "routed_stage2": 2,
+    "computable_unmatched": 0
+   },
+   "n_issues": 6,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "e: bonds dilutive or antidilutive",
+     "solver": "dilutive"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "f: EPS reported on face of income statement",
+     "solver": "Complex capital structure: present both basic EPS of $2.80 and diluted EPS of $2.74 on the face of the 20X5 income statement, with equal prominence."
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "g: bonds dilutive or antidilutive (Oct 1 issuance)",
+     "solver": "dilutive"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-In Capital in Excess of Par-Common Stock"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 60000.0,
+     "solver": "common stock",
+     "key_options": [
+      "common stock 2 par"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 1140000.0,
+     "solver": "paid in capital in excess of par common stock",
+     "key_options": [
+      "apic common stock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_107#02",
+   "status": "failed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 10,
+    "routed_stage2": 2,
+    "computable_unmatched": 0
+   },
+   "n_issues": 8,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: Case A allocation percentage to common (0.72 = 72%)",
+     "solver": 0.72
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: Case A allocation percentage to preferred (0.28 = 28%)",
+     "solver": 0.28
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-in Capital in Excess of Par - Preferred Stock"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-in Capital in Excess of Par - Common Stock"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-in Capital in Excess of Par - Preferred Stock"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-in Capital in Excess of Par - Common Stock"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 10000.0,
+     "solver": "preferred stock",
+     "key_options": [
+      "common stock 2 000 5",
+      "preferred stock 1 000 10"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 10000.0,
+     "solver": "common stock",
+     "key_options": [
+      "common stock 2 000 5",
+      "preferred stock 1 000 10"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_328#02",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 13,
+    "routed_stage2": 3,
+    "computable_unmatched": 0
+   },
+   "n_issues": 7,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Construction in Process"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Construction of Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Construction in Process"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Sale of Equipment"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 25000.0,
+     "solver": "depreciation expense",
+     "key_options": [
+      "depreciation expense equipment"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 50000.0,
+     "solver": "depreciation expense",
+     "key_options": [
+      "depreciation expense equipment"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 10000.0,
+     "solver": "loss on sale of equipment",
+     "key_options": [
+      "loss on disposal of equipment"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_130#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 26,
+    "routed_stage2": 2,
+    "computable_unmatched": 0
+   },
+   "n_issues": 5,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accounts Receivable, net"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Sale of Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Common Stock, no-par"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 70000.0,
+     "solver": "accounts receivable net",
+     "key_options": [
+      "accounts receivable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 100000.0,
+     "solver": "common stock no par",
+     "key_options": [
+      "common stock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_356#00",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 26,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 5,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Sales Taxes Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Sales Taxes Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Sales Taxes Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Sales Taxes Payable"
+    },
+    {
+     "kind": "FORM_DIFFERS",
+     "why": "same legs after compound/net canonicalization"
+    }
+   ]
+  },
+  {
+   "id": "agent_086#01",
+   "status": "failed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 21,
+    "routed_stage2": 2,
+    "computable_unmatched": 2
+   },
+   "n_issues": 28,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: item 1 copyright $72,000 - classification",
+     "solver": "Finite-life intangible asset (12-year useful life; shorter than legal life)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: item 2 franchise $110,000 - classification",
+     "solver": "Indefinite-life intangible asset (not goodwill); renewals expected indefinitely, no amortization"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: item 3 patent $56,000 - classification",
+     "solver": "Finite-life intangible asset (7-year useful life, shorter than the 14-year remaining legal life)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: item 4 trade name registration fees $8,400 - classification",
+     "solver": "Indefinite-life intangible asset (not goodwill); external legal/registration costs are capitalized, not amortized"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: item 5 internal engineer salaries and lab supplies $145,000 - classification",
+     "solver": "Expense (research and development expensed as incurred; internally generated intangible)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: item 6 acquisition of competitor - classification",
+     "solver": "Goodwill for the residual excess of price over the fair value of identifiable net assets"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: item 7 patent defense fees $11,200 - classification",
+     "solver": "Capitalized as part of the cost of the patent (finite-life intangible asset)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: item 7 effect on the patent's classification and subsequent measurement",
+     "solver": "Item 7 does not change the patent's classification: it remains a finite-life intangible asset. The $11,200 successful-defense cost is added to the patent's carr"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: item 8 two-year municipal license $24,000 - classification",
+     "solver": "Finite-life intangible asset (2-year life)"
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: Year-1 amortization - patent, original cost (56,000 / 7, full year)",
+     "solver": 8000
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: Year-1 amortization - patent defense costs (11,200 / 6.5 x 6/12)",
+     "solver": 861.54
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Copyright"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Franchise"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Patent"
+    }
+   ]
+  },
+  {
+   "id": "agent_193#02",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 2,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 0,
+   "issues": []
+  },
+  {
+   "id": "agent_367#02",
+   "status": "machine_passed",
+   "risk_score": 7,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 7,
+    "routed_stage2": 2,
+    "computable_unmatched": 0
+   },
+   "n_issues": 7,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Disposal of Discontinued Component"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Net Assets of Discontinued Component"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Income Tax Expense (Continuing Operations)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Income Tax Benefit (Discontinued Operations)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Income Tax Payable"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 180000.0,
+     "solver": "net assets of discontinued component",
+     "key_options": [
+      "net assets of discontinued component various bs accounts net"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 73250.0,
+     "solver": "income tax payable",
+     "key_options": [
+      "income taxes payable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_301#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 17,
+    "routed_stage2": 4,
+    "computable_unmatched": 0
+   },
+   "n_issues": 10,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Restricted Cash-Compensating Balance (current asset)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Cash Equivalents-Commercial Paper"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Cash Equivalents-Commercial Paper"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Cash Equivalents-U.S. Treasury Bill"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Restricted Cash-Dividend Fund (current asset)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Restricted Cash-Bond Sinking Fund (noncurrent asset)"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 28800.0,
+     "solver": "restricted cash compensating balance current asset",
+     "key_options": [
+      "restricted cash compensating balance"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 14200.0,
+     "solver": "restricted cash dividend fund current asset",
+     "key_options": [
+      "restricted cash dividend fund"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 63500.0,
+     "solver": "restricted cash bond sinking fund noncurrent asset",
+     "key_options": [
+      "restricted cash bond sinking fund"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 1150.0,
+     "solver": "cash",
+     "key_options": [
+      "cash prairie credit union"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_043#00",
+   "status": "failed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 19,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 11,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "e: unamortized Discount on Note Receivable at December 31, Year 1",
+     "solver": 3167
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    }
+   ]
+  },
+  {
+   "id": "agent_056#02",
+   "status": "failed",
+   "risk_score": 3,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 0,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 3,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: Summitline gross profit - LIFO (as reported)",
+     "solver": 540000
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: Summitline gross profit - FIFO (as if)",
+     "solver": 560000
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to LIFO"
+    }
+   ]
+  },
+  {
+   "id": "agent_134#01",
+   "status": "failed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 13,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 10,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: net effect on Year 1 net income from this investment",
+     "solver": 900
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in TS-Redwood Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss-Income"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment-TS"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment-TS"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss-Income"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss-Income"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment-TS"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment-TS"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in TS-Redwood Bonds"
+    }
+   ]
+  },
+  {
+   "id": "agent_250#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 7,
+    "routed_stage2": 2,
+    "computable_unmatched": 0
+   },
+   "n_issues": 6,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "c: October 1 2-for-1 stock split accounting treatment",
+     "solver": "Memorandum entry only - no journal entry. A 2-for-1 stock split under the memorandum method doubles the shares outstanding and halves the par value per share ($"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "d: weighted-average common shares outstanding schedule (restatement 2.0 pre-split)",
+     "solver": "[{'dates': 'Jan 1 - Mar 31', 'shares_outstanding': 100000, 'restatement': 2, 'fraction_of_year': '3/12', 'weighted_average_shares': 50000}, {'dates': 'Mar 31 - "
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-in Capital in Excess of Par - Common Stock"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Income Summary"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 40000.0,
+     "solver": "common stock",
+     "key_options": [
+      "common stock 2 par"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 200000.0,
+     "solver": "paid in capital in excess of par common stock",
+     "key_options": [
+      "additional paid in capital common"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_113#00",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 2,
+    "routed_stage2": 1,
+    "computable_unmatched": 0
+   },
+   "n_issues": 3,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Retained Earnings (Unappropriated)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Retained Earnings Appropriated for Plant Expansion"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 250000.0,
+     "solver": "retained earnings appropriated for plant expansion",
+     "key_options": [
+      "appropriated retained earnings plant expansion"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_161#02",
+   "status": "machine_passed",
+   "risk_score": 6,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 2,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 3,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: classification of the single noncurrent amount",
+     "solver": "noncurrent deferred tax liability, net"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: classification of the single noncurrent amount",
+     "solver": "noncurrent deferred tax liability, net"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Valuation Allowance for Deferred Tax Asset"
+    }
+   ]
+  },
+  {
+   "id": "agent_333#02",
+   "status": "failed",
+   "risk_score": 3,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 16,
+    "routed_stage2": 2,
+    "computable_unmatched": 0
+   },
+   "n_issues": 17,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: building accumulated depreciation at Dec 31, 20X7 under capitalization",
+     "solver": 1062000
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - Building"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Depreciation Expense - Building"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - Building"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Building"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Depreciation Expense - Building"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - Building"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Depreciation Expense - Machine"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - Machine"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - Machine"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Disposal of Machine"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Machine"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Machine"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Depreciation Expense - Machine"
+    }
+   ]
+  },
+  {
+   "id": "agent_164#02",
+   "status": "machine_passed",
+   "risk_score": 6,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 5,
+    "routed_stage2": 2,
+    "computable_unmatched": 0
+   },
+   "n_issues": 18,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a1: Payment of principal on a finance lease liability",
+     "solver": "F outflow"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a2: Cash purchase of trading equity securities held for short-term resale profits",
+     "solver": "O outflow"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a3: Cash proceeds from sale of those same trading securities",
+     "solver": "O inflow"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a4: Cash purchase of available-for-sale debt securities held for long-term yield",
+     "solver": "I outflow"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a5: Collection of principal on a short-term trade note receivable from an inventory sale",
+     "solver": "O inflow"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a6: Collection of interest on that same trade note",
+     "solver": "O inflow"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a7: Cash paid for early extinguishment of long-term bonds (principal and premium)",
+     "solver": "F outflow"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a8: Cash proceeds from sale of a patent",
+     "solver": "I inflow"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a9: Cash received from issuance of a short-term nontrade note payable for general financing",
+     "solver": "F inflow"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a10: Payment of a cash dividend declared in the prior year",
+     "solver": "F outflow"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "c: SCF section for the patent sale proceeds",
+     "solver": "Investing inflow 22500 (gain 4500 deducted from net income in operating)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "c: SCF section for the finance-lease principal payment",
+     "solver": "Financing outflow 9000"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "d: true/false with correction",
+     "solver": "False. ASC 230-10-45-26 requires investing (and financing) cash inflows and outflows to be reported separately on a GROSS basis: cash paid to purchase equipment"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "e: required section order on the face of the SCF",
+     "solver": "1) Cash flows from operating activities; 2) Cash flows from investing activities; 3) Cash flows from financing activities; = Net change in cash, cash equivalent"
+    }
+   ]
+  },
+  {
+   "id": "agent_160#01",
+   "status": "machine_passed",
+   "risk_score": 7,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 11,
+    "routed_stage2": 3,
+    "computable_unmatched": 0
+   },
+   "n_issues": 3,
+   "issues": [
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 80850.0,
+     "solver": "income taxes payable",
+     "key_options": [
+      "income tax payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 103110.0,
+     "solver": "income taxes payable",
+     "key_options": [
+      "income tax payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 75810.0,
+     "solver": "income taxes payable",
+     "key_options": [
+      "income tax payable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_320#02",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 6,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 4,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Market"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Holding Loss on Inventory"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Market"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Market"
+    }
+   ]
+  },
+  {
+   "id": "agent_303#02",
+   "status": "failed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 18,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 8,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: Inventory\u2014Estimated Returns rollforward \u2014 add cost of estimated returns",
+     "solver": 14850
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Sales Returns"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Sales Allowances"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Sales Returns"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Refund Liability"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory\u2014Estimated Returns"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Refund Liability"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory\u2014Estimated Returns"
+    }
+   ]
+  },
+  {
+   "id": "agent_007#02",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 0,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 8,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss-OCI"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment-AFS"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Impairment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment-AFS"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in AFS-Oakmont Energy Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss-OCI"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in AFS-Oakmont Energy Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Gain on Sale of Investment"
+    }
+   ]
+  },
+  {
+   "id": "agent_230#00",
+   "status": "failed",
+   "risk_score": 3,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 9,
+    "routed_stage2": 4,
+    "computable_unmatched": 1
+   },
+   "n_issues": 9,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss from Litigation"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Litigation Liability"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Litigation Liability"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss from Litigation"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 160000.0,
+     "solver": "loss from litigation",
+     "key_options": [
+      "estimated litigation liability",
+      "loss on litigation litigation expense"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 160000.0,
+     "solver": "litigation liability",
+     "key_options": [
+      "estimated litigation liability"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 160000.0,
+     "solver": "litigation liability",
+     "key_options": [
+      "estimated litigation liability",
+      "loss on litigation litigation expense"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 15000.0,
+     "solver": "loss from litigation",
+     "key_options": [
+      "loss on litigation",
+      "loss on litigation settlement"
+     ]
+    },
+    {
+     "kind": "KEY_LINE_NOT_IN_SOLVER",
+     "side": "cr",
+     "amount": 15000.0,
+     "key": "estimated litigation liability",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "id": "agent_336#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 17,
+    "routed_stage2": 5,
+    "computable_unmatched": 0
+   },
+   "n_issues": 16,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Equipment - Hydraulic Press"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - Hydraulic Press"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Equipment - CNC Mill"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - Hydraulic Press"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Exchange of Asset"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Equipment - Hydraulic Press"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - CNC Mill"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - CNC Mill"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - CNC Mill"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Disposal of Asset"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Equipment - CNC Mill"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 10125.0,
+     "solver": "depreciation expense",
+     "key_options": [
+      "depreciation expense hydraulic press"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 1375.0,
+     "solver": "loss on exchange of asset",
+     "key_options": [
+      "loss on asset exchange"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 3000.0,
+     "solver": "depreciation expense",
+     "key_options": [
+      "depreciation expense cnc mill"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_295#02",
+   "status": "machine_passed",
+   "risk_score": 7,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 14,
+    "routed_stage2": 1,
+    "computable_unmatched": 0
+   },
+   "n_issues": 19,
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: cash-effect classification of item 1",
+     "solver": "I - inflow $140,000 (proceeds from sale of building; reported gross)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: cash-effect classification of item 2",
+     "solver": "F - outflow $80,000 (repayment of bond principal at maturity)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: cash-effect classification of item 3",
+     "solver": "O - outflow $9,600 (interest paid)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: cash-effect classification of item 5",
+     "solver": "I - outflow $55,000 (purchase of production equipment)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: cash-effect classification of item 7",
+     "solver": "F - inflow $50,000 (proceeds from long-term nontrade bank note)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: cash-effect classification of item 8",
+     "solver": "F - outflow $12,000 (finance lease principal; lease interest would be O)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: cash-effect classification of item 10",
+     "solver": "F - outflow $7,500 (cash dividends paid)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: cash-effect classification of item 11",
+     "solver": "O - inflow $285,000 collections; O - outflow $240,000 suppliers/employees; O - outflow $14,000 income taxes"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: cash-effect classification of item 12",
+     "solver": "O - outflow $16,000 (trading securities bought for resale are operating, not investing)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: SCF reporting of item 4",
+     "solver": "Item 4 (accrued $2,400 interest): no cash effect, so it is NOT a cash flow line. Under the indirect method it appears only as a reconciling add-back (increase i"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: SCF reporting of item 6",
+     "solver": "Item 6 (land acquired for a $90,000 note): noncash investing and financing transaction. Excluded from the body of the SCF; disclosed in the supplemental schedul"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: SCF reporting of item 9",
+     "solver": "Item 9 (declared $10,000 dividends payable in Jan 2028): no cash effect, so it is NOT reported in financing activities this year. It is a noncash declaration (d"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "d: SCF section order and three-line cash reconciliation",
+     "solver": "SCF section order: (1) Cash flows from operating activities; (2) Cash flows from investing activities; (3) Cash flows from financing activities; then net increa"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "e: True/False with correction",
+     "solver": "False. Investing (and financing) cash flows must generally be reported GROSS - cash receipts and cash payments are shown separately (ASC 230-10-45-26), e.g. pro"
+    }
+   ]
+  },
+  {
+   "id": "agent_002#03",
+   "status": "failed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 8,
+    "routed_stage2": 4,
+    "computable_unmatched": 0
+   },
+   "n_issues": 13,
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: effect on net income on the January 1, Year 4 transfer date",
+     "solver": 0
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in AFS-Quill Corp. Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in AFS-Dune Partners Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in HTM-Quill Corp. Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in HTM-Dune Partners Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment-AFS"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss-OCI"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss-OCI"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment-AFS"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 90000.0,
+     "solver": "investment in afs quill corp bonds",
+     "key_options": [
+      "investment in afs quill bonds"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 60000.0,
+     "solver": "investment in afs dune partners bonds",
+     "key_options": [
+      "investment in afs dune bonds"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 90000.0,
+     "solver": "investment in htm quill corp bonds",
+     "key_options": [
+      "investment in htm quill bonds"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 60000.0,
+     "solver": "investment in htm dune partners bonds",
+     "key_options": [
+      "investment in htm dune bonds"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_302#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 18,
+    "routed_stage2": 7,
+    "computable_unmatched": 0
+   },
+   "n_issues": 14,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accounts Receivable - Arden Supply"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accounts Receivable - Bristol Outlet"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accounts Receivable - Arden Supply"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance for Sales Discounts"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance for Sales Discounts"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accounts Receivable - Bristol Outlet"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accounts Receivable - Arden Supply"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 90000.0,
+     "solver": "accounts receivable arden supply",
+     "key_options": [
+      "accounts receivable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 60000.0,
+     "solver": "accounts receivable bristol outlet",
+     "key_options": [
+      "accounts receivable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 1080.0,
+     "solver": "sales discounts",
+     "key_options": [
+      "sales discount"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 36000.0,
+     "solver": "accounts receivable arden supply",
+     "key_options": [
+      "accounts receivable",
+      "inventory"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 1800.0,
+     "solver": "sales discounts",
+     "key_options": [
+      "allowance for sales discounts",
+      "sales discount"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 60000.0,
+     "solver": "accounts receivable bristol outlet",
+     "key_options": [
+      "accounts receivable",
+      "sales revenue"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 54000.0,
+     "solver": "accounts receivable arden supply",
+     "key_options": [
+      "accounts receivable",
+      "inventory"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_120#02",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 7,
+    "routed_stage2": 7,
+    "computable_unmatched": 0
+   },
+   "n_issues": 8,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-In Capital in Excess of Par-Common Stock"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 400000.0,
+     "solver": "preferred stock",
+     "key_options": [
+      "preferred stock 50 par"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 24000.0,
+     "solver": "retained earnings",
+     "key_options": [
+      "retained earnings or cash dividends preferred"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 24000.0,
+     "solver": "dividends payable",
+     "key_options": [
+      "cash"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 24000.0,
+     "solver": "dividends payable",
+     "key_options": [
+      "retained earnings or cash dividends preferred"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 400000.0,
+     "solver": "preferred stock",
+     "key_options": [
+      "cash",
+      "preferred stock 50 par"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 160000.0,
+     "solver": "common stock",
+     "key_options": [
+      "common stock 5 par"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 240000.0,
+     "solver": "paid in capital in excess of par common stock",
+     "key_options": [
+      "apic common stock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent_229#00",
+   "status": "machine_passed",
+   "risk_score": 6,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 10,
+    "routed_stage2": 0,
+    "computable_unmatched": 0
+   },
+   "n_issues": 0,
+   "issues": []
+  },
+  {
+   "id": "agent_263#02",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "scope": {
+    "solver_has_entries": true,
+    "key_lines": 10,
+    "routed_stage2": 4,
+    "computable_unmatched": 0
+   },
+   "n_issues": 9,
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in HTM Securities\u2014Meridian Telecom Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in HTM Securities\u2014Meridian Telecom Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Sale of Investment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in HTM Securities\u2014Meridian Telecom Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in HTM Securities\u2014Meridian Telecom Bonds"
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "dr",
+     "amount": 216339.0,
+     "solver": "investment in htm securities meridian telecom bonds",
+     "key_options": [
+      "investment in htm securities meridian bonds"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 5183.0,
+     "solver": "investment in htm securities meridian telecom bonds",
+     "key_options": [
+      "investment in htm securities meridian bonds"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 205714.0,
+     "solver": "investment in htm securities meridian telecom bonds",
+     "key_options": [
+      "investment in htm securities meridian bonds"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_TO_STAGE2",
+     "side": "cr",
+     "amount": 200000.0,
+     "solver": "investment in htm securities meridian telecom bonds",
+     "key_options": [
+      "investment in htm securities meridian bonds"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "agent_382#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 11,
+  "routed_stage2": 2,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "e: bonds dilutive or antidilutive",
+   "solver": "dilutive"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "f: EPS reported on face of income statement",
+   "solver": "Complex capital structure: present both basic EPS of $2.80 and diluted EPS of $2.74 on the face of the 20X5 income statement, with equal prominence."
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "g: bonds dilutive or antidilutive (Oct 1 issuance)",
+   "solver": "dilutive"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 60000.0,
+   "solver": "common stock",
+   "key_options": [
+    "common stock 2 par"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 1140000.0,
+   "solver": "paid in capital in excess of par common stock",
+   "key_options": [
+    "apic common stock"
+   ]
+  }
+ ]
+}

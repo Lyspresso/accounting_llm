@@ -1,0 +1,63 @@
+{
+  "agent_id": 326,
+  "lo": "LO 10-8",
+  "chapter": 10,
+  "title": "Estimate ending inventory using the average cost and conventional retail methods",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-8",
+      "concept": "Average cost retail cost-to-retail schedule; initial purchase/freight recognition; multi-year period-end inventory/COGS adjusting JEs (emphasis)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-8",
+      "concept": "Number-variant twin — average cost retail cost-to-retail schedule; purchase recognition; period-end inventory/COGS adjusting JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-8",
+      "concept": "Conventional retail subsequent measurement schedule (markdowns excluded from cost ratio); complicating factors; period-end EI/COGS JE; physical inventory settlement (shrinkage) JE",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-8",
+      "concept": "Classify treatment of net markdowns and what each retail method approximates; period-end periodic close structure",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

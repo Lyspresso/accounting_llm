@@ -1,0 +1,84 @@
+{
+ "id": "agent_360#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 14,
+  "routed_stage2": 5,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "g: reporting if the litigation loss were only reasonably possible",
+   "solver": "No liability or loss would be accrued at December 31, Year 1; the contingency would instead be disclosed in the notes, describing the nature of the lawsuit and "
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss from Litigation"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Litigation Liability"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss from Litigation"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Litigation Liability"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Litigation Liability"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 120000.0,
+   "solver": "loss from litigation",
+   "key_options": [
+    "loss on litigation"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 120000.0,
+   "solver": "litigation liability",
+   "key_options": [
+    "estimated litigation liability"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 25000.0,
+   "solver": "loss from litigation",
+   "key_options": [
+    "loss on litigation"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 25000.0,
+   "solver": "litigation liability",
+   "key_options": [
+    "estimated litigation liability"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 145000.0,
+   "solver": "litigation liability",
+   "key_options": [
+    "estimated litigation liability"
+   ]
+  }
+ ]
+}

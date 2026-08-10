@@ -1,0 +1,69 @@
+{
+  "agent_id": 394,
+  "lo": "LO 14-1",
+  "chapter": 14,
+  "title": "Account for debt securities measured at amortized cost",
+  "critical": true,
+  "emphasis": "disposal_maturity_or_settlement_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-1",
+      "concept": "Initial recognition + effective-interest schedule + maturity/settlement and early-disposal JE (discount)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-1",
+      "concept": "Number-variant twin — premium purchase, schedule, period-end JE, maturity & disposal",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-1",
+      "concept": "Disposal/maturity emphasis — partial-period update of amortized cost, then sale; contrast with maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-1",
+      "concept": "HTM amortized-cost classification criteria and disposal measurement basis",
+      "type": "MC",
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

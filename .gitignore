@@ -1,3 +1,23 @@
+# =====================================================================
+# What stays out
+# =====================================================================
+# The question bank IS in this repo — it is AI-authored (400 CORE DEMO
+# authoring agents, `provenance.generated_by: core-demo authoring agent`),
+# not textbook material. Publishing it is the point: the whole project is
+# an argument that AI-generated questions are unreliable until verified,
+# and that argument is unfalsifiable without the corpus and the evidence.
+#
+# What still stays out is machine-local or regenerable:
+
+# local config: absolute paths and machine-specific locations
+config.yaml
+
+# regenerable pipeline scratch (reports and state are rebuilt by the
+# scripts; committing them just makes diffs noisy)
+out/reports/
+out/pack_diffs/
+out/*.tmp
+
 # macOS
 .DS_Store
 
@@ -22,9 +42,9 @@ build/
 .vscode/
 .idea/
 
-# Public repo: never commit textbook source material (Hanlon 4e)
-*_clean.txt
+# Public repo: never commit textbook source material (Hanlon 4e text)
+chapter_*_clean.txt
 chapter_*.txt
 textbook/
-sources/
-notes/
+hanlon*
+course_notes/

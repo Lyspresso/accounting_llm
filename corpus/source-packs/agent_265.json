@@ -1,0 +1,91 @@
+{
+  "agent_id": 265,
+  "lo": "LO 14-2",
+  "chapter": 14,
+  "title": "Account for debt securities measured at FV-NI with fair value adjustments at sale date and period-end",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-2",
+      "concept": "Period-end Fair Value Adjustment (FV-NI) for trading debt securities—FVA worksheet from amortized cost to year-end fair value; initial purchase between interest dates; sale-date remeasurement and FVA elimination",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-2",
+      "concept": "Number-variant twin: period-end FV-NI adjusting JE for trading debt (FVA worksheet); purchase between interest dates; sale-date adjust and FVA elimination",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-2",
+      "concept": "Subsequent measurement schedule (effective-interest amortized cost) plus multi-period period-end FVA adjusting JEs (existing FVA balance) and sale under FV-NI",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-2",
+      "concept": "Period-end FV-NI adjusting JE under the fair value option for otherwise HTM debt; classification of unrealized G/L in net income; contrast with pure amortized-cost HTM",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-2",
+      "concept": "Computing the period-end FV-NI adjusting entry when an existing FVA balance is present",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q6",
+      "lo": "LO 14-2",
+      "concept": "Classification—where period-end unrealized holding gains/losses on FV-NI debt securities are reported",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "ok": true
+}

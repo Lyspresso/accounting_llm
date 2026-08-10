@@ -1,0 +1,62 @@
+{
+  "agent_id": 72,
+  "lo": "LO 11-7",
+  "chapter": 11,
+  "title": "Account for disposal of property, plant, and equipment",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-7",
+      "concept": "Initial PPE recognition; depreciation schedule; update depreciation at disposal; sale with gain; IS classification",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-7",
+      "concept": "Number-variant twin: acquisition, multi-year AD schedule, disposal-date dep update, sale at a loss",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-7",
+      "concept": "Sale at loss, sale at gain, and involuntary/abandonment disposal; optional selling costs; classification of gain/loss",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-7",
+      "concept": "Classification of disposal gains/losses; required sequence before recording disposal",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

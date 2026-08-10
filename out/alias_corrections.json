@@ -1,0 +1,19 @@
+{
+ "purged_notations": [
+  "Retained Earnings (or Dividends)",
+  "Retained Earnings (or Cash Dividends\u2014Preferred)"
+ ],
+ "pic_canonical": "Paid-in Capital in Excess of Par\u2014Common Stock",
+ "pic_variants": [
+  "Additional Paid-in Capital",
+  "Paid-In Capital in Excess of Par\u2014Common",
+  "Paid-in Capital in Excess of Par - Common",
+  "Paid-in Capital in Excess of Par\u2014Common",
+  "Share Premium"
+ ],
+ "pic_bare_form": [
+  "Paid-In Capital in Excess of Par",
+  "Paid-in Capital in Excess of Par"
+ ],
+ "pic_bare_ruling": "DISTINCT - no security named, so the account is context-dependent per entry; matcher must not fold it into the Common Stock row."
+}

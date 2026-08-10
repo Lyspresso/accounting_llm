@@ -1,0 +1,326 @@
+{
+ "clean": 26,
+ "findings": [
+  {
+   "id": "agent_002#03",
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: Effect of the transfer on net income",
+   "class": "MATCHER_ARTIFACT",
+   "reason": "key answers 'none'; prose-null not recognised for this wording"
+  },
+  {
+   "id": "agent_002#03",
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "label": "",
+   "class": "MATCHER_ARTIFACT",
+   "reason": "aggregation-equivalent: same sides, same totals, token-linked (needs an alias ruling to clear)"
+  },
+  {
+   "id": "agent_002#03",
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "label": "",
+   "class": "MATCHER_ARTIFACT",
+   "reason": "aggregation-equivalent: same sides, same totals, token-linked (needs an alias ruling to clear)"
+  },
+  {
+   "id": "agent_002#03",
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "label": "",
+   "class": "MATCHER_ARTIFACT",
+   "reason": "aggregation-equivalent: same sides, same totals, token-linked (needs an alias ruling to clear)"
+  },
+  {
+   "id": "agent_002#03",
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "label": "",
+   "class": "MATCHER_ARTIFACT",
+   "reason": "aggregation-equivalent: same sides, same totals, token-linked (needs an alias ruling to clear)"
+  },
+  {
+   "id": "agent_002#03",
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "label": "",
+   "class": "MATCHER_ARTIFACT",
+   "reason": "aggregation-equivalent: same sides, same totals, token-linked (needs an alias ruling to clear)"
+  },
+  {
+   "id": "agent_002#03",
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "label": "",
+   "class": "MATCHER_ARTIFACT",
+   "reason": "aggregation-equivalent: same sides, same totals, token-linked (needs an alias ruling to clear)"
+  },
+  {
+   "id": "agent_151#01",
+   "kind": "SOLVER_MISMATCH",
+   "label": "c: post-remeasurement ROU asset carrying amount",
+   "class": "MATCHER_ARTIFACT",
+   "reason": "rounding: key 240,614.00 vs solver 240,612.65 (delta 1.35) inside compounded-rounding range"
+  },
+  {
+   "id": "agent_151#01",
+   "kind": "SOLVER_MISMATCH",
+   "label": "d: schedule - liability after paying the $30,000 purchase option",
+   "class": "MATCHER_ARTIFACT",
+   "reason": "KEY_SILENT hard-failed - key never mentions ['option', 'paying', 'purchase']"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: Full-year straight-line depreciation",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: Year 1 depreciation expense",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: Year 1 year-end accumulated depreciation",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: Year 1 year-end net book value",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: Year 2 depreciation expense",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: Year 2 year-end accumulated depreciation",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: Year 2 year-end net book value",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: Year 3 depreciation expense",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: Year 3 year-end accumulated depreciation",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: Year 3 year-end net book value",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "c: Dec 31, Year 1 depreciation adjusting entry amount",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "c: Dec 31, Year 2 depreciation adjusting entry amount",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "d: Dec 31, Year 3 depreciation adjusting entry amount",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "d: NBV immediately before scrapping",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "d: Loss on disposal (scrapping)",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_204#02",
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "label": "",
+   "class": "HASH_MIXING",
+   "reason": "solver output inadmissible (provenance)"
+  },
+  {
+   "id": "agent_283#02",
+   "kind": "SOLVER_MISMATCH",
+   "label": "f: total lease expense recognized over the 8-year term",
+   "class": "MATCHER_ARTIFACT",
+   "reason": "ratio-derivable from key figures: 10,800.00 / 3.00 = 360,000.0000 (pct); derivable_from_key is sum-only"
+  },
+  {
+   "id": "agent_285#00",
+   "kind": "SOLVER_MISMATCH",
+   "label": "a: Criterion 4 - PV of lease payments as % of fair value",
+   "class": "MATCHER_ARTIFACT",
+   "reason": "ratio-derivable from key figures: 81,911.00 / 140,000.00 = 58.5079 (pct); derivable_from_key is sum-only"
+  }
+ ],
+ "tally": {
+  "TRUE_FP": 0,
+  "GOLDEN_WRONG": 0,
+  "MATCHER_ARTIFACT": 11,
+  "HASH_MIXING": 32,
+  "PENDING": 0
+ },
+ "item_class": {
+  "agent_002#03": "MATCHER_ARTIFACT",
+  "agent_151#01": "MATCHER_ARTIFACT",
+  "agent_204#02": "HASH_MIXING",
+  "agent_283#02": "MATCHER_ARTIFACT",
+  "agent_285#00": "MATCHER_ARTIFACT"
+ },
+ "chargeable": 0,
+ "chargeable_ci": [
+  0.0,
+  0.12873304380462175
+ ],
+ "caveat": "MATCHER_ARTIFACT excluded; forecast until fixed and detection re-measured"
+}

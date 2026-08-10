@@ -1,0 +1,61 @@
+{
+  "agent_id": 65,
+  "lo": "LO 10-9",
+  "chapter": 10,
+  "title": "Retail inventory methods have two other options: the LIFO retail method",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-9",
+      "concept": "Initial application of LIFO retail — ending inventory at retail (average cost approach), base vs current cost ratios, layer valuation, and period-end COGS/inventory JE",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-9",
+      "concept": "Number-variant twin of LIFO retail layer valuation and period-end inventory/COGS recognition",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-9",
+      "concept": "Dollar-value LIFO retail layer schedule (price index × cost ratio); layer liquidation when base-year retail declines; adoption JE from conventional retail; classification/disclosure",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-9",
+      "concept": "Distinguishing LIFO retail vs conventional retail and identifying dollar-value LIFO retail measurement elements",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

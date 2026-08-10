@@ -1,0 +1,60 @@
+{
+  "agent_id": 58,
+  "lo": "LO 10-2",
+  "chapter": 10,
+  "title": "Apply lower of cost or market rule to inventory",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-2",
+      "concept": "Apply lower of cost or market by individual item; record initial period-end write-down (allowance)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-2",
+      "concept": "Number-variant twin of individual-item LCM measurement and initial write-down JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-2",
+      "concept": "Subsequent LCM allowance schedule; period-end adjusting JEs; disposal of write-down when inventory sold; presentation",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-2",
+      "concept": "Method applicability and designation of market under LCM",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

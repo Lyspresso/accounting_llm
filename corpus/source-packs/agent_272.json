@@ -1,0 +1,73 @@
+{
+  "agent_id": 272,
+  "lo": "LO 14-9",
+  "chapter": 14,
+  "title": "Account for equity securities measured at FV-NI with fair value adjustments only at period-end",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-9",
+      "concept": "Period-end adjusting entries for equity securities measured at FV-NI (FVA only at reporting dates; multi-year schedule)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-9",
+      "concept": "Number-variant twin — multi-period period-end-only FVA for equity securities at FV-NI",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-9",
+      "concept": "Partial sale at allocated original cost; period-end FVA only for remaining portfolio; classification and presentation",
+      "type": "multipart",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-9",
+      "concept": "Classification of sale measurement — period-end-only FVA (LO 14-9) versus sale-date FVA (LO 14-4)",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

@@ -1,0 +1,39 @@
+{
+  "agent_id": 217,
+  "lo": "LO 13-1",
+  "chapter": 13,
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-1",
+      "concept": "Classify intangible items (finite / indefinite / goodwill / expense); initial recognition JEs; multi-year subsequent measurement amortization schedule (including mid-life successful defense reamortization); period-end adjusting JEs; disposal (derecognition) JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-1",
+      "concept": "Number-variant twin: classify items; initial recognition JEs; multi-period subsequent measurement amortization schedule with defense reamortization; period-end AJEs; disposal JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-1",
+      "concept": "Classify intangible items including basket-purchase allocation (no goodwill in asset acquisition); initial recognition by relative FV; subsequent measurement schedule; unsuccessful defense expensed; license maturity (fully amortized / settled)",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-1",
+      "concept": "Finite vs indefinite vs goodwill vs expense; crypto asset classification when ASC 350-60 criteria are met",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

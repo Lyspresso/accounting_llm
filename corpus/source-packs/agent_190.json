@@ -1,0 +1,40 @@
+{
+  "agent_id": 190,
+  "lo": "LO 10-3",
+  "chapter": 10,
+  "title": "Demonstrate the relative sales value method to allocate costs to inventory",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-3",
+      "concept": "Relative sales value allocation of lump-sum purchase cost; subsequent inventory schedule after partial sales",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-3",
+      "concept": "Relative sales value allocation (number variant); inventory rollforward after partial sales",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-3",
+      "concept": "Relative sales value method for real-estate inventory lots; period-end inventory valuation schedule and disposal (sale) entries",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-3",
+      "concept": "Relative sales value method — choose correct allocated cost for a lot group",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

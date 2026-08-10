@@ -1,0 +1,80 @@
+{
+  "agent_id": 146,
+  "lo": "LO 16-5",
+  "chapter": 16,
+  "title": "Account for bonds issued at a premium",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-5",
+      "concept": "Subsequent measurement schedule and full effective-interest life cycle for premium bonds",
+      "type": "multipart",
+      "company": "Harborview Engineering",
+      "face": 250000,
+      "stated_rate": 0.06,
+      "market_rate": 0.04,
+      "years": 3,
+      "issue_price": 264004,
+      "premium": 14004,
+      "y1_interest_expense": 10516,
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-5",
+      "concept": "Number-variant twin — issue price, subsequent measurement schedule, and premium amortization JEs",
+      "type": "multipart",
+      "company": "Meridian Pipeline Co.",
+      "face": 400000,
+      "stated_rate": 0.05,
+      "market_rate": 0.03,
+      "years": 4,
+      "issue_price": 429944,
+      "premium": 29944,
+      "y1_interest_expense": 12845,
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-5",
+      "concept": "Period-end adjusting JE, classification/presentation of premium bonds, and maturity settlement",
+      "type": "multipart",
+      "company": "Northpeak Logistics",
+      "face": 300000,
+      "stated_rate": 0.08,
+      "market_rate": 0.06,
+      "years": 3,
+      "issue_price": 316252,
+      "premium": 16252,
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-5",
+      "concept": "Classification and presentation of Premium on Bonds Payable",
+      "type": "MC",
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-5",
+      "concept": "Relationship of cash interest, interest expense, and premium amortization under the effective interest method",
+      "type": "MC",
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

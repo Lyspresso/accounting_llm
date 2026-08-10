@@ -1,0 +1,232 @@
+{
+  "id": "agent_080#01",
+  "rounding_convention": "decimal.Decimal only, no floats; ROUND_HALF_UP to the cent applied per period (each year's depreciation rounded before accumulation); final year not plugged \u2014 schedule verified to land exactly on the revised $12,000 residual; no PV factors used.",
+  "answers": [
+    {
+      "label": "b: original annual depreciation (Years 1-4)",
+      "value": 27000
+    },
+    {
+      "label": "b: Year 1 depreciation expense",
+      "value": 27000
+    },
+    {
+      "label": "b: Year 1 accumulated depreciation",
+      "value": 27000
+    },
+    {
+      "label": "b: Year 1 carrying amount, year-end",
+      "value": 213000
+    },
+    {
+      "label": "b: Year 2 depreciation expense",
+      "value": 27000
+    },
+    {
+      "label": "b: Year 2 accumulated depreciation",
+      "value": 54000
+    },
+    {
+      "label": "b: Year 2 carrying amount, year-end",
+      "value": 186000
+    },
+    {
+      "label": "b: Year 3 depreciation expense",
+      "value": 27000
+    },
+    {
+      "label": "b: Year 3 accumulated depreciation",
+      "value": 81000
+    },
+    {
+      "label": "b: Year 3 carrying amount, year-end",
+      "value": 159000
+    },
+    {
+      "label": "b: Year 4 depreciation expense",
+      "value": 27000
+    },
+    {
+      "label": "b: Year 4 accumulated depreciation",
+      "value": 108000
+    },
+    {
+      "label": "b: Year 4 carrying amount, year-end",
+      "value": 132000
+    },
+    {
+      "label": "c: carrying amount at January 1, Year 5",
+      "value": 132000
+    },
+    {
+      "label": "c: updated (revised) annual depreciation, Years 5-12",
+      "value": 15000
+    },
+    {
+      "label": "d: Year 5 depreciation expense",
+      "value": 15000
+    },
+    {
+      "label": "d: Year 5 accumulated depreciation",
+      "value": 123000
+    },
+    {
+      "label": "d: Year 5 carrying amount, year-end",
+      "value": 117000
+    },
+    {
+      "label": "d: Year 6 depreciation expense",
+      "value": 15000
+    },
+    {
+      "label": "d: Year 6 accumulated depreciation",
+      "value": 138000
+    },
+    {
+      "label": "d: Year 6 carrying amount, year-end",
+      "value": 102000
+    },
+    {
+      "label": "d: Year 7 depreciation expense",
+      "value": 15000
+    },
+    {
+      "label": "d: Year 7 accumulated depreciation",
+      "value": 153000
+    },
+    {
+      "label": "d: Year 7 carrying amount, year-end",
+      "value": 87000
+    },
+    {
+      "label": "d: Year 8 depreciation expense",
+      "value": 15000
+    },
+    {
+      "label": "d: Year 8 accumulated depreciation",
+      "value": 168000
+    },
+    {
+      "label": "d: Year 8 carrying amount, year-end",
+      "value": 72000
+    },
+    {
+      "label": "d: Year 9 depreciation expense",
+      "value": 15000
+    },
+    {
+      "label": "d: Year 9 accumulated depreciation",
+      "value": 183000
+    },
+    {
+      "label": "d: Year 9 carrying amount, year-end",
+      "value": 57000
+    },
+    {
+      "label": "d: Year 10 depreciation expense",
+      "value": 15000
+    },
+    {
+      "label": "d: Year 10 accumulated depreciation",
+      "value": 198000
+    },
+    {
+      "label": "d: Year 10 carrying amount, year-end",
+      "value": 42000
+    },
+    {
+      "label": "d: Year 11 depreciation expense",
+      "value": 15000
+    },
+    {
+      "label": "d: Year 11 accumulated depreciation",
+      "value": 213000
+    },
+    {
+      "label": "d: Year 11 carrying amount, year-end",
+      "value": 27000
+    },
+    {
+      "label": "d: Year 12 depreciation expense",
+      "value": 15000
+    },
+    {
+      "label": "d: Year 12 accumulated depreciation",
+      "value": 228000
+    },
+    {
+      "label": "d: Year 12 carrying amount, year-end",
+      "value": 12000
+    },
+    {
+      "label": "e: loss on disposal, December 31, Year 6",
+      "value": 7000
+    },
+    {
+      "label": "f: classification of the January 1, Year 5 revision",
+      "value": "Change in accounting estimate \u2014 applied prospectively; prior years are not restated."
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "Year 1, January 1",
+      "lines": [
+        {
+          "account": "Equipment \u2014 Tempering Furnace",
+          "debit": 240000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 240000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "Year 5, December 31",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 15000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation \u2014 Equipment",
+          "debit": 0,
+          "credit": 15000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Year 6, December 31",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 95000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation \u2014 Equipment",
+          "debit": 138000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Disposal of Equipment",
+          "debit": 7000,
+          "credit": 0
+        },
+        {
+          "account": "Equipment \u2014 Tempering Furnace",
+          "debit": 0,
+          "credit": 240000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Revised total life of 12 years is read as total life from the January 1, Year 1 in-service date, leaving 8 remaining years at January 1, Year 5. The revision is a change in accounting estimate, so it is applied prospectively over the remaining life against the carrying amount at the date of change."
+}

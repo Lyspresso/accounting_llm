@@ -1,0 +1,16 @@
+{
+ "id": "agent_303#02",
+ "pack_id": "agent_303",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "high",
+ "expected_verdict": "FAIL",
+ "guards_rule": "stem_ambiguity",
+ "rationale": "stem underdetermines the refund-liability identity",
+ "truth_as_of_hash": "7f9ceb4f0dc60e00b1e81583462d0f26d3b4bc21db33ec6e1d68ea50b3cf194e",
+ "truth_as_of_bytes": "3ec743a5cd0f18073c4c14dcc5a3974fd2b22ced5eb022c9a78bea33b5fff757",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "stem_ambiguity",
+ "cross_check_evidence": "The stem's target sentence ('ending balance equals estimated returns on current-year sales still expected next period') supports at least three readings: key's identity beg-actual+est = 11,500-19,800+24,750 = 16,450; trim's ending = full estimate 24,750 (plug 13,250); arguably est-actual = 4,950. Two competent solvers split because the stem underdetermines the identity."
+}

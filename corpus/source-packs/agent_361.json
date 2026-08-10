@@ -1,0 +1,70 @@
+{
+  "agent_id": 361,
+  "lo": "LO 15-6",
+  "chapter": 15,
+  "title": "Explain liability, commitment, and contingency disclosures and analyses using liquidity ratios",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-6",
+      "concept": "Settlement JE of prior contingency; warranty rollforward schedule; period-end adjusting JEs for warranty and litigation (emphasis); commitment disclosure (no JE); current and quick ratios before/after year-end accruals",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-6",
+      "concept": "Number-variant twin—settlement JE; warranty rollforward; period-end warranty and litigation AJs; commitment disclosures; current/quick ratios before and after accruals",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-6",
+      "concept": "Period-end adjusting JE emphasis—classify accrue/disclose/neither; record required AJs only; current and quick ratios; SEC 5% current liability component test; commitments and contingencies note outline",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-6",
+      "concept": "Quick (acid-test) ratio includes only the most liquid current assets",
+      "type": "MC",
+      "angles": [
+        "liquidity_ratio_components"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-6",
+      "concept": "Commitments for future obligations are disclosed, not recorded as present liabilities",
+      "type": "MC",
+      "angles": [
+        "commitment_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

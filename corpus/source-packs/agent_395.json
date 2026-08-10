@@ -1,0 +1,40 @@
+{
+  "agent_id": 395,
+  "lo": "LO 14-10",
+  "chapter": 14,
+  "title": "Explain the accounting for transfers of investments",
+  "critical": true,
+  "emphasis": "disposal_maturity_or_settlement_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-10",
+      "concept": "Initial AFS recognition; period-end OCI fair-value adjustment; AFS→HTM transfer at fair value with no NI effect; subsequent measurement schedule amortizing AOCI unrealized loss as yield adjustment; period-end interest JEs; full maturity-day settlement JEs (emphasis); transfer disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-10",
+      "concept": "Number-variant twin: AFS initial recognition; OCI fair-value adjustment; AFS→HTM transfer; subsequent AOCI/discount amortization schedule; period-end interest JEs; maturity settlement package",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-10",
+      "concept": "Transfer AFS→TS with holding loss to NI; subsequent TS FV adjust; disposal/sale settlement JE (emphasis); transfer HTM→AFS through OCI (no NI); equity transfer FV-NI→equity method (FV = new cost basis); classification/disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-10",
+      "concept": "Classification — which transfer recognizes holding gains/losses in net income on the transfer date; maturity settlement of HTM after AFS→HTM transfer",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

@@ -1,0 +1,58 @@
+# Pack treatment library — ACCOUNT-343 / Hanlon 4e
+#
+# Rules a SOLVER must apply, stated mechanically. These exist because a blind
+# solver reached a defensible-in-practice treatment that this edition does not
+# use, and the divergence then propagated through every downstream figure. A
+# treatment note is patch-before-run: it lands in solver context BEFORE the
+# affected family is run, never after.
+
+- id: lo_11_8_donated_assets
+  lo: LO 11-8
+  transaction: asset received by donation / contribution, with incidental costs paid
+  rule: >
+    Record the donated asset at its FULL fair value. Credit Cash for any
+    incidental costs actually paid (legal, title, transfer). Credit Contribution
+    Revenue NET of those costs — fair value MINUS costs paid. Do NOT capitalize
+    the incidental costs into the asset's cost, and therefore do NOT include
+    them in the depreciable base.
+  authority: textbook
+  evidence:
+    - "Demo 11-8 (chapter_11_clean.txt L1745-1759): building FV 400,000 + land FV
+       100,000 donated, 5,000 legal transfer costs incurred. Entry: Building
+       400,000 / Land 100,000 / Cash 5,000 / Contribution Revenue
+       ($500,000 - $5,000) 495,000."
+    - "Narrative L1704: the recipient 'records the receipt as Contribution
+       Revenue, net of any costs paid.'"
+    - "Review 11-8 (L4941-4948) confirms the carrying consequence: depreciation
+       runs on 375,000, i.e. the 5,000 is absent from the depreciable base."
+    - "MC11-10 (L2407-2411): 45,000 fair value less 2,000 cash paid = 43,000
+       contribution revenue."
+  worked_example:
+    # One fact pattern throughout. An earlier draft dropped the 12,000 residual
+    # from `given` while keeping figures derived WITH it, so the example did not
+    # tie to itself or to the item it came from.
+    given: >
+      FV 180,000; title cost paid in cash 3,000; residual value 12,000;
+      6-year straight line. (This is agent_204#02's own fact pattern.)
+    correct:
+      asset_recorded_at: 180000
+      cash_credited: 3000
+      contribution_revenue: 177000        # 180,000 - 3,000
+      depreciable_base: 168000            # 180,000 - 12,000 residual
+      annual_depreciation: 28000          # 168,000 / 6
+      disposal_loss: 93500
+    incorrect_but_plausible:
+      asset_recorded_at: 183000           # 3,000 capitalized
+      contribution_revenue: 180000        # gross, not netted
+      depreciable_base: 171000            # 183,000 - 12,000
+      annual_depreciation: 28500          # 171,000 / 6
+      disposal_loss: 95125
+      note: >
+        Internally consistent and it exists in practice, but it is NOT this
+        edition's treatment. Observed on agent_204#02 (trim harness): the single
+        choice moved every downstream figure, ending in a disposal loss of
+        95,125 against the key's 93,500.
+  applies_to_items: 13        # LO 11-8 donated-asset family
+  items_already_run: 1        # agent_204#02 - trim output is a solver treatment error
+  gate: >
+    The remaining 12 items must not run until this note is in solver context.

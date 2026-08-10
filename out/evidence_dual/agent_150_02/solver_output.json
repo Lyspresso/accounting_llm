@@ -1,0 +1,331 @@
+{
+ "id": "agent_150#02",
+ "rounding_convention": "decimal.Decimal throughout; PV factors carried at full 40-digit precision with no intermediate rounding; every reported money figure rounded once to the cent with ROUND_HALF_UP; percentages ROUND_HALF_UP to 2 dp. The illustrative Option 2 Year-1 finance-lease row closes exactly in cents (opening liability - principal = closing liability) and Dr = Cr in every entry.",
+ "answers": [
+  {
+   "label": "a: Case A -- does the CloudRail contract contain a lease?",
+   "value": "No -- it is a service contract, not a lease"
+  },
+  {
+   "label": "a: Case A -- identified asset present?",
+   "value": "No. CloudRail's substitution right is SUBSTANTIVE: it has the practical ability to swap among identical pooled servers throughout the period of use, and it benefits economically from doing so (routine reallocation for its own cost savings). With no identified asset there is nothing for Redrock to control."
+  },
+  {
+   "label": "a: Case A -- control analysis (right to obtain substantially all economic benefits AND right to direct use)",
+   "value": "Fails. Redrock is promised only a specified level of processing capacity, not a particular machine; it cannot prevent substitution and does not decide how or for what purpose any specific server is used. CloudRail directs use of its own assets. Both control elements therefore fail."
+  },
+  {
+   "label": "a: Case A -- accounting consequence",
+   "value": "No ROU asset and no lease liability are recognized. The hosting fees are expensed as a service/operating expense as the capacity is consumed over the 3 years (ASC 842 does not apply)."
+  },
+  {
+   "label": "b: PV test threshold (90% x $250,000 FV)",
+   "value": 225000.0
+  },
+  {
+   "label": "b: Term test threshold (75% x 10-yr economic life, in years)",
+   "value": 7.5
+  },
+  {
+   "label": "b: Option 1 -- discount rate used",
+   "value": "6% lessee IBR (rate implicit in the lease is unknown)"
+  },
+  {
+   "label": "b: Option 1 -- PV annuity factor, ordinary, 6%, 6 yrs (6 dp)",
+   "value": 4.917324
+  },
+  {
+   "label": "b: Option 1 -- PV of lease payments ($40,000 x 4.917324)",
+   "value": 196692.97
+  },
+  {
+   "label": "b: Option 1 -- PV as % of fair value",
+   "value": 78.68
+  },
+  {
+   "label": "b: Option 1 -- criterion 1 transfer of ownership",
+   "value": "Not met (no transfer)"
+  },
+  {
+   "label": "b: Option 1 -- criterion 2 purchase option reasonably certain",
+   "value": "Not met (no option)"
+  },
+  {
+   "label": "b: Option 1 -- criterion 3 term test (6/10 = 60% < 75%)",
+   "value": "Not met"
+  },
+  {
+   "label": "b: Option 1 -- criterion 4 PV test ($196,692.97 < $225,000.00)",
+   "value": "Not met"
+  },
+  {
+   "label": "b: Option 1 -- criterion 5 specialized asset / no alternative use",
+   "value": "Not met"
+  },
+  {
+   "label": "b: Option 1 -- classification",
+   "value": "Operating lease"
+  },
+  {
+   "label": "b: Option 2 -- discount rate used",
+   "value": "6% lessee IBR (implicit rate unknown)"
+  },
+  {
+   "label": "b: Option 2 -- PV annuity factor, ordinary, 6%, 8 yrs (6 dp)",
+   "value": 6.209794
+  },
+  {
+   "label": "b: Option 2 -- PV of lease payments ($40,000 x 6.209794)",
+   "value": 248391.75
+  },
+  {
+   "label": "b: Option 2 -- PV as % of fair value",
+   "value": 99.36
+  },
+  {
+   "label": "b: Option 2 -- criterion 3 term test (8/10 = 80% >= 75%)",
+   "value": "MET"
+  },
+  {
+   "label": "b: Option 2 -- criterion 4 PV test ($248,391.75 >= $225,000.00)",
+   "value": "MET"
+  },
+  {
+   "label": "b: Option 2 -- criteria 1, 2, 5",
+   "value": "Not met (no transfer, no purchase option, not specialized)"
+  },
+  {
+   "label": "b: Option 2 -- classification",
+   "value": "Finance lease (term test met; PV test also met -- only one criterion is needed)"
+  },
+  {
+   "label": "b: Option 3 -- discount rate used",
+   "value": "5.5% rate implicit in the lease (known to lessee, so it is used instead of the IBR)"
+  },
+  {
+   "label": "b: Option 3 -- lease payments include the $15,000 option price",
+   "value": "Yes -- exercise price of a purchase option reasonably certain of exercise is a lease payment"
+  },
+  {
+   "label": "b: Option 3 -- bargain element at end of term (expected FV $55,000 - $15,000 strike)",
+   "value": 40000.0
+  },
+  {
+   "label": "b: Option 3 -- PV annuity factor, ordinary, 5.5%, 6 yrs (6 dp)",
+   "value": 4.99553
+  },
+  {
+   "label": "b: Option 3 -- PV of the six $42,000 payments",
+   "value": 209812.27
+  },
+  {
+   "label": "b: Option 3 -- PV single-sum factor, 5.5%, 6 yrs (6 dp)",
+   "value": 0.725246
+  },
+  {
+   "label": "b: Option 3 -- PV of the $15,000 purchase option price",
+   "value": 10878.69
+  },
+  {
+   "label": "b: Option 3 -- total PV of lease payments",
+   "value": 220690.96
+  },
+  {
+   "label": "b: Option 3 -- PV as % of fair value",
+   "value": 88.28
+  },
+  {
+   "label": "b: Option 3 -- criterion 2 purchase option reasonably certain of exercise",
+   "value": "MET"
+  },
+  {
+   "label": "b: Option 3 -- criterion 3 term test (6/10 = 60% < 75%)",
+   "value": "Not met"
+  },
+  {
+   "label": "b: Option 3 -- criterion 4 PV test ($220,690.96 < $225,000.00; 88.28% of FV)",
+   "value": "Not met"
+  },
+  {
+   "label": "b: Option 3 -- criteria 1 and 5",
+   "value": "Not met (no automatic transfer; not specialized)"
+  },
+  {
+   "label": "b: Option 3 -- classification",
+   "value": "Finance lease -- solely because the purchase option is reasonably certain of exercise; note it FAILS both the 75% term test and the 90% PV test, so meeting any ONE criterion is decisive"
+  },
+  {
+   "label": "b: Option 3 -- amortization period if finance (purchase option expected to be exercised)",
+   "value": "Economic life of 10 years (to the asset's estimated residual), not the 6-year lease term, because Redrock expects to own the asset"
+  },
+  {
+   "label": "b: Option 4 -- discount rate used",
+   "value": "6% lessee IBR (implicit rate unknown)"
+  },
+  {
+   "label": "b: Option 4 -- PV annuity-DUE factor, 6%, 6 yrs (6 dp) = ordinary factor x 1.06",
+   "value": 5.212364
+  },
+  {
+   "label": "b: Option 4 -- PV of lease payments ($45,000 x 5.212364, payments at BEGINNING of year)",
+   "value": 234556.37
+  },
+  {
+   "label": "b: Option 4 -- PV as % of fair value",
+   "value": 93.82
+  },
+  {
+   "label": "b: Option 4 -- criterion 3 term test (6/10 = 60% < 75%)",
+   "value": "Not met"
+  },
+  {
+   "label": "b: Option 4 -- criterion 4 PV test ($234,556.37 >= $225,000.00)",
+   "value": "MET"
+  },
+  {
+   "label": "b: Option 4 -- criteria 1, 2, 5",
+   "value": "Not met"
+  },
+  {
+   "label": "b: Option 4 -- classification",
+   "value": "Finance lease (PV test met). Contrast with Option 1: same 6-year term and same 6% rate, but the larger payment made at the BEGINNING of each period lifts the PV above the 90% line"
+  },
+  {
+   "label": "b: Options 1 vs 4 -- PV increase from advance timing and higher payment",
+   "value": 37863.4
+  },
+  {
+   "label": "c: Finance lease -- number of expense lines in Year 1 income statement",
+   "value": "Two separate expenses: (1) straight-line amortization of the ROU asset, presented with depreciation/amortization in operating expenses, and (2) interest expense on the lease liability, presented as a non-operating financing cost"
+  },
+  {
+   "label": "c: Operating lease -- number of expense lines in Year 1 income statement",
+   "value": "One single line: 'Lease expense' (rent expense), a straight-line operating expense equal to total lease payments divided by the lease term; no interest expense and no separate amortization are shown, even though the ROU amortization is computed as a plug"
+  },
+  {
+   "label": "c: Pattern of total expense over the lease term -- finance",
+   "value": "Front-loaded / decreasing: interest declines as the liability amortizes while ROU amortization is level, so total expense is highest in Year 1 and falls each year"
+  },
+  {
+   "label": "c: Pattern of total expense over the lease term -- operating",
+   "value": "Level: the same straight-line amount every year"
+  },
+  {
+   "label": "c: Effect on operating income / EBITDA",
+   "value": "Finance: only the amortization portion is an operating expense and it is added back in EBITDA, so operating income and EBITDA are higher and interest is below the operating line. Operating: the whole payment-based expense sits in operating income and reduces EBITDA"
+  },
+  {
+   "label": "c: Total expense over the full lease term",
+   "value": "Identical under both models -- only the timing and the classification of the expense differ, not the cumulative amount"
+  },
+  {
+   "label": "c: illustrative -- Option 2 initial ROU asset = initial lease liability",
+   "value": 248391.75
+  },
+  {
+   "label": "c: illustrative -- Option 2 Year 1 interest expense (6% x $248,391.75)",
+   "value": 14903.51
+  },
+  {
+   "label": "c: illustrative -- Option 2 Year 1 ROU amortization ($248,391.75 / 8 yrs straight line)",
+   "value": 31048.97
+  },
+  {
+   "label": "c: illustrative -- Option 2 Year 1 TOTAL finance-lease expense",
+   "value": 45952.48
+  },
+  {
+   "label": "c: illustrative -- straight-line expense had Option 2 been operating ($40,000 payment, level)",
+   "value": 40000.0
+  },
+  {
+   "label": "c: illustrative -- Year 1 expense higher under finance than operating by",
+   "value": 5952.48
+  },
+  {
+   "label": "c: illustrative -- Option 2 Year 1 principal reduction ($40,000 - $14,903.51)",
+   "value": 25096.49
+  },
+  {
+   "label": "c: illustrative -- Option 2 lease liability balance, end of Year 1",
+   "value": 223295.26
+  },
+  {
+   "label": "c: illustrative -- Option 2 ROU asset carrying amount, end of Year 1",
+   "value": 217342.78
+  },
+  {
+   "label": "c: cash flow statement contrast (secondary)",
+   "value": "Finance: principal portion is a financing outflow and interest is operating (or financing under IFRS policy). Operating: the entire payment is a single operating outflow"
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Right-of-Use Asset (finance lease) [Option 2, commencement]",
+     "debit": 248391.75,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0,
+     "credit": 248391.75
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Interest Expense (non-operating) [Option 2, end of Year 1]",
+     "debit": 14903.51,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 25096.49,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 40000.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Amortization Expense -- Right-of-Use Asset (operating expense) [Year 1]",
+     "debit": 31048.97,
+     "credit": 0
+    },
+    {
+     "account": "Right-of-Use Asset (finance lease)",
+     "debit": 0,
+     "credit": 31048.97
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Lease Expense (single straight-line line item) [operating warehouse lease, form only]",
+     "debit": 0,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability / Right-of-Use Asset (net plug) and Cash",
+     "debit": 0,
+     "credit": 0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Case A: the substitution right is substantive (practical ability across identical pooled servers plus economic benefit from routine reallocation), so there is no identified asset and therefore no lease -- a pure service contract, expensed as incurred. Case B: only ONE of the five criteria must be met. Option 1 fails all five (term 60%, PV 78.68% of FV) -> OPERATING. Option 2 meets the term test at 80.00% and also the PV test at 99.36% -> FINANCE. Option 3 is FINANCE solely on the reasonably-certain purchase option, even though it fails the 75% term test (60%) and the 90% PV test (88.28%); its payments include the $15,000 strike and are discounted at the KNOWN 5.5% implicit rate rather than the IBR. Note 1.055^6 = 1.378842806761, giving an ordinary annuity factor of 4.995530 and a single-sum factor of 0.725246. Option 4 is FINANCE solely on the PV test (93.82%); the annuity-DUE timing plus the larger payment is what pushes it over the line relative to Option 1's identical 6-year term and 6% rate. Case C: finance splits Year 1 expense into ROU amortization (operating) plus interest (financing), a front-loaded declining total; operating reports ONE level straight-line lease expense inside operating income. Cumulative expense over the term is the same either way. The fourth journal entry is shown in form only (zero amounts) because the stem gives no dollar facts for the warehouse lease. No Required part asked for journal entries; the Option 2 entries are illustrative support for part c."
+}

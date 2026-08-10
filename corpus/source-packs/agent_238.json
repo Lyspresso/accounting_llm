@@ -1,0 +1,46 @@
+{
+  "agent_id": 238,
+  "lo": "LO 19-2",
+  "chapter": 19,
+  "title": "Account for common stock issuance, including par and no-par, cash and noncash, and issue costs",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-2",
+      "concept": "Multi-event common stock issuance with issue costs, noncash settlement, proportional lump-sum, year-end services settlement, and paid-in capital/shares subsequent measurement schedule",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-2",
+      "concept": "Number-variant twin: cash with costs, noncash land, proportional lump-sum, period-end equipment settlement, equity roll-forward schedule",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-2",
+      "concept": "True no-par vs stated-value no-par cash issuance; incremental lump-sum allocation when only one FV known",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-2",
+      "concept": "Classification of stock issue costs; measurement basis for noncash stock issuance",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

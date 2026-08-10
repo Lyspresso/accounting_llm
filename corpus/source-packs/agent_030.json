@@ -1,0 +1,61 @@
+{
+  "agent_id": 30,
+  "lo": "LO 18-5",
+  "chapter": 18,
+  "critical": true,
+  "title": "Explain how to record a valuation allowance and report deferred taxes",
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-5",
+      "concept": "Initial recognition of valuation allowance; subsequent measurement schedule; period-end adjusting JEs; release on full DTA reversal",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-5",
+      "concept": "Number-variant twin — initial recognition of DTA and valuation allowance; one-period subsequent VA remeasurement",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-5",
+      "concept": "Classification / presentation — offset DTA, valuation allowance, and DTL into one noncurrent net amount",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-5",
+      "concept": "Net deferred tax classification MC; valuation allowance initial recognition JE MC",
+      "type": "MC",
+      "ok": true,
+      "n_mc": 2,
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ]
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

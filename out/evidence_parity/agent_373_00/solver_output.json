@@ -1,0 +1,299 @@
+{
+ "id": "agent_373#00",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent, applied once per amount/period; no floats; share counts exact integers.",
+ "answers": [
+  {
+   "label": "a: Scenario A \u2014 shares issued as 12% small stock dividend (60,000 x 12%)",
+   "value": 7200
+  },
+  {
+   "label": "a: Scenario A \u2014 measurement basis = fair value per share",
+   "value": 22
+  },
+  {
+   "label": "a: Dr Retained Earnings (Stock Dividends) at fair value 7,200 x $22",
+   "value": 158400
+  },
+  {
+   "label": "a: Cr Common Stock Dividends Distributable at par 7,200 x $3",
+   "value": 21600
+  },
+  {
+   "label": "a: Cr Paid-in Capital in Excess of Par\u2014Common Stock ($158,400 - $21,600)",
+   "value": 136800
+  },
+  {
+   "label": "a: total debits = total credits (Dr = Cr)",
+   "value": 158400
+  },
+  {
+   "label": "b: Dec 31, Year 1 adjusting journal entry required for the stock dividend",
+   "value": "None \u2014 no adjusting entry. The declaration entry was already recorded Dec 15; a stock dividend requires no accrual, no interest, and no year-end remeasurement."
+  },
+  {
+   "label": "b: Dec 31, Year 1 classification/presentation of Common Stock Dividends Distributable",
+   "value": "Stockholders' equity \u2014 reported in the paid-in capital section immediately below (or as an addition to) Common Stock; it is NOT a liability because it will be settled by issuing shares, not by transferring assets."
+  },
+  {
+   "label": "b: Common Stock Dividends Distributable balance at Dec 31, Year 1",
+   "value": 21600
+  },
+  {
+   "label": "c: (1) immediately before declaration (Dec 15, Yr 1) \u2014 Common Stock",
+   "value": 180000
+  },
+  {
+   "label": "c: (1) immediately before declaration (Dec 15, Yr 1) \u2014 Common Stock Dividends Distributable",
+   "value": 0
+  },
+  {
+   "label": "c: (1) immediately before declaration (Dec 15, Yr 1) \u2014 Paid-in Capital in Excess of Par\u2014Common Stock",
+   "value": 540000
+  },
+  {
+   "label": "c: (1) immediately before declaration (Dec 15, Yr 1) \u2014 Retained Earnings",
+   "value": 750000
+  },
+  {
+   "label": "c: (1) immediately before declaration (Dec 15, Yr 1) \u2014 Total stockholders' equity",
+   "value": 1470000
+  },
+  {
+   "label": "c: (1) immediately before declaration (Dec 15, Yr 1) \u2014 Shares outstanding",
+   "value": 60000
+  },
+  {
+   "label": "c: (1) immediately before declaration (Dec 15, Yr 1) \u2014 Par value per share",
+   "value": 3
+  },
+  {
+   "label": "c: (2) Dec 31, Yr 1 \u2014 after declaration, before distribution \u2014 Common Stock",
+   "value": 180000
+  },
+  {
+   "label": "c: (2) Dec 31, Yr 1 \u2014 after declaration, before distribution \u2014 Common Stock Dividends Distributable",
+   "value": 21600
+  },
+  {
+   "label": "c: (2) Dec 31, Yr 1 \u2014 after declaration, before distribution \u2014 Paid-in Capital in Excess of Par\u2014Common Stock",
+   "value": 676800
+  },
+  {
+   "label": "c: (2) Dec 31, Yr 1 \u2014 after declaration, before distribution \u2014 Retained Earnings",
+   "value": 591600
+  },
+  {
+   "label": "c: (2) Dec 31, Yr 1 \u2014 after declaration, before distribution \u2014 Total stockholders' equity",
+   "value": 1470000
+  },
+  {
+   "label": "c: (2) Dec 31, Yr 1 \u2014 after declaration, before distribution \u2014 Shares outstanding",
+   "value": 60000
+  },
+  {
+   "label": "c: (2) Dec 31, Yr 1 \u2014 after declaration, before distribution \u2014 Par value per share",
+   "value": 3
+  },
+  {
+   "label": "c: (3) after distribution (Jan 12, Yr 2) \u2014 Common Stock",
+   "value": 201600
+  },
+  {
+   "label": "c: (3) after distribution (Jan 12, Yr 2) \u2014 Common Stock Dividends Distributable",
+   "value": 0
+  },
+  {
+   "label": "c: (3) after distribution (Jan 12, Yr 2) \u2014 Paid-in Capital in Excess of Par\u2014Common Stock",
+   "value": 676800
+  },
+  {
+   "label": "c: (3) after distribution (Jan 12, Yr 2) \u2014 Retained Earnings",
+   "value": 591600
+  },
+  {
+   "label": "c: (3) after distribution (Jan 12, Yr 2) \u2014 Total stockholders' equity",
+   "value": 1470000
+  },
+  {
+   "label": "c: (3) after distribution (Jan 12, Yr 2) \u2014 Shares outstanding",
+   "value": 67200
+  },
+  {
+   "label": "c: (3) after distribution (Jan 12, Yr 2) \u2014 Par value per share",
+   "value": 3
+  },
+  {
+   "label": "d: Jan 12, Year 2 \u2014 Dr Common Stock Dividends Distributable",
+   "value": 21600
+  },
+  {
+   "label": "d: Jan 12, Year 2 \u2014 Cr Common Stock ($3 par, 7,200 shares issued)",
+   "value": 21600
+  },
+  {
+   "label": "d: effect on total stockholders' equity of the distribution",
+   "value": 0
+  },
+  {
+   "label": "e: Scenario B \u2014 additional shares (60,000 x 50%)",
+   "value": 30000
+  },
+  {
+   "label": "e: Scenario B \u2014 Dec 15 Dr Retained Earnings at par (30,000 x $3)",
+   "value": 90000
+  },
+  {
+   "label": "e: Scenario B \u2014 Dec 15 Cr Common Stock Dividends Distributable",
+   "value": 90000
+  },
+  {
+   "label": "e: Scenario B \u2014 Jan 12 Dr Common Stock Dividends Distributable",
+   "value": 90000
+  },
+  {
+   "label": "e: Scenario B \u2014 Jan 12 Cr Common Stock",
+   "value": 90000
+  },
+  {
+   "label": "e: Scenario B \u2014 ending Common Stock after distribution",
+   "value": 270000
+  },
+  {
+   "label": "e: Scenario B \u2014 ending Paid-in Capital in Excess of Par (unchanged)",
+   "value": 540000
+  },
+  {
+   "label": "e: Scenario B \u2014 ending Retained Earnings",
+   "value": 660000
+  },
+  {
+   "label": "e: Scenario B \u2014 ending shares outstanding",
+   "value": 90000
+  },
+  {
+   "label": "e: Scenario B \u2014 ending total stockholders' equity",
+   "value": 1470000
+  },
+  {
+   "label": "f: Scenario C \u2014 journal entry required for the true 2-for-1 split",
+   "value": "None \u2014 a true stock split is recorded by memorandum entry only; no account balances change (par per share is halved and shares are doubled)."
+  },
+  {
+   "label": "f: Scenario C \u2014 shares outstanding after the split",
+   "value": 120000
+  },
+  {
+   "label": "f: Scenario C \u2014 par value per share after the split",
+   "value": 1.5
+  },
+  {
+   "label": "f: Scenario C \u2014 total Common Stock dollar amount after the split",
+   "value": 180000
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "description": "Dec 15, Year 1 \u2014 declaration of 12% small stock dividend at fair value",
+   "lines": [
+    {
+     "account": "Retained Earnings (Stock Dividends Declared)",
+     "debit": 158400,
+     "credit": 0
+    },
+    {
+     "account": "Common Stock Dividends Distributable",
+     "debit": 0,
+     "credit": 21600
+    },
+    {
+     "account": "Paid-in Capital in Excess of Par\u2014Common Stock",
+     "debit": 0,
+     "credit": 136800
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "description": "Dec 31, Year 1 \u2014 no adjusting entry required (memo only)",
+   "lines": [
+    {
+     "account": "No entry required",
+     "debit": 0,
+     "credit": 0
+    },
+    {
+     "account": "No entry required",
+     "debit": 0,
+     "credit": 0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "description": "Jan 12, Year 2 \u2014 distribution/settlement of the 12% stock dividend",
+   "lines": [
+    {
+     "account": "Common Stock Dividends Distributable",
+     "debit": 21600,
+     "credit": 0
+    },
+    {
+     "account": "Common Stock, $3 par",
+     "debit": 0,
+     "credit": 21600
+    }
+   ]
+  },
+  {
+   "part": "e-1",
+   "description": "Dec 15, Year 1 \u2014 declaration of 50% large stock dividend at par",
+   "lines": [
+    {
+     "account": "Retained Earnings (Stock Dividends Declared)",
+     "debit": 90000,
+     "credit": 0
+    },
+    {
+     "account": "Common Stock Dividends Distributable",
+     "debit": 0,
+     "credit": 90000
+    }
+   ]
+  },
+  {
+   "part": "e-2",
+   "description": "Jan 12, Year 2 \u2014 distribution of the 50% large stock dividend",
+   "lines": [
+    {
+     "account": "Common Stock Dividends Distributable",
+     "debit": 90000,
+     "credit": 0
+    },
+    {
+     "account": "Common Stock, $3 par",
+     "debit": 0,
+     "credit": 90000
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "description": "Dec 15, Year 1 \u2014 true 2-for-1 split: no journal entry (memorandum only)",
+   "lines": [
+    {
+     "account": "No entry required",
+     "debit": 0,
+     "credit": 0
+    },
+    {
+     "account": "No entry required",
+     "debit": 0,
+     "credit": 0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Small (12%) dividend measured at fair value $22 (RE charged $158,400 = par $21,600 + PIC $136,800); large (50%) dividend measured at par ($90,000 to RE), market ignored. CSDD is an equity account, never a liability. Total stockholders' equity stays $1,470,000 in all three scenarios; only its composition and share count change. True split = memo only, so Common Stock stays $180,000 with par cut to $1.50 on 120,000 shares."
+}

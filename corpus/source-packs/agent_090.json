@@ -1,0 +1,55 @@
+{
+  "agent_id": 90,
+  "lo": "LO 13-5",
+  "chapter": 13,
+  "title": "Determine the initial and subsequent measurement of indefinite life intangible assets and goodwill",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-5",
+      "concept": "Initial recognition JE for acquisition (goodwill residual + indefinite trademark/IPR&D); subsequent carrying-amount schedule (no amortization); disposal of indefinite-life trademark",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-5",
+      "concept": "Number-variant twin: initial recognition of goodwill and indefinite-life intangibles; zero-amortization subsequent schedule; disposal with gain",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-5",
+      "concept": "Crypto indefinite-life intangible at cost then period-end fair-value remeasurement; standalone indefinite trademark at cost with no amortization",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-5",
+      "concept": "Classification of subsequent measurement — amortize finite patent only; not trademark, IPR&D, or goodwill (public)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 13-5",
+      "concept": "Initial recognition — compute residual goodwill from purchase price and FV of identifiable net assets",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,305 @@
+{
+ "id": "agent_183#01",
+ "rounding_convention": "decimal.Decimal throughout (no floats); every monetary amount \u2014 cost extensions, moving-average unit cost, COGS, and running inventory balances \u2014 rounded HALF_UP (ROUND_HALF_UP) to the cent as computed for the period; unit quantities exact.",
+ "answers": [
+  {
+   "label": "a1 moving average: inventory balance after Nov 1 beginning inventory (800 units)",
+   "value": 4800.0
+  },
+  {
+   "label": "a1 moving average: moving-average unit cost after Nov 1 beginning inventory",
+   "value": 6.0
+  },
+  {
+   "label": "a1 moving average: inventory balance after Nov 4 purchase (1,200 units)",
+   "value": 8400.0
+  },
+  {
+   "label": "a1 moving average: moving-average unit cost after Nov 4 purchase",
+   "value": 7.0
+  },
+  {
+   "label": "a1 moving average: COGS on Nov 10 sale (600 units @ $7.00)",
+   "value": 4200.0
+  },
+  {
+   "label": "a1 moving average: inventory balance after Nov 10 sale (600 units @ $7.00)",
+   "value": 4200.0
+  },
+  {
+   "label": "a1 moving average: inventory balance after Nov 15 purchase (1,200 units)",
+   "value": 10800.0
+  },
+  {
+   "label": "a1 moving average: moving-average unit cost after Nov 15 purchase",
+   "value": 9.0
+  },
+  {
+   "label": "a1 moving average: COGS on Nov 22 sale (450 units @ $9.00)",
+   "value": 4050.0
+  },
+  {
+   "label": "a1 moving average: inventory balance after Nov 22 sale (750 units @ $9.00)",
+   "value": 6750.0
+  },
+  {
+   "label": "a1 moving average: inventory balance after Nov 28 purchase (1,000 units)",
+   "value": 10500.0
+  },
+  {
+   "label": "a1 moving average: moving-average unit cost after Nov 28 purchase",
+   "value": 10.5
+  },
+  {
+   "label": "a1 moving average: November ending inventory (1,000 units)",
+   "value": 10500.0
+  },
+  {
+   "label": "a1 moving average: November COGS",
+   "value": 8250.0
+  },
+  {
+   "label": "a2 FIFO perpetual: inventory balance after Nov 1 beginning inventory (layers 800 @ $6)",
+   "value": 4800.0
+  },
+  {
+   "label": "a2 FIFO perpetual: inventory balance after Nov 4 purchase (layers 800 @ $6 + 400 @ $9)",
+   "value": 8400.0
+  },
+  {
+   "label": "a2 FIFO perpetual: COGS on Nov 10 sale (600 units)",
+   "value": 3600.0
+  },
+  {
+   "label": "a2 FIFO perpetual: inventory balance after Nov 10 sale (layers 200 @ $6 + 400 @ $9)",
+   "value": 4800.0
+  },
+  {
+   "label": "a2 FIFO perpetual: inventory balance after Nov 15 purchase (layers 200 @ $6 + 400 @ $9 + 600 @ $11)",
+   "value": 11400.0
+  },
+  {
+   "label": "a2 FIFO perpetual: COGS on Nov 22 sale (450 units)",
+   "value": 3450.0
+  },
+  {
+   "label": "a2 FIFO perpetual: inventory balance after Nov 22 sale (layers 150 @ $9 + 600 @ $11)",
+   "value": 7950.0
+  },
+  {
+   "label": "a2 FIFO perpetual: inventory balance after Nov 28 purchase (layers 150 @ $9 + 600 @ $11 + 250 @ $15)",
+   "value": 11700.0
+  },
+  {
+   "label": "a2 FIFO perpetual: ending layer 150 units @ $9",
+   "value": 1350.0
+  },
+  {
+   "label": "a2 FIFO perpetual: ending layer 600 units @ $11",
+   "value": 6600.0
+  },
+  {
+   "label": "a2 FIFO perpetual: ending layer 250 units @ $15",
+   "value": 3750.0
+  },
+  {
+   "label": "a2 FIFO perpetual: November ending inventory (1,000 units)",
+   "value": 11700.0
+  },
+  {
+   "label": "a2 FIFO perpetual: November COGS",
+   "value": 7050.0
+  },
+  {
+   "label": "a3 LIFO perpetual: inventory balance after Nov 1 beginning inventory (layers 800 @ $6)",
+   "value": 4800.0
+  },
+  {
+   "label": "a3 LIFO perpetual: inventory balance after Nov 4 purchase (layers 800 @ $6 + 400 @ $9)",
+   "value": 8400.0
+  },
+  {
+   "label": "a3 LIFO perpetual: COGS on Nov 10 sale (600 units)",
+   "value": 4800.0
+  },
+  {
+   "label": "a3 LIFO perpetual: inventory balance after Nov 10 sale (layers 600 @ $6)",
+   "value": 3600.0
+  },
+  {
+   "label": "a3 LIFO perpetual: inventory balance after Nov 15 purchase (layers 600 @ $6 + 600 @ $11)",
+   "value": 10200.0
+  },
+  {
+   "label": "a3 LIFO perpetual: COGS on Nov 22 sale (450 units)",
+   "value": 4950.0
+  },
+  {
+   "label": "a3 LIFO perpetual: inventory balance after Nov 22 sale (layers 600 @ $6 + 150 @ $11)",
+   "value": 5250.0
+  },
+  {
+   "label": "a3 LIFO perpetual: inventory balance after Nov 28 purchase (layers 600 @ $6 + 150 @ $11 + 250 @ $15)",
+   "value": 9000.0
+  },
+  {
+   "label": "a3 LIFO perpetual: ending layer 600 units @ $6",
+   "value": 3600.0
+  },
+  {
+   "label": "a3 LIFO perpetual: ending layer 150 units @ $11",
+   "value": 1650.0
+  },
+  {
+   "label": "a3 LIFO perpetual: ending layer 250 units @ $15",
+   "value": 3750.0
+  },
+  {
+   "label": "a3 LIFO perpetual: November ending inventory (1,000 units)",
+   "value": 9000.0
+  },
+  {
+   "label": "a3 LIFO perpetual: November COGS",
+   "value": 9750.0
+  },
+  {
+   "label": "d: cost of goods available for sale (2,050 units)",
+   "value": 18750.0
+  },
+  {
+   "label": "d: COGAS \u2212 EI under moving average (equals COGS: confirmed)",
+   "value": 8250.0
+  },
+  {
+   "label": "d: COGAS \u2212 EI under FIFO (equals COGS: confirmed)",
+   "value": 7050.0
+  },
+  {
+   "label": "d: COGAS \u2212 EI under LIFO (equals COGS: confirmed)",
+   "value": 9750.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b",
+   "date": "Nov 4",
+   "description": "Purchase on account, gross method (400 units @ $9)",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 3600.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accounts Payable",
+     "debit": 0.0,
+     "credit": 3600.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "date": "Nov 15",
+   "description": "Purchase on account, gross method (600 units @ $11)",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 6600.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accounts Payable",
+     "debit": 0.0,
+     "credit": 6600.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "date": "Nov 28",
+   "description": "Purchase on account, gross method (250 units @ $15)",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 3750.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accounts Payable",
+     "debit": 0.0,
+     "credit": 3750.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Nov 10",
+   "description": "Credit sale (600 units @ $15) \u2014 LIFO",
+   "lines": [
+    {
+     "account": "Accounts Receivable",
+     "debit": 9000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0.0,
+     "credit": 9000.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Nov 10",
+   "description": "Cost of goods sold on Nov 10 sale \u2014 LIFO perpetual",
+   "lines": [
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 4800.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Inventory",
+     "debit": 0.0,
+     "credit": 4800.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Nov 22",
+   "description": "Credit sale (450 units @ $16) \u2014 LIFO",
+   "lines": [
+    {
+     "account": "Accounts Receivable",
+     "debit": 7200.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0.0,
+     "credit": 7200.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Nov 22",
+   "description": "Cost of goods sold on Nov 22 sale \u2014 LIFO perpetual",
+   "lines": [
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 4950.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Inventory",
+     "debit": 0.0,
+     "credit": 4950.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Perpetual records: COGS is settled at each sale date. Moving average recomputes the unit cost only after a purchase ($7.00 after Nov 4, $9.00 after Nov 15, $10.50 after Nov 28). FIFO perpetual gives the same result as FIFO periodic. LIFO perpetual charges the most recent layers on hand at each sale (Nov 10: 400 @ $9 then 200 @ $6; Nov 22: 450 @ $11). COGAS $18,750.00 on 2,050 units; 1,050 units sold, 1,000 units on hand at Nov 30. COGAS \u2212 EI = COGS holds for all three methods. Purchases are recorded gross with no discount terms given, so no discount accrual is required."
+}

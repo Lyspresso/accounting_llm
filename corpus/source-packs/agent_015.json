@@ -1,0 +1,73 @@
+{
+  "agent_id": 15,
+  "lo": "LO 16-5",
+  "chapter": 16,
+  "title": "Account for bonds issued at a premium",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-5",
+      "concept": "initial_recognition_JE + subsequent_measurement_schedule + maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "company": "Cedarpoint Fabrication Inc.",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-5",
+      "concept": "number_variant_twin (initial recognition + full schedule + first interest)",
+      "type": "multipart",
+      "angles": ["number_variant_twin", "initial_recognition_JE", "subsequent_measurement_schedule"],
+      "company": "Meridian Logistics Corp.",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-5",
+      "concept": "period_end_adjusting_JE (accrue interest + amortize premium at year-end)",
+      "type": "multipart",
+      "angles": ["period_end_adjusting_JE", "subsequent_measurement_schedule"],
+      "company": "Alpine Forge Co.",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-5",
+      "concept": "classification_presentation_or_disclosure",
+      "type": "MC",
+      "angles": ["classification_presentation_or_disclosure"],
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 16-5",
+      "concept": "subsequent_measurement_schedule (effective interest vs cash coupon)",
+      "type": "MC",
+      "angles": ["subsequent_measurement_schedule"],
+      "ok": true
+    },
+    {
+      "qid": "QL",
+      "lo": "LO 16-5",
+      "concept": "disposal_maturity_or_settlement_JE + full effective-interest life cycle",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE"
+      ],
+      "company": "Harbor Ridge Energy LLC",
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "ok": true
+}

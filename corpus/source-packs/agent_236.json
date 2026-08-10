@@ -1,0 +1,76 @@
+{
+  "agent_id": 236,
+  "lo": "LO 18-9",
+  "chapter": 18,
+  "title": "Apply intraperiod tax allocation",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-9",
+      "concept": "Subsequent measurement tax-allocation schedule by financial-statement component; income statement and SCI with net-of-tax disc. ops and OCI; period-end intraperiod tax JE",
+      "type": "multipart",
+      "company": "Cedarline Outfitters",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-9",
+      "concept": "Number-variant twin: intraperiod tax allocation schedule; IS/SCI; period-end JE with disc. ops gain and OCI loss",
+      "type": "multipart",
+      "company": "Northfork Analytics",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-9",
+      "concept": "Disposal (settlement) JE for discontinued operations; intraperiod tax allocation schedule; period-end tax JE when disc. ops is a net pretax gain",
+      "type": "multipart",
+      "company": "Harborstone Media",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-9",
+      "concept": "Classification — which financial-statement components require intraperiod tax allocation",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 18-9",
+      "concept": "Measurement of discontinued operations presented net of tax",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_236.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_236.json"
+}

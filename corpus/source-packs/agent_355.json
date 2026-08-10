@@ -1,0 +1,77 @@
+{
+  "agent_id": 355,
+  "lo": "LO 14-11",
+  "chapter": 14,
+  "title": "Describe and account for derivatives",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-11",
+      "concept": "Speculative call option — initial recognition at premium; period-end fair-value adjusting JEs (emphasis) through net income; subsequent measurement schedule; disposal/sale settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-11",
+      "concept": "Number-variant twin — speculative call option initial recognition, period-end FV adjusting JEs (emphasis), subsequent measurement schedule through NI, and disposal settlement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-11",
+      "concept": "Fair value hedges — put option on HTM bonds (initial recognition; dual period-end FV AJs through NI; settlement); interest rate swap on fixed-rate note (zero-value inception; cash settlement; period-end AJs on swap and note payable)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-11",
+      "concept": "Cash flow hedge futures — zero-cost inception; period-end FV AJ through OCI; subsequent measurement; settlement on purchase; reclassification from AOCI into COGS when inventory sold",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-11",
+      "concept": "Classification — FV changes in NI vs OCI by designation; period-end dual AJs for fair value hedge of fixed-rate liability (swap + note payable)",
+      "type": "MC",
+      "n_mc": 2,
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

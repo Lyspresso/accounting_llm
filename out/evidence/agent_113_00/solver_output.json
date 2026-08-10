@@ -1,0 +1,57 @@
+{
+  "id": "agent_113#00",
+  "rounding_convention": "decimal.Decimal throughout, no floats; ROUND_HALF_UP applied once per reported figure at the end of its derivation (intermediates carried at full precision). Per-share dollars and the P/E multiple to 2 decimals; payout ratio and ROE reported as percentages to 2 decimals (decimal equivalents given in notes). Journal entry in exact whole dollars, debits proved equal to credits.",
+  "answers": [
+    {
+      "label": "b: book value per common share \u2014 Year 3 ($)",
+      "value": 36.78
+    },
+    {
+      "label": "b: book value per common share \u2014 Year 2 ($)",
+      "value": 33.22
+    },
+    {
+      "label": "c: payout ratio \u2014 Year 3 (%)",
+      "value": 20.8
+    },
+    {
+      "label": "c: payout ratio \u2014 Year 2 (%)",
+      "value": 21.11
+    },
+    {
+      "label": "d: return on equity \u2014 Year 3 (%)",
+      "value": 12.42
+    },
+    {
+      "label": "d: return on equity \u2014 Year 2 (%)",
+      "value": 10.39
+    },
+    {
+      "label": "e: price-to-earnings ratio \u2014 Year 3 (times)",
+      "value": 11.03
+    },
+    {
+      "label": "e: price-to-earnings ratio \u2014 Year 2 (times)",
+      "value": 11.5
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "lines": [
+        {
+          "account": "Retained Earnings (Unappropriated)",
+          "debit": 250000,
+          "credit": 0
+        },
+        {
+          "account": "Retained Earnings Appropriated for Plant Expansion",
+          "debit": 0,
+          "credit": 250000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Formulas per course textbook ch.19 LO 19-8 / Demo 19-8. Common stockholders' equity = total stockholders' equity less the preferred claim of $440,000 (8,000 sh x $55 liquidation preference; no arrears): Year 3 $4,230,000, Year 2 $3,820,000, Year 1 $3,110,000. Net income available to common = net income less the $20,000 cumulative preferred requirement: Year 3 $500,000, Year 2 $360,000. (c)/(d) are reported as percentages; unrounded decimal equivalents are payout 0.2080 (Yr 3) and 0.2111 (Yr 2); ROE 0.1242 (Yr 3) and 0.1039 (Yr 2) \u2014 at the textbook's 2-decimal decimal convention payout is 0.21 in both years and ROE is 0.12 / 0.10. (f) Two-year ratio schedule (Year 3 | Year 2): book value per common share $36.78 | $33.22; payout ratio 20.80% | 21.11%; return on equity 12.42% | 10.39%; price-to-earnings 11.03 | 11.50. (g) ASC 505 equity disclosures relevant here: (1) number of shares authorized, issued and outstanding for each class and their par value; (2) rights and privileges of each class outstanding \u2014 the 5% cumulative preferred's dividend rate, its cumulative feature and its $55 per share liquidation preference; (3) the liquidation preference in the aggregate ($440,000) disclosed in the equity section, together with the excess of that preference over par ($40,000); (4) the nature and amount of the retained earnings restriction/appropriation \u2014 $250,000 appropriated for plant expansion under the bank loan covenant, with retained earnings shown in appropriated and unappropriated components; (5) changes in each class of equity for each period presented (a statement of stockholders' equity), including treasury share activity; (6) treasury stock \u2014 shares held and the cost basis shown as a deduction from equity; (7) any dividends in arrears on cumulative preferred (none here, which is itself the disclosure); (8) accumulated other comprehensive loss by component. (h) No to both. The appropriation is a reclassification within retained earnings \u2014 it debits unappropriated retained earnings and credits appropriated retained earnings, both equity accounts \u2014 so total stockholders' equity stays $4,670,000, no cash moves, no asset or liability changes, and Year 3 book value per common share stays $36.78. It only signals that $250,000 of retained earnings is unavailable for dividends under the loan covenant."
+}

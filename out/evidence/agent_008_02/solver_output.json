@@ -1,0 +1,83 @@
+{
+  "id": "agent_008#02",
+  "rounding_convention": "decimal.Decimal only, no floats; every amount quantized to cents with ROUND_HALF_UP as recorded (round-per-amount). No PV factors needed. Period-end-only method: FVA untouched on the sale date, so the realized loss is proceeds less amortized cost, and the 12/31 FVA balance is trued up to (fair value - amortized cost) of the securities still held.",
+  "answers": [
+    {
+      "label": "a: realized loss on June 12 sale of Crest (proceeds 33,800 less amortized cost 35,000)",
+      "value": 1200
+    },
+    {
+      "label": "b: total amortized cost of remaining trading portfolio at 12/31/Y2",
+      "value": 85000
+    },
+    {
+      "label": "b: total fair value of remaining trading portfolio at 12/31/Y2",
+      "value": 85600
+    },
+    {
+      "label": "b: required Fair Value Adjustment-TS ending balance at 12/31/Y2 (debit balance)",
+      "value": 600
+    },
+    {
+      "label": "b/c: FVA adjustment needed at 12/31/Y2 (debit to Fair Value Adjustment-TS)",
+      "value": 3800
+    },
+    {
+      "label": "d: Investment in trading securities reported on the 12/31/Y2 balance sheet (current asset, at fair value)",
+      "value": 85600
+    },
+    {
+      "label": "e(i): Year 2 income statement effect of the Crest sale (loss, decreases income)",
+      "value": -1200
+    },
+    {
+      "label": "e(ii): Year 2 income statement effect of the period-end FVA adjustment (unrealized holding gain, increases income)",
+      "value": 3800
+    },
+    {
+      "label": "e: net Year 2 income statement effect (increase)",
+      "value": 2600
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "June 12, Year 2",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 33800,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Sale of Investments",
+          "debit": 1200,
+          "credit": 0
+        },
+        {
+          "account": "Debt Investments (Trading)",
+          "debit": 0,
+          "credit": 35000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 2",
+      "lines": [
+        {
+          "account": "Fair Value Adjustment-Trading Securities",
+          "debit": 3800,
+          "credit": 0
+        },
+        {
+          "account": "Unrealized Holding Gain or Loss-Income",
+          "debit": 0,
+          "credit": 3800
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part b schedule: Dune cost 25,000 / FV 24,100 (-900); Pier cost 60,000 / FV 61,500 (+1,500); totals cost 85,000 / FV 85,600, so the FVA-TS account must end with a 600 DEBIT balance. It began the year with a 3,200 CREDIT balance and was not touched on the June 12 sale date, so the 12/31 entry debits FVA-TS 3,800 (3,200 + 600). Part d: shown as a current asset, Investment in trading securities 85,600, i.e. amortized cost 85,000 plus the 600 debit Fair Value Adjustment. Part e: 1,200 realized loss plus 3,800 unrealized holding gain = 2,600 net increase in Year 2 pretax income (interest ignored per the stem). Negative values in e(i) denote a decrease in income."
+}

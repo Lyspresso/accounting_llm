@@ -1,0 +1,91 @@
+{
+  "agent_id": 159,
+  "lo": "LO 18-3",
+  "chapter": 18,
+  "title": "Recognize deferred tax assets attributable to deductible temporary differences",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-3",
+      "concept": "Subsequent measurement schedule of DTA from deferred revenue taxed before GAAP recognition; initial recognition, period-end adjusting, and full settlement JEs; noncurrent presentation",
+      "type": "multipart",
+      "company": "Redrock Trail Outfitters Corp.",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-3",
+      "concept": "Number-variant twin — warranty deductible temporary difference; multi-year DTA schedule and tax JEs under a different enacted rate",
+      "type": "multipart",
+      "company": "Silverpine Kitchenware Co.",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-3",
+      "concept": "DTA from unrealized holding loss on equity securities (FV-NI); GAAP asset basis < tax basis; period-end adjusting JEs; settlement on sale; classification and current/deferred tax expense disclosure",
+      "type": "multipart",
+      "company": "Pinnacle Harbor Marine Co.",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-3",
+      "concept": "Classification of book-tax differences — which item creates a deferred tax asset",
+      "type": "MC",
+      "company": null,
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "C",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 18-3",
+      "concept": "Classification / presentation of deferred tax assets under current GAAP",
+      "type": "MC",
+      "company": null,
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_159.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_159.json"
+}

@@ -1,0 +1,39 @@
+{
+  "agent_id": 75,
+  "lo": "LO 12-1",
+  "chapter": 12,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-1",
+      "concept": "Initial recognition of PPE; period-end SL adjusting JE; multi-year straight-line depreciation schedule; balance sheet presentation; disposal JE after full-year depreciation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-1",
+      "concept": "Number-variant twin — initial recognition JE; SL annual amount and rate; full subsequent measurement schedule; period-end JE; disposal with gain",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-1",
+      "concept": "Straight-line annual amount applied to fractional service periods; period-end adjusting JE for partial year; update dep through disposal date; disposal JE with loss; classification of depreciation expense (manufacturing vs selling) and PPE presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-1",
+      "concept": "Classification — when straight-line is most appropriate; balance sheet presentation of cost and accumulated depreciation",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

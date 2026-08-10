@@ -1,0 +1,192 @@
+{
+  "id": "agent_302#01",
+  "rounding_convention": "decimal.Decimal only, no floats; ROUND_HALF_UP quantized to cents per amount as computed (round-per-period, not round-at-end); discount percentages applied to already-rounded bases; no PV factors required",
+  "answers": [
+    {
+      "label": "c: gross AR - Arden Supply at Dec 31, Year 1",
+      "value": 54000
+    },
+    {
+      "label": "c: gross AR - Bristol Outlet at Dec 31, Year 1",
+      "value": 60000
+    },
+    {
+      "label": "c: total gross AR at Dec 31, Year 1",
+      "value": 114000
+    },
+    {
+      "label": "c: Allowance for Sales Discounts at Dec 31, Year 1",
+      "value": 1800
+    },
+    {
+      "label": "c: AR, net at Dec 31, Year 1",
+      "value": 112200
+    },
+    {
+      "label": "f: Year 1 sales revenue (gross)",
+      "value": 150000
+    },
+    {
+      "label": "f: Year 1 less sales discounts (taken and estimated)",
+      "value": 2880
+    },
+    {
+      "label": "f: Year 1 net sales revenue",
+      "value": 147120
+    },
+    {
+      "label": "f: net AR at Dec 31, Year 1",
+      "value": 112200
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "Dec 12, Year 1",
+      "description": "Credit sale to Arden Supply (gross method)",
+      "lines": [
+        {
+          "account": "Accounts Receivable - Arden Supply",
+          "debit": 90000,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 90000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "date": "Dec 12, Year 1",
+      "description": "Cost of the Arden Supply sale",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 54000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 0,
+          "credit": 54000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "date": "Dec 30, Year 1",
+      "description": "Credit sale to Bristol Outlet (gross method)",
+      "lines": [
+        {
+          "account": "Accounts Receivable - Bristol Outlet",
+          "debit": 60000,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 60000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "date": "Dec 30, Year 1",
+      "description": "Cost of the Bristol Outlet sale",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 36000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 0,
+          "credit": 36000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Dec 20, Year 1",
+      "description": "Collection of 40% of Arden gross invoice within the discount period",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 34920,
+          "credit": 0
+        },
+        {
+          "account": "Sales Discounts",
+          "debit": 1080,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Receivable - Arden Supply",
+          "debit": 0,
+          "credit": 36000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Dec 31, Year 1",
+      "description": "Period-end adjusting entry for cash discounts expected to be taken",
+      "lines": [
+        {
+          "account": "Sales Discounts",
+          "debit": 1800,
+          "credit": 0
+        },
+        {
+          "account": "Allowance for Sales Discounts",
+          "debit": 0,
+          "credit": 1800
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Jan 10, Year 2",
+      "description": "Bristol Outlet pays in full and takes the cash discount",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 58200,
+          "credit": 0
+        },
+        {
+          "account": "Allowance for Sales Discounts",
+          "debit": 1800,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Receivable - Bristol Outlet",
+          "debit": 0,
+          "credit": 60000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Jan 25, Year 2",
+      "description": "Arden Supply pays remaining balance after the discount period",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 54000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Receivable - Arden Supply",
+          "debit": 0,
+          "credit": 54000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Gross method: AR and Sales recorded at gross; Sales Discounts (contra-revenue) recorded when taken. Dec 20 Arden payment of 40% x $90,000 = $36,000 falls inside the 3/15 window (Dec 12 + 15 days = Dec 27), so a 3% discount of $1,080 applies to that slice only and cash is $34,920. At Dec 31 the only open balance still inside a discount window is Bristol's $60,000 (window through Jan 14), so the estimated discount is 3% x $60,000 = $1,800; Arden's remaining $54,000 is past its window and carries no allowance. Beginning AR and beginning allowance are $0, so the Dec 31 adjusting entry equals the full required allowance balance of $1,800. In Year 2 Bristol's discount is charged against the allowance (no second hit to revenue) and Arden pays its $54,000 gross with no discount."
+}

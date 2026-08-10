@@ -1,0 +1,40 @@
+{
+  "agent_id": 215,
+  "lo": "LO 12-8",
+  "chapter": 12,
+  "title": "Account for assets held for sale",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-8",
+      "concept": "Initial recognition of impairment when a fixed asset is designated held for sale; multi-period subsequent measurement schedule (FV less costs to sell, recovery cap); period-end adjusting JEs; sale/disposal JE when sold",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-8",
+      "concept": "Number-variant twin: designate asset held for sale; full subsequent measurement schedule with recovery and later write-down; period-end JEs; cash sale disposal",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-8",
+      "concept": "Identify which held-for-sale assets require impairment; combined initial JE; subsequent period with only a recovery adjustment (no depreciation); disposal when net proceeds compare to adjusted CA",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-8",
+      "concept": "Measurement difference — impairment of asset held for sale vs held and used; role of costs to sell and absence of recoverability test; cease depreciation and capped recovery rules",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

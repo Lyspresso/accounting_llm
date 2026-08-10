@@ -1,0 +1,71 @@
+{
+  "agent_id": 338,
+  "lo": "LO 12-10",
+  "chapter": 12,
+  "title": "Record acquisition and depletion of natural resources",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-10",
+      "concept": "Initial recognition of depletion base (incl. ARO); multi-year subsequent measurement schedule; period-end adjusting JEs for depletion; FIFO inventory/COGS; disposal of residual mine rights",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-10",
+      "concept": "Number-variant twin — depletion base with ARO; multi-year UOP schedule and prospective rate change; period-end adjusting JEs; FIFO COGS; disposal of rights",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-10",
+      "concept": "Period-end adjusting JEs (emphasis) — year-end depletion of natural resource and UOP depreciation of immovable development equipment; inventory and COGS from extracted units; two-year prospective update",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-10",
+      "concept": "Classification of costs in the depletion base; successful-efforts vs full-cost for oil & gas exploration",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "answers": ["C", "A"],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

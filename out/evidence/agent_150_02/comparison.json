@@ -1,0 +1,49 @@
+{
+ "id": "agent_150#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "failed",
+ "scope": {
+  "solver_has_entries": false,
+  "key_lines": 0,
+  "routed_stage2": 0,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: Case A - does the contract contain a lease?",
+   "solver": "No lease - service contract"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: Option 1 - classification",
+   "solver": "Operating"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: Option 2 - classification",
+   "solver": "Finance"
+  },
+  {
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: Option 3 - PV of lease payments incl. purchase option (6 yrs, $42,000 ordinary annuity + $15,000 option @ 5.5% implicit)",
+   "solver": 220690.96
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: Option 3 - classification",
+   "solver": "Finance"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: Option 4 - classification",
+   "solver": "Finance"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "c: Case C - finance vs operating lessee expense presentation, Year 1",
+   "solver": "Finance lease (Option 2): TWO expenses appear, reported separately - straight-line amortization expense on the right-of-use asset (an operating expense) plus in"
+  }
+ ]
+}

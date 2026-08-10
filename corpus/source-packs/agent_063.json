@@ -1,0 +1,62 @@
+{
+  "agent_id": 63,
+  "lo": "LO 10-7",
+  "chapter": 10,
+  "title": "Explain accounting treatment of inventory errors",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-7",
+      "concept": "Initial correcting JE (same year); PPA before self-correction; no entry after self-correction; two-year impact schedule",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-7",
+      "concept": "Number-variant twin — understated EI; same-period JE vs PPA vs no entry after self-correction",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-7",
+      "concept": "Period-end effect analysis; PPA when only the latest EI error remains; noncounterbalancing purchase-as-equipment correction",
+      "type": "multipart",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-7",
+      "concept": "Classification of counterbalancing vs noncounterbalancing errors; when a PPA journal entry is required",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

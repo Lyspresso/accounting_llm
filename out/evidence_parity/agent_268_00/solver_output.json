@@ -1,0 +1,142 @@
+{
+ "id": "agent_268#00",
+ "rounding_convention": "decimal.Decimal throughout; amounts quantized to cents (0.01) with ROUND_HALF_UP once per period/line item; no floats used in computation",
+ "answers": [
+  {
+   "label": "a: Initial recognition \u2014 Dr Investment in Meridian Forge Co. (cash cost, Jan 1 Year 1)",
+   "value": 240000.0
+  },
+  {
+   "label": "a: Initial recognition \u2014 Cr Cash",
+   "value": 240000.0
+  },
+  {
+   "label": "b: Share of book value of net assets acquired (30% x $700,000)",
+   "value": 210000.0
+  },
+  {
+   "label": "b: Basis difference allocated to undervalued equipment (30% x $40,000)",
+   "value": 12000.0
+  },
+  {
+   "label": "b: Goodwill (residual, not amortized)",
+   "value": 18000.0
+  },
+  {
+   "label": "b: Total cost allocated (share of FV of net assets $222,000 + goodwill)",
+   "value": 240000.0
+  },
+  {
+   "label": "c: Share of investee net income recognized (30% x $80,000)",
+   "value": 24000.0
+  },
+  {
+   "label": "c: Excess depreciation on equipment basis difference ($12,000 / 8 yrs)",
+   "value": 1500.0
+  },
+  {
+   "label": "c: Dividends received \u2014 return of investment (30% x $20,000)",
+   "value": 6000.0
+  },
+  {
+   "label": "c: Fair-value adjustment recorded at Dec 31 (none under the equity method)",
+   "value": 0.0
+  },
+  {
+   "label": "d: Investment schedule \u2014 beginning balance / cost, Jan 1 Year 1",
+   "value": 240000.0
+  },
+  {
+   "label": "d: Investment schedule \u2014 add share of net income",
+   "value": 24000.0
+  },
+  {
+   "label": "d: Investment schedule \u2014 running balance after share of net income",
+   "value": 264000.0
+  },
+  {
+   "label": "d: Investment schedule \u2014 less excess depreciation",
+   "value": 1500.0
+  },
+  {
+   "label": "d: Investment schedule \u2014 running balance after excess depreciation",
+   "value": 262500.0
+  },
+  {
+   "label": "d: Investment schedule \u2014 less dividends received",
+   "value": 6000.0
+  },
+  {
+   "label": "d: Investment carrying amount, Dec 31 Year 1",
+   "value": 256500.0
+  },
+  {
+   "label": "e: Net equity-method income recognized in Year 1 ($24,000 - $1,500)",
+   "value": 22500.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Investment in Meridian Forge Co.",
+     "debit": 240000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 240000.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Investment in Meridian Forge Co.",
+     "debit": 24000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Equity in Investee Income (Investment Income)",
+     "debit": 0.0,
+     "credit": 24000.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Equity in Investee Income (Investment Income)",
+     "debit": 1500.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Investment in Meridian Forge Co.",
+     "debit": 0.0,
+     "credit": 1500.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 6000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Investment in Meridian Forge Co.",
+     "debit": 0.0,
+     "credit": 6000.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "a. Equity method applies because Cascade holds 30% of the voting common stock (20%-50% range) and can exercise significant influence over Meridian; the investment is recorded initially at the $240,000 cash cost. b. Cost $240,000 - share of book value $210,000 = $30,000 basis difference, of which $12,000 is the investor's share of the undervalued equipment and $18,000 is goodwill (share of FV of net assets = $222,000). c. Three Dec 31 adjusting entries: share of net income, amortization of the equipment basis difference (excess depreciation reduces both investment income and the investment account), and dividends treated as a return of investment (credit Investment, not revenue). No fair-value adjustment is recorded \u2014 the $255,000 fair value of the 30% interest is not recognized under the equity method; the carrying amount stays at $256,500 (a $1500.00 unrecorded difference), subject only to impairment testing. e. Net equity-method income = $24,000 share of NI - $1,500 excess depreciation = $22,500."
+}

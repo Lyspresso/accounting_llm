@@ -1,0 +1,343 @@
+{
+  "id": "agent_301#00",
+  "rounding_convention": "decimal.Decimal throughout, never floats; ROUND_HALF_UP quantized to the cent per computed amount (round-per-period, not at end). All figures here are exact whole dollars, so no rounding is actually invoked. No PV work required, so no table factors used.",
+  "answers": [
+    {
+      "label": "e: Immediately before October 1, Year 1 (opening) - Unrestricted cash",
+      "value": 168000
+    },
+    {
+      "label": "e: Immediately before October 1, Year 1 (opening) - Cash equivalents",
+      "value": 0
+    },
+    {
+      "label": "e: Immediately before October 1, Year 1 (opening) - Restricted cash-current",
+      "value": 0
+    },
+    {
+      "label": "e: Immediately before October 1, Year 1 (opening) - Restricted cash-noncurrent",
+      "value": 0
+    },
+    {
+      "label": "e: After October 1, Year 1 (borrowing + compensating-balance reclass) - Unrestricted cash",
+      "value": 499200
+    },
+    {
+      "label": "e: After October 1, Year 1 (borrowing + compensating-balance reclass) - Cash equivalents",
+      "value": 0
+    },
+    {
+      "label": "e: After October 1, Year 1 (borrowing + compensating-balance reclass) - Restricted cash-current",
+      "value": 28800
+    },
+    {
+      "label": "e: After October 1, Year 1 (borrowing + compensating-balance reclass) - Restricted cash-noncurrent",
+      "value": 0
+    },
+    {
+      "label": "e: After October 15, Year 1 (commercial paper purchased) - Unrestricted cash",
+      "value": 445200
+    },
+    {
+      "label": "e: After October 15, Year 1 (commercial paper purchased) - Cash equivalents",
+      "value": 54000
+    },
+    {
+      "label": "e: After October 15, Year 1 (commercial paper purchased) - Restricted cash-current",
+      "value": 28800
+    },
+    {
+      "label": "e: After October 15, Year 1 (commercial paper purchased) - Restricted cash-noncurrent",
+      "value": 0
+    },
+    {
+      "label": "e: After November 20, Year 1 (T-bill purchased) - Unrestricted cash",
+      "value": 408400
+    },
+    {
+      "label": "e: After November 20, Year 1 (T-bill purchased) - Cash equivalents",
+      "value": 90800
+    },
+    {
+      "label": "e: After November 20, Year 1 (T-bill purchased) - Restricted cash-current",
+      "value": 28800
+    },
+    {
+      "label": "e: After November 20, Year 1 (T-bill purchased) - Restricted cash-noncurrent",
+      "value": 0
+    },
+    {
+      "label": "e: After November 29, Year 1 (commercial paper matured) - Unrestricted cash",
+      "value": 462886
+    },
+    {
+      "label": "e: After November 29, Year 1 (commercial paper matured) - Cash equivalents",
+      "value": 36800
+    },
+    {
+      "label": "e: After November 29, Year 1 (commercial paper matured) - Restricted cash-current",
+      "value": 28800
+    },
+    {
+      "label": "e: After November 29, Year 1 (commercial paper matured) - Restricted cash-noncurrent",
+      "value": 0
+    },
+    {
+      "label": "e: After December 5, Year 1 (dividend fund segregated) - Unrestricted cash",
+      "value": 448686
+    },
+    {
+      "label": "e: After December 5, Year 1 (dividend fund segregated) - Cash equivalents",
+      "value": 36800
+    },
+    {
+      "label": "e: After December 5, Year 1 (dividend fund segregated) - Restricted cash-current",
+      "value": 43000
+    },
+    {
+      "label": "e: After December 5, Year 1 (dividend fund segregated) - Restricted cash-noncurrent",
+      "value": 0
+    },
+    {
+      "label": "e: After December 12, Year 1 (bond sinking fund deposited) - Unrestricted cash",
+      "value": 385186
+    },
+    {
+      "label": "e: After December 12, Year 1 (bond sinking fund deposited) - Cash equivalents",
+      "value": 36800
+    },
+    {
+      "label": "e: After December 12, Year 1 (bond sinking fund deposited) - Restricted cash-current",
+      "value": 43000
+    },
+    {
+      "label": "e: After December 12, Year 1 (bond sinking fund deposited) - Restricted cash-noncurrent",
+      "value": 63500
+    },
+    {
+      "label": "g: Checking-Crestview National - unrestricted portion -> Cash",
+      "value": 47600
+    },
+    {
+      "label": "g: Checking-Crestview National - legally restricted compensating balance -> Restricted cash-current",
+      "value": 28800
+    },
+    {
+      "label": "g: Checking-Prairie Credit Union - after NSF reclass -> Cash",
+      "value": 41650
+    },
+    {
+      "label": "g: NSF check from customer (removed from Prairie balance) -> Accounts receivable (not cash)",
+      "value": 1150
+    },
+    {
+      "label": "g: Savings account -> Cash",
+      "value": 18600
+    },
+    {
+      "label": "g: Petty cash -> Cash",
+      "value": 650
+    },
+    {
+      "label": "g: Cashier's check payable to Summit Peak (dated Dec 29) -> Cash",
+      "value": 3400
+    },
+    {
+      "label": "g: U.S. T-bill purchased November 20 (2 months to maturity) -> Cash equivalents",
+      "value": 36800
+    },
+    {
+      "label": "g: Money market fund (original maturity 1 month, low risk) -> Cash equivalents",
+      "value": 33000
+    },
+    {
+      "label": "g: Restricted cash-dividend fund (segregated Dec 5) -> Restricted cash-current",
+      "value": 14200
+    },
+    {
+      "label": "g: Restricted cash-bond sinking fund (segregated Dec 12) -> Restricted cash-noncurrent",
+      "value": 63500
+    },
+    {
+      "label": "g: T-bill purchased August 1 with 4 months remaining -> Short-term investment (not a cash equivalent)",
+      "value": 27000
+    },
+    {
+      "label": "g: Travel advance to employee for January trip -> Other current asset - prepaid (not cash)",
+      "value": 2250
+    },
+    {
+      "label": "g: Customer check dated January 12, Year 2 (postdated) -> Accounts receivable (not cash)",
+      "value": 1880
+    },
+    {
+      "label": "g: Overdraft at Redrock Bank (no other Redrock account) -> Current liability (not netted against cash)",
+      "value": 3750
+    },
+    {
+      "label": "h: Cash (balance-sheet total, Dec 31 Year 1)",
+      "value": 111900
+    },
+    {
+      "label": "h: Cash equivalents (balance-sheet total, Dec 31 Year 1)",
+      "value": 69800
+    },
+    {
+      "label": "h: Restricted cash-current (Dec 31 Year 1)",
+      "value": 43000
+    },
+    {
+      "label": "h: Restricted cash-noncurrent (Dec 31 Year 1)",
+      "value": 63500
+    },
+    {
+      "label": "h: Current liability from the Redrock bank overdraft",
+      "value": 3750
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "Year 1 October 1",
+      "description": "Borrowed on a one-year, 7% note payable; full proceeds deposited at Crestview National Bank.",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 360000,
+          "credit": 0
+        },
+        {
+          "account": "Notes Payable",
+          "debit": 0,
+          "credit": 360000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "date": "Year 1 October 1",
+      "description": "Initial recognition reclassification of the legally restricted 8% compensating balance out of unrestricted cash.",
+      "lines": [
+        {
+          "account": "Restricted Cash-Compensating Balance (current asset)",
+          "debit": 28800,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 28800
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Year 1 October 15",
+      "description": "Purchased 45-day commercial paper; qualifies as a cash equivalent under the three-month original-maturity policy.",
+      "lines": [
+        {
+          "account": "Cash Equivalents-Commercial Paper",
+          "debit": 54000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 54000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "Year 1 November 29",
+      "description": "Commercial paper matured; discount interest earned.",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 54486,
+          "credit": 0
+        },
+        {
+          "account": "Cash Equivalents-Commercial Paper",
+          "debit": 0,
+          "credit": 54000
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 486
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Year 1 November 20",
+      "description": "Purchased U.S. Treasury bill with two months remaining to maturity; cash equivalent.",
+      "lines": [
+        {
+          "account": "Cash Equivalents-U.S. Treasury Bill",
+          "debit": 36800,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 36800
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Year 1 December 5",
+      "description": "Transferred general cash to the restricted dividend fund (dividends payable January 15, Year 2 -> current).",
+      "lines": [
+        {
+          "account": "Restricted Cash-Dividend Fund (current asset)",
+          "debit": 14200,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 14200
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Year 1 December 12",
+      "description": "Deposited cash with a trustee for the bond sinking fund; related bonds mature in five years -> noncurrent.",
+      "lines": [
+        {
+          "account": "Restricted Cash-Bond Sinking Fund (noncurrent asset)",
+          "debit": 63500,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 63500
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "Year 1 December 31",
+      "description": "Period-end reclassifying entry: NSF check returned; remove from cash and reinstate the customer receivable.",
+      "lines": [
+        {
+          "account": "Accounts Receivable",
+          "debit": 1150,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 1150
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "(i) If the compensating balance had NOT been legally restricted, no reclassification would be made: the $28,800 would stay inside the Crestview checking balance and be reported with Cash (Cash would then be $140,700). Under ASC 210-10-S99-1 the arrangement would instead be described in the notes to the financial statements, disclosing the nature and terms of the compensating-balance arrangement and the amount involved; compensating balances maintained to ensure future credit availability are likewise note-disclosed with their amount and terms. | Part (e) rolls only the listed classification events, as instructed, so it does not tie to the separate Dec 31 item table in part (g). | The 7% note interest is not accrued: the stem limits the events to classification-affecting ones and no Required part asks for it. | The Aug 1 T-bill ($27,000) fails the three-month ORIGINAL-maturity policy and is a short-term investment, excluded from cash equivalents."
+}

@@ -1,0 +1,430 @@
+{
+ "id": "agent_143#01",
+ "rounding_convention": "decimal.Decimal throughout, ROUND_HALF_UP; PVs at full precision, issue price and every schedule/JE amount stated in whole dollars; final-period amortization plugged as residual so the schedule closes exactly to $250,000 face and $0 unamortized discount",
+ "answers": [
+  {
+   "label": "a: Semiannual periods (n)",
+   "value": 8
+  },
+  {
+   "label": "a: Semiannual market (effective) rate per period",
+   "value": 0.04
+  },
+  {
+   "label": "a: Semiannual cash interest payment (250,000 x 6% x 6/12)",
+   "value": 7500
+  },
+  {
+   "label": "a: PV of principal ($250,000 x PV1, 4%, 8 = 0.730690)",
+   "value": 182673
+  },
+  {
+   "label": "a: PV of interest annuity ($7,500 x PVOA, 4%, 8 = 6.732745)",
+   "value": 50496
+  },
+  {
+   "label": "a: Issue price (proceeds), rounded",
+   "value": 233168
+  },
+  {
+   "label": "a: Discount on bonds payable at issuance",
+   "value": 16832
+  },
+  {
+   "label": "a: Face value of bonds",
+   "value": 250000
+  },
+  {
+   "label": "b: Period 1 (6/30/Y1) beginning carrying value",
+   "value": 233168
+  },
+  {
+   "label": "b: Period 1 (6/30/Y1) cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: Period 1 (6/30/Y1) interest expense (4% x beginning CV)",
+   "value": 9327
+  },
+  {
+   "label": "b: Period 1 (6/30/Y1) discount amortization",
+   "value": 1827
+  },
+  {
+   "label": "b: Period 1 (6/30/Y1) unamortized discount balance (end)",
+   "value": 15005
+  },
+  {
+   "label": "b: Period 1 (6/30/Y1) ending carrying value",
+   "value": 234995
+  },
+  {
+   "label": "b: Period 2 (12/31/Y1) beginning carrying value",
+   "value": 234995
+  },
+  {
+   "label": "b: Period 2 (12/31/Y1) cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: Period 2 (12/31/Y1) interest expense (4% x beginning CV)",
+   "value": 9400
+  },
+  {
+   "label": "b: Period 2 (12/31/Y1) discount amortization",
+   "value": 1900
+  },
+  {
+   "label": "b: Period 2 (12/31/Y1) unamortized discount balance (end)",
+   "value": 13105
+  },
+  {
+   "label": "b: Period 2 (12/31/Y1) ending carrying value",
+   "value": 236895
+  },
+  {
+   "label": "b: Period 3 (6/30/Y2) beginning carrying value",
+   "value": 236895
+  },
+  {
+   "label": "b: Period 3 (6/30/Y2) cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: Period 3 (6/30/Y2) interest expense (4% x beginning CV)",
+   "value": 9476
+  },
+  {
+   "label": "b: Period 3 (6/30/Y2) discount amortization",
+   "value": 1976
+  },
+  {
+   "label": "b: Period 3 (6/30/Y2) unamortized discount balance (end)",
+   "value": 11129
+  },
+  {
+   "label": "b: Period 3 (6/30/Y2) ending carrying value",
+   "value": 238871
+  },
+  {
+   "label": "b: Period 4 (12/31/Y2) beginning carrying value",
+   "value": 238871
+  },
+  {
+   "label": "b: Period 4 (12/31/Y2) cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: Period 4 (12/31/Y2) interest expense (4% x beginning CV)",
+   "value": 9555
+  },
+  {
+   "label": "b: Period 4 (12/31/Y2) discount amortization",
+   "value": 2055
+  },
+  {
+   "label": "b: Period 4 (12/31/Y2) unamortized discount balance (end)",
+   "value": 9074
+  },
+  {
+   "label": "b: Period 4 (12/31/Y2) ending carrying value",
+   "value": 240926
+  },
+  {
+   "label": "b: Period 5 (6/30/Y3) beginning carrying value",
+   "value": 240926
+  },
+  {
+   "label": "b: Period 5 (6/30/Y3) cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: Period 5 (6/30/Y3) interest expense (4% x beginning CV)",
+   "value": 9637
+  },
+  {
+   "label": "b: Period 5 (6/30/Y3) discount amortization",
+   "value": 2137
+  },
+  {
+   "label": "b: Period 5 (6/30/Y3) unamortized discount balance (end)",
+   "value": 6937
+  },
+  {
+   "label": "b: Period 5 (6/30/Y3) ending carrying value",
+   "value": 243063
+  },
+  {
+   "label": "b: Period 6 (12/31/Y3) beginning carrying value",
+   "value": 243063
+  },
+  {
+   "label": "b: Period 6 (12/31/Y3) cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: Period 6 (12/31/Y3) interest expense (4% x beginning CV)",
+   "value": 9723
+  },
+  {
+   "label": "b: Period 6 (12/31/Y3) discount amortization",
+   "value": 2223
+  },
+  {
+   "label": "b: Period 6 (12/31/Y3) unamortized discount balance (end)",
+   "value": 4714
+  },
+  {
+   "label": "b: Period 6 (12/31/Y3) ending carrying value",
+   "value": 245286
+  },
+  {
+   "label": "b: Period 7 (6/30/Y4) beginning carrying value",
+   "value": 245286
+  },
+  {
+   "label": "b: Period 7 (6/30/Y4) cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: Period 7 (6/30/Y4) interest expense (4% x beginning CV)",
+   "value": 9811
+  },
+  {
+   "label": "b: Period 7 (6/30/Y4) discount amortization",
+   "value": 2311
+  },
+  {
+   "label": "b: Period 7 (6/30/Y4) unamortized discount balance (end)",
+   "value": 2403
+  },
+  {
+   "label": "b: Period 7 (6/30/Y4) ending carrying value",
+   "value": 247597
+  },
+  {
+   "label": "b: Period 8 (12/31/Y4) beginning carrying value",
+   "value": 247597
+  },
+  {
+   "label": "b: Period 8 (12/31/Y4) cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: Period 8 (12/31/Y4) interest expense (4% x beginning CV)",
+   "value": 9903
+  },
+  {
+   "label": "b: Period 8 (12/31/Y4) discount amortization",
+   "value": 2403
+  },
+  {
+   "label": "b: Period 8 (12/31/Y4) unamortized discount balance (end)",
+   "value": 0
+  },
+  {
+   "label": "b: Period 8 (12/31/Y4) ending carrying value",
+   "value": 250000
+  },
+  {
+   "label": "b: Total cash interest paid over 8 periods",
+   "value": 60000
+  },
+  {
+   "label": "b: Total interest expense over 8 periods",
+   "value": 76832
+  },
+  {
+   "label": "b: Total discount amortized over 8 periods",
+   "value": 16832
+  },
+  {
+   "label": "b: Final-period residual amortization plug",
+   "value": 2403
+  },
+  {
+   "label": "b: Ending carrying value at maturity (closes to face)",
+   "value": 250000
+  },
+  {
+   "label": "c: June 30 Year 1 interest expense",
+   "value": 9327
+  },
+  {
+   "label": "c: June 30 Year 1 discount amortization",
+   "value": 1827
+  },
+  {
+   "label": "c: June 30 Year 1 cash paid",
+   "value": 7500
+  },
+  {
+   "label": "c: Dec 31 Year 1 interest expense",
+   "value": 9400
+  },
+  {
+   "label": "c: Dec 31 Year 1 discount amortization",
+   "value": 1900
+  },
+  {
+   "label": "c: Dec 31 Year 1 cash paid",
+   "value": 7500
+  },
+  {
+   "label": "d: Bonds payable (face) at 12/31/Y1",
+   "value": 250000
+  },
+  {
+   "label": "d: Less unamortized discount at 12/31/Y1",
+   "value": 13105
+  },
+  {
+   "label": "d: Bonds payable, net (carrying value) at 12/31/Y1",
+   "value": 236895
+  },
+  {
+   "label": "d: Year 1 total interest expense",
+   "value": 18727
+  },
+  {
+   "label": "d: Year 1 total cash interest paid",
+   "value": 15000
+  },
+  {
+   "label": "d: Year 1 total discount amortization",
+   "value": 3727
+  },
+  {
+   "label": "e: Final period interest expense (12/31/Y4)",
+   "value": 9903
+  },
+  {
+   "label": "e: Final period discount amortization (residual plug)",
+   "value": 2403
+  },
+  {
+   "label": "e: Final period cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "e: Unamortized discount after final amortization",
+   "value": 0
+  },
+  {
+   "label": "e: Principal repaid at maturity",
+   "value": 250000
+  },
+  {
+   "label": "e: Total cash paid on 12/31/Y4 (interest + principal)",
+   "value": 257500
+  },
+  {
+   "label": "e: Gain or loss on retirement at maturity",
+   "value": 0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "description": "Jan 1, Year 1 - issuance of bonds at a discount",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 233168,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 16832,
+     "credit": 0
+    },
+    {
+     "account": "Bonds Payable",
+     "debit": 0,
+     "credit": 250000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "description": "June 30, Year 1 - semiannual interest payment and discount amortization (period 1)",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 9327,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0,
+     "credit": 1827
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 7500
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "description": "December 31, Year 1 - semiannual interest payment and discount amortization (period 2)",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 9400,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0,
+     "credit": 1900
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 7500
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "description": "December 31, Year 4 - final semiannual interest and residual discount amortization (period 8)",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 9903,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0,
+     "credit": 2403
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 7500
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "description": "December 31, Year 4 - repayment of principal at maturity",
+   "lines": [
+    {
+     "account": "Bonds Payable",
+     "debit": 250000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 250000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Discount bond: market 8 percent exceeds stated 6 percent, so proceeds are below face. PVs run at full Decimal precision; issue price rounded ROUND_HALF_UP to $233168 (discount $16832). Schedule and JEs in whole dollars; each period's interest expense = 4 percent x beginning carrying value, rounded ROUND_HALF_UP; the period-8 amortization is plugged as the residual ($2403 instead of the formula-only $2404) so carrying value closes EXACTLY to $250,000 face and unamortized discount closes exactly to $0. Total interest expense $76832 = total cash interest $60000 + total discount amortized $16832. No prior Interest Payable, so 12/31/Y4 records the final interest entry plus a separate principal repayment; no gain or loss arises at maturity because carrying value equals face."
+}

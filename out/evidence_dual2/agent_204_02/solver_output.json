@@ -1,0 +1,181 @@
+{
+ "id": "agent_204#02",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to whole dollars once per period; schedule closed exactly to residual value",
+ "answers": [
+  {
+   "label": "a: Equipment (donated asset) debited at full fair value",
+   "value": 180000
+  },
+  {
+   "label": "a: Cash credited for legal title transfer cost paid",
+   "value": 3000
+  },
+  {
+   "label": "a: Contribution Revenue credited (fair value net of costs paid)",
+   "value": 177000
+  },
+  {
+   "label": "b: Year 1 depreciation expense (9 months held)",
+   "value": 21000
+  },
+  {
+   "label": "b: Year 1 year-end accumulated depreciation",
+   "value": 21000
+  },
+  {
+   "label": "b: Year 1 year-end net book value",
+   "value": 159000
+  },
+  {
+   "label": "b: Year 2 depreciation expense",
+   "value": 28000
+  },
+  {
+   "label": "b: Year 2 year-end accumulated depreciation",
+   "value": 49000
+  },
+  {
+   "label": "b: Year 2 year-end net book value",
+   "value": 131000
+  },
+  {
+   "label": "b: Year 3 depreciation expense",
+   "value": 28000
+  },
+  {
+   "label": "b: Year 3 year-end accumulated depreciation",
+   "value": 77000
+  },
+  {
+   "label": "b: Year 3 year-end net book value",
+   "value": 103000
+  },
+  {
+   "label": "c: Dec 31 Year 1 depreciation adjusting entry amount",
+   "value": 21000
+  },
+  {
+   "label": "c: Dec 31 Year 2 depreciation adjusting entry amount",
+   "value": 28000
+  },
+  {
+   "label": "d: Dec 31 Year 3 depreciation adjusting entry amount",
+   "value": 28000
+  },
+  {
+   "label": "d: Cash received on scrapping",
+   "value": 9500
+  },
+  {
+   "label": "d: Accumulated depreciation removed on disposal",
+   "value": 77000
+  },
+  {
+   "label": "d: Loss on disposal of equipment",
+   "value": 93500
+  },
+  {
+   "label": "d: Equipment credited (removed at cost) on disposal",
+   "value": 180000
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "memo": "Apr 1, Yr 1 - donated equipment received at fair value; title-transfer cost paid in cash nets against contribution revenue",
+   "lines": [
+    {
+     "account": "Equipment",
+     "debit": 180000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 3000
+    },
+    {
+     "account": "Contribution Revenue",
+     "debit": 0,
+     "credit": 177000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "memo": "Dec 31, Yr 1 - depreciation for 9 months held",
+   "lines": [
+    {
+     "account": "Depreciation Expense",
+     "debit": 21000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 21000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "memo": "Dec 31, Yr 2 - full-year depreciation",
+   "lines": [
+    {
+     "account": "Depreciation Expense",
+     "debit": 28000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 28000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "memo": "Dec 31, Yr 3 - full-year depreciation",
+   "lines": [
+    {
+     "account": "Depreciation Expense",
+     "debit": 28000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 28000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "memo": "Dec 31, Yr 3 - equipment scrapped for salvage proceeds",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 9500,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 77000,
+     "credit": 0
+    },
+    {
+     "account": "Loss on Disposal of Equipment",
+     "debit": 93500,
+     "credit": 0
+    },
+    {
+     "account": "Equipment",
+     "debit": 0,
+     "credit": 180000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Pack treatment applied: equipment recorded at full FV $180,000; the $3,000 title-transfer cost is credited to Cash and deducted from Contribution Revenue ($180,000 - $3,000 = $177,000), not capitalized. Depreciable base = $180,000 - $12,000 residual = $168,000; straight-line over 6 years = $28,000/full year. Year 1 held Apr 1 - Dec 31 = 9 months, so 9/12 x $28,000 = $21,000. Schedule closes exactly (cumulative depreciation capped at the depreciable base); no cap was needed through Year 3 since accumulated $77,000 < $168,000. Year 3 NBV $103,000 less $9,500 proceeds = $93,500 loss on scrapping. Dr = Cr verified on all five entries."
+}

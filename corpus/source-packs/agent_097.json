@@ -1,0 +1,74 @@
+{
+  "agent_id": 97,
+  "lo": "LO 15-4",
+  "chapter": 15,
+  "title": "Account for short-term debt and classify debt on the balance sheet",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-4",
+      "concept": "Initial recognition JE for interest-bearing short-term note; period-end adjusting JE; subsequent interest schedule; maturity settlement JE; current liability presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-4",
+      "concept": "Number-variant twin — initial recognition JE; period-end interest accrual; subsequent interest schedule; maturity settlement; current presentation",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-4",
+      "concept": "Initial recognition of noninterest-bearing short-term note with Discount on Notes Payable; SL amortization schedule; period-end adjusting JE; maturity settlement; balance sheet classification of current maturities, callable debt, refinancing, and noncurrent-asset settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-4",
+      "concept": "Balance sheet classification of short-term debt expected to be refinanced",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-4",
+      "concept": "Classification of callable long-term debt after covenant violation",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

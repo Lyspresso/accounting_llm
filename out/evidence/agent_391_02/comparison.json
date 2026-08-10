@@ -1,0 +1,131 @@
+{
+ "id": "agent_391#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 20,
+  "routed_stage2": 9,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Decrease in Accounts Receivable-Operating Section"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Increase in Inventory-Operating Section"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Depreciation Expense-Operating Section"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Proceeds from Sale of Equipment-Investing Section"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Sale of Equipment-Operating Section"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Issuance of Bonds Payable-Financing Section"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Amortization of Bond Discount-Operating Section"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Bond Retirement-Operating Section"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Payment for Bond Retirement-Financing Section"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 14000.0,
+   "solver": "decrease in accounts receivable operating section",
+   "key_options": [
+    "decrease in accounts receivable net operating"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 6500.0,
+   "solver": "increase in inventory operating section",
+   "key_options": [
+    "increase in inventory operating"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 28000.0,
+   "solver": "depreciation expense operating section",
+   "key_options": [
+    "depreciation expense operating"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 30000.0,
+   "solver": "proceeds from sale of equipment investing section",
+   "key_options": [
+    "proceeds from sale of equipment investing"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 5000.0,
+   "solver": "loss on sale of equipment operating section",
+   "key_options": [
+    "loss on sale of equipment operating"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 76000.0,
+   "solver": "issuance of bonds payable financing section",
+   "key_options": [
+    "issuance of bonds payable financing"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 800.0,
+   "solver": "amortization of bond discount operating section",
+   "key_options": [
+    "amortization of bond discount operating"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 1400.0,
+   "solver": "loss on bond retirement operating section",
+   "key_options": [
+    "loss on bond retirement operating"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 79000.0,
+   "solver": "payment for bond retirement financing section",
+   "key_options": [
+    "payment for bond retirement financing"
+   ]
+  }
+ ]
+}

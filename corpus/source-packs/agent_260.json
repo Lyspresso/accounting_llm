@@ -1,0 +1,40 @@
+{
+  "agent_id": 260,
+  "lo": "LO 22-6",
+  "chapter": 22,
+  "title": "Utilize a worksheet to prepare the statement of cash flows",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-6",
+      "concept": "Subsequent measurement schedules (equipment/AD, patent amortization, bond premium amortization); initial recognition (equipment purchase; stock issuance); period-end WC worksheet JEs; equipment disposal and bond retirement settlement; complete worksheet → formal indirect SCF",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-6",
+      "concept": "Number-variant twin: subsequent measurement schedules (equipment/AD, patent amort, bond discount amort); period-end WC worksheet JEs; equipment disposal; mortgage principal settlement; stock issuance; formal SCF",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-6",
+      "concept": "Subsequent measurement schedules for multi-period depreciation and bond premium amortization; period-end WC adjusting worksheet JE; disposal/settlement reconstructed worksheet JEs (equipment sale; note maturity); classify lower-half O/I/F",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-6",
+      "concept": "Classification — lower-half debit/credit convention; correct reconstructed entry for bond premium amortization (subsequent measurement)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

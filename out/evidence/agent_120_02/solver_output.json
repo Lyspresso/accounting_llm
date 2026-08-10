@@ -1,0 +1,99 @@
+{
+  "id": "agent_120#02",
+  "rounding_convention": "decimal.Decimal throughout, never floats. Money quantized to $0.01 with ROUND_HALF_UP. EPS rounded once at the end to $0.01 with ROUND_HALF_UP (exact numerator / exact share count; no per-step rounding). No PV factors in this item.",
+  "answers": [
+    {
+      "label": "c: basic EPS, Year 1",
+      "value": 3.80
+    },
+    {
+      "label": "c: diluted EPS, Year 1 (if-converted)",
+      "value": 3.16
+    },
+    {
+      "label": "e: hypothetical if-converted diluted EPS, loss year",
+      "value": -2.52
+    },
+    {
+      "label": "e: reported basic EPS, loss year",
+      "value": -3.00
+    },
+    {
+      "label": "e: reported diluted EPS, loss year",
+      "value": -3.00
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "January 1, Year 1 - issuance of 8,000 shares of 6%, $50 par cumulative convertible preferred stock at par",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 400000.00,
+          "credit": 0
+        },
+        {
+          "account": "Preferred Stock",
+          "debit": 0,
+          "credit": 400000.00
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "Year 1 - declaration of preferred dividend (8,000 x $50 par x 6%)",
+      "lines": [
+        {
+          "account": "Retained Earnings",
+          "debit": 24000.00,
+          "credit": 0
+        },
+        {
+          "account": "Dividends Payable",
+          "debit": 0,
+          "credit": 24000.00
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "Year 1 - payment of preferred dividend",
+      "lines": [
+        {
+          "account": "Dividends Payable",
+          "debit": 24000.00,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 24000.00
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "January 1, Year 2 - conversion of all 8,000 preferred shares into 32,000 shares of $5 par common stock",
+      "lines": [
+        {
+          "account": "Preferred Stock",
+          "debit": 400000.00,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 160000.00
+        },
+        {
+          "account": "Paid-In Capital in Excess of Par-Common Stock",
+          "debit": 0,
+          "credit": 240000.00
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "c: Basic EPS = ($480,000 net income - $24,000 cumulative preferred dividend) / 120,000 wtd-avg shares. If-converted diluted EPS adds the $24,000 preferred dividend back to the numerator ($480,000) and adds 8,000 x 4 = 32,000 conversion shares to the denominator (152,000). Dilutive test: earnings per incremental share = $24,000 / 32,000 = $0.75, which is below basic EPS of $3.80, so the preferred is DILUTIVE and is included (EPS falls from $3.80 to $3.16). d: The preferred was issued at par, so there is no Paid-In Capital in Excess of Par-Preferred to derecognize; the $400,000 carrying value exceeds the $160,000 common par issued (32,000 x $5), and the $240,000 remainder is credited to Paid-In Capital in Excess of Par-Common Stock. Equity is unchanged. e: Hypothetical if-converted figure = (-$600,000 net loss + $45,000 after-tax interest add-back [1,000 x $1,000 x 6% = $60,000, x (1 - 25%)]) / (200,000 + 1,000 x 20 = 220,000 shares) = -$2.52. It is ANTIDILUTIVE because the assumed conversion makes the loss per share SMALLER (-$2.52 versus -$3.00) rather than reducing EPS. Under the loss-from-continuing-operations rule (ASC 260-10-45-19), when a loss from continuing operations exists no potential common shares are included in any diluted per-share amount, so reported basic EPS and reported diluted EPS are both -$3.00 (a $3.00 loss per share). Disclosure (ASC 260-10-50-1c): disclose that 20,000 potential common shares issuable on conversion of the 1,000 6% $1,000 convertible bonds were excluded from the computation of diluted EPS because their effect would have been antidilutive, together with full disclosure of the terms and conditions of those convertible bonds. b is shown as the textbook two-step (declaration then payment); the combined one-line form debits Retained Earnings $24,000 and credits Cash $24,000."
+}

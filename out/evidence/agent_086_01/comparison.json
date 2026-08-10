@@ -1,0 +1,107 @@
+{
+ "id": "agent_086#01",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "failed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 21,
+  "routed_stage2": 2,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: item 1 copyright $72,000 - classification",
+   "solver": "Finite-life intangible asset (12-year useful life; shorter than legal life)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: item 2 franchise $110,000 - classification",
+   "solver": "Indefinite-life intangible asset (not goodwill); renewals expected indefinitely, no amortization"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: item 3 patent $56,000 - classification",
+   "solver": "Finite-life intangible asset (7-year useful life, shorter than the 14-year remaining legal life)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: item 4 trade name registration fees $8,400 - classification",
+   "solver": "Indefinite-life intangible asset (not goodwill); external legal/registration costs are capitalized, not amortized"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: item 5 internal engineer salaries and lab supplies $145,000 - classification",
+   "solver": "Expense (research and development expensed as incurred; internally generated intangible)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: item 6 acquisition of competitor - classification",
+   "solver": "Goodwill for the residual excess of price over the fair value of identifiable net assets"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: item 7 patent defense fees $11,200 - classification",
+   "solver": "Capitalized as part of the cost of the patent (finite-life intangible asset)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: item 7 effect on the patent's classification and subsequent measurement",
+   "solver": "Item 7 does not change the patent's classification: it remains a finite-life intangible asset. The $11,200 successful-defense cost is added to the patent's carr"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: item 8 two-year municipal license $24,000 - classification",
+   "solver": "Finite-life intangible asset (2-year life)"
+  },
+  {
+   "kind": "SOLVER_MISMATCH",
+   "label": "c: Year-1 amortization - patent, original cost (56,000 / 7, full year)",
+   "solver": 8000
+  },
+  {
+   "kind": "SOLVER_MISMATCH",
+   "label": "c: Year-1 amortization - patent defense costs (11,200 / 6.5 x 6/12)",
+   "solver": 861.54
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Copyright"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Franchise"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Identifiable Net Assets (at fair value)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Trade Name"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Copyright"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 145000.0,
+   "solver": "cash",
+   "key_options": [
+    "cash or various payables"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 980000.0,
+   "solver": "identifiable net assets at fair value",
+   "key_options": [
+    "identifiable net assets summary"
+   ]
+  }
+ ]
+}

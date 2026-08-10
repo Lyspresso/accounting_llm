@@ -1,0 +1,61 @@
+{
+  "agent_id": 233,
+  "lo": "LO 16-12",
+  "chapter": 16,
+  "critical": false,
+  "title": "Account for debt settlement and restructuring",
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-12",
+      "concept": "Troubled debt modification — no gain when total future cash flows exceed debt carrying amount; new effective rate; multi-period amortization schedule; period-end interest JEs; maturity settlement",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-12",
+      "concept": "Number-variant twin — troubled debt modification with CF > CA; new effective rate; subsequent measurement schedule; period-end JEs; maturity settlement",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-12",
+      "concept": "Debtor accounting for settlement by asset transfer, settlement by equity issuance, and modification when total future cash payments are less than debt carrying amount (immediate gain; zero subsequent effective rate)",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-12",
+      "concept": "Classification/method — debtor decision rule for gain vs new effective rate on modification; asset settlement measurement sequence (FV then restructuring gain)",
+      "type": "MC",
+      "ok": true,
+      "n_mc": 2,
+      "angles": ["classification_presentation_or_disclosure"]
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

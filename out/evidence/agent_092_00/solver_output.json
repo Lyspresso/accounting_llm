@@ -1,0 +1,224 @@
+{
+  "id": "agent_092#00",
+  "rounding_convention": "ROUND_HALF_UP to the cent, applied per period (each year's depreciation and each period's amortization rounded separately); no PV factors required",
+  "answers": [
+    {
+      "label": "c: Year 1 beginning book value",
+      "value": 480000
+    },
+    {
+      "label": "c: Year 1 depreciation expense (classified as R&D)",
+      "value": 80000
+    },
+    {
+      "label": "c: Year 1 ending book value",
+      "value": 400000
+    },
+    {
+      "label": "c: Year 2 beginning book value",
+      "value": 400000
+    },
+    {
+      "label": "c: Year 2 depreciation expense (classified as R&D)",
+      "value": 80000
+    },
+    {
+      "label": "c: Year 2 ending book value",
+      "value": 320000
+    },
+    {
+      "label": "c: Year 3 beginning book value",
+      "value": 320000
+    },
+    {
+      "label": "c: Year 3 depreciation expense (classified as R&D)",
+      "value": 80000
+    },
+    {
+      "label": "c: Year 3 ending book value",
+      "value": 240000
+    },
+    {
+      "label": "c: Year 4 beginning book value",
+      "value": 240000
+    },
+    {
+      "label": "c: Year 4 depreciation expense (classified as R&D)",
+      "value": 80000
+    },
+    {
+      "label": "c: Year 4 ending book value",
+      "value": 160000
+    },
+    {
+      "label": "c: Year 5 beginning book value",
+      "value": 160000
+    },
+    {
+      "label": "c: Year 5 depreciation expense (classified as R&D)",
+      "value": 80000
+    },
+    {
+      "label": "c: Year 5 ending book value",
+      "value": 80000
+    },
+    {
+      "label": "c: Year 6 beginning book value",
+      "value": 80000
+    },
+    {
+      "label": "c: Year 6 depreciation expense (classified as R&D)",
+      "value": 80000
+    },
+    {
+      "label": "c: Year 6 ending book value",
+      "value": 0
+    },
+    {
+      "label": "d: total research and development expense disclosed for Year 1",
+      "value": 1778000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "Year 1 - costs immediately expensed as R&D (items 1, 3, 4, 5, 6, 9)",
+      "lines": [
+        {
+          "account": "Research and Development Expense",
+          "debit": 1698000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 1698000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "description": "Year 1 - item 2: capitalize laboratory equipment with alternative future uses",
+      "lines": [
+        {
+          "account": "Laboratory Equipment",
+          "debit": 480000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 480000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "description": "Year 1 - item 7: corporate G&A not clearly related to R&D (non-R&D)",
+      "lines": [
+        {
+          "account": "General and Administrative Expense",
+          "debit": 310000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 310000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "description": "Year 1 - item 8: troubleshooting/repairs on commercial production line (non-R&D)",
+      "lines": [
+        {
+          "account": "Repairs and Maintenance Expense",
+          "debit": 41000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 41000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "description": "Year 1 - item 10 (July 1): capitalize legal fees to register the patent",
+      "lines": [
+        {
+          "account": "Patent",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "Dec 31, Year 1 - depreciation on multi-use laboratory equipment (classified as R&D)",
+      "lines": [
+        {
+          "account": "Research and Development Expense",
+          "debit": 80000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation - Laboratory Equipment",
+          "debit": 0,
+          "credit": 80000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "Dec 31, Year 1 - patent amortization, 6 months over a 10-year life (not R&D)",
+      "lines": [
+        {
+          "account": "Amortization Expense - Patent",
+          "debit": 600,
+          "credit": 0
+        },
+        {
+          "account": "Patent",
+          "debit": 0,
+          "credit": 600
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "Jan 1, Year 4 - sale of laboratory equipment for cash after 3 full years of depreciation",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 250000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation - Laboratory Equipment",
+          "debit": 240000,
+          "credit": 0
+        },
+        {
+          "account": "Laboratory Equipment",
+          "debit": 0,
+          "credit": 480000
+        },
+        {
+          "account": "Gain on Sale of Equipment",
+          "debit": 0,
+          "credit": 10000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Year 1 R&D expense = 240,000 materials + 96,000 single-use apparatus (no alternative future use, expensed in full, not depreciated) + 1,150,000 R&D salaries + 85,000 contract research + 72,000 R&D-related indirect costs + 55,000 preproduction prototypes + 80,000 depreciation on the multi-use lab equipment = 1,778,000. Excluded from R&D: item 7 $310,000; item 8 $41,000; item 10 $12,000 (corporate G&A not clearly related to R&D; troubleshooting during commercial production; patent registration legal fees, which are capitalized, and the related 600 of Year 1 patent amortization). (f) Presentation/disclosure under ASC 730-10-50-1: R&D costs are charged to expense as incurred and the TOTAL R&D cost charged to expense (1,778,000) is disclosed for each period an income statement is presented - shown either as a separate operating expense line in the income statement or in the notes to the financial statements; capitalized multi-use assets appear in PP&E with their depreciation included in that R&D total."
+}

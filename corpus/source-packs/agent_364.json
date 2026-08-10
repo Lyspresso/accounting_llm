@@ -1,0 +1,80 @@
+{
+  "agent_id": 364,
+  "lo": "LO 16-12",
+  "chapter": 16,
+  "title": "Account for debt settlement and restructuring",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-12",
+      "concept": "Initial recognition of troubled debt settlement and restructuring (assets, equity, modification); subsequent effective-interest schedule when restructured cash flows exceed carrying amount; maturity payoff",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-12",
+      "concept": "Number-variant twin — debtor settlement by assets and equity; modification when CF < CV (gain) and when CF > CV (new effective rate + schedule + maturity)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-12",
+      "concept": "Period-end adjusting JEs for effective interest after a CF > CV restructuring; subsequent measurement schedule; January payment entries; maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-12",
+      "concept": "Classify the correct debtor measurement when only terms are modified in a troubled debt restructuring",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-12",
+      "concept": "Distinguish gain on disposal of assets from gain on restructuring of debt in a full asset settlement",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

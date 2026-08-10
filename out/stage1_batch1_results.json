@@ -1,0 +1,2333 @@
+{
+ "batch": 1,
+ "items": 50,
+ "solver_outputs": 50,
+ "missing_output": 0,
+ "machine_passed": 36,
+ "failed": 14,
+ "insufficient_info": 0,
+ "calibration": {
+  "probes_run": 13,
+  "probes_caught": 13,
+  "probe_detection": 1.0,
+  "canaries_run": 1,
+  "canary_breaches": 0
+ },
+ "rows": [
+  {
+   "id": "agent_319#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal throughout, no floats; ROUND_HALF_UP per period, quantized to cents at the period end; no PV factors involved (inputs are whole dollars, so no rounding is triggered)",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Net Realizable Value"
+    }
+   ],
+   "n_issues": 1
+  },
+  {
+   "id": "agent_052#01",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "rounding": "decimal.Decimal only, no floats. ROUND_HALF_UP applied per transaction (per period), not deferred to the end. Moving-average unit cost recomputed after each purchase and carried at 4 decimals (ROUND_HALF_UP); each sale's cost = units x that unit cost, quantized to cents at the sale date, with the inventory balance rolled forward as prior balance minus that cost so no rounding residue accumulates. FIFO/LIFO consume whole layers, so all amounts are cent-exact. All reported figures quantized to cents ROUND_HALF_UP. No PV factors involved in this item.",
+   "issues": [],
+   "n_issues": 0
+  },
+  {
+   "id": "agent_360#00",
+   "status": "machine_passed",
+   "risk_score": 7,
+   "rounding": "decimal.Decimal only, no floats; ROUND_HALF_UP to the cent applied per computed amount (per period / per line), not at the end of a chain; no discounting (all amounts undiscounted)",
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "g: reporting if the litigation loss were only reasonably possible",
+     "solver": "No liability or loss would be accrued at December 31, Year 1; the contingency would instead be disclosed in the notes, describing the nature of the lawsuit and "
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss from Litigation"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Litigation Liability"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss from Litigation"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Litigation Liability"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Litigation Liability"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 120000.0,
+     "solver": "loss from litigation",
+     "key_options": [
+      "loss on litigation"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 120000.0,
+     "solver": "litigation liability",
+     "key_options": [
+      "estimated litigation liability"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 25000.0,
+     "solver": "loss from litigation",
+     "key_options": [
+      "loss on litigation"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 25000.0,
+     "solver": "litigation liability",
+     "key_options": [
+      "estimated litigation liability"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 145000.0,
+     "solver": "litigation liability",
+     "key_options": [
+      "estimated litigation liability"
+     ]
+    }
+   ],
+   "n_issues": 11
+  },
+  {
+   "id": "agent_187#02",
+   "status": "failed",
+   "risk_score": 3,
+   "rounding": "ROUND_HALF_UP throughout; dollars to the cent (all figures whole dollars); inventory turnover to 2 decimals; average days in inventory = 365 / rounded turnover, to 1 decimal (round-per-step); gross profit percentage to 1 decimal",
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: LIFO (as reported) average inventory",
+     "solver": 495000
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: FIFO (as if) average inventory",
+     "solver": 578500
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to LIFO (LIFO Reserve)"
+    }
+   ],
+   "n_issues": 3
+  },
+  {
+   "id": "agent_196#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only, no floats. Cost ratios carried as exact Decimal quotients (not pre-rounded) and applied per layer; each layer's cost rounded to the cent ROUND_HALF_UP per layer/period, not at the end. Ending inventory at cost = sum of rounded layer costs; COGS derived as the periodic residual from that total so the close entry balances. Ratios shown rounded to 4 dp ROUND_HALF_UP for display only.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory, Ending (LIFO retail)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Purchases"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory, Beginning"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Purchases"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 80000.0,
+     "solver": "inventory ending lifo retail",
+     "key_options": [
+      "merchandise inventory ending lifo retail"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 240000.0,
+     "solver": "purchases",
+     "key_options": [
+      "purchases net",
+      "accounts payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 50000.0,
+     "solver": "inventory beginning",
+     "key_options": [
+      "merchandise inventory beginning"
+     ]
+    }
+   ],
+   "n_issues": 7
+  },
+  {
+   "id": "agent_097#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal throughout; ROUND_HALF_UP to the cent applied PER PERIOD (each reporting stretch rounded when recognized), total term interest = sum of the rounded period amounts; interest accrued months/12 (Face x rate x months/12); note recorded at face since stated rate = market, so no PV factor is used.",
+   "issues": [
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 4000.0,
+     "solver": "interest expense",
+     "key_options": [
+      "interest expense",
+      "interest payable",
+      "interest expense 120000  008  512"
+     ]
+    }
+   ],
+   "n_issues": 1
+  },
+  {
+   "id": "agent_270#00",
+   "status": "failed",
+   "risk_score": 5,
+   "rounding": "decimal.Decimal only, no floats; ROUND_HALF_UP to whole cents applied per period/per computed amount. Interest accrued on a months/12 basis (face x 9% x months/12). Bonds bought at par, so amortized cost = face throughout; no discount/premium amortization and no PV table factors needed.",
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: Year 1 net pretax income effect of the investment",
+     "solver": -2100
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in Trading Securities--Cascade Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss--Income"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment--Trading Securities"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Sale of Investment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in Trading Securities--Cascade Bonds"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment--Trading Securities"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss--Income"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 60000.0,
+     "solver": "investment in trading securitiescascade bonds",
+     "key_options": [
+      "investment in tscascade bonds"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 3000.0,
+     "solver": "fair value adjustmenttrading securities",
+     "key_options": [
+      "fair value adjustmentts",
+      "unrealized gain or lossincome"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 60000.0,
+     "solver": "investment in trading securitiescascade bonds",
+     "key_options": [
+      "investment in tscascade bonds"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 3000.0,
+     "solver": "fair value adjustmenttrading securities",
+     "key_options": [
+      "unrealized gain or lossincome",
+      "fair value adjustmentts"
+     ]
+    }
+   ],
+   "n_issues": 12
+  },
+  {
+   "id": "agent_254#00",
+   "status": "machine_passed",
+   "risk_score": 8,
+   "rounding": "decimal.Decimal only, ROUND_HALF_UP. Money exact to the cent; EPS (basic, each tentative diluted, final diluted) rounded to 2 decimals for reporting; earnings per incremental share rounded to 4 decimals for reporting. Ranking and dilutive/antidilutive tests use the unrounded exact quotients, not the rounded display values.",
+   "issues": [
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 400000.0,
+     "solver": "preferred stock",
+     "key_options": [
+      "convertible preferred stock 100 par"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 500000.0,
+     "solver": "bonds payable",
+     "key_options": [
+      "bonds payableseries x convertible"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 20000.0,
+     "solver": "retained earnings",
+     "key_options": [
+      "preferred dividends or retained earnings",
+      "interest expense"
+     ]
+    }
+   ],
+   "n_issues": 3
+  },
+  {
+   "id": "agent_186#02",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only, ROUND_HALF_UP to the cent applied per period: base-year restatements (FIFO EI / index) rounded when computed and carried forward rounded; each layer extension (base-year layer x origin-year index) rounded before summing. No PV factors in this item. All figures land on whole dollars.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce FIFO Inventory to LIFO Basis"
+    }
+   ],
+   "n_issues": 1
+  },
+  {
+   "id": "agent_223#00",
+   "status": "failed",
+   "risk_score": 3,
+   "rounding": "decimal.Decimal throughout, no floats; ROUND_HALF_UP to the cent applied per period (each year's straight-line charge is rounded as computed and the rounded charges accumulate), not only at the end; no PV factors are used in this item; both capitalized assets were placed in service January 1 of Year 1 so Year 1 takes a full year of depreciation/amortization",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Research and Development Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Laboratory Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Technical License (finite-life intangible asset)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Quality Control Expense (commercial production)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "General and Administrative Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Research and Development Expense (Depreciation)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - Laboratory Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Research and Development Expense (Amortization)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Amortization - Technical License"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - Laboratory Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Disposal of Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Laboratory Equipment"
+    }
+   ],
+   "n_issues": 23
+  },
+  {
+   "id": "agent_391#02",
+   "status": "failed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only, never float; ROUND_HALF_UP quantized to cents per period/per amount as computed (all figures here are whole dollars, so the rounding step is a no-op); no PV factors used",
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: net effect on operating cash flows from items (1)-(4) and (6)-(7) (positive = increase in operating cash flows)",
+     "solver": 42700
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Decrease in Accounts Receivable-Operating Section"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Increase in Inventory-Operating Section"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Depreciation Expense-Operating Section"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Proceeds from Sale of Equipment-Investing Section"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Sale of Equipment-Operating Section"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Issuance of Bonds Payable-Financing Section"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Amortization of Bond Discount-Operating Section"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Bond Retirement-Operating Section"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Payment for Bond Retirement-Financing Section"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 14000.0,
+     "solver": "decrease in accounts receivableoperating section",
+     "key_options": [
+      "decrease in accounts receivable netoperating"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 6500.0,
+     "solver": "increase in inventoryoperating section",
+     "key_options": [
+      "increase in inventoryoperating"
+     ]
+    }
+   ],
+   "n_issues": 19
+  },
+  {
+   "id": "agent_248#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only, never floats; ROUND_HALF_UP quantized to $0.01 per period / per computed line (round-per-period, not round-at-end); whole shares only via floor division of accumulated withholdings by the purchase price; Paid-in Capital in Excess of Par is the balancing credit",
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: Plan N classification",
+     "solver": "Noncompensatory"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: Plan C classification",
+     "solver": "Compensatory"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-in Capital in Excess of Par-Common Stock"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Compensation Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-in Capital in Excess of Par-Common Stock"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Liability-Employee Stock Purchase Plan"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Liability-Employee Stock Purchase Plan"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-in Capital in Excess of Par-Common Stock"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 136800.0,
+     "solver": "cash",
+     "key_options": [
+      "cash 3000  48  95"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 6000.0,
+     "solver": "common stock",
+     "key_options": [
+      "common stock 3000  2"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 86400.0,
+     "solver": "cash",
+     "key_options": [
+      "cash 2000  48  90"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 9600.0,
+     "solver": "compensation expense",
+     "key_options": [
+      "compensation expense 2000  48  10"
+     ]
+    }
+   ],
+   "n_issues": 15
+  },
+  {
+   "id": "agent_080#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only, no floats; ROUND_HALF_UP to the cent applied per period (each year's depreciation rounded before accumulation); final year not plugged \u2014 schedule verified to land exactly on the revised $12,000 residual; no PV factors used.",
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "f: classification of the January 1, Year 5 revision",
+     "solver": "Change in accounting estimate \u2014 applied prospectively; prior years are not restated."
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Equipment \u2014 Tempering Furnace"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Disposal of Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Equipment \u2014 Tempering Furnace"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 240000.0,
+     "solver": "equipment  tempering furnace",
+     "key_options": [
+      "equipmenttempering furnace"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 15000.0,
+     "solver": "accumulated depreciation  equipment",
+     "key_options": [
+      "accumulated depreciationtempering furnace"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 138000.0,
+     "solver": "accumulated depreciation  equipment",
+     "key_options": [
+      "accumulated depreciationtempering furnace"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 240000.0,
+     "solver": "equipment  tempering furnace",
+     "key_options": [
+      "cash",
+      "equipmenttempering furnace"
+     ]
+    }
+   ],
+   "n_issues": 8
+  },
+  {
+   "id": "agent_119#00",
+   "status": "machine_passed",
+   "risk_score": 7,
+   "rounding": "decimal.Decimal throughout, no floats. ROUND_HALF_UP applied once at the end. Journal-entry amounts and the weighted-average share schedule are exact integers (no rounding occurs). Basic EPS is computed from the unrounded numerator and unrounded weighted-average denominator and quantized once to the nearest cent with ROUND_HALF_UP. No PV factors in this item.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Retained Earnings (Cash Dividends - Preferred)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Retained Earnings (Stock Dividends)"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 420000.0,
+     "solver": "cash",
+     "key_options": [
+      "cash 30000  14"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 60000.0,
+     "solver": "common stock",
+     "key_options": [
+      "common stock 30000  2"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 360000.0,
+     "solver": "paidin capital in excess of par  common",
+     "key_options": [
+      "paidin capital in excess of parcommon 30000  12"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 96000.0,
+     "solver": "treasury stock",
+     "key_options": [
+      "treasury stock 6000  16"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 12000.0,
+     "solver": "retained earnings cash dividends  preferred",
+     "key_options": [
+      "retained earnings or preferred dividends"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 57600.0,
+     "solver": "retained earnings stock dividends",
+     "key_options": [
+      "retained earnings"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 57600.0,
+     "solver": "common stock",
+     "key_options": [
+      "common stock 28800  2"
+     ]
+    }
+   ],
+   "n_issues": 9
+  },
+  {
+   "id": "agent_373#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "ROUND_HALF_UP per computed amount, to the cent for money and to the whole share for share counts; decimal.Decimal throughout, no floats. No PV factors involved. Small stock dividend (12%) measured at declaration-date fair value; large stock dividend (50%) measured at par.",
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "b: Classification/presentation of Common Stock Dividends Distributable at December 31, Year 1",
+     "solver": "Stockholders' equity \u2014 paid-in capital section, an addition to contributed capital (NOT a liability); reported at par, 21600"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "f: Scenario C \u2014 journal entry required?",
+     "solver": "None \u2014 memorandum entry only for a true stock split"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Retained Earnings (Stock Dividends)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Common Stock Dividends Distributable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-in Capital in Excess of Par\u2014Common Stock"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Common Stock Dividends Distributable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Retained Earnings (Stock Dividends)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Common Stock Dividends Distributable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Common Stock Dividends Distributable"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 158400.0,
+     "solver": "retained earnings stock dividends",
+     "key_options": [
+      "retained earnings 7200  22"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 21600.0,
+     "solver": "common stock dividends distributable",
+     "key_options": [
+      "common stock dividends distributable 7200  3",
+      "common stock"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 90000.0,
+     "solver": "retained earnings stock dividends",
+     "key_options": [
+      "retained earnings 30000  3",
+      "common stock dividends distributable"
+     ]
+    }
+   ],
+   "n_issues": 12
+  },
+  {
+   "id": "agent_297#01",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "rounding": "ROUND_HALF_UP per period, quantized to the cent as each money figure is produced; decimal.Decimal throughout, no floats. No present-value discounting in this item, so no PV table factor vs exact formula choice applies.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Gain on Disposal of Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Debt Investments"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Debt Investments"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Gain on Sale of Debt Investments"
+    }
+   ],
+   "n_issues": 4
+  },
+  {
+   "id": "agent_309#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "ROUND_HALF_UP to whole dollars, applied per period: each year's effective-interest accretion is rounded before it updates the net carrying amount. PV is the $45,339 the stem directs us to use (cross-checked against both the exact 6% formula and the 5-decimal PV table factor 0.83962).",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Note Receivable"
+    }
+   ],
+   "n_issues": 2
+  },
+  {
+   "id": "agent_392#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only, no floats; ROUND_HALF_UP to the cent applied per step/period (round-per-period, not round-at-end). All amounts in this item are whole dollars, so no rounding is triggered. No present value computation is required.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accounts Receivable, net"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Sale of Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Common Stock, no-par"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Retained Earnings (Dividends)"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 90000.0,
+     "solver": "accounts receivable net",
+     "key_options": [
+      "accounts receivable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 150000.0,
+     "solver": "common stock nopar",
+     "key_options": [
+      "bonds payable",
+      "common stock"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 906000.0,
+     "solver": "retained earnings dividends",
+     "key_options": [
+      "retained earnings"
+     ]
+    }
+   ],
+   "n_issues": 7
+  },
+  {
+   "id": "agent_283#02",
+   "status": "failed",
+   "risk_score": 7,
+   "rounding": "ROUND_HALF_UP per period to the cent; decimal.Decimal throughout. Commencement PV from the exact annuity-due formula PMT * PVOA(8, 8%) * 1.08 (= 6.206370 factor, identical to the 5-decimal table factor 6.20637), rounded once to the cent. Interest each period computed on the rounded beginning balance and rounded before posting; ROU-asset reduction is the plug (straight-line lease expense less interest). Percentages HALF_UP to 2dp.",
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: 90% of fair value (PV test threshold)",
+     "solver": 288000
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Gain on Sale-Leaseback"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Lease Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Lease Expense"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 430000.0,
+     "solver": "accumulated depreciation  buildings",
+     "key_options": [
+      "accumulated depreciationbuilding"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 700000.0,
+     "solver": "buildings",
+     "key_options": [
+      "building"
+     ]
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 279286.65,
+     "solver": "rightofuse asset"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 279286.65,
+     "solver": "lease liability"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 18742.93,
+     "solver": "lease liability"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 26257.07,
+     "solver": "rightofuse asset"
+    }
+   ],
+   "n_issues": 10
+  },
+  {
+   "id": "agent_029#01",
+   "status": "machine_passed",
+   "risk_score": 7,
+   "rounding": "decimal.Decimal throughout; money quantized to 0.01 with ROUND_HALF_UP per period (per year), not at end; percentages quantized to 0.01 percentage points with ROUND_HALF_UP; no floats",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Income Tax Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Income Tax Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Income Tax Payable"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 12000.0,
+     "solver": "deferred tax liability",
+     "key_options": [
+      "nbspnbspnbspnbspdeferred tax liability"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 76000.0,
+     "solver": "income tax payable",
+     "key_options": [
+      "nbspnbspnbspnbspincome tax payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 3000.0,
+     "solver": "deferred tax asset",
+     "key_options": [
+      "nbspnbspnbspnbspdeferred tax asset"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 78000.0,
+     "solver": "income tax payable",
+     "key_options": [
+      "nbspnbspnbspnbspincome tax payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 83500.0,
+     "solver": "income tax payable",
+     "key_options": [
+      "nbspnbspnbspnbspincome tax payable"
+     ]
+    }
+   ],
+   "n_issues": 8
+  },
+  {
+   "id": "agent_189#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only; ROUND_HALF_UP to cents applied per period / per line item (round-per-period, not round-at-end). Per-unit LCM rounded first, then extended by whole-unit quantities. No PV factors apply.",
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: AlpineShell \u2014 constraint setting market",
+     "solver": "RC"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: BaseLayer \u2014 constraint setting market",
+     "solver": "ceiling"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: TrailBoot \u2014 constraint setting market",
+     "solver": "floor"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: SummitPoles \u2014 constraint setting market",
+     "solver": "floor"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "a: DayPack \u2014 constraint setting market",
+     "solver": "ceiling"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Market"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Market"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Market"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Market"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to Market"
+    }
+   ],
+   "n_issues": 10
+  },
+  {
+   "id": "agent_219#05",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal throughout; ROUND_HALF_UP to the cent applied per period (each annual and partial-year amortization charge rounded as computed, then applied to carrying amount), not round-at-end. No PV factors needed - fair value is given.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Patent"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Patent"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Impairment Loss"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Patent"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Patent"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Patent"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Sale of Patent"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Patent"
+    }
+   ],
+   "n_issues": 8
+  },
+  {
+   "id": "agent_008#02",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only, no floats; every amount quantized to cents with ROUND_HALF_UP as recorded (round-per-amount). No PV factors needed. Period-end-only method: FVA untouched on the sale date, so the realized loss is proceeds less amortized cost, and the 12/31 FVA balance is trued up to (fair value - amortized cost) of the securities still held.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Sale of Investments"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Debt Investments (Trading)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment-Trading Securities"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Holding Gain or Loss-Income"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 1200.0,
+     "solver": "loss on sale of investments",
+     "key_options": [
+      "loss on sale of investment"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 35000.0,
+     "solver": "debt investments trading",
+     "key_options": [
+      "nbspnbspnbspnbspinvestment in tscrest bonds"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 3800.0,
+     "solver": "fair value adjustmenttrading securities",
+     "key_options": [
+      "fair value adjustmentts"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 3800.0,
+     "solver": "unrealized holding gain or lossincome",
+     "key_options": [
+      "nbspnbspnbspnbspunrealized gain or lossincome"
+     ]
+    }
+   ],
+   "n_issues": 8
+  },
+  {
+   "id": "agent_363#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal throughout; quantized to cents with ROUND_HALF_UP applied per period. Straight-line premium amortization (premium / 5 per year), not effective-interest, so no PV table factors are used; final-period amortization is forced to drive carrying amount exactly to face (no drift arises here - all figures are exact).",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-In Capital-Stock Warrants"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-In Capital-Stock Warrants"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-In Capital in Excess of Par-Common Stock"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-In Capital-Stock Warrants"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-In Capital-Expired Stock Warrants"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 4500.0,
+     "solver": "paidin capitalexpired stock warrants",
+     "key_options": [
+      "paidin capital in excess of parcommon stock"
+     ]
+    }
+   ],
+   "n_issues": 6
+  },
+  {
+   "id": "agent_277#00",
+   "status": "failed",
+   "risk_score": 3,
+   "rounding": "decimal.Decimal only, ROUND_HALF_UP to the nearest whole dollar. Issue price from the exact effective-interest PV formula at 50-digit precision (i=2%, n=6), rounded once. Schedule rounded PER PERIOD with the rounded carrying amount carried forward; final period's premium amortization is the residual plug to face. Dec 31 accrual = next schedule row prorated 3/6 (expense), face x 6% x 3/12 (payable), amortization = payable - expense.",
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "e: Year 1 interest expense (income statement)",
+     "solver": 7898
+    }
+   ],
+   "n_issues": 1
+  },
+  {
+   "id": "agent_291#02",
+   "status": "machine_passed",
+   "risk_score": 7,
+   "rounding": "decimal.Decimal only; money quantized to cents with ROUND_HALF_UP applied per computed figure (round-per-period, tax effects rounded as computed and carried forward); rate-reconciliation percentages quantized to 0.01 percentage point with ROUND_HALF_UP, effective rate computed from total tax expense / pretax income rather than by summing rounded components; no PV factors in this item",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Income Tax Payable"
+    }
+   ],
+   "n_issues": 1
+  },
+  {
+   "id": "agent_220#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only; ROUND_HALF_UP quantized to the cent per period (round-per-period, not round-at-end); change in useful life applied prospectively; no PV factors required",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "License"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "License"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Disposal of License"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "License"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 5000.0,
+     "solver": "loss on disposal of license",
+     "key_options": [
+      "loss on sale of license"
+     ]
+    }
+   ],
+   "n_issues": 5
+  },
+  {
+   "id": "agent_151#01",
+   "status": "failed",
+   "risk_score": 6,
+   "rounding": "ROUND_HALF_UP to the cent, applied per period as amounts are recorded; discount factors from the exact formula 1/(1+i)^n at 28-digit Decimal precision rather than 5-decimal table factors; no end-of-schedule plug",
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: ROU asset carrying amount Jan 1 Year 3 (2 years SL over 5-year term)",
+     "solver": 210586.14
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: post-remeasurement ROU asset carrying amount",
+     "solver": 240612.65
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 350976.9,
+     "solver": "rightofuse asset"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 350976.9,
+     "solver": "lease liability"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 30026.51,
+     "solver": "rightofuse asset"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 30026.51,
+     "solver": "lease liability"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 8733.4,
+     "solver": "interest expense"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 8733.4,
+     "solver": "lease liability"
+    }
+   ],
+   "n_issues": 8
+  },
+  {
+   "id": "agent_274#02",
+   "status": "failed",
+   "risk_score": 3,
+   "rounding": "decimal.Decimal throughout; ROUND_HALF_UP to the nearest whole dollar applied per period, with the rounded carrying amount carried forward. Issue price from the exact PV formula rounded once (cross-checked against 5-decimal PV table factors 0.88849 / 3.71710 -- both give the same dollar). Final period plugs the residual premium. August 31 accrual = period-2 row x 2/6, amortization line as the balancing figure.",
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "e: Year 1 total interest expense",
+     "solver": 11154
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "h: balance sheet classification at December 31, Year 1",
+     "solver": "Current liability. The bonds mature December 31, Year 2 -- within one year of the December 31, Year 1 balance sheet date -- so the obligation is no longer long-"
+    }
+   ],
+   "n_issues": 2
+  },
+  {
+   "id": "agent_204#02",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal throughout; ROUND_HALF_UP to the cent applied per period (each year's depreciation rounded as computed, accumulated depreciation built from the rounded per-period amounts); no PV factors needed",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Contribution Revenue"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Disposal of Equipment"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 21000.0,
+     "solver": "accumulated depreciation  equipment",
+     "key_options": [
+      "accumulated depreciationequipment"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 28000.0,
+     "solver": "accumulated depreciation  equipment",
+     "key_options": [
+      "accumulated depreciationequipment"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 77000.0,
+     "solver": "accumulated depreciation  equipment",
+     "key_options": [
+      "accumulated depreciationequipment"
+     ]
+    }
+   ],
+   "n_issues": 5
+  },
+  {
+   "id": "agent_251#00",
+   "status": "machine_passed",
+   "risk_score": 7,
+   "rounding": "decimal.Decimal throughout; money rounded to the cent with ROUND_HALF_UP per period (each semiannual line rounded on its own, never from an annual total); EPS rounded to the cent with ROUND_HALF_UP from exact unrounded numerator/denominator; no PV table factors needed because the bonds are issued at par (effective rate = stated rate, no amortization)",
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "d: bonds dilutive or antidilutive",
+     "solver": "dilutive"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "g: bonds dilutive or antidilutive (July 1 issuance)",
+     "solver": "dilutive"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-in Capital in Excess of Par - Common Stock"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 45000.0,
+     "solver": "common stock",
+     "key_options": [
+      "cash",
+      "common stock 1 par"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 1455000.0,
+     "solver": "paidin capital in excess of par  common stock",
+     "key_options": [
+      "apiccommon stock"
+     ]
+    }
+   ],
+   "n_issues": 5
+  },
+  {
+   "id": "agent_143#01",
+   "status": "failed",
+   "risk_score": 3,
+   "rounding": "ROUND_HALF_UP to the nearest dollar per period (interest expense = beginning carrying amount x 4%, rounded each period before deriving amortization); issue price from exact PV formulas rounded once to the nearest dollar (5-decimal PV table factors give the same figure); final period discount amortization plugged so carrying amount closes to face",
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: Year 1 interest expense",
+     "solver": 18727
+    }
+   ],
+   "n_issues": 1
+  },
+  {
+   "id": "agent_306#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal throughout; ROUND_HALF_UP to the nearest whole dollar applied per period (each month's interest rounded as accrued and carried forward at that rounded amount). No PV factors are used in this item.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Finance Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Note Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Sales Discount"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Refund Liability"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Note Payable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Note Payable"
+    }
+   ],
+   "n_issues": 6
+  },
+  {
+   "id": "agent_115#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "ROUND_HALF_UP to the cent, applied per period: each year's cumulative SARs liability is rounded first and the rounded balance drives the next year's expense plug. No PV discounting applies to this item.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Compensation Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "SARs Liability"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Compensation Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "SARs Liability"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "SARs Liability"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Compensation Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Compensation Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "SARs Liability"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "SARs Liability"
+    }
+   ],
+   "n_issues": 9
+  },
+  {
+   "id": "agent_280#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only, no floats; ROUND_HALF_UP to the cent applied per period (round-per-period, rounded balances roll forward). Straight-line premium amortization; no PV table factors needed since the issue price is given.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-in Capital in Excess of Par - Common Stock"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 20000.0,
+     "solver": "common stock",
+     "key_options": [
+      "common stock 5 par"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 188400.0,
+     "solver": "paidin capital in excess of par  common stock",
+     "key_options": [
+      "paidin capital in excess of parcommon stock"
+     ]
+    }
+   ],
+   "n_issues": 3
+  },
+  {
+   "id": "agent_060#00",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "rounding": "decimal.Decimal only; monetary amounts quantized to cents with ROUND_HALF_UP applied per computed amount (round-per-step); gross profit rate held exact (25/125) and rounded HALF_UP to 4 dp for reporting only. All amounts here are whole dollars.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory - Salvaged Merchandise"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss from Fire (Casualty Loss)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Insurance Claim Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss from Fire (Casualty Loss)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Insurance Claim Receivable"
+    }
+   ],
+   "n_issues": 5
+  },
+  {
+   "id": "agent_305#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only, no floats. Whole-dollar currency unit, ROUND_HALF_UP applied per period (not once at the end): each note-year's effective interest = opening carrying amount x 10%, rounded, then rolled forward. Final note-year interest plugged to face - opening carrying amount so the schedule closes on 37268 (plug equals the unrounded figure here, asserted). 3/9 month allocation: 3-month stub = note-year interest x 3/12 ROUND_HALF_UP, 9-month slice taken as the remainder so each note year ties. PV not table-looked-up: the stem supplies PV = 28000 and 28000 x 1.10^3 = 37268 is re-verified in exact Decimal arithmetic.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Discount on Note Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Note Receivable"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 37268.0,
+     "solver": "note receivable",
+     "key_options": [
+      "notes receivable",
+      "cash"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 37268.0,
+     "solver": "note receivable",
+     "key_options": [
+      "notes receivable"
+     ]
+    }
+   ],
+   "n_issues": 9
+  },
+  {
+   "id": "agent_132#02",
+   "status": "machine_passed",
+   "risk_score": 3,
+   "rounding": "decimal.Decimal throughout; ROUND_HALF_UP. Purchase price computed with the exact PV formulas (i=2.5%, n=6) and rounded ONCE to the nearest dollar = 189,915 (5-decimal PV table factors 5.50813 / 0.86230 give 189,915.22, the same rounded answer). Effective-interest revenue is then rounded to the nearest dollar PER PERIOD and that rounded amount is carried forward; premium amortization = 6,300 cash coupon less the rounded interest revenue. Final period (12/31/2027) amortization is plugged so the carrying amount retires exactly at the 180,000 face, absorbing the $1 of accumulated rounding drift.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in HTM Securities"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in HTM Securities"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Sale of Investment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in HTM Securities"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 189915.0,
+     "solver": "investment in htm securities",
+     "key_options": [
+      "investment in htm securitiesredwood bonds"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 1552.0,
+     "solver": "investment in htm securities",
+     "key_options": [
+      "investment in htm securitiesredwood bonds"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 183470.0,
+     "solver": "investment in htm securities",
+     "key_options": [
+      "investment in htm securitiesredwood bonds"
+     ]
+    }
+   ],
+   "n_issues": 7
+  },
+  {
+   "id": "agent_322#00",
+   "status": "failed",
+   "risk_score": 7,
+   "rounding": "decimal.Decimal only; ROUND_HALF_UP to 2 dp applied per period (each quarter's estimated COGS and estimated ending inventory are rounded before being carried forward), not round-at-end. Gross profit rate derived exactly from the 25% markup on cost (0.25/1.25 = 20%); no PV factors involved.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory (ending, Mar 31 - estimated)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Purchases"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory (beginning, Jan 1)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory (ending, Jun 30 - estimated)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Purchases"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory (beginning, Mar 31)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Cost of Goods Sold (July 1-12, estimated)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory - Salvaged Goods"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss from Storm (Casualty Loss)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Purchases"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory (beginning, Jun 30)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Insurance Claim Receivable"
+    }
+   ],
+   "n_issues": 26
+  },
+  {
+   "id": "agent_381#02",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only, no floats. ROUND_HALF_UP applied per period/per line: share contributions rounded to whole shares each period before summing; money to cents; basic EPS rounded to 2 decimals. No PV factors in this item. Large stock dividend capitalized at par (fair value ignored per ASC 505-20).",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Paid-In Capital in Excess of Par-Common Stock"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Retained Earnings (Preferred Dividends)"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 10000.0,
+     "solver": "common stock",
+     "key_options": [
+      "common stock 1 par"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 190000.0,
+     "solver": "paidin capital in excess of parcommon stock",
+     "key_options": [
+      "additional paidin capitalcommon"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 55000.0,
+     "solver": "common stock",
+     "key_options": [
+      "common stock 1 par"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 30000.0,
+     "solver": "retained earnings preferred dividends",
+     "key_options": [
+      "retained earnings or preferred dividends declared"
+     ]
+    }
+   ],
+   "n_issues": 6
+  },
+  {
+   "id": "agent_221#00",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only (no floats); ROUND_HALF_UP to the cent applied per period, each year's amortization rounded before being carried forward; straight-line amortization computed from acquisition-date fair value less zero residual over the 6-year life; no present-value work required, so no PV table factors used",
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "g: Year-2 balance-sheet presentation of goodwill vs. other intangibles",
+     "solver": "Goodwill is presented as a separate line item in the balance sheet, apart from all other intangible assets (ASC 350-20-45-1): Goodwill $192,000. The other intan"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Property, Plant, and Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Brand Name"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Customer Relationships"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Acquired In-Process Research and Development"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Long-Term Debt"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Cash (consideration paid)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Customer Relationships"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Customer Relationships"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Sale of Intangible Asset"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Brand Name"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 90000.0,
+     "solver": "brand name",
+     "key_options": [
+      "brand name indefinite life"
+     ]
+    }
+   ],
+   "n_issues": 18
+  },
+  {
+   "id": "agent_136#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal throughout; ROUND_HALF_UP to the cent applied per period / per computed amount (no floats). No PV factors in this item. Required FVA balance is measured against ORIGINAL COST (purchase price + capitalized commissions) at each measurement date; only the change is journalized.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in Brookfield Media Co. Common Stock"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss-Income"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment-Equity Securities"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment-Equity Securities"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain or Loss-Income"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Fair Value Adjustment-Equity Securities"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Investment in Brookfield Media Co. Common Stock"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 94200.0,
+     "solver": "investment in brookfield media co common stock",
+     "key_options": [
+      "investment in equity securitiesbrookfield"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 94200.0,
+     "solver": "investment in brookfield media co common stock",
+     "key_options": [
+      "cash",
+      "investment in equity securitiesbrookfield"
+     ]
+    }
+   ],
+   "n_issues": 9
+  },
+  {
+   "id": "agent_296#00",
+   "status": "failed",
+   "risk_score": 7,
+   "rounding": "decimal.Decimal only, never float; ROUND_HALF_UP applied per line item / per period (not round-at-end); all inputs and results are whole dollars so no rounding step is actually reached; no PV factors required by this item",
+   "issues": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: net working-capital change effect on operating cash flow",
+     "solver": 9500
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "f: $35,000 equipment sale proceeds - section",
+     "solver": "Investing activities (cash inflow)"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "f: $53,000 bond redemption cash - section",
+     "solver": "Financing activities (cash outflow)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Gain on Sale of Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Bond Retirement"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Amortization Expense-Patent"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Patent, net"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 12000.0,
+     "solver": "patent net",
+     "key_options": [
+      "patent"
+     ]
+    }
+   ],
+   "n_issues": 8
+  },
+  {
+   "id": "agent_092#00",
+   "status": "failed",
+   "risk_score": 3,
+   "rounding": "ROUND_HALF_UP to the cent, applied per period (each year's depreciation and each period's amortization rounded separately); no PV factors required",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Research and Development Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Laboratory Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "General and Administrative Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Repairs and Maintenance Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Patent"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Research and Development Expense"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - Laboratory Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Amortization Expense - Patent"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Patent"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Accumulated Depreciation - Laboratory Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Laboratory Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Gain on Sale of Equipment"
+    }
+   ],
+   "n_issues": 20
+  },
+  {
+   "id": "agent_183#01",
+   "status": "failed",
+   "risk_score": 3,
+   "rounding": "ROUND_HALF_UP to the cent, applied per period (per transaction): the moving-average unit cost is rounded at each purchase and that rounded cost is what the next sale relieves; extended amounts rounded per transaction. decimal.Decimal only, no floats. No PV factors involved.",
+   "issues": [
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 3600.0,
+     "solver": "inventory"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 3600.0,
+     "solver": "accounts payable"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 6600.0,
+     "solver": "inventory"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 6600.0,
+     "solver": "accounts payable"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 3750.0,
+     "solver": "inventory"
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 3750.0,
+     "solver": "accounts payable"
+    }
+   ],
+   "n_issues": 6
+  },
+  {
+   "id": "agent_327#00",
+   "status": "machine_passed",
+   "risk_score": 7,
+   "rounding": "decimal.Decimal throughout, never float. Cost ratios quantized to 4 dp ROUND_HALF_UP; each LIFO layer's cost quantized to the cent ROUND_HALF_UP per layer per period (round-per-period, not round-at-end); ending inventory at cost is the sum of the rounded layer costs; COGS taken as the periodic residual (BI cost + net purchases at cost - EI cost). No PV factors apply.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Purchases"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Cash and Accounts Receivable"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory, Ending (December 31, Year 1 \u2014 at LIFO retail cost)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory, Beginning (January 1, Year 1)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Purchases"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory, Ending (December 31, Year 2 \u2014 at LIFO retail cost)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory, Beginning (January 1, Year 2)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Purchases"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory, Ending (December 31, Year 3 \u2014 at LIFO retail cost)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Inventory, Beginning (January 1, Year 3)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Purchases"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 560000.0,
+     "solver": "cash and accounts receivable",
+     "key_options": [
+      "cash andor accounts receivable"
+     ]
+    }
+   ],
+   "n_issues": 21
+  },
+  {
+   "id": "agent_145#02",
+   "status": "machine_passed",
+   "risk_score": 2,
+   "rounding": "decimal.Decimal only, no floats; whole dollars, ROUND_HALF_UP applied per period; straight-line amortization = total discount / number of periods with the final period plugged to the remaining unamortized discount so the discount fully amortizes and carrying amount equals face at maturity ($4,974 / 3 = $1,658 divides evenly, so no residual arises here). No PV factors needed -- the issue price is given.",
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "e: Under ASC 835-30, when is straight-line acceptable and where is unamortized discount reported?",
+     "solver": "GAAP requires the effective interest ('interest') method; ASC 835-30-55-2 permits an alternative such as the straight-line interest method only when its results"
+    }
+   ],
+   "n_issues": 1
+  },
+  {
+   "id": "agent_352#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal throughout, no floats; every amount quantized to the cent with ROUND_HALF_UP applied per computed amount/period (not only at the end). No present value work is required by this fact pattern, so no PV table factors are used.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Trademark"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Property, Plant, and Equipment"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Customer Relationships"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Trademark--Brand"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Acquired In-Process Research and Development"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Long-Term Debt"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Crypto Assets"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Crypto Assets"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Gain--Crypto Assets (Income)"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Disposal of Trademark"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Trademark"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Unrealized Loss--Crypto Assets (Income)"
+    }
+   ],
+   "n_issues": 23
+  },
+  {
+   "id": "agent_279#01",
+   "status": "machine_passed",
+   "risk_score": 4,
+   "rounding": "ROUND_HALF_UP to whole dollars, applied per period (round-per-period). Interest expense = beginning carrying value x 8% effective rate, rounded each period; discount amortization is the plug (expense - cash interest); each rounded carrying value carries forward. Issue price is given in the stem, so no PV table factors are used.",
+   "issues": [
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Loss on Redemption of Bonds"
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 400000.0,
+     "solver": "bonds payable",
+     "key_options": [
+      "nbspnbspnbspnbspbonds payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 6351.0,
+     "solver": "discount on bonds payable",
+     "key_options": [
+      "nbspnbspnbspnbspdiscount on bonds payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 24000.0,
+     "solver": "cash",
+     "key_options": [
+      "nbspnbspnbspnbspcash"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "dr",
+     "amount": 13133.0,
+     "solver": "loss on redemption of bonds",
+     "key_options": [
+      "loss on extinguishment of debt"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 7133.0,
+     "solver": "discount on bonds payable",
+     "key_options": [
+      "nbspnbspnbspnbspdiscount on bonds payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 206000.0,
+     "solver": "cash",
+     "key_options": [
+      "nbspnbspnbspnbspcash"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 3429.0,
+     "solver": "discount on bonds payable",
+     "key_options": [
+      "nbspnbspnbspnbspdiscount on bonds payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 12000.0,
+     "solver": "cash",
+     "key_options": [
+      "nbspnbspnbspnbspcash"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 3704.0,
+     "solver": "discount on bonds payable",
+     "key_options": [
+      "nbspnbspnbspnbspdiscount on bonds payable"
+     ]
+    },
+    {
+     "kind": "ACCOUNT_DIFFERS",
+     "side": "cr",
+     "amount": 200000.0,
+     "solver": "cash",
+     "key_options": [
+      "nbspnbspnbspnbspcash"
+     ]
+    }
+   ],
+   "n_issues": 11
+  },
+  {
+   "id": "agent_184#02",
+   "status": "failed",
+   "risk_score": 4,
+   "rounding": "decimal.Decimal only, no floats; ROUND_HALF_UP quantized to the cent per period (applied at each year-end figure, not only at the end). No PV factors in this item.",
+   "issues": [
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "d(i): formal JE made for the reserve under approach (2)?",
+     "solver": "No \u2014 no formal journal entry is made for the reserve; the books stay on FIFO and the LIFO conversion is made only for external reporting."
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "e: Year 6 FIFO-basis COGS",
+     "solver": 875000
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "e: Year 8 FIFO-basis COGS",
+     "solver": 990000
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "f: year with the reverse / settlement-type adjustment",
+     "solver": "Year 8"
+    },
+    {
+     "kind": "NON_NUMERIC_ANSWER",
+     "label": "f: income-statement effect",
+     "solver": "Year 8: the allowance is debited $70,000 to reverse part of the prior LIFO-reserve build-up, with the credit to Cost of Goods Sold. COGS decreases by $70,000, s"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to LIFO Basis"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to LIFO Basis"
+    },
+    {
+     "kind": "UNKNOWN_ACCOUNT",
+     "account": "Allowance to Reduce Inventory to LIFO Basis"
+    }
+   ],
+   "n_issues": 8
+  }
+ ]
+}

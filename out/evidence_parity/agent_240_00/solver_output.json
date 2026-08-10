@@ -1,0 +1,193 @@
+{
+ "id": "agent_240#00",
+ "rounding_convention": "decimal.Decimal throughout; interest accreted at 10% of the beginning carrying amount and quantized to the cent with ROUND_HALF_UP each period, then rolled forward",
+ "answers": [
+  {
+   "label": "a: Initial liability recognized at Jan 1, Year 1 (cash proceeds = fair value)",
+   "value": 150000.0
+  },
+  {
+   "label": "a: Cash debited at issuance",
+   "value": 150000.0
+  },
+  {
+   "label": "a: Amount reported in stockholders' equity immediately after issuance",
+   "value": 0.0
+  },
+  {
+   "label": "a: Classification immediately after issuance \u2014 noncurrent LIABILITY (mandatorily redeemable preferred, fixed amount $199,650 on a fixed date 12/31/Yr3, ASC 480-10-25-4); not equity, not mezzanine; the $120,000 total par is form only",
+   "value": 150000.0
+  },
+  {
+   "label": "b: Year 1 beginning carrying amount",
+   "value": 150000.0
+  },
+  {
+   "label": "b: Year 1 interest expense (10% x beginning)",
+   "value": 15000.0
+  },
+  {
+   "label": "b: Year 1 ending carrying amount",
+   "value": 165000.0
+  },
+  {
+   "label": "b: Year 2 beginning carrying amount",
+   "value": 165000.0
+  },
+  {
+   "label": "b: Year 2 interest expense (10% x beginning)",
+   "value": 16500.0
+  },
+  {
+   "label": "b: Year 2 ending carrying amount",
+   "value": 181500.0
+  },
+  {
+   "label": "b: Year 3 beginning carrying amount",
+   "value": 181500.0
+  },
+  {
+   "label": "b: Year 3 interest expense (10% x beginning)",
+   "value": 18150.0
+  },
+  {
+   "label": "b: Year 3 ending carrying amount (= mandatory redemption amount)",
+   "value": 199650.0
+  },
+  {
+   "label": "b: Total interest expense, Years 1-3",
+   "value": 49650.0
+  },
+  {
+   "label": "c: Dec 31, Year 1 interest expense accretion",
+   "value": 15000.0
+  },
+  {
+   "label": "c: Liability carrying amount after the Dec 31, Year 1 entry",
+   "value": 165000.0
+  },
+  {
+   "label": "c: Dec 31, Year 2 interest expense accretion",
+   "value": 16500.0
+  },
+  {
+   "label": "c: Liability carrying amount after the Dec 31, Year 2 entry",
+   "value": 181500.0
+  },
+  {
+   "label": "d: Dec 31, Year 3 interest expense accretion",
+   "value": 18150.0
+  },
+  {
+   "label": "d: Liability carrying amount immediately before settlement",
+   "value": 199650.0
+  },
+  {
+   "label": "d: Cash paid at maturity settlement, Dec 31, Year 3",
+   "value": 199650.0
+  },
+  {
+   "label": "d: Gain or loss on settlement (carrying amount equals redemption price)",
+   "value": 0.0
+  },
+  {
+   "label": "e: Total interest expense recognized over the three-year life",
+   "value": 49650.0
+  },
+  {
+   "label": "e: Redemption amount",
+   "value": 199650.0
+  },
+  {
+   "label": "e: Issue proceeds",
+   "value": 150000.0
+  },
+  {
+   "label": "e: Redemption amount minus issue proceeds",
+   "value": 49650.0
+  },
+  {
+   "label": "e: Reconciling difference (total interest expense - (redemption - proceeds)); zero proves the schedule ties",
+   "value": 0.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 150000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Mandatorily redeemable preferred stock liability (Jan 1, Year 1)",
+     "debit": 0.0,
+     "credit": 150000.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Interest expense (Dec 31, Year 1)",
+     "debit": 15000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Mandatorily redeemable preferred stock liability",
+     "debit": 0.0,
+     "credit": 15000.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Interest expense (Dec 31, Year 2)",
+     "debit": 16500.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Mandatorily redeemable preferred stock liability",
+     "debit": 0.0,
+     "credit": 16500.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Interest expense (Dec 31, Year 3)",
+     "debit": 18150.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Mandatorily redeemable preferred stock liability",
+     "debit": 0.0,
+     "credit": 18150.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Mandatorily redeemable preferred stock liability (settlement Dec 31, Year 3)",
+     "debit": 199650.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 199650.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "ASC 480-10-25-4: preferred stock with a mandatory cash redemption of a fixed $199,650 on the fixed date 12/31/Year 3 (not solely upon liquidation) is a liability, not equity or mezzanine, so nothing hits stockholders' equity. Initial measurement = $150,000 cash proceeds (fair value); the $120,000 aggregate par (3,000 x $40) is descriptive form only. Subsequent measurement uses the effective-interest method at the 10% implicit rate, with accretion charged to interest expense (not to retained earnings, since the instrument is a liability). The accretion is exact: 150,000 x 1.10^3 = 199,650, so Year 3's ending carrying amount equals the redemption price and settlement produces no gain or loss. Preferred dividends are ignored per the problem. All amounts rounded to the cent with ROUND_HALF_UP each period; no rounding differences arose."
+}

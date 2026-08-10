@@ -1,0 +1,63 @@
+{
+  "agent_id": 128,
+  "lo": "LO 21-5",
+  "chapter": 21,
+  "title": "Apply tax effects to changes in accounting principle and error corrections",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 21-5",
+      "concept": "Initial recognition JE for FIFO→average with DTA; temporary-difference schedule; RE rollforward; repair-error PPA with tax receivable; opposite change with DTL; presentation/disclosure",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 21-5",
+      "concept": "Number-variant twin: FIFO→average with DTA at 30%; multi-year RE schedule; capitalized-repair error PPA with tax receivable",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 21-5",
+      "concept": "LIFO→average with Income Tax Payable; multi-year dep error with tax receivable; books-only error removing DTL; RE rollforward; settlement of tax payable; tax-account classification",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 21-5",
+      "concept": "MC classification: DTA for books-only inventory principle change; Income Tax Payable when error overstated expenses equally for book and tax",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

@@ -1,0 +1,253 @@
+{
+ "id": "agent_391#02",
+ "rounding_convention": "decimal.Decimal throughout; each computed amount quantized to $0.01 with ROUND_HALF_UP once per period; amounts are whole dollars as given",
+ "answers": [
+  {
+   "label": "a: derived \u2014 equipment book value at disposal (cost 90,000 - accum. dep. 55,000)",
+   "value": 35000
+  },
+  {
+   "label": "a: derived \u2014 loss on sale of equipment (BV 35,000 - proceeds 30,000)",
+   "value": 5000
+  },
+  {
+   "label": "a: derived \u2014 cash proceeds on bond issuance (80,000 x 95%)",
+   "value": 76000
+  },
+  {
+   "label": "a: derived \u2014 discount on bonds payable at issuance",
+   "value": 4000
+  },
+  {
+   "label": "a: derived \u2014 carrying value of bonds at retirement (80,000 - 2,400 unamortized discount)",
+   "value": 77600
+  },
+  {
+   "label": "a: derived \u2014 loss on early retirement (cash paid 79,000 - carrying value 77,600)",
+   "value": 1400
+  },
+  {
+   "label": "a: Dr = Cr check, entry (1) \u2014 total debits = total credits",
+   "value": 14000
+  },
+  {
+   "label": "a: Dr = Cr check, entry (2) \u2014 total debits = total credits",
+   "value": 6500
+  },
+  {
+   "label": "a: Dr = Cr check, entry (3) \u2014 total debits = total credits",
+   "value": 28000
+  },
+  {
+   "label": "a: Dr = Cr check, entry (4) \u2014 total debits = total credits",
+   "value": 90000
+  },
+  {
+   "label": "a: Dr = Cr check, entry (5) \u2014 total debits = total credits",
+   "value": 80000
+  },
+  {
+   "label": "a: Dr = Cr check, entry (6) \u2014 total debits = total credits",
+   "value": 800
+  },
+  {
+   "label": "a: Dr = Cr check, entry (7) \u2014 total debits = total credits",
+   "value": 81400
+  },
+  {
+   "label": "b: (1) Decrease in accounts receivable \u2014 Operating add",
+   "value": 12000
+  },
+  {
+   "label": "b: (1) Increase in allowance for doubtful accounts \u2014 Operating add",
+   "value": 2000
+  },
+  {
+   "label": "b: (2) Increase in inventory \u2014 Operating deduct",
+   "value": 6500
+  },
+  {
+   "label": "b: (3) Depreciation expense \u2014 Operating add",
+   "value": 28000
+  },
+  {
+   "label": "b: (4) Proceeds from sale of equipment \u2014 Investing inflow",
+   "value": 30000
+  },
+  {
+   "label": "b: (4) Loss on sale of equipment \u2014 Operating add",
+   "value": 5000
+  },
+  {
+   "label": "b: (5) Proceeds from bond issuance \u2014 Financing inflow",
+   "value": 76000
+  },
+  {
+   "label": "b: (6) Amortization of bond discount \u2014 Operating add",
+   "value": 800
+  },
+  {
+   "label": "b: (7) Loss on early retirement of bonds \u2014 Operating add",
+   "value": 1400
+  },
+  {
+   "label": "b: (7) Cash paid to retire bonds \u2014 Financing outflow",
+   "value": 79000
+  },
+  {
+   "label": "c: net effect on operating cash flows from items (1)-(4) and (6)-(7) (net addition to net income)",
+   "value": 42700
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "entry": "(1) Period-end WC: AR decrease and allowance increase",
+   "lines": [
+    {
+     "account": "Operating \u2014 Decrease in accounts receivable (lower half)",
+     "debit": 12000,
+     "credit": 0
+    },
+    {
+     "account": "Operating \u2014 Increase in allowance for doubtful accounts (lower half)",
+     "debit": 2000,
+     "credit": 0
+    },
+    {
+     "account": "Accounts receivable",
+     "debit": 0,
+     "credit": 12000
+    },
+    {
+     "account": "Allowance for doubtful accounts",
+     "debit": 0,
+     "credit": 2000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "entry": "(2) Period-end WC: Inventory increase",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 6500,
+     "credit": 0
+    },
+    {
+     "account": "Operating \u2014 Increase in inventory (lower half)",
+     "debit": 0,
+     "credit": 6500
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "entry": "(3) Period-end adjusting: Depreciation expense",
+   "lines": [
+    {
+     "account": "Operating \u2014 Depreciation expense (lower half)",
+     "debit": 28000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated depreciation \u2014 equipment",
+     "debit": 0,
+     "credit": 28000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "entry": "(4) Disposal of equipment",
+   "lines": [
+    {
+     "account": "Investing \u2014 Proceeds from sale of equipment (lower half)",
+     "debit": 30000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated depreciation \u2014 equipment",
+     "debit": 55000,
+     "credit": 0
+    },
+    {
+     "account": "Operating \u2014 Loss on sale of equipment (lower half)",
+     "debit": 5000,
+     "credit": 0
+    },
+    {
+     "account": "Equipment",
+     "debit": 0,
+     "credit": 90000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "entry": "(5) Initial recognition: bonds issued at 95",
+   "lines": [
+    {
+     "account": "Financing \u2014 Proceeds from issuance of bonds payable (lower half)",
+     "debit": 76000,
+     "credit": 0
+    },
+    {
+     "account": "Discount on bonds payable",
+     "debit": 4000,
+     "credit": 0
+    },
+    {
+     "account": "Bonds payable",
+     "debit": 0,
+     "credit": 80000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "entry": "(6) Period-end: amortization of bond discount",
+   "lines": [
+    {
+     "account": "Operating \u2014 Amortization of bond discount (lower half)",
+     "debit": 800,
+     "credit": 0
+    },
+    {
+     "account": "Discount on bonds payable",
+     "debit": 0,
+     "credit": 800
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "entry": "(7) Settlement: early retirement of bonds",
+   "lines": [
+    {
+     "account": "Bonds payable",
+     "debit": 80000,
+     "credit": 0
+    },
+    {
+     "account": "Operating \u2014 Loss on early retirement of bonds (lower half)",
+     "debit": 1400,
+     "credit": 0
+    },
+    {
+     "account": "Discount on bonds payable",
+     "debit": 0,
+     "credit": 2400
+    },
+    {
+     "account": "Financing \u2014 Cash paid to retire bonds payable (lower half)",
+     "debit": 0,
+     "credit": 79000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Worksheet convention: lower-half debit = inflow/operating add, lower-half credit = outflow/operating deduct; upper-half lines are balance-sheet account changes. Item 1 allowance increase is a non-cash contra-asset build (bad debt expense) added back separately from the gross AR change. Item 4: full 30,000 proceeds shown as one Investing inflow with the 5,000 loss added back in Operating (no double count). Item 7: full 79,000 cash paid is a Financing outflow with the 1,400 loss added back in Operating. As given, item 7's unamortized discount (2,400) is not the 4,000 - 800 = 3,200 roll-forward from items 5-6; the question's stated 2,400 is used as the governing fact. Part c excludes item 5 (purely Financing) and counts only Operating-section lines: 12,000 + 2,000 - 6,500 + 28,000 + 5,000 + 800 + 1,400 = 42,700."
+}

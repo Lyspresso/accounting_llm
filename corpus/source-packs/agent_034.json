@@ -1,0 +1,73 @@
+{
+  "agent_id": 34,
+  "lo": "LO 22-2",
+  "chapter": 22,
+  "title": "Prepare the operating activities section of the statement of cash flows using the indirect method",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-2",
+      "concept": "Indirect-method operating section from NI; reconstruct disposal, bond retirement, and period-end adjusting JEs; WC and noncash schedules",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-2",
+      "concept": "Indirect-method operating section (all numbers changed); loss on PPE disposal; bond premium amortization subtract; WC mixed signs",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-2",
+      "concept": "Other indirect-method adjustments — equity-method excess income over dividends; stock compensation; DTA/DTL; unrealized loss–income; gain on land sale",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-2",
+      "concept": "Classification/presentation — gain on sale of equipment in the operating section (indirect method)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 22-2",
+      "concept": "Classification of WC change and bond discount amortization in the indirect operating section",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

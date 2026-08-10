@@ -1,0 +1,85 @@
+{
+  "id": "agent_007#02",
+  "rounding_convention": "decimal.Decimal only, never floats; ROUND_HALF_UP to the cent applied per period / per computed line item, not once at the end. No PV table factors or discounting used - the stem supplies the $91,000 present value of expected cash flows directly. All inputs and derived figures are whole dollars.",
+  "answers": [
+    {
+      "label": "b: impairment loss recognized in net income (intent-to-sell path)",
+      "value": 12000
+    },
+    {
+      "label": "c: impairment loss in net income if no intent to sell (credit loss only)",
+      "value": 9000
+    },
+    {
+      "label": "d: realized gain on the February 10, Year 2 sale",
+      "value": 1500
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "Dec 31, Year 1 - record AFS fair value adjustment through OCI (before impairment analysis)",
+      "lines": [
+        {
+          "account": "Unrealized Gain or Loss-OCI",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Fair Value Adjustment-AFS",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "Dec 31, Year 1 - record impairment loss (intent to sell): write amortized cost down to fair value with the full gap in net income; fair value becomes the new cost basis, and the OCI loss from (a) is eliminated",
+      "lines": [
+        {
+          "account": "Loss on Impairment",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Fair Value Adjustment-AFS",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Investment in AFS-Oakmont Energy Bonds",
+          "debit": 0,
+          "credit": 12000
+        },
+        {
+          "account": "Unrealized Gain or Loss-OCI",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "Feb 10, Year 2 - sell the entire Oakmont position for cash; gain/loss measured against the post-impairment cost basis",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 89500,
+          "credit": 0
+        },
+        {
+          "account": "Investment in AFS-Oakmont Energy Bonds",
+          "debit": 0,
+          "credit": 88000
+        },
+        {
+          "account": "Gain on Sale of Investment",
+          "debit": 0,
+          "credit": 1500
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "a: FV-OCI adjustment is the $12,000 excess of amortized cost ($100,000) over fair value ($88,000), booked to the Fair Value Adjustment-AFS account rather than the investment account. b: with intent to sell, ASC 326-30-35-10 requires writing the amortized cost basis all the way down to fair value with the entire $12,000 in earnings; the $9,000 credit-loss measure is not used, and no allowance is set up because fair value becomes the new cost basis. c: without intent to sell (and not more likely than not required to sell), only the credit portion hits net income: $100,000 amortized cost less the $91,000 PV of expected cash flows = $9,000, which is below the $12,000 fair-value cap, so $9,000 goes to net income through Allowance for Credit Losses and the remaining $3,000 noncredit decline stays in OCI - $3,000 less net income impact than the intent-to-sell path. d: gain = $89,500 proceeds - $88,000 post-impairment cost basis = $1,500. The stem gives proceeds and the pre-sale carrying amounts and is silent on interest accrued between the Dec 31 coupon date and Feb 10, so no accrued-interest element is split out of the proceeds. e: the Year 1 impairment loss is reported in NET INCOME (it is not left in OCI) on the income statement in the other income and expense / other gains and losses (nonoperating) section, below income from operations; the write-down also reduces the AFS investment's carrying amount on the balance sheet to its new $88,000 cost basis. Required AFS credit-loss disclosure under the allowance model (no-intent path): a rollforward of the allowance for credit losses on available-for-sale debt securities - beginning balance, current-period provision, write-offs/recoveries and ending balance - by major security type."
+}

@@ -1,0 +1,72 @@
+{
+  "agent_id": 189,
+  "lo": "LO 10-2",
+  "chapter": 10,
+  "title": "Apply lower of cost or market rule to inventory",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-2",
+      "concept": "Individual-item LCM measurement schedule; multi-period subsequent allowance rollforward (emphasis); period-end adjusting JEs; disposal close of allowance on sale",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-2",
+      "concept": "Number-variant twin — individual-item LCM schedule, initial write-down JE, subsequent Year-2 allowance adjustment schedule",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-2",
+      "concept": "Apply LCM at item, category, and total levels; period-end Holding Loss JE; disposal close of allowance when inventory sold",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-2",
+      "concept": "LCM applicability and mid-value market designation",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "answers": ["C", "A"],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

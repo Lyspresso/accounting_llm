@@ -1,0 +1,63 @@
+{
+  "agent_id": 26,
+  "lo": "LO 18-1",
+  "chapter": 18,
+  "title": "Classifying Differences Between GAAP Income and Taxable Income",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-1",
+      "concept": "Classify taxable temporary, deductible temporary, and permanent differences; record initial recognition JEs and Year-1 income tax entry",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-1",
+      "concept": "Number-variant twin — classify prepaid (taxable temporary), allowance for doubtful accounts (deductible temporary), and regulatory fines (nondeductible permanent); initial JEs and Year-1 tax entry",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-1",
+      "concept": "Classify a portfolio of common book-tax differences; subsequent measurement schedule for accelerated tax depreciation; period-end settlement JE",
+      "type": "multipart",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-1",
+      "concept": "Identify taxable temporary vs deductible temporary vs permanent",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

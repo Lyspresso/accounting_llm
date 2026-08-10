@@ -1,0 +1,79 @@
+{
+  "agent_id": 4,
+  "lo": "LO 14-3",
+  "chapter": 14,
+  "title": "Account for debt securities measured at FV-OCI with fair value adjustments at sale date and period-end",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-3",
+      "concept": "initial_recognition_JE + subsequent FVA (period-end and sale date) + disposal reclassification",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-3",
+      "concept": "number_variant_twin — same AFS FV-OCI path with all new amounts",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-3",
+      "concept": "disposal_maturity_or_settlement_JE + subsequent_measurement_schedule (portfolio FVA)",
+      "type": "multipart",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-3",
+      "concept": "classification_presentation_or_disclosure — where AFS unrealized holding gains/losses are reported",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-3",
+      "concept": "disposal with sale-date FV adjust and AOCI reclassification",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

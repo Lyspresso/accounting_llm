@@ -1,0 +1,193 @@
+{
+  "id": "agent_305#01",
+  "rounding_convention": "decimal.Decimal only, no floats. Whole-dollar currency unit, ROUND_HALF_UP applied per period (not once at the end): each note-year's effective interest = opening carrying amount x 10%, rounded, then rolled forward. Final note-year interest plugged to face - opening carrying amount so the schedule closes on 37268 (plug equals the unrounded figure here, asserted). 3/9 month allocation: 3-month stub = note-year interest x 3/12 ROUND_HALF_UP, 9-month slice taken as the remainder so each note year ties. PV not table-looked-up: the stem supplies PV = 28000 and 28000 x 1.10^3 = 37268 is re-verified in exact Decimal arithmetic.",
+  "answers": [
+    {
+      "label": "a: initial discount on note receivable (Oct 1, Year 1)",
+      "value": 9268
+    },
+    {
+      "label": "b: interest revenue / discount amortization, note year ended Sept 30 Year 2",
+      "value": 2800
+    },
+    {
+      "label": "b: carrying amount of note, Sept 30 Year 2",
+      "value": 30800
+    },
+    {
+      "label": "b: interest revenue / discount amortization, note year ended Sept 30 Year 3",
+      "value": 3080
+    },
+    {
+      "label": "b: carrying amount of note, Sept 30 Year 3",
+      "value": 33880
+    },
+    {
+      "label": "b: interest revenue / discount amortization, note year ended Sept 30 Year 4",
+      "value": 3388
+    },
+    {
+      "label": "b: carrying amount of note, Sept 30 Year 4",
+      "value": 37268
+    },
+    {
+      "label": "c: note year 1 interest allocated to 3 months ended Dec 31 Year 1",
+      "value": 700
+    },
+    {
+      "label": "c: note year 1 interest allocated to 9 months ended Sept 30 Year 2",
+      "value": 2100
+    },
+    {
+      "label": "c: note year 2 interest allocated to 3 months ended Dec 31 Year 2",
+      "value": 770
+    },
+    {
+      "label": "c: note year 2 interest allocated to 9 months ended Sept 30 Year 3",
+      "value": 2310
+    },
+    {
+      "label": "c: note year 3 interest allocated to 3 months ended Dec 31 Year 3",
+      "value": 847
+    },
+    {
+      "label": "c: note year 3 interest allocated to 9 months ended Sept 30 Year 4",
+      "value": 2541
+    },
+    {
+      "label": "c: total interest revenue recognized, reporting period ended Dec 31 Year 1",
+      "value": 700
+    },
+    {
+      "label": "c: total interest revenue recognized, reporting period ended Dec 31 Year 2",
+      "value": 2870
+    },
+    {
+      "label": "c: total interest revenue recognized, reporting period ended Dec 31 Year 3",
+      "value": 3157
+    },
+    {
+      "label": "c: total interest revenue recognized, period ended Sept 30 Year 4",
+      "value": 2541
+    },
+    {
+      "label": "e: total interest revenue over the term of the note",
+      "value": 9268
+    },
+    {
+      "label": "e: cash collected at maturity (sales revenue 28000 + total interest 9268)",
+      "value": 37268
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "October 1, Year 1",
+      "description": "Record receipt of noninterest-bearing note in exchange for inventory sold",
+      "lines": [
+        {
+          "account": "Note Receivable",
+          "debit": 37268,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Note Receivable",
+          "debit": 0,
+          "credit": 9268
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 28000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 1",
+      "description": "Record amortization of discount / accrue interest revenue",
+      "lines": [
+        {
+          "account": "Discount on Note Receivable",
+          "debit": 700,
+          "credit": 0
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 700
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 2",
+      "description": "Record amortization of discount / accrue interest revenue",
+      "lines": [
+        {
+          "account": "Discount on Note Receivable",
+          "debit": 2870,
+          "credit": 0
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 2870
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 3",
+      "description": "Record amortization of discount / accrue interest revenue",
+      "lines": [
+        {
+          "account": "Discount on Note Receivable",
+          "debit": 3157,
+          "credit": 0
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 3157
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "September 30, Year 4",
+      "description": "Record amortization of discount / accrue interest revenue",
+      "lines": [
+        {
+          "account": "Discount on Note Receivable",
+          "debit": 2541,
+          "credit": 0
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 2541
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "September 30, Year 4",
+      "description": "Record collection of the note's face value at maturity",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 37268,
+          "credit": 0
+        },
+        {
+          "account": "Note Receivable",
+          "debit": 0,
+          "credit": 37268
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Zero-interest note, so interest revenue equals discount amortization each period and cash interest is 0 throughout. Gross presentation per ACC 343 Ch.8 Demo 8-5C: Note Receivable at face 37268 with contra Discount on Note Receivable 9268, Sales Revenue at fair value 28000. Amortization runs on note years (Oct 1 - Sept 30); each note year's interest is split 3/12 to the calendar year of issuance and 9/12 to the following reporting period, so the Dec 31 Year 2 and Year 3 adjusting entries each combine two slices. Every split is exact at these amounts, so no rounding is actually invoked. COGS ignored per the stem."
+}

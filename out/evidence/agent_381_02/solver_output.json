@@ -1,0 +1,103 @@
+{
+  "id": "agent_381#02",
+  "rounding_convention": "decimal.Decimal only, no floats. ROUND_HALF_UP applied per period/per line: share contributions rounded to whole shares each period before summing; money to cents; basic EPS rounded to 2 decimals. No PV factors in this item. Large stock dividend capitalized at par (fair value ignored per ASC 505-20).",
+  "answers": [
+    {
+      "label": "c: common shares outstanding immediately BEFORE the 100% stock dividend",
+      "value": 55000
+    },
+    {
+      "label": "c: common shares outstanding immediately AFTER the 100% stock dividend",
+      "value": 110000
+    },
+    {
+      "label": "e: weighted-average common shares outstanding for Year 1",
+      "value": 110000
+    },
+    {
+      "label": "f: net income available to common stockholders",
+      "value": 330000
+    },
+    {
+      "label": "f: basic earnings per share",
+      "value": 3
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "April 1",
+      "description": "Issue 10,000 shares of $1 par common stock for $20 cash per share",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 200000,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 10000
+        },
+        {
+          "account": "Paid-In Capital in Excess of Par-Common Stock",
+          "debit": 0,
+          "credit": 190000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "July 1",
+      "description": "Purchase 5,000 common shares for the treasury at $22 cash per share (cost method)",
+      "lines": [
+        {
+          "account": "Treasury Stock",
+          "debit": 110000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 110000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "October 1",
+      "description": "Distribute 100% large common stock dividend (stock split effected in the form of a dividend): capitalize par of the 55,000 shares issued. Declaration and distribution occur on the same date, so the entry is shown combined; equivalently, credit Common Stock Dividends Distributable on declaration and reclassify it to Common Stock on distribution.",
+      "lines": [
+        {
+          "account": "Retained Earnings",
+          "debit": 55000,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 55000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 10",
+      "description": "Declare and immediately pay the full stated annual dividend on 5,000 shares of 6%, $100 par noncumulative preferred stock (declaration and payment combined; no common cash dividend declared)",
+      "lines": [
+        {
+          "account": "Retained Earnings (Preferred Dividends)",
+          "debit": 30000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 30000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "e schedule (actual shares x retroactive restatement factor 2 for all periods before Oct 1 x fraction of year): Jan 1 - Mar 31 50000 x 2 = 100000 x 3/12 = 25000; Apr 1 - Jun 30 60000 x 2 = 120000 x 3/12 = 30000; Jul 1 - Sep 30 55000 x 2 = 110000 x 3/12 = 27500; Oct 1 - Dec 31 110000 x 1 = 110000 x 3/12 = 27500; total 110000 weighted-average shares. f explanation: the noncumulative preferred dividend is subtracted because basic EPS measures income available to COMMON stockholders, and the $30000 was actually declared in Year 1 (for noncumulative preferred only declared dividends are deducted -- had none been declared, nothing would be subtracted). The Oct 1 stock dividend differs from the April 1 cash issuance because it raised no new capital and merely re-denominated existing ownership, so it is restated retroactively to the start of the year (and to all prior periods presented), while the April issuance brought in $200000 of new capital and is therefore weighted only from April 1 forward. Market price of $24 on Oct 1 is disclosed for context and is not used: a large stock dividend is a stock split in substance and is capitalized at par."
+}

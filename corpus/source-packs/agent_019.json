@@ -1,0 +1,109 @@
+{
+  "agent_id": 19,
+  "lo": "LO 17-1",
+  "chapter": 17,
+  "title": "Identify a lease, determine lease types for lessee, and classify leases using lease criteria",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-1",
+      "concept": "Lease identification & classification → finance-lease initial recognition and subsequent measurement",
+      "type": "multipart",
+      "company": "Northline Logistics Corp.",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "key_amounts": {
+        "payment": 32500.0,
+        "rate": 0.05,
+        "n": 4,
+        "payment_timing": "annuity_due",
+        "pv_liability_rou": 121005.56,
+        "fair_value": 125000.0,
+        "y1_interest": 4425.28,
+        "annual_rou_amort": 30251.39,
+        "classification": "finance"
+      },
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-1",
+      "concept": "Lease classification + finance-lease initial recognition / schedule (number twin)",
+      "type": "multipart",
+      "company": "Summit Fabrication LLC",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "key_amounts": {
+        "payment": 30000.0,
+        "rate": 0.06,
+        "n": 4,
+        "payment_timing": "annuity_due",
+        "pv_liability_rou": 110190.36,
+        "fair_value": 115000.0,
+        "y1_interest": 4811.42,
+        "annual_rou_amort": 27547.59,
+        "classification": "finance"
+      },
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-1",
+      "concept": "Apply each classification criterion; contrast finance vs operating; initial recognition when operating",
+      "type": "multipart",
+      "company": "Prairie Retail Group",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "key_amounts": {
+        "lease_A": "finance_ownership_transfer",
+        "lease_B": "finance_purchase_option",
+        "lease_C_pv": 184306.68,
+        "lease_C": "finance_term_and_pv",
+        "lease_D_pv": 33696.22,
+        "lease_D": "operating",
+        "lease_D_payment": 12000.0
+      },
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-1",
+      "concept": "Which fact pattern forces finance-lease classification",
+      "type": "MC",
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 17-1",
+      "concept": "Discount rate for PV of lease payments (implicit vs incremental)",
+      "type": "MC",
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

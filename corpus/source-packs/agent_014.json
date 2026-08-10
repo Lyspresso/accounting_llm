@@ -1,0 +1,78 @@
+{
+  "agent_id": 14,
+  "lo": "LO 16-4",
+  "chapter": 16,
+  "title": "Account for Bonds Issued at a Discount",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-4",
+      "concept": "Initial recognition JE and full effective-interest life cycle for discount bonds",
+      "type": "multipart",
+      "company": "Cedar Ridge Manufacturing",
+      "face": 200000,
+      "stated_rate": 0.04,
+      "market_rate": 0.06,
+      "years": 3,
+      "issue_price": 189166,
+      "discount": 10834,
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-4",
+      "concept": "Number-variant twin — issue price, schedule, and subsequent measurement JEs",
+      "type": "multipart",
+      "company": "Summit Forge Industries",
+      "face": 500000,
+      "stated_rate": 0.05,
+      "market_rate": 0.07,
+      "years": 4,
+      "issue_price": 465630,
+      "discount": 34370,
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-4",
+      "concept": "Period-end adjusting JE, classification on the balance sheet, and maturity settlement",
+      "type": "multipart",
+      "company": "Northline Utilities",
+      "face": 300000,
+      "stated_rate": 0.06,
+      "market_rate": 0.08,
+      "years": 5,
+      "issue_price": 275667,
+      "discount": 24333,
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-4",
+      "concept": "Classification and presentation of Discount on Bonds Payable",
+      "type": "MC",
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-4",
+      "concept": "Relationship of interest expense, cash interest, and discount amortization",
+      "type": "MC",
+      "answer": "C",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

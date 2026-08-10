@@ -1,0 +1,13 @@
+{
+ "id": "agent_052#01",
+ "harness_version": "trim-1",
+ "stem_hash": "9dc9e0214502c62f7ad6fb85dfe7b0689c9091fabed33186a292e118fc0f14e5",
+ "pack_notes_version": "pack-2026-08-07a-PRE-NOTE",
+ "notes_present_at_generation": [],
+ "notes_governing": [],
+ "generated_by": "trim_ab.js",
+ "why": "hand-written rule block; also lacked the coverage instruction",
+ "captured_at_write_time": false,
+ "reconstructed": true,
+ "retroactive_stamp_replaced": "pack-2026-08-07b"
+}

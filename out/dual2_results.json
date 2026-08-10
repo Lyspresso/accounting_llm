@@ -1,0 +1,344 @@
+{
+ "verified": [
+  {
+   "id": "agent_002#03",
+   "label": "b: Effect of the transfer on net income",
+   "value": 0.0
+  },
+  {
+   "id": "agent_032#01",
+   "label": "a: Valuation allowance at 12/31/Y1 (full realization MLTN)",
+   "value": 0.0
+  },
+  {
+   "id": "agent_043#00",
+   "label": "e: Less unamortized Discount on Note Receivable at Dec 31 Yr1",
+   "value": 3167.55
+  },
+  {
+   "id": "agent_053#01",
+   "label": "a: Year 1 \u2014 allowance beginning balance",
+   "value": 0.0
+  },
+  {
+   "id": "agent_150#02",
+   "label": "b: Option 3 \u2014 PV of six $42,000 payments",
+   "value": 209812.27
+  },
+  {
+   "id": "agent_150#02",
+   "label": "b: Option 3 \u2014 PV of $15,000 purchase-option price (single sum, 6 yrs @ 5.5%)",
+   "value": 10878.69
+  },
+  {
+   "id": "agent_150#02",
+   "label": "b: Option 3 \u2014 total PV of lease payments (payments + option price)",
+   "value": 220690.96
+  },
+  {
+   "id": "agent_151#01",
+   "label": "c: post-remeasurement ROU asset carrying amount",
+   "value": 240612.65
+  },
+  {
+   "id": "agent_151#01",
+   "label": "d: schedule - liability after paying the $30,000 purchase option",
+   "value": 0.0
+  },
+  {
+   "id": "agent_283#02",
+   "label": "a: PV of lease payments as % of fair value $320,000 (< 90%)",
+   "value": 87.28
+  },
+  {
+   "id": "agent_283#02",
+   "label": "e: Year 2 - lease liability after the January 1 payment",
+   "value": 208029.58
+  },
+  {
+   "id": "agent_283#02",
+   "label": "e: Year 3 - lease liability after the January 1 payment",
+   "value": 179671.95
+  },
+  {
+   "id": "agent_285#00",
+   "label": "a: Criterion 4 - PV of lease payments as % of fair value",
+   "value": 58.51
+  },
+  {
+   "id": "agent_303#02",
+   "label": "c: Year-end adjusting entry - Sales Returns debit / Refund Liability credit (increase)",
+   "value": 13250.0
+  },
+  {
+   "id": "agent_303#02",
+   "label": "d: Refund Liability rollforward - actual returns charged against the liability",
+   "value": 0.0
+  },
+  {
+   "id": "agent_303#02",
+   "label": "d: Refund Liability rollforward - year-end adjustment (true-up)",
+   "value": 13250.0
+  },
+  {
+   "id": "agent_303#02",
+   "label": "d: Inventory-Estimated Returns rollforward - year-end adjustment (true-up)",
+   "value": 7950.0
+  },
+  {
+   "id": "agent_303#02",
+   "label": "f: Net Sales for Year 2",
+   "value": 515300.0
+  }
+ ],
+ "disagree": [
+  {
+   "id": "agent_150#02",
+   "label": "b: Option 1 \u2014 PV factor, ordinary annuity, 6 yrs @ 6% (IBR)",
+   "solver_1": 4.917324,
+   "solver_2": 196693.0,
+   "match": 0.62
+  },
+  {
+   "id": "agent_150#02",
+   "label": "b: Option 2 \u2014 PV factor, ordinary annuity, 8 yrs @ 6% (IBR)",
+   "solver_1": 6.209794,
+   "solver_2": 248392.0,
+   "match": 0.64
+  },
+  {
+   "id": "agent_150#02",
+   "label": "b: Option 4 \u2014 PV factor, annuity DUE, 6 yrs @ 6% (IBR)",
+   "solver_1": 5.212364,
+   "solver_2": 234556.0,
+   "match": 0.62
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 1 depreciation expense",
+   "solver_1": 21375.0,
+   "solver_2": 21000.0,
+   "match": 0.4
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 1 year-end accumulated depreciation",
+   "solver_1": 21375.0,
+   "solver_2": 21000.0,
+   "match": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 1 year-end net book value",
+   "solver_1": 161625.0,
+   "solver_2": 159000.0,
+   "match": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 2 depreciation expense",
+   "solver_1": 28500.0,
+   "solver_2": 28000.0,
+   "match": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 2 year-end accumulated depreciation",
+   "solver_1": 49875.0,
+   "solver_2": 49000.0,
+   "match": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 2 year-end net book value",
+   "solver_1": 133125.0,
+   "solver_2": 131000.0,
+   "match": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 3 depreciation expense",
+   "solver_1": 28500.0,
+   "solver_2": 28000.0,
+   "match": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 3 year-end accumulated depreciation",
+   "solver_1": 78375.0,
+   "solver_2": 77000.0,
+   "match": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 3 year-end net book value",
+   "solver_1": 104625.0,
+   "solver_2": 103000.0,
+   "match": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "c: Dec 31, Year 1 depreciation adjusting entry amount",
+   "solver_1": 21375.0,
+   "solver_2": 21000.0,
+   "match": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "c: Dec 31, Year 2 depreciation adjusting entry amount",
+   "solver_1": 28500.0,
+   "solver_2": 28000.0,
+   "match": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "d: Dec 31, Year 3 depreciation adjusting entry amount",
+   "solver_1": 28500.0,
+   "solver_2": 28000.0,
+   "match": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "d: Loss on disposal (scrapping)",
+   "solver_1": 95125.0,
+   "solver_2": 93500.0,
+   "match": 0.5
+  },
+  {
+   "id": "agent_285#00",
+   "label": "b: PV factor, annuity due, 4 payments @ 5%",
+   "solver_1": 3.723248,
+   "solver_2": 81911.0,
+   "match": 0.5
+  },
+  {
+   "id": "agent_333#02",
+   "label": "e: New machine snapshot Dec 31, 20X7 \u2014 remaining useful life (months)",
+   "solver_1": 91.0,
+   "solver_2": 96000.0,
+   "match": 0.55
+  },
+  {
+   "id": "agent_333#02",
+   "label": "e: New machine snapshot Dec 31, 20X7 \u2014 remaining useful life (years)",
+   "solver_1": 7.583,
+   "solver_2": 96000.0,
+   "match": 0.55
+  }
+ ],
+ "unverified": [
+  {
+   "id": "agent_043#00",
+   "label": "d: Carrying amount Dec 31 Yr2",
+   "solver_1": 13015.7
+  },
+  {
+   "id": "agent_043#00",
+   "label": "d: Carrying amount Dec 31 Yr3",
+   "solver_1": 14317.75
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Full-year straight-line depreciation",
+   "solver_1": 28500
+  },
+  {
+   "id": "agent_204#02",
+   "label": "d: NBV immediately before scrapping",
+   "solver_1": 104625
+  },
+  {
+   "id": "agent_283#02",
+   "label": "f: total lease expense recognized over the 8-year term",
+   "solver_1": 360000.0
+  },
+  {
+   "id": "agent_283#02",
+   "label": "f: total interest component over the term",
+   "solver_1": 80713.35
+  },
+  {
+   "id": "agent_303#02",
+   "label": "c: Year-end adjusting entry - Inventory-Estimated Returns debit / COGS credit (increase)",
+   "solver_1": 7950.0
+  },
+  {
+   "id": "agent_303#02",
+   "label": "d: Inventory-Estimated Returns rollforward - amounts relieved for actual returns",
+   "solver_1": 0.0
+  },
+  {
+   "id": "agent_303#02",
+   "label": "f: Total Sales Returns contra (actual $19,800 + true-up $13,250)",
+   "solver_1": 33050.0
+  }
+ ],
+ "per_item": {
+  "agent_002#03": {
+   "verified": 1,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_032#01": {
+   "verified": 1,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_043#00": {
+   "verified": 1,
+   "disagree": 0,
+   "unverified": 2,
+   "now_clean": false
+  },
+  "agent_053#01": {
+   "verified": 1,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_150#02": {
+   "verified": 3,
+   "disagree": 3,
+   "unverified": 0,
+   "now_clean": false
+  },
+  "agent_151#01": {
+   "verified": 2,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_204#02": {
+   "verified": 0,
+   "disagree": 13,
+   "unverified": 2,
+   "now_clean": false
+  },
+  "agent_283#02": {
+   "verified": 3,
+   "disagree": 0,
+   "unverified": 2,
+   "now_clean": false
+  },
+  "agent_285#00": {
+   "verified": 1,
+   "disagree": 1,
+   "unverified": 0,
+   "now_clean": false
+  },
+  "agent_303#02": {
+   "verified": 5,
+   "disagree": 0,
+   "unverified": 3,
+   "now_clean": false
+  },
+  "agent_333#02": {
+   "verified": 0,
+   "disagree": 2,
+   "unverified": 0,
+   "now_clean": false
+  }
+ }
+}

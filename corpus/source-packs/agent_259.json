@@ -1,0 +1,79 @@
+{
+  "agent_id": 259,
+  "lo": "LO 21-5",
+  "chapter": 21,
+  "title": "Apply tax effects to changes in accounting principle and error corrections",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 21-5",
+      "concept": "Initial recognition JE for FIFO→average-cost with DTA; subsequent measurement schedule of inventory temporary difference and DTA remeasurement; period-end DTA adjusting JE; multi-year repair-error PPA with tax receivable; settlement of tax refund",
+      "type": "multipart",
+      "company": "Millcreek Outdoor Gear LLC",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 21-5",
+      "concept": "Number-variant twin — average-cost→FIFO with DTL at 30%; multi-year temporary-difference / DTL subsequent measurement schedule; period-end DTL adjusting JE; multi-year depreciation understatement PPA with tax receivable; RE rollforward",
+      "type": "multipart",
+      "company": "Riverbend Merchandising Corp.",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 21-5",
+      "concept": "LIFO→FIFO initial recognition with Income Tax Payable (conformity); multi-year LIFO/FIFO inventory difference subsequent measurement schedule; books-only prepaid error removing DTL; settlement of LIFO-related tax payable",
+      "type": "multipart",
+      "company": "Stoneharbor Industrial Supply Inc.",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 21-5",
+      "concept": "Classification — DTA for books-only inventory principle change; Income Tax Payable when error overstated expenses equally for book and tax",
+      "type": "MC",
+      "company": null,
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_259.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_259.json"
+}

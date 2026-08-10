@@ -1,0 +1,73 @@
+{
+ "id": "agent_026#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "failed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 8,
+  "routed_stage2": 0,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "A: item 1 classification",
+   "solver": "taxable temporary"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "A: item 2 classification",
+   "solver": "deductible temporary"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "A: item 3 classification",
+   "solver": "taxable temporary"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "A: item 4 classification",
+   "solver": "permanent (nontaxable)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "A: item 5 classification",
+   "solver": "permanent (nondeductible)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "A: item 6 classification",
+   "solver": "taxable temporary"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "A: item 7 classification",
+   "solver": "deductible temporary"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "A: item 8 classification",
+   "solver": "permanent (nondeductible)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "A: item 9 classification",
+   "solver": "no book-tax difference"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "A: item 10 classification",
+   "solver": "deductible temporary"
+  },
+  {
+   "kind": "SOLVER_MISMATCH",
+   "label": "C: ending deferred tax asset",
+   "solver": 2750
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accrued Warranty Liability"
+  }
+ ]
+}

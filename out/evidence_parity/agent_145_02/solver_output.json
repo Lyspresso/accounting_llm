@@ -1,0 +1,273 @@
+{
+ "id": "agent_145#02",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to $0.01 each period; straight-line amortization = initial discount / 3 periods with the final period absorbing any rounding residual so the discount is fully amortized and carrying value equals face at maturity.",
+ "answers": [
+  {
+   "label": "a: Issuance JE \u2014 Cash debited (proceeds)",
+   "value": 95026
+  },
+  {
+   "label": "a: Issuance JE \u2014 Discount on Bonds Payable debited",
+   "value": 4974
+  },
+  {
+   "label": "a: Issuance JE \u2014 Bonds Payable credited (face)",
+   "value": 100000
+  },
+  {
+   "label": "b: Annual cash interest payment (8% x $100,000)",
+   "value": 8000
+  },
+  {
+   "label": "b: Straight-line discount amortization per year ($4,974 / 3)",
+   "value": 1658
+  },
+  {
+   "label": "b: Annual interest expense (cash interest + amortization)",
+   "value": 9658
+  },
+  {
+   "label": "b: Year 1 \u2014 beginning carrying value",
+   "value": 95026
+  },
+  {
+   "label": "b: Year 1 \u2014 cash interest paid",
+   "value": 8000
+  },
+  {
+   "label": "b: Year 1 \u2014 discount amortization",
+   "value": 1658
+  },
+  {
+   "label": "b: Year 1 \u2014 interest expense",
+   "value": 9658
+  },
+  {
+   "label": "b: Year 1 \u2014 unamortized discount at year-end",
+   "value": 3316
+  },
+  {
+   "label": "b: Year 1 \u2014 ending carrying value",
+   "value": 96684
+  },
+  {
+   "label": "b: Year 2 \u2014 beginning carrying value",
+   "value": 96684
+  },
+  {
+   "label": "b: Year 2 \u2014 cash interest paid",
+   "value": 8000
+  },
+  {
+   "label": "b: Year 2 \u2014 discount amortization",
+   "value": 1658
+  },
+  {
+   "label": "b: Year 2 \u2014 interest expense",
+   "value": 9658
+  },
+  {
+   "label": "b: Year 2 \u2014 unamortized discount at year-end",
+   "value": 1658
+  },
+  {
+   "label": "b: Year 2 \u2014 ending carrying value",
+   "value": 98342
+  },
+  {
+   "label": "b: Year 3 \u2014 beginning carrying value",
+   "value": 98342
+  },
+  {
+   "label": "b: Year 3 \u2014 cash interest paid",
+   "value": 8000
+  },
+  {
+   "label": "b: Year 3 \u2014 discount amortization",
+   "value": 1658
+  },
+  {
+   "label": "b: Year 3 \u2014 interest expense",
+   "value": 9658
+  },
+  {
+   "label": "b: Year 3 \u2014 unamortized discount at year-end",
+   "value": 0
+  },
+  {
+   "label": "b: Year 3 \u2014 ending carrying value",
+   "value": 100000
+  },
+  {
+   "label": "b: Total cash interest paid over 3 years",
+   "value": 24000
+  },
+  {
+   "label": "b: Total discount amortized over 3 years",
+   "value": 4974
+  },
+  {
+   "label": "b: Total interest expense over 3 years",
+   "value": 28974
+  },
+  {
+   "label": "c: Dec 31 Year 1 \u2014 interest expense debited",
+   "value": 9658
+  },
+  {
+   "label": "c: Dec 31 Year 1 \u2014 discount amortization credited",
+   "value": 1658
+  },
+  {
+   "label": "c: Dec 31 Year 1 \u2014 cash paid",
+   "value": 8000
+  },
+  {
+   "label": "c: Dec 31 Year 2 \u2014 interest expense debited",
+   "value": 9658
+  },
+  {
+   "label": "c: Dec 31 Year 2 \u2014 discount amortization credited",
+   "value": 1658
+  },
+  {
+   "label": "c: Dec 31 Year 2 \u2014 cash paid",
+   "value": 8000
+  },
+  {
+   "label": "d: Dec 31 Year 3 \u2014 final interest expense debited",
+   "value": 9658
+  },
+  {
+   "label": "d: Dec 31 Year 3 \u2014 final discount amortization credited",
+   "value": 1658
+  },
+  {
+   "label": "d: Dec 31 Year 3 \u2014 cash paid for interest",
+   "value": 8000
+  },
+  {
+   "label": "d: Dec 31 Year 3 \u2014 unamortized discount after final amortization",
+   "value": 0
+  },
+  {
+   "label": "d: Dec 31 Year 3 \u2014 carrying value at maturity (equals face)",
+   "value": 100000
+  },
+  {
+   "label": "d: Maturity settlement \u2014 Bonds Payable debited / Cash credited",
+   "value": 100000
+  },
+  {
+   "label": "e: Straight-line acceptable under ASC 835-30 only when results are not materially different from the effective interest method (effective interest is the required/preferred method; straight-line is permitted as a practical expedient when the difference is immaterial). Here $1,658 per year vs. effective-interest amounts differ immaterially, so straight-line is acceptable.",
+   "value": "Permitted only if not materially different from effective interest"
+  },
+  {
+   "label": "e: Reporting of unamortized discount \u2014 presented on the balance sheet as a direct deduction (contra-liability) from the face amount of Bonds Payable, not as an asset; the net carrying value is reported in long-term liabilities until the final year, when it becomes a current liability. Amortization is reported as part of interest expense on the income statement.",
+   "value": "Direct deduction from the face of Bonds Payable (contra-liability); net carrying value shown"
+  },
+  {
+   "label": "e: Year-end unamortized discount balances reported (Y1, Y2, Y3)",
+   "value": "3316, 1658, 0"
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 95026,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 4974,
+     "credit": 0
+    },
+    {
+     "account": "Bonds Payable",
+     "debit": 0,
+     "credit": 100000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 9658,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0,
+     "credit": 1658
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 8000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 9658,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0,
+     "credit": 1658
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 8000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 9658,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0,
+     "credit": 1658
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 8000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Bonds Payable",
+     "debit": 100000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 100000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "JE dates: part a = Jan 1 Year 1 issuance; part c JEs = Dec 31 Year 1 then Dec 31 Year 2; part d JEs = Dec 31 Year 3 final interest, then Dec 31 Year 3 maturity settlement of principal (the Year 3 interest and principal payments could also be shown as one combined $108,000 cash disbursement). Straight-line yields constant interest expense of $9,658 per year, unlike effective interest where expense rises with the carrying value; total 3-year expense ($28,974) is the same under both methods. Every amount derived from face $100,000, 8% coupon, $95,026 proceeds, 3 annual periods."
+}

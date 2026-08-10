@@ -1,0 +1,49 @@
+{
+  "id": "agent_150#02",
+  "rounding_convention": "decimal.Decimal throughout; exact closed-form PV factors at 50-digit working precision (Excel PV() equivalent, not 5-place table factors); each present value rounded once at the end to the nearest cent with ROUND_HALF_UP; classification tests applied to unrounded present values",
+  "answers": [
+    {
+      "label": "a: Case A - does the contract contain a lease?",
+      "value": "No lease - service contract"
+    },
+    {
+      "label": "b: Option 1 - PV of lease payments (6 yrs, $40,000 ordinary annuity @ 6% IBR)",
+      "value": 196692.97
+    },
+    {
+      "label": "b: Option 1 - classification",
+      "value": "Operating"
+    },
+    {
+      "label": "b: Option 2 - PV of lease payments (8 yrs, $40,000 ordinary annuity @ 6% IBR)",
+      "value": 248391.75
+    },
+    {
+      "label": "b: Option 2 - classification",
+      "value": "Finance"
+    },
+    {
+      "label": "b: Option 3 - PV of lease payments incl. purchase option (6 yrs, $42,000 ordinary annuity + $15,000 option @ 5.5% implicit)",
+      "value": 220690.96
+    },
+    {
+      "label": "b: Option 3 - classification",
+      "value": "Finance"
+    },
+    {
+      "label": "b: Option 4 - PV of lease payments (6 yrs, $45,000 annuity due @ 6% IBR)",
+      "value": 234556.37
+    },
+    {
+      "label": "b: Option 4 - classification",
+      "value": "Finance"
+    },
+    {
+      "label": "c: Case C - finance vs operating lessee expense presentation, Year 1",
+      "value": "Finance lease (Option 2): TWO expenses appear, reported separately - straight-line amortization expense on the right-of-use asset (an operating expense) plus interest expense on the lease liability computed by the effective-interest method (a non-operating/financing item). Because the liability balance is largest in Year 1, interest is largest in Year 1, so total Year 1 lease-related expense is front-loaded and declines over the term. Operating lease (the short warehouse lease, meeting none of the five criteria): ONE expense appears - a single straight-line lease expense (ASC 842-20-25-6), presented entirely within operating expenses with no separate interest line, and the same amount is recognized every year. Over the full term both leases expense the same total; only the timing and the number of income statement line items differ, so Year 1 expense is higher, and operating income and EBITDA presentation differ, under the finance lease."
+    }
+  ],
+  "journal_entries": [],
+  "insufficient_info": false,
+  "notes": "Case A: CloudRail's substitution right is substantive under ASC 842-10-15-10 - it can substitute from a large pool of identical servers (Redrock cannot prevent it) and it benefits economically by reallocating for its own cost savings. There is therefore no identified asset and Redrock cannot direct the use of one; Redrock buys processing capacity, an output, so the contract is a service contract, not a lease. Case B thresholds: 75% x 10-year economic life = 7.5 years; 90% x $250,000 fair value = $225,000. Option 1 meets no criterion (6 yrs = 60% of life; PV below $225,000) so it is operating. Option 2 meets the term criterion (8 yrs = 80% of life) and its PV also exceeds $225,000. Option 3 is finance solely on the purchase-option criterion ($15,000 exercise price vs. $55,000 expected fair value, reasonably certain to exercise); its term (60%) and PV (88.3% of fair value) both fail, which is why the PV is shown. Option 3 discounts at the known 5.5% implicit rate rather than the IBR, and includes the $15,000 option price as a lease payment. Option 4 is finance solely on the PV criterion - payments at the BEGINNING of each year make it an annuity due, and the PV reaches 93.8% of fair value; discounted as an ordinary annuity it would have failed, so the timing of payment is the deciding fact. No option transfers ownership and none involves a specialized asset with no alternative use. No journal entries were required by any part."
+}

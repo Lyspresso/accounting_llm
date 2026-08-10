@@ -1,0 +1,75 @@
+{
+  "agent_id": 274,
+  "lo": "LO 16-2",
+  "chapter": 16,
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "title": "The issue price of bonds depends on the relation between the market and stated rates",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-2",
+      "concept": "Bond issue price from market vs stated rates; initial recognition; effective-interest schedule; period-end adjusting JE when year-end falls between interest dates; maturity settlement; BS presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-2",
+      "concept": "Number-variant twin: recompute issue price when market > stated; effective-interest schedule; monthly period-end adjusting JE; interest payment and maturity settlement; net presentation",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-2",
+      "concept": "Premium when market < stated; effective-interest premium amortization; period-end adjusting JE for a premium bond; bonds issued between interest dates; classification of net carrying amount",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-2",
+      "concept": "Classification of bond issuance outcome from market vs stated rate relationship",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-2",
+      "concept": "Structure of the period-end adjusting JE when fiscal year-end falls between interest dates (discount bond)",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

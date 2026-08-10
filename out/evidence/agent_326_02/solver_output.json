@@ -1,0 +1,103 @@
+{
+  "id": "agent_326#02",
+  "rounding_convention": "Decimal only, no floats. Money quantized to cents with ROUND_HALF_UP at each reported figure. Cost ratio carried as an exact Decimal quotient when converting retail to cost; ratios reported as percentages rounded to 2 dp ROUND_HALF_UP. Conventional ratio = markups in / markdowns out; markdowns deducted below the ratio.",
+  "answers": [
+    {
+      "label": "a: cost ratio, conventional retail (percent)",
+      "value": 50
+    },
+    {
+      "label": "a: estimated ending inventory at retail (before physical count)",
+      "value": 80000
+    },
+    {
+      "label": "a: estimated ending inventory at cost (before physical count)",
+      "value": 40000
+    },
+    {
+      "label": "b: average cost retail cost ratio if net markdowns included in denominator (percent)",
+      "value": 53.49
+    },
+    {
+      "label": "d: shrinkage at retail",
+      "value": 6000
+    },
+    {
+      "label": "d: shrinkage at cost",
+      "value": 3000
+    },
+    {
+      "label": "e: ending inventory reported on the balance sheet after settlement",
+      "value": 37000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "c1",
+      "lines": [
+        {
+          "account": "Loss from Abnormal Casualty (Theft)",
+          "debit": 20000,
+          "credit": 0
+        },
+        {
+          "account": "Purchases",
+          "debit": 0,
+          "credit": 20000
+        }
+      ]
+    },
+    {
+      "part": "c2",
+      "lines": [
+        {
+          "account": "Inventory (ending, 12/31/Yr 1 \u2014 estimated)",
+          "debit": 40000,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 190000,
+          "credit": 0
+        },
+        {
+          "account": "Purchase Returns",
+          "debit": 10000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory (beginning, 1/1/Yr 1)",
+          "debit": 0,
+          "credit": 50000
+        },
+        {
+          "account": "Purchases",
+          "debit": 0,
+          "credit": 180000
+        },
+        {
+          "account": "Freight-In",
+          "debit": 0,
+          "credit": 10000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold (inventory shrinkage)",
+          "debit": 3000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 0,
+          "credit": 3000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Conventional retail per Demo 10-8C: freight-in added to cost only; purchase returns deducted from both columns; abnormal casualty removed from both columns before the ratio; sales returns (goods restored) netted against gross sales; employee discounts, normal spoilage and net markdowns deducted in the retail column below the ratio. Part (c2) closes the Purchases balance net of the casualty credit from (c1)."
+}

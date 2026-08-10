@@ -1,0 +1,60 @@
+{
+  "agent_id": 372,
+  "lo": "LO 19-5",
+  "chapter": 19,
+  "title": "Record dividend distributions, including cash, property, and liquidating",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-5",
+      "concept": "Initial recognition JEs for cash, property, and liquidating dividends; preferred allocation schedule; settlement (payment/distribution)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-5",
+      "concept": "Number-variant twin — preferred allocation, property at FV with loss, liquidating split, settlement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-5",
+      "concept": "Period-end adjusting recognition of declared dividends; RE rollforward; year-end liability presentation; January settlement",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-5",
+      "concept": "Classification — timing of dividend entries (declaration vs record); liquidating vs earnings distribution; year-end liability presentation",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

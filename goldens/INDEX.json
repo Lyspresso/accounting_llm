@@ -1,0 +1,60 @@
+{
+ "count": 28,
+ "by_tier": {
+  "adjudicated": 8,
+  "ai_cross_checked": 20
+ },
+ "rules_guarded": {
+  "latex_number_extraction": [
+   "agent_019#00",
+   "agent_032#01"
+  ],
+  "header_driven_je_extraction": [
+   "agent_285#00"
+  ],
+  "rounding_context_scope": [
+   "agent_151#01",
+   "agent_283#02",
+   "agent_043#00"
+  ],
+  "key_silent_derived": [
+   "agent_150#02",
+   "agent_052#01"
+  ],
+  "je_aggregation_equivalence": [
+   "agent_002#03"
+  ],
+  "stem_ambiguity": [
+   "agent_303#02"
+  ],
+  "reporting_volume_invariance": [
+   "agent_053#01"
+  ],
+  "percent_fraction_units": [
+   "agent_107#02"
+  ],
+  "solver_context_symmetry": [
+   "agent_204#02"
+  ],
+  "prose_null_zero": [
+   "agent_333#02",
+   "agent_268#00"
+  ],
+  "key_completeness_vs_required": [
+   "agent_130#00"
+  ],
+  "corroboration_not_waving_through": [
+   "agent_295#02",
+   "agent_119#00",
+   "agent_254#00",
+   "agent_381#02",
+   "agent_229#00",
+   "agent_392#00",
+   "agent_219#05",
+   "agent_279#01",
+   "agent_135#01",
+   "agent_016#00",
+   "agent_183#01"
+  ]
+ }
+}

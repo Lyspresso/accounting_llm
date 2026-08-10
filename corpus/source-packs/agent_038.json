@@ -1,0 +1,61 @@
+{
+  "agent_id": 38,
+  "lo": "LO 22-7",
+  "chapter": 22,
+  "title": "Prepare the operating cash flow section of the statement of cash flows using the direct method",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-7",
+      "concept": "Prepare operating cash flows under the direct method from income statement and comparative working-capital balances",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-7",
+      "concept": "Number-variant twin — convert full income statement to direct-method operating cash flows (discount bonds; inventory decrease)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-7",
+      "concept": "Cash paid for interest under the direct method; amortization schedule; classification of settlement and required major cash-flow classes",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-7",
+      "concept": "Classification of items under the direct-method operating section vs noncash reconciling items",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

@@ -1,0 +1,233 @@
+[
+ {
+  "id": "agent_134#01",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_134_01",
+  "ch": 14,
+  "n": 1,
+  "labels": [
+   "d: IS Yr 1 - Net effect on income from t"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_134_01",
+  "stem": "### Q2 \u2014 CORE number variant twin\n**LO:** LO 14-2  \n**Concept:** number_variant_twin \u2014 same TS FV-NI path with all new amounts  \n**Scenario:**  \nOn **January 1 of Year 1**, **Harborpeak Capital LLC** purchased for **par $40,000** of **Redwood Corp. 6%** bonds that mature on December 31 of Year 8. Cash interest is paid **annually** each December 31. Harborpeak classifies the bonds as **trading securities (TS)** under **FV-NI**. Year-end is December 31. Beginning FVA\u2014TS is zero. No other TS activity except as stated.\n\n| Date | Fair value / activity |\n|---|---|\n| Dec 31, Year 1 | Fair value **$38,500** |\n| Dec 31, Year 2 | Still held; fair value **$41,200** |\n| Jan 1, Year 3 | Sold entire holding for **$41,000** |\n\n**Required:**  \n(a) Purchase entry on January 1 of Year 1.  \n(b) Cash interest entry on December 31 of Year 1.  \n(c) Fair value adjustment on December 31 of Year 1 (include FVA schedule).  \n(d) Year 1 BS / IS presentation for this investment.  \n(e) December 31, Year 2 FVA rollforward schedule and adjusting entry.  \n(f) January 1, Year 3 sale: (i) sale-date FV-NI adjust; (ii) sale eliminating FVA.  \n(g) Holding-period unrealized G/L schedule proving cumulative NI = proceeds \u2212 cost.\n"
+ },
+ {
+  "id": "agent_002#03",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_002_03",
+  "ch": 14,
+  "n": 1,
+  "labels": [
+   "b: Effect of the transfer on net income"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_002_03",
+  "stem": "### Q4 \u2014 CORE \u2014 HTM \u2192 AFS transfer and subsequent AFS period-end adjustment\n**LO:** LO 14-10  \n**Concept:** HTM \u2192 AFS transfer at fair value through OCI (no NI); subsequent AFS FVA period-end JE  \n**Scenario:**  \nLakeshore Mutual Fund holds the following **HTM** portfolio at **December 31, Year 3**. All bonds were purchased at **par**.\n\n| Security | Amortized cost | Fair value (Dec 31, Y3) | Unrealized gain (loss) |\n|---|---:|---:|---:|\n| Quill Corp. bonds | $90,000 | $96,300 | $6,300 |\n| Dune Partners bonds | 60,000 | 55,800 | (4,200) |\n| **Total** | **$150,000** | **$152,100** | **$2,100** |\n\nOn **January 1, Year 4**, because of a significant deterioration in the issuers\u2019 credit standings, Lakeshore changes intent and **transfers both securities from HTM to AFS**. Fair values on the transfer date equal the December 31, Year 3 amounts above.\n\nAt **December 31, Year 4**, fair values are: Quill **$94,000**; Dune **$57,000**. Lakeshore adjusts AFS securities to fair value at year-end through OCI.\n\n**Required:**  \na. Record the **January 1, Year 4** transfer entries (reclassify HTM \u2192 AFS and recognize transfer-date FV through OCI).  \nb. State the transfer-date effect on NI and OCI.  \nc. Record the **December 31, Year 4** AFS fair-value adjusting entry.  \nd. Briefly state what footnote disclosure should accompany a transfer of this type.\n"
+ },
+ {
+  "id": "agent_270#00",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_270_00",
+  "ch": 14,
+  "n": 2,
+  "labels": [
+   "d: Year 1 total pre-tax income effect",
+   "f: Reconciliation - Year 2 net gain/(los"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_270_00",
+  "stem": "### Q1 \u2014 CORE \u2014 Between-interest TS purchase, period-end FVA (emphasis), sale vs AC, year-end FVA cleanup\n\n**LO:** LO 14-7  \n**Concept:** Initial recognition of trading debt securities; cash interest; **period-end-only** FV-NI adjusting JE (emphasis); disposal with realized G/L vs amortized cost; subsequent period-end FVA elimination  \n**Scenario:**  \n**Larkspur Trading Partners** (calendar year) buys debt for short-term price appreciation and classifies it as **trading securities (TS)** measured at **FV-NI**. Per company policy (Appendix 14A / LO 14-7), Larkspur records **Fair Value Adjustment (FVA)** entries **only at each December 31 period-end**\u2014never on sale dates.\n\n**Facts:**\n1. On **November 1, Year 1**, Larkspur purchases **at par** **$60,000** face of **Cascade Biologics** **9%** bonds (bonds dated **July 1, Year 1**; mature **June 30, Year 7**). Cash interest is paid **semiannually on June 30 and December 31**. No brokerage fees.\n2. Fair value of the Cascade bonds on **December 31, Year 1** is **$57,000**.\n3. On **March 15, Year 2**, Larkspur sells the entire holding for **$57,600** cash (clean price; ignore any March accrued-interest complexity beyond the facts given).\n4. After the sale, Larkspur holds **no other TS**. It next adjusts FVA only on **December 31, Year 2**.\n\n**Required:**  \na. Prepare the **November 1, Year 1 initial recognition JE** (include accrued interest paid to seller).  \nb. Prepare the **December 31, Year 1** cash interest receipt JE.  \nc. Prepare a **period-end FVA worksheet** and the **December 31, Year 1 period-end adjusting JE** (emphasis).  \nd. Show **Year 1 balance-sheet carrying amount** and **income-statement** effects (interest + unrealized G/L).  \ne. Prepare the **March 15, Year 2 disposal JE** under LO 14-7 (realized G/L vs amortized cost; **do not** adjust FVA at sale).  \nf. Prepare the **December 31, Year 2 period-end adjusting JE** that eliminates leftover FVA, and a **holding-period G/L reconciliation** schedule.\n"
+ },
+ {
+  "id": "agent_143#01",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_143_01",
+  "ch": 16,
+  "n": 2,
+  "labels": [
+   "a: PV annuity factor, 8 periods @ 4% (su",
+   "a: PV of $1 factor, 8 periods @ 4% (supp"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_143_01",
+  "stem": "### Q2 \u2014 CORE number variant \u2014 Discount bond twin (issue, full schedule, interest, maturity, presentation)\n**LO:** LO 16-2  \n**Concept:** Number-variant twin: recompute issue price when market > stated; effective-interest subsequent measurement schedule; interest JEs; maturity settlement; net presentation  \n**Scenario:**  \n**Cascade Peak Logistics Inc.** issues **$250,000** face of **6%** bonds on **January 1, Year 1**. Bonds mature **December 31, Year 4** (4 years), pay interest **semiannually** on June 30 and December 31, and were priced to yield a **market rate of 8%**. Cascade uses the **effective interest method** (round to nearest dollar; plug residual amort in the final period).\n\n**Required:**  \na. Compute the **issue price** and prepare the **initial recognition JE**.  \nb. Prepare the **full effective-interest amortization schedule** (8 periods).  \nc. Prepare the **June 30, Year 1** and **December 31, Year 1** interest + amortization JEs.  \nd. Report **bonds payable, net** and **Year 1 interest expense** at December 31, Year 1.  \ne. Prepare the **maturity** entries on December 31, Year 4 (final interest + principal repayment; no prior Interest Payable).\n"
+ },
+ {
+  "id": "agent_214#02",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_214_02",
+  "ch": 12,
+  "n": 3,
+  "labels": [
+   "c: Year 5 accumulated depreciation since",
+   "c: Year 6 accumulated depreciation since",
+   "c: Year 7 accumulated depreciation since"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_214_02",
+  "stem": "### Q3 \u2014 CORE alternate angle \u2014 multi-asset recoverability screen + year-end impairment + post-write-down schedule\n**LO:** LO 12-7  \n**Concept:** Period-end multi-asset recoverability (pass vs fail); combined impairment JE only for failed assets; **subsequent measurement schedule** with nonzero residual on the written-down asset  \n**Scenario:**  \nAt **December 31, Year 3**, **Redwood Circuits LLC** identifies impairment indicators for three plant assets **currently used in operations**. Management provides:\n\n| Asset | Cost | Accumulated depreciation | Recoverable cost (undiscounted) | Fair value |\n|---|---:|---:|---:|---:|\n| A \u2014 Precision press | $400,000 | $100,000 | $350,000 | $280,000 |\n| B \u2014 Curing oven | $700,000 | $200,000 | $420,000 | $310,000 |\n| C \u2014 Assembly conveyor | $900,000 | $150,000 | $750,000 | $600,000 |\n\nAfter any required write-down, Asset B will be used **5 more years** with a revised residual of **$10,000** (straight-line). Assets A and C continue under their pre-existing policies (no change requested here).\n\n**Required:**  \na. For each asset, compute carrying amount, apply the **recoverability test**, and state any **impairment loss**. Assume indicators are present for all three.  \nb. Record a **single December 31, Year 3** journal entry for all impairment losses required (if any).  \nc. For **Asset B only**, prepare the **subsequent measurement schedule** of depreciation for the five years after the write-down (Years 4\u20138). Record the December 31, Year 4 depreciation entry for Asset B.  \nd. Briefly explain why an asset with fair value **below** carrying amount might still have **no** impairment loss.\n"
+ },
+ {
+  "id": "agent_248#01",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_248_01",
+  "ch": 20,
+  "n": 1,
+  "labels": [
+   "b: Plan N purchase price per share (95% "
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_248_01",
+  "stem": "### Q2 \u2014 CORE number variant \u2014 ESPP twin (all numbers changed)\n**LO:** LO 20-3  \n**Concept:** Number-variant twin: subsequent measurement liability schedule; initial recognition of noncompensatory and compensatory ESPP issuances; period-end withholding; settlement JE; total compensation expense  \n**Scenario:**  \n**Silverbrook Medical Devices Inc.** (calendar-year) has **$2 par** common stock and two ESPP arrangements.\n\n**Plan N (noncompensatory design):** Substantially all eligible employees may participate equitably; purchase price = **95% of market** on the purchase date; refunds of withholdings allowed if participation is canceled before purchase; enrollment window after price is fixed does not exceed 31 days.\n\n**Plan C (compensatory design):** Only designated high performers may participate; purchase price = **90% of market** on the purchase date.\n\n**Cash purchases on September 30, Year 1** (market price **$48**):  \n- Plan N: employees buy **3,000 shares** for cash.  \n- Plan C: employees buy **2,000 shares** for cash.\n\n**Payroll-funded Plan N cohort (January 1 \u2013 June 30, Year 1 offering):**  \nMonthly withholdings **$11,400** for six months credited to Liability\u2014ESPP. On June 30, market price is **$40**; Plan N price = 95% of market. Whole shares only; exact fit. No cancellations.\n\n**Required:**  \na. Classify Plan N and Plan C.  \nb. Prepare the **September 30 Plan N** initial recognition JE.  \nc. Prepare the **September 30 Plan C** initial recognition JE.  \nd. Prepare the **six-month Liability\u2014ESPP accumulation schedule** and compute shares issued at June 30.  \ne. Prepare the **representative January 31 period-end withholding JE** and the **June 30 settlement JE** for the payroll cohort.  \nf. Compute **total compensation expense** recognized in Year 1 from these ESPP transactions (cash purchases + payroll cohort).\n"
+ },
+ {
+  "id": "agent_032#01",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_032_01",
+  "ch": 18,
+  "n": 1,
+  "labels": [
+   "a: Valuation allowance at 12/31/Y1 (full"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_032_01",
+  "stem": "### Q2 \u2014 CORE number variant \u2014 Harborline Ceramics: NOL carryforward twin\n**LO:** LO 18-7  \n**Concept:** NOL carryforward initial recognition and Year-2 utilization with valuation allowance (number-variant twin of Q1)  \n**Scenario:**  \n**Harborline Ceramics LLC** reports a tax operating loss of **$(120,000)** in Year 1. Enacted tax rate is **25%** for all years. No temporary differences other than the NOL carryforward. Carryforward only (no carryback); **80%** utilization limit applies. At December 31, Year 1, realization of the full DTA is **more likely than not**. In Year 2, actual taxable income is **$30,000**. At December 31, Year 2 (after utilization), management concludes it is MLTN that **only 75%** of the remaining DTA will be realized (VA beginning balance $0).\n\n**Required:**  \n(a) Compute DTA at 12/31/Y1 and record the initial recognition JE.  \n(b) Show Year 1 partial IS (operating loss, tax benefit, net loss).  \n(c) Record the Year 2 income tax JE (utilization + payable).  \n(d) Record the Year 2 valuation allowance JE. State net DTA reported.\n"
+ },
+ {
+  "id": "agent_303#02",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_303_02",
+  "ch": 8,
+  "n": 8,
+  "labels": [
+   "c: Year-end adjusting entry - Sales Retu",
+   "c: Year-end adjusting entry - Inventory-",
+   "d: Refund Liability rollforward - actual"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_303_02",
+  "stem": "### Q3 \u2014 CORE alternate angle \u2014 Silverbrook Home Appliances: subsequent-year true-up, schedule, settlement\n\n**LO:** LO 8-3  \n**Concept:** subsequent_measurement_schedule; **period_end_adjusting_JE** (emphasis); disposal_maturity_or_settlement_JE; classification/presentation  \n**Scenario:**  \n**Silverbrook Home Appliances LLC** grants a 45-day return privilege. Cost of merchandise is **60%** of selling price. Silverbrook records **all actual returns during the year as if they arise from the current year** (debit Sales Returns), then adjusts Refund Liability at year-end so the **ending** balance equals estimated returns on **current-year** sales still expected next period. (This is the subsequent-period approach in Review 8-3.)\n\n**January 1, Year 2 balances:**\n\n| Account | Balance |\n|---|---:|\n| Refund Liability | **$11,500** |\n| Inventory\u2014Estimated Returns | **$6,900** |\n\n**Year 2 activity:**\n\n| Item | Amount |\n|------|--------:|\n| Credit sales | **$550,000** |\n| COGS (60%) | **$330,000** |\n| Actual returns (cash refunds), recorded as current-year Sales Returns | **$19,800** |\n| Sales allowances on account | **$1,650** |\n| Year-end estimate of returns related to Year 2 sales | **4.5%** of Year 2 credit sales |\n\nAssume actual return rates are reasonably consistent with management\u2019s estimates on average.\n\n**Required:**  \n(a) Record Year 2 sales and COGS.  \n(b) Record actual returns (both sides) and sales allowances.  \n(c) Compute the **target ending Refund Liability** and the year-end **period-end adjusting entries** for estimated returns (sales-side and cost-side) \u2014 **emphasis**.  \n(d) Prepare a full **Refund Liability rollforward schedule** from beginning to ending balance. Also roll forward Inventory\u2014Estimated Returns and confirm ending Inv\u2014Est Returns = ending Refund Liability \u00d7 60%.  \n(e) **Settlement alternate:** Suppose instead that on **January 18, Year 2**, Silverbrook identifies **$7,200** of cash returns (cost **$4,320**) as returns of Year 1 sales that had already been accrued in Refund Liability / Inventory\u2014Estimated Returns. Record the **settlement** entries that reduce the liability and the estimated-returns asset (do **not** debit Sales Returns for this portion).  \n(f) Report Net Sales for Year 2 under the main (Review 8-3) method in parts (a)\u2013(d), and state balance-sheet presentation of the two estimated-return accounts.\n"
+ },
+ {
+  "id": "agent_043#00",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_043_00",
+  "ch": 8,
+  "n": 3,
+  "labels": [
+   "d: Carrying amount Dec 31 Yr2",
+   "d: Carrying amount Dec 31 Yr3",
+   "e: Less unamortized Discount on Note Rec"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_043_00",
+  "stem": "### Q1 \u2014 CORE \u2014 Cascade Outfitters: zero-interest NR for inventory (initial JE, schedule, YE accruals, maturity)\n**LO:** LO 8-5  \n**Concept:** Initial recognition of 0% stated / 10% market noncurrent NR for inventory; effective-interest amortization; interim YE allocation; face settlement  \n**Scenario:**  \nOn **June 30, Year 1**, **Cascade Outfitters Co.** sells inventory with a clearly determinable fair value of **$11,269** and receives in exchange a **three-year, noninterest-bearing** note with face (stated) value of **$15,000**. Principal is due in a single payment on **June 30, Year 4**. There are **no** periodic cash interest receipts (stated rate = **0%**). The market rate for notes of similar risk is **10%**. Ignore cost of goods sold.\n\nThe present value of the note equals the fair value of the inventory exchanged:\n\n\\[\nPV = \\frac{15{,}000}{(1.10)^{3}} = \\mathbf{\\$11{,}269}\n\\]\n\n(Excel-equivalent: `PV(0.10,3,0,15000)` absolute value; or `RATE(3,0,-11269,15000)` confirms **10%**.)\n\n**Required:**  \n(a) Record the **June 30, Year 1** journal entry for receipt of the note (initial recognition). Compute the initial **Discount on Note Receivable**.  \n(b) Prepare the **effective-interest amortization schedule** for the full term (cash interest, interest revenue, discount amortization, carrying amount).  \n(c) Assume Cascade has a **June 30** fiscal year-end (note anniversary). Record all **interest accrual** entries on June 30 of Years 2, 3, and 4, and the **settlement** entry on June 30, Year 4 when face is collected.  \n(d) Assume instead Cascade has a **December 31** year-end. The initial recognition and final cash collection entries are unchanged. Allocate the amortization schedule into reporting periods and record interest accruals on **December 31 of Years 1, 2, and 3** and on **June 30, Year 4**. Verify total interest revenue equals the original discount.  \n(e) Briefly state how the note is **presented** on the December 31, Year 1 balance sheet (current vs noncurrent).\n"
+ },
+ {
+  "id": "agent_053#01",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_053_01",
+  "ch": 9,
+  "n": 1,
+  "labels": [
+   "a: Year 1 \u2014 allowance beginning balance"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_053_01",
+  "stem": "### Q2 \u2014 CORE number variant \u2014 Northfork Merchandising: LIFO reserve twin\n**LO:** LO 9-6  \n**Concept:** Number-variant twin \u2014 create LIFO reserve, multi-year \u0394-reserve schedule, period-end JEs, and BS net presentation  \n**Scenario:**  \n**Northfork Merchandising LLC** uses **average cost** for internal records and converts to **LIFO** at year-end for external reporting. Year 1 is the first year of operations. Adjustments are recognized **in the accounts**.\n\n| Date | Ending inventory at average cost | Ending inventory at LIFO |\n|---|---:|---:|\n| Dec 31, Year 1 | $90,000 | $55,000 |\n| Dec 31, Year 2 | 105,000 | 62,000 |\n| Dec 31, Year 3 | 98,000 | 70,000 |\n\n**Required:**  \na. Compute LIFO reserve each year and \u0394 reserve; prepare the measurement schedule.  \nb. Journal entry December 31, Year 1 (create allowance).  \nc. Journal entries December 31, Year 2 and Year 3.  \nd. Show Inventory on the Dec 31, Year 3 balance sheet (gross internal method, allowance, net LIFO).  \ne. Compute cumulative effect on COGS over Years 1\u20133 from LIFO reserve entries (net Dr or Cr to COGS).\n"
+ },
+ {
+  "id": "agent_333#02",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_333_02",
+  "ch": 11,
+  "n": 2,
+  "labels": [
+   "e: New machine snapshot Dec 31, 20X7 \u2014 r",
+   "e: New machine snapshot Dec 31, 20X7 \u2014 r"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_333_02",
+  "stem": "### Q3 \u2014 CORE alternate angle \u2014 Life extension (reduction of accum. dep. vs capitalization); no advance accrual; machine replacement with disposal-date dep. update\n\n**LO:** LO 11-6  \n**Concept:** **Period-end adjusting JE emphasis** after life-extending electrical upgrade (reduction of accumulated depreciation method vs capitalization alternative); prohibition on accruing planned major maintenance; equipment substitution with partial-period dep. update through disposal date  \n**Scenario:**  \n**Northline Processors Corp.** (calendar year-end) has the following PPE at **January 1, 20X7**:\n\n**Building**\n\n| Item | Amount |\n|---|---:|\n| Cost | $2,400,000 |\n| Accumulated depreciation | 960,000 |\n| Book value | 1,440,000 |\n| Remaining useful life | 12 years |\n| Residual | $0 |\n| Pre-change annual depreciation | $120,000 |\n\n**Production machine (separate asset)**\n\n| Item | Amount |\n|---|---:|\n| Cost | $84,000 |\n| Accumulated depreciation | 60,000 |\n| Book value | 24,000 |\n| Remaining useful life | 2 years |\n| Residual | $0 |\n| Annual depreciation | $12,000 |\n\nEvents in **20X7**:\n\n1. In **January**, management budgets **$180,000** for a planned major maintenance overhaul of the building in August.  \n2. **August 1** \u2014 Completes an **electrical system modernization** that **extends the useful life of the building by 4 years**. Cost **$192,000** cash. Old electrical component costs are **not** separately tracked. Improved quality is **not** the primary result (life extension is). Northline uses the **reduction of accumulated depreciation** method.  \n   - *Simplifying assumption for annual reporting:* after recording the August 1 expenditure, Northline computes **full-year** revised building depreciation for 20X7 based on post-expenditure book value and the new remaining life (12 + 4 = **16 years**).  \n3. **August 1** \u2014 Replaces the production machine:  \n   - Update depreciation on the old machine through August 1 (7/12 of annual).  \n   - Sell the old machine for **$2,000** cash.  \n   - Purchase a new machine for **$96,000** cash; residual **$0**; useful life **8 years**.  \n4. **December 31** \u2014 Record period-end depreciation on the building and on the new machine.\n\n**Required:**  \n(a) Is any journal entry required in January (or before the overhaul begins) for the **planned major maintenance** budget? Explain.  \n(b) Record the **August 1** entry for the electrical modernization under the **reduction of accumulated depreciation** method. Compute **revised full-year 20X7 building depreciation** and the **December 31 period-end adjusting JE** for the building.  \n(c) **Alternative presentation:** if Northline instead used the **capitalization** method for the electrical upgrade, prepare that August 1 entry and show that **20X7 depreciation expense is the same** (same post-expenditure BV and life). Contrast balance-sheet presentation (gross cost vs accum. dep.).  \n(d) Record all **August 1 machine** entries: update dep. through disposal, dispose of old machine, capitalize new machine.  \n(e) Record the **December 31 period-end adjusting JE** for depreciation of the **new machine**. Prepare a brief subsequent measurement snapshot of the new machine at Dec. 31, 20X7.  \n(f) Prepare a **building subsequent measurement schedule** for 20X7 under the reduction-of-accum.-dep. method (from Jan. 1 through Dec. 31 after period-end dep.).\n"
+ },
+ {
+  "id": "agent_336#00",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_336_00",
+  "ch": 11,
+  "n": 1,
+  "labels": [
+   "b: Press monthly straight-line depreciat"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_336_00",
+  "stem": "### Q1 \u2014 CORE \u2014 Meridian Fabrication: initial recognition, dep schedule, period-end dep update (emphasis), commercial-substance exchange with loss + cash paid, subsequent dep, later disposal\n\n**LO:** LO 11-9  \n**Concept:** Full lifecycle for a **nonmonetary exchange with commercial substance** (here a **loss** after residual-aware SL dep) \u2014 initial recognition, subsequent measurement schedule, **period-end adjusting JE** to update AD through exchange date (emphasis), exchange JE, subsequent dep on new asset, later disposal  \n**Scenario:**  \n**Meridian Fabrication Co.** (calendar year) acquired a hydraulic press on **January 1, 20X1** for **$90,000** cash. The press has an estimated residual value of **$9,000** and a **6-year** useful life. Meridian uses **straight-line** depreciation and records depreciation to the nearest month.\n\nOn **September 30, 20X4**, Meridian exchanges the press (fair value **$38,000**) plus **$25,000** cash for a used CNC mill. The fair value of the mill is not more clearly determinable than the fair value of the press. The exchange **has commercial substance**. The mill is placed in service on **October 1, 20X4**, residual value **$3,000**, useful life **5 years**, straight-line.\n\nOn **June 30, 20X7**, Meridian sells the CNC mill for **$28,000** cash. Depreciation is updated through the disposal date.\n\n**Required:**  \n(a) Record the **January 1, 20X1 initial recognition** of the hydraulic press.  \n(b) Prepare a **subsequent measurement (depreciation) schedule** for the press from acquisition through the exchange date (show annual and partial-year amounts and cumulative AD).  \n(c) **(Emphasis)** Record the **September 30, 20X4 period-end / pre-exchange adjusting JE** updating depreciation on the press through the exchange date.  \n(d) Compute book value of the press at September 30, 20X4, the **gain or loss** on exchange, and the **cost assigned to the CNC mill**. Record the **exchange JE**. Prove Dr = Cr.  \n(e) Prepare a **subsequent measurement schedule** for the CNC mill from October 1, 20X4 through June 30, 20X7. Record **December 31, 20X4** and **June 30, 20X7** depreciation adjusting entries.  \n(f) Record the **June 30, 20X7 disposal JE**. Compute gain or loss. Prove Dr = Cr.\n"
+ },
+ {
+  "id": "agent_204#02",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_204_02",
+  "ch": 11,
+  "n": 15,
+  "labels": [
+   "b: Full-year straight-line depreciation",
+   "b: Year 1 depreciation expense",
+   "b: Year 1 year-end accumulated depreciat"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_204_02",
+  "stem": "### Q3 \u2014 CORE alternate angle \u2014 equipment donation mid-year; partial-year schedule; scrap disposal\n**LO:** LO 11-8  \n**Concept:** Contributed equipment at FV; partial-year depreciation schedule; period-end adjusting JEs; disposal at scrap value  \n**Scenario:**  \nOn **April 1, Year 1**, a nonprofit foundation unconditionally donated specialized packaging equipment to **Cedar Ridge Bottling LLC**. Reliable fair value of the equipment is **$180,000**. Cedar Ridge paid **$3,000 cash** for legal title transfer. The foundation received nothing of equivalent value.  \n\nEquipment: estimated life **6 years**, residual value **$12,000**, **straight-line**, calendar year-end. Depreciation is taken for the **fraction of the year held**.  \n\nOn **December 31, Year 3**, after recording Year 3 depreciation, Cedar Ridge **scrapped** the equipment and received **$9,500 cash** from a salvage dealer.\n\n**Required:**  \na. Record the April 1, Year 1 contribution JE.  \nb. Prepare a **subsequent measurement schedule** for Years 1\u20133 showing annual depreciation expense, year-end accum. dep., and year-end NBV (use months held for Year 1).  \nc. Record the **December 31, Year 1** and **December 31, Year 2** period-end depreciation adjusting entries.  \nd. Record the **December 31, Year 3** depreciation adjusting entry and the **scrap disposal** entry (two entries).\n"
+ },
+ {
+  "id": "agent_086#01",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_086_01",
+  "ch": 13,
+  "n": 3,
+  "labels": [
+   "c: Patent original cost - Year 1 amortiz",
+   "c: Patent defense costs - full-year amor",
+   "c: Patent defense costs - Year 1 amortiz"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_086_01",
+  "stem": "### Q2 \u2014 CORE number variant \u2014 Classification + initial recognition twin\n**LO:** LO 13-1  \n**Concept:** Number-variant twin: classify items; initial recognition JEs; amortization schedule; period-end adjusting JE  \n**Scenario:**  \n**Cedarline Robotics** (calendar year) has the following **Year 1** activity. Finite-life assets acquired **January 1**; residual values zero.\n\n| # | Intangible item / transaction | Amount / terms |\n|---|---|---|\n| 1 | Cash purchase of a **copyright** (printing rights); useful life **12 years** (legal life much longer) | **$72,000** |\n| 2 | Cash purchase of a **franchise**; renewable annually, management expects renewals **indefinitely** with no foreseeable limit | **$110,000** |\n| 3 | Cash purchase of a **patent**; remaining legal life 14 years; **useful life 7 years** | **$56,000** |\n| 4 | **External counsel fees** to successfully **register** an internally developed **trade name** expected to be renewed indefinitely | **$8,400** (April 1) |\n| 5 | **Internal engineer salaries** and lab supplies creating an invention later patented | **$145,000** |\n| 6 | Acquisition of a competitor: cash paid **$1,250,000**; FV of **identifiable net assets** **$980,000** | Residual = goodwill |\n| 7 | **External legal fees** to **successfully defend** the purchased patent (added to patent cost on **July 1**) | **$11,200** |\n| 8 | **Two-year municipal license** paid in cash January 1 | **$24,000** |\n\n**Required:**  \na. Classify each item as finite-life IA, indefinite-life IA (not goodwill), goodwill, or expense. For item 7, state the effect on the patent\u2019s classification and subsequent measurement.  \nb. Record **initial recognition** (and the July 1 patent defense) journal entries.  \nc. Prepare the **Year-1 amortization schedule** (prorate partial-year amortization for the patent defense costs added July 1; full year for Jan 1 acquisitions).  \nd. Record the **December 31, Year 1** amortization adjusting entry.  \ne. Compute **December 31, Year 1 carrying amounts** for the patent (including defense costs), copyright, franchise, trade name, license, and goodwill.\n"
+ },
+ {
+  "id": "agent_092#00",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_092_00",
+  "ch": 13,
+  "n": 3,
+  "labels": [
+   "a: Total Year 1 costs expensed immediate",
+   "a: Total cash paid, Year 1 (items 1-10)",
+   "d: Total Year 1 costs excluded from the "
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_092_00",
+  "stem": "### Q1 \u2014 CORE \u2014 Full R&D cost cycle (emphasis: initial recognition)\n**LO:** LO 13-7  \n**Concept:** Initial recognition of R&D costs (expense vs capitalize multi-use assets); Year-1 R&D depreciation; multi-year depreciation schedule; disposal of multi-use equipment; R&D expense disclosure total  \n**Scenario:**  \n**ApexNova Therapeutics Inc.**, a calendar-year company, conducts extensive research and development. During **Year 1**, ApexNova incurred the following (all amounts paid in cash unless noted):\n\n| # | Fact | Amount / term |\n|---|---|---|\n| 1 | Materials purchased and **consumed** solely on current R&D projects (**no** alternative future use) | **$240,000** |\n| 2 | Laboratory equipment purchased **January 1, Year 1** with **significant alternative future uses** (multiple future R&D projects and production support); residual value **$0**; **straight-line** over **6 years**; placed in service Jan 1 for R&D | **$480,000** |\n| 3 | Specialized testing apparatus purchased **April 1, Year 1** for a **single** R&D project only; **no** alternative future use | **$96,000** |\n| 4 | Salaries and wages of scientists and technicians engaged in R&D | **$1,150,000** |\n| 5 | Fees paid to an outside university lab for contract research services | **$85,000** |\n| 6 | Reasonable allocation of indirect facility costs clearly related to R&D (utilities, insurance, security of R&D wing) | **$72,000** |\n| 7 | Corporate headquarters G&A (executive, HR, central accounting) **not** clearly related to R&D | **$310,000** |\n| 8 | Troubleshooting and repair of breakdowns on an **existing commercial production** line | **$41,000** |\n| 9 | Design and construction of **preproduction prototypes** for a new product under development | **$55,000** |\n| 10 | Legal fees paid **July 1, Year 1** to outside counsel to **register a patent** on a successfully developed process; remaining legal life 20 years; estimated **useful life 10 years**; residual **$0**; amortize straight-line from July 1 | **$12,000** |\n\nOn **January 1, Year 4**, after recording three full years of depreciation, ApexNova sells the multi-use laboratory equipment (item 2) for **$250,000** cash. No impairment was recognized in Years 1\u20133.\n\n**Required:**  \na. Prepare the **Year 1 initial recognition** journal entries for items 1\u201310 (group by accounting treatment as appropriate). Emphasize which costs are immediately expensed as R&D versus capitalized.  \nb. Prepare the **December 31, Year 1** adjusting entries for (1) depreciation of multi-use laboratory equipment and (2) amortization of the patent.  \nc. Prepare a complete **straight-line depreciation schedule** for the multi-use laboratory equipment for Years 1\u20136 (beginning book value, depreciation expense classified as R&D, ending book value).  \nd. Compute **total research and development expense** to be **disclosed** for Year 1. Briefly list what is **excluded** from R&D.  \ne. Prepare the **January 1, Year 4 disposal** journal entry for the laboratory equipment (after Year 1\u20133 depreciation already recorded).  \nf. State how total R&D cost is **presented/disclosed** under ASC 730.\n"
+ },
+ {
+  "id": "agent_240#00",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_240_00",
+  "ch": 19,
+  "n": 3,
+  "labels": [
+   "a: Amount reported in stockholders' equi",
+   "d: Gain or loss on settlement (carrying ",
+   "e: Reconciling difference (total interes"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_240_00",
+  "stem": "### Q1 \u2014 CORE \u2014 Mandatorily redeemable preferred: initial recognition, subsequent accretion schedule, period-end JE, and maturity settlement (emphasis)\n**LO:** LO 19-4  \n**Concept:** Subsequent measurement schedule for mandatorily redeemable preferred stock (fixed amount and fixed date); initial liability recognition; period-end interest accretion; maturity settlement  \n**Scenario:**  \n**Rivertide Precision Tools** (calendar-year) issues **mandatorily redeemable preferred stock** on **January 1, Year 1**.\n\n| Fact | Amount / term |\n|---|---|\n| Cash proceeds at issuance | **$150,000** |\n| Shares / formal description | 3,000 shares of $40 par preferred (form of shares; measured as liability) |\n| Redemption | **Mandatory** cash redemption of **$199,650** on **December 31, Year 3** (fixed amount and fixed date; not solely upon liquidation) |\n| Implicit effective interest rate at inception | **10%** |\n| Periodic preferred dividends | Ignore for this problem (focus on ASC 480 subsequent measurement of the liability) |\n\nNo other preferred stock is outstanding. The instrument is not callable early.\n\n**Required:**  \na. Record the **January 1, Year 1 initial recognition** journal entry. State the balance-sheet **classification** immediately after issuance.  \nb. Prepare the complete **subsequent measurement (accretion) schedule** for Years 1\u20133 showing beginning carrying amount, interest expense, and ending carrying amount.  \nc. Record the **December 31, Year 1** and **December 31, Year 2 period-end adjusting** journal entries for interest accretion.  \nd. Record the **December 31, Year 3** interest accretion entry **and** the **maturity/settlement** entry (two entries, in order).  \ne. Reconcile total interest expense over the three-year life to redemption amount \u2212 issue proceeds.\n"
+ },
+ {
+  "id": "agent_150#02",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_150_02",
+  "ch": 17,
+  "n": 6,
+  "labels": [
+   "b: Option 1 \u2014 PV factor, ordinary annuit",
+   "b: Option 2 \u2014 PV factor, ordinary annuit",
+   "b: Option 3 \u2014 PV of six $42,000 payments"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_150_02",
+  "stem": "### Q3 \u2014 CORE alternate angle \u2014 Multi-scenario identification & classification; presentation contrast\n**LO:** LO 17-1  \n**Concept:** Identify whether a contract is a lease (control vs service / substitution); apply all five classification criteria across scenarios; determine finance vs operating; classification-driven presentation differences  \n**Scenario:**  \n**Redrock Analytics LLC** is negotiating equipment and facility arrangements. For each independent case, answer the questions posed. Use the **75%** term test and **90%** PV test unless stated otherwise. Redrock is the **lessee**.\n\n**Case A \u2014 Identify lease vs service**  \nRedrock contracts with **CloudRail Hosting** for 3 years of \u201cguaranteed computing capacity.\u201d CloudRail may fulfill the contract from **any** of its identical servers in a large pool and **routinely reallocates** servers for its own cost savings; Redrock cannot prevent substitution. Redrock receives only a specified level of processing capacity, not a particular machine.\n\n**Case B \u2014 Classification Option Set (four separate negotiations for the same class of equipment, FV $250,000, economic life 10 years, no ownership transfer, no alternative-use restriction unless noted)**\n\n| Fact | Option 1 | Option 2 | Option 3 | Option 4 |\n|---|---|---|---|---|\n| Purchase option | None | None | Option to buy at end for **$15,000**; expected FV at end **$55,000** (Redrock reasonably certain to exercise) | None |\n| Lease term | **6 years** | **8 years** | **6 years** | **6 years** |\n| Annual payment | **$40,000** at **end** of each year | $40,000 end of year | $42,000 end of year | **$45,000** at **beginning** of each year |\n| Rate known by lessee | IBR **6%** (implicit unknown) | IBR 6% | Implicit **5.5%** known | IBR 6% (implicit unknown) |\n| Other | \u2014 | \u2014 | \u2014 | \u2014 |\n\n**Case C \u2014 Presentation**  \nAssume Option 2 is classified as a finance lease and a different short warehouse lease meets **none** of the five criteria (operating). Briefly contrast Year 1 **income statement** presentation for finance vs operating lessee accounting (basic leases).\n\n**Required:**  \na. **Case A:** Does the contract contain a **lease**? Explain.  \nb. **Case B:** For **each** of Options 1\u20134, evaluate the relevant criteria and conclude **finance** or **operating**. Show PV computations where the PV test is needed or informative.  \nc. **Case C:** Contrast finance vs operating **expense presentation** for the lessee.\n"
+ },
+ {
+  "id": "agent_285#00",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_285_00",
+  "ch": 17,
+  "n": 2,
+  "labels": [
+   "a: Criterion 4 - PV of lease payments as",
+   "b: PV factor, annuity due, 4 payments @ "
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_285_00",
+  "stem": "### Q1 \u2014 CORE \u2014 Basic operating lease full life cycle (emphasis: period-end adjusting JE)\n**LO:** LO 17-3  \n**Concept:** Classify as operating; measure ROU/liability; liability + ROU schedules; initial JEs; **period-end single lease-expense adjusting JE**; maturity; BS/IS presentation  \n**Scenario:**  \nOn **January 1 of Year 1** (commencement), **Riverglen Industrial Supply Co.** (calendar-year lessee) enters a noncancellable lease with **Summit Asset Finance** for warehouse forklift equipment that Summit routinely leases to other customers. Facts:\n\n1. **Lease term:** 4 years. Equipment reverts to Summit at end of term.  \n2. **Four** annual lease payments of **$22,000**, payable **January 1** of Year 1, Year 2, Year 3, and Year 4 (**annuity due**).  \n3. Fair value of equipment at commencement = **$140,000**.  \n4. Estimated remaining economic life = **10 years**.  \n5. No renewal option; no purchase option; no residual value guarantee by Riverglen.  \n6. Summit\u2019s **implicit rate = 5%**, **known** by Riverglen. Riverglen\u2019s incremental borrowing rate = **6%**.  \n7. No initial direct costs, prepaid rent, or lease incentives (basic case: ROU = lease liability at commencement before the first payment).  \n8. Round the commencement PV and subsequent schedule amounts to the **nearest dollar**. Final-period interest is **plugged** so the liability clears exactly. Credit the ROU asset **directly** for the period reduction (chapter convention).\n\n**Required:**  \na. Evaluate the five lease classification criteria and conclude finance vs **operating** for Riverglen. State the discount rate used.  \nb. Measure the lease liability and right-of-use asset at commencement (before the first payment).  \nc. Prepare the complete **lease liability schedule** and **right-of-use asset schedule**.  \nd. Prepare **all Year 1 journal entries** (commencement recognition, first payment, and **December 31 period-end adjusting JE** \u2014 emphasize the single lease-expense form).  \ne. Show **Year 1** income statement lease-related amount and **December 31, Year 1** balance sheet (ROU; current and noncurrent lease liability).  \nf. Prepare lessee journal entries for **Year 2** and **Year 3** (payment + period-end adjusting).  \ng. Prepare **Year 4 maturity / settlement** entries (final payment and final period-end ROU reduction) and confirm both accounts are zero after lease end.\n"
+ },
+ {
+  "id": "agent_283#02",
+  "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_283_02",
+  "ch": 17,
+  "n": 5,
+  "labels": [
+   "a: PV of lease payments as % of fair val",
+   "e: Year 2 - lease liability after the Ja",
+   "e: Year 3 - lease liability after the Ja"
+  ],
+  "dual_dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_dual/agent_283_02",
+  "stem": "### Q3 \u2014 CORE alternate angle \u2014 Annuity-due sale-leaseback period-end adjusting JEs (emphasis) and end-of-term settlement\n**LO:** LO 17-12  \n**Concept:** Recognized sale-leaseback with **payments in advance**: initial sale + ROU/liability + first payment; pure **period-end adjusting JE** (no cash) each December 31; settlement when ROU/liability reach zero  \n**Scenario:**  \n**Ironclad Components Corp.** (calendar-year) sells specialty manufacturing space to **Harbor Trust Leasing** on **January 1, Year 1** and immediately leases it back under an **operating** leaseback (recognized sale-leaseback).\n\n| Item | Amount / term |\n|---|---|\n| Cash selling price (= fair value) | $320,000 |\n| Building cost | $700,000 |\n| Accumulated depreciation | $430,000 |\n| Carrying amount | $270,000 |\n| Remaining useful life | 25 years |\n| Lease term | 8 years (\\(8/25 = 32\\%\\)) |\n| Annual lease payment (due **January 1**, annuity due) | $45,000 |\n| Implicit rate known to lessee | 8% |\n| Title / PO / guaranteed residual | none |\n| Alternative use at end | yes |\n\nFirst payment is made **at commencement (January 1, Year 1)**. Subsequent payments each January 1. Ironclad\u2019s year-end is **December 31**.\n\n**Required:**  \na. Show that the leaseback is **operating** and the transfer is a **recognized sale-leaseback** (include PV test).  \nb. Compute the **commencement PV** of the annuity-due lease payments (ROU and lease liability before the first payment).  \nc. Prepare **January 1, Year 1** JEs: (1) sale, (2) ROU/liability, (3) first lease payment.  \nd. **(Emphasis)** Prepare the **December 31, Year 1 period-end adjusting JE** only (no cash). Explain why this entry differs from Q1\u2019s year-end package.  \ne. Provide the **Years 1\u20133** rows of the ROU/liability roll-forward (after each Dec 31 adjusting entry).  \nf. **(Settlement)** Prepare the **January 1, Year 8** final payment and the **December 31, Year 8** final adjusting entry that clear ROU and liability.  \ng. Briefly contrast what would change if the lease term were **20 years** (80% of life) with payments re-set so PV \u2248 $320,000 (failed sale).\n"
+ }
+]

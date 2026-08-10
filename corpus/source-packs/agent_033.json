@@ -1,0 +1,73 @@
+{
+  "agent_id": 33,
+  "lo": "LO 22-1",
+  "chapter": 22,
+  "title": "Identify operating, investing, and financing activities, and the statement of cash flows format",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-1",
+      "concept": "Operating / investing / financing classification; initial recognition of cash events; reconcile change in cash",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-1",
+      "concept": "Operating / investing / financing classification and cash reconciliation (all numbers changed)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-1",
+      "concept": "Disposal and debt-settlement cash classification; interest vs principal; noncash investing/financing disclosure; solve for beginning cash",
+      "type": "multipart",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4A",
+      "lo": "LO 22-1",
+      "concept": "Classification of securities cash flows by management intent (trading vs long-term investment)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4B",
+      "lo": "LO 22-1",
+      "concept": "SCF format: section totals reconcile cash including cash equivalents and restricted cash; gross I/F presentation",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,48 @@
+{
+ "id": "agent_270#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "failed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 13,
+  "routed_stage2": 0,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "SOLVER_MISMATCH",
+   "label": "d: Year 1 net pretax income effect of the investment",
+   "solver": -2100
+  },
+  {
+   "kind": "SOLVER_MISMATCH",
+   "label": "f: reconciliation - Year 2 income statement gain (loss)",
+   "solver": 600
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in Trading Securities--Cascade Bonds"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Fair Value Adjustment--Trading Securities"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Sale of Investment"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in Trading Securities--Cascade Bonds"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Fair Value Adjustment--Trading Securities"
+  },
+  {
+   "kind": "FORM_DIFFERS",
+   "why": "identical after net-per-account within entry/date"
+  }
+ ]
+}

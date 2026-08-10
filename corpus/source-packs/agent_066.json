@@ -1,0 +1,60 @@
+{
+  "agent_id": 66,
+  "lo": "LO 11-1",
+  "chapter": 11,
+  "title": "Determine costs to capitalize for land, land improvements, equipment, buildings, and construction in process",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-1",
+      "concept": "Classify and capitalize land, land improvements, equipment, and CIP; expense noncapital costs; initial recognition JE; subsequent SL depreciation schedule",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-1",
+      "concept": "Number-variant twin of acquisition cost classification and balanced capitalization JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-1",
+      "concept": "Self-constructed asset transfer from CIP (with optional loss if cost > FV); completion reclass CIP → Building; period-end depreciation; salvage disposal reducing land",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-1",
+      "concept": "Classification of common acquisition and holding costs among land, land improvements, equipment, CIP, and expense",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

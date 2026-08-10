@@ -1,0 +1,203 @@
+{
+ "id": "agent_381#02",
+ "rounding_convention": "decimal.Decimal throughout; money and per-share (EPS) amounts quantized to 2 decimals with ROUND_HALF_UP; share counts to whole shares with ROUND_HALF_UP",
+ "answers": [
+  {
+   "label": "a: April 1 issuance - Cash debit",
+   "value": 200000.0
+  },
+  {
+   "label": "a: April 1 issuance - Common Stock credit (par)",
+   "value": 10000.0
+  },
+  {
+   "label": "a: April 1 issuance - Paid-in Capital in Excess of Par credit",
+   "value": 190000.0
+  },
+  {
+   "label": "b: July 1 treasury stock cost (5,000 x $22)",
+   "value": 110000.0
+  },
+  {
+   "label": "c: Common shares outstanding immediately BEFORE the stock dividend",
+   "value": 55000.0
+  },
+  {
+   "label": "c: Shares issued in the 100% stock dividend",
+   "value": 55000.0
+  },
+  {
+   "label": "c: Amount capitalized (par of shares issued)",
+   "value": 55000.0
+  },
+  {
+   "label": "c: Common shares outstanding immediately AFTER the stock dividend",
+   "value": 110000.0
+  },
+  {
+   "label": "d: Preferred cash dividend declared and paid (5,000 x $100 x 6%)",
+   "value": 30000.0
+  },
+  {
+   "label": "e: Retroactive restatement factor for periods before Oct 1",
+   "value": 2.0
+  },
+  {
+   "label": "e: Jan 1 - Mar 31 (3 months) - actual shares outstanding",
+   "value": 50000.0
+  },
+  {
+   "label": "e: Jan 1 - Mar 31 (3 months) - restatement factor",
+   "value": 2.0
+  },
+  {
+   "label": "e: Jan 1 - Mar 31 (3 months) - restated shares",
+   "value": 100000.0
+  },
+  {
+   "label": "e: Jan 1 - Mar 31 (3 months) - weighted portion (x 3/12)",
+   "value": 25000.0
+  },
+  {
+   "label": "e: Apr 1 - Jun 30 (3 months) - actual shares outstanding",
+   "value": 60000.0
+  },
+  {
+   "label": "e: Apr 1 - Jun 30 (3 months) - restatement factor",
+   "value": 2.0
+  },
+  {
+   "label": "e: Apr 1 - Jun 30 (3 months) - restated shares",
+   "value": 120000.0
+  },
+  {
+   "label": "e: Apr 1 - Jun 30 (3 months) - weighted portion (x 3/12)",
+   "value": 30000.0
+  },
+  {
+   "label": "e: Jul 1 - Sep 30 (3 months) - actual shares outstanding",
+   "value": 55000.0
+  },
+  {
+   "label": "e: Jul 1 - Sep 30 (3 months) - restatement factor",
+   "value": 2.0
+  },
+  {
+   "label": "e: Jul 1 - Sep 30 (3 months) - restated shares",
+   "value": 110000.0
+  },
+  {
+   "label": "e: Jul 1 - Sep 30 (3 months) - weighted portion (x 3/12)",
+   "value": 27500.0
+  },
+  {
+   "label": "e: Oct 1 - Dec 31 (3 months) - actual shares outstanding",
+   "value": 110000.0
+  },
+  {
+   "label": "e: Oct 1 - Dec 31 (3 months) - restatement factor",
+   "value": 1.0
+  },
+  {
+   "label": "e: Oct 1 - Dec 31 (3 months) - restated shares",
+   "value": 110000.0
+  },
+  {
+   "label": "e: Oct 1 - Dec 31 (3 months) - weighted portion (x 3/12)",
+   "value": 27500.0
+  },
+  {
+   "label": "e: Weighted-average common shares outstanding for Year 1",
+   "value": 110000.0
+  },
+  {
+   "label": "f: Net income",
+   "value": 360000.0
+  },
+  {
+   "label": "f: Less preferred dividends declared (noncumulative)",
+   "value": 30000.0
+  },
+  {
+   "label": "f: Income available to common shareholders",
+   "value": 330000.0
+  },
+  {
+   "label": "f: Weighted-average common shares",
+   "value": 110000.0
+  },
+  {
+   "label": "f: Basic EPS",
+   "value": 3.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 200000.0,
+     "credit": 0
+    },
+    {
+     "account": "Common Stock ($1 par)",
+     "debit": 0,
+     "credit": 10000.0
+    },
+    {
+     "account": "Paid-in Capital in Excess of Par - Common",
+     "debit": 0,
+     "credit": 190000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Treasury Stock (cost method)",
+     "debit": 110000.0,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 110000.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Stock Dividends (Retained Earnings)",
+     "debit": 55000.0,
+     "credit": 0
+    },
+    {
+     "account": "Common Stock ($1 par)",
+     "debit": 0,
+     "credit": 55000.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Cash Dividends - Preferred (Retained Earnings)",
+     "debit": 30000.0,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 30000.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "f explanation: The noncumulative preferred dividend is subtracted because it was DECLARED in Year 1, so that $30,000 of net income belongs to preferred holders and is not available to common (for a noncumulative issue, undeclared dividends would not be subtracted). The 100% stock dividend brings in no new resources and merely subdivides the existing ownership, so it is applied retroactively (x2) to all pre-October periods, whereas the April 1 cash issuance brought in $200,000 of new capital and is therefore weighted only from April 1 forward (9/12). Treasury shares are excluded from shares outstanding from July 1 on, and the stock dividend was distributed only on the 55,000 shares outstanding on October 1."
+}

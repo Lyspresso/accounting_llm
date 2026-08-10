@@ -1,0 +1,286 @@
+{
+ "id": "agent_363#00",
+ "rounding_convention": "decimal.Decimal throughout; each period's amount quantized to the cent with ROUND_HALF_UP; final-year premium amortization takes the unamortized plug so carrying amount ends at face.",
+ "answers": [
+  {
+   "label": "a: Number of detachable warrants issued (600 bonds x 10)",
+   "value": 6000.0
+  },
+  {
+   "label": "a: Cash proceeds of package (600,000 x 105%)",
+   "value": 630000.0
+  },
+  {
+   "label": "a: Fair value of bonds without warrants (600,000 x 102%)",
+   "value": 612000.0
+  },
+  {
+   "label": "a: Fair value of warrants (6,000 x $3)",
+   "value": 18000.0
+  },
+  {
+   "label": "a: Total fair value of the two components",
+   "value": 630000.0
+  },
+  {
+   "label": "a: Proceeds allocated to bonds (proportional)",
+   "value": 612000.0
+  },
+  {
+   "label": "a: Proceeds allocated to warrants (proportional)",
+   "value": 18000.0
+  },
+  {
+   "label": "a: Initial bond carrying amount, Jan 1 Year 1",
+   "value": 612000.0
+  },
+  {
+   "label": "a: Premium on bonds payable at issuance",
+   "value": 12000.0
+  },
+  {
+   "label": "c: Annual cash interest (600,000 x 7%)",
+   "value": 42000.0
+  },
+  {
+   "label": "c: Annual straight-line premium amortization (12,000 / 5)",
+   "value": 2400.0
+  },
+  {
+   "label": "c: Year 1 beginning carrying amount",
+   "value": 612000.0
+  },
+  {
+   "label": "c: Year 1 cash interest paid",
+   "value": 42000.0
+  },
+  {
+   "label": "c: Year 1 premium amortization",
+   "value": 2400.0
+  },
+  {
+   "label": "c: Year 1 interest expense",
+   "value": 39600.0
+  },
+  {
+   "label": "c: Year 1 ending carrying amount",
+   "value": 609600.0
+  },
+  {
+   "label": "c: Year 2 beginning carrying amount",
+   "value": 609600.0
+  },
+  {
+   "label": "c: Year 2 cash interest paid",
+   "value": 42000.0
+  },
+  {
+   "label": "c: Year 2 premium amortization",
+   "value": 2400.0
+  },
+  {
+   "label": "c: Year 2 interest expense",
+   "value": 39600.0
+  },
+  {
+   "label": "c: Year 2 ending carrying amount",
+   "value": 607200.0
+  },
+  {
+   "label": "c: Year 3 beginning carrying amount",
+   "value": 607200.0
+  },
+  {
+   "label": "c: Year 3 cash interest paid",
+   "value": 42000.0
+  },
+  {
+   "label": "c: Year 3 premium amortization",
+   "value": 2400.0
+  },
+  {
+   "label": "c: Year 3 interest expense",
+   "value": 39600.0
+  },
+  {
+   "label": "c: Year 3 ending carrying amount",
+   "value": 604800.0
+  },
+  {
+   "label": "c: Year 4 beginning carrying amount",
+   "value": 604800.0
+  },
+  {
+   "label": "c: Year 4 cash interest paid",
+   "value": 42000.0
+  },
+  {
+   "label": "c: Year 4 premium amortization",
+   "value": 2400.0
+  },
+  {
+   "label": "c: Year 4 interest expense",
+   "value": 39600.0
+  },
+  {
+   "label": "c: Year 4 ending carrying amount",
+   "value": 602400.0
+  },
+  {
+   "label": "c: Year 5 beginning carrying amount",
+   "value": 602400.0
+  },
+  {
+   "label": "c: Year 5 cash interest paid",
+   "value": 42000.0
+  },
+  {
+   "label": "c: Year 5 premium amortization",
+   "value": 2400.0
+  },
+  {
+   "label": "c: Year 5 interest expense",
+   "value": 39600.0
+  },
+  {
+   "label": "c: Year 5 ending carrying amount",
+   "value": 600000.0
+  },
+  {
+   "label": "e: Cash received on exercise (4,500 x $22)",
+   "value": 99000.0
+  },
+  {
+   "label": "e: Paid-In Capital-Stock Warrants transferred (18,000 x 4,500/6,000)",
+   "value": 13500.0
+  },
+  {
+   "label": "e: Common stock par issued (4,500 x $5)",
+   "value": 22500.0
+  },
+  {
+   "label": "e: Paid-in capital in excess of par on exercise",
+   "value": 90000.0
+  },
+  {
+   "label": "f: Warrants expiring unexercised",
+   "value": 1500.0
+  },
+  {
+   "label": "f: Paid-In Capital-Stock Warrants reclassified on expiration",
+   "value": 4500.0
+  },
+  {
+   "label": "g: Cash paid at maturity (face amount)",
+   "value": 600000.0
+  },
+  {
+   "label": "g: Unamortized premium remaining at Dec 31 Year 5",
+   "value": 0.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 630000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Bonds Payable",
+     "debit": 0.0,
+     "credit": 600000.0
+    },
+    {
+     "account": "Premium on Bonds Payable",
+     "debit": 0.0,
+     "credit": 12000.0
+    },
+    {
+     "account": "Paid-In Capital-Stock Warrants",
+     "debit": 0.0,
+     "credit": 18000.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 39600.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Premium on Bonds Payable",
+     "debit": 2400.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 42000.0
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 99000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Paid-In Capital-Stock Warrants",
+     "debit": 13500.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Common Stock ($5 par)",
+     "debit": 0.0,
+     "credit": 22500.0
+    },
+    {
+     "account": "Paid-In Capital in Excess of Par-Common",
+     "debit": 0.0,
+     "credit": 90000.0
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "lines": [
+    {
+     "account": "Paid-In Capital-Stock Warrants",
+     "debit": 4500.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Paid-In Capital-Expired Stock Warrants",
+     "debit": 0.0,
+     "credit": 4500.0
+    }
+   ]
+  },
+  {
+   "part": "g",
+   "lines": [
+    {
+     "account": "Bonds Payable",
+     "debit": 600000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 600000.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "h: The warrants are a separate EQUITY instrument, not a liability: once the $18,000 is allocated to Paid-In Capital-Stock Warrants at issuance it is a permanent equity balance with no maturity, interest or repayment obligation, so there is nothing to allocate to expense over the bond term. Only the $12,000 bond premium (a liability valuation account) is amortized against interest expense; the warrant account merely stays in equity until it is reclassified to paid-in capital on exercise or on expiration. Straight-line premium amortization = $2,400 per year; final-year amortization is the unamortized remainder so the carrying amount closes exactly at the $600,000 face."
+}

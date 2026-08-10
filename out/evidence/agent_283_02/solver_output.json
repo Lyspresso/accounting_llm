@@ -1,0 +1,183 @@
+{
+ "id": "agent_283#02",
+ "rounding_convention": "ROUND_HALF_UP per period to the cent; decimal.Decimal throughout. Commencement PV from the exact annuity-due formula PMT * PVOA(8, 8%) * 1.08 (= 6.206370 factor, identical to the 5-decimal table factor 6.20637), rounded once to the cent. Interest each period computed on the rounded beginning balance and rounded before posting; ROU-asset reduction is the plug (straight-line lease expense less interest). Percentages HALF_UP to 2dp.",
+ "answers": [
+  {
+   "label": "a: 90% of fair value (PV test threshold)",
+   "value": 288000
+  },
+  {
+   "label": "b: commencement PV of lease payments (ROU asset = lease liability, before the first payment)",
+   "value": 279286.65
+  },
+  {
+   "label": "e: Year 1 interest on lease liability",
+   "value": 18742.93
+  },
+  {
+   "label": "e: Year 1 ROU asset reduction",
+   "value": 26257.07
+  },
+  {
+   "label": "e: Year 1 ending lease liability (Dec 31, Year 1)",
+   "value": 253029.58
+  },
+  {
+   "label": "e: Year 1 ending ROU asset (Dec 31, Year 1)",
+   "value": 253029.58
+  },
+  {
+   "label": "e: Year 2 interest on lease liability",
+   "value": 16642.37
+  },
+  {
+   "label": "e: Year 2 ROU asset reduction",
+   "value": 28357.63
+  },
+  {
+   "label": "e: Year 2 ending lease liability (Dec 31, Year 2)",
+   "value": 224671.95
+  },
+  {
+   "label": "e: Year 2 ending ROU asset (Dec 31, Year 2)",
+   "value": 224671.95
+  },
+  {
+   "label": "e: Year 3 interest on lease liability",
+   "value": 14373.76
+  },
+  {
+   "label": "e: Year 3 ROU asset reduction",
+   "value": 30626.24
+  },
+  {
+   "label": "e: Year 3 ending lease liability (Dec 31, Year 3)",
+   "value": 194045.71
+  },
+  {
+   "label": "e: Year 3 ending ROU asset (Dec 31, Year 3)",
+   "value": 194045.71
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "c",
+   "date": "January 1, Year 1",
+   "description": "Sale of building",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 320000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Buildings",
+     "debit": 430000,
+     "credit": 0
+    },
+    {
+     "account": "Buildings",
+     "debit": 0,
+     "credit": 700000
+    },
+    {
+     "account": "Gain on Sale-Leaseback",
+     "debit": 0,
+     "credit": 50000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "January 1, Year 1",
+   "description": "Right-of-use asset and lease liability at commencement",
+   "lines": [
+    {
+     "account": "Right-of-Use Asset",
+     "debit": 279286.65,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0,
+     "credit": 279286.65
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "January 1, Year 1",
+   "description": "First lease payment",
+   "lines": [
+    {
+     "account": "Lease Liability",
+     "debit": 45000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 45000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "date": "December 31, Year 1",
+   "description": "Period-end adjusting entry (no cash)",
+   "lines": [
+    {
+     "account": "Lease Expense",
+     "debit": 45000,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0,
+     "credit": 18742.93
+    },
+    {
+     "account": "Right-of-Use Asset",
+     "debit": 0,
+     "credit": 26257.07
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "date": "January 1, Year 8",
+   "description": "Final lease payment",
+   "lines": [
+    {
+     "account": "Lease Liability",
+     "debit": 45000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 45000
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "date": "December 31, Year 8",
+   "description": "Final period-end adjusting entry; clears ROU asset and liability",
+   "lines": [
+    {
+     "account": "Lease Expense",
+     "debit": 45000,
+     "credit": 0
+    },
+    {
+     "account": "Right-of-Use Asset",
+     "debit": 0,
+     "credit": 45000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "a. None of the five ASC 842 finance-lease criteria is met: no title transfer, no purchase option, lease term 8/25 = 32.00% (< 75% major part), PV of payments $279,286.65 < $288,000.00 (90% of the $320,000 fair value, i.e. 87.28% of fair value), and the space has an alternative use. The leaseback is therefore an OPERATING lease, which means control passed to Harbor Trust and the transfer is a RECOGNIZED sale-leaseback (a finance leaseback would have been a failed sale). Ironclad derecognizes the building and recognizes the full $50,000 gain (320,000 sale price - 270,000 carrying amount). d. Because payments are in advance, cash moved on January 1, so the December 31 entry is purely an accrual: it debits the single straight-line Lease Expense of $45,000 and credits Lease Liability for the $18,742.93 of interest accrued on the post-payment balance plus Right-of-Use Asset for the $26,257.07 plug. It differs from an arrears (Q1-style) year-end package because there is no December 31 cash payment entry alongside it - the liability GROWS at year-end here instead of being paid down, and interest accrues on the balance net of a payment already made. f. After the January 1, Year 8 payment the liability is exactly $0, so the December 31, Year 8 adjusting entry carries no interest and the entire $45,000 of lease expense writes the remaining ROU asset off to zero. g. With a 20-year term (20/25 = 80%, a major part of the remaining economic life) the leaseback would be a FINANCE lease, so control would not transfer and the transaction would be a FAILED SALE: Ironclad would keep the building on its books at cost less accumulated depreciation and keep depreciating it over the 25-year life, recognize NO gain, record the $320,000 proceeds as a financing liability (note payable), and split each $ payment between interest expense at 8% and principal - no ROU asset, no lease liability, no single straight-line lease expense."
+}

@@ -1,0 +1,217 @@
+{
+  "id": "agent_274#02",
+  "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the nearest whole dollar applied per period, with the rounded carrying amount carried forward. Issue price from the exact PV formula rounded once (cross-checked against 5-decimal PV table factors 0.88849 / 3.71710 -- both give the same dollar). Final period plugs the residual premium. August 31 accrual = period-2 row x 2/6, amortization line as the balancing figure.",
+  "answers": [
+    {
+      "label": "a: issue price (selling price) of the Part A bonds",
+      "value": 186691
+    },
+    {
+      "label": "b: period 1 cash interest paid",
+      "value": 7200
+    },
+    {
+      "label": "b: period 1 interest expense",
+      "value": 5601
+    },
+    {
+      "label": "b: period 1 premium amortized",
+      "value": 1599
+    },
+    {
+      "label": "b: period 1 ending carrying amount (bonds payable, net)",
+      "value": 185092
+    },
+    {
+      "label": "b: period 2 cash interest paid",
+      "value": 7200
+    },
+    {
+      "label": "b: period 2 interest expense",
+      "value": 5553
+    },
+    {
+      "label": "b: period 2 premium amortized",
+      "value": 1647
+    },
+    {
+      "label": "b: period 2 ending carrying amount (bonds payable, net)",
+      "value": 183445
+    },
+    {
+      "label": "b: period 3 cash interest paid",
+      "value": 7200
+    },
+    {
+      "label": "b: period 3 interest expense",
+      "value": 5503
+    },
+    {
+      "label": "b: period 3 premium amortized",
+      "value": 1697
+    },
+    {
+      "label": "b: period 3 ending carrying amount (bonds payable, net)",
+      "value": 181748
+    },
+    {
+      "label": "b: period 4 cash interest paid",
+      "value": 7200
+    },
+    {
+      "label": "b: period 4 interest expense",
+      "value": 5452
+    },
+    {
+      "label": "b: period 4 premium amortized",
+      "value": 1748
+    },
+    {
+      "label": "b: period 4 ending carrying amount (bonds payable, net)",
+      "value": 180000
+    },
+    {
+      "label": "e: bonds payable, net at December 31, Year 1",
+      "value": 183445
+    },
+    {
+      "label": "e: Year 1 total interest expense",
+      "value": 11154
+    },
+    {
+      "label": "h: balance sheet classification at December 31, Year 1",
+      "value": "Current liability. The bonds mature December 31, Year 2 -- within one year of the December 31, Year 1 balance sheet date -- so the obligation is no longer long-term. It is presented at its net carrying amount of $183,445, i.e. Bonds payable $180,000 plus unamortized premium $3,445; the premium is reported as a direct addition to (not separate from) bonds payable."
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "January 1, Year 1",
+      "description": "Part A - issue $180,000 8% bonds at a premium (market 6%)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 186691,
+          "credit": 0
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 0,
+          "credit": 6691
+        },
+        {
+          "account": "Bonds Payable",
+          "debit": 0,
+          "credit": 180000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "June 30, Year 1",
+      "description": "Part A - first semiannual interest payment and premium amortization",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 5601,
+          "credit": 0
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 1599,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 7200
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "August 31, Year 1",
+      "description": "Part A - period-end adjusting entry (2/6 of the period-2 row)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 1851,
+          "credit": 0
+        },
+        {
+          "account": "Premium on Bonds Payable",
+          "debit": 549,
+          "credit": 0
+        },
+        {
+          "account": "Interest Payable",
+          "debit": 0,
+          "credit": 2400
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "December 31, Year 2",
+      "description": "Part A - repayment of principal at maturity (interest entry excluded)",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 180000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 180000
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "date": "April 1, Year 1",
+      "description": "Part B - issue $240,000 7% bonds at par between interest dates, plus accrued interest",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 244200,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable",
+          "debit": 0,
+          "credit": 240000
+        },
+        {
+          "account": "Interest Payable",
+          "debit": 0,
+          "credit": 4200
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "date": "June 30, Year 1",
+      "description": "Part B - first semiannual cash interest payment (expense for 3 months outstanding)",
+      "lines": [
+        {
+          "account": "Interest Payable",
+          "debit": 4200,
+          "credit": 0
+        },
+        {
+          "account": "Interest Expense",
+          "debit": 4200,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 8400
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part A: n=4 semiannual periods at i=3%; cash interest $7,200/period. Part B follows the course textbook (ch.16 Demo 16-2b) for bonds sold between interest dates: accrued interest at the stated rate is credited to Interest Payable at issuance, and at the first June 30 payment interest expense is recognized only for the 3 months the bonds were outstanding. Part h is qualitative and is returned as a text value."
+}

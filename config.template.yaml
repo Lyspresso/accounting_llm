@@ -1,0 +1,59 @@
+# Question-Bank Verification (TEMPLATE — copy to config.yaml, which is gitignored) — Intermediate Accounting II corpus
+# Filled from config.template.yaml (v1.2). Budget mode.
+
+pipeline_version: "1.2"
+
+paths:
+  questions: "<SET ME — local path, never committed>"
+  textbook: "<SET ME — local path, never committed>"
+  syllabus: "<SET ME — local path, never committed>"
+  notes: "<SET ME — local path, never committed>"
+  goldens: "<SET ME — local path, never committed>"
+  output: "<SET ME — local path, never committed>"
+  pack: "<SET ME — local path, never committed>"
+
+authority: textbook_then_gaap
+
+models:
+  strong: "claude-sonnet-5"                 # escalations, adjudication, audits
+  cheap: "claude-haiku-4-5-20251001"        # primary verifier + mechanical checks
+
+coverage:
+  min_questions_per_lo: 5
+  min_difficulty_tiers: 3
+
+loop:
+  max_remakes: 3
+  loop_audit_split_uniform: 0.25
+
+calibration:
+  probe_rate: 0.05
+  probe_det_floor: 0.85
+  probe_fp_ceiling: 0.10
+  canary_rate: 0.01
+  canary_breach_count: 2
+
+budget_mode:
+  max_concurrency: 12
+  max_loop_iterations: 5
+  audit_rate: 0.10
+  loop_audit_rate: 0.01
+  adversary_sample: 0.05
+  audit_halt_threshold: 0.02
+  hard_spend_cap: ""             # OPERATOR: set before any LLM stage runs
+
+# Edition note (START_CHECKLIST item 5)
+edition_note: |
+  Set this to your edition. The pipeline treats the TEXTBOOK as the authority
+  (authority: textbook_then_gaap); where the printed edition and current
+  guidance diverge, the divergence is recorded as a `conflict` flag rather
+  than silently resolved.
+
+  Do NOT commit the textbook, its chapter files, or any courseware export.
+
+
+# Corpus note
+corpus_note: |
+  The corpus is NOT in this repository and never will be — it is textbook-
+  derived and licensed for personal use. Point `paths.questions` at your local
+  copy. Pack boundaries are preserved by filename.

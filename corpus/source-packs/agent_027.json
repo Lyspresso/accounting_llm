@@ -1,0 +1,72 @@
+{
+  "agent_id": 27,
+  "lo": "LO 18-2",
+  "chapter": 18,
+  "title": "Recognize deferred tax liabilities attributable to taxable temporary differences",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-2",
+      "concept": "Initial recognition and multi-year measurement of DTL from taxable temporary difference (tax dep > GAAP dep); period-end tax JEs; full reversal settlement; noncurrent presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-2",
+      "concept": "DTL from taxable temporary difference (number-variant twin of Q1) — initial recognition, multi-year schedule, period-end JEs, full reverse",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-2",
+      "concept": "Prepaid expense taxable temp. difference — initial DTL and full reverse; installment receivable DTL; disposal of depreciable asset settles remaining DTL",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-2",
+      "concept": "Balance-sheet classification of DTL and composition of income tax expense",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 18-2",
+      "concept": "Which fact pattern creates a deferred tax liability (taxable temporary difference)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

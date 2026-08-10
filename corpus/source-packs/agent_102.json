@@ -1,0 +1,55 @@
+{
+  "agent_id": 102,
+  "lo": "LO 16-12",
+  "chapter": 16,
+  "title": "Account for debt settlement and restructuring",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-12",
+      "concept": "Initial recognition of troubled debt settlement/restructuring (asset transfer, equity transfer, terms with CF < CA and CF > CA); subsequent effective-interest schedule and maturity payment",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-12",
+      "concept": "Number-variant twin: asset settlement, equity settlement, modification CF < CA, modification CF > CA with schedule and maturity",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-12",
+      "concept": "Period-end adjusting / subsequent measurement under CF > CA modification; maturity settlement; classification of restructuring gain when CF < CA",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-12",
+      "concept": "Classification — when debtor recognizes immediate TDR gain vs computes new effective rate",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-12",
+      "concept": "Classification / measurement — FV basis for assets transferred vs equity granted in full settlement",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

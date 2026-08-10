@@ -1,0 +1,55 @@
+{
+  "agent_id": 105,
+  "lo": "LO 18-9",
+  "chapter": 18,
+  "title": "Apply intraperiod tax allocation",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-9",
+      "concept": "Initial recognition journal entry for income taxes with intraperiod allocation to continuing operations, discontinued operations, and OCI; tax allocation schedule; combined statement of comprehensive income",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-9",
+      "concept": "Number-variant twin: intraperiod tax JE and SCI when discontinued operations has a pretax gain and OCI has an unrealized loss",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-9",
+      "concept": "Period-end adjusting JE and income statement when intraperiod allocation interacts with a permanent difference, originating taxable temporary difference, and loss on disposal of a discontinued component",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-9",
+      "concept": "Classification / presentation — which financial statement components receive intraperiod tax allocation",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 18-9",
+      "concept": "Compute loss from discontinued operations net of tax under intraperiod allocation",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

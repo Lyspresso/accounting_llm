@@ -1,0 +1,71 @@
+{
+  "agent_id": 336,
+  "lo": "LO 11-9",
+  "chapter": 11,
+  "title": "Account for exchange of property, plant, and equipment",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-9",
+      "concept": "Full lifecycle commercial-substance exchange with gain and cash paid: initial recognition, dep schedule, period-end AD update (emphasis), exchange JE, subsequent dep, later disposal",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-9",
+      "concept": "Number-variant twin — loss exchange with cash received; full loss with or without commercial substance; period-end AD update; subsequent dep on new asset",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-9",
+      "concept": "Period-end dep update then lack-of-commercial-substance gain matrix (no cash / cash paid / partial gain cash received) vs full gain with commercial substance; subsequent dep on deferred-gain basis",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-9",
+      "concept": "Classification of full gain vs deferred gain vs partial gain on PPE nonmonetary exchanges",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "answers": ["B", "C"],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

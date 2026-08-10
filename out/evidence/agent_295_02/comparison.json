@@ -1,0 +1,97 @@
+{
+ "id": "agent_295#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 14,
+  "routed_stage2": 1,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: cash-effect classification of item 1",
+   "solver": "I - inflow $140,000 (proceeds from sale of building; reported gross)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: cash-effect classification of item 2",
+   "solver": "F - outflow $80,000 (repayment of bond principal at maturity)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: cash-effect classification of item 3",
+   "solver": "O - outflow $9,600 (interest paid)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: cash-effect classification of item 5",
+   "solver": "I - outflow $55,000 (purchase of production equipment)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: cash-effect classification of item 7",
+   "solver": "F - inflow $50,000 (proceeds from long-term nontrade bank note)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: cash-effect classification of item 8",
+   "solver": "F - outflow $12,000 (finance lease principal; lease interest would be O)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: cash-effect classification of item 10",
+   "solver": "F - outflow $7,500 (cash dividends paid)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: cash-effect classification of item 11",
+   "solver": "O - inflow $285,000 collections; O - outflow $240,000 suppliers/employees; O - outflow $14,000 income taxes"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: cash-effect classification of item 12",
+   "solver": "O - outflow $16,000 (trading securities bought for resale are operating, not investing)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: SCF reporting of item 4",
+   "solver": "Item 4 (accrued $2,400 interest): no cash effect, so it is NOT a cash flow line. Under the indirect method it appears only as a reconciling add-back (increase i"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: SCF reporting of item 6",
+   "solver": "Item 6 (land acquired for a $90,000 note): noncash investing and financing transaction. Excluded from the body of the SCF; disclosed in the supplemental schedul"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: SCF reporting of item 9",
+   "solver": "Item 9 (declared $10,000 dividends payable in Jan 2028): no cash effect, so it is NOT reported in financing activities this year. It is a noncash declaration (d"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "d: SCF section order and three-line cash reconciliation",
+   "solver": "SCF section order: (1) Cash flows from operating activities; (2) Cash flows from investing activities; (3) Cash flows from financing activities; then net increa"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "e: True/False with correction",
+   "solver": "False. Investing (and financing) cash flows must generally be reported GROSS - cash receipts and cash payments are shown separately (ASC 230-10-45-26), e.g. pro"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Gain on Sale of Building"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 10000.0,
+   "solver": "retained earnings",
+   "key_options": [
+    "retained earnings or dividends"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+  "agent_id": 294,
+  "lo": "LO 18-7",
+  "chapter": 18,
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-7",
+      "concept": "Initial recognition of DTA for NOL carryforward; expected utilization schedule (80% limit); subsequent measurement; period-end adjusting JEs for utilization and valuation allowance (emphasis); IS/BS presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-7",
+      "concept": "Number-variant twin — initial DTA for NOL; 80% utilization schedule; period-end adjusting JE for utilization and partial valuation allowance; presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-7",
+      "concept": "Loss carryback (earliest year first) then carryforward residual; Tax Refund Receivable; residual DTA; optional full VA; subsequent utilization (settlement) of remaining carryforward",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4-1",
+      "lo": "LO 18-7",
+      "concept": "Balance sheet classification of deferred tax asset from NOL carryforward",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4-2",
+      "lo": "LO 18-7",
+      "concept": "Identify correct period-end accounts for NOL carryback|carryforward with residual DTA",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "agent_id": 214,
+  "lo": "LO 12-7",
+  "chapter": 12,
+  "title": "Account for impairment of property, plant, and equipment",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-7",
+      "concept": "Recoverability → impairment initial recognition; subsequent multi-year depreciation schedule on new cost basis; period-end dep JE; disposal after impairment",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-7",
+      "concept": "Number-variant twin — recoverability, impairment JE, subsequent measurement schedule, period-end dep JE, disposal",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-7",
+      "concept": "Period-end multi-asset recoverability (pass vs fail); combined impairment JE; subsequent measurement schedule with residual on written-down asset",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-7",
+      "concept": "Recoverability uses undiscounted cash flows; impairment loss measured with fair value",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-7",
+      "concept": "New cost basis after impairment; no restoration; subsequent depreciation",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

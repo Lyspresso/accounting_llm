@@ -1,0 +1,72 @@
+{
+  "agent_id": 188,
+  "lo": "LO 10-1",
+  "chapter": 10,
+  "title": "Apply lower of cost or net realizable value rule to inventory",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-1",
+      "concept": "Subsequent measurement schedule for LCNRV allowance (multi-year rollforward); initial recognition of write-down; period-end adjusting JEs; disposal close of allowance",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-1",
+      "concept": "Number-variant twin — multi-year subsequent LCNRV allowance schedule; item/category/total measurement; initial and period-end JEs",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-1",
+      "concept": "Compute NRV from SP − disposal costs; item-level LCNRV period-end adjusting JE; direct inventory credit alternative; FIFO/avg use LCNRV vs LIFO/retail use LCM",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-1",
+      "concept": "Classification of LCNRV vs LCM by inventory cost method; which application level yields the lowest inventory",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "answers": ["C", "C"],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

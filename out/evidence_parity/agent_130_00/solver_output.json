@@ -1,0 +1,457 @@
+{
+ "id": "agent_130#00",
+ "rounding_convention": "decimal.Decimal throughout (no floats); ROUND_HALF_UP applied once per period to whole dollars; all source amounts are exact whole dollars so no rounding differences arise",
+ "answers": [
+  {
+   "label": "a: Change in Cash and cash equivalents (decrease)",
+   "value": -25000
+  },
+  {
+   "label": "a: Change in Restricted cash (increase)",
+   "value": 10000
+  },
+  {
+   "label": "a: Change in Accounts receivable, net (decrease)",
+   "value": -70000
+  },
+  {
+   "label": "a: Change in Inventory (increase)",
+   "value": 150000
+  },
+  {
+   "label": "a: Change in Equipment (increase)",
+   "value": 600000
+  },
+  {
+   "label": "a: Change in Accumulated depreciation-equipment (contra increase of 260,000; net asset change)",
+   "value": -260000
+  },
+  {
+   "label": "a: Change in Accounts payable (decrease)",
+   "value": -40000
+  },
+  {
+   "label": "a: Change in Salaries payable (decrease)",
+   "value": -20000
+  },
+  {
+   "label": "a: Change in Bonds payable (increase)",
+   "value": 150000
+  },
+  {
+   "label": "a: Change in Common stock, no-par (increase)",
+   "value": 100000
+  },
+  {
+   "label": "a: Change in Retained earnings (increase)",
+   "value": 215000
+  },
+  {
+   "label": "a: Beginning cash + cash equivalents + restricted cash",
+   "value": 95000
+  },
+  {
+   "label": "a: Ending cash + cash equivalents + restricted cash",
+   "value": 80000
+  },
+  {
+   "label": "a: Change in cash + cash equivalents + restricted cash (decrease)",
+   "value": -15000
+  },
+  {
+   "label": "c: Equipment rollforward - beginning balance",
+   "value": 1600000
+  },
+  {
+   "label": "c: Equipment rollforward - less original cost of equipment sold",
+   "value": -320000
+  },
+  {
+   "label": "c: Equipment rollforward - add equipment purchased for cash (derived)",
+   "value": 920000
+  },
+  {
+   "label": "c: Equipment rollforward - ending balance",
+   "value": 2200000
+  },
+  {
+   "label": "c: Accumulated depreciation rollforward - beginning balance",
+   "value": 160000
+  },
+  {
+   "label": "c: Accumulated depreciation rollforward - add depreciation expense",
+   "value": 320000
+  },
+  {
+   "label": "c: Accumulated depreciation rollforward - less accumulated depreciation on equipment sold",
+   "value": -60000
+  },
+  {
+   "label": "c: Accumulated depreciation rollforward - ending balance",
+   "value": 420000
+  },
+  {
+   "label": "c: Book value of equipment sold (cost 320,000 less accumulated depreciation 60,000)",
+   "value": 260000
+  },
+  {
+   "label": "c: Loss on sale of equipment (book value less 100,000 proceeds)",
+   "value": 160000
+  },
+  {
+   "label": "c: Retained earnings rollforward - beginning balance",
+   "value": 205000
+  },
+  {
+   "label": "c: Retained earnings rollforward - add net income",
+   "value": 422000
+  },
+  {
+   "label": "c: Retained earnings rollforward - less dividends declared and paid (derived)",
+   "value": -207000
+  },
+  {
+   "label": "c: Retained earnings rollforward - ending balance",
+   "value": 420000
+  },
+  {
+   "label": "d: Cash T-account - beginning balance (cash + restricted cash)",
+   "value": 95000
+  },
+  {
+   "label": "d: Cash T-account debit - Operating - Receipts from customers",
+   "value": 2470000
+  },
+  {
+   "label": "d: Cash T-account debit - Investing - Proceeds from sale of equipment",
+   "value": 100000
+  },
+  {
+   "label": "d: Cash T-account debit - Financing - Proceeds from issuing bonds payable",
+   "value": 150000
+  },
+  {
+   "label": "d: Cash T-account debit - Financing - Proceeds from issuing common stock",
+   "value": 100000
+  },
+  {
+   "label": "d: Cash T-account credit - Operating - Payments to suppliers of inventory",
+   "value": 1540000
+  },
+  {
+   "label": "d: Cash T-account credit - Operating - Payments for salaries",
+   "value": 120000
+  },
+  {
+   "label": "d: Cash T-account credit - Operating - Payments for interest",
+   "value": 48000
+  },
+  {
+   "label": "d: Cash T-account credit - Investing - Purchases of equipment",
+   "value": 920000
+  },
+  {
+   "label": "d: Cash T-account credit - Financing - Dividends paid",
+   "value": 207000
+  },
+  {
+   "label": "d: Cash T-account - total debits (cash receipts)",
+   "value": 2820000
+  },
+  {
+   "label": "d: Cash T-account - total credits (cash payments)",
+   "value": 2835000
+  },
+  {
+   "label": "d: Cash T-account - net cash provided by operating activities",
+   "value": 762000
+  },
+  {
+   "label": "d: Cash T-account - net cash used in investing activities",
+   "value": -820000
+  },
+  {
+   "label": "d: Cash T-account - net cash provided by financing activities",
+   "value": 43000
+  },
+  {
+   "label": "d: Cash T-account - net change in cash proved to balance sheet change",
+   "value": -15000
+  },
+  {
+   "label": "d: Cash T-account - ending balance (cash + restricted cash)",
+   "value": 80000
+  },
+  {
+   "label": "e: Operating - Cash received from customers",
+   "value": 2470000
+  },
+  {
+   "label": "e: Operating - Cash paid for inventory (merchandise)",
+   "value": -1540000
+  },
+  {
+   "label": "e: Operating - Cash paid for salaries",
+   "value": -120000
+  },
+  {
+   "label": "e: Operating - Cash paid for interest",
+   "value": -48000
+  },
+  {
+   "label": "e: Net cash provided by operating activities",
+   "value": 762000
+  },
+  {
+   "label": "e: Investing - Cash received from sale of equipment",
+   "value": 100000
+  },
+  {
+   "label": "e: Investing - Cash paid for equipment purchases",
+   "value": -920000
+  },
+  {
+   "label": "e: Net cash used in investing activities",
+   "value": -820000
+  },
+  {
+   "label": "e: Financing - Cash received from issuing bonds payable",
+   "value": 150000
+  },
+  {
+   "label": "e: Financing - Cash received from issuing common stock",
+   "value": 100000
+  },
+  {
+   "label": "e: Financing - Cash paid for dividends",
+   "value": -207000
+  },
+  {
+   "label": "e: Net cash provided by financing activities",
+   "value": 43000
+  },
+  {
+   "label": "e: Net decrease in cash, cash equivalents, and restricted cash",
+   "value": -15000
+  },
+  {
+   "label": "e: Cash, cash equivalents, and restricted cash, beginning of year",
+   "value": 95000
+  },
+  {
+   "label": "e: Cash, cash equivalents, and restricted cash, end of year",
+   "value": 80000
+  },
+  {
+   "label": "e: Supplemental - purchases of inventory during the year (COGS + inventory increase)",
+   "value": 1500000
+  },
+  {
+   "label": "f: Why the 160,000 loss is not a separate cash outflow",
+   "value": "The loss is a noncash bookkeeping figure, not a payment. No cash left the company because of it: it is simply the excess of the equipment's 260,000 carrying amount (320,000 cost less 60,000 accumulated depreciation) over the 100,000 cash received. A statement built from the cash T-account records only amounts that actually ran through Cash, and the only cash entry for the disposal was the 100,000 debit."
+  },
+  {
+   "label": "f: Where the equipment disposal appears",
+   "value": "In investing activities, as a single 100,000 cash inflow, 'Cash received from sale of equipment' (the full proceeds). The cost, the accumulated depreciation removed, and the 160,000 loss appear only in the reconstructing journal entry / the equipment and accumulated depreciation rollforwards, not on the statement of cash flows. Under the indirect method the same loss would instead be added back to net income; under the direct method used here there is no add-back line at all."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b - entry (a) collections from customers / sales",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 2470000,
+     "credit": 0
+    },
+    {
+     "account": "Accounts receivable, net",
+     "debit": 0,
+     "credit": 70000
+    },
+    {
+     "account": "Sales revenue",
+     "debit": 0,
+     "credit": 2400000
+    }
+   ]
+  },
+  {
+   "part": "b - entry (b) purchases and payments for inventory",
+   "lines": [
+    {
+     "account": "Cost of goods sold",
+     "debit": 1350000,
+     "credit": 0
+    },
+    {
+     "account": "Inventory",
+     "debit": 150000,
+     "credit": 0
+    },
+    {
+     "account": "Accounts payable",
+     "debit": 40000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 1540000
+    }
+   ]
+  },
+  {
+   "part": "b - entry (c) salary expense and payments",
+   "lines": [
+    {
+     "account": "Salary expense",
+     "debit": 100000,
+     "credit": 0
+    },
+    {
+     "account": "Salaries payable",
+     "debit": 20000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 120000
+    }
+   ]
+  },
+  {
+   "part": "b - entry (d) interest expense paid in cash",
+   "lines": [
+    {
+     "account": "Interest expense",
+     "debit": 48000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 48000
+    }
+   ]
+  },
+  {
+   "part": "b - entry (e) depreciation expense (noncash)",
+   "lines": [
+    {
+     "account": "Depreciation expense",
+     "debit": 320000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated depreciation-equipment",
+     "debit": 0,
+     "credit": 320000
+    }
+   ]
+  },
+  {
+   "part": "b - entry (f) sale of equipment at a loss",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 100000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated depreciation-equipment",
+     "debit": 60000,
+     "credit": 0
+    },
+    {
+     "account": "Loss on sale of equipment",
+     "debit": 160000,
+     "credit": 0
+    },
+    {
+     "account": "Equipment",
+     "debit": 0,
+     "credit": 320000
+    }
+   ]
+  },
+  {
+   "part": "b - entry (g) equipment purchased for cash",
+   "lines": [
+    {
+     "account": "Equipment",
+     "debit": 920000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 920000
+    }
+   ]
+  },
+  {
+   "part": "b - entry (h) bonds payable issued for cash",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 150000,
+     "credit": 0
+    },
+    {
+     "account": "Bonds payable",
+     "debit": 0,
+     "credit": 150000
+    }
+   ]
+  },
+  {
+   "part": "b - entry (i) common stock issued for cash",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 100000,
+     "credit": 0
+    },
+    {
+     "account": "Common stock, no-par",
+     "debit": 0,
+     "credit": 100000
+    }
+   ]
+  },
+  {
+   "part": "b - entry (j) dividends declared and paid",
+   "lines": [
+    {
+     "account": "Retained earnings (Dividends)",
+     "debit": 207000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 207000
+    }
+   ]
+  },
+  {
+   "part": "b - entry (k) transfer of cash to restricted cash (within the total cash pool; no effect on total cash)",
+   "lines": [
+    {
+     "account": "Restricted cash",
+     "debit": 10000,
+     "credit": 0
+    },
+    {
+     "account": "Cash and cash equivalents",
+     "debit": 0,
+     "credit": 10000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Restricted cash is included in the total-cash pool reconciled by the statement (cash + cash equivalents + restricted cash: 95,000 beginning, 80,000 ending, 15,000 decrease), so the 10,000 transfer into restricted cash is an internal movement within that pool and is not an investing outflow; entry (k) records it. Derivations: equipment purchases 920,000 solved from the equipment rollforward; dividends 207,000 solved from the retained earnings rollforward; the accumulated depreciation rollforward (160,000 + 320,000 - 60,000 = 420,000) and the loss (260,000 book value - 100,000 proceeds = 160,000) both check against the givens. Cash T-account proof: 95,000 + 2,820,000 debits - 2,835,000 credits = 80,000."
+}

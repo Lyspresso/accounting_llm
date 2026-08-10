@@ -1,0 +1,88 @@
+{
+  "id": "agent_097#01",
+  "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent applied PER PERIOD (each reporting stretch rounded when recognized), total term interest = sum of the rounded period amounts; interest accrued months/12 (Face x rate x months/12); note recorded at face since stated rate = market, so no PV factor is used.",
+  "answers": [
+    {
+      "label": "b: Year 1 interest (Aug 1 - Dec 31, Year 1)",
+      "value": 4000
+    },
+    {
+      "label": "b: Year 2 interest (Jan 1 - May 31, Year 2)",
+      "value": 4000
+    },
+    {
+      "label": "b: total interest over the 10-month term",
+      "value": 8000
+    },
+    {
+      "label": "d: Notes Payable on the December 31, Year 1 balance sheet (current liability)",
+      "value": 120000
+    },
+    {
+      "label": "d: Interest Payable on the December 31, Year 1 balance sheet (current liability)",
+      "value": 4000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "August 1, Year 1",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 120000,
+          "credit": 0
+        },
+        {
+          "account": "Notes Payable",
+          "debit": 0,
+          "credit": 120000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 1",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 4000,
+          "credit": 0
+        },
+        {
+          "account": "Interest Payable",
+          "debit": 0,
+          "credit": 4000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "May 31, Year 2",
+      "lines": [
+        {
+          "account": "Notes Payable",
+          "debit": 120000,
+          "credit": 0
+        },
+        {
+          "account": "Interest Payable",
+          "debit": 4000,
+          "credit": 0
+        },
+        {
+          "account": "Interest Expense",
+          "debit": 4000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 128000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Term splits 5 months in Year 1 (Aug-Dec) and 5 months in Year 2 (Jan-May), 10 months total, matching the stated 10-month term. Interest is cash-paid only at maturity, so Year 1 interest sits in Interest Payable at 12/31/Yr1 and is cleared in the May 31, Year 2 settlement. Both liabilities are current at 12/31/Yr1 because maturity is within twelve months."
+}

@@ -1,0 +1,71 @@
+{
+  "agent_id": 285,
+  "lo": "LO 17-3",
+  "chapter": 17,
+  "title": "Account for a basic operating lease for a lessee",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-3",
+      "concept": "Classify as operating; measure ROU/liability; liability + ROU schedules; initial JEs; period-end single lease-expense adjusting JE; maturity; BS/IS presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-3",
+      "concept": "Number-variant twin — recompute PV, liability/ROU schedules, initial and period-end JEs, maturity",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-3",
+      "concept": "Given a liability schedule mid-life, prepare period-end adjusting JEs (single lease expense) and YE BS/IS amounts",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-3",
+      "concept": "Income-statement presentation of operating-lease cost vs finance-lease cost",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 17-3",
+      "concept": "Period-end adjusting JE composition for a basic operating lease",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

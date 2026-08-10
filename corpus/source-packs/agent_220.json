@@ -1,0 +1,81 @@
+{
+  "agent_id": 220,
+  "lo": "LO 13-4",
+  "chapter": 13,
+  "title": "Account for change in estimate in finite life intangible assets",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-4",
+      "concept": "Subsequent measurement schedule for a finite-life patent; prospective revision of useful life; period-end amortization after change; disposal with gain",
+      "type": "multipart",
+      "company": "Meridian Vale Biotech",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-4",
+      "concept": "Number-variant twin: subsequent measurement schedule for a finite-life license; prospective useful-life shortening; period-end JE; disposal with loss",
+      "type": "multipart",
+      "company": "Glacier Peak Industrial",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-4",
+      "concept": "Subsequent measurement with dual prospective revision of useful life and residual; period-end amortization; mid-year disposal with amortization update",
+      "type": "multipart",
+      "company": "Thornfield Apparel Brands",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-4",
+      "concept": "Classification of accounting treatment for change in estimated useful life of a finite-life intangible",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 13-4",
+      "concept": "Change in amortization method as estimate effected by principle (prospective)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_220.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_220.json"
+}

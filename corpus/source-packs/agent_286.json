@@ -1,0 +1,63 @@
+{
+  "agent_id": 286,
+  "lo": "LO 17-4",
+  "chapter": 17,
+  "title": "Account for complex finance leases for a lessee",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-4",
+      "concept": "Complex finance lease with IDC and lease incentive; partial-period period-end interest and ROU amortization",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-4",
+      "concept": "Number-variant twin: IDC + incentive finance lease with full-year period-end adjusting JEs through maturity",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-4",
+      "concept": "Guaranteed residual: classification PV vs liability measurement; schedule; period-end accruals; residual settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-4",
+      "concept": "MC: residual guarantee classification vs liability amounts; ROU amort period when purchase option reasonably certain",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

@@ -1,0 +1,178 @@
+{
+  "id": "agent_270#00",
+  "rounding_convention": "decimal.Decimal only, no floats; ROUND_HALF_UP to whole cents applied per period/per computed amount. Interest accrued on a months/12 basis (face x 9% x months/12). Bonds bought at par, so amortized cost = face throughout; no discount/premium amortization and no PV table factors needed.",
+  "answers": [
+    {
+      "label": "c: TS amortized cost, December 31 Year 1",
+      "value": 60000
+    },
+    {
+      "label": "c: TS fair value, December 31 Year 1",
+      "value": 57000
+    },
+    {
+      "label": "c: unrealized holding gain (loss), Year 1",
+      "value": -3000
+    },
+    {
+      "label": "c: existing FVA account balance before adjustment",
+      "value": 0
+    },
+    {
+      "label": "c: increase (decrease) to FVA account needed, December 31 Year 1",
+      "value": -3000
+    },
+    {
+      "label": "d: Year 1 balance-sheet carrying amount of trading securities",
+      "value": 57000
+    },
+    {
+      "label": "d: Year 1 interest revenue",
+      "value": 900
+    },
+    {
+      "label": "d: Year 1 unrealized holding gain (loss) on trading securities",
+      "value": -3000
+    },
+    {
+      "label": "d: Year 1 net pretax income effect of the investment",
+      "value": -2100
+    },
+    {
+      "label": "f: required FVA ending balance, December 31 Year 2",
+      "value": 0
+    },
+    {
+      "label": "f: existing FVA account balance, December 31 Year 2",
+      "value": -3000
+    },
+    {
+      "label": "f: increase (decrease) to FVA account needed, December 31 Year 2",
+      "value": 3000
+    },
+    {
+      "label": "f: reconciliation - Year 1 income statement gain (loss)",
+      "value": -3000
+    },
+    {
+      "label": "f: reconciliation - Year 2 realized gain (loss) on sale",
+      "value": -2400
+    },
+    {
+      "label": "f: reconciliation - Year 2 unrealized gain (loss)",
+      "value": 3000
+    },
+    {
+      "label": "f: reconciliation - Year 2 income statement gain (loss)",
+      "value": 600
+    },
+    {
+      "label": "f: reconciliation - total gain (loss) recognized over holding period",
+      "value": -2400
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "November 1, Year 1",
+      "description": "To record purchase of trading securities between interest dates",
+      "lines": [
+        {
+          "account": "Investment in Trading Securities--Cascade Bonds",
+          "debit": 60000,
+          "credit": 0
+        },
+        {
+          "account": "Interest Receivable",
+          "debit": 1800,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 61800
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "December 31, Year 1",
+      "description": "To record receipt of semiannual cash interest",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 2700,
+          "credit": 0
+        },
+        {
+          "account": "Interest Receivable",
+          "debit": 0,
+          "credit": 1800
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 900
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 1",
+      "description": "Period-end adjustment of trading securities to fair value (FV-NI)",
+      "lines": [
+        {
+          "account": "Unrealized Gain or Loss--Income",
+          "debit": 3000,
+          "credit": 0
+        },
+        {
+          "account": "Fair Value Adjustment--Trading Securities",
+          "debit": 0,
+          "credit": 3000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "March 15, Year 2",
+      "description": "To record sale of trading securities; gain/loss = cash received less amortized cost (Fair Value Adjustment not adjusted at sale)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 57600,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Sale of Investment",
+          "debit": 2400,
+          "credit": 0
+        },
+        {
+          "account": "Investment in Trading Securities--Cascade Bonds",
+          "debit": 0,
+          "credit": 60000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "December 31, Year 2",
+      "description": "To eliminate the Fair Value Adjustment balance (no trading securities held)",
+      "lines": [
+        {
+          "account": "Fair Value Adjustment--Trading Securities",
+          "debit": 3000,
+          "credit": 0
+        },
+        {
+          "account": "Unrealized Gain or Loss--Income",
+          "debit": 0,
+          "credit": 3000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "LO 14-7 (Appendix 14A) period-end-only variant. Accrued interest paid to the seller on 11/1/Y1 (4 months, Jul 1 bond date to Nov 1) is debited to Interest Receivable, not to the investment, so amortized cost stays at par $60,000. The 12/31/Y1 coupon of $2,700 (6 months) clears that $1,800 receivable and records only the $900 earned (2 months). No FVA entry is made on the 3/15/Y2 sale date: the loss is proceeds $57,600 less amortized cost $60,000. The stale $3,000 credit FVA balance is swept out on 12/31/Y2 because no TS remain. Year 2 has no interest revenue (next coupon was 6/30/Y2 and the stem directs that March accrued interest be ignored)."
+}

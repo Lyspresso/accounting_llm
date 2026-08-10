@@ -1,0 +1,78 @@
+{
+  "agent_id": 1,
+  "lo": "LO 14-1",
+  "chapter": 14,
+  "title": "Account for debt securities measured at amortized cost",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-1",
+      "concept": "Initial recognition JE + effective-interest subsequent measurement (discount)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-1",
+      "concept": "Number-variant twin — premium purchase, effective-interest schedule, amortization JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-1",
+      "concept": "Period-end adjusting JE for HTM interest accrual; amortized-cost presentation",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-1",
+      "concept": "HTM amortized-cost classification criteria and pricing outcome",
+      "type": "MC",
+      "n_mc": 2,
+      "ok": true
+    },
+    {
+      "qid": "QL",
+      "lo": "LO 14-1",
+      "concept": "Multi-period HTM discount life cycle (schedule → period-end → sale)",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,16 @@
+{
+ "id": "agent_052#01",
+ "pack_id": "agent_052",
+ "provenance_tier": "adjudicated",
+ "countersigned": false,
+ "countersign_priority": null,
+ "expected_verdict": "PASS",
+ "guards_rule": "key_silent_derived",
+ "rationale": "FIFO/LIFO running balances correct from the key's own layers",
+ "truth_as_of_hash": "a84707e726aaa9d243c40d0b6446d59524f6e951ba9acf20cfa60be672bbf092",
+ "truth_as_of_bytes": "a84707e726aaa9d243c40d0b6446d59524f6e951ba9acf20cfa60be672bbf092",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": null,
+ "cross_check_evidence": null
+}

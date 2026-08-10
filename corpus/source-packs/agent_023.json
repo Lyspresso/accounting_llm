@@ -1,0 +1,121 @@
+{
+  "agent_id": 23,
+  "lo": "LO 17-3",
+  "chapter": 17,
+  "title": "Account for a basic operating lease for a lessee",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-3",
+      "concept": "Initial recognition JE + liability/ROU schedules + subsequent and maturity JEs (basic operating lease lessee)",
+      "type": "multipart",
+      "company": "CedarPeak Outfitters",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "key_amounts": {
+        "pmt": 31764.04,
+        "rate": 0.06,
+        "n": 3,
+        "pv_rou_liability": 90000.0,
+        "sl_lease_expense": 31764.04,
+        "y1_interest": 3494.16,
+        "y1_rou_reduction": 28269.88,
+        "y2_interest": 1797.96,
+        "y2_rou_reduction": 29966.08,
+        "y3_interest": 0.0,
+        "y3_rou_reduction": 31764.04
+      },
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-3",
+      "concept": "Number-variant twin — full schedules and multi-year JEs with different n, rate, and payment",
+      "type": "multipart",
+      "company": "SummitBrite Media",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "key_amounts": {
+        "pmt": 25000.0,
+        "rate": 0.05,
+        "n": 5,
+        "pv_rou_liability": 113648.76,
+        "sl_lease_expense": 25000.0,
+        "y1_interest": 4432.44,
+        "y1_rou_reduction": 20567.56,
+        "y2_interest": 3404.06,
+        "y2_rou_reduction": 21595.94
+      },
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-3",
+      "concept": "Period-end adjusting JE; current/noncurrent presentation; final-year settlement",
+      "type": "multipart",
+      "company": "Rivergate Labs",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "key_amounts": {
+        "pmt": 32670.73,
+        "rate": 0.06,
+        "n": 4,
+        "pv_rounded_commencement": 120000.0,
+        "liab_after_y2_payment": 59898.28,
+        "rou_before_y2_ye": 92569.01,
+        "y2_interest": 3593.9,
+        "y2_rou_reduction": 29076.83,
+        "y2_total_liab": 63492.18,
+        "y2_current_liab": 32670.73,
+        "y2_noncurrent_liab": 30821.45
+      },
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-3",
+      "concept": "Operating vs finance classification outcome and income-statement presentation for the lessee",
+      "type": "MC",
+      "answer": "C",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 17-3",
+      "concept": "Classification / presentation of operating lease ROU asset and liability on the balance sheet",
+      "type": "MC",
+      "answer": "B",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,103 @@
+{
+ "id": "agent_326#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "failed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 8,
+  "routed_stage2": 5,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "SOLVER_MISMATCH",
+   "label": "a: cost ratio, conventional retail (percent)",
+   "solver": 50
+  },
+  {
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: average cost retail cost ratio if net markdowns included in denominator (percent)",
+   "solver": 53.49
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss from Abnormal Casualty (Theft)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory (ending, 12/31/Yr 1 \u2014 estimated)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Purchase Returns"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory (beginning, 1/1/Yr 1)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Cost of Goods Sold (inventory shrinkage)"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 20000.0,
+   "solver": "loss from abnormal casualty theft",
+   "key_options": [
+    "casualty loss or cogs abnormal"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 40000.0,
+   "solver": "inventory ending 12 31 yr 1 estimated",
+   "key_options": [
+    "inventory ending estimated"
+   ]
+  },
+  {
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "side": "dr",
+   "amount": 10000.0,
+   "solver": "purchase returns",
+   "n": 1
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 50000.0,
+   "solver": "inventory beginning 1 1 yr 1",
+   "key_options": [
+    "inventory beginning"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 180000.0,
+   "solver": "purchases",
+   "key_options": [
+    "purchases net of returns freight in after casualty removal"
+   ]
+  },
+  {
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "side": "cr",
+   "amount": 10000.0,
+   "solver": "freight in",
+   "n": 1
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 3000.0,
+   "solver": "cost of goods sold inventory shrinkage",
+   "key_options": [
+    "cost of goods sold shrinkage"
+   ]
+  }
+ ]
+}

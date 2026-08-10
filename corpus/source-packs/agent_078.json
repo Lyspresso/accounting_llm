@@ -1,0 +1,47 @@
+{
+  "agent_id": 78,
+  "lo": "LO 12-2",
+  "chapter": 12,
+  "title": "Account for depreciation in partial periods",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-2",
+      "concept": "Initial recognition of PPE acquired mid-period; exact fractional-period depreciation schedules under multiple methods; period-end adjusting JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-2",
+      "concept": "Number-variant twin — initial recognition JE; exact fractional SL and DDB schedules; compare half-year convention to exact months",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-2",
+      "concept": "Period-end / through-date partial depreciation before disposal; disposal JE (gain/loss); full-year and full-month conventions classification",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-2",
+      "concept": "Identify correct partial-period depreciation amount under a stated convention",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-2",
+      "concept": "Prorate first SYD layer when asset is acquired mid-year",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

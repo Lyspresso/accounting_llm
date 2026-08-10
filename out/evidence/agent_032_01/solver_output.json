@@ -1,0 +1,83 @@
+{
+  "id": "agent_032#01",
+  "rounding_convention": "decimal.Decimal throughout; every monetary figure quantized to cents with ROUND_HALF_UP applied per period (round-per-period, not round-at-end). No present-value discounting in this item, so no PV table-factor vs. exact-formula election applies.",
+  "answers": [
+    {
+      "label": "a: Deferred tax asset at 12/31/Year 1",
+      "value": 30000
+    },
+    {
+      "label": "b: Year 1 operating loss before income taxes",
+      "value": -120000
+    },
+    {
+      "label": "b: Year 1 income tax benefit (deferred)",
+      "value": 30000
+    },
+    {
+      "label": "b: Year 1 net loss",
+      "value": -90000
+    },
+    {
+      "label": "d: Net deferred tax asset reported at 12/31/Year 2",
+      "value": 18000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "December 31, Year 1 - to record the deferred tax asset and income tax benefit from the NOL carryforward (no valuation allowance; full realization is MLTN)",
+      "lines": [
+        {
+          "account": "Deferred Tax Asset",
+          "debit": 30000,
+          "credit": 0
+        },
+        {
+          "account": "Income Tax Expense",
+          "debit": 0,
+          "credit": 30000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "December 31, Year 2 - to record income tax expense (NOL utilization limited to 80% of taxable income, plus current tax on the unsheltered 20%)",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 7500,
+          "credit": 0
+        },
+        {
+          "account": "Deferred Tax Asset",
+          "debit": 0,
+          "credit": 6000
+        },
+        {
+          "account": "Income Tax Payable",
+          "debit": 0,
+          "credit": 1500
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "December 31, Year 2 - to establish the valuation allowance for the 25% of the remaining deferred tax asset that is not more likely than not to be realized",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 6000,
+          "credit": 0
+        },
+        {
+          "account": "Valuation Allowance for Deferred Tax Asset",
+          "debit": 0,
+          "credit": 6000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part (a): entire $120,000 loss carried forward (carryforward only) x 25% = $30,000 DTA; no valuation allowance at 12/31/Y1 because full realization is MLTN. Part (c): the 80% limitation caps the Year 2 NOL deduction at 80% x $30,000 = $24,000, so the DTA falls by $24,000 x 25% = $6,000 and the remaining 20% of taxable income ($6,000) is taxed at 25% for $1,500 payable; income tax expense is the $7,500 plug. Part (d): remaining carryforward $96,000 x 25% = $24,000 DTA, of which 25% is not MLTN realizable, so a $6,000 valuation allowance is established (beginning balance $0) and the net DTA reported is $18,000. The Year 1 credit is to Income Tax Expense, which is presented on the Year 1 income statement as an income tax benefit."
+}

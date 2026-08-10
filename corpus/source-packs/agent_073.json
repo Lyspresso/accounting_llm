@@ -1,0 +1,63 @@
+{
+  "agent_id": 73,
+  "lo": "LO 11-8",
+  "chapter": 11,
+  "title": "Account for contributed property, plant, and equipment",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-8",
+      "concept": "Initial recognition of unconditional contributed land and building at FV net of transfer costs; subsequent SL depreciation schedule and period-end adjusting JE",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-8",
+      "concept": "Number-variant twin: lump-sum appraisal allocation to land/building, contribution revenue net of costs, subsequent depreciation",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-8",
+      "concept": "Donor-imposed condition (defer then recognize contribution revenue); disposal of previously contributed PPE with period-end dep update",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-8",
+      "concept": "Classification of contribution vs exchange; measurement of contribution revenue when recipient pays cash",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

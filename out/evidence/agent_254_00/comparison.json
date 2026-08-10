@@ -1,0 +1,42 @@
+{
+ "id": "agent_254#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 8,
+  "routed_stage2": 3,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 400000.0,
+   "solver": "preferred stock",
+   "key_options": [
+    "convertible preferred stock 100 par"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 500000.0,
+   "solver": "bonds payable",
+   "key_options": [
+    "bonds payable series x convertible"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 20000.0,
+   "solver": "retained earnings",
+   "key_options": [
+    "interest expense",
+    "preferred dividends or retained earnings"
+   ]
+  }
+ ]
+}

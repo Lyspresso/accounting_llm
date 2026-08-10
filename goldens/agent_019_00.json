@@ -1,0 +1,16 @@
+{
+ "id": "agent_019#00",
+ "pack_id": "agent_019",
+ "provenance_tier": "adjudicated",
+ "countersigned": false,
+ "countersign_priority": null,
+ "expected_verdict": "PASS",
+ "guards_rule": "latex_number_extraction",
+ "rationale": "key states figures in LaTeX prose",
+ "truth_as_of_hash": "54206c747a65c572d6b8070b3ee4f3ea0f228a1e873fef599ad8ca4b1168f143",
+ "truth_as_of_bytes": "825186d3aaf5ba7e652a1a4435ebb1390f870c4f3d50926e9a3a432111abc6b5",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": null,
+ "cross_check_evidence": null
+}

@@ -1,0 +1,73 @@
+{
+  "agent_id": 158,
+  "lo": "LO 18-2",
+  "chapter": 18,
+  "title": "Recognize deferred tax liabilities attributable to taxable temporary differences",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-2",
+      "concept": "Subsequent measurement schedule of cumulative taxable temporary difference and DTL; initial recognition JE; multi-year period-end tax adjusting JEs; full reverse/settlement of DTL; noncurrent presentation and current vs deferred disclosure",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-2",
+      "concept": "Number-variant twin: DTL from taxable temporary difference under 100% bonus depreciation; subsequent measurement schedule; period-end JEs; full reverse settlement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-2",
+      "concept": "Period-end adjusting JE for prepaid-expense taxable temp. difference and full reverse; installment receivable DTL; disposal of depreciable asset settles remaining DTL; classification and disclosure",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-2",
+      "concept": "Balance-sheet classification of DTL (noncurrent) and composition of total income tax expense (current + deferred)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 18-2",
+      "concept": "Identify which situation creates a taxable temporary difference and therefore a deferred tax liability",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

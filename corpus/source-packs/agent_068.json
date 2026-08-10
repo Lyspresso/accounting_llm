@@ -1,0 +1,63 @@
+{
+  "agent_id": 68,
+  "lo": "LO 11-3",
+  "chapter": 11,
+  "title": "Account for acquisition of property, plant, and equipment through debt and equity issuances",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-3",
+      "concept": "PPE acquired with noninterest-bearing note — record at PV of debt when asset FV not determinable; amortize discount with effective interest through maturity",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-3",
+      "concept": "Number-variant twin — PPE via noninterest note; PV measurement, effective-interest schedule, settlement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-3",
+      "concept": "PPE acquired with common stock (more clearly evident FV); noninterest note when asset FV known; balance-sheet classification of discount and equity",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-3",
+      "concept": "Classification of measurement basis when acquiring PPE with notes or stock",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

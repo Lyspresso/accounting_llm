@@ -1,0 +1,143 @@
+{
+ "id": "agent_131#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 14,
+  "routed_stage2": 7,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "b: internal-use software amortization schedule 2025-2028 (year, beginning carrying amount, amortization, ending carrying amount)",
+   "solver": "[[2025, 240000, 30000, 210000], [2026, 210000, 60000, 150000], [2027, 150000, 60000, 90000], [2028, 90000, 60000, 30000]]"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "c: classification of the cloud hosting arrangement",
+   "solver": "Service contract"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "e: cloud implementation asset subsequent measurement schedule (year, beginning BV, amortization, ending BV)",
+   "solver": "[[2025, 80000, 20000, 60000], [2026, 60000, 20000, 40000], [2027, 40000, 20000, 20000], [2028, 20000, 20000, 0]]"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "f(i): balance sheet presentation of capitalized cloud implementation costs",
+   "solver": "Balance sheet (ASC 350-40-45-2): present the capitalized implementation costs in the SAME line item in which a prepayment of the hosting fees would be presented"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "f(ii): income statement presentation of amortization of cloud implementation costs",
+   "solver": "Income statement (ASC 350-40-45-1): present amortization of the capitalized implementation costs in the SAME line item as the expense for the hosting/subscripti"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "f(iii): statement of cash flows classification of cloud implementation cash flows",
+   "solver": "Statement of cash flows (ASC 350-40-45-3): classify the cash paid for the capitalized implementation costs in the SAME manner as the cash flows for the hosting "
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Research and Development Expense (Preliminary Project Stage)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Software Intangible Asset (Internal-Use Software)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Training Expense"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Software Amortization Expense"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Amortization - Software Intangible Asset (Software Intangible Asset)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Capitalized Cloud Computing Implementation Costs"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Cloud Subscription (Hosting) Expense"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Cloud Subscription (Hosting) Expense - Amortization of Implementation Costs"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Capitalized Cloud Computing Implementation Costs"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 18000.0,
+   "solver": "research and development expense preliminary project stage",
+   "key_options": [
+    "software expense or r d operating expense"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 240000.0,
+   "solver": "software intangible asset internal use software",
+   "key_options": [
+    "internal use software intangible asset"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 30000.0,
+   "solver": "accumulated amortization software intangible asset software intangible asset",
+   "key_options": [
+    "internal use software intangible asset"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 80000.0,
+   "solver": "capitalized cloud computing implementation costs",
+   "key_options": [
+    "cloud implementation asset intangible prepaid type hosting asset"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 96000.0,
+   "solver": "cloud subscription hosting expense",
+   "key_options": [
+    "cloud hosting subscription expense"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 20000.0,
+   "solver": "cloud subscription hosting expense amortization of implementation costs",
+   "key_options": [
+    "cloud hosting implementation amortization expense"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 20000.0,
+   "solver": "capitalized cloud computing implementation costs",
+   "key_options": [
+    "cloud implementation asset"
+   ]
+  }
+ ]
+}

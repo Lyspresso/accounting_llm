@@ -1,0 +1,40 @@
+{
+  "agent_id": 208,
+  "lo": "LO 12-11",
+  "chapter": 12,
+  "title": "Depreciation under GAAP and under the Internal Revenue Code are different",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-11",
+      "concept": "Initial recognition at cost; full multi-year MACRS tax subsequent measurement schedule (rates × cost, tax-basis roll-forward) vs GAAP straight-line schedule; Year-1 and Year-2 period-end book adjusting JEs; total book vs tax comparison",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-11",
+      "concept": "Number-variant twin: initial PPE recognition; full MACRS three-year tax subsequent measurement schedule vs book SL; multi-year period-end book JEs; tax basis vs book carrying amount after Year 2",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-11",
+      "concept": "Subsequent book and tax bases after multi-year depreciation schedules; period-end book adjusting JE in year of sale; disposal JE; book vs tax gain/loss classification and life-to-date pretax reconciliation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-11",
+      "concept": "Classification of MACRS as tax-only system; residual ignored; statutory rates vs GAAP useful life and residual",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

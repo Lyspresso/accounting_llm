@@ -1,0 +1,110 @@
+{
+  "id": "agent_214#02",
+  "rounding_convention": "decimal.Decimal only, no floats; ROUND_HALF_UP to the cent applied per period (each year's straight-line depreciation rounded individually, final year absorbs drift so book value lands on residual); no present-value factors in this item",
+  "answers": [
+    {
+      "label": "a: Asset A (Precision press) carrying amount at Dec 31, Year 3",
+      "value": 300000
+    },
+    {
+      "label": "a: Asset B (Curing oven) carrying amount at Dec 31, Year 3",
+      "value": 500000
+    },
+    {
+      "label": "a: Asset C (Assembly conveyor) carrying amount at Dec 31, Year 3",
+      "value": 750000
+    },
+    {
+      "label": "a: Asset A (Precision press) impairment loss",
+      "value": 0
+    },
+    {
+      "label": "a: Asset B (Curing oven) impairment loss",
+      "value": 190000
+    },
+    {
+      "label": "a: Asset C (Assembly conveyor) impairment loss",
+      "value": 0
+    },
+    {
+      "label": "b: total impairment loss recorded in the single Dec 31, Year 3 entry",
+      "value": 190000
+    },
+    {
+      "label": "c: Asset B depreciation expense, Year 4",
+      "value": 60000
+    },
+    {
+      "label": "c: Asset B depreciation expense, Year 5",
+      "value": 60000
+    },
+    {
+      "label": "c: Asset B depreciation expense, Year 6",
+      "value": 60000
+    },
+    {
+      "label": "c: Asset B depreciation expense, Year 7",
+      "value": 60000
+    },
+    {
+      "label": "c: Asset B depreciation expense, Year 8",
+      "value": 60000
+    },
+    {
+      "label": "c: Asset B carrying amount at end of Year 4",
+      "value": 250000
+    },
+    {
+      "label": "c: Asset B carrying amount at end of Year 5",
+      "value": 190000
+    },
+    {
+      "label": "c: Asset B carrying amount at end of Year 6",
+      "value": 130000
+    },
+    {
+      "label": "c: Asset B carrying amount at end of Year 7",
+      "value": 70000
+    },
+    {
+      "label": "c: Asset B carrying amount at end of Year 8",
+      "value": 10000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "date": "December 31, Year 3",
+      "lines": [
+        {
+          "account": "Loss on Impairment",
+          "debit": 190000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation (Curing oven)",
+          "debit": 0,
+          "credit": 190000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 4",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 60000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation (Curing oven)",
+          "debit": 0,
+          "credit": 60000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part a recoverability results: Asset A: carrying $300,000.00 vs recoverable $350,000 and fair value $280,000 -- PASSES recoverability (recoverable cost >= carrying amount) -> no impairment loss; loss $0.00. Asset B: carrying $500,000.00 vs recoverable $420,000 and fair value $310,000 -- FAILS recoverability (recoverable cost < carrying amount) -> impairment test applies; loss $190,000.00. Asset C: carrying $750,000.00 vs recoverable $750,000 and fair value $600,000 -- PASSES recoverability (recoverable cost >= carrying amount) -> no impairment loss; loss $0.00. Asset C is the tie case: undiscounted recoverable cost of $750,000 exactly equals its $750,000 carrying amount, so it is recoverable and no loss is recognized even though fair value is $600,000. Part c: Asset B's new cost basis is its $310,000 fair value; ($310,000 - $10,000 residual) / 5 years = $60,000 straight-line per year for Years 4-8, ending at the $10,000 residual. Part d (qualitative, no figure to report): the recoverability test is the gate, and it uses UNDISCOUNTED expected future net cash flows, not fair value. If those undiscounted cash flows from using and eventually disposing of the asset equal or exceed the carrying amount, the carrying amount is considered recoverable and step 2 is never reached -- so no loss is recorded even though the asset's fair value (a discounted / market-exit measure) is below carrying amount. This keeps write-downs to clearly impaired assets only; Asset C illustrates it."
+}

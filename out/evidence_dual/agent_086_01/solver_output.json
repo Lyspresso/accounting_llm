@@ -1,0 +1,530 @@
+{
+ "id": "agent_086#01",
+ "rounding_convention": "decimal.Decimal throughout; rates/monthly amounts at full precision, every JE and schedule amount rounded to whole dollars with ROUND_HALF_UP applied once per period. Schedules closed to EXACTLY zero by plugging the final period with the remaining unamortized balance (the $11,200 defense layer runs $862 + 6 x $1,723 + final plug $1,722 = $11,200).",
+ "answers": [
+  {
+   "label": "a: item 1 classification - Copyright (printing rights)",
+   "value": "finite-life intangible asset (copyright, 12-year useful life; amortize over useful life, not the longer legal life)"
+  },
+  {
+   "label": "a: item 2 classification - Franchise",
+   "value": "indefinite-life intangible asset, not goodwill (franchise renewable indefinitely; no amortization, impairment-test only)"
+  },
+  {
+   "label": "a: item 3 classification - Patent",
+   "value": "finite-life intangible asset (patent; amortize over 7-year useful life, shorter than the 14-year remaining legal life)"
+  },
+  {
+   "label": "a: item 4 classification - Trade name (external registration counsel fees)",
+   "value": "indefinite-life intangible asset, not goodwill (external registration costs of an internally developed trade name are capitalizable; indefinite renewal = no amortization)"
+  },
+  {
+   "label": "a: item 5 classification - Internal engineer salaries + lab supplies (R&D)",
+   "value": "expense (internal R&D salaries and lab supplies expensed as incurred; not capitalized even though a patent later results)"
+  },
+  {
+   "label": "a: item 6 classification - Business combination",
+   "value": "goodwill (residual: consideration paid less fair value of identifiable net assets; indefinite, not amortized)"
+  },
+  {
+   "label": "a: item 7 classification - Successful defense of purchased patent",
+   "value": "finite-life intangible asset - capitalized into the Patent account (successful defense)"
+  },
+  {
+   "label": "a: item 8 classification - Two-year municipal license",
+   "value": "finite-life intangible asset (2-year municipal license; amortize over its 2-year term)"
+  },
+  {
+   "label": "a: item 7 effect on patent classification",
+   "value": "No change in classification - the patent remains a finite-life intangible. The $11,200 successful-defense cost is capitalized (added to the patent's cost, gross carrying amount becomes $67,200) because the defense preserved the right; it does NOT extend the useful life."
+  },
+  {
+   "label": "a: item 7 effect on subsequent measurement",
+   "value": "Amortized prospectively over the patent's REMAINING useful life from July 1, Year 1 - 78 months (6.5 years) - i.e. $1723 per full year and $862 for the 6 months of Year 1. The original $56,000 layer continues at its existing $8,000 per year."
+  },
+  {
+   "label": "a: goodwill computed (item 6)",
+   "value": 270000
+  },
+  {
+   "label": "a: item 5 amount expensed as R&D",
+   "value": 145000
+  },
+  {
+   "label": "c: schedule row item 1 - Copyright (printing rights) | cost/gross carrying amount",
+   "value": 72000
+  },
+  {
+   "label": "c: schedule row item 1 - Copyright (printing rights) | amortization basis",
+   "value": "straight line over useful life, residual 0"
+  },
+  {
+   "label": "c: schedule row item 1 - Copyright (printing rights) | useful life (months)",
+   "value": 144
+  },
+  {
+   "label": "c: schedule row item 1 - Copyright (printing rights) | months amortized in Year 1",
+   "value": 12
+  },
+  {
+   "label": "c: schedule row item 1 - Copyright (printing rights) | full-year amortization",
+   "value": 6000
+  },
+  {
+   "label": "c: schedule row item 1 - Copyright (printing rights) | Year-1 amortization expense",
+   "value": 6000
+  },
+  {
+   "label": "c: schedule row item 1 - Copyright (printing rights) | Dec 31 Yr 1 accumulated amortization",
+   "value": 6000
+  },
+  {
+   "label": "c: schedule row item 1 - Copyright (printing rights) | Dec 31 Yr 1 carrying amount (this layer)",
+   "value": 66000
+  },
+  {
+   "label": "c: schedule row item 2 - Franchise | cost/gross carrying amount",
+   "value": 110000
+  },
+  {
+   "label": "c: schedule row item 2 - Franchise | amortization basis",
+   "value": "indefinite life - not amortized"
+  },
+  {
+   "label": "c: schedule row item 2 - Franchise | useful life (months)",
+   "value": null
+  },
+  {
+   "label": "c: schedule row item 2 - Franchise | months amortized in Year 1",
+   "value": 0
+  },
+  {
+   "label": "c: schedule row item 2 - Franchise | full-year amortization",
+   "value": 0
+  },
+  {
+   "label": "c: schedule row item 2 - Franchise | Year-1 amortization expense",
+   "value": 0
+  },
+  {
+   "label": "c: schedule row item 2 - Franchise | Dec 31 Yr 1 accumulated amortization",
+   "value": 0
+  },
+  {
+   "label": "c: schedule row item 2 - Franchise | Dec 31 Yr 1 carrying amount (this layer)",
+   "value": 110000
+  },
+  {
+   "label": "c: schedule row item 3 - Patent | cost/gross carrying amount",
+   "value": 56000
+  },
+  {
+   "label": "c: schedule row item 3 - Patent | amortization basis",
+   "value": "straight line over useful life, residual 0"
+  },
+  {
+   "label": "c: schedule row item 3 - Patent | useful life (months)",
+   "value": 84
+  },
+  {
+   "label": "c: schedule row item 3 - Patent | months amortized in Year 1",
+   "value": 12
+  },
+  {
+   "label": "c: schedule row item 3 - Patent | full-year amortization",
+   "value": 8000
+  },
+  {
+   "label": "c: schedule row item 3 - Patent | Year-1 amortization expense",
+   "value": 8000
+  },
+  {
+   "label": "c: schedule row item 3 - Patent | Dec 31 Yr 1 accumulated amortization",
+   "value": 8000
+  },
+  {
+   "label": "c: schedule row item 3 - Patent | Dec 31 Yr 1 carrying amount (this layer)",
+   "value": 48000
+  },
+  {
+   "label": "c: schedule row item 4 - Trade name (external registration counsel fees) | cost/gross carrying amount",
+   "value": 8400
+  },
+  {
+   "label": "c: schedule row item 4 - Trade name (external registration counsel fees) | amortization basis",
+   "value": "indefinite life - not amortized"
+  },
+  {
+   "label": "c: schedule row item 4 - Trade name (external registration counsel fees) | useful life (months)",
+   "value": null
+  },
+  {
+   "label": "c: schedule row item 4 - Trade name (external registration counsel fees) | months amortized in Year 1",
+   "value": 0
+  },
+  {
+   "label": "c: schedule row item 4 - Trade name (external registration counsel fees) | full-year amortization",
+   "value": 0
+  },
+  {
+   "label": "c: schedule row item 4 - Trade name (external registration counsel fees) | Year-1 amortization expense",
+   "value": 0
+  },
+  {
+   "label": "c: schedule row item 4 - Trade name (external registration counsel fees) | Dec 31 Yr 1 accumulated amortization",
+   "value": 0
+  },
+  {
+   "label": "c: schedule row item 4 - Trade name (external registration counsel fees) | Dec 31 Yr 1 carrying amount (this layer)",
+   "value": 8400
+  },
+  {
+   "label": "c: schedule row item 8 - Two-year municipal license | cost/gross carrying amount",
+   "value": 24000
+  },
+  {
+   "label": "c: schedule row item 8 - Two-year municipal license | amortization basis",
+   "value": "straight line over useful life, residual 0"
+  },
+  {
+   "label": "c: schedule row item 8 - Two-year municipal license | useful life (months)",
+   "value": 24
+  },
+  {
+   "label": "c: schedule row item 8 - Two-year municipal license | months amortized in Year 1",
+   "value": 12
+  },
+  {
+   "label": "c: schedule row item 8 - Two-year municipal license | full-year amortization",
+   "value": 12000
+  },
+  {
+   "label": "c: schedule row item 8 - Two-year municipal license | Year-1 amortization expense",
+   "value": 12000
+  },
+  {
+   "label": "c: schedule row item 8 - Two-year municipal license | Dec 31 Yr 1 accumulated amortization",
+   "value": 12000
+  },
+  {
+   "label": "c: schedule row item 8 - Two-year municipal license | Dec 31 Yr 1 carrying amount (this layer)",
+   "value": 12000
+  },
+  {
+   "label": "c: schedule row item 7 - Patent - capitalized defense costs | cost/gross carrying amount",
+   "value": 11200
+  },
+  {
+   "label": "c: schedule row item 7 - Patent - capitalized defense costs | amortization basis",
+   "value": "straight line over patent's REMAINING useful life (78 months) from July 1"
+  },
+  {
+   "label": "c: schedule row item 7 - Patent - capitalized defense costs | useful life (months)",
+   "value": 78
+  },
+  {
+   "label": "c: schedule row item 7 - Patent - capitalized defense costs | months amortized in Year 1",
+   "value": 6
+  },
+  {
+   "label": "c: schedule row item 7 - Patent - capitalized defense costs | full-year amortization",
+   "value": 1723
+  },
+  {
+   "label": "c: schedule row item 7 - Patent - capitalized defense costs | Year-1 amortization expense",
+   "value": 862
+  },
+  {
+   "label": "c: schedule row item 7 - Patent - capitalized defense costs | Dec 31 Yr 1 accumulated amortization",
+   "value": 862
+  },
+  {
+   "label": "c: schedule row item 7 - Patent - capitalized defense costs | Dec 31 Yr 1 carrying amount (this layer)",
+   "value": 10338
+  },
+  {
+   "label": "c: patent total Year-1 amortization (original $56,000 layer + defense layer)",
+   "value": 8862
+  },
+  {
+   "label": "c: copyright Year-1 amortization",
+   "value": 6000
+  },
+  {
+   "label": "c: license Year-1 amortization",
+   "value": 12000
+  },
+  {
+   "label": "c: franchise Year-1 amortization (indefinite life)",
+   "value": 0
+  },
+  {
+   "label": "c: trade name Year-1 amortization (indefinite life)",
+   "value": 0
+  },
+  {
+   "label": "c: goodwill Year-1 amortization (never amortized)",
+   "value": 0
+  },
+  {
+   "label": "c: TOTAL Year-1 amortization expense",
+   "value": 26862
+  },
+  {
+   "label": "c: exact unrounded total Year-1 amortization (before whole-dollar rounding)",
+   "value": "26861.54"
+  },
+  {
+   "label": "c: defense-cost layer run-out period 1 (6 months) amortization / ending balance",
+   "value": "862 / 10338"
+  },
+  {
+   "label": "c: defense-cost layer run-out period 2 (12 months) amortization / ending balance",
+   "value": "1723 / 8615"
+  },
+  {
+   "label": "c: defense-cost layer run-out period 3 (12 months) amortization / ending balance",
+   "value": "1723 / 6892"
+  },
+  {
+   "label": "c: defense-cost layer run-out period 4 (12 months) amortization / ending balance",
+   "value": "1723 / 5169"
+  },
+  {
+   "label": "c: defense-cost layer run-out period 5 (12 months) amortization / ending balance",
+   "value": "1723 / 3446"
+  },
+  {
+   "label": "c: defense-cost layer run-out period 6 (12 months) amortization / ending balance",
+   "value": "1723 / 1723"
+  },
+  {
+   "label": "c: defense-cost layer run-out period 7 (12 months) amortization / ending balance",
+   "value": "1723 / 0"
+  },
+  {
+   "label": "d: Dec 31 Yr 1 debit to Amortization Expense",
+   "value": 26862
+  },
+  {
+   "label": "d: Dec 31 Yr 1 credit Accumulated Amortization - Patent",
+   "value": 8862
+  },
+  {
+   "label": "d: Dec 31 Yr 1 credit Accumulated Amortization - Copyright",
+   "value": 6000
+  },
+  {
+   "label": "d: Dec 31 Yr 1 credit Accumulated Amortization - License",
+   "value": 12000
+  },
+  {
+   "label": "e: Patent gross carrying amount incl. defense costs",
+   "value": 67200
+  },
+  {
+   "label": "e: Patent accumulated amortization Dec 31 Yr 1",
+   "value": 8862
+  },
+  {
+   "label": "e: Patent carrying amount Dec 31 Yr 1 (incl. defense costs)",
+   "value": 58338
+  },
+  {
+   "label": "e: Copyright carrying amount Dec 31 Yr 1",
+   "value": 66000
+  },
+  {
+   "label": "e: Franchise carrying amount Dec 31 Yr 1",
+   "value": 110000
+  },
+  {
+   "label": "e: Trade name carrying amount Dec 31 Yr 1",
+   "value": 8400
+  },
+  {
+   "label": "e: License carrying amount Dec 31 Yr 1",
+   "value": 12000
+  },
+  {
+   "label": "e: Goodwill carrying amount Dec 31 Yr 1",
+   "value": 270000
+  },
+  {
+   "label": "e: total intangible assets carrying amount Dec 31 Yr 1 (check total)",
+   "value": 524738
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b",
+   "date": "Year 1, Jan 1",
+   "memo": "Item 1 - purchase copyright, finite 12-yr useful life",
+   "lines": [
+    {
+     "account": "Copyright",
+     "debit": 72000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 72000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "date": "Year 1, Jan 1",
+   "memo": "Item 2 - purchase franchise, indefinite life (no amortization)",
+   "lines": [
+    {
+     "account": "Franchise",
+     "debit": 110000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 110000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "date": "Year 1, Jan 1",
+   "memo": "Item 3 - purchase patent, 7-yr useful life (< 14-yr legal life)",
+   "lines": [
+    {
+     "account": "Patent",
+     "debit": 56000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 56000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "date": "Year 1, Apr 1",
+   "memo": "Item 4 - external counsel fees to register trade name, indefinite life",
+   "lines": [
+    {
+     "account": "Trade Name",
+     "debit": 8400,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 8400
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "date": "Year 1, during the year",
+   "memo": "Item 5 - internal development costs expensed as incurred (not capitalized)",
+   "lines": [
+    {
+     "account": "Research and Development Expense",
+     "debit": 145000,
+     "credit": 0
+    },
+    {
+     "account": "Cash / Salaries Payable / Supplies",
+     "debit": 0,
+     "credit": 145000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "date": "Year 1, acquisition date",
+   "memo": "Item 6 - business combination; goodwill = 1,250,000 - 980,000 residual",
+   "lines": [
+    {
+     "account": "Identifiable Net Assets Acquired (at fair value)",
+     "debit": 980000,
+     "credit": 0
+    },
+    {
+     "account": "Goodwill",
+     "debit": 270000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 1250000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "date": "Year 1, Jul 1",
+   "memo": "Item 7 - successful defense of purchased patent capitalized to Patent",
+   "lines": [
+    {
+     "account": "Patent",
+     "debit": 11200,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 11200
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "date": "Year 1, Jan 1",
+   "memo": "Item 8 - two-year municipal license, finite 2-yr life",
+   "lines": [
+    {
+     "account": "License",
+     "debit": 24000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 24000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "date": "Year 1, Dec 31",
+   "memo": "Year-1 amortization: finite-life intangibles only (franchise, trade name, goodwill not amortized)",
+   "lines": [
+    {
+     "account": "Amortization Expense",
+     "debit": 26862,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Amortization - Patent",
+     "debit": 0,
+     "credit": 8862
+    },
+    {
+     "account": "Accumulated Amortization - Copyright",
+     "debit": 0,
+     "credit": 6000
+    },
+    {
+     "account": "Accumulated Amortization - License",
+     "debit": 0,
+     "credit": 12000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Classification: finite-life = copyright ($72,000/12yr), patent ($56,000/7yr useful < 14yr legal), capitalized patent-defense costs ($11,200), 2-year license ($24,000/2yr); indefinite-life (not goodwill) = franchise $110,000 and registered trade name $8,400; goodwill = $1,250,000 - $980,000 = $270,000; expense = $145,000 internal R&D. Item 7: successful defense is capitalized to the patent, classification unchanged (still finite-life), amortized prospectively over the 78 months of useful life remaining at July 1 -> $11,200 x 6/78 = $861.54 -> $862 in Year 1. Year-1 amortization = 6,000 copyright + 8,000 patent + 862 defense + 12,000 license = $26,862; franchise, trade name and goodwill are not amortized (impairment tested). Dec 31 Yr 1 carrying amounts: patent $58,338 (67,200 - 8,862), copyright $66,000, franchise $110,000, trade name $8,400, license $12,000, goodwill $270,000; total $524,738. If an instructor instead amortizes the defense layer over a full 7 years (11,200/7 x 1/2 = $800) Year-1 amortization would be $26,800 and the patent $58,400 - that convention does not fully amortize the layer by the end of the patent's useful life, so the remaining-life (78-month) basis is used here."
+}

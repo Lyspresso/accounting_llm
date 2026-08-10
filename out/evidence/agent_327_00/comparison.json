@@ -1,0 +1,133 @@
+{
+ "id": "agent_327#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 16,
+  "routed_stage2": 10,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Cash and Accounts Receivable"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory, Ending (December 31, Year 1 \u2014 at LIFO retail cost)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory, Beginning (January 1, Year 1)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory, Ending (December 31, Year 2 \u2014 at LIFO retail cost)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory, Beginning (January 1, Year 2)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory, Ending (December 31, Year 3 \u2014 at LIFO retail cost)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory, Beginning (January 1, Year 3)"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 560000.0,
+   "solver": "cash and accounts receivable",
+   "key_options": [
+    "cash and or accounts receivable"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 94000.0,
+   "solver": "inventory ending december 31 year 1 at lifo retail cost",
+   "key_options": [
+    "merchandise inventory ending lifo retail"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 58000.0,
+   "solver": "inventory beginning january 1 year 1",
+   "key_options": [
+    "merchandise inventory beginning"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 372000.0,
+   "solver": "purchases",
+   "key_options": [
+    "accounts payable",
+    "purchases net"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 130000.0,
+   "solver": "inventory ending december 31 year 2 at lifo retail cost",
+   "key_options": [
+    "merchandise inventory ending lifo retail"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 94000.0,
+   "solver": "inventory beginning january 1 year 2",
+   "key_options": [
+    "merchandise inventory beginning"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 420000.0,
+   "solver": "purchases",
+   "key_options": [
+    "purchases net"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 58000.0,
+   "solver": "inventory ending december 31 year 3 at lifo retail cost",
+   "key_options": [
+    "merchandise inventory ending lifo retail"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 130000.0,
+   "solver": "inventory beginning january 1 year 3",
+   "key_options": [
+    "merchandise inventory beginning"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 300000.0,
+   "solver": "purchases",
+   "key_options": [
+    "purchases net"
+   ]
+  }
+ ]
+}

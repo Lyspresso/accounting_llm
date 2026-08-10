@@ -1,0 +1,65 @@
+{
+ "id": "agent_366#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 17,
+  "routed_stage2": 5,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accrued Interest and Penalties Payable"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 2400.0,
+   "solver": "accrued interest and penalties payable",
+   "key_options": [
+    "accrued interest and penalties on uncertain tax positions"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "cr",
+   "amount": 125000.0,
+   "solver": "income taxes payable",
+   "key_options": [
+    "income tax payable"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "cr",
+   "amount": 37500.0,
+   "solver": "income taxes payable",
+   "key_options": [
+    "income tax payable"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "cr",
+   "amount": 11250.0,
+   "solver": "income taxes payable",
+   "key_options": [
+    "income tax expense",
+    "income tax payable"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "cr",
+   "amount": 18750.0,
+   "solver": "income taxes payable",
+   "key_options": [
+    "income tax payable",
+    "liability for unrecognized tax benefits"
+   ]
+  }
+ ]
+}

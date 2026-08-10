@@ -1,0 +1,81 @@
+{
+  "agent_id": 397,
+  "lo": "LO 14-3",
+  "chapter": 14,
+  "title": "Account for debt securities measured at FV-OCI with fair value adjustments at sale date and period-end",
+  "critical": true,
+  "emphasis": "disposal_maturity_or_settlement_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-3",
+      "concept": "Disposal of AFS debt under FV-OCI—sale-date fair value adjustment through OCI, reclassification of holding gain into net income, and elimination of FVA; full purchase → period-end → sale path",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-3",
+      "concept": "Number-variant twin — initial recognition, interest in NI, multi-period FVA schedule, period-end FV-OCI, disposal with sale-date adjust and AOCI reclassification",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-3",
+      "concept": "Disposal of one security from an AFS portfolio—sale-date FV-OCI adjust and reclass for the sold security only; subsequent measurement schedule for remaining security at year-end; AOCI disclosure",
+      "type": "multipart",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-3",
+      "concept": "Classification_presentation_or_disclosure — where unrealized holding gains/losses on AFS debt securities are reported before sale",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-3",
+      "concept": "Disposal_maturity_or_settlement_JE — correct sale-date sequence for AFS measured with FV adjustments at sale date and period-end",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

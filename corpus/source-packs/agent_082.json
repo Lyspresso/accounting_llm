@@ -1,0 +1,46 @@
+{
+  "agent_id": 82,
+  "lo": "LO 12-6",
+  "chapter": 12,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-6",
+      "concept": "Incorrect initial recognition of ordinary repairs as Equipment; Year-1 depreciation on the error; prior-period adjustment JE; classification of restatement vs current expense",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-6",
+      "concept": "Number-variant twin: repairs capitalized for two full years; multi-year depreciation schedule on the error; PPA removing cost, AD, and net RE overstatement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-6",
+      "concept": "Depreciation system error (service life entered wrong); PPA to reduce overstated AD / restore RE; period-end adjusting JE after correction; disposal JE using corrected book value; classification of PPA vs change in estimate",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-6",
+      "concept": "Classification of same-period correction vs prior period adjustment / restatement for PPE reporting errors",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-6",
+      "concept": "Classification / measurement of net prior period adjustment when depreciation was both double-recorded and omitted",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,46 @@
+{
+  "agent_id": 358,
+  "lo": "LO 15-3",
+  "chapter": 15,
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-3",
+      "concept": "Initial recognition of payroll and employer taxes; period-end adjusting JEs for vacation, bonus, and DC match (emphasis); subsequent Accrued Compensation schedule; settlement/remittance JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-3",
+      "concept": "Number-variant twin: payroll + employer taxes; period-end adjusting JEs for vacation, sales-based bonus, and DC match; Accrued Compensation subsequent schedule; settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-3",
+      "concept": "Period-end adjusting JEs only (emphasis); classify vacation (probable) vs sick pay (possible only); Accrued Compensation roll-forward and settlement; extinguish bonus and DC liabilities",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-3",
+      "concept": "When to accrue a liability for compensated absences (ASC 710 four criteria)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-3",
+      "concept": "Measurement of defined contribution pension expense vs investment risk",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

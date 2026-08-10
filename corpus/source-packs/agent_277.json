@@ -1,0 +1,75 @@
+{
+  "agent_id": 277,
+  "lo": "LO 16-5",
+  "chapter": 16,
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "title": "Account for bonds issued at a premium",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-5",
+      "concept": "Bonds issued at a premium — initial recognition; effective-interest amortization schedule; period-end adjusting JE when year-end falls between interest dates; maturity settlement; BS/IS presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-5",
+      "concept": "Number-variant twin — recompute premium issue price; effective-interest schedule; period-end adjusting JE; interest payment and maturity; net presentation",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-5",
+      "concept": "Premium bond interim period-end adjusting JE; straight-line premium amortization; early settlement gain/loss; classification of bonds payable net of (plus) premium",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-5",
+      "concept": "Classification of bonds as issued at a premium and relation of total interest expense to cash interest",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-5",
+      "concept": "Structure of the period-end adjusting JE when fiscal year-end falls between interest dates (premium bond)",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

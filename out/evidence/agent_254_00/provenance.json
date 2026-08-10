@@ -1,0 +1,13 @@
+{
+ "id": "agent_254#00",
+ "harness_version": "baseline-1",
+ "stem_hash": "f5fd5e22cc04f52428bc2b480d76daa28ab820c467485873f6a72af90ef1a779",
+ "pack_notes_version": "pack-2026-08-07a-PRE-NOTE",
+ "notes_present_at_generation": [],
+ "notes_governing": [],
+ "generated_by": "stage1-batch1/batch2 scripts",
+ "why": "read STAGE1_SOLVER_INSTRUCTIONS.md before the LO 11-8 note existed",
+ "captured_at_write_time": false,
+ "reconstructed": true,
+ "retroactive_stamp_replaced": "pack-2026-08-07b"
+}

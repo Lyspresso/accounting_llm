@@ -1,0 +1,48 @@
+{
+ "id": "agent_201#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 9,
+  "routed_stage2": 2,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Landfill Cell (Asset Retirement Cost)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation - Landfill Cell"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accretion Expense"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Settlement of Asset Retirement Obligation"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 300000.0,
+   "solver": "landfill cell asset retirement cost",
+   "key_options": [
+    "building hazardous waste cell"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 2200000.0,
+   "solver": "accumulated depreciation landfill cell",
+   "key_options": [
+    "accumulated depreciation hazardous waste cell"
+   ]
+  }
+ ]
+}

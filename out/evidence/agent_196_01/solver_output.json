@@ -1,0 +1,86 @@
+{
+  "id": "agent_196#01",
+  "rounding_convention": "decimal.Decimal only, no floats. Cost ratios carried as exact Decimal quotients (not pre-rounded) and applied per layer; each layer's cost rounded to the cent ROUND_HALF_UP per layer/period, not at the end. Ending inventory at cost = sum of rounded layer costs; COGS derived as the periodic residual from that total so the close entry balances. Ratios shown rounded to 4 dp ROUND_HALF_UP for display only.",
+  "answers": [
+    {
+      "label": "a: ending inventory at retail",
+      "value": 150000
+    },
+    {
+      "label": "a: base-year cost ratio",
+      "value": 0.5
+    },
+    {
+      "label": "a: current-year cost ratio",
+      "value": 0.6
+    },
+    {
+      "label": "b: base layer at retail",
+      "value": 100000
+    },
+    {
+      "label": "b: base layer at LIFO cost",
+      "value": 50000
+    },
+    {
+      "label": "b: current-year layer at retail",
+      "value": 50000
+    },
+    {
+      "label": "b: current-year layer at LIFO cost",
+      "value": 30000
+    },
+    {
+      "label": "b: ending inventory at LIFO cost",
+      "value": 80000
+    },
+    {
+      "label": "c: cost of goods sold",
+      "value": 210000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "d",
+      "lines": [
+        {
+          "account": "Inventory, Ending (LIFO retail)",
+          "debit": 80000,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 210000,
+          "credit": 0
+        },
+        {
+          "account": "Purchases",
+          "debit": 0,
+          "credit": 240000
+        },
+        {
+          "account": "Inventory, Beginning",
+          "debit": 0,
+          "credit": 50000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "lines": [
+        {
+          "account": "Purchases",
+          "debit": 240000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Payable",
+          "debit": 0,
+          "credit": 240000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "LIFO retail applies the AVERAGE COST retail method, so both net markups and net markdowns are included in the current-year cost ratio denominator (240,000 / 400,000). Prices are stated as stable within the year, so no price index is applied (that would be dollar-value LIFO retail). Periodic system, so purchases are recorded in the temporary Purchases account and COGS is a period-end residual."
+}

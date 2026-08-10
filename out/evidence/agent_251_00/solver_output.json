@@ -1,0 +1,171 @@
+{
+  "id": "agent_251#00",
+  "rounding_convention": "decimal.Decimal throughout; money rounded to the cent with ROUND_HALF_UP per period (each semiannual line rounded on its own, never from an annual total); EPS rounded to the cent with ROUND_HALF_UP from exact unrounded numerator/denominator; no PV table factors needed because the bonds are issued at par (effective rate = stated rate, no amortization)",
+  "answers": [
+    {
+      "label": "b: Year 1 interest schedule - face used each period",
+      "value": 1500000
+    },
+    {
+      "label": "b: June 30, Year 1 interest expense",
+      "value": 45000
+    },
+    {
+      "label": "b: June 30, Year 1 cash paid",
+      "value": 45000
+    },
+    {
+      "label": "b: carrying amount after June 30, Year 1",
+      "value": 1500000
+    },
+    {
+      "label": "b: December 31, Year 1 interest expense",
+      "value": 45000
+    },
+    {
+      "label": "b: December 31, Year 1 cash paid",
+      "value": 45000
+    },
+    {
+      "label": "b: carrying amount at December 31, Year 1",
+      "value": 1500000
+    },
+    {
+      "label": "c: basic EPS, Year 1",
+      "value": 3
+    },
+    {
+      "label": "d: after-tax interest add-back to numerator (if-converted)",
+      "value": 67500
+    },
+    {
+      "label": "d: diluted EPS numerator",
+      "value": 817500
+    },
+    {
+      "label": "d: incremental shares from assumed conversion",
+      "value": 45000
+    },
+    {
+      "label": "d: diluted EPS denominator",
+      "value": 295000
+    },
+    {
+      "label": "d: diluted EPS, Year 1",
+      "value": 2.77
+    },
+    {
+      "label": "d: bonds dilutive or antidilutive",
+      "value": "dilutive"
+    },
+    {
+      "label": "e: basic EPS reported on face of Year 1 income statement",
+      "value": 3
+    },
+    {
+      "label": "e: diluted EPS reported on face of Year 1 income statement",
+      "value": 2.77
+    },
+    {
+      "label": "g: basic EPS, Year 1 (July 1 issuance)",
+      "value": 3.14
+    },
+    {
+      "label": "g: after-tax interest add-back (six months, July 1 issuance)",
+      "value": 33750
+    },
+    {
+      "label": "g: diluted EPS numerator (July 1 issuance)",
+      "value": 817500
+    },
+    {
+      "label": "g: incremental shares weighted 6/12 (July 1 issuance)",
+      "value": 22500
+    },
+    {
+      "label": "g: diluted EPS denominator (July 1 issuance)",
+      "value": 272500
+    },
+    {
+      "label": "g: diluted EPS, Year 1 (July 1 issuance)",
+      "value": 3
+    },
+    {
+      "label": "g: bonds dilutive or antidilutive (July 1 issuance)",
+      "value": "dilutive"
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "Jan 1, Year 1 - issuance of 1,500 convertible bonds at par",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 1500000,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable",
+          "debit": 0,
+          "credit": 1500000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "June 30, Year 1 - semiannual cash interest payment",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 45000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 45000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "December 31, Year 1 - semiannual cash interest payment",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 45000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 45000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "description": "Jan 1, Year 2 - conversion of all 1,500 bonds into 45,000 common shares (book value method; carrying amount = par, no unamortized discount/premium)",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 1500000,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 45000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Common Stock",
+          "debit": 0,
+          "credit": 1455000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Bonds issued at par, so effective rate = stated rate: interest expense equals cash paid ($45,000 each semiannual period) and the carrying amount stays at $1,500,000 all of Year 1 with no amortization. (e) Because the convertible bonds are dilutive, Riverbend presents a dual presentation on the face of the Year 1 income statement: basic EPS $3.00 and diluted EPS $2.77 (both for income from continuing operations and net income, which are the same here since there are no discontinued operations). (g) Under the July 1 alternate, only six months of interest was charged against income, so only the six-month after-tax interest ($33,750) is added back, and the 45,000 conversion shares are weighted 6/12 = 22,500; diluted EPS $3.00 is below basic EPS $3.14, so the bonds remain dilutive. Part (b)'s schedule and part (d)/(g)'s reconciliation lines are reported above because those parts explicitly require the schedules themselves."
+}

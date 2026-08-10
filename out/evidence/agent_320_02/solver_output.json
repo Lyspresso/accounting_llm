@@ -1,0 +1,159 @@
+{
+  "id": "agent_320#02",
+  "rounding_convention": "decimal.Decimal only, no floats; amounts quantized to 2 decimal places with ROUND_HALF_UP at the point of reporting (all inputs are whole dollars, so no rounding differences arise); no PV factors involved",
+  "answers": [
+    {
+      "label": "a: Edger line - ceiling (NRV)",
+      "value": 27000
+    },
+    {
+      "label": "a: Edger line - floor (NRV less normal profit)",
+      "value": 24000
+    },
+    {
+      "label": "a: Edger line - designated market",
+      "value": 24000
+    },
+    {
+      "label": "a: Edger line - LCM carrying amount",
+      "value": 24000
+    },
+    {
+      "label": "a: Edger line - write-down",
+      "value": 2000
+    },
+    {
+      "label": "a: Clipper line - ceiling (NRV)",
+      "value": 62000
+    },
+    {
+      "label": "a: Clipper line - floor (NRV less normal profit)",
+      "value": 44000
+    },
+    {
+      "label": "a: Clipper line - designated market",
+      "value": 44000
+    },
+    {
+      "label": "a: Clipper line - LCM carrying amount",
+      "value": 44000
+    },
+    {
+      "label": "a: Clipper line - write-down",
+      "value": 6000
+    },
+    {
+      "label": "a: Blade Set line - ceiling (NRV)",
+      "value": 17000
+    },
+    {
+      "label": "a: Blade Set line - floor (NRV less normal profit)",
+      "value": 15000
+    },
+    {
+      "label": "a: Blade Set line - designated market",
+      "value": 15000
+    },
+    {
+      "label": "a: Blade Set line - LCM carrying amount",
+      "value": 15000
+    },
+    {
+      "label": "a: Blade Set line - write-down",
+      "value": 500
+    },
+    {
+      "label": "a: total LCM carrying amount (all items)",
+      "value": 83000
+    },
+    {
+      "label": "a: required allowance at 12/31 Year 1 (total write-down)",
+      "value": 8500
+    },
+    {
+      "label": "d: balance sheet - inventory at LIFO cost, 12/31 Year 1",
+      "value": 91500
+    },
+    {
+      "label": "d: balance sheet - less allowance to reduce inventory to market",
+      "value": 8500
+    },
+    {
+      "label": "d: balance sheet - inventory, net (at LCM), 12/31 Year 1",
+      "value": 83000
+    },
+    {
+      "label": "d: income statement under (b) - Year 1 COGS after adjustment",
+      "value": 218500
+    },
+    {
+      "label": "d: income statement under (c) - Year 1 COGS after adjustment",
+      "value": 210000
+    },
+    {
+      "label": "d: income statement under (c) - holding loss on inventory",
+      "value": 8500
+    },
+    {
+      "label": "d: pretax income effect Year 1 (same under (b) and (c))",
+      "value": -8500
+    },
+    {
+      "label": "e: required allowance at 12/31 Year 2",
+      "value": 4000
+    },
+    {
+      "label": "e: Year 2 period-end adjustment (debit to allowance, reduction)",
+      "value": 4500
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 8500,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to Market",
+          "debit": 0,
+          "credit": 8500
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "lines": [
+        {
+          "account": "Holding Loss on Inventory",
+          "debit": 8500,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to Market",
+          "debit": 0,
+          "credit": 8500
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "lines": [
+        {
+          "account": "Allowance to Reduce Inventory to Market",
+          "debit": 4500,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 0,
+          "credit": 4500
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "(a) Designated market = median(replacement cost, ceiling, floor). Replacement cost falls below the floor on all three lines, so the floor is the designated market for each: Edger 24,000 (RC 16,000 < floor), Clipper 44,000 (RC 36,000 < floor), Blade Set 15,000 (RC 14,200 < floor). LCM is applied item by item, so no item's unrealized gain offsets another item's write-down. (f) LCM (ceiling/floor/replacement-cost model) rather than LCNRV applies because Aspen Forge measures inventory using LIFO. Under ASC 330 as amended by ASU 2015-11, the simpler lower-of-cost-and-net-realizable-value rule is available only to inventories measured by FIFO or average cost; LIFO and retail-inventory-method companies remain on the traditional lower-of-cost-or-market model with the NRV ceiling and NRV-less-normal-profit floor. (e) Because all Year 1 ending inventory was sold during Year 2, the entire 8,500 Year 1 allowance relates to goods no longer on hand; the 12/31 Year 2 true-up reduces the allowance from 8,500 to the 4,000 required (70,000 cost less 66,000 designated market), a 4,500 debit to the allowance and credit to COGS (a recovery, limited to amounts previously written down)."
+}

@@ -1,0 +1,71 @@
+{
+  "agent_id": 37,
+  "lo": "LO 22-5",
+  "chapter": 22,
+  "title": "Describe required disclosures including that for noncash transactions",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-5",
+      "concept": "Initial recognition of noncash investing/financing transactions; correct SCF investing/financing; noncash disclosure; interest and taxes paid",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-5",
+      "concept": "Noncash disclosure and SCF correction (number-variant twin of Q1)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-5",
+      "concept": "PPE cash vs noncash purchase schedule; note subsequent measurement; period-end interest AJE; cash principal/interest settlement path; noncash + interest-paid disclosures",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-5",
+      "concept": "Classification — cash investing outflow only; noncash stock excluded from financing",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 22-5",
+      "concept": "Required supplemental disclosures — interest paid, taxes paid, noncash, restricted cash",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

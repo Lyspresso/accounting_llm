@@ -1,0 +1,42 @@
+{
+ "id": "agent_250#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 7,
+  "routed_stage2": 2,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "c: October 1 2-for-1 stock split accounting treatment",
+   "solver": "Memorandum entry only - no journal entry. A 2-for-1 stock split under the memorandum method doubles the shares outstanding and halves the par value per share ($"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "d: weighted-average common shares outstanding schedule (restatement 2.0 pre-split)",
+   "solver": "[{'dates': 'Jan 1 - Mar 31', 'shares_outstanding': 100000, 'restatement': 2, 'fraction_of_year': '3/12', 'weighted_average_shares': 50000}, {'dates': 'Mar 31 - "
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 40000.0,
+   "solver": "common stock",
+   "key_options": [
+    "common stock 2 par"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "cr",
+   "amount": 200000.0,
+   "solver": "paid in capital in excess of par common stock",
+   "key_options": [
+    "additional paid in capital common"
+   ]
+  }
+ ]
+}

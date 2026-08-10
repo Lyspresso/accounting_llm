@@ -1,0 +1,63 @@
+{
+  "agent_id": 223,
+  "lo": "LO 13-7",
+  "chapter": 13,
+  "title": "Account for research and development costs",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-7",
+      "concept": "Initial recognition of R&D (expense vs capitalize multi-use assets); full straight-line subsequent measurement schedules for multi-use equipment and multi-project intangible (amortization classified as R&D); period-end adjusting JEs; disposal of multi-use equipment; Year-1 R&D disclosure total",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-7",
+      "concept": "Number-variant twin: initial R&D recognition (expense vs multi-use capitalize); full multi-year subsequent measurement (depreciation) schedule classified as R&D; period-end adjusting JE; Year-1 R&D disclosure total; carrying amount after Year 2",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-7",
+      "concept": "Materials with alternative future uses (inventory rollforward schedule); multi-use facility subsequent measurement schedule; period-end R&D adjusting JEs; mid-life disposal of multi-use facility asset; classification of mixed R&D vs non-R&D items",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-7",
+      "concept": "Classification of expenditures as R&D expense vs non-R&D vs capitalized multi-use asset; computation of disclosed R&D total",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

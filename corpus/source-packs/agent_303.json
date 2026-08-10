@@ -1,0 +1,46 @@
+{
+  "agent_id": 303,
+  "lo": "LO 8-3",
+  "chapter": 8,
+  "title": "Account for the impact of sales returns and allowances",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-3",
+      "concept": "initial_recognition_JE — actual returns & allowances; period_end_adjusting_JE for Refund Liability and Inventory—Estimated Returns",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-3",
+      "concept": "initial_recognition_JE and period_end_adjusting_JE (number-variant twin of Q1)",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-3",
+      "concept": "subsequent_measurement_schedule; period_end_adjusting_JE; disposal_maturity_or_settlement_JE; classification/presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-3",
+      "concept": "classification — Refund Liability vs. inventory asset vs. contra-receivable (method choice)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

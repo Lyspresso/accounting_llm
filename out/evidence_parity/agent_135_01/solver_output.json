@@ -1,0 +1,348 @@
+{
+ "id": "agent_135#01",
+ "rounding_convention": "decimal.Decimal throughout; every amount quantized to 0.01 with ROUND_HALF_UP at each period (per-period rounding). Bonds purchased at par, so amortized cost = $55,000 at all dates and no premium/discount amortization occurs.",
+ "answers": [
+  {
+   "label": "a: Debit \u2014 Investment in Oakmont bonds (AFS/FV-OCI), Jan 1 Y1",
+   "value": 55000.0
+  },
+  {
+   "label": "a: Credit \u2014 Cash paid on purchase, Jan 1 Y1",
+   "value": 55000.0
+  },
+  {
+   "label": "b: Cash interest received Dec 31 Y1 (= $55,000 x 9%)",
+   "value": 4950.0
+  },
+  {
+   "label": "b: Interest income recognized Dec 31 Y1",
+   "value": 4950.0
+  },
+  {
+   "label": "c: Dec 31 Y1 \u2014 amortized cost",
+   "value": 55000.0
+  },
+  {
+   "label": "c: Dec 31 Y1 \u2014 fair value",
+   "value": 52250.0
+  },
+  {
+   "label": "c: Dec 31 Y1 \u2014 required FVA balance (credit)",
+   "value": -2750.0
+  },
+  {
+   "label": "c: Dec 31 Y1 \u2014 prior FVA balance",
+   "value": 0.0
+  },
+  {
+   "label": "c: Dec 31 Y1 \u2014 FVA adjustment required (credit FVA / OCI loss)",
+   "value": -2750.0
+  },
+  {
+   "label": "c: Dec 31 Y1 \u2014 carrying amount after adjustment",
+   "value": 52250.0
+  },
+  {
+   "label": "c: Dec 31 Y2 \u2014 amortized cost",
+   "value": 55000.0
+  },
+  {
+   "label": "c: Dec 31 Y2 \u2014 fair value",
+   "value": 57200.0
+  },
+  {
+   "label": "c: Dec 31 Y2 \u2014 required FVA balance (debit)",
+   "value": 2200.0
+  },
+  {
+   "label": "c: Dec 31 Y2 \u2014 prior FVA balance (credit)",
+   "value": -2750.0
+  },
+  {
+   "label": "c: Dec 31 Y2 \u2014 FVA adjustment required (debit FVA / OCI gain)",
+   "value": 4950.0
+  },
+  {
+   "label": "c: Dec 31 Y2 \u2014 carrying amount after adjustment",
+   "value": 57200.0
+  },
+  {
+   "label": "c: Jan 1 Y3 sale date \u2014 amortized cost",
+   "value": 55000.0
+  },
+  {
+   "label": "c: Jan 1 Y3 sale date \u2014 fair value (= proceeds)",
+   "value": 57750.0
+  },
+  {
+   "label": "c: Jan 1 Y3 sale date \u2014 required FVA balance (debit)",
+   "value": 2750.0
+  },
+  {
+   "label": "c: Jan 1 Y3 sale date \u2014 prior FVA balance (debit)",
+   "value": 2200.0
+  },
+  {
+   "label": "c: Jan 1 Y3 sale date \u2014 FVA adjustment required (debit FVA / OCI gain)",
+   "value": 550.0
+  },
+  {
+   "label": "c: Jan 1 Y3 sale date \u2014 carrying amount after adjustment",
+   "value": 57750.0
+  },
+  {
+   "label": "d: Year 1 unrealized holding loss recognized in OCI (Dr)",
+   "value": 2750.0
+  },
+  {
+   "label": "d: Year 1 credit to Fair value adjustment (AFS)",
+   "value": 2750.0
+  },
+  {
+   "label": "e: Year 1 income statement \u2014 interest income",
+   "value": 4950.0
+  },
+  {
+   "label": "e: Year 1 income statement \u2014 effect on net income",
+   "value": 4950.0
+  },
+  {
+   "label": "e: Year 1 SCI \u2014 other comprehensive loss, unrealized holding loss on FV-OCI investment",
+   "value": -2750.0
+  },
+  {
+   "label": "e: Year 1 SCI \u2014 comprehensive income effect of this investment",
+   "value": 2200.0
+  },
+  {
+   "label": "e: Year 1 balance sheet \u2014 investment in bonds at fair value",
+   "value": 52250.0
+  },
+  {
+   "label": "e: Year 1 balance sheet \u2014 amortized cost of investment",
+   "value": 55000.0
+  },
+  {
+   "label": "e: Year 1 balance sheet \u2014 fair value adjustment (credit) offsetting the investment",
+   "value": -2750.0
+  },
+  {
+   "label": "e: Year 1 balance sheet \u2014 AOCI balance in equity (debit/negative)",
+   "value": -2750.0
+  },
+  {
+   "label": "f: Year 2 debit to Fair value adjustment (AFS)",
+   "value": 4950.0
+  },
+  {
+   "label": "f: Year 2 unrealized holding gain recognized in OCI",
+   "value": 4950.0
+  },
+  {
+   "label": "f: Fair value adjustment balance Dec 31 Y2 (debit)",
+   "value": 2200.0
+  },
+  {
+   "label": "f: AOCI balance Dec 31 Y2 (credit)",
+   "value": 2200.0
+  },
+  {
+   "label": "g(i): Jan 1 Y3 debit to Fair value adjustment (to bring to sale-date FV)",
+   "value": 550.0
+  },
+  {
+   "label": "g(i): Jan 1 Y3 unrealized holding gain recognized in OCI",
+   "value": 550.0
+  },
+  {
+   "label": "g(i): Fair value adjustment balance immediately before sale (debit)",
+   "value": 2750.0
+  },
+  {
+   "label": "g(ii): Cash received on sale",
+   "value": 57750.0
+  },
+  {
+   "label": "g(ii): Investment in bonds removed (at amortized cost)",
+   "value": 55000.0
+  },
+  {
+   "label": "g(ii): Fair value adjustment eliminated (credit)",
+   "value": 2750.0
+  },
+  {
+   "label": "g(ii): Reclassification adjustment out of AOCI (debit OCI)",
+   "value": 2750.0
+  },
+  {
+   "label": "g(ii): Realized gain on sale reported in net income",
+   "value": 2750.0
+  },
+  {
+   "label": "h: AOCI balance brought forward Jan 1 Year 3 (credit)",
+   "value": 2200.0
+  },
+  {
+   "label": "h: Add sale-date unrealized holding gain in OCI",
+   "value": 550.0
+  },
+  {
+   "label": "h: AOCI immediately before reclassification (credit)",
+   "value": 2750.0
+  },
+  {
+   "label": "h: Less reclassification adjustment to net income",
+   "value": -2750.0
+  },
+  {
+   "label": "h: AOCI balance after the sale (Year 3)",
+   "value": 0.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Investment in Oakmont Industries bonds (AFS / FV-OCI)",
+     "debit": 55000.0,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 55000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 4950.0,
+     "credit": 0
+    },
+    {
+     "account": "Interest income",
+     "debit": 0,
+     "credit": 4950.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Unrealized holding loss \u2014 OCI",
+     "debit": 2750.0,
+     "credit": 0
+    },
+    {
+     "account": "Fair value adjustment (AFS / FV-OCI investment)",
+     "debit": 0,
+     "credit": 2750.0
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "lines": [
+    {
+     "account": "Fair value adjustment (AFS / FV-OCI investment)",
+     "debit": 4950.0,
+     "credit": 0
+    },
+    {
+     "account": "Unrealized holding gain \u2014 OCI",
+     "debit": 0,
+     "credit": 4950.0
+    }
+   ]
+  },
+  {
+   "part": "g(i)",
+   "lines": [
+    {
+     "account": "Fair value adjustment (AFS / FV-OCI investment)",
+     "debit": 550.0,
+     "credit": 0
+    },
+    {
+     "account": "Unrealized holding gain \u2014 OCI",
+     "debit": 0,
+     "credit": 550.0
+    }
+   ]
+  },
+  {
+   "part": "g(ii) sale / eliminate FVA",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 57750.0,
+     "credit": 0
+    },
+    {
+     "account": "Investment in Oakmont Industries bonds (AFS / FV-OCI)",
+     "debit": 0,
+     "credit": 55000.0
+    },
+    {
+     "account": "Fair value adjustment (AFS / FV-OCI investment)",
+     "debit": 0,
+     "credit": 2750.0
+    }
+   ]
+  },
+  {
+   "part": "g(ii) reclassification from AOCI to net income",
+   "lines": [
+    {
+     "account": "Unrealized holding gain \u2014 OCI (reclassification adjustment)",
+     "debit": 2750.0,
+     "credit": 0
+    },
+    {
+     "account": "Gain on sale of investments (net income)",
+     "debit": 0,
+     "credit": 2750.0
+    }
+   ]
+  }
+ ],
+ "fva_schedule": [
+  {
+   "date": "Dec 31, Year 1",
+   "amortized_cost": 55000.0,
+   "fair_value": 52250.0,
+   "required_FVA_balance": -2750.0,
+   "prior_FVA_balance": 0.0,
+   "FVA_adjustment": -2750.0,
+   "adjustment_direction": "credit FVA (unrealized loss OCI)",
+   "carrying_amount_after": 52250.0
+  },
+  {
+   "date": "Dec 31, Year 2",
+   "amortized_cost": 55000.0,
+   "fair_value": 57200.0,
+   "required_FVA_balance": 2200.0,
+   "prior_FVA_balance": -2750.0,
+   "FVA_adjustment": 4950.0,
+   "adjustment_direction": "debit FVA (unrealized gain OCI)",
+   "carrying_amount_after": 57200.0
+  },
+  {
+   "date": "Jan 1, Year 3 (sale date)",
+   "amortized_cost": 55000.0,
+   "fair_value": 57750.0,
+   "required_FVA_balance": 2750.0,
+   "prior_FVA_balance": 2200.0,
+   "FVA_adjustment": 550.0,
+   "adjustment_direction": "debit FVA (unrealized gain OCI)",
+   "carrying_amount_after": 57750.0
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Purchase at par means the FV-OCI (AFS) fair value adjustment account is measured against a constant $55,000 amortized cost. Cumulative AOCI: (2,750) at Dec 31 Y1, 2,200 at Dec 31 Y2, 2,750 just before sale; the full 2,750 is recycled to net income as the realized gain on sale (proceeds 57,750 less amortized cost 55,000), leaving AOCI nil. Sale-date entries are shown as two entries (sale-date FV-OCI adjust and reclass are separable); combining them yields the same net effect. The FVA elimination credit of 2,750 plus the 55,000 investment credit exactly offsets the 57,750 cash debit, so no gain arises in the disposal entry itself \u2014 the gain comes from the reclassification entry."
+}

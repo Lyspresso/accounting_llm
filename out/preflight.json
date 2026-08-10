@@ -1,0 +1,63 @@
+{
+ "detection": {
+  "run": 40,
+  "caught": 40,
+  "vacuous": 1,
+  "rate": 1.0,
+  "ci": [
+   0.9123754607496077,
+   1.0
+  ],
+  "passes": true,
+  "misses": []
+ },
+ "false_positive": {
+  "clean": 26,
+  "fp": 4,
+  "stale": 0,
+  "inadmissible": 0,
+  "rate": 0.15384615384615385,
+  "ci": [
+   0.06149933998929477,
+   0.33531584418313565
+  ],
+  "passes": false,
+  "tiers": {
+   "adjudicated": 8,
+   "ai_cross_checked": 18
+  },
+  "offenders": [
+   {
+    "id": "agent_002#03",
+    "tier": "adjudicated",
+    "kinds": [
+     "JE_LINE_NOT_IN_KEY",
+     "KEY_LINE_NOT_IN_SOLVER",
+     "SOLVER_MISMATCH"
+    ]
+   },
+   {
+    "id": "agent_151#01",
+    "tier": "adjudicated",
+    "kinds": [
+     "SOLVER_MISMATCH"
+    ]
+   },
+   {
+    "id": "agent_283#02",
+    "tier": "adjudicated",
+    "kinds": [
+     "SOLVER_MISMATCH"
+    ]
+   },
+   {
+    "id": "agent_285#00",
+    "tier": "adjudicated",
+    "kinds": [
+     "SOLVER_MISMATCH"
+    ]
+   }
+  ]
+ },
+ "gate": "RED"
+}

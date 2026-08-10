@@ -1,0 +1,46 @@
+{
+  "agent_id": 116,
+  "lo": "LO 20-2",
+  "chapter": 20,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-2",
+      "concept": "Initial measurement of stock-option compensation at grant-date fair value (no grant JE); straight-line recognition schedule; exercise and expiration JEs; equity classification",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-2",
+      "concept": "Number-variant twin: grant-date FV measurement (no grant JE), multi-year recognition schedule, exercise and expiration JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-2",
+      "concept": "Period-end adjusting JEs with forfeiture policy election; cumulative catch-up; performance-condition probability gate",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-2",
+      "concept": "Classification of the accounting event at the grant date for equity-classified employee stock options",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-2",
+      "concept": "Classification of settlement outcomes for vested stock options (exercise vs time-lapse expiration)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

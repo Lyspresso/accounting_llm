@@ -1,0 +1,82 @@
+{
+  "agent_id": 398,
+  "lo": "LO 14-4",
+  "chapter": 14,
+  "title": "Account for equity securities measured at FV-NI with fair value adjustments at sale date and period-end",
+  "critical": true,
+  "emphasis": "disposal_maturity_or_settlement_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-4",
+      "concept": "initial_recognition_JE; subsequent_measurement_schedule; period_end_adjusting_JE; disposal_maturity_or_settlement_JE; classification_presentation_or_disclosure",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-4",
+      "concept": "number_variant_twin — same equity FV-NI path with all new amounts (including disposal sequence)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-4",
+      "concept": "disposal_maturity_or_settlement_JE (partial sale); period_end_adjusting_JE (remaining shares); subsequent_measurement_schedule; classification_presentation_or_disclosure",
+      "type": "multipart",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-4",
+      "concept": "classification_presentation_or_disclosure — unrealized holding G/L on equity FV-NI reported in net income",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-4",
+      "concept": "disposal_maturity_or_settlement_JE — sale-date FV adjust then eliminate FVA (no separate sale G/L)",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

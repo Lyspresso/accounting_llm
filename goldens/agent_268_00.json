@@ -1,0 +1,16 @@
+{
+ "id": "agent_268#00",
+ "pack_id": "agent_268",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "low",
+ "expected_verdict": "PASS",
+ "guards_rule": "prose_null_zero",
+ "rationale": "solver 0 IS the key's 'No entry'",
+ "truth_as_of_hash": "c4dcd5e1397c545b6cd521dc83f96bf91b6a2785d7921c04309700296879f912",
+ "truth_as_of_bytes": "6177c21a5d4cd6ac29b8d95cd5755f91488175a5e0329036dc64225129cd80ee",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "prose_null_zero",
+ "cross_check_evidence": "Flagged figure: 'fair-value adjustment recorded = 0' vs key's 'No entry.' All else ties: allocation 210,000/12,000/18,000; share of NI 24,000; excess dep 1,500; dividends 6,000; carrying 256,500; net equity income 22,500."
+}

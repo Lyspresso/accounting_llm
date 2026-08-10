@@ -1,0 +1,83 @@
+{
+  "agent_id": 3,
+  "lo": "LO 14-2",
+  "chapter": 14,
+  "title": "Account for debt securities measured at FV-NI with fair value adjustments at sale date and period-end",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-2",
+      "concept": "Initial recognition of trading debt securities + period-end and sale-date FV-NI adjustments",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-2",
+      "concept": "Initial recognition of trading debt securities + period-end and sale-date FV-NI adjustments (number twin)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-2",
+      "concept": "Subsequent measurement schedule (discount amortization) + period-end FVA + disposal under FV-NI",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-2",
+      "concept": "Fair value option election (FV-NI on otherwise HTM debt) and classification/presentation",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-2",
+      "concept": "Classification—where unrealized holding gains/losses on FV-NI debt securities are reported",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q6",
+      "lo": "LO 14-2",
+      "concept": "Disposal under FV-NI—adjust FVA first, then eliminate investment and FVA",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "ok": true
+}

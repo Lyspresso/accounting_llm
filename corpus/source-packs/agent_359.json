@@ -1,0 +1,73 @@
+{
+  "agent_id": 359,
+  "lo": "LO 15-4",
+  "chapter": 15,
+  "title": "Account for short-term debt and classify debt on the balance sheet",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-4",
+      "concept": "Interest-bearing short-term note payable — initial recognition JE, subsequent interest schedule, period-end adjusting JE (emphasis), maturity settlement JE, year-end presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-4",
+      "concept": "Number-variant twin — interest-bearing ST note: initial recognition, interest schedule, period-end adjusting JE, maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-4",
+      "concept": "Noninterest-bearing short-term note (discount amortization schedule + period-end AJ + maturity); classify current maturities, callable covenant debt, refinance, and noncurrent-asset settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-4",
+      "concept": "Classify short-term debt expected to be refinanced vs callable long-term debt after covenant violation",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-4",
+      "concept": "Identify correct period-end adjusting amount for a short-term interest-bearing note",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

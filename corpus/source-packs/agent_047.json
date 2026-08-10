@@ -1,0 +1,75 @@
+{
+  "agent_id": 47,
+  "lo": "LO 8-9",
+  "chapter": 8,
+  "title": "Account for impairment of noncurrent receivables",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-9",
+      "concept": "DCF impairment of a noncurrent note — initial recognition JE, subsequent effective-interest schedule, period-end interest AJEs, settlement at maturity, BS presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-9",
+      "concept": "DCF impairment initial recognition, multi-year effective-interest schedule, period-end AJEs, maturity settlement (number-variant twin)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-9",
+      "concept": "Creditor settlement by asset transfer; modification of terms as continuation of existing loan (DCF impairment, subsequent interest, maturity)",
+      "type": "multipart",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-9",
+      "concept": "Classification/method choice — original effective rate vs current market rate for DCF impairment",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 8-9",
+      "concept": "Classification/method — subsequent effective interest after DCF impairment when contractual interest is not expected",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

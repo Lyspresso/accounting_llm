@@ -1,0 +1,72 @@
+{
+ "id": "agent_016#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 11,
+  "routed_stage2": 5,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Discount on Notes Payable"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Discount on Notes Payable"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Discount on Notes Payable"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 8100.14,
+   "solver": "discount on notes payable",
+   "key_options": [
+    "discount on note payable"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "cr",
+   "amount": 80000.0,
+   "solver": "notes payable",
+   "key_options": [
+    "cash",
+    "note payable"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 2470.99,
+   "solver": "discount on notes payable",
+   "key_options": [
+    "discount on note payable"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 2935.77,
+   "solver": "discount on notes payable",
+   "key_options": [
+    "discount on note payable"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "dr",
+   "amount": 80000.0,
+   "solver": "notes payable",
+   "key_options": [
+    "note payable"
+   ]
+  }
+ ]
+}

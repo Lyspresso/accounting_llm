@@ -1,0 +1,73 @@
+{
+  "id": "agent_002#03",
+  "rounding_convention": "decimal.Decimal only, never float; ROUND_HALF_UP quantized to cents applied per computed amount (round-at-each-entry, not deferred). No PV factors, interest amortization, or allocations arise in this item, so no rounding difference is created.",
+  "answers": [
+    {
+      "label": "b: effect on net income on the January 1, Year 4 transfer date",
+      "value": 0
+    },
+    {
+      "label": "b: effect on OCI on the January 1, Year 4 transfer date (increase)",
+      "value": 2100
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "lines": [
+        {
+          "account": "Investment in AFS-Quill Corp. Bonds",
+          "debit": 90000,
+          "credit": 0
+        },
+        {
+          "account": "Investment in AFS-Dune Partners Bonds",
+          "debit": 60000,
+          "credit": 0
+        },
+        {
+          "account": "Investment in HTM-Quill Corp. Bonds",
+          "debit": 0,
+          "credit": 90000
+        },
+        {
+          "account": "Investment in HTM-Dune Partners Bonds",
+          "debit": 0,
+          "credit": 60000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "lines": [
+        {
+          "account": "Fair Value Adjustment-AFS",
+          "debit": 2100,
+          "credit": 0
+        },
+        {
+          "account": "Unrealized Gain or Loss-OCI",
+          "debit": 0,
+          "credit": 2100
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "lines": [
+        {
+          "account": "Unrealized Gain or Loss-OCI",
+          "debit": 1100,
+          "credit": 0
+        },
+        {
+          "account": "Fair Value Adjustment-AFS",
+          "debit": 0,
+          "credit": 1100
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part b: no effect on net income; other comprehensive income increases by the transfer-date net unrealized holding gain. Part d is qualitative, so it is reported here rather than in 'answers': The notes must describe the circumstances that led to the reclassification - the significant deterioration in the two issuers' creditworthiness (an ASC 320-10-25-6(a) change in circumstances, so the transfer does not taint the remaining held-to-maturity portfolio) - together with the net carrying (amortized cost) amount of the securities transferred out of held-to-maturity and the net unrealized holding gain or loss on the transfer date that was recognized in other comprehensive income. Both bonds were purchased at par, so amortized cost equals face on every date and no premium/discount amortization enters the computation."
+}

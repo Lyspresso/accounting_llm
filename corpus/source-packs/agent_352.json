@@ -1,0 +1,72 @@
+{
+  "agent_id": 352,
+  "lo": "LO 13-5",
+  "chapter": 13,
+  "title": "Determine the initial and subsequent measurement of indefinite life intangible assets and goodwill",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-5",
+      "concept": "Initial recognition of indefinite-life trademark and goodwill residual; period-end adjusting JE for crypto FV (emphasis); subsequent-measurement schedule (no amortization); disposal of indefinite-life trademark",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-5",
+      "concept": "Number-variant twin — initial recognition JE for indefinite-life trademark and goodwill residual; period-end crypto FV AJ; subsequent-measurement schedule (no amort); disposal JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-5",
+      "concept": "Period-end adjusting JE emphasis — crypto FV remeasurement; prove zero amortization for indefinite-life intangibles and goodwill; goodwill residual computation and acquisition JE; disposal JE",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-5",
+      "concept": "Subsequent measurement — indefinite-life intangibles and goodwill are not amortized",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 13-5",
+      "concept": "Initial measurement of goodwill as residual of purchase price over FV of identifiable net assets",
+      "type": "MC",
+      "angles": [
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

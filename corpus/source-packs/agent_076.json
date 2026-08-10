@@ -1,0 +1,46 @@
+{
+  "agent_id": 76,
+  "lo": "LO 12-10",
+  "chapter": 12,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-10",
+      "concept": "Initial recognition of natural resource (acquisition + exploration + development + ARO PV); UOP depletion schedule; period-end inventory/COGS; equipment separate; residual land disposal and ARO settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-10",
+      "concept": "Number-variant twin: initial recognition of quarry + ARO; depletion base/rate; multi-year UOP schedule; period-end depletion and COGS; classification",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-10",
+      "concept": "Successful-efforts vs full-cost exploration initial recognition; UOP depletion and COGS under each; PPE presentation and method disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-10",
+      "concept": "Successful-efforts vs full-cost — amount capitalized to the natural resource",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-10",
+      "concept": "Which costs enter the depletion base vs separate PPE (movable multi-use equipment)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

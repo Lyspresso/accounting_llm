@@ -1,0 +1,46 @@
+{
+  "agent_id": 383,
+  "lo": "LO 20-7",
+  "chapter": 20,
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-7",
+      "concept": "Initial recognition of fully vested stock options; period-end AJs finalizing NI (emphasis); treasury stock method incremental shares; basic and diluted EPS; option exercise settlement JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-7",
+      "concept": "Number-variant treasury stock method for options and warrants; period-end AJs finalizing NI; combined diluted EPS; antidilutive when market below exercise; warrant exercise settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-7",
+      "concept": "Restricted stock award grant JE; period-end compensation AJ (emphasis); amortization schedule; unearned compensation as treasury-method proceeds; basic vs diluted EPS; vesting settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-7",
+      "concept": "Classification — dilutive vs antidilutive options under treasury stock method (market vs exercise price)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-7",
+      "concept": "Classification — unvested restricted stock excluded from basic EPS; incremental shares in diluted EPS via unearned compensation",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

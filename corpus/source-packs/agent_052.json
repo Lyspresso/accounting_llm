@@ -1,0 +1,40 @@
+{
+  "agent_id": 52,
+  "lo": "LO 9-5",
+  "chapter": 9,
+  "title": "Demonstrate moving average, FIFO, and LIFO in a perpetual inventory system",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-5",
+      "concept": "Initial recognition of inventory purchases; perpetual MA/FIFO/LIFO schedules; FIFO sale settlement JEs; method ranking and presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-5",
+      "concept": "Number-variant twin — perpetual MA/FIFO/LIFO; purchase recognition; LIFO COGS settlement JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-5",
+      "concept": "Perpetual FIFO schedule and settlement; period-end inventory shortage adjusting JE; classification and FIFO vs LIFO system note",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-5",
+      "concept": "Classification of perpetual LIFO layers and FIFO perpetual vs periodic equivalence",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

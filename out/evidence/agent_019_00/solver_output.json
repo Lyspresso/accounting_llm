@@ -1,0 +1,367 @@
+{
+  "id": "agent_019#00",
+  "rounding_convention": "decimal.Decimal only (no floats in computation); ROUND_HALF_UP to the cent applied PER PERIOD (each year's interest rounded before it accretes to the liability, next year's interest computed on the rounded balance). PV of the annuity due computed with the exact closed-form formula PMT*((1-(1+i)^-n)/i)*(1+i) at 28-digit precision, rounded to the cent once (course handout specifies Excel PV with type=1, not a printed table factor). ROU asset amortized straight-line over the 4-year lease term, final year absorbing any residue.",
+  "answers": [
+    {
+      "label": "a: does the contract contain a lease?",
+      "value": "Yes"
+    },
+    {
+      "label": "b: lease term as % of remaining economic life (75% bright line)",
+      "value": 100.0
+    },
+    {
+      "label": "b: PV of lease payments as % of fair value (90% bright line)",
+      "value": 96.8
+    },
+    {
+      "label": "b: number of the five classification criteria met",
+      "value": 2.0
+    },
+    {
+      "label": "b: lease classification",
+      "value": "Finance"
+    },
+    {
+      "label": "c: lease liability at commencement",
+      "value": 121005.56
+    },
+    {
+      "label": "c: right-of-use asset at commencement",
+      "value": 121005.56
+    },
+    {
+      "label": "d: liability balance at Jan 1, Year 1 after first payment",
+      "value": 88505.56
+    },
+    {
+      "label": "d: Year 1 interest on liability",
+      "value": 4425.28
+    },
+    {
+      "label": "d: Jan 1, Year 2 payment",
+      "value": 32500.0
+    },
+    {
+      "label": "d: Jan 1, Year 2 lease liability change (principal reduction)",
+      "value": 28074.72
+    },
+    {
+      "label": "d: liability balance after Jan 1, Year 2 payment",
+      "value": 60430.84
+    },
+    {
+      "label": "d: Year 2 interest on liability",
+      "value": 3021.54
+    },
+    {
+      "label": "d: Jan 1, Year 3 payment",
+      "value": 32500.0
+    },
+    {
+      "label": "d: Jan 1, Year 3 lease liability change (principal reduction)",
+      "value": 29478.46
+    },
+    {
+      "label": "d: liability balance after Jan 1, Year 3 payment",
+      "value": 30952.38
+    },
+    {
+      "label": "d: Year 3 interest on liability",
+      "value": 1547.62
+    },
+    {
+      "label": "d: Jan 1, Year 4 payment",
+      "value": 32500.0
+    },
+    {
+      "label": "d: Jan 1, Year 4 lease liability change (principal reduction)",
+      "value": 30952.38
+    },
+    {
+      "label": "d: liability balance after Jan 1, Year 4 payment",
+      "value": 0.0
+    },
+    {
+      "label": "d: total lease payments",
+      "value": 130000.0
+    },
+    {
+      "label": "d: total interest expense over the lease",
+      "value": 8994.44
+    },
+    {
+      "label": "d: total lease liability reduction",
+      "value": 121005.56
+    },
+    {
+      "label": "f: Dec 31, Year 1 total lease liability",
+      "value": 92930.84
+    },
+    {
+      "label": "f: Dec 31, Year 1 current lease liability",
+      "value": 32500.0
+    },
+    {
+      "label": "f: Dec 31, Year 1 noncurrent lease liability",
+      "value": 60430.84
+    },
+    {
+      "label": "f: Dec 31, Year 1 net right-of-use asset",
+      "value": 90754.17
+    },
+    {
+      "label": "h: ending right-of-use asset at Dec 31, Year 4",
+      "value": 0.0
+    },
+    {
+      "label": "h: ending lease liability at Dec 31, Year 4",
+      "value": 0.0
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "e",
+      "date": "Year 1 - Jan 1 (commencement)",
+      "description": "Recognize ROU asset and lease liability",
+      "lines": [
+        {
+          "account": "Right-of-Use Asset",
+          "debit": 121005.56,
+          "credit": 0.0
+        },
+        {
+          "account": "Lease Liability",
+          "debit": 0.0,
+          "credit": 121005.56
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Year 1 - Jan 1 (first payment)",
+      "description": "First annual lease payment (annuity due; no interest yet)",
+      "lines": [
+        {
+          "account": "Lease Liability",
+          "debit": 32500.0,
+          "credit": 0.0
+        },
+        {
+          "account": "Cash",
+          "debit": 0.0,
+          "credit": 32500.0
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Year 1 - Dec 31 (adjusting)",
+      "description": "Accrue interest on lease liability",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 4425.28,
+          "credit": 0.0
+        },
+        {
+          "account": "Lease Liability",
+          "debit": 0.0,
+          "credit": 4425.28
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Year 1 - Dec 31 (adjusting)",
+      "description": "Straight-line amortization of ROU asset over the 4-year lease term",
+      "lines": [
+        {
+          "account": "Amortization Expense",
+          "debit": 30251.39,
+          "credit": 0.0
+        },
+        {
+          "account": "Right-of-Use Asset",
+          "debit": 0.0,
+          "credit": 30251.39
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "date": "Year 2 - Jan 1",
+      "description": "Annual lease payment",
+      "lines": [
+        {
+          "account": "Lease Liability",
+          "debit": 32500.0,
+          "credit": 0.0
+        },
+        {
+          "account": "Cash",
+          "debit": 0.0,
+          "credit": 32500.0
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "date": "Year 2 - Dec 31 (adjusting)",
+      "description": "Accrue interest on lease liability",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 3021.54,
+          "credit": 0.0
+        },
+        {
+          "account": "Lease Liability",
+          "debit": 0.0,
+          "credit": 3021.54
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "date": "Year 2 - Dec 31 (adjusting)",
+      "description": "Straight-line amortization of ROU asset",
+      "lines": [
+        {
+          "account": "Amortization Expense",
+          "debit": 30251.39,
+          "credit": 0.0
+        },
+        {
+          "account": "Right-of-Use Asset",
+          "debit": 0.0,
+          "credit": 30251.39
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "date": "Year 3 - Jan 1",
+      "description": "Annual lease payment",
+      "lines": [
+        {
+          "account": "Lease Liability",
+          "debit": 32500.0,
+          "credit": 0.0
+        },
+        {
+          "account": "Cash",
+          "debit": 0.0,
+          "credit": 32500.0
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "date": "Year 3 - Dec 31 (adjusting)",
+      "description": "Accrue interest on lease liability",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 1547.62,
+          "credit": 0.0
+        },
+        {
+          "account": "Lease Liability",
+          "debit": 0.0,
+          "credit": 1547.62
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "date": "Year 3 - Dec 31 (adjusting)",
+      "description": "Straight-line amortization of ROU asset",
+      "lines": [
+        {
+          "account": "Amortization Expense",
+          "debit": 30251.39,
+          "credit": 0.0
+        },
+        {
+          "account": "Right-of-Use Asset",
+          "debit": 0.0,
+          "credit": 30251.39
+        }
+      ]
+    },
+    {
+      "part": "h",
+      "date": "Year 4 - Jan 1 (final payment)",
+      "description": "Final lease payment; lease liability is extinguished (balance 0.00)",
+      "lines": [
+        {
+          "account": "Lease Liability",
+          "debit": 32500.0,
+          "credit": 0.0
+        },
+        {
+          "account": "Cash",
+          "debit": 0.0,
+          "credit": 32500.0
+        }
+      ]
+    },
+    {
+      "part": "h",
+      "date": "Year 4 - Dec 31 (adjusting)",
+      "description": "Final amortization of ROU asset; no interest accrues in Year 4 because the liability was zero all year. ROU asset balance 0.00 and asset reverts to Cascade; no further entry required.",
+      "lines": [
+        {
+          "account": "Amortization Expense",
+          "debit": 30251.39,
+          "credit": 0.0
+        },
+        {
+          "account": "Right-of-Use Asset",
+          "debit": 0.0,
+          "credit": 30251.39
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "(a) Yes - a lease exists: an identified asset (conveyor CLX-4419, no substantive substitution right) plus control over the period of use (Northline obtains substantially all economic benefits AND directs the use). (b) Finance lease: criteria 3 and 4 are met (term = 100% of economic life >= 75%; PV = 96.80% of fair value >= 90%); criteria 1, 2 and 5 are not. The 5% implicit rate is used because it is known; the 6% IBR is ignored. (h) No interest accrues in Year 4 because the Jan 1 Year 4 payment extinguishes the liability; both the ROU asset and the lease liability end at exactly 0.00 with no rounding plug. Per the CH 17 handout, ROU amortization is credited directly to Right-of-Use Asset rather than to a contra accumulated-amortization account.",
+  "schedule_part_d": [
+    {
+      "date": "Jan 1, Year 1 (commencement)",
+      "lease_payment": null,
+      "interest_on_liability": null,
+      "lease_liability_change": null,
+      "lease_liability": 121005.56
+    },
+    {
+      "date": "Jan 1, Year 1",
+      "lease_payment": 32500.0,
+      "interest_on_liability": 0.0,
+      "lease_liability_change": 32500.0,
+      "lease_liability": 88505.56
+    },
+    {
+      "date": "Jan 1, Year 2",
+      "lease_payment": 32500.0,
+      "interest_on_liability": 4425.28,
+      "lease_liability_change": 28074.72,
+      "lease_liability": 60430.84
+    },
+    {
+      "date": "Jan 1, Year 3",
+      "lease_payment": 32500.0,
+      "interest_on_liability": 3021.54,
+      "lease_liability_change": 29478.46,
+      "lease_liability": 30952.38
+    },
+    {
+      "date": "Jan 1, Year 4",
+      "lease_payment": 32500.0,
+      "interest_on_liability": 1547.62,
+      "lease_liability_change": 30952.38,
+      "lease_liability": 0.0
+    }
+  ]
+}

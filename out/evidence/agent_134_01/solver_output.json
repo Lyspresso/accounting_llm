@@ -1,0 +1,197 @@
+{
+  "id": "agent_134#01",
+  "rounding_convention": "decimal.Decimal only, never float; every money figure quantized to cents with ROUND_HALF_UP applied per period/per line as produced (round-per-period, not round-at-end). Bonds bought at par, so amortized cost = par $40,000 at every date and no effective-interest amortization or PV table factor is needed; annual cash interest = par x 6% x 12/12 rounded to cents.",
+  "answers": [
+    {
+      "label": "c: Year 1 unrealized holding gain (loss) = fair value - amortized cost",
+      "value": -1500
+    },
+    {
+      "label": "c: required Fair Value Adjustment-TS balance at Dec 31, Year 1 (credit)",
+      "value": -1500
+    },
+    {
+      "label": "c: existing FVA balance before the Dec 31, Year 1 adjustment",
+      "value": 0
+    },
+    {
+      "label": "c: increase (decrease) to FVA account needed at Dec 31, Year 1",
+      "value": -1500
+    },
+    {
+      "label": "d: balance sheet - Investment in trading securities (current asset), Dec 31 Year 1",
+      "value": 38500
+    },
+    {
+      "label": "d: income statement - Interest revenue, Year 1",
+      "value": 2400
+    },
+    {
+      "label": "d: income statement - Unrealized holding gain (loss) on trading securities, Year 1",
+      "value": -1500
+    },
+    {
+      "label": "d: net effect on Year 1 net income from this investment",
+      "value": 900
+    },
+    {
+      "label": "e: required Fair Value Adjustment-TS balance at Dec 31, Year 2 (debit)",
+      "value": 1200
+    },
+    {
+      "label": "e: existing FVA balance before the Dec 31, Year 2 adjustment (credit)",
+      "value": -1500
+    },
+    {
+      "label": "e: increase (decrease) to FVA account needed at Dec 31, Year 2",
+      "value": 2700
+    },
+    {
+      "label": "e: Year 2 unrealized holding gain (loss) recognized in net income",
+      "value": 2700
+    },
+    {
+      "label": "f(i): required FVA balance at date of sale, Jan 1 Year 3 (debit)",
+      "value": 1000
+    },
+    {
+      "label": "f(i): increase (decrease) to FVA account needed at date of sale",
+      "value": -200
+    },
+    {
+      "label": "f(ii): gain (loss) recognized on the sale itself",
+      "value": 0
+    },
+    {
+      "label": "g: Year 1 unrealized holding gain (loss)",
+      "value": -1500
+    },
+    {
+      "label": "g: Year 2 unrealized holding gain (loss)",
+      "value": 2700
+    },
+    {
+      "label": "g: Year 3 (sale-date) unrealized holding gain (loss)",
+      "value": -200
+    },
+    {
+      "label": "g: cumulative gain (loss) recognized over holding period",
+      "value": 1000
+    },
+    {
+      "label": "g: proceeds minus original cost (proof figure)",
+      "value": 1000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "January 1, Year 1",
+      "description": "To record investment purchase (trading securities, at par)",
+      "lines": [
+        {
+          "account": "Investment in TS-Redwood Bonds",
+          "debit": 40000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 40000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "December 31, Year 1",
+      "description": "To record receipt of annual cash interest",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 2400,
+          "credit": 0
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 2400
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 1",
+      "description": "To adjust trading securities to fair value (FV-NI)",
+      "lines": [
+        {
+          "account": "Unrealized Gain or Loss-Income",
+          "debit": 1500,
+          "credit": 0
+        },
+        {
+          "account": "Fair Value Adjustment-TS",
+          "debit": 0,
+          "credit": 1500
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "December 31, Year 2",
+      "description": "To adjust trading securities to fair value (FV-NI)",
+      "lines": [
+        {
+          "account": "Fair Value Adjustment-TS",
+          "debit": 2700,
+          "credit": 0
+        },
+        {
+          "account": "Unrealized Gain or Loss-Income",
+          "debit": 0,
+          "credit": 2700
+        }
+      ]
+    },
+    {
+      "part": "f(i)",
+      "date": "January 1, Year 3",
+      "description": "To adjust investment to fair value at date of sale (FV-NI)",
+      "lines": [
+        {
+          "account": "Unrealized Gain or Loss-Income",
+          "debit": 200,
+          "credit": 0
+        },
+        {
+          "account": "Fair Value Adjustment-TS",
+          "debit": 0,
+          "credit": 200
+        }
+      ]
+    },
+    {
+      "part": "f(ii)",
+      "date": "January 1, Year 3",
+      "description": "To record sale of trading securities, eliminating the FVA balance",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 41000,
+          "credit": 0
+        },
+        {
+          "account": "Fair Value Adjustment-TS",
+          "debit": 0,
+          "credit": 1000
+        },
+        {
+          "account": "Investment in TS-Redwood Bonds",
+          "debit": 0,
+          "credit": 40000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Bought AT PAR on an interest-payment-period start date, so there is no discount/premium to amortize and no accrued interest purchased; amortized cost stays $40,000 throughout. FVA rolls -1,500 (Y1) -> +1,200 (Y2) -> +1,000 (sale date), giving NI effects of (1,500), 2,700 and (200). Sale-date fair value is taken as the $41,000 proceeds, so the sale entry itself records no separate realized gain or loss. Cumulative fair-value effect on NI = 1,000 = $41,000 proceeds - $40,000 cost, which is the part (g) proof. Year 2 cash interest of $2,400 was received Dec 31 Year 2 but part (e) asks only for the FVA rollforward and adjusting entry, so it is not reported."
+}

@@ -1,0 +1,120 @@
+{
+ "groups": {
+  "3f7d1c5bddda27306ffb9a3bd1887954aa0e81be5e31446d35ed77998d02ca33": [
+   "agent_004#04",
+   "agent_135#04"
+  ],
+  "43559957b7126d2e9a0284bd0b189744317c9650932ace5e2a00ffb0d103df74": [
+   "agent_079#03",
+   "agent_210#03"
+  ],
+  "145d83031389d4b18d62b76c461a9c884f436cd8ac214f2f9159c8ee1be76a60": [
+   "agent_113#03",
+   "agent_244#03"
+  ],
+  "ea55fe5f62fe06ea4970eaaf94cd51c026950c714a255a9e88073d09ed68669f": [
+   "agent_113#04",
+   "agent_244#04"
+  ],
+  "64c420420b512d635b0ebe08634a81d0cb39fce0a9e50fa4bc0a0d4970f3b8d0": [
+   "agent_126#04",
+   "agent_257#04",
+   "agent_388#04"
+  ],
+  "0569579686d25b11a388f6d14e5cda3f7f001ae2ee38024c0dfb98e3fb9883d3": [
+   "agent_187#03",
+   "agent_318#03"
+  ],
+  "2c88d5cbe1095798e7a71906b21da84260ea3dfa03b26fa3f24e86ba710564ba": [
+   "agent_225#03",
+   "agent_356#03"
+  ],
+  "194f0c9bb7edf1ab283da1d4b57c8d2f7a734076c8c6747d58acfc1778334fd3": [
+   "agent_257#03",
+   "agent_388#03"
+  ]
+ },
+ "retired": [
+  {
+   "id": "agent_135#04",
+   "lineage_id": "agent_135#04",
+   "pack_id": "agent_135",
+   "status": "DUPLICATE_OF",
+   "duplicate_of": "agent_004#04",
+   "bytes_hash": "3f7d1c5bddda27306ffb9a3bd1887954aa0e81be5e31446d35ed77998d02ca33",
+   "note": "byte-identical; lineage preserved, never deleted"
+  },
+  {
+   "id": "agent_210#03",
+   "lineage_id": "agent_210#03",
+   "pack_id": "agent_210",
+   "status": "DUPLICATE_OF",
+   "duplicate_of": "agent_079#03",
+   "bytes_hash": "43559957b7126d2e9a0284bd0b189744317c9650932ace5e2a00ffb0d103df74",
+   "note": "byte-identical; lineage preserved, never deleted"
+  },
+  {
+   "id": "agent_244#03",
+   "lineage_id": "agent_244#03",
+   "pack_id": "agent_244",
+   "status": "DUPLICATE_OF",
+   "duplicate_of": "agent_113#03",
+   "bytes_hash": "145d83031389d4b18d62b76c461a9c884f436cd8ac214f2f9159c8ee1be76a60",
+   "note": "byte-identical; lineage preserved, never deleted"
+  },
+  {
+   "id": "agent_244#04",
+   "lineage_id": "agent_244#04",
+   "pack_id": "agent_244",
+   "status": "DUPLICATE_OF",
+   "duplicate_of": "agent_113#04",
+   "bytes_hash": "ea55fe5f62fe06ea4970eaaf94cd51c026950c714a255a9e88073d09ed68669f",
+   "note": "byte-identical; lineage preserved, never deleted"
+  },
+  {
+   "id": "agent_257#04",
+   "lineage_id": "agent_257#04",
+   "pack_id": "agent_257",
+   "status": "DUPLICATE_OF",
+   "duplicate_of": "agent_126#04",
+   "bytes_hash": "64c420420b512d635b0ebe08634a81d0cb39fce0a9e50fa4bc0a0d4970f3b8d0",
+   "note": "byte-identical; lineage preserved, never deleted"
+  },
+  {
+   "id": "agent_388#04",
+   "lineage_id": "agent_388#04",
+   "pack_id": "agent_388",
+   "status": "DUPLICATE_OF",
+   "duplicate_of": "agent_126#04",
+   "bytes_hash": "64c420420b512d635b0ebe08634a81d0cb39fce0a9e50fa4bc0a0d4970f3b8d0",
+   "note": "byte-identical; lineage preserved, never deleted"
+  },
+  {
+   "id": "agent_318#03",
+   "lineage_id": "agent_318#03",
+   "pack_id": "agent_318",
+   "status": "DUPLICATE_OF",
+   "duplicate_of": "agent_187#03",
+   "bytes_hash": "0569579686d25b11a388f6d14e5cda3f7f001ae2ee38024c0dfb98e3fb9883d3",
+   "note": "byte-identical; lineage preserved, never deleted"
+  },
+  {
+   "id": "agent_356#03",
+   "lineage_id": "agent_356#03",
+   "pack_id": "agent_356",
+   "status": "DUPLICATE_OF",
+   "duplicate_of": "agent_225#03",
+   "bytes_hash": "2c88d5cbe1095798e7a71906b21da84260ea3dfa03b26fa3f24e86ba710564ba",
+   "note": "byte-identical; lineage preserved, never deleted"
+  },
+  {
+   "id": "agent_388#03",
+   "lineage_id": "agent_388#03",
+   "pack_id": "agent_388",
+   "status": "DUPLICATE_OF",
+   "duplicate_of": "agent_257#03",
+   "bytes_hash": "194f0c9bb7edf1ab283da1d4b57c8d2f7a734076c8c6747d58acfc1778334fd3",
+   "note": "byte-identical; lineage preserved, never deleted"
+  }
+ ]
+}
