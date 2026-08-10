@@ -16,6 +16,7 @@ echo "=== chart invariants ==="; python3 -B test_chart.py | tail -1
 echo "=== provenance ==="; python3 -B test_provenance.py | tail -1
 echo "=== write path ==="; python3 -B test_writepath.py | tail -1
 echo "=== sentinel fault-injection ==="; python3 -B test_sentinel.py | tail -1
+echo "=== evidence registry ==="; python3 -B test_registry.py | tail -1
 echo "=== tool parity ==="; python3 -B test_tool_parity.py | tail -1
 echo "=== ledger sentinel ==="; python3 -B sentinel.py --check | tail -2
 echo "=== dispatcher ==="; python3 -B dispatcher.py | head -2

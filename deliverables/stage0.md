@@ -1,6 +1,9 @@
 # Stage 0 — Normalize (budget mode, pipeline 1.2)
 
-generated: 2026-08-10T03:55:48Z
+generated: 2026-08-10T04:08:23Z
+
+
+
 
 - packs: **400**
 - questions: **1828**

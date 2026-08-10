@@ -11,6 +11,7 @@
 set -e
 cd "$(dirname "$0")"
 python3 emit_status.py
+python3 emit_worksheet.py
 mkdir -p deliverables
 for f in out/reports/*.md out/pack_proposals/*.yaml; do
   [ -f "$f" ] && cp "$f" deliverables/

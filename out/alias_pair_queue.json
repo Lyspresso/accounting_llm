@@ -93,7 +93,12 @@
   "why_clusterer_split": "Same net value, different account string. merge_key needs exact equality after case/punctuation normalisation, and a qualifier ('Net', 'No Par', a dividends suffix) is a different token sequence. That strictness is deliberate.",
   "raised_by": "agent_130#00 re-solve after the ORDER-003 item 5 stem repair",
   "note": "Netting the whole item shows the values agree exactly; only the names differ. Routed here under the dominance rule rather than special-cased.",
-  "ruling": null
+  "ruling": {
+   "decision": "ALIAS_TO_CANONICAL",
+   "canonical": "Accounts Receivable",
+   "authority": "ORDER-004 item 2 (D15.1)",
+   "why": "base form is dominant in the corpus (228/111/180 vs 0); the suffixed form aliases in"
+  }
  },
  {
   "pair": [
@@ -115,7 +120,12 @@
   "why_clusterer_split": "Same net value, different account string. merge_key needs exact equality after case/punctuation normalisation, and a qualifier ('Net', 'No Par', a dividends suffix) is a different token sequence. That strictness is deliberate.",
   "raised_by": "agent_130#00 re-solve after the ORDER-003 item 5 stem repair",
   "note": "Netting the whole item shows the values agree exactly; only the names differ. Routed here under the dominance rule rather than special-cased.",
-  "ruling": null
+  "ruling": {
+   "decision": "ALIAS_TO_CANONICAL",
+   "canonical": "Common Stock",
+   "authority": "ORDER-004 item 2 (D15.1)",
+   "why": "base form is dominant in the corpus (228/111/180 vs 0); the suffixed form aliases in"
+  }
  },
  {
   "pair": [
@@ -137,6 +147,11 @@
   "why_clusterer_split": "Same net value, different account string. merge_key needs exact equality after case/punctuation normalisation, and a qualifier ('Net', 'No Par', a dividends suffix) is a different token sequence. That strictness is deliberate.",
   "raised_by": "agent_130#00 re-solve after the ORDER-003 item 5 stem repair",
   "note": "Netting the whole item shows the values agree exactly; only the names differ. Routed here under the dominance rule rather than special-cased.",
-  "ruling": null
+  "ruling": {
+   "decision": "ALIAS_TO_CANONICAL",
+   "canonical": "Retained Earnings",
+   "authority": "ORDER-004 item 2 (D15.1)",
+   "why": "base form is dominant in the corpus (228/111/180 vs 0); the suffixed form aliases in"
+  }
  }
 ]
