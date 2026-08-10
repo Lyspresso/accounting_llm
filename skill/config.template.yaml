@@ -48,3 +48,12 @@ maxxer_mode:
   max_concurrency: 64
   max_loop_iterations: 6
   loop_audit_rate: 0.02
+
+# --- instrument tunables (2.7): calibrated defaults; change only with a
+# --- floor re-measure per docs/07-RULEBOOK.md
+canon:
+  money_floor: 100.0
+  ratio_rel: 0.005
+  money_abs: 1.0          # per-period rounding allowance, schedule context only
+matcher:
+  best_match_threshold: 0.34

@@ -33,6 +33,12 @@ SYN = (
     (r"\bexp\b", "expense"), (r"\bliab\b", "liability"),
     (r"\bbeg\b", "beginning"), (r"\bend\b", "ending"),
 )
+try:
+    from paths import config_block as _cfg
+    BEST_MATCH_THRESHOLD = float(_cfg("matcher").get("best_match_threshold", 0.34))
+except ImportError:
+    BEST_MATCH_THRESHOLD = 0.34   # (2.7) calibrated default; see docs/07-RULEBOOK.md
+
 STOP = set("the a an of for on at and to is are in from with".split())
 WORD = re.compile(r"[a-z]+|\d+")
 CUMULATIVE = re.compile(r"cumulative|to date|since|accumulated|total", re.I)
@@ -95,7 +101,7 @@ def score(a, b):
     return s
 
 
-def best_match(label, candidates, key=lambda c: c, threshold=0.34):
+def best_match(label, candidates, key=lambda c: c, threshold=BEST_MATCH_THRESHOLD):
     """
     (candidate, score) or None. A tie at the top is AMBIGUOUS and returns None -
     resolving a tie by list order is what deterministically paired every

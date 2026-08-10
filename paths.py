@@ -33,6 +33,29 @@ DEFAULTS = {
 }
 
 
+def config_block(section):
+    """Flat key: value pairs under a top-level `section:` of config.yaml —
+    the same zero-dependency parser used for paths (2.7)."""
+    out = {}
+    if not os.path.exists(CONFIG):
+        return out
+    in_block = False
+    for raw in open(CONFIG, encoding="utf-8"):
+        line = raw.rstrip("\n")
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        if line.startswith(section + ":"):
+            in_block = True
+            continue
+        if in_block:
+            if not line.startswith((" ", "\t")):
+                break
+            if ":" in line:
+                k, v = line.split(":", 1)
+                out[k.strip()] = v.split("#", 1)[0].strip().strip('"').strip("'")
+    return out
+
+
 def _config_paths():
     """
     The `paths:` block of config.yaml. Deliberately not a YAML dependency: this

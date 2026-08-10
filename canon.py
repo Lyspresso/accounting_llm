@@ -23,9 +23,16 @@ import re
 
 # ---------------------------------------------------------------- constants
 
-MONEY_FLOOR = 100.0     # at/above this a figure is treated as money
-RATIO_REL = 0.005       # +/-0.5% on ratios and percentages
-MONEY_ABS = 1.0         # per-period rounding allowance inside schedules
+# Calibrated tunables (2.7). Values are the RULEBOOK-era defaults; override
+# via a `canon:` block in config.yaml ONLY with a floor re-measure.
+try:
+    from paths import config_block as _cfg
+    _T = _cfg("canon")
+except ImportError:          # bare-copy contexts
+    _T = {}
+MONEY_FLOOR = float(_T.get("money_floor", 100.0))   # at/above: treated as money
+RATIO_REL = float(_T.get("ratio_rel", 0.005))       # +/-0.5% ratios/percentages
+MONEY_ABS = float(_T.get("money_abs", 1.0))         # per-period, schedule ctx only
 PERIOD_FACTORS = (2, 3, 4, 6, 12)
 
 NUM = re.compile(r"-?\$?\s*\d[\d,]*(?:\.\d+)?")
