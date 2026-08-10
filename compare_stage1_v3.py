@@ -36,7 +36,7 @@ import re
 from collections import Counter, defaultdict
 
 COMPARATOR_VERSION = "3.8"
-PIPELINE_VERSION = "1.2"
+from ledger_io import PIPELINE_VERSION   # single source (2.2)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "out")

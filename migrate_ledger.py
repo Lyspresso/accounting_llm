@@ -26,7 +26,7 @@ import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "out")
-PIPELINE_VERSION = "1.2"
+from ledger_io import PIPELINE_VERSION   # single source (2.2)
 
 
 def sha(s):

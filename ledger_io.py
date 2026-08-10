@@ -21,7 +21,11 @@ import paths
 
 OUT = paths.resolve("output")               # one path authority (2.1)
 LEDGER = os.path.join(OUT, "ledger.jsonl")
-PIPELINE_VERSION = "1.2"
+# BEHAVIOR_VERSION gates the sentinel and cache invalidation. It bumps ONLY on
+# behavior changes (docs/08-RELEASING.md); spec catch-up releases (skill/ 1.4.x)
+# never touch it. Single source — import from here, never redefine.
+BEHAVIOR_VERSION = "1.2"
+PIPELINE_VERSION = BEHAVIOR_VERSION   # legacy alias; ledger row field name stays "pipeline_version"
 
 
 

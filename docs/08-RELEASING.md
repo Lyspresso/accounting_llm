@@ -23,3 +23,13 @@ patch version. Old releases are never deleted or rewritten.**
 - `docs/07-RULEBOOK.md` (the rulebook) is the incident-provenance ledger:
   under continuous release, every new rule lands in the queue AND the
   current prompts AND a fresh release directory in the same commit.
+
+## The two versions (2.2)
+
+- **Spec version** (`skill/` prompts, `pipeline_version` in config): bumps on
+  every release, including non-invalidating catch-ups.
+- **BEHAVIOR_VERSION** (`ledger_io.py`, stamped into ledger rows as
+  `pipeline_version`): bumps ONLY when comparator/harness/state semantics
+  change in a way the sentinel and caches must treat as a new regime.
+  A behavior release declares in its notes whether BEHAVIOR_VERSION moved
+  and why; a catch-up release never moves it.
