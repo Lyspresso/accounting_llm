@@ -30,7 +30,9 @@ WORD = re.compile(r"[a-z]{4,}")
 NUM = re.compile(r"-?\$?\s*\d[\d,]*(?:\.\d+)?")
 # Company names and bare numbers are exactly what a "number variant twin"
 # changes, so they must not drive family identity.
-STOP = set("""the and for with that this from into their which when them були
+# NOTE: WORD is [a-z]{4,}, so a non-ASCII entry here can never match anything.
+# A stray Cyrillic token sat in this list and was provably dead weight.
+STOP = set("""the and for with that this from into their which when them
 value amount total company inc llc corp ltd year years january february march
 april may june july august september october november december cash""".split())
 
