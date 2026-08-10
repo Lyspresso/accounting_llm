@@ -1,3 +1,78 @@
+# =====================================================================
+# COPYRIGHT FIREWALL — THIS REPOSITORY IS PUBLIC
+# =====================================================================
+# The question bank is derived from a commercial textbook and its
+# courseware, licensed for one person's personal use. Publishing any of
+# it — in a data file, a fixture, an evidence bundle, or a report — is
+# infringement, and a public git history cannot be un-published by
+# deleting the file in a later commit.
+#
+# These rules block by PATTERN, not by filename, so a new file of the
+# same shape is ignored by default rather than requiring someone to
+# remember. Do not add an exception without reading the file first.
+
+# --- the corpus itself: every stem and every worked answer key -------
+questions.jsonl
+*questions.jsonl
+**/questions.jsonl
+*corpus*.jsonl
+*QUESTION_BANK*
+*CORE_DEMO*
+ACCOUNT343_*
+core-demo/
+staged-work/
+
+# --- evidence bundles: each carries a verbatim stem.md ---------------
+evidence/
+evidence_*/
+**/evidence/
+**/evidence_*/
+stem.md
+**/stem.md
+
+# --- generated harness scripts: full stems inside prompt strings -----
+*_batch.json
+parity50.json
+dual*.json
+trim*.json
+*.js
+
+# --- held-back keys, solutions, and anything answer-bearing ----------
+blind/
+keys/
+*answer_key*
+*ANSWER_KEY*
+*solutions*
+*SOLVED*
+VERIFY*
+ARITH_*
+proof/
+fix_pass/
+verify50/
+verify100/
+
+# --- raw textbook / courseware source --------------------------------
+*.pdf
+*.epub
+*.docx
+*.pptx
+Canvas/
+chapters/
+textbook/
+*Hanlon*
+*MBC*
+
+# --- pipeline output tree (regenerable, and full of the above) -------
+out/
+goldens/
+
+# --- local config: contains absolute paths and course identifiers ----
+config.yaml
+
+# =====================================================================
+# Ordinary ignores
+# =====================================================================
+
 # macOS
 .DS_Store
 
