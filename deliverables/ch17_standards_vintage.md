@@ -3,7 +3,7 @@
 **Pack field:** `standard_context` (attach verbatim to every ch. 17 item)
 **Regime:** ASC 842 only — current vintage, no legacy content
 **Source of record:** `chapter_17_clean.txt` (textbook, INT 4e), `CH 17 Handout - Accounting for Leases.docx.extracted.md`, `CH 17 Class Exercises.docx.extracted.md`, all under
-`/Users/lyspressopro/Classes And Concepts To Learn/Whitewater Spring 2026 Classes/ACCOUNT-343/Canvas/files/`
+`<local course-files directory — see paths.textbook in config.yaml>`
 **Line cites** below are line numbers in `chapter_17_clean.txt` (8,866 lines).
 
 ---

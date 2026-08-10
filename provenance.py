@@ -170,6 +170,52 @@ def admissible(prov, q):
     return (True, "admissible")
 
 
+EVIDENCE_PREFERENCE = ("evidence_trim_sym", "evidence_parity", "evidence_dual2",
+                       "evidence_dual", "evidence_trim", "evidence")
+
+
+def local(path):
+    """
+    Re-root an absolute evidence path onto THIS checkout.
+
+    Batch manifests (out/parity50.json and friends) recorded absolute paths into
+    one machine's working tree, so a clone read evidence from outside itself -
+    or, on any other machine, not at all. The manifests are kept as-is (they are
+    historical records); the resolution is made local here.
+    """
+    if not path:
+        return path
+    i = path.find("/out/")
+    return os.path.join(OUT, path[i + 5:]) if i != -1 else path
+
+
+def evidence_dir(qid, q, prefer=None):
+    """
+    The newest ADMISSIBLE evidence bundle for an item, or (None, reason).
+
+    preflight.py grew this logic after it scored agent_204#02 against a cache
+    generated before the LO 11-8 note existed. fp_taxonomy.py did not, and the
+    two tools then disagreed about the same item - one calling it clean, the
+    other filing 32 findings against it. A rule enforced in one caller is not
+    enforced.
+    """
+    d = qid.replace("#", "_")
+    tried = []
+    for sub in (prefer or EVIDENCE_PREFERENCE):
+        cand = os.path.join(OUT, sub, d)
+        sp = os.path.join(cand, "solver_output.json")
+        if not os.path.exists(sp):
+            continue
+        pp = os.path.join(cand, "provenance.json")
+        if os.path.exists(pp):
+            ok, why = admissible(json.load(open(pp, encoding="utf-8")), q)
+            if not ok:
+                tried.append(f"{sub}: {why.split(' - ')[0]}")
+                continue
+        return cand, "admissible"
+    return None, ("no admissible evidence" + (f" ({'; '.join(tried)})" if tried else ""))
+
+
 def audit():
     qs = load_questions()
     rows, tally = [], {"admissible": 0, "PACK_NOTES_STALE": 0,

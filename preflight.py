@@ -144,30 +144,16 @@ def fp_floor():
             continue
         if g["expected_verdict"] != "PASS":
             continue
-        # Score the newest ADMISSIBLE derivation. Preferring the parity output
-        # unconditionally scored agent_204#02 against a cache generated before
-        # the LO 11-8 note existed - an output the admissibility audit already
-        # marks PACK_NOTES_STALE. A floor computed on inadmissible evidence is
-        # not a measurement, and it charged the pipeline a false positive on an
-        # item that is clean under every admissible derivation of it.
-        d_ = qid.replace("#", "_")
-        cands = [os.path.join(OUT, "evidence_trim_sym", d_),
-                 par.get(qid), os.path.join(OUT, "evidence_dual2", d_),
-                 os.path.join(OUT, "evidence", d_)]
-        p = None
-        for c in [x for x in cands if x]:
-            sp = os.path.join(c, "solver_output.json")
-            pp = os.path.join(c, "provenance.json")
-            if not os.path.exists(sp):
-                continue
-            pr = json.load(open(pp, encoding="utf-8")) if os.path.exists(pp) else None
-            if pr and not PROV.admissible(pr, q)[0]:
-                continue
-            p = sp
-            break
-        if p is None:
+        # Score the newest ADMISSIBLE derivation, via the SHARED resolver in
+        # provenance.py. This logic used to live here only, and fp_taxonomy.py
+        # scored a different (inadmissible) bundle for the same item - the two
+        # tools disagreed about agent_204#02 by 32 findings. One rule, one
+        # implementation.
+        src, why_src = PROV.evidence_dir(qid, q)
+        if src is None:
             inadmissible += 1
             continue
+        p = os.path.join(src, "solver_output.json")
         sol = json.load(open(p, encoding="utf-8"))
         iss, _ = C.compare(sol, q, known, amap)
         hard = [i for i in iss if i["kind"] in C.HARD

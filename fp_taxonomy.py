@@ -298,6 +298,7 @@ def main():
     gold_dir = os.path.join(HERE, "goldens")
 
     rows, tally = [], {c: 0 for c in CLASSES}
+    inadmissible = []
     item_class, clean = {}, 0
     for fn in sorted(os.listdir(gold_dir)):
         if not fn.endswith(".json") or fn == "INDEX.json":
@@ -307,13 +308,14 @@ def main():
         q = qs.get(qid)
         if not q or g.get("expected_verdict") != "PASS":
             continue
-        src = par.get(qid) or os.path.join(OUT, "evidence", qid.replace("#", "_"))
-        sp = os.path.join(src, "solver_output.json")
-        if not os.path.exists(sp):
+        src, why_src = P.evidence_dir(qid, q)
+        if src is None:
+            inadmissible.append((qid, why_src))
             continue
+        sp = os.path.join(src, "solver_output.json")
         pp = os.path.join(src, "provenance.json")
         prov = json.load(open(pp, encoding="utf-8")) if os.path.exists(pp) else None
-        prov_ok = P.admissible(prov, q)[0] if prov else False
+        prov_ok = True
         clean += 1
         sol = json.load(open(sp, encoding="utf-8"))
         iss, _ = C.compare(sol, q, known, amap)
@@ -338,6 +340,10 @@ def main():
 
     print("=== FALSE-POSITIVE FLOOR: FIVE-WAY TAXONOMY ===\n")
     print(f"clean goldens scored : {clean}")
+    if inadmissible:
+        print(f"EXCLUDED, no admissible evidence : {len(inadmissible)}")
+        for qid, w in inadmissible:
+            print(f"    {qid:14s} {w}")
     print(f"goldens with >=1 hard finding : {len(item_class)}\n")
     print("findings by class:")
     for c in CLASSES:

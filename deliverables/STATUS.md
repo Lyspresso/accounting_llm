@@ -1,6 +1,6 @@
 # Verification run — consolidated status
 
-generated: 2026-08-10T01:35:20Z
+generated: 2026-08-10T02:55:46Z
 
 ## Corpus
 
@@ -26,7 +26,7 @@ Reconciliation: purging **129 notation LINES** removed **13 ITEMS** from the `UN
 | floor | result | verdict |
 |---|---|---|
 | detection | 40/40 = 100.0% | PASS |
-| false positive | 7/26 = 26.9% | FAIL |
+| false positive | 4/26 = 15.4% | FAIL |
 
 **LAUNCH GATE: RED**
 
@@ -58,12 +58,13 @@ Reconciliation: purging **129 notation LINES** removed **13 ITEMS** from the `UN
 | state | lineages |
 |---|---:|
 | `unverified` | 1719 |
-| `machine_passed` | 86 |
+| `machine_passed` | 85 |
 | `failed` | 14 |
 | `DUPLICATE_OF` | 9 |
+| `verified` | 1 |
 | **TOTAL** | **1828** |
 
-Partition remainder: **0**.  Unit ladder: rows (3164, forensics) → distinct content hashes → **lineages (1828, the reporting unit)**.
+Partition remainder: **0**.  Unit ladder: rows (3165, forensics) → distinct content hashes → **lineages (1828, the reporting unit)**.
 
 ## Cost — harness meter authoritative
 
