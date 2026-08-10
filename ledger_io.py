@@ -28,6 +28,24 @@ LEDGER = os.path.join(OUT, "ledger.jsonl")
 BEHAVIOR_VERSION = "1.2"
 PIPELINE_VERSION = BEHAVIOR_VERSION   # legacy alias; ledger row field name stays "pipeline_version"
 
+# One home for status names (2.3). A typo'd status previously failed SILENTLY
+# as a brand-new state; make_row makes it fail loudly at the write site.
+STATUSES = ("unverified", "machine_passed", "failed",
+            "verified", "needs_human", "DUPLICATE_OF")
+TERMINAL = ("verified", "needs_human")
+
+
+def make_row(content_hash, id, status, stage, pack_id=None, **extra):
+    """Constructor for ledger rows. Asserts the status is a known state and
+    stamps pipeline_version. Extra keys pass through unchanged."""
+    assert status in STATUSES, f"unknown ledger status: {status!r}"
+    row = {"content_hash": content_hash, "id": id, "status": status,
+           "stage": stage, "pipeline_version": PIPELINE_VERSION}
+    if pack_id is not None:
+        row["pack_id"] = pack_id
+    row.update(extra)
+    return row
+
 
 
 # ---------------------------------------------------------------------------

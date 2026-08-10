@@ -36,7 +36,7 @@ import re
 from collections import Counter, defaultdict
 
 COMPARATOR_VERSION = "3.8"
-from ledger_io import PIPELINE_VERSION   # single source (2.2)
+from ledger_io import PIPELINE_VERSION, make_row   # single source (2.2/2.3)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "out")
@@ -476,11 +476,10 @@ def main():
 
         rows.append({"id": it["id"], "status": status, "risk_score": it["risk_score"],
                      "scope": scope, "n_issues": len(issues), "issues": issues[:14]})
-        ledger.append({"content_hash": q["content_hash"], "id": q["id"],
-                       "pack_id": q["pack_id"], "status": status,
-                       "reasons": sorted({i["kind"] for i in hard}), "stage": 1,
-                       "comparator_version": COMPARATOR_VERSION,
-                       "pipeline_version": PIPELINE_VERSION})
+        ledger.append(make_row(q["content_hash"], q["id"], status, stage=1,
+                               pack_id=q["pack_id"],
+                               reasons=sorted({i["kind"] for i in hard}),
+                               comparator_version=COMPARATOR_VERSION))
 
         # comparator_version stamped into the evidence bundle
         with open(os.path.join(it["dir"], "comparison.json"), "w", encoding="utf-8") as fh:
