@@ -71,7 +71,13 @@
   "why_clusterer_split": "The two forms share no token sequence: the key names the security inside the account ('Investment in AFS Quill Bonds') while the solver names the classification and pools securities ('Debt Investments\u2014Available for Sale'). merge_key requires exact equality after case/punctuation normalisation, so they never clustered. Surfaced by agent_002#03, where the two entries are aggregation-equivalent - same sides, same totals, token-linked.",
   "raised_by": "agent_002#03 (ORDER-002 item 5)",
   "note": "Routed here rather than special-cased in the comparator, per ORDER-002 item 5. A comparator that hard-codes one item's naming stops measuring naming.",
-  "ruling": null
+  "ruling": {
+   "decision": "ALIAS_TO_CANONICAL",
+   "canonical": "Investment in <classification> <security> Bonds",
+   "id": "D15.2",
+   "authority": "ORDER-005 item 2",
+   "why": "textbook 80-0; corpus 451-15 overall, 366-0 in JE position"
+  }
  },
  {
   "pair": [

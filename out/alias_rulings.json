@@ -32,5 +32,32 @@
   "ruling": "CANONICAL_AS_HARVESTED",
   "canonical": "Research and Development Expense",
   "why": "'R&D Expense' was order-block shorthand and does not occur in the corpus; disregarded."
+ },
+ "afs_htm_investment_naming": {
+  "pair": [
+   "Investment in AFS/HTM <security> Bonds",
+   "Debt Investments\u2014Available for Sale/Held to Maturity"
+  ],
+  "textbook": {
+   "Investment in ...": 80,
+   "Debt Investments\u2014...": 0,
+   "je_context": {
+    "Investment in ...": 1,
+    "Debt Investments\u2014...": 0
+   }
+  },
+  "corpus": {
+   "Investment in ...": 451,
+   "Debt Investments\u2014...": 15,
+   "je_context": {
+    "Investment in ...": 366,
+    "Debt Investments\u2014...": 0
+   }
+  },
+  "ruling": "ALIAS_TO_CANONICAL",
+  "canonical": "Investment in <classification> <security> Bonds",
+  "id": "D15.2",
+  "authority": "ORDER-005 item 2",
+  "why": "Not close in either view. Textbook 80 vs 0 overall; corpus 451 vs 15 overall and 366 vs 0 in JOURNAL-ENTRY position - the pooled 'Debt Investments' form is never POSTED anywhere in the corpus, only written in prose. That is a dominant house form, not two sanctioned spellings, so the per-security form is canonical."
  }
 }
