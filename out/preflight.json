@@ -13,7 +13,7 @@
  },
  "false_positive": {
   "clean": 40,
-  "fp": 1,
+  "fp": 0,
   "stale": 0,
   "inadmissible": 0,
   "chargeable": 0,
@@ -22,15 +22,15 @@
    0.0,
    0.08762453925039232
   ],
-  "raw_rate": 0.025,
+  "raw_rate": 0.0,
   "raw_ci": [
-   0.0044267174077949195,
-   0.1288165948800778
+   0.0,
+   0.08762453925039232
   ],
   "charge_detail": {
    "TRUE_FP": 0,
    "GOLDEN_WRONG": 0,
-   "MATCHER_ARTIFACT": 6,
+   "MATCHER_ARTIFACT": 0,
    "HASH_MIXING": 0,
    "PENDING": 0
   },
@@ -39,16 +39,7 @@
    "adjudicated": 8,
    "ai_cross_checked": 32
   },
-  "offenders": [
-   {
-    "id": "agent_002#03",
-    "tier": "adjudicated",
-    "kinds": [
-     "JE_LINE_NOT_IN_KEY",
-     "KEY_LINE_NOT_IN_SOLVER"
-    ]
-   }
-  ]
+  "offenders": []
  },
  "gate": "GREEN"
 }

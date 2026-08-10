@@ -1,6 +1,6 @@
 # Verification run — consolidated status
 
-generated: 2026-08-10T04:15:37Z
+generated: 2026-08-10T04:32:47Z
 
 ## Corpus
 
@@ -26,7 +26,7 @@ Reconciliation: purging **129 notation LINES** removed **13 ITEMS** from the `UN
 | floor | result | verdict |
 |---|---|---|
 | detection | 40/40 = 100.0% | PASS |
-| false positive | 1/40 = 0.0% | PASS |
+| false positive | 0/40 = 0.0% | PASS |
 
 **LAUNCH GATE: GREEN**
 

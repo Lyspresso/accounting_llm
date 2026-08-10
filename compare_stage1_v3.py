@@ -151,6 +151,106 @@ def agg_matches(a, b):
     return all(abs(a[k] - b[k]) <= precision_tol(a[k], 2, True) for k in a)
 
 
+def alias_family(acct, amap):
+    """
+    The alias-resolved token set for an account, used for FAMILY linkage.
+
+    resolve() is exact-after-normalisation, so a pooled account carrying extra
+    security names ("debt investments available for sale quill dune") never keys
+    into the alias map at all - which is one of the two reasons D15.2 did not
+    clear agent_002. Family linkage asks the weaker, correct question: do these
+    two accounts resolve into the same alias family once their tokens are
+    considered?
+    """
+    n = norm_acct(acct)
+    r = resolve(n, amap)
+    if r == n:
+        # Exact lookup is why D15.2 could not clear anything: the pooled account
+        # carries the security names ("... available for sale QUILL DUNE"), so it
+        # never keys into the map. An alias key that is a PREFIX of the account
+        # identifies its family - that is what "alias-equivalent family" has to
+        # mean if it is to mean anything.
+        best = ""
+        for k in amap:
+            if len(k) > len(best) and n.startswith(k):
+                best = k
+        if best:
+            r = f"{r} {amap[best]}"
+    toks = set(re.findall(r"[a-z]+", f"{n} {r}"))
+    return {t for t in toks if len(t) > 2 and t not in AGG_STOP}
+
+
+AGG_STOP = {"the", "and", "for", "in", "of", "on", "to", "bonds", "bond",
+            "securities", "security", "investment", "investments", "debt"}
+
+
+def aggregate_across_family(extra_sol, extra_key, amap):
+    """
+    LOOSENING 5 of 5 (ORDER-006 item 2). One POOLED solver line may match a SET
+    of key lines when, within the same side:
+
+        * the sums agree exactly (money tolerance), and
+        * every absorbed key account is TOKEN-LINKED to the pooled account
+          through its alias family.
+
+    The token-linkage requirement is the whole guard. Without it this rule would
+    certify "Cash 150,000" as equivalent to two Investment lines summing to
+    150,000 - equal money is not equal accounting, and a matcher that forgets
+    that stops being a matcher.
+
+    Returns [(pooled_key, [absorbed_keys...])] for the pairs it consumed; the
+    caller decrements both multisets.
+    """
+    consumed = []
+    by_side_key = defaultdict(list)
+    for (acct, side, amt), n in extra_key.items():
+        if n > 0:
+            by_side_key[side].extend([(acct, amt)] * n)
+
+    for (s_acct, s_side, s_amt), s_n in sorted(extra_sol.items()):
+        if s_n <= 0:
+            continue
+        fam = alias_family(s_acct, amap)
+        if not fam:
+            continue
+        s_norm = norm_acct(s_acct)
+        cands = [(a, m) for (a, m) in by_side_key.get(s_side, [])
+                 # A COMMON family token must be shared by the pooled account and
+                 # EVERY absorbed one. Pairwise linkage was too weak: it absorbed
+                 # "Loss from Storm" into an inventory balance because both
+                 # mentioned "storm" - a scenario word, not an account identity.
+                 if m < s_amt + 0.01 and (alias_family(a, amap) & fam)
+                 # Absorbing lines of the SAME account is not family aggregation;
+                 # it is summing one account's postings, which net_per_account
+                 # already does per entry. Left in, it collapsed several distinct
+                 # Cash movements into one.
+                 and norm_acct(a) != s_norm]
+        if len(cands) < 2:
+            continue                      # 1:1 is the existing path, not this one
+        if len({norm_acct(a) for a, _ in cands}) < 2:
+            continue                      # needs >= 2 DISTINCT sibling accounts
+        # smallest exact-summing subset, greedy on descending amount
+        got, used = 0.0, []
+        for a, m in sorted(cands, key=lambda x: -x[1]):
+            if got + m <= s_amt + 0.01:
+                got += m
+                used.append((a, m))
+            if abs(got - s_amt) <= 0.01:
+                break
+        if abs(got - s_amt) > 0.01 or len(used) < 2:
+            continue
+        if len({norm_acct(a) for a, _ in used}) < 2:
+            continue
+        # the COMMON-token test, applied to the set actually chosen
+        common = fam.intersection(*[alias_family(a, amap) for a, _ in used])
+        if not common:
+            continue
+        consumed.append(((s_acct, s_side, s_amt), used))
+        for a, m in used:
+            by_side_key[s_side].remove((a, m))
+    return consumed
+
+
 # ------------------------------------------------------------- the comparison
 
 def compare(sol, q, known, amap):
@@ -306,7 +406,22 @@ def compare(sol, q, known, amap):
         tot = round(sum(m for _, m in group), 2)
         return group if abs(tot - amt) <= precision_tol(amt, 2, True) else None
 
+    # LOOSENING 5 of 5 (ORDER-006 item 2): pooled-vs-per-security aggregation
+    # across alias-equivalent families. Runs BEFORE the loop below, so lines it
+    # consumes never become findings in the first place - filtering findings
+    # after the fact would leave the scope counters describing a comparison that
+    # did not happen.
+    for pooled, absorbed in aggregate_across_family(extra_solver, extra_key, amap):
+        extra_solver[pooled] -= 1
+        for a, m in absorbed:
+            extra_key[(a, pooled[1], round(m, 2))] -= 1
+        issues.append({"kind": "JE_AGGREGATED_FAMILY", "side": pooled[1],
+                       "amount": pooled[2], "solver": pooled[0],
+                       "absorbed": [a for a, _ in absorbed]})
+
     for (acct, side, amt), n in extra_solver.items():
+        if n <= 0:
+            continue      # consumed by the family-aggregation pass above
         agg = aggregates_to(acct, side, amt)
         if agg:
             issues.append({"kind": "JE_AGGREGATED", "side": side, "amount": amt,
