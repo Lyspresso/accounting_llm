@@ -1,0 +1,355 @@
+# CH 17 canonical lease entry templates — ACCOUNT-343, INT 4e, ASC 842 only.
+# Shape matches pack/entry_templates.yaml: a flat YAML list of templates, each
+# with id / transaction / lines[{account, side, amount_expr}] / conditions.
+# amount_expr uses named givens from the fact pattern; the solver evaluates with
+# decimal.Decimal. Merge this list into entry_templates.yaml or load alongside.
+#
+# ---------------------------------------------------------------------------
+# EDITION CONVENTIONS (non-negotiable — see reports/ch17_standards_vintage.md)
+#   1. Both classes capitalize. Right-of-Use Asset + Lease Liability at
+#      commencement for finance AND operating. Never "Capital Lease". Never a
+#      bare Rent Expense / Cash line for a long-term operating lease.
+#   2. Finance-lease accrued interest is credited to LEASE LIABILITY, not
+#      Interest Payable  (Demo 17-2 part d).
+#   3. Amortization is credited DIRECTLY to Right-of-Use Asset. No accumulated
+#      amortization contra account "in all examples in this chapter"
+#      (Demo 17-2 footnote).
+#   4. Operating lease P&L is a single "Lease Expense". Finance lease P&L is
+#      "Interest Expense" + "Amortization Expense". Never mix.
+#   5. Payments are debited to Lease Liability in full (annuity due or ordinary
+#      annuity alike); interest is accreted by a separate period-end entry.
+#
+# ROUNDING: the chapter's own note — "Amounts adjusted to whole numbers to
+#   simplify recording of journal entries that follow. If we prepare this
+#   schedule in Excel with unlimited decimals, the numbers slightly vary."
+#   House style for JEs is whole dollars, round the SL charge FIRST, carry the
+#   rounded charge, and plug the final period. Every ch.17 stem must state its
+#   convention; absent a stated convention BOTH cent-carrying and whole-dollar
+#   answers are defensible and must not be scored as a mismatch.
+#
+# ACCOUNTS THIS FILE REQUIRES that pack/chart_of_accounts.txt does not yet have
+# (each currently raises UNKNOWN_ACCOUNT):
+#   Lease Expense                (expense)
+#   Lease Expense (Short-Term)   (expense)
+#   Initial Direct Cost          (asset, pre-commencement, reclassed)
+#   Lease Incentive Liability    (liability, pre-commencement, reclassed)
+#   Prepaid Lease Payment        (asset, pre-commencement, reclassed)
+#   Gain on Sale-Leaseback       (gain)
+#   Leasehold Improvements       (asset)
+# Alias rows to add to pack/account_aliases.csv:
+#   Lease Expense,Operating Lease Expense
+#   Lease Expense,Single Lease Cost
+#   Lease Expense (Short-Term),Short-Term Lease Expense
+#   Right-of-Use Asset,Right of Use Asset
+#   Buildings,Building
+#   Accumulated Depreciation - Buildings,Accumulated Depreciation - Building
+#
+# NAMED GIVENS used below
+#   pv_lease_payments        PV of lease payments at the lease's discount rate
+#   lease_incentive_received incentive received at/before commencement
+#   initial_direct_cost      IDC paid at/before commencement
+#   prepaid_lease_payment    payment made at/before commencement
+#   rou_asset_0              pv_lease_payments - lease_incentive_received + initial_direct_cost
+#   payment                  periodic contractual lease payment
+#   beginning_liability      lease liability balance at start of the period
+#   discount_rate            implicit rate if known, else lessee's IBR
+#   interest_period          beginning_liability * discount_rate  (plug final period)
+#   amort_basis              rou_asset_0 (or remeasured ROU) to amortize
+#   amort_periods            lease term, OR asset useful life if title transfers
+#                            or a purchase option is reasonably certain (842-20-35-8)
+#   total_lease_payments     undiscounted sum of all lease payments
+#   n_periods                number of lease periods
+#   sl_lease_expense         (total_lease_payments + initial_direct_cost
+#                             - lease_incentive_received) / n_periods
+# ---------------------------------------------------------------------------
+
+# ===========================================================================
+# A. PRE-COMMENCEMENT
+# ===========================================================================
+
+- id: lease_incentive_received_pre_commencement
+  transaction: Lessee receives a lease incentive before commencement
+  lines:
+    - {account: Cash, side: dr, amount_expr: lease_incentive_received}
+    - {account: Lease Incentive Liability, side: cr, amount_expr: lease_incentive_received}
+  conditions: incentive received at or before the commencement date; it is a performance obligation until commencement, then reduces the ROU asset (Demo 17-5 part a)
+
+- id: initial_direct_cost_paid_pre_commencement
+  transaction: Lessee pays an initial direct cost before commencement
+  lines:
+    - {account: Initial Direct Cost, side: dr, amount_expr: initial_direct_cost}
+    - {account: Cash, side: cr, amount_expr: initial_direct_cost}
+  conditions: incremental cost that would not have been incurred absent the lease (commissions, execution legal fees, document prep). NOT fixed salaries, overhead, advertising, or pre-execution tax/legal advice (842-10-30-10)
+
+- id: lease_prepayment_pre_commencement
+  transaction: Lessee prepays a lease payment before commencement
+  lines:
+    - {account: Prepaid Lease Payment, side: dr, amount_expr: prepaid_lease_payment}
+    - {account: Cash, side: cr, amount_expr: prepaid_lease_payment}
+  conditions: Demo 17-5 part j; reclassed against Lease Liability at commencement
+
+# ===========================================================================
+# B. COMMENCEMENT — identical measurement for finance and operating
+# ===========================================================================
+
+- id: lease_commencement_basic
+  transaction: Commencement — recognize ROU asset and lease liability (basic case, no incentives / IDC / prepayment)
+  lines:
+    - {account: Right-of-Use Asset, side: dr, amount_expr: pv_lease_payments}
+    - {account: Lease Liability, side: cr, amount_expr: pv_lease_payments}
+  conditions: applies to BOTH finance and operating leases — "in the same way as a finance lease" (Demo 17-3 part b). Discount at the implicit rate when known, even if it differs from the IBR (842-20-30-3; Demo 17-2 part i)
+
+- id: lease_commencement_with_idc_and_incentive
+  transaction: Commencement — reclass incentive and initial direct cost into the ROU asset
+  lines:
+    - {account: Right-of-Use Asset, side: dr, amount_expr: pv_lease_payments - lease_incentive_received + initial_direct_cost}
+    - {account: Lease Incentive Liability, side: dr, amount_expr: lease_incentive_received}
+    - {account: Lease Liability, side: cr, amount_expr: pv_lease_payments}
+    - {account: Initial Direct Cost, side: cr, amount_expr: initial_direct_cost}
+  conditions: |
+    Demo 17-4A and Demo 17-5 part e. Applies to BOTH classes.
+    TRAP: the incentive reduces fixed payments for the 90% classification test
+    but does NOT reduce the lease liability — only the ROU asset.
+
+- id: lease_commencement_with_prepayment
+  transaction: Commencement — apply a pre-commencement prepayment against the lease liability
+  lines:
+    - {account: Right-of-Use Asset, side: dr, amount_expr: rou_asset_0}
+    - {account: Lease Liability, side: cr, amount_expr: pv_lease_payments}
+    - {account: Prepaid Lease Payment, side: cr, amount_expr: prepaid_lease_payment}
+  conditions: |
+    LO 17-4: "Any lease payments made on or prior to the commencement date will
+    be applied to the lease liability on the commencement date (Dr. Lease
+    Liability and Cr. Prepaid Lease Payment)." May instead be presented as a
+    separate Dr Lease Liability / Cr Prepaid Lease Payment entry (Demo 17-5
+    part j). rou_asset_0 = pv_lease_payments - lease_incentive_received
+    + initial_direct_cost.
+
+- id: leasehold_improvements_capitalize
+  transaction: Capitalize leasehold improvements on leased property
+  lines:
+    - {account: Leasehold Improvements, side: dr, amount_expr: improvement_cost}
+    - {account: Cash, side: cr, amount_expr: improvement_cost}
+  conditions: separate from the ROU asset; amortized over the SHORTER of useful life and remaining lease term, unless title transfers or a purchase option is reasonably certain (842-20-35-12). Chapter is SILENT on ASU 2023-01 common-control — do not import it
+
+# ===========================================================================
+# C. PERIODIC — the lease payment (same entry for both classes)
+# ===========================================================================
+
+- id: lease_payment
+  transaction: Record a contractual lease payment
+  lines:
+    - {account: Lease Liability, side: dr, amount_expr: payment}
+    - {account: Cash, side: cr, amount_expr: payment}
+  conditions: |
+    Full payment is debited to Lease Liability in this edition, annuity due or
+    ordinary annuity alike. Interest accretes via a SEPARATE period-end entry.
+    Annuity due: the commencement-date payment carries zero interest and is
+    100% principal. Never split this entry into interest + principal legs.
+
+# ===========================================================================
+# D. PERIODIC — FINANCE LEASE (two expense lines)
+# ===========================================================================
+
+- id: finance_periodic_interest
+  transaction: Period-end interest on a finance lease liability (effective interest)
+  lines:
+    - {account: Interest Expense, side: dr, amount_expr: beginning_liability * discount_rate}
+    - {account: Lease Liability, side: cr, amount_expr: beginning_liability * discount_rate}
+  conditions: |
+    CREDIT LEASE LIABILITY, NOT INTEREST PAYABLE (Demo 17-2 part d).
+    Final period: plug so the liability clears exactly to zero (or to the
+    probable GRV amount owed, if any).
+
+- id: finance_periodic_amortization
+  transaction: Period-end straight-line amortization of the ROU asset (finance lease)
+  lines:
+    - {account: Amortization Expense, side: dr, amount_expr: amort_basis / amort_periods}
+    - {account: Right-of-Use Asset, side: cr, amount_expr: amort_basis / amort_periods}
+  conditions: |
+    Credit the ROU asset DIRECTLY — no accumulated amortization account
+    "as we see in all examples in this chapter" (Demo 17-2 footnote).
+    amort_periods = lease term, UNLESS title transfers or a purchase option is
+    reasonably certain of exercise, in which case use the underlying asset's
+    useful life (842-20-35-8).
+    Final period absorbs the whole-dollar rounding difference (Demo 17-2 part h
+    debits 33,334 for $100,000/3, footnoted "Amount adjusted due to rounding").
+
+- id: finance_lease_settlement_no_residual
+  transaction: End of a finance lease with no residual guarantee and no purchase option
+  lines: []
+  conditions: no entry. After the final payment and final amortization both Right-of-Use Asset and Lease Liability are $0; the asset simply reverts to the lessor (Demo 17-2 part h)
+
+# ===========================================================================
+# E. PERIODIC — OPERATING LEASE (single expense line)
+# ===========================================================================
+
+- id: operating_periodic_single_lease_expense
+  transaction: Period-end single lease expense (operating lease) — compound form
+  lines:
+    - {account: Lease Expense, side: dr, amount_expr: sl_lease_expense}
+    - {account: Lease Liability, side: cr, amount_expr: beginning_liability * discount_rate}
+    - {account: Right-of-Use Asset, side: cr, amount_expr: sl_lease_expense - beginning_liability * discount_rate}
+  conditions: |
+    Demo 17-3 part d; Demo 17-5 part e; Demo 17-12 part c.
+    "Straight-Line Lease Amortization Expense minus Current Period 'Interest'
+     = Change in Right-of-Use Asset" (LO 17-3 graphic).
+    The liability accretion is NOT an income-statement interest line — it only
+    splits the credit side. Never debit Interest Expense or Amortization
+    Expense in an operating lease.
+    sl_lease_expense includes IDC and is net of incentives:
+      Demo 17-5 -> (34,972*3 + 620 - 5,000)/3 = 33,512.
+
+- id: operating_periodic_single_lease_expense_two_part
+  transaction: Period-end single lease expense (operating lease) — two-part form, ACCEPTED EQUIVALENT
+  lines:
+    - {account: Right-of-Use Asset, side: dr, amount_expr: beginning_liability * discount_rate}
+    - {account: Lease Liability, side: cr, amount_expr: beginning_liability * discount_rate}
+    - {account: Lease Expense, side: dr, amount_expr: sl_lease_expense}
+    - {account: Right-of-Use Asset, side: cr, amount_expr: sl_lease_expense}
+  conditions: |
+    "An option is to record Dec. 31 entry in two parts." (Demo 17-3, boxed note)
+    IDENTICAL to operating_periodic_single_lease_expense after netting the two
+    ROU legs. Comparators MUST canonicalize before flagging FORM_DIFFERS, and
+    key extractors must not pick up only this optional table as "the" key.
+
+- id: operating_final_period_lease_expense
+  transaction: Final-period operating lease expense (liability already zero)
+  lines:
+    - {account: Lease Expense, side: dr, amount_expr: sl_lease_expense}
+    - {account: Right-of-Use Asset, side: cr, amount_expr: sl_lease_expense}
+  conditions: |
+    CAPTION TRAP — the chapter captions this "To record amortization on
+    right-of-use asset" but DEBITS LEASE EXPENSE (Demo 17-3 part h, lines
+    948-953; Demo 17-5 part i). Follow the entry, not the caption. No liability
+    accretion because the liability is already $0 after the last payment.
+
+# ===========================================================================
+# F. RESIDUAL GUARANTEES, PURCHASE OPTIONS, REMEASUREMENT
+# ===========================================================================
+
+- id: guaranteed_residual_settlement
+  transaction: Pay the shortfall under a residual value guarantee at lease end
+  lines:
+    - {account: Lease Liability, side: dr, amount_expr: guaranteed_residual - actual_residual_value}
+    - {account: Cash, side: cr, amount_expr: guaranteed_residual - actual_residual_value}
+  conditions: |
+    Demo 17-4B part i. The liability carries the PROBABLE amount owed
+    (GRV - expected residual, floored at zero) — only that amount remains after
+    the final payment, and this entry clears it.
+    TRAP: 100% of the GRV enters the 90% classification test, but only the
+    probable amount owed enters the lease liability (Exhibit 17-3).
+    Unguaranteed residual: excluded from BOTH.
+
+- id: purchase_option_transfer_to_owned_asset
+  transaction: Lease end — transfer the remaining ROU balance to an owned-asset account after exercising a purchase option
+  lines:
+    - {account: Equipment, side: dr, amount_expr: rou_asset_remaining}
+    - {account: Right-of-Use Asset, side: cr, amount_expr: rou_asset_remaining}
+  conditions: |
+    Demo 17-4C Example Two. The option price itself was already inside the
+    lease liability, so its payment uses the lease_payment template.
+    rou_asset_remaining is nonzero only when amort_periods was the asset's
+    useful life and that life exceeds the lease term; it is then depreciated
+    over the remaining life. IDC is always amortized over the LEASE TERM, so
+    the IDC component is fully amortized by lease end.
+
+- id: lease_remeasurement_increase
+  transaction: Remeasure the lease liability (increase) and adjust the ROU asset
+  lines:
+    - {account: Right-of-Use Asset, side: dr, amount_expr: revised_liability - carrying_liability}
+    - {account: Lease Liability, side: cr, amount_expr: revised_liability - carrying_liability}
+  conditions: |
+    "[ASC 842-20-35-4] A lessee shall recognize the amount of the remeasurement
+    of the lease liability as an adjustment to the right-of-use asset."
+    Demo 17-11 Example Three. Remeasure BEFORE the payment on the
+    remeasurement date. UPDATE the discount rate at remeasurement unless
+    842-20-35-5(a)-(c) applies — (a) a term/purchase-option change where the
+    original rate ALREADY reflected that option, (b) a change in probable GRV
+    amounts, (c) resolution of a variable-payment contingency.
+    If the change makes a purchase option reasonably certain, post-remeasurement
+    amortization runs over the REMAINING USEFUL LIFE, not the lease term.
+    OUT OF SCOPE for this course (LO 17-11 = "Covered? No") — tag accordingly.
+
+- id: lease_remeasurement_decrease
+  transaction: Remeasure the lease liability (decrease) and adjust the ROU asset
+  lines:
+    - {account: Lease Liability, side: dr, amount_expr: carrying_liability - revised_liability}
+    - {account: Right-of-Use Asset, side: cr, amount_expr: carrying_liability - revised_liability}
+  conditions: mirror of lease_remeasurement_increase; if the reduction exceeds the ROU carrying amount the excess goes to profit or loss. Chapter demonstrates only the increase case
+
+# ===========================================================================
+# G. SHORT-TERM LEASE ELECTION (LO 17-9)
+# ===========================================================================
+
+- id: short_term_lease_expense
+  transaction: Recognize lease expense under the short-term lease policy election
+  lines:
+    - {account: Lease Expense (Short-Term), side: dr, amount_expr: payment}
+    - {account: Cash, side: cr, amount_expr: payment}
+  conditions: |
+    Demo 17-9. NO ROU asset and NO lease liability are recorded.
+    Qualifies when the lease term is 12 months or less INCLUDING any renewal
+    the lessee is reasonably certain to exercise, and there is no purchase
+    option the lessee is reasonably certain to exercise (ASC Glossary wording —
+    the chapter body's "one year or less" / "reasonably expected" is the same
+    rule stated loosely; author with the glossary wording).
+    Straight-line over the lease term; election is by class of underlying asset
+    and must be applied consistently thereafter.
+
+- id: variable_lease_payment_not_index_based
+  transaction: Recognize a variable lease payment not based on an index or rate
+  lines:
+    - {account: Lease Expense, side: dr, amount_expr: variable_payment}
+    - {account: Cash, side: cr, amount_expr: variable_payment}
+  conditions: |
+    Excluded from lease payments and from the liability; expensed in the period
+    the triggering target becomes probable (842-20-55-1). Payments based on an
+    index or rate ARE included, measured at the commencement-date index.
+    In-substance fixed minimums are included at the minimum level.
+    NOTE: the chapter states the rule but demonstrates no journal entry — treat
+    this template as inferred, not demonstrated, and prefer authoring around it.
+
+# ===========================================================================
+# H. SALE-LEASEBACK / FAILED SALE (LO 17-12, Appendix 17C)
+# ===========================================================================
+
+- id: sale_leaseback_recognized_sale
+  transaction: Recognized sale-leaseback — record the sale and gain
+  lines:
+    - {account: Cash, side: dr, amount_expr: selling_price}
+    - {account: "Accumulated Depreciation - {asset}", side: dr, amount_expr: accumulated_depreciation}
+    - {account: "{asset}", side: cr, amount_expr: asset_cost}
+    - {account: Gain on Sale-Leaseback, side: cr, amount_expr: selling_price - (asset_cost - accumulated_depreciation)}
+  conditions: |
+    Demo 17-12 part b. A sale is recognized only when control transfers —
+    i.e. the leaseback is an OPERATING lease. Pair this with
+    lease_commencement_basic for the leaseback ROU/liability, then the ordinary
+    operating-lease periodic templates.
+    Selling price = fair value in the demo; the chapter does not demonstrate an
+    off-market adjustment.
+
+- id: failed_sale_financing
+  transaction: Failed sale-leaseback — record the proceeds as a financing
+  lines:
+    - {account: Cash, side: dr, amount_expr: selling_price}
+    - {account: Note Payable, side: cr, amount_expr: selling_price}
+  conditions: |
+    Demo 17-12 Example Two. If the leaseback is a FINANCE lease, control never
+    transferred, so no sale, no gain, and no ROU asset. The seller-lessee keeps
+    the asset on its books and keeps depreciating it.
+
+- id: failed_sale_periodic_payment
+  transaction: Failed sale-leaseback — periodic payment split into interest and principal
+  lines:
+    - {account: Interest Expense, side: dr, amount_expr: beginning_note_balance * discount_rate}
+    - {account: Note Payable, side: dr, amount_expr: payment - beginning_note_balance * discount_rate}
+    - {account: Cash, side: cr, amount_expr: payment}
+  conditions: Demo 17-12 Example Two part c. This IS split at payment — unlike a real lease, where the full payment debits Lease Liability
+
+- id: failed_sale_depreciation
+  transaction: Failed sale-leaseback — continue depreciating the retained asset
+  lines:
+    - {account: Depreciation Expense, side: dr, amount_expr: carrying_amount / remaining_useful_life}
+    - {account: "Accumulated Depreciation - {asset}", side: cr, amount_expr: carrying_amount / remaining_useful_life}
+  conditions: Demo 17-12 Example Two part c ($80,000/10 = $8,000). Uses a real accumulated depreciation contra account — this is an owned asset, not an ROU asset, so the chapter's direct-credit convention does NOT apply here
