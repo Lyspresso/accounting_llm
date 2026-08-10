@@ -637,3 +637,16 @@ Each entry: the rule as it should read in the prompts, then [origin].
   could not be paired is SURFACED and flagged as the part deserving
   attention, never dropped — a silent omission is precisely what the
   human is there to catch.
+
+
+## Added at REPORT-005
+
+- **Predict at the mechanism level or not at all**: symptom-level
+  predictions ("the offender clears") are hopes with numbers. A
+  registered expectation names the mechanism that will move the metric —
+  and if the mechanism can't be named, the honest register entry is "no
+  prediction." [three consecutive reviewer misses; both true mechanisms
+  were visible in the pair's own first description]
+- **The serialization rule holds under temptation**: the fix that sits
+  one edit away from the work in hand is still its own change, with its
+  own re-measure — proximity is not permission to batch.

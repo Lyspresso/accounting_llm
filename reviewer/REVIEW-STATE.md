@@ -21,7 +21,7 @@ This is the reviewer's pick-up-here file. Read it with deliverables/STATUS.md
 
 ## The in-flight order block
 
-ORDER-005 (comms/orders/) — agent_002 pair ruling; everything else done.
+ORDER-006 (comms/orders/) — fifth loosening (D24) serialized; D15.2 recorded.
 Worksheet READY at deliverables/countersign_worksheet.md; fixtures 10/10;
 ledger 3,184 rows / 1,828 lineages / 0 terminal; v1.4.6 cut.
 Superseded history below retained for context:

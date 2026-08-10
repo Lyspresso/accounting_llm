@@ -113,6 +113,15 @@ evidence. Evidence details: deliverables/, reviewer/, docs/04-04-items-casebook.
 - **D15.1 (ORDER-004):** three pairs approved under dominance (base 228/
   111/180 vs suffixed 0): `accounts receivable`, `common stock`,
   `retained earnings` canonical; the suffixed forms alias in.
+- **D15.2 (REPORT-005):** `Investment in <security> Bonds`-style
+  per-security forms are CANONICAL for AFS debt investments; the pooled
+  `Debt Investments—Available for Sale` form is prose-only in this
+  corpus (never posted; JE-position cell 366–0) and aliases in.
+- **D24 Fifth loosening (ORDER-006):** aggregation-equivalence extends
+  ACROSS alias-equivalent account families — pooled ↔ per-security
+  within one entry/date/side, sum exact, token-linkage REQUIRED (a
+  pooled line without token linkage still fails). Serialized alone with
+  its own floor-#1 re-measure; ships as v1.4.7.
 - **D21 Continuous release** (operator's order, 2026-08-10): every spec
   change publishes immediately as the next patch version; releases are
   append-only under skill/releases/; see docs/08-08-RELEASING.md.
