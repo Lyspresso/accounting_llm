@@ -5,9 +5,11 @@ This is the reviewer's pick-up-here file. Read it with deliverables/STATUS.md
 
 ## Gates and authorization
 
-- LAUNCH GATE: **RED** — floor #2 must re-clear under the finished stack.
-  The last measured 26.9% is KNOWN-STALE (pre-taxonomy, pre-JE-unification,
-  measured through since-fixed matcher bugs). Do not quote it as current.
+- LAUNCH GATE: **GREEN** — floor #1 40/40 [91.2,100]; floor #2 0
+  chargeable /40, CI [0, 8.8%] vs 10% ceiling; re-measured independently
+  on the reviewer's machine. LAUNCH = GREEN **AND** certified (letter A);
+  certification is the sole remaining condition. Ledger sha b210c246
+  (stage-null mover, declared + proved inert).
 - FAMILY GATE (LO 11-8): LIFTED — wiring probe green, 13/13 contexts,
   rule not stem-satisfiable, instruction regions identical across roles.
 - BUDGET (operator-recorded, standing): **Option B** — tranche 1 hard cap

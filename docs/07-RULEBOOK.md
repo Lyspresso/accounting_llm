@@ -603,3 +603,21 @@ Each entry: the rule as it should read in the prompts, then [origin].
   the diff proves the message BEFORE committing. [three overclaims in
   one session: 'sentinel imports TERMINAL' before it did; 'adopted at
   the matching sites' with zero matches]
+
+
+## Added at gate GREEN
+
+- **A broken measurement must never look like a failing one**: zero
+  probes reaching the floor is BROKEN, not 0/0-failing — and the guard
+  asserting the difference is now standing. [floor #1 silently
+  unmeasurable off one laptop via absolute manifest paths]
+- **A fallback that must "track" its source is a second source** — the
+  executor's phrase, now law. Fixtures copy the real dependency instead
+  of carrying shadow constants.
+- **Registry tuples are visibility law**: a directory not in
+  EVIDENCE_PREFERENCE is invisible to every tool — so the registry gets
+  a completeness probe (every evidence dir is listed or explicitly
+  excluded). [14 fresh goldens silently inadmissible]
+- **A caveat reads its SUBJECT, not its inputs**: the packet's scope
+  warning reported the nominations while describing the golden set — a
+  caveat misreporting its own subject is worse than none.

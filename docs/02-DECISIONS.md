@@ -97,6 +97,22 @@ evidence. Evidence details: deliverables/, reviewer/, docs/04-04-items-casebook.
   stage, latest-wins within that stage. Replaces two failed rules
   (latest-row-wins hid verdicts behind stage-0 rows; terminal-outranks
   made reverts impossible). Movers audited: the ORDER-002 204 revert.
+- **D10.2 (ORDER-004):** 130's key repair DONE; stem amended (a)-(k); the
+  fresh blind solver STILL omitted entry (k), so the golden is re-pinned
+  **expects-FAIL** — correct, because the comparator must flag a real
+  omission. Production remedy = a treatment note (zero-net intra-pool
+  transfers ARE journalized when a required part demands entries for all
+  BS changes), queued for tranche-1 prep.
+- **D23 Floor-over-known-clean (ORDER-004):** the false-positive floor is
+  defined over KNOWN-CLEAN items only. An item whose derivation
+  demonstrably omits required content exits the clean set; charging the
+  comparator for flagging it would punish correctness. Ratified with
+  independent verification: omission arithmetic re-derived and both
+  floors re-measured on the reviewer's machine (40/40; 0 chargeable,
+  CI [0, 8.8%]) — the GREEN stands on merits, not convenience.
+- **D15.1 (ORDER-004):** three pairs approved under dominance (base 228/
+  111/180 vs suffixed 0): `accounts receivable`, `common stock`,
+  `retained earnings` canonical; the suffixed forms alias in.
 - **D21 Continuous release** (operator's order, 2026-08-10): every spec
   change publishes immediately as the next patch version; releases are
   append-only under skill/releases/; see docs/08-08-RELEASING.md.
