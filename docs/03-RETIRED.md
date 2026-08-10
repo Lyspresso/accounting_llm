@@ -51,8 +51,11 @@ evidence, is an error.
 - "ch17 rounding divergences are errors." Convention pairs, blessed both
   ways — EXCEPT agent_283's $1, which was a real key defect (D8). Both
   facts are true; neither generalizes over the other.
-- "More goldens will fix the FP rate." Goldens measure it more
-  precisely; only comparator/stack work moves it.
+- "More goldens will fix the FP rate." Goldens cannot move the POINT
+  ESTIMATE — only comparator/stack work can. Precisely stated
+  (REPORT-001): goldens ARE required for the other two blockers —
+  interval WIDTH (Wilson upper bound needs n ≥ 35 with zero chargeable)
+  and D6 TIER (human countersign). Same belief, three named blockers.
 - "The pause list is protecting us from drift." It never gated anything
   until the enforcement probe existed.
 - "R&D Expense," "Buildings," "Income Taxes Payable" as corpus account

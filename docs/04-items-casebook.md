@@ -1,7 +1,11 @@
 # Items casebook — the famous lineages, so nobody re-investigates from zero
 Status legend: CLOSED (nothing to do) · OPEN (named work remains).
 
-- **agent_130#00** (ch22, cash-flow T-account) — CLOSED. Key repaired at
+- **agent_130#00** (ch22, cash-flow T-account) — REOPENED once, by the
+  executor against its own interest: the key is INCOMPLETE vs Required
+  (b) (no Restricted Cash line despite the balance rising) — golden
+  flipped PASS→FAIL, KEY_REPAIR approved (ORDER-002 item 3). Previous
+  closure facts still hold: Key repaired at
   source (credit total 2,835,000; misplaced net-decrease line); two
   independent checkers converged on the figure. Re-minted machine_passed
   post-repair (baseline provenance). Its two 10,000.0 trim lines ruled
@@ -13,12 +17,12 @@ Status legend: CLOSED (nothing to do) · OPEN (named work remains).
   expense" construal ruled: 360,000 by convergence identity; 80,713 =
   interest sub-component, model-mismatch (D12). Golden re-pinned
   post-repair.
-- **agent_204#02** (LO 11-8 donated asset) — OPEN, one step. Key CLEAN.
-  Edition NETS incidental costs (D9). Trim's capitalization = context
-  deficit (note absent from its builder), attribution retracted (D19).
-  Remaining: fresh SYMMETRIC trim solve, score its 13 figures
-  fresh-vs-fresh, close. Do not re-open "is the key wrong" or "is trim
-  worse" — both settled.
+- **agent_204#02** (LO 11-8 donated asset) — CLOSED (investigation).
+  Symmetric solve run: 12/12 shared figures agree, 0 findings both
+  derivations — the item was always clean; the 13 "disagreements" were
+  manufactured context asymmetry (D9/D19). State: machine_passed per
+  D2.1 (its brief `verified` reverted by ruling). First in the Stage-3
+  queue on gate GREEN. Do not re-open anything here.
 - **agent_303#02** (ch8 refund liability) — OPEN. STEM_AMBIGUOUS (≥3
   defensible readings; both Jan-1 balances share the 60% ratio so the
   stem's self-check cannot discriminate). Fix: one-line stem

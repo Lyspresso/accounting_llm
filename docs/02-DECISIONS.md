@@ -5,9 +5,14 @@ evidence. Evidence details: deliverables/, reviewer/, docs/04-04-items-casebook.
 
 - **D1 Authority**: `textbook_then_gaap`. The edition (Hanlon 4e) governs;
   current GAAP fills silence; divergences flag `conflict`, never fail.
-- **D2 Two terminal states only**: `verified` | `needs_human`. Terminal
-  count is currently 0 BY DESIGN (gate RED). `machine_passed` is progress,
-  not completion.
+- **D2 Two terminal states only**: `verified` | `needs_human`;
+  `machine_passed` is progress, not completion. **D2.1 (ORDER-002):**
+  terminal transitions are GATE-CHECKED IN THE WRITE PATH — ledger_io
+  refuses them while the launch gate is RED absent an explicit operator
+  override file; enforcement-probed. The one pre-ruling terminal
+  (agent_204#02) was reverted with evidence retained. Investigation
+  closure ("close the item") = machine_passed + casebook CLOSED, never
+  a terminal label.
 - **D3 Corroboration rate RETIRED as a quality signal**. Detection =
   coverage × adjudication; report (coverage, candidates, adjudicated-
   findings) triples. Baseline's higher corroboration was under-reporting.
@@ -37,7 +42,10 @@ evidence. Evidence details: deliverables/, reviewer/, docs/04-04-items-casebook.
   misplaced balancing line) — repaired at source; two independent
   checkers converged on the same figure. Its two 10,000.0 trim lines =
   KEY_SILENT (restricted-cash transfer the key mentions in prose but
-  never journalizes). Not solver error.
+  never journalizes). Not solver error. **D10.1 (REPORT-001):** upgraded —
+  the key is INCOMPLETE against its own Required (b) (restricted-cash
+  balance rises; no key line posts Restricted Cash); KEY_REPAIR approved
+  per-item in ORDER-002 item 3.
 - **D11 agent_303**: STEM_AMBIGUOUS (refund-liability identity supports
   ≥3 readings). Fix class: stem clarification.
 - **D12 agent_283 "total lease expense"**: CONSTRUAL — 360,000 (total

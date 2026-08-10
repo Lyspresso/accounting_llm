@@ -553,3 +553,31 @@ Each entry: the rule as it should read in the prompts, then [origin].
   items casebook travel with the repo and bind every agent. Reopening a
   settled question requires citing its ID with new evidence; quoting a
   retired number as current is an error. Anti-loop by construction.
+
+
+## Added at REPORT-001 review
+
+- **A rule enforced in one caller is not enforced**: shared law lives in
+  one authority function every consumer calls (provenance.evidence_dir()
+  — preflight and fp_taxonomy disagreed by 32 findings on one item until
+  both called it). Fifth application of one-authority.
+- **Terminal transitions are gate-checked in the write path**: the state
+  store itself refuses `verified`/`needs_human` while the launch gate is
+  RED absent an explicit operator override — D2 became an enforced
+  invariant instead of a description. [one order-directed closure minted
+  a terminal under RED]
+- **Caveats travel inside the artifact that carries the number**: the
+  MATCHER_ARTIFACT exclusion is a FORECAST until floor #1 re-measures,
+  and the tool's own output says so — a caveat that can travel
+  separately from its number will.
+- **Fixture claims run cold**: bytecode caches cleared before any
+  fixture verdict — a stale .pyc reported green over a live SyntaxError.
+- **Paths route through one constant; case-sensitivity is a portability
+  bug class**: DELIVERABLES/ vs deliverables/ was one Linux checkout
+  away from freezing the STATUS stamp forever.
+- **deliverables/ holds only what its generator can regenerate**;
+  generatorless files promote to pack/ or docs/. Privacy guards keep
+  their literal strings in LOCAL gitignored files — a guard must never
+  publish what it guards.
+- **Manifests may record foreign absolute paths as history; RESOLUTION
+  is always re-rooted onto the current checkout** (provenance.local()).
