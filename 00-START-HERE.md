@@ -9,8 +9,8 @@ tools doing the checking.
 
 | you are | do this, in order |
 |---|---|
-| **EXECUTOR** (the agent on Lydia's machine that runs the pipeline) | 1. Read docs/01 through docs/05. 2. Read reviewer/REVIEW-STATE.md — your open orders are there. 3. Read deliverables/STATUS.md — current state. 4. **Your first commit: your working tree** — canon.py, ledger_io.py, builders, fixtures, deliver.sh, the ledger, goldens/, evidence bundles. 5. Work the orders. Commit artifacts. Run deliver.sh before every push. |
-| **REVIEWER** (audits reports, writes orders) | 1. Read docs/01 through docs/07. 2. Read reviewer/REVIEW-STATE.md and deliverables/STATUS.md. 3. Verify the executor's arithmetic yourself. 4. Write orders as numbered, self-contained blocks. Update 02-DECISIONS / 03-RETIRED / REVIEW-STATE in the same commit. |
+| **EXECUTOR** (the agent on Lydia's machine that runs the pipeline) | 0. Read 01-COMMUNICATION.md — all traffic goes through comms/. 1. Read docs/01 through docs/05. 2. Read reviewer/REVIEW-STATE.md — your open orders are there. 3. Read deliverables/STATUS.md — current state. 4. **Your first commit: your working tree** — canon.py, ledger_io.py, builders, fixtures, deliver.sh, the ledger, goldens/, evidence bundles. 5. Answer the highest unanswered comms/orders/ORDER as comms/reports/REPORT-N.md. Commit artifacts. Run deliver.sh before every push. |
+| **REVIEWER** (audits reports, writes orders) | 1. Read docs/01 through docs/07. 2. Read reviewer/REVIEW-STATE.md and deliverables/STATUS.md. 3. Verify the executor's arithmetic yourself. 4. Respond to the highest unanswered comms/reports/REPORT with the next comms/orders/ORDER, per 01-COMMUNICATION.md. Update 02-DECISIONS / 03-RETIRED / REVIEW-STATE in the same commit. |
 | **ANYONE ELSE** (just understanding) | Read README.md, then docs/01-01-GLOSSARY.md, then deliverables/STATUS.md. Stop there. |
 
 ## Step 2 — where is everything?
@@ -49,7 +49,7 @@ tools doing the checking.
    until the pre-flight turns it GREEN. (Tranche 1 then fires
    automatically — that authorization is already recorded.)
 8. Every spec change ships immediately as the next patch release
-   (next: v1.4.4). Update docs in the same commit as the work.
+   (next: v1.4.5). Update docs in the same commit as the work.
 
 ## Current status in one line
 

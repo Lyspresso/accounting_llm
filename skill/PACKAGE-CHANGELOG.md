@@ -43,6 +43,11 @@ accounting first; the SUBJECT PACK section swaps to port it to any class.
 
 ## Changelog
 
+- **v1.4.4 (spec catch-up — no invalidation)** — communication becomes
+  law: the 01-COMMUNICATION.md mailbox protocol (comms/ orders/reports/
+  operator, append-only, per-item statuses, evidence-in-same-commit,
+  BLOCKED-names-the-path) governs all inter-agent traffic.
+
 - **v1.4.3 (navigation release — no invalidation)** — repo reorganized
   for zero-inference navigation: 00-START-HERE with role/where-is/hard-
   rules tables, numbered docs/ read order (01–08), RULEBOOK renamed from
