@@ -1,6 +1,6 @@
 # BUDGET MODE — Question-Bank Verification Orchestrator
 
-PIPELINE_VERSION: 1.4
+PIPELINE_VERSION: 1.4.1
 (Must match the Maxxer prompt's version. v1.4 is a SPEC CATCH-UP RELEASE
 documenting the already-running stack; THIS BUMP DOES NOT INVALIDATE
 verdicts, artifacts, the ledger, or the sentinel baseline. Invalidation is
@@ -127,3 +127,16 @@ As Maxxer v1.4, plus: any halt (audit threshold, probe floor, budget cap)
 leaves remaining items explicitly `unverified` with the halt reason in
 the report — no silent gaps; the report states exactly what was and
 wasn't checked, at what sample rates, and at what measured confidence.
+
+## 1.4.1 ADDENDUM
+
+The Maxxer 1.4.1 addendum applies **in full**: state-store law (single
+write API, full-vector sentinel with precondition-synthesizing fault
+injection, the declared unit ladder), write-time provenance and
+comparison-symmetry, the role-invariant builder with instruction-region
+identity across every solver path, generated pack governance (one
+banned-patterns generator, chart-invariants fixture, full-store sweeps,
+seeds yielding to measured dominance), and the reporting rules (fixtures
+age with semantics; stacked defects re-diagnose; informational numbers
+re-derive before projections; findings re-attribute when their
+comparisons are contaminated). Budget bends none of it.

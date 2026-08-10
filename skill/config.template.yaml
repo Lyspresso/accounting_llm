@@ -1,7 +1,7 @@
 # Question-Bank Verification — configuration (v1.2)
 # Fill the paths, save as config.yaml. Defaults are sane starting values.
 
-pipeline_version: "1.4"   # spec catch-up — does NOT invalidate verdicts/ledger
+pipeline_version: "1.4.1"   # spec catch-up — does NOT invalidate verdicts/ledger
 
 paths:
   questions: ""        # QUESTIONS_PATH — folder/glob of the 4000 questions

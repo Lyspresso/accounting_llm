@@ -1,6 +1,6 @@
 # MAXXER MODE — Question-Bank Verification Orchestrator
 
-PIPELINE_VERSION: 1.4
+PIPELINE_VERSION: 1.4.1
 (v1.4 is a SPEC CATCH-UP RELEASE: it documents the stack that is already
 running — the shared canonicalization library, calibration v2, provenance-
 scoped caching, the dual-derivation standard, and pack governance. THIS BUMP
@@ -398,3 +398,83 @@ enforcement, meter, probes) is green; `tests/loop_protocol_sim.py` and
 - Never exit an item to any state other than `verified` or `needs_human`;
   never delete a question — lineages end, they don't disappear.
 - Never treat the notes as authoritative over the textbook.
+
+## 1.4.1 ADDENDUM — post-release accumulated law (spec catch-up; non-invalidating)
+
+Everything below is already running; this release documents it. Rationale
+and incident provenance for each rule: docs/v1.4-fold-queue.md.
+
+**State-store law (extends the ledger rules)**
+- ONE write API per state store: `ledger_io`-style, merge-only, atomic;
+  every writer routes through it; direct opens are banned by lint AND
+  asserted absent by fixture (lint catches patterns, the fixture catches
+  evasion). Rows carrying a stage are never discarded by any writer — a
+  stage is evidence that work happened. Second occurrence of any defect
+  pattern converts its fix from instance to architecture ("twice is a
+  class").
+- Sentinel v2 monitors the FULL status × scope count vector — merge-only
+  semantics make every cell monotone at fixed version — with
+  fault-injection fixtures that SYNTHESIZE their preconditions (inject a
+  terminal row, then delete it; a test gated on naturally occurring state
+  never runs when it matters most). Guarantees against out-of-process
+  writes are framed as DETECTION commitments, never prevention claims.
+- The unit ladder is declared on every metric: rows (forensics) <
+  content hashes (versions) < LINEAGES (the reporting unit). Funnels
+  speak lineages at current hash; mechanical re-keys with bytes unchanged
+  carry ALL states forward, not just terminals. Decompositions partition
+  exactly or carry an explicit remainder; one-unit deltas between
+  adjacent tables name their movers; corrected instruments derive their
+  old readings from the same data or a further defect is still hiding.
+
+**Provenance law (extends provenance-scoped caching)**
+- Provenance is captured at WRITE TIME, immutable, inside the bundle
+  (pack_notes_version, harness_version, comparator_version at the moment
+  of generation). Backfilling historical outputs with current values
+  launders staleness; re-stamping history is allowed only by
+  RECONSTRUCTION from independent evidence, labeled as reconstructed.
+- Symmetry is a property of the COMPARISON: staleness rules evaluate
+  EVERY input of a comparison before its output is scored. Marking one
+  side stale while comparing against another side stale for the same
+  reason swaps the asymmetry instead of removing it.
+
+**Solver-context law (extends wiring)**
+- One builder serves EVERY solver path (primary, dual, remake); role
+  varies exactly one framing line; the rule set is invariant by
+  construction, and the wiring probe asserts instruction-region IDENTITY
+  across roles. Context divides into treatment-defining (harness design —
+  legitimately varies, it IS the thing under test) and knowledge-carrying
+  (pack notes — uniform across every path, no exceptions).
+- Construal splits sub-classify: a defensible reading of an ambiguous
+  stem routes to stem clarification; a reading simply wrong under the
+  governing model is a solver-context datum — the stem stands.
+
+**Pack-governance law (extends Stage 0)**
+- Rule application is GENERATED, never hand-applied per instance: one
+  `banned_patterns(ruling)` generator emits the full pattern class
+  (exact, word-boundary compound, prefix compounds) for every ruling,
+  with an internal completeness assert. Registries store declared FACTS
+  (winning form, losing form); derived artifacts are generated at read
+  time — a stored derived list is where drift hides.
+- A chart-invariants fixture runs every session: canonicals pairwise
+  distinct under the string normalizer; zero rows matching any ruling's
+  banned patterns, base and compound; every alias targets an existing
+  canonical. Apply steps sweep the ENTIRE store they govern, never the
+  rows in view. Seeds yield to measured dominance (textbook and corpus
+  usage counted, overall and in journal-entry position).
+
+**Reporting and epistemics**
+- Fixtures age with semantics: an instrument's semantics change
+  re-audits every assertion that encoded the old behavior — a stale
+  expectation is a wrong answer wearing a green checkmark.
+- Stacked defects mask each other: "fixed" claims are per-defect, never
+  per-item; an item still red after a fix is re-diagnosed fresh.
+- Informational numbers rot into load-bearing ones: any figure surviving
+  into a projection is re-derived from decision-grade evidence first;
+  contaminated color is DISCARDED, never refreshed.
+- Findings inherit the validity of their comparisons: on discovering a
+  context or instrument asymmetry, every conclusion that leaned on the
+  contaminated comparison is re-attributed proactively, by its author.
+  Item verdicts may stand while the inference drawn from them retracts.
+- Exclusion via provenance beats special-case re-derivation: stale
+  outputs are marked and retained as records; the standard path
+  re-derives their figures as ordinary uncorroborated work.

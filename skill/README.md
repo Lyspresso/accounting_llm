@@ -43,6 +43,15 @@ accounting first; the SUBJECT PACK section swaps to port it to any class.
 
 ## Changelog
 
+- **v1.4.1 (spec catch-up #2 — no invalidation)** — folds the post-1.4
+  campaign law: single-write-API state stores with full-vector sentinels
+  and precondition-synthesizing fault injection; the declared unit ladder
+  (rows/hashes/lineages); write-time provenance and comparison-symmetry;
+  the role-invariant solver builder; generated pack governance (banned-
+  pattern generator, chart invariants, full-store sweeps, dominance);
+  and the reporting epistemics (fixtures age with semantics, stacked
+  defects, informational-number rot, proactive re-attribution).
+
 - **v1.4 (spec catch-up — no invalidation)** — the campaign's accumulated
   law folded into both prompts: dual-independent-derivation standard;
   detection = coverage x adjudication with corroboration retired; the shared
