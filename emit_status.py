@@ -37,8 +37,8 @@ def stamp():
 def jload(p, default=None):
     try:
         return json.load(open(os.path.join(OUT, p), encoding="utf-8"))
-    except Exception:
-        return default
+    except FileNotFoundError:          # (2.6) missing artifact -> default;
+        return default                 # a CORRUPT artifact now raises loudly
 
 
 def units_block(qs):
@@ -79,7 +79,7 @@ def main():
     gi = None
     try:
         gi = json.load(open(os.path.join(HERE, "goldens", "INDEX.json"), encoding="utf-8"))
-    except Exception:
+    except FileNotFoundError:          # (2.6) absent index is fine; corruption raises
         pass
     dup = jload("duplicates.json", {})
     apic = jload("apic_exposure.json", [])

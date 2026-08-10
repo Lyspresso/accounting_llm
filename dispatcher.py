@@ -65,7 +65,9 @@ def gated_families():
                     out[q["id"]] = f"TREATMENT_NOTE_UNWIRED:{note_id}"
         _GATE_CACHE["v"] = out
         return out
-    except Exception as e:                            # never fail open
+    except Exception as e:                            # never fail open (2.6:
+                                                      # DELIBERATE — any error poisons
+                                                      # the gate cache and refuses work)
         _GATE_CACHE["v"] = {"__error__": f"gate check failed: {e}"}
         return _GATE_CACHE["v"]
 
