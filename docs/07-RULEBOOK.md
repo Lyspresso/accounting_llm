@@ -650,3 +650,17 @@ Each entry: the rule as it should read in the prompts, then [origin].
 - **The serialization rule holds under temptation**: the fix that sits
   one edit away from the work in hand is still its own change, with its
   own re-measure — proximity is not permission to batch.
+
+
+## Added at REPORT-006 (the empty taxonomy)
+
+- **Predictions cover intended mechanisms; baselines cover accidental
+  ones** — the pair is the complete discipline. A full pre-change
+  signature (here: 116 items) is what converts "nothing else moves"
+  from an assertion into a measurement; it caught an unnamed third
+  mechanism (linkage strength) within one command. Neither half
+  substitutes for the other.
+- **Fixtures instantiate the domain the rule quantifies over**: an
+  equivalence defined "across alias families" tested with an empty
+  alias map tests nothing. The guard's refusal cases pin what the rule
+  must NOT do; the live regressions are permanent members.
