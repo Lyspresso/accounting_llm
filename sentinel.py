@@ -29,17 +29,16 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "out")
 STATE = os.path.join(OUT, "sentinel_state.json")
 try:
-    from ledger_io import PIPELINE_VERSION        # single source (2.2)
-except ImportError:                               # test_sentinel runs a bare copy of this
-    PIPELINE_VERSION = "1.2"                      # file in a tempdir; fallback must track
-                                                  # ledger_io.BEHAVIOR_VERSION
+    from ledger_io import PIPELINE_VERSION, TERMINAL   # single source (2.2/2.3)
+except ImportError:                                    # test_sentinel runs a bare copy of
+    PIPELINE_VERSION = "1.2"                           # this file in a tempdir; fallbacks
+    TERMINAL = ("verified", "needs_human")             # must track ledger_io
 # ONLY two terminal states exist. `machine_passed` is a stage-PROGRESS state -
 # an item that cleared Stage 1 arithmetic has not been verified, it has passed
 # one layer. Counting it as terminal reported 671 "terminal" items under a RED
 # gate with the taxonomy unbuilt, when the true count was ZERO. A sentinel that
 # counts progress states cannot detect the loss of real terminal states, which
 # is the only thing it exists to do.
-TERMINAL = ("verified", "needs_human")
 PROGRESS = ("machine_passed", "grounded_passed", "adversary_passed")
 
 
