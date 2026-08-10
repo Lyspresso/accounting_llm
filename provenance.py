@@ -31,7 +31,8 @@ import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(HERE, "out")
+import paths
+OUT = paths.resolve("output")               # one path authority (2.1)
 sys.path.insert(0, HERE)
 
 CURRENT_PACK_NOTES = "pack-2026-08-07b"      # LO 11-8 netting note present

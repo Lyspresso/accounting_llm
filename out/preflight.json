@@ -1,14 +1,14 @@
 {
  "detection": {
-  "run": 40,
-  "caught": 40,
-  "vacuous": 1,
-  "rate": 1.0,
+  "run": 0,
+  "caught": 0,
+  "vacuous": 0,
+  "rate": 0.0,
   "ci": [
-   0.9123754607496077,
+   0.0,
    1.0
   ],
-  "passes": true,
+  "passes": false,
   "misses": []
  },
  "false_positive": {
