@@ -1,0 +1,50 @@
+# Question-Bank Verification — configuration (v1.2)
+# Fill the paths, save as config.yaml. Defaults are sane starting values.
+
+pipeline_version: "1.4.1"   # spec catch-up — does NOT invalidate verdicts/ledger
+
+paths:
+  questions: ""        # QUESTIONS_PATH — folder/glob of the 4000 questions
+  textbook: ""         # TEXTBOOK_PATH — canonical source (text or PDF w/ text layer)
+  syllabus: ""         # SYLLABUS_PATH — defines covered scope
+  notes: ""            # NOTES_PATH — secondary sources (optional to start)
+  goldens: "goldens/"  # GOLDENS_PATH — hand-verified items; grows over time
+  output: "out/"       # OUTPUT_DIR — ledger, evidence bundles, reports
+  pack: "pack/"        # subject pack: chart, aliases, templates
+
+authority: textbook_then_gaap   # textbook | gaap | textbook_then_gaap
+
+models:
+  strong: ""           # frontier (Opus-class) — every LLM-bearing step, both modes
+  audit: ""            # decorrelated auditor — a different frontier model, or strong under a different framing
+
+coverage:
+  min_questions_per_lo: 5
+  min_difficulty_tiers: 3
+
+loop:
+  max_remakes: 3
+  first_batch_gate: true           # pause after ~50 for operator go before full fan-out
+  loop_audit_split_uniform: 0.25   # rest of audit spend is risk/provenance-targeted
+
+calibration:
+  probe_rate: 0.05
+  probe_min_falsifiable: 30      # floors pass on the 95% lower bound, never raw ratio
+  probe_det_floor: 0.85
+  probe_fp_ceiling: 0.10
+  canary_rate: 0.01
+  canary_breach_count: 2
+
+budget_mode:
+  max_concurrency: 12
+  max_loop_iterations: 5
+  audit_rate: 0.10               # iter-1 decorrelated audit of primary passes
+  loop_audit_rate: 0.01
+  adversary_sample: 0.05
+  audit_halt_threshold: 0.02
+  hard_spend_cap: ""             # your number — the run stops cleanly here
+
+maxxer_mode:
+  max_concurrency: 64
+  max_loop_iterations: 6
+  loop_audit_rate: 0.02

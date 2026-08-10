@@ -133,6 +133,9 @@ questions being measured.
 - `skill/` — the portable question-verifier skill, v1.4: both mode
   prompts, config template, subject pack, and simulation tests
   (`skill/tests/` must stay green).
+- `docs/RELEASING.md` — the continuous-release standard: publish every
+  change as a new patch version, keep every old release verbatim under
+  `skill/releases/`, compare any two on demand.
 - `docs/v1.4-fold-queue.md` — the living rulebook: every rule with the
   incident that taught it. Single source; the skill README points here.
 - `deliverables/` — the executor's current generated artifacts
