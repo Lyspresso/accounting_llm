@@ -29,7 +29,7 @@ DEFAULTS = {
     "output": os.path.join(HERE, "out"),
     "goldens": os.path.join(HERE, "goldens"),
     "transcripts": os.path.join(HERE, "transcripts"),
-    "verdicts": os.path.join(HERE, "hand_check_verdicts_v1.json"),
+    "verdicts": os.path.join(HERE, "reviewer", "hand_check_verdicts_v1.json"),
 }
 
 

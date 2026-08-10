@@ -46,6 +46,7 @@ OUT = os.path.join(HERE, "out")
 sys.path.insert(0, HERE)
 
 import canon                      # noqa: E402
+from canon import norm_acct       # noqa: E402
 import compare_stage1_v3 as C     # noqa: E402
 import labelgrammar as G          # noqa: E402
 import preflight as PF            # noqa: E402
@@ -55,51 +56,15 @@ CLASSES = ("TRUE_FP", "GOLDEN_WRONG", "MATCHER_ARTIFACT", "HASH_MIXING", "PENDIN
 
 # Label words too common to prove the key addresses a label. "value" appears in
 # every lease key ever written; it distinguishes nothing.
-UNDISTINGUISHING = {
-    "total", "amount", "balance", "value", "net", "the", "of", "and", "as", "at",
-    "for", "to", "in", "on", "per", "expense", "asset", "liability", "cash",
-    "year", "end", "book", "carrying", "schedule", "entry", "after", "before",
-    "beginning", "ending", "each", "annual", "amount", "recognized", "reported",
-}
+# The key-silence test lives in canon.py - the comparator needs the same rule,
+# and two implementations of one rule drift.
+from canon import (ABBREV, STOP_TOK, UNDISTINGUISHING,  # noqa: E402,F401
+                   _tok, distinguishing_terms, key_addresses_label,
+                   key_states_null, ratio_derivable)
 
 
-# Keys abbreviate. "NI: none." answers a Required part about net income, and a
-# silence test that does not expand it reports the key as silent on a part the
-# key plainly answers - manufacturing KEY_SILENT wherever the author was terse.
-ABBREV = (
-    (r"\bNI\b", "net income"), (r"\bOCI\b", "other comprehensive income"),
-    (r"\bFVA?\b", "fair value"), (r"\bPV\b", "present value"),
-    (r"\bAC\b", "amortized cost"), (r"\bROU\b", "right of use"),
-    (r"\bLL\b", "lease liability"), (r"\bNBV\b", "net book value"),
-    (r"\bAFS\b", "available for sale"), (r"\bHTM\b", "held to maturity"),
-    (r"\bCFO\b", "operating"), (r"\bRE\b", "retained earnings"),
-)
-
-
-def distinguishing_terms(label):
-    """
-    The words in a label that could show the key is talking about IT.
-
-    The label is expanded through the SAME abbreviation table as the key. It was
-    not, and the asymmetry inverted the test: expanding "ROU" to "right of use"
-    in the key alone made the label's own "rou" token unfindable, so a key that
-    states the figure was reported as silent on it.
-    """
-    for pat, full in ABBREV:
-        label = re.sub(pat, full, label)
-    m = G.parse(label).get("measure") or ()
-    return {w for w in m if w not in UNDISTINGUISHING and not w.isdigit()
-            and len(w) > 2}
-
-
-
-STOP_TOK = {"in", "of", "the", "and", "for", "on", "to", "a", "bonds", "bond"}
-
-
-def _tok(s):
-    return {w for w in re.findall(r"[a-z]+", (s or "").lower()) if w not in STOP_TOK}
-
-
+# These two stay HERE, not in canon: both reach into the comparator
+# (C.key_lines_of), and canon must not depend on a module that depends on canon.
 def aggregation_equivalent(key_lines, solver_lines):
     """
     Is the solver's entry the KEY's entry with lines combined?
@@ -112,9 +77,9 @@ def aggregation_equivalent(key_lines, solver_lines):
     import collections
     K, S = collections.defaultdict(list), collections.defaultdict(list)
     for l in key_lines:
-        K[l["side"]].append((canon.norm_acct(l["account"]), round(abs(l["amount"]), 2)))
+        K[l["side"]].append((norm_acct(l["account"]), round(abs(l["amount"]), 2)))
     for l in solver_lines:
-        S[l["side"]].append((canon.norm_acct(l["account"]), round(abs(l["amount"]), 2)))
+        S[l["side"]].append((norm_acct(l["account"]), round(abs(l["amount"]), 2)))
     if set(K) != set(S):
         return False, "sides differ"
     for side in K:
@@ -139,46 +104,6 @@ def aggregation_equivalent(key_lines, solver_lines):
     return True, "aggregation-equivalent: same sides, same totals, token-linked"
 
 
-def ratio_derivable(value, pool):
-    """
-    Is the value a RATIO of two figures the key states?
-
-    derivable_from_key does subset-SUMS only. A key that writes
-    "PV = $81,911 < 90% x $140,000" states both inputs of a percentage without
-    ever writing the percentage, so a solver reporting 58.51% is charged with a
-    mismatch against a key that contains its own derivation. Percent, fraction
-    and their reciprocals are all checked.
-    """
-    v = canon.as_number(value)
-    if v is None or not pool:
-        return None
-    p = sorted({x for x in pool if x})
-    if len(p) > 60:                      # keep the pair scan bounded
-        p = p[:60]
-    for a in p:
-        for b in p:
-            # A divisor of 1 (or of the value itself) "derives" anything. Keys
-            # routinely contain a 1, so an unguarded scan certifies every figure
-            # as key-derivable and the test stops testing.
-            if a is b or not b or abs(b - 1.0) < 0.01 or abs(a - v) < 0.01:
-                continue
-            for cand, form in ((a / b * 100, "pct"), (a / b, "frac")):
-                if abs(cand - a) < 0.01 or abs(cand - b) < 0.01:
-                    continue              # degenerate: the "ratio" is an input
-                if abs(cand - v) <= max(0.02, abs(v) * 1e-4):
-                    return f"{a:,.2f} / {b:,.2f} = {cand:,.4f} ({form})"
-    return None
-
-
-PROSE_NULL = re.compile(
-    r"(?:\bNI\b|net income|effect|impact|gain|loss)\s*[:\-]?\s*\*{0,2}"
-    r"(none|no effect|nil|zero|\$?0)\b", re.I)
-
-
-def key_states_null(key_text):
-    """The key answered 'none'. A solver reporting 0 agrees with that."""
-    return bool(PROSE_NULL.search(canon.delatex(key_text or "")))
-
 
 def key_posts_account(q, account):
     """
@@ -188,38 +113,16 @@ def key_posts_account(q, account):
     can appear in a balance-sheet schedule and never be posted, which is exactly
     the gap worth finding.
     """
-    want = _tok(canon.norm_acct(account))
+    want = _tok(norm_acct(account))
     if not want:
         return True
     for l in C.key_lines_of(q):
-        if want <= _tok(canon.norm_acct(l["account"])):
+        if want <= _tok(norm_acct(l["account"])):
             return True
     return False
 
 
-def key_addresses_label(label, key_text):
-    """
-    Does the key discuss this label at all?
 
-    Requires EVERY distinguishing term to appear (synonyms allowed). A label
-    with no distinguishing terms is treated as addressed - the conservative
-    direction, since an unproven silence must not excuse a real mismatch.
-    """
-    terms = distinguishing_terms(label)
-    if not terms:
-        return True, "no distinguishing terms - treated as addressed"
-    # G.SYN is a (pattern, canonical) tuple list: normalise the KEY through it,
-    # so an abbreviation in the key satisfies the full word in the label.
-    kt = canon.delatex(key_text or "")
-    for pat, full in ABBREV:                 # expand BEFORE lowercasing: NI/OCI
-        kt = re.sub(pat, full, kt)           # are case-bearing abbreviations
-    kt = kt.lower()
-    for pat, full in G.SYN:
-        kt = re.sub(pat, full, kt, flags=re.I)
-    missing = [t for t in terms if not re.search(rf"\b{re.escape(t)}", kt)]
-    if missing:
-        return False, f"key never mentions {sorted(missing)}"
-    return True, "key discusses every distinguishing term"
 
 
 def classify(qid, finding, q, golden, prov_ok, repaired_keys):
@@ -287,6 +190,20 @@ def load_repairs():
     if os.path.exists(p):
         return json.load(open(p, encoding="utf-8"))
     return {}
+
+
+def chargeable_items():
+    """
+    (n_chargeable_items, class_tally). The single definition of the gate's
+    number, imported by preflight rather than re-derived there - two tools
+    computing one metric is how they came to disagree by 32 findings.
+    """
+    import io, contextlib
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        main()
+    d = json.load(open(os.path.join(OUT, "fp_taxonomy.json"), encoding="utf-8"))
+    return d["chargeable"], d["tally"]
 
 
 def main():

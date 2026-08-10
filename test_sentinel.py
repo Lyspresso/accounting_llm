@@ -86,7 +86,7 @@ def main():
         # survive is that it is NOT a terminal loss: the vector trips while the
         # terminal count is untouched. The v1 expectation ("must not trip") was
         # written for a terminal-only sentinel and is stale, not the code.
-        vector_tripped = rc2 == 2 and "status-vector cells fell" in out2
+        vector_tripped = rc2 == 2 and "SENTINEL HALT" in out2
         terminal_untouched = "SENTINEL HALT: terminal states fell" not in out2
         quiet = vector_tripped and terminal_untouched
         print(f"  {'ok  ' if quiet else 'FAIL'}  deleted machine_passed row -> "
@@ -108,11 +108,34 @@ def main():
             for r in kept3:
                 fh.write(json.dumps(r) + "\n")
         rc3, out3 = run_sentinel(tmp)
-        trip3 = rc3 == 2 and "status-vector cells fell" in out3
+        trip3 = rc3 == 2 and "SENTINEL HALT" in out3
         print(f"  {'ok  ' if trip3 else 'FAIL'}  deleted a STAGE row -> "
               f"{'TRIPPED' if trip3 else f'did NOT trip (rc={rc3})'}")
 
-        ok = base_ok and trip and quiet and trip3
+        # --- injection 4: a SCOPE MIGRATION must NOT halt -------------------
+        # An authorised key repair moves an item's content_hash, which migrates
+        # every row of that lineage from `current` to `superseded`. No row is
+        # destroyed. Halting on that made every repair look like data loss, and
+        # a guard that cries wolf on lawful work trains people to reach for
+        # --invalidate - which is how a REAL loss gets waved through.
+        with open(lpath, "w", encoding="utf-8") as fh:
+            for r in rows:
+                fh.write(json.dumps(r) + "\n")
+        run_sentinel(tmp)                       # baseline with everything present
+        qp = os.path.join(tmp, "out", "questions.jsonl")
+        if os.path.exists(qp):
+            qrows = [json.loads(l) for l in open(qp, encoding="utf-8")]
+            if qrows:
+                qrows[0]["content_hash"] = "repaired" + qrows[0]["content_hash"][:8]
+                with open(qp, "w", encoding="utf-8") as fh:
+                    for r in qrows:
+                        fh.write(json.dumps(r) + "\n")
+        rc4, out4 = run_sentinel(tmp)
+        no_halt = rc4 != 2
+        print(f"  {'ok  ' if no_halt else 'FAIL'}  hash MOVED (repair), no rows "
+              f"lost -> {'no halt' if no_halt else f'HALTED (rc={rc4}) - false alarm'}")
+
+        ok = base_ok and trip and quiet and trip3 and no_halt
         print(f"\nsentinel fault-injection: {'GREEN' if ok else 'RED'}")
         sys.exit(0 if ok else 1)
 

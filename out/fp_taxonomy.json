@@ -1,15 +1,8 @@
 {
- "clean": 26,
+ "clean": 27,
  "findings": [
   {
    "id": "agent_002#03",
-   "kind": "SOLVER_MISMATCH",
-   "label": "b: Effect of the transfer on net income",
-   "class": "MATCHER_ARTIFACT",
-   "reason": "key answers 'none'; prose-null not recognised for this wording"
-  },
-  {
-   "id": "agent_002#03",
    "kind": "JE_LINE_NOT_IN_KEY",
    "label": "",
    "class": "MATCHER_ARTIFACT",
@@ -49,53 +42,22 @@
    "label": "",
    "class": "MATCHER_ARTIFACT",
    "reason": "aggregation-equivalent: same sides, same totals, token-linked (needs an alias ruling to clear)"
-  },
-  {
-   "id": "agent_151#01",
-   "kind": "SOLVER_MISMATCH",
-   "label": "b: Accumulated ROU amortization at Jan 1, Year 3 (2 years)",
-   "class": "MATCHER_ARTIFACT",
-   "reason": "KEY_SILENT hard-failed - key never mentions ['accumulated']"
-  },
-  {
-   "id": "agent_151#01",
-   "kind": "SOLVER_MISMATCH",
-   "label": "d: Schedule - liability balance after exercising the purchase option",
-   "class": "MATCHER_ARTIFACT",
-   "reason": "KEY_SILENT hard-failed - key never mentions ['exercising', 'option', 'purchase']"
-  },
-  {
-   "id": "agent_283#02",
-   "kind": "SOLVER_MISMATCH",
-   "label": "f: total lease expense recognized over the 8-year term",
-   "class": "MATCHER_ARTIFACT",
-   "reason": "ratio-derivable from key figures: 10,800.00 / 3.00 = 360,000.0000 (pct); derivable_from_key is sum-only"
-  },
-  {
-   "id": "agent_285#00",
-   "kind": "SOLVER_MISMATCH",
-   "label": "a: Criterion 4 - PV of lease payments as % of fair value",
-   "class": "MATCHER_ARTIFACT",
-   "reason": "ratio-derivable from key figures: 81,911.00 / 140,000.00 = 58.5079 (pct); derivable_from_key is sum-only"
   }
  ],
  "tally": {
   "TRUE_FP": 0,
   "GOLDEN_WRONG": 0,
-  "MATCHER_ARTIFACT": 11,
+  "MATCHER_ARTIFACT": 6,
   "HASH_MIXING": 0,
   "PENDING": 0
  },
  "item_class": {
-  "agent_002#03": "MATCHER_ARTIFACT",
-  "agent_151#01": "MATCHER_ARTIFACT",
-  "agent_283#02": "MATCHER_ARTIFACT",
-  "agent_285#00": "MATCHER_ARTIFACT"
+  "agent_002#03": "MATCHER_ARTIFACT"
  },
  "chargeable": 0,
  "chargeable_ci": [
-  0.0,
-  0.12873304380462175
+  6.938893903907228e-18,
+  0.12455903714463581
  ],
  "caveat": "MATCHER_ARTIFACT excluded; forecast until fixed and detection re-measured"
 }

@@ -12,19 +12,32 @@
   "misses": []
  },
  "false_positive": {
-  "clean": 26,
-  "fp": 4,
+  "clean": 27,
+  "fp": 1,
   "stale": 0,
   "inadmissible": 0,
-  "rate": 0.15384615384615385,
+  "chargeable": 0,
+  "rate": 0.0,
   "ci": [
-   0.06149933998929477,
-   0.33531584418313565
+   6.938893903907228e-18,
+   0.12455903714463581
   ],
+  "raw_rate": 0.037037037037037035,
+  "raw_ci": [
+   0.006567976533097597,
+   0.1828385393415652
+  ],
+  "charge_detail": {
+   "TRUE_FP": 0,
+   "GOLDEN_WRONG": 0,
+   "MATCHER_ARTIFACT": 6,
+   "HASH_MIXING": 0,
+   "PENDING": 0
+  },
   "passes": false,
   "tiers": {
    "adjudicated": 8,
-   "ai_cross_checked": 18
+   "ai_cross_checked": 19
   },
   "offenders": [
    {
@@ -32,29 +45,7 @@
     "tier": "adjudicated",
     "kinds": [
      "JE_LINE_NOT_IN_KEY",
-     "KEY_LINE_NOT_IN_SOLVER",
-     "SOLVER_MISMATCH"
-    ]
-   },
-   {
-    "id": "agent_151#01",
-    "tier": "adjudicated",
-    "kinds": [
-     "SOLVER_MISMATCH"
-    ]
-   },
-   {
-    "id": "agent_283#02",
-    "tier": "adjudicated",
-    "kinds": [
-     "SOLVER_MISMATCH"
-    ]
-   },
-   {
-    "id": "agent_285#00",
-    "tier": "adjudicated",
-    "kinds": [
-     "SOLVER_MISMATCH"
+     "KEY_LINE_NOT_IN_SOLVER"
     ]
    }
   ]

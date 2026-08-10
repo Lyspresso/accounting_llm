@@ -164,10 +164,24 @@ def fp_floor():
             fp += 1
             offenders.append({"id": qid, "tier": g["provenance_tier"],
                               "kinds": sorted({i["kind"] for i in hard})})
-    lo, hi = wilson(fp, clean)
+    # ORDER-002 item 4: the GATE's number is CHARGEABLE (TRUE_FP | PENDING),
+    # not every finding-bearing item. A MATCHER_ARTIFACT is an instrument defect
+    # and a GOLDEN_WRONG means the finding was a TRUE positive - charging either
+    # to the false-positive floor measures something the law does not define.
+    # The raw count is still reported, because a forecast that hides its own
+    # gross number is not auditable.
+    import fp_taxonomy as TX
+    chargeable, charge_detail = TX.chargeable_items()
+    lo, hi = wilson(chargeable, clean)
+    lo_raw, hi_raw = wilson(fp, clean)
     return {"clean": clean, "fp": fp, "stale": stale,
-            "inadmissible": inadmissible, "rate": fp / max(1, clean),
-            "ci": (lo, hi), "passes": hi <= PROBE_FP_CEILING,
+            "inadmissible": inadmissible,
+            "chargeable": chargeable,
+            "rate": chargeable / max(1, clean),
+            "ci": (lo, hi),
+            "raw_rate": fp / max(1, clean), "raw_ci": (lo_raw, hi_raw),
+            "charge_detail": charge_detail,
+            "passes": hi <= PROBE_FP_CEILING,
             "tiers": tiers, "offenders": offenders}
 
 
@@ -189,7 +203,12 @@ def main():
     print(f"  clean goldens  : {f['clean']}   stale (content moved): {f['stale']}"
           f"   inadmissible evidence: {f.get('inadmissible', 0)}")
     print(f"  tiers          : {f['tiers']}")
-    print(f"  false positives: {f['fp']}  rate {f['rate']:.1%}")
+    print(f"  finding-bearing: {f['fp']}  raw rate {f['raw_rate']:.1%} "
+          f"CI [{f['raw_ci'][0]:.1%}, {f['raw_ci'][1]:.1%}]  (NOT the gate's number)")
+    print(f"  CHARGEABLE     : {f['chargeable']}  rate {f['rate']:.1%}   "
+          f"<- the gate's number (TRUE_FP | PENDING)")
+    if f.get("charge_detail"):
+        print(f"    class split  : {f['charge_detail']}")
     print(f"  95% CI         : [{f['ci'][0]:.1%}, {f['ci'][1]:.1%}]   ceiling {PROBE_FP_CEILING:.0%}")
     print(f"  verdict        : {'PASS' if f['passes'] else 'FAIL (upper bound above ceiling)'}")
     if f["offenders"]:

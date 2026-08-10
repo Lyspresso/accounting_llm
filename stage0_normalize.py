@@ -27,11 +27,35 @@ from collections import Counter, defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CORE = resolve("questions")
-QUESTIONS = os.path.join(CORE, "results")
+
+
+def _packs_dir(base):
+    """
+    The directory that actually holds agent_NNN.md.
+
+    This was `os.path.join(CORE, "results")`, which appended a subdirectory to a
+    path that already pointed AT the packs - so it resolved to `.../results/
+    results` and stage 0 could not find a corpus at all. It went unnoticed
+    because stage 0 is a one-time normalisation step and is not in the fixture
+    suite. Checked layouts, in order, then the base itself.
+    """
+    for sub in ("", "source-packs", "results"):
+        cand = os.path.join(base, sub) if sub else base
+        if os.path.isdir(cand) and any(
+                re.fullmatch(r"agent_\d+\.md", f) for f in os.listdir(cand)):
+            return cand
+    return base
+
+
+QUESTIONS = _packs_dir(CORE)
 OUT = os.path.join(HERE, "out")
 PACK = resolve("pack")
 
-sys.path.insert(0, CORE)
+# blind_strip.py may sit beside this file (repo layout) or beside the corpus
+# (original working-tree layout). Both are added rather than guessed at.
+for _p in (HERE, CORE, os.path.dirname(QUESTIONS)):
+    if _p and _p not in sys.path:
+        sys.path.insert(0, _p)
 # Reuse the audited splitter: its answer-region rules were hardened against four
 # real leak bugs in this exact corpus, so Stage 0 must not re-derive them.
 from blind_strip import strip_pack, ITEM_START  # noqa: E402

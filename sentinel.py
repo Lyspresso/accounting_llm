@@ -63,6 +63,37 @@ def current_hashes():
     return {json.loads(l)["content_hash"] for l in open(p, encoding="utf-8")}
 
 
+
+def resolve_current(rows):
+    """
+    content_hash -> the row that states the lineage's CURRENT state.
+
+    The ledger is an append-only event log, so "current" is a resolution, not a
+    lookup, and two earlier rules each got it wrong in opposite directions:
+
+      "latest row wins"     - a stage-0 row appended after a stage-1 verdict
+                              masked it, hiding 85 machine_passed and 14 failed
+                              items behind re-normalisation rows.
+      "terminal outranks"   - fixed that, but made a terminal state UNREVERTABLE:
+                              the superseded `verified` row kept outvoting the
+                              `machine_passed` row that ORDER-002 item 1 ordered
+                              in its place, so a reviewer ruling could not land.
+
+    The rule that is right in both directions: the highest STAGE reached for a
+    lineage wins (stage-0 re-normalisation never overrides a verdict), and among
+    rows at that stage the LAST one wins (so a verdict can be revised, and a
+    revision is visible instead of silently ignored).
+    """
+    best = {}
+    for i, r in enumerate(rows):
+        h = r.get("content_hash")
+        st = r.get("stage") or 0
+        prev = best.get(h)
+        if prev is None or (st, i) >= (prev[0], prev[1]):
+            best[h] = (st, i, r)
+    return {h: v[2] for h, v in best.items()}
+
+
 def terminal_count(rows):
     """
     DISTINCT items at CURRENT content hashes. The ledger deliberately retains
@@ -71,13 +102,13 @@ def terminal_count(rows):
     """
     cur = current_hashes()
     seen = set()
-    for r in rows:
+    for h, r in resolve_current(rows).items():
         if r.get("pipeline_version") != PIPELINE_VERSION:
             continue
-        if cur and r.get("content_hash") not in cur:
+        if cur and h not in cur:
             continue
         if r.get("status") in TERMINAL:
-            seen.add(r.get("content_hash"))
+            seen.add(h)
     return len(seen)
 
 
@@ -90,33 +121,11 @@ def decompose(rows):
     import collections
     cur = current_hashes()
 
-    def rank(r):
-        """
-        Precedence by state ADVANCEMENT, not file order. "Latest row wins" let a
-        stage-0 row appended after a terminal row mask it, so this decomposition
-        reported the item as unverified while terminal_count reported it
-        verified - two views of one ledger disagreeing about the same item.
-        Ties (same rank) still fall to the later row.
-        """
-        if r.get("status") in TERMINAL:
-            return 3
-        if r.get("stage"):
-            return 2
-        return 1
-
-    best = {}       # content_hash -> (state, stage, scope); highest rank wins
-    for r in rows:
-        h = r.get("content_hash")
+    best = {}
+    for h, r in resolve_current(rows).items():
         scope = "current" if (not cur or h in cur) else "superseded"
-        if h in best and rank(r) < best[h][0]:
-            continue
-        # `r.get("stage", "-")` split one meaning across two cells: a row that
-        # omits `stage` and a row that carries `stage: null` both mean "no
-        # stage", but they landed in different cells and fragmented the vector.
-        # A monotonicity check over cells is only sound if each cell means one
-        # thing.
-        best[h] = (rank(r), r.get("status"), r.get("stage") or "-", scope)
-    out = collections.Counter(v[1:] for v in best.values())
+        best[h] = (r.get("status"), r.get("stage") or "-", scope)
+    out = collections.Counter(best.values())
     return out, len(best), len(rows)
 
 
@@ -138,10 +147,42 @@ def status_vector(rows):
     return dict(v)
 
 
+def _status_totals(v):
+    """Collapse status|scope cells to status totals."""
+    out = {}
+    for k, n in v.items():
+        out[k.split("|")[0]] = out.get(k.split("|")[0], 0) + n
+    return out
+
+
 def vector_regressions(now_v, was_v):
-    """Cells that fell. Every one is a loss under merge-only semantics."""
-    return {k: (was_v[k], now_v.get(k, 0))
-            for k in was_v if now_v.get(k, 0) < was_v[k]}
+    """
+    Cells that fell, measured at STATUS level rather than status|scope.
+
+    Merge-only semantics make rows immortal, so a status TOTAL can only rise -
+    that is the invariant worth halting on. `scope` is a derived view: it asks
+    whether a row's content_hash is still current, so an authorised KEY REPAIR
+    necessarily migrates that item's rows from `current` to `superseded` and
+    drops a status|scope cell without destroying anything. Halting on the finer
+    cell made every repair look like data loss and would have trained everyone
+    to reach for --invalidate, which is how a real loss gets waved through.
+
+    Scope migrations are still reported (see scope_migrations) - just not as a
+    halt.
+    """
+    now_t, was_t = _status_totals(now_v), _status_totals(was_v)
+    return {k: (was_t[k], now_t.get(k, 0))
+            for k in was_t if now_t.get(k, 0) < was_t[k]}
+
+
+def scope_migrations(now_v, was_v):
+    """status|scope cells that moved while their status total held - diagnostics."""
+    out = {}
+    for k in set(now_v) | set(was_v):
+        a, b = was_v.get(k, 0), now_v.get(k, 0)
+        if a != b:
+            out[k] = (a, b)
+    return out
 
 
 def check(invalidate=False):
@@ -171,12 +212,17 @@ def check(invalidate=False):
           f"{sum(now_vec.values())} rows at this pipeline_version")
     if prior and prior.get("pipeline_version") == PIPELINE_VERSION:
         regs = vector_regressions(now_vec, prior.get("status_vector", {}))
+        migs = scope_migrations(now_vec, prior.get("status_vector", {}))
+        if migs and not regs:
+            print(f"  scope migrations (no rows lost): {len(migs)} cell(s)")
+            for k, (a, b) in sorted(migs.items()):
+                print(f"    {k:34s} {a} -> {b}   ({b - a:+d})")
         if regs and not invalidate:
-            print("\n*** SENTINEL HALT: status-vector cells fell ***")
+            print("\n*** SENTINEL HALT: a status TOTAL fell (rows destroyed) ***")
             for k, (a, b) in sorted(regs.items()):
                 print(f"    {k:34s} {a} -> {b}   ({a - b} lost)")
-            print("    Merge-only semantics make every cell monotone, so a fall is")
-            print("    a destroyed row, not a state transition.")
+            print("    Merge-only semantics make status TOTALS monotone, so a")
+            print("    fall is a destroyed row, not a scope change or a repair.")
             json.dump({"pipeline_version": PIPELINE_VERSION, "terminal_count": now,
                        "status_vector": now_vec, "ledger_rows": len(rows),
                        "recorded_at_note": "HALTED"}, open(STATE, "w"), indent=1)
@@ -184,7 +230,8 @@ def check(invalidate=False):
         if regs:
             print(f"  explicit invalidation accepted for {len(regs)} cell(s)")
         else:
-            print(f"  OK all {len(now_vec)} status-vector cells non-decreasing")
+            print(f"  OK all {len(_status_totals(now_vec))} status TOTALS non-decreasing "
+                  f"({len(now_vec)} status|scope cells tracked)")
         was = prior.get("terminal_count", 0)
         print(f"terminal states was: {was}  (recorded {prior.get('recorded_at_note','-')})")
         if now < was and not invalidate:

@@ -150,3 +150,46 @@ The Maxxer 1.4.2 addendum applies in full: the case-history artifacts
 
 The Maxxer 1.4.4 addendum (communication law: 01-COMMUNICATION.md and
 the comms/ mailbox) applies in full.
+
+### Terminal write gate (v1.4.5, behavior change)
+
+`verified` and `needs_human` are PIPELINE terminals: they assert Stage-3
+adversary has run for flagged items AND that the label sits under a CERTIFIED
+floor. Neither holds while the LAUNCH gate is RED, so the single ledger write
+path REFUSES terminal rows under RED. The only exception is an explicit,
+committed override file in `comms/operator/OVERRIDE-terminal*.md` — an exception
+must be an artifact with an author and a diff, never a flag passed once.
+
+An unreadable or missing gate file counts as RED. A gate that cannot be read is
+not a green light.
+
+### The gate's number is CHARGEABLE, not finding-bearing
+
+Floor #2 consumes the taxonomy's CHARGEABLE metric (TRUE_FP | PENDING). A
+MATCHER_ARTIFACT is an instrument defect and a GOLDEN_WRONG means the finding
+was a TRUE positive; charging either to the false-positive floor measures
+something the law does not define. Report the raw count too — a forecast that
+hides its gross number is not auditable.
+
+### Loosenings are serialized and each one owes a detection re-measure
+
+Every comparator loosening is implemented ALONE and floor #1 is re-measured
+immediately after it. A comparator that accepts more also detects less, and a
+batch of four loosenings shipped together cannot tell you which one cost what.
+
+### Monotonicity is asserted on status TOTALS, not status|scope cells
+
+Merge-only semantics make rows immortal, so a status TOTAL can only rise. Scope
+(`current` / `superseded`) is a DERIVED view: an authorised key repair moves a
+lineage's rows from current to superseded and drops a status|scope cell without
+destroying anything. Halting on the finer cell makes every lawful repair look
+like data loss, which trains everyone to reach for `--invalidate` — and that is
+how a real loss gets waved through.
+
+### Current state is a resolution, not a lookup
+
+For each lineage: the highest STAGE reached wins (stage-0 re-normalisation never
+overrides a verdict), and among rows at that stage the LAST one wins (so a
+verdict can be revised and the revision is visible). "Latest row wins" hides
+verdicts behind re-normalisation rows; "terminal outranks everything" makes a
+terminal state unrevertable.

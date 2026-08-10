@@ -23,6 +23,76 @@ LEDGER = os.path.join(OUT, "ledger.jsonl")
 PIPELINE_VERSION = "1.2"
 
 
+
+# ---------------------------------------------------------------------------
+# TERMINAL WRITE GATE (ORDER-002 item 2)
+# ---------------------------------------------------------------------------
+# `verified` and `needs_human` are PIPELINE terminals: they mean Stage-3
+# adversary has run for flagged items and the label sits under a CERTIFIED
+# floor. Neither is true while the LAUNCH gate is RED, so a terminal write under
+# RED is not a judgement call - it is a category error, and it happened once by
+# a route nobody had thought to close.
+#
+# Enforcement lives HERE, in the single write path, rather than in the callers
+# that mint verdicts. A rule enforced in one caller is not enforced: preflight
+# and fp_taxonomy proved that by disagreeing about the same item by 32 findings.
+#
+# The override is a FILE, not a flag, so an exception is a committed artifact
+# with an author and a diff, and never an argument someone passed once.
+
+TERMINAL_STATES = ("verified", "needs_human")
+OVERRIDE_DIR = os.path.join(HERE, "comms", "operator")
+OVERRIDE_PREFIX = "OVERRIDE-terminal"
+
+
+class TerminalWriteRefused(Exception):
+    """Raised when a terminal row is written while the LAUNCH gate is RED."""
+
+
+def launch_gate():
+    """
+    ("RED"|"GREEN", source). Unknown counts as RED: a gate that cannot be read
+    is not a green light, and the safe default is the restrictive one.
+    """
+    p = os.path.join(OUT, "preflight.json")
+    if not os.path.exists(p):
+        return "RED", "no out/preflight.json - unknown gate treated as RED"
+    try:
+        return json.load(open(p, encoding="utf-8")).get("gate", "RED"), p
+    except (json.JSONDecodeError, OSError):
+        return "RED", f"{p} unreadable - treated as RED"
+
+
+def terminal_override():
+    """An explicit, committed operator override file, or None."""
+    if not os.path.isdir(OVERRIDE_DIR):
+        return None
+    for fn in sorted(os.listdir(OVERRIDE_DIR)):
+        if fn.startswith(OVERRIDE_PREFIX):
+            return os.path.join(OVERRIDE_DIR, fn)
+    return None
+
+
+def check_terminal_writes(new_rows):
+    """Refuse terminal rows under a RED gate. Returns the rows unchanged."""
+    terminals = [r for r in new_rows if r.get("status") in TERMINAL_STATES]
+    if not terminals:
+        return new_rows
+    gate, src = launch_gate()
+    if gate == "GREEN":
+        return new_rows
+    ov = terminal_override()
+    if ov:
+        return new_rows
+    ids = ", ".join(sorted({str(r.get("id")) for r in terminals})[:5])
+    raise TerminalWriteRefused(
+        f"REFUSED: {len(terminals)} terminal row(s) [{ids}] while LAUNCH gate is "
+        f"{gate} (per {src}). Terminal states require a certified floor. To "
+        f"override, commit a file named {OVERRIDE_PREFIX}*.md in "
+        f"comms/operator/ stating the authority."
+    )
+
+
 def read_rows():
     rows = []
     if os.path.exists(LEDGER):
@@ -51,6 +121,7 @@ def append_rows(new_rows, supersede_stage0=True):
     writer whose deletion scope is wider than its own stage is the same class
     of bug as the two "w" writers this module was built to replace.
     """
+    check_terminal_writes(new_rows)
     prior = read_rows()
     fresh_hashes = {r.get("content_hash") for r in new_rows
                     if not r.get("stage")}          # stage-0 rows only

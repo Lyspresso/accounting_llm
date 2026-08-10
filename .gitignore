@@ -12,6 +12,11 @@
 # local config: absolute paths and machine-specific locations
 config.yaml
 
+# the identifier guard's own wordlist. It holds the very strings the guard
+# exists to keep out of this repo, so it must never be tracked - a guard that
+# publishes what it guards has published it.
+.identifier_scan_local
+
 # regenerable pipeline scratch (reports and state are rebuilt by the
 # scripts; committing them just makes diffs noisy)
 out/reports/

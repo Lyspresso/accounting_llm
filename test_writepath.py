@@ -53,8 +53,11 @@ def test_staged_row_does_not_eat_stage0():
         L.OUT = tmp; L.LEDGER = os.path.join(tmp, "ledger.jsonl")
         try:
             L.append_rows([{"content_hash": "H", "id": "x", "status": "unverified"}])
-            L.append_rows([{"content_hash": "H", "id": "x", "status": "verified",
-                            "stage": 1}])
+            # `machine_passed`, not `verified`: this case is about stage-0
+            # preservation, and using a TERMINAL status here would now also be
+            # exercising the launch-gate guard - one assertion per fixture.
+            L.append_rows([{"content_hash": "H", "id": "x",
+                            "status": "machine_passed", "stage": 1}])
             rows = L.read_rows()
             s0 = [r for r in rows if not r.get("stage")]
             s1 = [r for r in rows if r.get("stage") == 1]
@@ -71,6 +74,80 @@ def test_staged_row_does_not_eat_stage0():
             return ok and ok2
         finally:
             L.OUT, L.LEDGER = old_out, old_led
+
+
+
+def test_terminal_write_gate():
+    """
+    ORDER-002 item 2: a terminal write under a RED launch gate must be REFUSED.
+
+    `verified` / `needs_human` assert that Stage-3 has run and that the label
+    sits under a CERTIFIED floor. Under RED neither holds. This is asserted at
+    the single write path, because the same rule enforced per-caller was already
+    shown to drift: preflight and fp_taxonomy disagreed about one item by 32
+    findings while each believed it was applying the rule.
+    """
+    import json, os, tempfile
+    import ledger_io as L
+    ok = []
+
+    real_out, real_led, real_ovr = L.OUT, L.LEDGER, L.OVERRIDE_DIR
+    tmp = tempfile.mkdtemp()
+    try:
+        L.OUT = os.path.join(tmp, "out"); os.makedirs(L.OUT)
+        L.LEDGER = os.path.join(L.OUT, "ledger.jsonl")
+        L.OVERRIDE_DIR = os.path.join(tmp, "comms", "operator")
+        os.makedirs(L.OVERRIDE_DIR)
+
+        # 1. RED refuses a terminal row
+        json.dump({"gate": "RED"}, open(os.path.join(L.OUT, "preflight.json"), "w"))
+        try:
+            L.append_rows([{"content_hash": "T", "id": "T#00",
+                            "status": "verified", "stage": 1}])
+            r = False
+        except L.TerminalWriteRefused:
+            r = True
+        ok.append(("terminal write REFUSED under RED", r))
+
+        # 2. RED still accepts progress rows - the gate must not block real work
+        L.append_rows([{"content_hash": "P", "id": "P#00",
+                        "status": "machine_passed", "stage": 1}])
+        ok.append(("machine_passed still accepted under RED",
+                   len(L.read_rows()) == 1))
+
+        # 3. an unreadable / missing gate is treated as RED, not as permission
+        os.remove(os.path.join(L.OUT, "preflight.json"))
+        try:
+            L.append_rows([{"content_hash": "U", "id": "U#00",
+                            "status": "needs_human", "stage": 1}])
+            r = False
+        except L.TerminalWriteRefused:
+            r = True
+        ok.append(("missing gate file defaults to RED", r))
+
+        # 4. a committed override file lets it through - an exception must be an
+        #    artifact with an author, never a flag someone passed once
+        json.dump({"gate": "RED"}, open(os.path.join(L.OUT, "preflight.json"), "w"))
+        open(os.path.join(L.OVERRIDE_DIR, "OVERRIDE-terminal-test.md"),
+             "w").write("authority: fixture")
+        L.append_rows([{"content_hash": "O", "id": "O#00",
+                        "status": "verified", "stage": 1}])
+        ok.append(("explicit override file permits the write",
+                   any(r.get("id") == "O#00" for r in L.read_rows())))
+
+        # 5. GREEN permits it with no override
+        os.remove(os.path.join(L.OVERRIDE_DIR, "OVERRIDE-terminal-test.md"))
+        json.dump({"gate": "GREEN"}, open(os.path.join(L.OUT, "preflight.json"), "w"))
+        L.append_rows([{"content_hash": "G", "id": "G#00",
+                        "status": "verified", "stage": 1}])
+        ok.append(("GREEN permits a terminal write",
+                   any(r.get("id") == "G#00" for r in L.read_rows())))
+    finally:
+        L.OUT, L.LEDGER, L.OVERRIDE_DIR = real_out, real_led, real_ovr
+
+    for name, passed in ok:
+        print(f"  {'ok  ' if passed else 'FAIL'}  {name}")
+    return all(p for _, p in ok)
 
 
 def main():
@@ -91,6 +168,10 @@ def main():
     # --- 1b. staged rows must not delete stage-0 history -------------------
     if not test_staged_row_does_not_eat_stage0():
         failed.append(("staged_row_eats_stage0", None))
+
+    # --- 1c. terminal write gate ------------------------------------------
+    if not test_terminal_write_gate():
+        failed.append(("terminal_write_gate", None))
 
     # --- 2. evasion detection --------------------------------------------
     with tempfile.TemporaryDirectory() as tmp:

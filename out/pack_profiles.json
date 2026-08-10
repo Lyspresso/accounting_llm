@@ -1823,11 +1823,11 @@
    "items": 4,
    "parse_rate": 1.0,
    "mean_stem_len": 2221.5,
-   "mean_solution_len": 4321.8,
+   "mean_solution_len": 4493.8,
    "mean_stem_solution_overlap": 0.0044,
    "no_key": 0,
    "schema_fail": 0,
-   "unknown_account_lines": 1,
+   "unknown_account_lines": 3,
    "types": {
     "journal_entry": 3,
     "mcq": 1

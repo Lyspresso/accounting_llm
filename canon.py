@@ -34,9 +34,32 @@ LATEX = (("{,}", ","), ("{.}", "."), ("\\$", "$"), ("\\,", ""),
          ("\\ ", " "), ("~", " "))
 LATEX_WRAP = re.compile(r"\\(?:mathbf|mathrm|text|bf|textbf)\{([^{}]*)\}")
 
+# LOOSENING 1 of 4 (ORDER-002 item 5). A key answers a "what was the effect"
+# part by naming the measure and saying none of it: "NI: none.", "Effect on net
+# income: $0", "no gain or loss". A solver reporting 0 AGREES with that, and the
+# pattern below previously only recognised the entry-level phrasings, so the
+# agreement was scored as a mismatch.
+#
+# Deliberately NOT a bare "none": the word must be bound to a MEASURE (an
+# effect/impact/gain/loss, or an explicit abbreviation the keys use) or to an
+# entry phrase. An unbound "none" appears in prose that has nothing to do with
+# the figure being checked, and matching it would let any zero pass anywhere.
+_NULL_WORD = r"(?:none|nil|zero|no effect|no impact|\$?0(?:\.00)?)"
+_MEASURE = (r"(?:\bNI\b|\bOCI\b|net income|comprehensive income|effect|impact|"
+            r"gain(?: or loss)?|loss|adjustment|change)")
 PROSE_NULL = re.compile(
     r"\b(no entry|no journal entry|none required|not required|"
-    r"no adjusting entry|no entry is (?:made|required))\b", re.I)
+    r"no adjusting entry|no entry is (?:made|required))\b"
+    rf"|{_MEASURE}\s*(?:on [\w\s]{{0,24}})?[:\-—]?\s*\*{{0,2}}{_NULL_WORD}\b"
+    rf"|\bno\s+{_MEASURE}\b", re.I)
+
+# Deepest chain of independently-rounded components the edition actually builds
+# inside one rollforward line: a remeasured ROU asset is (opening PV, less k
+# rounded amortisation postings, plus a rounded remeasurement), which bottoms
+# out at three rounding points in the observed corpus. Three is the measured
+# depth, not a comfort margin - raising it without a worked example is how a
+# tolerance becomes a blindfold.
+ROUND_CHAIN_MAX = 3
 
 PCT_LABEL = re.compile(r"percent|percentage|\bratio\b|\brate\b|%", re.I)
 
@@ -111,7 +134,20 @@ def precision_tol(key_value, decimals, schedule, label=""):
     if abs(key_value) < MONEY_FLOOR:
         return max(0.005, abs(key_value) * RATIO_REL)
     if schedule:
-        return MONEY_ABS
+        # LOOSENING 2 of 4 (ORDER-002 item 5), scoped by D7.
+        #
+        # Inside a rollforward the edition rounds each posted figure to whole
+        # dollars while the underlying PV runs at full precision, so a key
+        # figure assembled from k independently-rounded components can sit up to
+        # 0.5*k away from a full-precision solver. A flat sub-dollar tolerance
+        # calls that a mismatch, which is how a blessed convention pair (D7)
+        # came to be charged against the false-positive floor.
+        #
+        # The bound is DERIVED, not chosen: 0.5 per rounding point, and the
+        # chain depth is capped at ROUND_CHAIN_MAX so this can never become a
+        # general-purpose "money is approximate" rule. Outside a schedule
+        # context nothing changes at all.
+        return max(MONEY_ABS, 0.5 * ROUND_CHAIN_MAX)
     if decimals == 0:
         return 0.5
     return 10 ** (-decimals) / 2 + 1e-9
@@ -186,6 +222,15 @@ def derivable_from_key(value, pool, max_terms=3, schedule=False, label=""):
     if v is None:
         return None
     v = round(abs(v), 2)
+    # Quotients are tried FIRST and independently of the subset-sum candidate
+    # filter. That filter keeps only pool values <= v, which is right for sums
+    # and exactly wrong for ratios: the inputs of a percentage are almost always
+    # LARGER than the percentage, so the early return below made the quotient
+    # branch unreachable for every case it was written to catch.
+    r = ratio_derivable(v, pool)
+    if r:
+        return [r]
+
     cand = sorted(x for x in pool if 0 < x <= v + 1)
     if not cand:
         return None
@@ -201,6 +246,19 @@ def derivable_from_key(value, pool, max_terms=3, schedule=False, label=""):
                 for k in range(j + 1, len(cand)):
                     if abs(s2 + cand[k] - v) <= t:
                         return [cand[i], cand[j], cand[k]]
+
+    # LOOSENING 4 of 4 (ORDER-002 item 5): QUOTIENTS of key-stated inputs.
+    #
+    # This function was sums-only, so a key that writes both inputs of a ratio -
+    # a present value and the fair value it is tested against - and never writes
+    # the quotient charged the solver with a mismatch against a key containing
+    # its own derivation.
+    #
+    # Guarded exactly like the subset-sum, and the guards are the whole point: a
+    # divisor of 1 "derives" anything, keys routinely contain a 1, and an
+    # unguarded quotient scan would certify every figure as key-derivable and
+    # stop testing. Divisors within 0.01 of 1 are skipped, and a "ratio" equal
+    # to one of its own inputs is rejected as degenerate.
     return None
 
 
@@ -268,3 +326,130 @@ def net_per_account(lines, scope_key=lambda l: l.get("date")):
 
 def norm_acct(a):
     return re.sub(r"\s+", " ", ACCT_PUNCT.sub(" ", (a or "").lower())).strip()
+
+
+import labelgrammar as G  # noqa: E402  (structured label parser; stdlib-only)
+
+
+# ---------------------------------------------------------------------------
+# KEY-SILENCE TEST (shared)
+# ---------------------------------------------------------------------------
+# Lives here, not in the taxonomy, because the COMPARATOR needs it too: it must
+# distinguish "the key states a figure for this label and the solver's differs"
+# (a mismatch) from "the key never addresses this label at all" (a coverage
+# question). Charging the second to the solver is charging it for the key's
+# silence. Two copies of this rule would drift, and this project has already
+# paid that bill twice.
+
+UNDISTINGUISHING = {
+    "total", "amount", "balance", "value", "net", "the", "of", "and", "as", "at",
+    "for", "to", "in", "on", "per", "expense", "asset", "liability", "cash",
+    "year", "end", "book", "carrying", "schedule", "entry", "after", "before",
+    "beginning", "ending", "each", "annual", "amount", "recognized", "reported",
+}
+
+
+# Keys abbreviate. "NI: none." answers a Required part about net income, and a
+# silence test that does not expand it reports the key as silent on a part the
+# key plainly answers - manufacturing KEY_SILENT wherever the author was terse.
+ABBREV = (
+    (r"\bNI\b", "net income"), (r"\bOCI\b", "other comprehensive income"),
+    (r"\bFVA?\b", "fair value"), (r"\bPV\b", "present value"),
+    (r"\bAC\b", "amortized cost"), (r"\bROU\b", "right of use"),
+    (r"\bLL\b", "lease liability"), (r"\bNBV\b", "net book value"),
+    (r"\bAFS\b", "available for sale"), (r"\bHTM\b", "held to maturity"),
+    (r"\bCFO\b", "operating"), (r"\bRE\b", "retained earnings"),
+)
+
+
+def distinguishing_terms(label):
+    """
+    The words in a label that could show the key is talking about IT.
+
+    The label is expanded through the SAME abbreviation table as the key. It was
+    not, and the asymmetry inverted the test: expanding "ROU" to "right of use"
+    in the key alone made the label's own "rou" token unfindable, so a key that
+    states the figure was reported as silent on it.
+    """
+    for pat, full in ABBREV:
+        label = re.sub(pat, full, label)
+    m = G.parse(label).get("measure") or ()
+    return {w for w in m if w not in UNDISTINGUISHING and not w.isdigit()
+            and len(w) > 2}
+
+
+
+STOP_TOK = {"in", "of", "the", "and", "for", "on", "to", "a", "bonds", "bond"}
+
+
+def _tok(s):
+    return {w for w in re.findall(r"[a-z]+", (s or "").lower()) if w not in STOP_TOK}
+
+
+def ratio_derivable(value, pool):
+    """
+    Is the value a RATIO of two figures the key states?
+
+    derivable_from_key does subset-SUMS only. A key that writes
+    "PV = $81,911 < 90% x $140,000" states both inputs of a percentage without
+    ever writing the percentage, so a solver reporting 58.51% is charged with a
+    mismatch against a key that contains its own derivation. Percent, fraction
+    and their reciprocals are all checked.
+    """
+    v = as_number(value)
+    if v is None or not pool:
+        return None
+    p = sorted({x for x in pool if x})
+    if len(p) > 60:                      # keep the pair scan bounded
+        p = p[:60]
+    for a in p:
+        for b in p:
+            # A divisor of 1 (or of the value itself) "derives" anything. Keys
+            # routinely contain a 1, so an unguarded scan certifies every figure
+            # as key-derivable and the test stops testing.
+            if a is b or not b or abs(b - 1.0) < 0.01 or abs(a - v) < 0.01:
+                continue
+            for cand, form in ((a / b * 100, "pct"), (a / b, "frac")):
+                if abs(cand - a) < 0.01 or abs(cand - b) < 0.01:
+                    continue              # degenerate: the "ratio" is an input
+                if abs(cand - v) <= max(0.02, abs(v) * 1e-4):
+                    return f"{a:,.2f} / {b:,.2f} = {cand:,.4f} ({form})"
+    return None
+
+
+# NOTE: the taxonomy used to carry its own narrower PROSE_NULL here. Two
+# definitions of one pattern in one module is not a near-miss - the later one
+# silently replaced the loosening-1 pattern above and a canon fixture caught it
+# within the minute. One definition, at the top.
+
+
+def key_states_null(key_text):
+    """The key answered 'none'. A solver reporting 0 agrees with that."""
+    return bool(PROSE_NULL.search(delatex(key_text or "")))
+
+
+def key_addresses_label(label, key_text):
+    """
+    Does the key discuss this label at all?
+
+    Requires EVERY distinguishing term to appear (synonyms allowed). A label
+    with no distinguishing terms is treated as addressed - the conservative
+    direction, since an unproven silence must not excuse a real mismatch.
+    """
+    terms = distinguishing_terms(label)
+    if not terms:
+        return True, "no distinguishing terms - treated as addressed"
+    # G.SYN is a (pattern, canonical) tuple list: normalise the KEY through it,
+    # so an abbreviation in the key satisfies the full word in the label.
+    kt = delatex(key_text or "")
+    for pat, full in ABBREV:                 # expand BEFORE lowercasing: NI/OCI
+        kt = re.sub(pat, full, kt)           # are case-bearing abbreviations
+    kt = kt.lower()
+    for pat, full in G.SYN:
+        kt = re.sub(pat, full, kt, flags=re.I)
+    missing = [t for t in terms if not re.search(rf"\b{re.escape(t)}", kt)]
+    if missing:
+        return False, f"key never mentions {sorted(missing)}"
+    return True, "key discusses every distinguishing term"
+
+

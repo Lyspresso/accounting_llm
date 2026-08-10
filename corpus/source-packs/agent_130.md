@@ -195,6 +195,22 @@ See RE rollforward in part (c): dividends \(= \mathbf{\$207{,}000}\)
 **Check:** Dr = Cr = 320,000. **Balanced.**  
 **Does not post to the cash T-account.**
 
+*(k) Reclassification of restricted cash*  
+The balance sheet reports **Cash and cash equivalents** and **Restricted cash**
+as separate lines, and Required (b) asks for entries explaining *all* balance
+sheet account changes. Restricted cash rises \(15{,}000 \to 25{,}000\), so the
+\(\mathbf{\$10{,}000}\) transfer between the two components is posted.
+
+| Account | Debit | Credit |
+|---|---:|---:|
+| Restricted Cash | 10,000 | |
+| Cash and Cash Equivalents | | 10,000 |
+
+**Check:** Dr = Cr = 10,000. **Balanced.**  
+**Nets to zero inside the combined cash + cash equivalents + restricted cash
+pool, so the part (d) T-account and its proof to the \(\$15{,}000\) decrease
+are unchanged.**
+
 **c. Subsequent measurement / rollforward schedules**
 
 **Equipment**

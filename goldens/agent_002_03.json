@@ -6,7 +6,7 @@
  "countersign_priority": null,
  "expected_verdict": "PASS",
  "guards_rule": "je_aggregation_equivalence",
- "rationale": "solver pooled two securities into one line; key splits per security",
+ "rationale": "pooled 150,000 vs key's 90,000+60,000 split",
  "truth_as_of_hash": "d65c152549f8ea632fc41389b0d64502549c5766ac4133097fbdac36e0700c15",
  "truth_as_of_bytes": "477a0805d425901d9aeebe31a383248d75132f9c01722c9ec67fd41bfaa39235",
  "adjudicated_on": "2026-08-07",

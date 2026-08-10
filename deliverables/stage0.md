@@ -1,12 +1,13 @@
 # Stage 0 — Normalize (budget mode, pipeline 1.2)
 
-generated: 2026-08-10T01:35:20Z
+generated: 2026-08-10T03:30:39Z
+
 
 - packs: **400**
 - questions: **1828**
 - Class A (machine-verifiable): **1232**  (67.4%)
 - Class B (judgment): **596**
-- journal-entry lines parsed: **13970**
+- journal-entry lines parsed: **13972**
 - quarantined to `failed`: **0**
 - packs paused FORMAT_DRIFT: **0** 
 
@@ -14,7 +15,7 @@ generated: 2026-08-10T01:35:20Z
 
 | code | items |
 |---|---:|
-| `UNKNOWN_ACCOUNT` | 842 |
+| `UNKNOWN_ACCOUNT` | 843 |
 
 ## Type mix
 

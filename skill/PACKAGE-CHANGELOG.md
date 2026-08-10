@@ -6,6 +6,41 @@ reproducible evidence bundle or `needs_human` with a complete dossier.
 Coverage and checker quality are measured, never asserted. Built for
 accounting first; the SUBJECT PACK section swaps to port it to any class.
 
+
+## v1.4.5 — BEHAVIOR CHANGE (2026-08-10)
+
+Type: **behavior change**. Invalidation capture below.
+
+- Terminal write gate: `ledger_io` REFUSES `verified`/`needs_human` while the
+  LAUNCH gate is RED, unless `comms/operator/OVERRIDE-terminal*.md` exists.
+  Unreadable/missing gate = RED. Enforcement probe standing in the fixture suite
+  (5 cases incl. override and GREEN paths).
+- Floor #2 consumes the CHARGEABLE metric (TRUE_FP | PENDING); raw
+  finding-bearing count still reported alongside.
+- Four comparator loosenings, applied ONE AT A TIME, floor #1 re-measured after
+  each: prose-null wording, compounded-rounding (schedule-scoped, bound derived
+  as 0.5 x ROUND_CHAIN_MAX), key-silent routing to Stage 2, ratio-derivable
+  quotients in `derivable_from_key`.
+- Sentinel: monotonicity moved to status TOTALS; current-state resolution is
+  max-stage-then-latest; scope migrations reported, not halted.
+- Shared resolvers: `provenance.evidence_dir()` (one admissible-bundle rule) and
+  `canon.key_addresses_label()` (one key-silence rule).
+
+**Before/after capture (movers audit):**
+
+| metric | before | after |
+|---|---|---|
+| floor #1 detection | 40/40, CI [91.2%, 100%] | 40/40, CI [91.2%, 100%] — held after EACH loosening |
+| floor #2 finding-bearing items | 4 of 26 | 1 of 27 |
+| floor #2 CHARGEABLE | 0 | 0 |
+| chargeable CI upper | 12.9% | 12.5% |
+| terminal states | 1 | 0 (ORDER-002 item 1 revert) |
+| ledger rows | 3,165 | 3,167 (nothing deleted) |
+| gate | RED | RED |
+
+**Expected movers from the write gate itself: ZERO.** It restricts FUTURE
+writes only; no existing row was rewritten by it.
+
 ## What's in the box
 
 | File | What it is |

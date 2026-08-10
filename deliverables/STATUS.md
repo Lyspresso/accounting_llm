@@ -1,6 +1,6 @@
 # Verification run — consolidated status
 
-generated: 2026-08-10T02:55:46Z
+generated: 2026-08-10T03:30:39Z
 
 ## Corpus
 
@@ -9,24 +9,24 @@ generated: 2026-08-10T02:55:46Z
 | Questions | 1828 | items |
 | Class A (machine-verifiable) | 1232 | items |
 | Class B (judgment) | 596 | items |
-| Journal-entry lines parsed | 13970 | lines |
+| Journal-entry lines parsed | 13972 | lines |
 
 ## Account resolution — units reconciled
 
 | metric | value | unit |
 |---|---:|---|
-| `UNKNOWN_ACCOUNT` | 842 | **items** (one flag per item) |
-| Unresolved account lines | 3688 | **lines** |
+| `UNKNOWN_ACCOUNT` | 843 | **items** (one flag per item) |
+| Unresolved account lines | 3690 | **lines** |
 | `NOTATION` classified | 129 | **lines** |
 
-Reconciliation: purging **129 notation LINES** removed **13 ITEMS** from the `UNKNOWN_ACCOUNT` flag (938 → 842). The two figures are in different units and do not subtract: an item is flagged once no matter how many of its lines are unresolved, so clearing lines only clears an item when it clears that item's LAST unresolved line.
+Reconciliation: purging **129 notation LINES** removed **13 ITEMS** from the `UNKNOWN_ACCOUNT` flag (938 → 843). The two figures are in different units and do not subtract: an item is flagged once no matter how many of its lines are unresolved, so clearing lines only clears an item when it clears that item's LAST unresolved line.
 
 ## Pre-flight (last run)
 
 | floor | result | verdict |
 |---|---|---|
 | detection | 40/40 = 100.0% | PASS |
-| false positive | 4/26 = 15.4% | FAIL |
+| false positive | 1/27 = 0.0% | FAIL |
 
 **LAUNCH GATE: RED**
 
@@ -57,14 +57,13 @@ Reconciliation: purging **129 notation LINES** removed **13 ITEMS** from the `UN
 
 | state | lineages |
 |---|---:|
-| `unverified` | 1719 |
+| `unverified` | 1720 |
 | `machine_passed` | 85 |
 | `failed` | 14 |
 | `DUPLICATE_OF` | 9 |
-| `verified` | 1 |
 | **TOTAL** | **1828** |
 
-Partition remainder: **0**.  Unit ladder: rows (3165, forensics) → distinct content hashes → **lineages (1828, the reporting unit)**.
+Partition remainder: **0**.  Unit ladder: rows (3167, forensics) → distinct content hashes → **lineages (1828, the reporting unit)**.
 
 ## Cost — harness meter authoritative
 

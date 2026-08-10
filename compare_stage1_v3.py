@@ -48,7 +48,8 @@ PACK = resolve("pack")
 from canon import (  # noqa: E402
     MONEY_ABS, MONEY_FLOOR, NUM, PCT_LABEL, PROSE_NULL, RATIO_REL, SCHEDULE_CTX,
     as_number, corroborates, delatex, derivable_from_key, is_schedule_context,
-    norm_acct, num_precision, nums, period_factor_pair, precision_tol, tol_for,
+    key_addresses_label, norm_acct, num_precision, nums, period_factor_pair,
+    precision_tol, tol_for,
 )
 
 
@@ -155,6 +156,7 @@ def agg_matches(a, b):
 def compare(sol, q, known, amap):
     """Return (issues, scope) where scope describes what was comparable."""
     issues = []
+    routed_early = 0        # key-silent labels routed before `scope` is built
     sl, kl = solver_lines(sol), key_lines_of(q)
     key_text = q.get("solution", "")
     schedule = is_schedule_context(key_text, q.get("stem", ""))
@@ -174,7 +176,28 @@ def compare(sol, q, known, amap):
                 issues.append({"kind": "KEY_SILENT_DERIVED", "label": a.get("label"),
                                "solver": v, "from_key_components": terms})
             else:
-                issues.append({"kind": "SOLVER_MISMATCH", "label": a.get("label"), "solver": v})
+                # LOOSENING 3 of 4 (ORDER-002 item 5). Two situations were
+                # collapsed into SOLVER_MISMATCH:
+                #   (a) the key states a figure for this label and the solver's
+                #       differs                      -> a real mismatch
+                #   (b) the key never addresses this label at all
+                #       -> a COVERAGE question, and charging it to the solver
+                #          charges it for the key's silence
+                # Only (a) is evidence of a wrong answer. (b) now routes to
+                # Stage 2 for dual derivation. It is NOT a pass: per D5 a
+                # no-counterpart figure stays UNVERIFIED and never
+                # default-passes - the label just moves to the stage that can
+                # actually settle it.
+                addressed, why = key_addresses_label(str(a.get("label") or ""),
+                                                     key_text)
+                if addressed:
+                    issues.append({"kind": "SOLVER_MISMATCH",
+                                   "label": a.get("label"), "solver": v})
+                else:
+                    issues.append({"kind": "KEY_SILENT_UNADDRESSED",
+                                   "label": a.get("label"), "solver": v,
+                                   "why": why})
+                    routed_early += 1
 
     for je in sol.get("journal_entries") or []:
         dr = sum(as_number(l.get("debit")) or 0 for l in je.get("lines") or [])
@@ -191,7 +214,8 @@ def compare(sol, q, known, amap):
     # never in this stage's reach: they route to Stage 2 rather than counting
     # as disagreement. If it produced entries, every key line is comparable.
     scope = {"solver_has_entries": bool(sl), "key_lines": len(kl),
-             "routed_stage2": 0, "computable_unmatched": 0}
+             "_routed_early": routed_early,
+             "routed_stage2": routed_early, "computable_unmatched": 0}
     if not kl:
         return issues, scope
     if not sl:

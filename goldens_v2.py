@@ -80,9 +80,15 @@ RULINGS = {
     # this is right, so a golden calling it clean makes the pipeline look wrong
     # for being correct. Repair is PROPOSED, not applied - see
     # out/key_repair_proposals.json.
-    "agent_130#00": ("ai_cross_checked", "FAIL", "key_completeness_vs_required",
-                     "key omits the entry Required (b) demands for the restricted-"
-                     "cash change; awaiting approval of the proposed repair"),
+    # REPAIRED and re-pinned post-repair, per ORDER-002 item 3 (per-item approval
+    # for THIS item only). Entry (k) - Dr Restricted Cash / Cr Cash and Cash
+    # Equivalents - was added to the source pack, so the key now answers its own
+    # Required (b). The hash moved; this golden pins the REPAIRED content. The
+    # defect was real: `key_completeness_vs_required` upgrades D10 from
+    # KEY_SILENT to key incompleteness.
+    "agent_130#00": ("ai_cross_checked", "PASS", "key_completeness_vs_required",
+                     "restricted-cash reclass entry added; key now answers its "
+                     "own Required (b)"),
     # ---- trim A/B ----
     "agent_052#01": ("adjudicated", "PASS", "key_silent_derived",
                      "FIFO/LIFO running balances correct from the key's own layers"),

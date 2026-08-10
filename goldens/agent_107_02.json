@@ -6,7 +6,7 @@
  "countersign_priority": "low",
  "expected_verdict": "PASS",
  "guards_rule": "percent_fraction_units",
- "rationale": "<figure>/<figure> vs key's <figure>/<figure>",
+ "rationale": "0.72/0.28 vs key's 72/28",
  "truth_as_of_hash": "50e8575bc14213b5cda956f3840e24c47c51a19b774d69ccef98090a80e0ca00",
  "truth_as_of_bytes": "5bf187147602c5ac006610258709db4766ad99d433ea312a8dcf31dee1fab100",
  "adjudicated_on": "2026-08-07",

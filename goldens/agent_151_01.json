@@ -6,7 +6,7 @@
  "countersign_priority": null,
  "expected_verdict": "PASS",
  "guards_rule": "rounding_context_scope",
- "rationale": "sub-dollar round-then-carry drift in an ROU rollforward",
+ "rationale": "$0.86/$1.35 round-then-carry in an ROU rollforward",
  "truth_as_of_hash": "f68aced4f188e22d771c81d5f059dac0a5a4fa07eaeec68df35a29728ded7860",
  "truth_as_of_bytes": "38e9a3d2f05a66bb308d36c56387ac24a9de68c64ba346709a694011c1be2e11",
  "adjudicated_on": "2026-08-07",

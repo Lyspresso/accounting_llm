@@ -6,7 +6,7 @@
  "countersign_priority": "low",
  "expected_verdict": "PASS",
  "guards_rule": "latex_number_extraction",
- "rationale": "key states <figure> in LaTeX the old extractor split",
+ "rationale": "key states 18,000 in LaTeX the old extractor split",
  "truth_as_of_hash": "da885250c9c6b7e5387781f2ff149d9edc5be790d59ba342202323a4242c68af",
  "truth_as_of_bytes": "1e2a6cd655304ab6f31b6218440ce783282dff45a27d2bc873199b6bc03f6929",
  "adjudicated_on": "2026-08-07",
