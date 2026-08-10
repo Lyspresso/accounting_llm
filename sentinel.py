@@ -28,7 +28,11 @@ from collections import Counter, defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "out")
 STATE = os.path.join(OUT, "sentinel_state.json")
-PIPELINE_VERSION = "1.2"
+try:
+    from ledger_io import PIPELINE_VERSION        # single source (2.2)
+except ImportError:                               # test_sentinel runs a bare copy of this
+    PIPELINE_VERSION = "1.2"                      # file in a tempdir; fallback must track
+                                                  # ledger_io.BEHAVIOR_VERSION
 # ONLY two terminal states exist. `machine_passed` is a stage-PROGRESS state -
 # an item that cleared Stage 1 arithmetic has not been verified, it has passed
 # one layer. Counting it as terminal reported 671 "terminal" items under a RED

@@ -17,6 +17,7 @@ Direct `open(LEDGER, "w")` anywhere else is a lint failure.
 import json
 import os
 
+HERE = os.path.dirname(os.path.abspath(__file__))   # repo-root anchor (comms/, lint scan)
 import paths
 
 OUT = paths.resolve("output")               # one path authority (2.1)
