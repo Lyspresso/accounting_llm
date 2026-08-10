@@ -1,0 +1,40 @@
+{
+  "agent_id": 392,
+  "lo": "LO 22-8",
+  "chapter": 22,
+  "title": "Prepare a statement of cash flows using the cash T-account approach",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-8",
+      "concept": "Reconstruct entries from comparative BS and IS; subsequent measurement schedules; period-end depreciation AJE (noncash emphasis); complete cash T-account; direct-method SCF",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-8",
+      "concept": "Number-variant twin — subsequent measurement schedules, reconstructed entries (including period-end dep AJE), cash T-account, and direct-method SCF (gain on disposal + note principal repayment)",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-8",
+      "concept": "Period-end depreciation AJE and year-end salary accrual AJE (noncash); PPE disposal JE; bond maturity settlement JE; map only cash legs into O/I/F sections of the cash T-account",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-8",
+      "concept": "Classification — which reconstructed items appear in the cash T-account; treatment of period-end depreciation AJE and restricted cash in the SCF reconciliation",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

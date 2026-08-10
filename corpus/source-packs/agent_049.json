@@ -1,0 +1,39 @@
+{
+  "agent_id": 49,
+  "lo": "LO 9-2",
+  "chapter": 9,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-2",
+      "concept": "Initial recognition of purchases/freight under gross method; AP settlement; period-end inventory adjusting entry and COGS",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-2",
+      "concept": "Number-variant twin of periodic gross-method purchases, settlements, sale, and period-end COGS adjusting entry",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-2",
+      "concept": "Periodic net method — record purchases net; lost discount as Interest Expense; period-end COGS adjusting entry; classification of expense",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-2",
+      "concept": "Classification of temporary accounts and timing of COGS recognition in a periodic system; net-method lost discount classification",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

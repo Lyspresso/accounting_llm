@@ -1,0 +1,92 @@
+{
+  "agent_id": 157,
+  "lo": "LO 18-1",
+  "chapter": 18,
+  "title": "Classifying Differences Between GAAP Income and Taxable Income",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-1",
+      "concept": "Classify taxable temporary, deductible temporary, and permanent differences; subsequent measurement via multi-year cumulative temporary difference schedule; origin and settlement JEs; period-end tax adjusting entries",
+      "type": "multipart",
+      "company": "Mesa Verde Components Inc.",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-1",
+      "concept": "Number-variant twin — recompute GAAP vs TI schedule, multi-year cumulative temporary difference schedule, origin/settlement JEs, and period-end tax entries under changed amounts",
+      "type": "multipart",
+      "company": "Cascade Peak Outfitters LLC",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-1",
+      "concept": "Classify a different set of book–tax items (installment receivable = taxable TD; customer advances = deductible TD; permanent items); subsequent measurement schedule through settlement; period-end tax adjusting JEs",
+      "type": "multipart",
+      "company": "Blue Heron Media Group",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-1",
+      "concept": "Classification choice — taxable temporary vs deductible temporary vs permanent (warranty accrual)",
+      "type": "MC",
+      "company": "Thornwick Appliance Co.",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 18-1",
+      "concept": "Classification choice — prepaid expense deductible for tax when paid",
+      "type": "MC",
+      "company": "Ironclad Tooling Inc.",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_157.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_157.json"
+}

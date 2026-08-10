@@ -1,0 +1,15 @@
+{
+ "id": "agent_032#01",
+ "harness_version": "dual-1",
+ "stem_hash": "81c31e971ff62d53630e6b10cae79b64709f3dcf2064442b538f85d774e9463d",
+ "pack_notes_version": "pack-2026-08-07b",
+ "notes_present_at_generation": [
+  "lo_11_8_donated_assets"
+ ],
+ "notes_governing": [],
+ "generated_by": "dual2.js via build_solver_prompt(role='dual')",
+ "why": "built by the shared builder; rule set invariant across roles",
+ "captured_at_write_time": false,
+ "reconstructed": true,
+ "retroactive_stamp_replaced": null
+}

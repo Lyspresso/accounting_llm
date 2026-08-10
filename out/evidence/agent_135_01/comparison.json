@@ -1,0 +1,32 @@
+{
+ "id": "agent_135#01",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 15,
+  "routed_stage2": 1,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in AFS Securities\u2014Oakmont Bonds"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in AFS Securities\u2014Oakmont Bonds"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 55000.0,
+   "solver": "investment in afs securities oakmont bonds",
+   "key_options": [
+    "cash",
+    "investment in afs oakmont bonds"
+   ]
+  }
+ ]
+}

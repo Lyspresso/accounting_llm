@@ -1,0 +1,45 @@
+{
+ "id": "agent_080#01",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 8,
+  "routed_stage2": 2,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "f: classification of the January 1, Year 5 revision",
+   "solver": "Change in accounting estimate \u2014 applied prospectively; prior years are not restated."
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Equipment \u2014 Tempering Furnace"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Equipment \u2014 Tempering Furnace"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 15000.0,
+   "solver": "accumulated depreciation equipment",
+   "key_options": [
+    "accumulated depreciation tempering furnace"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 138000.0,
+   "solver": "accumulated depreciation equipment",
+   "key_options": [
+    "accumulated depreciation tempering furnace"
+   ]
+  }
+ ]
+}

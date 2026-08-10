@@ -1,0 +1,331 @@
+{
+ "id": "agent_301#00",
+ "rounding_convention": "decimal.Decimal throughout; every money amount quantized to 0.01 with ROUND_HALF_UP at each step/period; no floats used for money; all amounts derived, none hard-coded",
+ "answers": [
+  {
+   "label": "e: Balances immediately before Oct 1, Year 1 \u2014 Unrestricted cash",
+   "value": 168000
+  },
+  {
+   "label": "e: Balances immediately before Oct 1, Year 1 \u2014 Cash equivalents",
+   "value": 0
+  },
+  {
+   "label": "e: Balances immediately before Oct 1, Year 1 \u2014 Restricted cash\u2014current",
+   "value": 0
+  },
+  {
+   "label": "e: Balances immediately before Oct 1, Year 1 \u2014 Restricted cash\u2014noncurrent",
+   "value": 0
+  },
+  {
+   "label": "e: After Oct 1 borrowing and compensating-balance reclass \u2014 Unrestricted cash",
+   "value": 499200
+  },
+  {
+   "label": "e: After Oct 1 borrowing and compensating-balance reclass \u2014 Cash equivalents",
+   "value": 0
+  },
+  {
+   "label": "e: After Oct 1 borrowing and compensating-balance reclass \u2014 Restricted cash\u2014current",
+   "value": 28800
+  },
+  {
+   "label": "e: After Oct 1 borrowing and compensating-balance reclass \u2014 Restricted cash\u2014noncurrent",
+   "value": 0
+  },
+  {
+   "label": "e: After Oct 15 commercial-paper purchase \u2014 Unrestricted cash",
+   "value": 445200
+  },
+  {
+   "label": "e: After Oct 15 commercial-paper purchase \u2014 Cash equivalents",
+   "value": 54000
+  },
+  {
+   "label": "e: After Oct 15 commercial-paper purchase \u2014 Restricted cash\u2014current",
+   "value": 28800
+  },
+  {
+   "label": "e: After Oct 15 commercial-paper purchase \u2014 Restricted cash\u2014noncurrent",
+   "value": 0
+  },
+  {
+   "label": "e: After Nov 20 T-bill purchase \u2014 Unrestricted cash",
+   "value": 408400
+  },
+  {
+   "label": "e: After Nov 20 T-bill purchase \u2014 Cash equivalents",
+   "value": 90800
+  },
+  {
+   "label": "e: After Nov 20 T-bill purchase \u2014 Restricted cash\u2014current",
+   "value": 28800
+  },
+  {
+   "label": "e: After Nov 20 T-bill purchase \u2014 Restricted cash\u2014noncurrent",
+   "value": 0
+  },
+  {
+   "label": "e: After Nov 29 commercial-paper maturity (incl. $486.00 interest) \u2014 Unrestricted cash",
+   "value": 462886
+  },
+  {
+   "label": "e: After Nov 29 commercial-paper maturity (incl. $486.00 interest) \u2014 Cash equivalents",
+   "value": 36800
+  },
+  {
+   "label": "e: After Nov 29 commercial-paper maturity (incl. $486.00 interest) \u2014 Restricted cash\u2014current",
+   "value": 28800
+  },
+  {
+   "label": "e: After Nov 29 commercial-paper maturity (incl. $486.00 interest) \u2014 Restricted cash\u2014noncurrent",
+   "value": 0
+  },
+  {
+   "label": "e: After Dec 5 dividend-fund transfer \u2014 Unrestricted cash",
+   "value": 448686
+  },
+  {
+   "label": "e: After Dec 5 dividend-fund transfer \u2014 Cash equivalents",
+   "value": 36800
+  },
+  {
+   "label": "e: After Dec 5 dividend-fund transfer \u2014 Restricted cash\u2014current",
+   "value": 43000
+  },
+  {
+   "label": "e: After Dec 5 dividend-fund transfer \u2014 Restricted cash\u2014noncurrent",
+   "value": 0
+  },
+  {
+   "label": "e: After Dec 12 bond-sinking-fund deposit \u2014 Unrestricted cash",
+   "value": 385186
+  },
+  {
+   "label": "e: After Dec 12 bond-sinking-fund deposit \u2014 Cash equivalents",
+   "value": 36800
+  },
+  {
+   "label": "e: After Dec 12 bond-sinking-fund deposit \u2014 Restricted cash\u2014current",
+   "value": 43000
+  },
+  {
+   "label": "e: After Dec 12 bond-sinking-fund deposit \u2014 Restricted cash\u2014noncurrent",
+   "value": 63500
+  },
+  {
+   "label": "g: Checking\u2014Crestview National $76400.00 \u2014 unrestricted Cash portion",
+   "value": 47600
+  },
+  {
+   "label": "g: Checking\u2014Crestview National \u2014 legally restricted compensating balance to Restricted cash\u2014current",
+   "value": 28800
+  },
+  {
+   "label": "g: Checking\u2014Prairie Credit Union $42800.00 less NSF check $1150.00 \u2014 Cash",
+   "value": 41650
+  },
+  {
+   "label": "g: NSF check reclassified out of Cash to Accounts Receivable",
+   "value": 1150
+  },
+  {
+   "label": "g: Savings account \u2014 Cash",
+   "value": 18600
+  },
+  {
+   "label": "g: Petty cash \u2014 Cash",
+   "value": 650
+  },
+  {
+   "label": "g: Cashier's check dated Dec 29, on hand \u2014 Cash",
+   "value": 3400
+  },
+  {
+   "label": "g: U.S. T-bill purchased Nov 20 (2 months original maturity to Summit Peak) \u2014 Cash equivalents",
+   "value": 36800
+  },
+  {
+   "label": "g: Money market fund (1-month original maturity, low risk) \u2014 Cash equivalents",
+   "value": 33000
+  },
+  {
+   "label": "g: Restricted cash\u2014Dividend fund (paid Jan 15, Year 2) \u2014 Restricted cash\u2014current",
+   "value": 14200
+  },
+  {
+   "label": "g: Restricted cash\u2014Bond sinking fund (bonds mature in 5 years) \u2014 Restricted cash\u2014noncurrent",
+   "value": 63500
+  },
+  {
+   "label": "g: T-bill bought Aug 1 with 4 months to maturity \u2014 NOT a cash equivalent; short-term investment (current asset)",
+   "value": 27000
+  },
+  {
+   "label": "g: Travel advance to employee for January trip \u2014 NOT cash; receivable from employee / prepaid travel",
+   "value": 2250
+  },
+  {
+   "label": "g: Customer check postdated Jan 12, Year 2 \u2014 NOT cash; Accounts Receivable",
+   "value": 1880
+  },
+  {
+   "label": "g: Overdraft at Redrock Bank (no other Redrock account, no right of offset) \u2014 NOT a reduction of cash; current liability",
+   "value": 3750
+  },
+  {
+   "label": "h: Cash (Dec 31, Year 1)",
+   "value": 111900
+  },
+  {
+   "label": "h: Cash equivalents (Dec 31, Year 1)",
+   "value": 69800
+  },
+  {
+   "label": "h: Restricted cash\u2014current (Dec 31, Year 1)",
+   "value": 43000
+  },
+  {
+   "label": "h: Restricted cash\u2014noncurrent (Dec 31, Year 1)",
+   "value": 63500
+  },
+  {
+   "label": "h: Current liability\u2014bank overdraft payable (Redrock)",
+   "value": 3750
+  },
+  {
+   "label": "i: Note-disclosure treatment if the compensating balance were NOT legally restricted",
+   "value": "No reclassification would be made: the $28800.00 would stay inside unrestricted Cash on the balance sheet (Cash would be $140700.00 and Restricted cash\u2014current only $14200.00). The arrangement would instead be described in the notes \u2014 the existence and nature of the compensating-balance agreement with Crestview National, the amount involved, the related borrowing it supports, and the fact that it raises the effective cost of the borrowing above the 7% stated rate. Segregation as a separate restricted asset is required only when the compensating balance is legally restricted."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a (Oct 1 \u2014 borrowing on one-year 7% note)",
+   "lines": [
+    {
+     "account": "Cash (Checking\u2014Crestview National)",
+     "debit": 360000,
+     "credit": 0
+    },
+    {
+     "account": "Notes Payable (current)",
+     "debit": 0,
+     "credit": 360000
+    }
+   ]
+  },
+  {
+   "part": "a (Oct 1 \u2014 initial recognition reclass of legally restricted compensating balance)",
+   "lines": [
+    {
+     "account": "Restricted Cash\u2014Compensating Balance (current)",
+     "debit": 28800,
+     "credit": 0
+    },
+    {
+     "account": "Cash (Checking\u2014Crestview National)",
+     "debit": 0,
+     "credit": 28800
+    }
+   ]
+  },
+  {
+   "part": "b (Oct 15 \u2014 purchase of 45-day commercial paper as a cash equivalent)",
+   "lines": [
+    {
+     "account": "Cash Equivalents\u2014Commercial Paper",
+     "debit": 54000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 54000
+    }
+   ]
+  },
+  {
+   "part": "c (Nov 29 \u2014 maturity/settlement of commercial paper)",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 54486,
+     "credit": 0
+    },
+    {
+     "account": "Cash Equivalents\u2014Commercial Paper",
+     "debit": 0,
+     "credit": 54000
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 486
+    }
+   ]
+  },
+  {
+   "part": "d (Nov 20 \u2014 purchase of U.S. Treasury bill, 2 months to maturity, cash equivalent)",
+   "lines": [
+    {
+     "account": "Cash Equivalents\u2014U.S. Treasury Bill",
+     "debit": 36800,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 36800
+    }
+   ]
+  },
+  {
+   "part": "d (Dec 5 \u2014 transfer to restricted dividend fund)",
+   "lines": [
+    {
+     "account": "Restricted Cash\u2014Dividend Fund (current)",
+     "debit": 14200,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 14200
+    }
+   ]
+  },
+  {
+   "part": "d (Dec 12 \u2014 deposit with trustee for bond sinking fund, bonds mature in 5 years)",
+   "lines": [
+    {
+     "account": "Restricted Cash\u2014Bond Sinking Fund (noncurrent)",
+     "debit": 63500,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 63500
+    }
+   ]
+  },
+  {
+   "part": "f (Dec 31 \u2014 period-end reclassifying entry for NSF check)",
+   "lines": [
+    {
+     "account": "Accounts Receivable",
+     "debit": 1150,
+     "credit": 0
+    },
+    {
+     "account": "Cash (Checking\u2014Prairie Credit Union)",
+     "debit": 0,
+     "credit": 1150
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Chronological ordering used for the (e) roll-forward: Oct 1, Oct 15, Nov 20, Nov 29, Dec 5, Dec 12. Compensating balance = 8% x $360,000 = $28,800; note matures Oct 1, Year 2, so the restriction lapses within 12 months of the balance-sheet date and it is Restricted cash\u2014CURRENT. Commercial-paper discount interest = $54,486 - $54,000 = $486, credited to Interest Revenue and added to unrestricted cash. Cash-equivalent test is original maturity TO SUMMIT PEAK of three months or less: the Nov 20 T-bill (2 months) and money market fund (1 month) qualify; the Aug 1 T-bill had 4 months remaining when acquired and is a short-term investment, not a cash equivalent. Postdated check, employee travel advance and the NSF check are receivables, not cash. The Redrock overdraft cannot be netted because Summit Peak holds no other account at that bank, so it is reported as a current liability. Cash $111,900 + cash equivalents $69,800 are presented as separate captions per part (h)."
+}

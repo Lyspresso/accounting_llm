@@ -1,0 +1,74 @@
+{
+  "agent_id": 300,
+  "lo": "LO 22-7",
+  "chapter": 22,
+  "title": "Prepare the operating cash flow section of the statement of cash flows using the direct method",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-7",
+      "concept": "Reconstruct period-end adjusting JEs (emphasis), initial recognition and disposal/settlement JEs, AR inventory AP interest tax schedules, full direct-method operating section plus NI reconciliation",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-7",
+      "concept": "Number-variant twin—direct-method operating section; period-end discount amortization AJ; mixed WC signs; land and equipment disposals; required NI reconciliation",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-7",
+      "concept": "Period-end adjusting JE emphasis—record year-end AJs (accruals, prepaids, depreciation, BDE, premium) and convert each cash-relevant line to direct-method operating classes",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-7",
+      "concept": "Classification/presentation—major direct-method operating cash classes; depreciation and equipment gain do not appear as direct lines",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 22-7",
+      "concept": "Period-end discount amortization AJ and correct computation of cash paid for interest under the direct method",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

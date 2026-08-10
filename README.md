@@ -10,35 +10,37 @@ text alone, with the answer key held back, and only then compares.
 
 ---
 
-## ⚠️ THIS REPOSITORY IS PUBLIC — READ BEFORE YOUR FIRST COMMIT
+## The corpus is here, and that is deliberate
 
-**Never commit textbook-derived source material.** The question bank is derived
-from a commercial textbook and its courseware. It is licensed to one person for
-personal use. Publishing it — even inside a data file, a test fixture, an
-evidence bundle, or a report — is copyright infringement, and a public git
-history cannot be un-published by deleting the file later.
+The 1,828 questions are **AI-authored** — written by 400 CORE DEMO authoring
+agents, one pack per agent, each keyed to a learning objective. Every record
+carries `provenance.generated_by: "core-demo authoring agent"` and an empty
+`citations` list. They are not reproduced from a textbook.
 
-Specifically, **never commit**:
+That matters for what this repo is *for*. The claim being tested is that
+**AI-generated study material is unreliable until something verifies it**, and
+that claim is unfalsifiable without the corpus and the evidence in the open. So
+both ship:
 
-| Never commit | Why |
+| Path | What it is |
 |---|---|
-| `questions.jsonl` / any corpus dump | every stem **and** every worked answer key, verbatim |
-| `out/evidence*/**` | each bundle carries a verbatim `stem.md` |
-| generated harness scripts (`out/*.js`) | full question stems embedded in prompt strings |
-| batch/queue files (`*_batch.json`, `parity50.json`) | same, embedded in prompts |
-| any report that quotes key text | reproduces solutions in prose |
-| chapter text, PDFs, Canvas downloads | verbatim textbook |
+| `out/questions.jsonl` | 1,828 normalized items — stem, worked solution, parsed answer key, content hash, lineage |
+| `corpus/source-packs/` | the 400 original authoring packs, unmodified, with their metadata sidecars |
+| `out/evidence*/` | 191 blind-solver runs across 6 harnesses — the stem each solver saw, the solver it wrote, its output, its scoring, its provenance stamp |
+| `out/ledger.jsonl` | 3,165 rows, full history, superseded rows retained on purpose |
+| `goldens/` | 28 adjudicated reference items that calibrate the false-positive floor |
 
-The `.gitignore` blocks these **by pattern**, so new files of the same shape land
-on the safe side by default. Do not add exceptions to it without reading the file
-you are excepting.
+Because the corpus is in the tree, **a fresh clone runs**. No configuration is
+needed to reproduce the fixtures or the gate.
 
-**What is safe to commit:** the pipeline source, the fixtures, the shell runners,
-and reports that carry only counts, hashes, item ids, and mechanism descriptions.
+What stays out is machine-local or regenerable: `config.yaml` (absolute paths),
+and `out/reports/`.
 
-If you ever need to share the corpus with a collaborator, share it out-of-band.
-Do not solve it by making a public repo "temporarily" private — the history is
-already distributed by then.
+**The textbook itself is a different question.** Chapter files, PDFs and
+courseware exports are not here and should not be added — those *are* the
+publisher's. A handful of short citations of a demonstration problem appear in
+comments where they justify a specific comparator rule; that is ordinary
+technical citation, not reproduction.
 
 ---
 
@@ -116,7 +118,13 @@ proved it was needed:
   preflight.py           the two calibration floors
 test_*.py                fixtures — see below
 run_fixtures.sh          runs all of them
-docs/                    reports that carry no key text
+corpus/source-packs/     the 400 original authoring packs
+out/questions.jsonl      the normalized 1,828-item bank
+out/evidence*/           191 blind-solver runs
+out/ledger.jsonl         full verification history
+goldens/                 28 adjudicated reference items
+pack/                    chart of accounts + alias table
+docs/                    solver instructions + the open-gaps report
 ```
 
 ## Fixtures
@@ -134,13 +142,16 @@ because something broke:
 | `test_writepath.py` | any writer that truncates the ledger |
 | `test_sentinel.py` | the sentinel itself, by fault injection |
 
+Reproduce the gate with `python3 preflight.py`; it prints both floors from the
+committed evidence.
+
 A fixture is only trusted here once it has been shown to **fail** against the bug
 it claims to catch. Green proves nothing on its own.
 
 ## Join protocol — start here if you are picking this up
 
-1. Read this file's public-repo warning. It is the one mistake that cannot be
-   undone.
+1. Read "The corpus is here, and that is deliberate" above — it tells you what
+   ships and what does not.
 2. `sh run_fixtures.sh`. If anything is RED, fix that before touching anything
    else — a red fixture means the instruments are lying.
 3. `python3 preflight.py`. This prints both floors and the gate. Do not start a
@@ -149,9 +160,10 @@ it claims to catch. Green proves nothing on its own.
 5. Read `docs/fp-taxonomy.md` for the four open comparator gaps. That is the
    work queue.
 
-**Corpus setup.** The corpus is not in this repo and never will be. Point
-`config.template.yaml` at your local copy and save it as `config.yaml`, which is
-gitignored.
+**No setup needed.** The corpus, the evidence bundles and the account pack are
+all in the tree, so a fresh clone reproduces both floors and every fixture with
+no configuration. `config.template.yaml` exists only if you want to point the
+pipeline at a *different* corpus.
 
 ## Status
 

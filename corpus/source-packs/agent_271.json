@@ -1,0 +1,80 @@
+{
+  "agent_id": 271,
+  "lo": "LO 14-8",
+  "chapter": 14,
+  "title": "Account for debt securities measured at FV-OCI with fair value adjustments only at period-end",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-8",
+      "concept": "initial_recognition_JE + interest in NI + multi-year period_end_adjusting_JE (FVA through OCI) + disposal without sale-date FV + year-end FVA elimination + AOCI reclass disclosure",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-8",
+      "concept": "number_variant_twin — same period-end-only FV-OCI path with fully changed face, coupon, interest pattern, fair values, and sale price",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-8",
+      "concept": "disposal_maturity_or_settlement_JE + subsequent_measurement_schedule (portfolio period-end FVA) + classification_presentation_or_disclosure (AOCI reclass)",
+      "type": "multipart",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-8",
+      "concept": "classification_presentation_or_disclosure — distinguishing period-end-only FV-OCI (Appendix 14B) from sale-date-and-period-end FV-OCI; routing of unrealized vs realized",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-8",
+      "concept": "classification_presentation_or_disclosure — balance-sheet measurement and comprehensive-income presentation of AFS debt under period-end-only FV-OCI",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

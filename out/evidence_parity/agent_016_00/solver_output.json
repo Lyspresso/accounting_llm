@@ -1,0 +1,161 @@
+{
+  "id": "agent_016#00",
+  "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the nearest cent each period (PV, interest expense, discount amortization); Year 3 amortization plugged so carrying amount equals $80,000 face at maturity",
+  "answers": [
+    {
+      "label": "a: Cash proceeds (issue price) of the note, Jan 1 Year 1",
+      "value": 71899.86
+    },
+    {
+      "label": "a: Discount on note payable at issuance (face - proceeds)",
+      "value": 8100.14
+    },
+    {
+      "label": "a: Annual cash interest payment (80,000 x 5%)",
+      "value": 4000.0
+    },
+    {
+      "label": "c: Carrying amount at Jan 1, Year 1 (schedule opening balance)",
+      "value": 71899.86
+    },
+    {
+      "label": "c: Year 1 - cash interest paid",
+      "value": 4000.0
+    },
+    {
+      "label": "c: Year 1 - interest expense (9% x beginning carrying amount)",
+      "value": 6470.99
+    },
+    {
+      "label": "c: Year 1 - discount amortization",
+      "value": 2470.99
+    },
+    {
+      "label": "c: Year 1 - ending carrying amount",
+      "value": 74370.85
+    },
+    {
+      "label": "c: Year 2 - cash interest paid",
+      "value": 4000.0
+    },
+    {
+      "label": "c: Year 2 - interest expense (9% x beginning carrying amount)",
+      "value": 6693.38
+    },
+    {
+      "label": "c: Year 2 - discount amortization",
+      "value": 2693.38
+    },
+    {
+      "label": "c: Year 2 - ending carrying amount",
+      "value": 77064.23
+    },
+    {
+      "label": "c: Year 3 - cash interest paid",
+      "value": 4000.0
+    },
+    {
+      "label": "c: Year 3 - interest expense (9% x beginning carrying amount)",
+      "value": 6935.77
+    },
+    {
+      "label": "c: Year 3 - discount amortization",
+      "value": 2935.77
+    },
+    {
+      "label": "c: Year 3 - ending carrying amount",
+      "value": 80000.0
+    },
+    {
+      "label": "c: Totals - cash interest over 3 years",
+      "value": 12000.0
+    },
+    {
+      "label": "c: Totals - interest expense over 3 years",
+      "value": 20100.14
+    },
+    {
+      "label": "c: Totals - discount amortization over 3 years",
+      "value": 8100.14
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 71899.86,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Notes Payable",
+          "debit": 8100.14,
+          "credit": 0
+        },
+        {
+          "account": "Notes Payable",
+          "debit": 0,
+          "credit": 80000.0
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 6470.99,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Notes Payable",
+          "debit": 0,
+          "credit": 2470.99
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 4000.0
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 6935.77,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Notes Payable",
+          "debit": 0,
+          "credit": 2935.77
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 4000.0
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "lines": [
+        {
+          "account": "Notes Payable",
+          "debit": 80000.0,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 80000.0
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Issue price = 4,000 x PVIFA(9%,3) + 80,000 x PVIF(9%,3), factors derived from the 9% market rate and 3-year term. Interest expense each year = 9% x beginning carrying amount; discount amortization = expense - 4,000 cash interest. Year 3 expense/amortization are plugged (amortization = 80,000 - beginning carrying amount) to absorb rounding so the carrying amount is exactly 80,000 at maturity. Maturity settlement of principal shown as a separate entry from the Year 3 interest entry."
+}

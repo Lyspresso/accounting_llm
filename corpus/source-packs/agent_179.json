@@ -1,0 +1,78 @@
+{
+  "agent_id": 179,
+  "lo": "LO 9-1",
+  "chapter": 9,
+  "title": "Determine the initial recognition and measurement of inventory",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-1",
+      "concept": "Subsequent measurement schedule of controlled inventory by category; initial inventoriable-cost JE; period-end control adjustments; consignment disposal",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-1",
+      "concept": "Number-variant twin — subsequent measurement schedule, initial inventoriable cost, YE control adj, consignment disposal",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-1",
+      "concept": "Period-end reconciling schedule from physical count to adjusted ending inventory; inventoriable vs period costs; YE adjusting JEs; consignment settlement",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-1",
+      "concept": "Classification — inventoriable product cost vs period / abnormal charge",
+      "type": "MC",
+      "angles": ["classification_presentation_or_disclosure"],
+      "answer": "C",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 9-1",
+      "concept": "Classification — goods in transit / consignment control test",
+      "type": "MC",
+      "angles": ["classification_presentation_or_disclosure"],
+      "answer": "D",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,140 @@
+{
+ "id": "agent_032#01",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to whole dollars applied per period (no cents arise; all amounts are exact multiples of $1). Journal entries are stated in whole dollars and the DTA roll-forward closes exactly: 30,000 - 6,000 utilized = 24,000 gross, less 6,000 VA = 18,000 net.",
+ "answers": [
+  {
+   "label": "a: NOL carryforward at 12/31/Y1",
+   "value": 120000
+  },
+  {
+   "label": "a: DTA at 12/31/Y1 (120,000 x 25%)",
+   "value": 30000
+  },
+  {
+   "label": "a: Valuation allowance at 12/31/Y1 (MLTN full realization)",
+   "value": 0
+  },
+  {
+   "label": "a: Net DTA reported at 12/31/Y1",
+   "value": 30000
+  },
+  {
+   "label": "b: Year 1 operating loss (pretax)",
+   "value": -120000
+  },
+  {
+   "label": "b: Year 1 income tax benefit",
+   "value": 30000
+  },
+  {
+   "label": "b: Year 1 net loss",
+   "value": -90000
+  },
+  {
+   "label": "c: Year 2 taxable income before NOL deduction",
+   "value": 30000
+  },
+  {
+   "label": "c: Maximum NOL deduction (80% x 30,000)",
+   "value": 24000
+  },
+  {
+   "label": "c: NOL carryforward utilized in Year 2",
+   "value": 24000
+  },
+  {
+   "label": "c: Year 2 taxable income after NOL deduction",
+   "value": 6000
+  },
+  {
+   "label": "c: Income tax payable Year 2 (6,000 x 25%)",
+   "value": 1500
+  },
+  {
+   "label": "c: DTA reduction (deferred tax expense) Year 2",
+   "value": 6000
+  },
+  {
+   "label": "c: Total income tax expense Year 2 before VA",
+   "value": 7500
+  },
+  {
+   "label": "d: NOL carryforward remaining at 12/31/Y2",
+   "value": 96000
+  },
+  {
+   "label": "d: Gross DTA at 12/31/Y2 after utilization",
+   "value": 24000
+  },
+  {
+   "label": "d: Valuation allowance required at 12/31/Y2 (25% of 24,000)",
+   "value": 6000
+  },
+  {
+   "label": "d: Valuation allowance JE amount (from $0 beginning balance)",
+   "value": 6000
+  },
+  {
+   "label": "d: Net DTA reported at 12/31/Y2",
+   "value": 18000
+  },
+  {
+   "label": "d: Total income tax expense Year 2 including VA charge",
+   "value": 13500
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Deferred Tax Asset - NOL carryforward",
+     "debit": 30000,
+     "credit": 0
+    },
+    {
+     "account": "Income Tax Benefit (deferred)",
+     "debit": 0,
+     "credit": 30000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Income Tax Expense",
+     "debit": 7500,
+     "credit": 0
+    },
+    {
+     "account": "Deferred Tax Asset - NOL carryforward",
+     "debit": 0,
+     "credit": 6000
+    },
+    {
+     "account": "Income Tax Payable",
+     "debit": 0,
+     "credit": 1500
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Income Tax Expense (valuation allowance)",
+     "debit": 6000,
+     "credit": 0
+    },
+    {
+     "account": "Valuation Allowance - Deferred Tax Asset",
+     "debit": 0,
+     "credit": 6000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Year 1: loss 120,000 x 25% = 30,000 DTA, no VA because full realization is MLTN; deferred benefit 30,000 drives net loss to 90,000. Year 2: the 80% limit caps the NOL deduction at 24,000 (80% of 30,000), leaving 6,000 taxable -> 1,500 currently payable; the 24,000 of NOL used releases 6,000 of DTA as deferred tax expense, so tax expense before VA is 7,500 (= 30,000 book/tax income x 25% since there are no other differences). Remaining NOL 96,000 x 25% = 24,000 gross DTA; only 75% MLTN realizable, so a 6,000 valuation allowance is recorded against income tax expense (VA began at 0), leaving a net DTA of 18,000 and total Year 2 tax expense of 13,500."
+}

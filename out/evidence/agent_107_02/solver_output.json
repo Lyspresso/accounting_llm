@@ -1,0 +1,130 @@
+{
+  "id": "agent_107#02",
+  "rounding_convention": "decimal.Decimal only, no floats; money quantized to cents with ROUND_HALF_UP at each allocation (round-per-allocation, not round-at-end); allocation percentages computed as exact ratios and reported at 4 dp ROUND_HALF_UP, with the exact unrounded ratio used for the dollar allocation; final class allocated as the plug so allocated proceeds foot exactly to cash and debits equal credits; no PV factors involved",
+  "answers": [
+    {
+      "label": "a: Case A relative fair value of common (2,000 x $36)",
+      "value": 72000
+    },
+    {
+      "label": "a: Case A relative fair value of preferred (1,000 x $28)",
+      "value": 28000
+    },
+    {
+      "label": "a: Case A total relative fair value",
+      "value": 100000
+    },
+    {
+      "label": "a: Case A allocation percentage to common (0.72 = 72%)",
+      "value": 0.72
+    },
+    {
+      "label": "a: Case A allocation percentage to preferred (0.28 = 28%)",
+      "value": 0.28
+    },
+    {
+      "label": "a: Case A proceeds allocated to common stock",
+      "value": 68400
+    },
+    {
+      "label": "a: Case A proceeds allocated to preferred stock",
+      "value": 26600
+    },
+    {
+      "label": "b: Case B proceeds allocated to common stock (2,000 x $38 known FV)",
+      "value": 76000
+    },
+    {
+      "label": "b: Case B proceeds allocated to preferred stock (remainder)",
+      "value": 24000
+    },
+    {
+      "label": "c: Preferred Stock, $10 par, 1,000 shares issued and outstanding",
+      "value": 10000
+    },
+    {
+      "label": "c: Common Stock, $5 par, 2,000 shares issued and outstanding",
+      "value": 10000
+    },
+    {
+      "label": "c: Paid-in Capital in Excess of Par - Preferred Stock",
+      "value": 16600
+    },
+    {
+      "label": "c: Paid-in Capital in Excess of Par - Common Stock",
+      "value": 58400
+    },
+    {
+      "label": "c: Total paid-in capital",
+      "value": 95000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "March 1, Year 1",
+      "description": "Case A -- lump-sum issuance allocated by the proportional (relative fair value) method",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 95000,
+          "credit": 0
+        },
+        {
+          "account": "Preferred Stock",
+          "debit": 0,
+          "credit": 10000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Preferred Stock",
+          "debit": 0,
+          "credit": 16600
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 10000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Common Stock",
+          "debit": 0,
+          "credit": 58400
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "March 1, Year 1",
+      "description": "Case B -- lump-sum issuance allocated by the incremental method (common at its known fair value, remainder to preferred)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 100000,
+          "credit": 0
+        },
+        {
+          "account": "Preferred Stock",
+          "debit": 0,
+          "credit": 10000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Preferred Stock",
+          "debit": 0,
+          "credit": 14000
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 10000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Common Stock",
+          "debit": 0,
+          "credit": 66000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Case A uses the proportional method because both fair values are known: common FV $72,000 and preferred FV $28,000 give a total relative fair value of $100,000, so 72% / 28% of the $95,000 lump sum is allocated to common / preferred. Case B uses the incremental method because preferred has no reliable market price: common takes its known fair value of $76,000 and the $24,000 remainder of the $100,000 lump sum is assigned to preferred. Part c presentation (Case A, paid-in capital section, immediately after issuance): Preferred Stock $10,000; Common Stock $10,000; Paid-in Capital in Excess of Par - Preferred $16,600; Paid-in Capital in Excess of Par - Common $58,400; total paid-in capital $95,000 (equal to the cash received, since no issue costs were incurred and no earnings exist yet). Part d (no figure required): stock issue costs are a cost of raising capital rather than a cost of operating, so they are netted against the issuance proceeds -- debited to Paid-in Capital in Excess of Par, reducing the amount credited to equity -- instead of being reported as an expense on the income statement."
+}

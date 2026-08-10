@@ -1,0 +1,46 @@
+{
+  "agent_id": 227,
+  "lo": "LO 15-3",
+  "chapter": 15,
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-3",
+      "concept": "Subsequent measurement schedule for Accrued Compensation over three years; initial payroll/tax recognition; period-end bonus and DC accruals; settlement of liabilities",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-3",
+      "concept": "Number-variant twin: multi-year Accrued Compensation subsequent measurement schedule; payroll + employer taxes; sales-based bonus; DC match; settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-3",
+      "concept": "Period-end adjusting JEs only; classify vacation (probable) vs sick pay (possible only); settle prior bonus and DC liability; presentation as current liabilities",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-3",
+      "concept": "When to accrue a liability for compensated absences (ASC 710 four criteria)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-3",
+      "concept": "Measurement of defined contribution pension expense vs investment risk",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

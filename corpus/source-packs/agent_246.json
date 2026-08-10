@@ -1,0 +1,71 @@
+{
+  "agent_id": 246,
+  "lo": "LO 20-10",
+  "chapter": 20,
+  "critical": false,
+  "title": "Describe accounting for stock appreciation rights",
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-10",
+      "concept": "Liability-classified SARs: subsequent measurement schedule (year-end FV × units × % service); period-end adjusting JEs including a reverse year; cash settlement at exercise",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-10",
+      "concept": "Number-variant twin: liability SARs subsequent measurement schedule; period-end adjusting JEs; cash settlement at exercise",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-10",
+      "concept": "Equity-classified SARs (employer may settle in stock): grant-date FV straight-line over service period; no FV remeasurement; settlement reclass to common stock/APIC; contrast if employer pays cash instead",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-10",
+      "concept": "Classification of SARs as liability vs equity based on cash-settlement feature",
+      "type": "MC",
+      "ok": true,
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 20-10",
+      "concept": "Subsequent measurement of liability SARs vs equity SARs",
+      "type": "MC",
+      "ok": true,
+      "angles": [
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ]
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,68 @@
+{
+  "agent_id": 2,
+  "lo": "LO 14-10",
+  "chapter": 14,
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "title": "Explain the accounting for transfers of investments",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-10",
+      "concept": "AFS → trading transfer at fair value; reclassify AOCI to NI; new TS cost basis; subsequent sale",
+      "type": "multipart",
+      "angles": ["initial_recognition_JE", "disposal_maturity_or_settlement_JE"],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-10",
+      "concept": "AFS → trading transfer at fair value (unrealized gain into NI); number-variant twin",
+      "type": "multipart",
+      "angles": ["number_variant_twin", "initial_recognition_JE", "disposal_maturity_or_settlement_JE"],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-10",
+      "concept": "AFS → HTM transfer (no NI on transfer); amortize transfer-date AOCI as yield adjustment; period-end adjusting JE",
+      "type": "schedule",
+      "angles": ["subsequent_measurement_schedule", "period_end_adjusting_JE", "initial_recognition_JE"],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-10",
+      "concept": "HTM → AFS transfer at fair value through OCI (no NI); subsequent AFS FVA period-end JE",
+      "type": "multipart",
+      "angles": ["initial_recognition_JE", "period_end_adjusting_JE", "classification_presentation_or_disclosure"],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-10",
+      "concept": "Transfer from FV-NI equity measurement to equity method; fair value becomes new cost basis",
+      "type": "multipart",
+      "angles": ["initial_recognition_JE", "subsequent_measurement_schedule"],
+      "ok": true
+    },
+    {
+      "qid": "Q6",
+      "lo": "LO 14-10",
+      "concept": "Classification of transfer-date NI vs OCI effects by transfer type",
+      "type": "MC",
+      "angles": ["classification_presentation_or_disclosure"],
+      "ok": true
+    },
+    {
+      "qid": "Q7",
+      "lo": "LO 14-10",
+      "concept": "When transfers among debt categories are appropriate; presentation/disclosure",
+      "type": "MC",
+      "angles": ["classification_presentation_or_disclosure"],
+      "ok": true
+    }
+  ],
+  "n_items": 7,
+  "ok": true
+}

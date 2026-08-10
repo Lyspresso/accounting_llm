@@ -1,0 +1,187 @@
+{
+  "id": "agent_145#02",
+  "rounding_convention": "decimal.Decimal only, no floats; whole dollars, ROUND_HALF_UP applied per period; straight-line amortization = total discount / number of periods with the final period plugged to the remaining unamortized discount so the discount fully amortizes and carrying amount equals face at maturity ($4,974 / 3 = $1,658 divides evenly, so no residual arises here). No PV factors needed -- the issue price is given.",
+  "answers": [
+    {
+      "label": "b: carrying amount at issuance (Jan 1, Year 1)",
+      "value": 95026
+    },
+    {
+      "label": "b: unamortized discount at issuance (Jan 1, Year 1)",
+      "value": 4974
+    },
+    {
+      "label": "b: December 31, Year 1 - cash interest paid",
+      "value": 8000
+    },
+    {
+      "label": "b: December 31, Year 1 - discount amortization",
+      "value": 1658
+    },
+    {
+      "label": "b: December 31, Year 1 - interest expense",
+      "value": 9658
+    },
+    {
+      "label": "b: December 31, Year 1 - unamortized discount, end of year",
+      "value": 3316
+    },
+    {
+      "label": "b: December 31, Year 1 - carrying amount, end of year",
+      "value": 96684
+    },
+    {
+      "label": "b: December 31, Year 2 - cash interest paid",
+      "value": 8000
+    },
+    {
+      "label": "b: December 31, Year 2 - discount amortization",
+      "value": 1658
+    },
+    {
+      "label": "b: December 31, Year 2 - interest expense",
+      "value": 9658
+    },
+    {
+      "label": "b: December 31, Year 2 - unamortized discount, end of year",
+      "value": 1658
+    },
+    {
+      "label": "b: December 31, Year 2 - carrying amount, end of year",
+      "value": 98342
+    },
+    {
+      "label": "b: December 31, Year 3 - cash interest paid",
+      "value": 8000
+    },
+    {
+      "label": "b: December 31, Year 3 - discount amortization",
+      "value": 1658
+    },
+    {
+      "label": "b: December 31, Year 3 - interest expense",
+      "value": 9658
+    },
+    {
+      "label": "b: December 31, Year 3 - unamortized discount, end of year",
+      "value": 0
+    },
+    {
+      "label": "b: December 31, Year 3 - carrying amount, end of year",
+      "value": 100000
+    },
+    {
+      "label": "e: Under ASC 835-30, when is straight-line acceptable and where is unamortized discount reported?",
+      "value": "GAAP requires the effective interest ('interest') method; ASC 835-30-55-2 permits an alternative such as the straight-line interest method only when its results are not materially different from the effective interest method (as assumed here). Straight-line may not be used if the results differ materially. The unamortized Discount on Bonds Payable is a contra-liability, not an asset: it is reported on the balance sheet as a direct deduction from the $100,000 face amount of Bonds Payable, so only the net carrying amount ($96,684 at end of Year 1 and $98,342 at end of Year 2; $0 discount remains at maturity) appears as the long-term liability. Amortization of the discount is reported as interest expense (ASC 835-30-45-3)."
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "January 1, Year 1",
+      "description": "Issuance of bonds at a discount",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 95026,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 4974,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable",
+          "debit": 0,
+          "credit": 100000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 1",
+      "description": "Annual interest payment and straight-line discount amortization",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 9658,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 1658
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 8000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 2",
+      "description": "Annual interest payment and straight-line discount amortization",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 9658,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 1658
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 8000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 3",
+      "description": "Final annual interest payment and final straight-line discount amortization (discount now fully amortized)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 9658,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 1658
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 8000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 3",
+      "description": "Derecognition of bonds payable at maturity (repayment of face)",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 100000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 100000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part b is the schedule itself, so all of its columns are reported as answers. Part e is qualitative and is reported as a text answer. The 10% market yield is contextual only: under the straight-line interest method it does not enter any computed amount. Interest expense is $9,658 in each of Years 1-3 and total interest expense over the term is $28,974 (= $24,000 cash + $4,974 discount)."
+}

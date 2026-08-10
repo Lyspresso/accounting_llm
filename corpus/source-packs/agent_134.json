@@ -1,0 +1,82 @@
+{
+  "agent_id": 134,
+  "lo": "LO 14-2",
+  "chapter": 14,
+  "title": "Account for debt securities measured at FV-NI with fair value adjustments at sale date and period-end",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-2",
+      "concept": "initial_recognition_JE; subsequent_measurement_schedule; period_end_adjusting_JE; disposal_maturity_or_settlement_JE; classification_presentation_or_disclosure",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-2",
+      "concept": "number_variant_twin — same TS FV-NI path with all new amounts",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-2",
+      "concept": "subsequent_measurement_schedule (portfolio FVA emphasis); disposal_maturity_or_settlement_JE; period_end_adjusting_JE; classification_presentation_or_disclosure",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-2",
+      "concept": "classification_presentation_or_disclosure — where TS unrealized holding gains/losses are reported",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-2",
+      "concept": "disposal_maturity_or_settlement_JE — sale-date FV adjust then eliminate FVA (no separate sale G/L)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

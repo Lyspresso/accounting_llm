@@ -1,0 +1,300 @@
+{
+ "id": "agent_223#00",
+ "rounding_convention": "decimal.Decimal throughout; amounts quantized to $0.01 using ROUND_HALF_UP independently each period; final-period depreciation/amortization trued up to residual value.",
+ "answers": [
+  {
+   "label": "a: Total Year 1 costs expensed immediately as R&D (items 1,3,4,5,6,8)",
+   "value": 1454000
+  },
+  {
+   "label": "a: Laboratory equipment capitalized (item 2)",
+   "value": 600000
+  },
+  {
+   "label": "a: Technical license capitalized (item 7)",
+   "value": 40000
+  },
+  {
+   "label": "a: Total capitalized in Year 1",
+   "value": 640000
+  },
+  {
+   "label": "a: Non-R&D expense recognized (item 9 QC $35000 + item 10 G&A $200000)",
+   "value": 235000
+  },
+  {
+   "label": "a: Total cash paid, items 1-10",
+   "value": 2329000
+  },
+  {
+   "label": "b(1): Dec 31, Yr 1 depreciation of multi-use lab equipment (charged to R&D)",
+   "value": 114000
+  },
+  {
+   "label": "b(2): Dec 31, Yr 1 amortization of multi-project technical license (charged to R&D)",
+   "value": 10000
+  },
+  {
+   "label": "c: Annual straight-line depreciation, laboratory equipment ($600,000 - $30,000) / 5",
+   "value": 114000
+  },
+  {
+   "label": "c: Equipment Year 1 beginning book value",
+   "value": 600000
+  },
+  {
+   "label": "c: Equipment Year 1 depreciation (R&D expense)",
+   "value": 114000
+  },
+  {
+   "label": "c: Equipment Year 1 ending book value",
+   "value": 486000
+  },
+  {
+   "label": "c: Equipment Year 2 beginning book value",
+   "value": 486000
+  },
+  {
+   "label": "c: Equipment Year 2 depreciation (R&D expense)",
+   "value": 114000
+  },
+  {
+   "label": "c: Equipment Year 2 ending book value",
+   "value": 372000
+  },
+  {
+   "label": "c: Equipment Year 3 beginning book value",
+   "value": 372000
+  },
+  {
+   "label": "c: Equipment Year 3 depreciation (R&D expense)",
+   "value": 114000
+  },
+  {
+   "label": "c: Equipment Year 3 ending book value",
+   "value": 258000
+  },
+  {
+   "label": "c: Equipment Year 4 beginning book value",
+   "value": 258000
+  },
+  {
+   "label": "c: Equipment Year 4 depreciation (R&D expense)",
+   "value": 114000
+  },
+  {
+   "label": "c: Equipment Year 4 ending book value",
+   "value": 144000
+  },
+  {
+   "label": "c: Equipment Year 5 beginning book value",
+   "value": 144000
+  },
+  {
+   "label": "c: Equipment Year 5 depreciation (R&D expense)",
+   "value": 114000
+  },
+  {
+   "label": "c: Equipment Year 5 ending book value",
+   "value": 30000
+  },
+  {
+   "label": "d: Annual straight-line amortization, technical license $40,000 / 4",
+   "value": 10000
+  },
+  {
+   "label": "d: License Year 1 beginning carrying value",
+   "value": 40000
+  },
+  {
+   "label": "d: License Year 1 amortization (R&D expense)",
+   "value": 10000
+  },
+  {
+   "label": "d: License Year 1 ending carrying value",
+   "value": 30000
+  },
+  {
+   "label": "d: License Year 2 beginning carrying value",
+   "value": 30000
+  },
+  {
+   "label": "d: License Year 2 amortization (R&D expense)",
+   "value": 10000
+  },
+  {
+   "label": "d: License Year 2 ending carrying value",
+   "value": 20000
+  },
+  {
+   "label": "d: License Year 3 beginning carrying value",
+   "value": 20000
+  },
+  {
+   "label": "d: License Year 3 amortization (R&D expense)",
+   "value": 10000
+  },
+  {
+   "label": "d: License Year 3 ending carrying value",
+   "value": 10000
+  },
+  {
+   "label": "d: License Year 4 beginning carrying value",
+   "value": 10000
+  },
+  {
+   "label": "d: License Year 4 amortization (R&D expense)",
+   "value": 10000
+  },
+  {
+   "label": "d: License Year 4 ending carrying value",
+   "value": 0
+  },
+  {
+   "label": "e: Total Year 1 R&D expense disclosed (direct R&D $1454000 + equipment depreciation $114000.00 + license amortization $10000.00)",
+   "value": 1578000
+  },
+  {
+   "label": "e: Item 9 quality control during commercial production \u2014 EXCLUDED from R&D",
+   "value": 35000
+  },
+  {
+   "label": "e: Item 10 corporate G&A not clearly related to R&D \u2014 EXCLUDED from R&D",
+   "value": 200000
+  },
+  {
+   "label": "e: Item 2 equipment purchase price \u2014 EXCLUDED from Year 1 R&D (capitalized; only depreciation is R&D)",
+   "value": 600000
+  },
+  {
+   "label": "e: Item 7 license purchase price \u2014 EXCLUDED from Year 1 R&D (capitalized; only amortization is R&D)",
+   "value": 40000
+  },
+  {
+   "label": "f: Accumulated depreciation at Jan 1, Year 4 (3 x $114000.00)",
+   "value": 342000
+  },
+  {
+   "label": "f: Book value of laboratory equipment at Jan 1, Year 4",
+   "value": 258000
+  },
+  {
+   "label": "f: Loss on disposal (proceeds $240000 - book value $258000.00)",
+   "value": 18000
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Research and Development Expense (items 1,3,4,5,6,8: materials $185000, single-use testing chamber $72000, R&D salaries $980000, contract R&D $125000, allocated R&D facility costs $48000, preproduction prototypes $44000)",
+     "debit": 1454000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 1454000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Laboratory Equipment (item 2 \u2014 significant alternative future uses)",
+     "debit": 600000,
+     "credit": 0
+    },
+    {
+     "account": "Technical Database/Know-How License (item 7 \u2014 multi-project intangible)",
+     "debit": 40000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 640000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Quality Control / Cost of Production Expense (item 9 \u2014 commercial production)",
+     "debit": 35000,
+     "credit": 0
+    },
+    {
+     "account": "General and Administrative Expense (item 10 \u2014 corporate G&A)",
+     "debit": 200000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 235000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Research and Development Expense (depreciation \u2014 multi-use laboratory equipment)",
+     "debit": 114000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation \u2014 Laboratory Equipment",
+     "debit": 0,
+     "credit": 114000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Research and Development Expense (amortization \u2014 multi-project technical license)",
+     "debit": 10000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Amortization \u2014 Technical License",
+     "debit": 0,
+     "credit": 10000
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 240000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation \u2014 Laboratory Equipment",
+     "debit": 342000,
+     "credit": 0
+    },
+    {
+     "account": "Loss on Disposal of Equipment",
+     "debit": 18000,
+     "credit": 0
+    },
+    {
+     "account": "Laboratory Equipment",
+     "debit": 0,
+     "credit": 600000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "a. Items 1,3,4,5,6,8 have no alternative future use (or are R&D services/labor/overhead/preproduction prototypes of an asset still under development) and are expensed as R&D when incurred = $1454000. Items 2 and 7 have significant alternative future uses across multiple projects, so they are capitalized ($600000 and $40000) and charged to R&D through depreciation/amortization. Item 9 (quality control during commercial production) and item 10 (corporate G&A not clearly related to R&D) are ordinary operating expenses, not R&D. e. Year 1 disclosed R&D = $1578000.00. Excluded: QC on commercial production $35000; corporate G&A $200000; the capitalized cost of the lab equipment $600000 and of the technical license $40000 (only the $114000.00 depreciation and $10000.00 amortization enter R&D in Year 1). f. Jan 1 Yr 4: cost $600000 less accumulated depreciation $342000.00 = book value $258000.00; proceeds $240000 produce a loss of $18000.00. g. The equipment is not fully expensed in Year 1 because it has significant alternative future uses \u2014 it is a productive asset that will serve future R&D projects and production support, so it meets the definition of an asset and is capitalized. Its service potential is nevertheless consumed by R&D activity, so each period's depreciation is the portion of the asset's cost used up in R&D and is classified as R&D expense in that period. Equipment devoted to a single project with no alternative use (item 3) has no future service potential beyond that project and is expensed immediately."
+}

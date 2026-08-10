@@ -1,0 +1,39 @@
+{
+  "agent_id": 86,
+  "lo": "LO 13-1",
+  "chapter": 13,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-1",
+      "concept": "Initial recognition JE after classification (finite IA / indefinite IA / goodwill / expense); Year-1 amortization schedule; period-end adjusting JE; BS presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-1",
+      "concept": "Number-variant twin: classify items; initial recognition JEs; amortization schedule with mid-year patent defense; period-end adjusting JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-1",
+      "concept": "Period-end and disposal-date amortization; disposal (derecognition) JE; classification/presentation of remaining intangibles and goodwill",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-1",
+      "concept": "Finite vs indefinite vs goodwill vs expense; crypto asset classification when criteria met",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

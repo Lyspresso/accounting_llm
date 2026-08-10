@@ -1,0 +1,73 @@
+{
+  "agent_id": 166,
+  "lo": "LO 22-3",
+  "chapter": 22,
+  "title": "Prepare the investing activities section of the statement of cash flows",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-3",
+      "concept": "Prepare cash flows from investing activities — emphasize PPE/AD/investment/notes rollforward schedules to plug cash purchases and verify disposals; record JEs; report gross investing flows",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-3",
+      "concept": "Prepare cash flows from investing activities — all numbers changed (PPE/AD subsequent-measurement plugs; investment and loan rollforwards)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-3",
+      "concept": "Investing section with insurance recovery, cash construction, investment maturities, land sale, and cash-only portion of mixed PPE acquisition; PPE/AD subsequent-measurement schedules; noncash disclosure",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-3",
+      "concept": "Identify which items are correctly included as investing inflows or outflows (gross presentation; principal vs interest)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 22-3",
+      "concept": "Compute net cash used by investing activities when insurance proceeds, cash reconstruction, and another investing inflow all occur",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

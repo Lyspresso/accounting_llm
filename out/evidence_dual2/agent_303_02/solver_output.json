@@ -1,0 +1,237 @@
+{
+ "id": "agent_303#02",
+ "rounding_convention": "decimal.Decimal with ROUND_HALF_UP, whole dollars in journal entries and schedules; all inputs are exact so no rounding residual arose. Refund Liability schedule closes exactly to the computed ending balance of 4.5% x credit sales, and Inventory-Estimated Returns closes exactly to 60% of that ending liability.",
+ "answers": [
+  {
+   "label": "a: Sales revenue recorded on credit sales",
+   "value": 550000
+  },
+  {
+   "label": "a: Cost of goods sold recorded (60% of sales)",
+   "value": 330000
+  },
+  {
+   "label": "b: Sales Returns debited for actual cash refunds",
+   "value": 19800
+  },
+  {
+   "label": "b: Cost of actual returns restored to Inventory (credit COGS)",
+   "value": 11880
+  },
+  {
+   "label": "b: Sales allowances granted on account",
+   "value": 1650
+  },
+  {
+   "label": "c: Target ending Refund Liability (4.5% x $550,000)",
+   "value": 24750
+  },
+  {
+   "label": "c: Year-end sales-side adjustment (Dr Sales Returns / Cr Refund Liability)",
+   "value": 13250
+  },
+  {
+   "label": "c: Target ending Inventory-Estimated Returns (60% of ending liability)",
+   "value": 14850
+  },
+  {
+   "label": "c: Year-end cost-side adjustment (Dr Inv-Est Returns / Cr COGS)",
+   "value": 7950
+  },
+  {
+   "label": "d: Refund Liability rollforward - beginning balance Jan 1, Yr 2",
+   "value": 11500
+  },
+  {
+   "label": "d: Refund Liability rollforward - actual returns charged to the liability during Yr 2 (none; charged to Sales Returns)",
+   "value": 0
+  },
+  {
+   "label": "d: Refund Liability rollforward - year-end true-up adjustment",
+   "value": 13250
+  },
+  {
+   "label": "d: Refund Liability rollforward - ending balance Dec 31, Yr 2",
+   "value": 24750
+  },
+  {
+   "label": "d: Inventory-Estimated Returns rollforward - beginning balance Jan 1, Yr 2",
+   "value": 6900
+  },
+  {
+   "label": "d: Inventory-Estimated Returns rollforward - amounts charged to the asset during Yr 2 (none; cost of actual returns went to Inventory/COGS)",
+   "value": 0
+  },
+  {
+   "label": "d: Inventory-Estimated Returns rollforward - year-end true-up adjustment",
+   "value": 7950
+  },
+  {
+   "label": "d: Inventory-Estimated Returns rollforward - ending balance Dec 31, Yr 2",
+   "value": 14850
+  },
+  {
+   "label": "d: Confirmation - ending Refund Liability x 60%",
+   "value": 14850
+  },
+  {
+   "label": "e: Settlement - Refund Liability debited for Year 1 returns settled",
+   "value": 7200
+  },
+  {
+   "label": "e: Settlement - Inventory-Estimated Returns credited (cost)",
+   "value": 4320
+  },
+  {
+   "label": "f: Net Sales for Year 2",
+   "value": 515300
+  },
+  {
+   "label": "f: Balance-sheet presentation - Refund Liability",
+   "value": "Current liability, reported separately (not netted against accounts receivable); it is the obligation to refund customers for goods expected to be returned within the 45-day window."
+  },
+  {
+   "label": "f: Balance-sheet presentation - Inventory-Estimated Returns",
+   "value": "Current asset, reported separately from Inventory (a right to recover product from customers, carried at 60% of the expected refund); not netted against the refund liability."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Accounts Receivable",
+     "debit": 550000,
+     "credit": 0
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0,
+     "credit": 550000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 330000,
+     "credit": 0
+    },
+    {
+     "account": "Inventory",
+     "debit": 0,
+     "credit": 330000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Sales Returns",
+     "debit": 19800,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 19800
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 11880,
+     "credit": 0
+    },
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 0,
+     "credit": 11880
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Sales Allowances",
+     "debit": 1650,
+     "credit": 0
+    },
+    {
+     "account": "Accounts Receivable",
+     "debit": 0,
+     "credit": 1650
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Sales Returns",
+     "debit": 13250,
+     "credit": 0
+    },
+    {
+     "account": "Refund Liability",
+     "debit": 0,
+     "credit": 13250
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Inventory-Estimated Returns",
+     "debit": 7950,
+     "credit": 0
+    },
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 0,
+     "credit": 7950
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Refund Liability",
+     "debit": 7200,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 7200
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 4320,
+     "credit": 0
+    },
+    {
+     "account": "Inventory-Estimated Returns",
+     "debit": 0,
+     "credit": 4320
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Review 8-3 subsequent-period approach: actual returns during Year 2 are debited to Sales Returns (not charged against the beginning Refund Liability), so the year-end entry must move the liability from its $11,500 beginning balance all the way to the $24,750 target, a $13,250 credit; the cost side mirrors it at 60% ($6,900 -> $14,850, a $7,950 debit). Cost of actual returns ($11,880) goes to Inventory with a credit to COGS. Part (e) is an alternate treatment of $7,200 of the year's cash returns: because those Year 1 returns were already accrued, they are settled against Refund Liability and Inventory-Estimated Returns instead of Sales Returns / COGS. Sales allowances do not carry a cost side (no goods come back). Net sales = 550,000 - (19,800 + 13,250) sales returns - 1,650 allowances = 515,300."
+}

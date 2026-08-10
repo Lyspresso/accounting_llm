@@ -1,0 +1,99 @@
+{
+ "id": "agent_002#03",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent, applied once per period (all amounts resolve to whole dollars)",
+ "answers": [
+  {
+   "label": "a: Carrying (amortized cost) amount reclassified from HTM to AFS on 1/1/Y4",
+   "value": 150000
+  },
+  {
+   "label": "a: Transfer-date total fair value of the two securities (1/1/Y4)",
+   "value": 152100
+  },
+  {
+   "label": "a: Net unrealized holding gain recognized in OCI on transfer (Dr Fair Value Adjustment)",
+   "value": 2100
+  },
+  {
+   "label": "b: Effect of the transfer on net income",
+   "value": 0
+  },
+  {
+   "label": "b: Effect of the transfer on OCI (increase, net unrealized holding gain)",
+   "value": 2100
+  },
+  {
+   "label": "c: Total amortized cost of the AFS portfolio at 12/31/Y4",
+   "value": 150000
+  },
+  {
+   "label": "c: Total fair value of the AFS portfolio at 12/31/Y4 (94,000 + 57,000)",
+   "value": 151000
+  },
+  {
+   "label": "c: Required Fair Value Adjustment (AFS) debit balance at 12/31/Y4",
+   "value": 1000
+  },
+  {
+   "label": "c: Existing Fair Value Adjustment (AFS) debit balance carried from the transfer",
+   "value": 2100
+  },
+  {
+   "label": "c: Year-end adjustment \u2014 credit to Fair Value Adjustment / debit to Unrealized Holding Gain or Loss \u2014 Equity (OCI)",
+   "value": 1100
+  },
+  {
+   "label": "d: Required footnote disclosure",
+   "value": "Disclose in the notes the reason for the transfer (change in intent caused by significant deterioration in the issuers' credit standing), the securities moved out of held-to-maturity, their amortized cost and fair value at the transfer date, and the net unrealized holding gain of $2,100 recognized in other comprehensive income (accumulated OCI) on transfer with no effect on net income. Because transfers out of HTM are permitted only in rare circumstances, the note should explain the circumstances and their effect on the remaining HTM classification."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Debt Investments \u2014 Available-for-Sale (Quill + Dune)",
+     "debit": 150000,
+     "credit": 0
+    },
+    {
+     "account": "Debt Investments \u2014 Held-to-Maturity (Quill + Dune)",
+     "debit": 0,
+     "credit": 150000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Fair Value Adjustment (Available-for-Sale)",
+     "debit": 2100,
+     "credit": 0
+    },
+    {
+     "account": "Unrealized Holding Gain or Loss \u2014 Equity (OCI)",
+     "debit": 0,
+     "credit": 2100
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Unrealized Holding Gain or Loss \u2014 Equity (OCI)",
+     "debit": 1100,
+     "credit": 0
+    },
+    {
+     "account": "Fair Value Adjustment (Available-for-Sale)",
+     "debit": 0,
+     "credit": 1100
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Transfer out of HTM is recorded at fair value on the transfer date; the entire unrealized holding gain/loss existing at that date goes to OCI (equity), never to net income, so NI effect is $0 and OCI increases $2,100. At 12/31/Y4 the AFS portfolio is remeasured to fair value of $151,000 against amortized cost of $150,000, so the Fair Value Adjustment account must be reduced from a $2,100 debit to a $1,000 debit \u2014 a $1,100 credit, with the offsetting $1,100 debit to OCI. Individual securities are pooled in one portfolio adjustment; no reclassification out of AOCI to NI occurs."
+}

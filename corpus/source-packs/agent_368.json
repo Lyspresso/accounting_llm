@@ -1,0 +1,46 @@
+{
+  "agent_id": 368,
+  "lo": "LO 19-1",
+  "chapter": 19,
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-1",
+      "concept": "Period-end adjusting/closing JEs for RE and AOCI (emphasis); initial recognition of CS/PS; treasury reacquisition and partial reissuance; subsequent SOE schedule and equity-section presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-1",
+      "concept": "Number-variant twin — period-end RE/AOCI closes and dividends; initial recognition of CS/PS; treasury purchase and below-cost reissuance; SOE schedule and equity section",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-1",
+      "concept": "Period-end adjusting entries for RE and AOCI from open balances; classification into the five equity components; prepare complete equity section including noncontrolling interest",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-1",
+      "concept": "Classification of treasury stock within the five key components of stockholders' equity",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 19-1",
+      "concept": "Computing outstanding shares for equity-section disclosure and EPS",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

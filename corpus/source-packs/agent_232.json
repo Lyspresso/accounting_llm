@@ -1,0 +1,81 @@
+{
+  "agent_id": 232,
+  "lo": "LO 16-11",
+  "chapter": 16,
+  "title": "Accounting for Bonds with Stock Warrants",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "number_variant_twin",
+    "classification_presentation_or_disclosure"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-11",
+      "concept": "Proportional allocation of detachable bond-with-warrants proceeds; subsequent straight-line premium amortization schedule; period-end interest JE; warrant exercise and expiration; bond maturity",
+      "type": "multipart",
+      "company": "Northwind Fabricators",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-11",
+      "concept": "Number-variant twin: incremental allocation when only warrant FV is known; subsequent straight-line discount amortization schedule; period-end interest; exercise of all warrants; bond maturity",
+      "type": "multipart",
+      "company": "Pinnacle Harbor Marine",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-11",
+      "concept": "Nondetachable warrants treated as straight debt (no equity split); contrast issuance if warrants were detachable (incremental); subsequent premium amortization schedule; period-end interest; maturity settlement",
+      "type": "multipart",
+      "company": "Summit Trail Beverages",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-11",
+      "concept": "Classification of allocation method (incremental vs proportional) for bonds with detachable stock warrants",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-11",
+      "concept": "Classification of proceeds when bonds are issued with nondetachable stock warrants",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_232.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_232.json"
+}

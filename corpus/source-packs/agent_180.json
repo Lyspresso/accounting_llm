@@ -1,0 +1,62 @@
+{
+  "agent_id": 180,
+  "lo": "LO 9-2",
+  "chapter": 9,
+  "critical": false,
+  "title": "Demonstrate accounting in a periodic inventory system",
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-2",
+      "concept": "Subsequent measurement of inventory/COGS under periodic system — multi-period COGS schedule and inventory roll-forward; initial purchase/freight JEs (gross); settlement of AP; period-end adjusting entries",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-2",
+      "concept": "Number-variant twin — multi-period subsequent measurement COGS schedules; gross-method initial recognition, settlement, and period-end adjusting JEs",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-2",
+      "concept": "Periodic net method — initial recognition at net; settlement with lost discount as Interest Expense; subsequent COGS schedule; period-end adjusting JE",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-2",
+      "concept": "Classification of residual COGS measurement and temporary accounts in a periodic system",
+      "type": "MC",
+      "ok": true,
+      "n_mc": 2,
+      "angles": ["classification_presentation_or_disclosure"]
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

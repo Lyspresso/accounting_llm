@@ -1,0 +1,66 @@
+{
+  "agent_id": 43,
+  "lo": "LO 8-5",
+  "chapter": 8,
+  "critical": false,
+  "title": "Noncurrent Note Receivable [Stated Rate = 0%; Market Rate = 10%]",
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-5",
+      "concept": "Initial recognition of 0%/10% noncurrent NR for inventory; schedule; YE allocation; maturity",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-5",
+      "concept": "Number-variant twin — initial JE, full amort schedule, annual accruals, maturity",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-5",
+      "concept": "Cash-loaned zero-interest NR; schedule; current/noncurrent classification; settlement",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-5",
+      "concept": "Sales measurement basis and interest-revenue amount when stated rate is 0%",
+      "type": "MC",
+      "ok": true,
+      "n_mc": 2,
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ]
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

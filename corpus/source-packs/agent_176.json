@@ -1,0 +1,40 @@
+{
+  "agent_id": 176,
+  "lo": "LO 8-7",
+  "chapter": 8,
+  "title": "Describe receivables disclosures and ratio analyses",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-7",
+      "concept": "Initial recognition of credit sales and collections; subsequent measurement schedules (AR and AFDA rollforwards for disclosure); period-end CECL provision JE; write-off and recovery settlement JEs; required gross/net AR and allowance-activity disclosures; AR turnover and average days to collect with year-over-year analysis",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-7",
+      "concept": "Number-variant twin: full AR/AFDA subsequent measurement schedules; initial sales/collections JEs; period-end provision; write-off and recovery settlements; allowance-activity disclosure; AR turnover and days to collect with comparative analysis",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-7",
+      "concept": "Period-end adjusting JE and AFDA subsequent measurement/disclosure schedule; concentration of credit risk and collateral disclosures; settlement write-off and recovery; comparative AR turnover and days analysis; effect of higher provisions on ratio interpretation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-7",
+      "concept": "Classification of required receivables disclosures and correct interpretation of accounts receivable turnover",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

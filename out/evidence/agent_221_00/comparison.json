@@ -1,0 +1,122 @@
+{
+ "id": "agent_221#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 16,
+  "routed_stage2": 7,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "g: Year-2 balance-sheet presentation of goodwill vs. other intangibles",
+   "solver": "Goodwill is presented as a separate line item in the balance sheet, apart from all other intangible assets (ASC 350-20-45-1): Goodwill $192,000. The other intan"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Property, Plant, and Equipment"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Brand Name"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Customer Relationships"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Acquired In-Process Research and Development"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Long-Term Debt"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Cash (consideration paid)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Customer Relationships"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Customer Relationships"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Sale of Intangible Asset"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Brand Name"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 90000.0,
+   "solver": "brand name",
+   "key_options": [
+    "brand name indefinite life"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 48000.0,
+   "solver": "customer relationships",
+   "key_options": [
+    "customer relationships finite life"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 65000.0,
+   "solver": "acquired in process research and development",
+   "key_options": [
+    "acquired in process research and development indefinite until complete"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 875000.0,
+   "solver": "cash consideration paid",
+   "key_options": [
+    "cash"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 8000.0,
+   "solver": "amortization expense",
+   "key_options": [
+    "amortization expense customer relationships"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 8000.0,
+   "solver": "customer relationships",
+   "key_options": [
+    "accumulated amortization customer relationships"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 12000.0,
+   "solver": "loss on sale of intangible asset",
+   "key_options": [
+    "loss on disposal of brand name"
+   ]
+  }
+ ]
+}

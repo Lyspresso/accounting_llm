@@ -1,0 +1,74 @@
+{
+  "agent_id": 283,
+  "lo": "LO 17-12",
+  "chapter": 17,
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "title": "Describe the difference in accounting for a sale-leaseback versus a failed sale",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-12",
+      "concept": "Contrast recognized sale-leaseback (operating leaseback) with failed sale (finance leaseback): control/classification, initial recognition, liability schedules, period-end adjusting JEs, BS presentation, and end-of-term settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-12",
+      "concept": "Number-variant twin of Q1: recompute classification, gain, PV, initial JEs, first-year schedules, and period-end JEs for sale-leaseback vs failed sale",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-12",
+      "concept": "Recognized sale-leaseback with payments in advance: initial sale + ROU/liability + first payment; pure period-end adjusting JE (no cash) each December 31; settlement when ROU/liability reach zero",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-12",
+      "concept": "Classification of transfer as sale-leaseback vs failed sale based on leaseback type (operating vs finance)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 17-12",
+      "concept": "Identify which period-end accounts appear under failed sale versus recognized sale-leaseback",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

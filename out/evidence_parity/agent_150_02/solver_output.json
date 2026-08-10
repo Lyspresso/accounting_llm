@@ -1,0 +1,113 @@
+{
+ "id": "agent_150#02",
+ "rounding_convention": "decimal.Decimal throughout; PV factors carried at 28 significant digits with no intermediate rounding; each monetary result rounded once to the cent (and each percentage to 0.01%) using ROUND_HALF_UP.",
+ "answers": [
+  {
+   "label": "a: Case A \u2014 does the CloudRail contract contain a lease?",
+   "value": "No \u2014 it is a service contract, not a lease. There is no identified asset: CloudRail has a SUBSTANTIVE substitution right (it has the practical ability to swap in any of many identical servers and it routinely does so for its own economic benefit / cost savings, and Redrock cannot prevent substitution). Because no asset is identified, Redrock cannot obtain the right to direct the use of, or substantially all the economic benefits from, a specified asset \u2014 it buys only a level of processing capacity. Fails the ASC 842-10-15 control test, so the 3-year arrangement is expensed as a service as capacity is consumed."
+  },
+  {
+   "label": "b: Option 1 \u2014 PV factor, ordinary annuity, 6 yrs @ 6% (IBR)",
+   "value": "4.917324"
+  },
+  {
+   "label": "b: Option 1 \u2014 PV of lease payments ($40,000 x factor)",
+   "value": "196692.97"
+  },
+  {
+   "label": "b: Option 1 \u2014 PV as % of fair value $250,000 (90% test)",
+   "value": "78.68% \u2014 FAILS"
+  },
+  {
+   "label": "b: Option 1 \u2014 lease term as % of 10-yr economic life (75% test)",
+   "value": "60.00% \u2014 FAILS"
+  },
+  {
+   "label": "b: Option 1 \u2014 classification",
+   "value": "OPERATING \u2014 no transfer of ownership, no purchase option, term 60% < 75%, PV 78.68% < 90%, asset is not specialized (no alternative-use restriction). All five criteria fail."
+  },
+  {
+   "label": "b: Option 2 \u2014 lease term as % of 10-yr economic life (75% test)",
+   "value": "80.00% \u2014 MET"
+  },
+  {
+   "label": "b: Option 2 \u2014 PV factor, ordinary annuity, 8 yrs @ 6% (IBR)",
+   "value": "6.209794"
+  },
+  {
+   "label": "b: Option 2 \u2014 PV of lease payments ($40,000 x factor)",
+   "value": "248391.75"
+  },
+  {
+   "label": "b: Option 2 \u2014 PV as % of fair value $250,000 (90% test)",
+   "value": "99.36% \u2014 MET"
+  },
+  {
+   "label": "b: Option 2 \u2014 classification",
+   "value": "FINANCE \u2014 the 8-year term is 80% of the 10-year economic life (major part, >= 75%), and the PV of payments is 99.36% of fair value (substantially all, >= 90%). Meeting even one criterion is sufficient; two are met."
+  },
+  {
+   "label": "b: Option 3 \u2014 PV factor, ordinary annuity, 6 yrs @ 5.5% (implicit rate, known)",
+   "value": "4.995530"
+  },
+  {
+   "label": "b: Option 3 \u2014 PV of six $42,000 payments",
+   "value": "209812.27"
+  },
+  {
+   "label": "b: Option 3 \u2014 PV of $15,000 purchase-option price (single sum, 6 yrs @ 5.5%)",
+   "value": "10878.69"
+  },
+  {
+   "label": "b: Option 3 \u2014 total PV of lease payments (payments + option price)",
+   "value": "220690.96"
+  },
+  {
+   "label": "b: Option 3 \u2014 PV as % of fair value $250,000 (90% test)",
+   "value": "88.28% \u2014 FAILS"
+  },
+  {
+   "label": "b: Option 3 \u2014 lease term as % of 10-yr economic life (75% test)",
+   "value": "60.00% \u2014 FAILS"
+  },
+  {
+   "label": "b: Option 3 \u2014 classification",
+   "value": "FINANCE \u2014 the $15,000 option is far below the $55,000 expected fair value and Redrock is reasonably certain to exercise it, so the purchase-option criterion is met and classification is finance regardless of the other tests (term 60% and PV 88.28% both fail). The exercise price is included in the lease payments and the ROU asset is amortized over the 10-year ECONOMIC LIFE, not the 6-year term, because ownership is expected to transfer."
+  },
+  {
+   "label": "b: Option 4 \u2014 PV factor, annuity DUE, 6 yrs @ 6% (IBR)",
+   "value": "5.212364"
+  },
+  {
+   "label": "b: Option 4 \u2014 PV of lease payments ($45,000 x factor)",
+   "value": "234556.37"
+  },
+  {
+   "label": "b: Option 4 \u2014 PV as % of fair value $250,000 (90% test)",
+   "value": "93.82% \u2014 MET"
+  },
+  {
+   "label": "b: Option 4 \u2014 lease term as % of 10-yr economic life (75% test)",
+   "value": "60.00% \u2014 FAILS"
+  },
+  {
+   "label": "b: Option 4 \u2014 classification",
+   "value": "FINANCE \u2014 the 90% test is met: PV of the beginning-of-year payments is $234,556.37, or 93.82% of the $250,000 fair value (substantially all). The larger payment plus the annuity-due timing is what pushes it over, even though the term is only 60% of economic life and there is no ownership transfer or purchase option."
+  },
+  {
+   "label": "c: Case C \u2014 finance lease, Year 1 income statement (Option 2)",
+   "value": "TWO expense lines, and total expense is FRONT-LOADED. (1) Amortization of the right-of-use asset, straight-line over the 8-year lease term, reported with operating/amortization expense; (2) Interest expense on the lease liability, computed by the effective-interest method on the declining liability balance and reported with interest/finance costs. Because interest is highest in Year 1 and declines, total Year 1 expense exceeds the cash payment and exceeds the straight-line amount; cash outflows split into operating (interest) and financing (principal) on the cash flow statement."
+  },
+  {
+   "label": "c: Case C \u2014 operating lease, Year 1 income statement (warehouse)",
+   "value": "ONE expense line: a single straight-line 'lease expense' equal to total lease payments divided by the lease term, reported entirely in operating expenses \u2014 no separate interest or amortization is shown. The amount is the SAME every year. Interest is still accreted on the liability internally, but ROU-asset amortization is the plug that forces the total to the straight-line amount, and the entire cash outflow is operating."
+  },
+  {
+   "label": "c: Case C \u2014 the contrast in one sentence",
+   "value": "Same total expense over the life of the lease, but the finance lease reports it as amortization plus interest on a decreasing pattern (more expense early, less late) while the operating lease reports one level amount each year \u2014 so early-year net income and operating income differ even though the cash paid is identical."
+  }
+ ],
+ "journal_entries": [],
+ "insufficient_info": false,
+ "notes": "Five criteria applied to every option: (1) ownership transfer, (2) purchase option reasonably certain of exercise, (3) term = major part (75%) of remaining economic life, (4) PV of lease payments + any residual value guarantee = substantially all (90%) of fair value, (5) specialized asset with no alternative use. Options 1, 3 and 4 use the 6-year term = 60% of the 10-year life; none of the four is a specialized asset and none transfers ownership outright. Option 3 uses the known 5.5% implicit rate (a lessee must use the rate implicit in the lease when it is readily determinable); Options 1, 2 and 4 use the 6% incremental borrowing rate. Option 4's payments are an annuity due, so the ordinary-annuity factor is multiplied by 1.06."
+}

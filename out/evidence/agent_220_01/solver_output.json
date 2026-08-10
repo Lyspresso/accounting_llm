@@ -1,0 +1,123 @@
+{
+  "id": "agent_220#01",
+  "rounding_convention": "decimal.Decimal only; ROUND_HALF_UP quantized to the cent per period (round-per-period, not round-at-end); change in useful life applied prospectively; no PV factors required",
+  "answers": [
+    {
+      "label": "b: carrying amount January 1, Year 5 before the revision",
+      "value": 90000
+    },
+    {
+      "label": "c: Year 1 amortization expense",
+      "value": 15000
+    },
+    {
+      "label": "c: Year 1 ending carrying amount",
+      "value": 135000
+    },
+    {
+      "label": "c: Year 2 amortization expense",
+      "value": 15000
+    },
+    {
+      "label": "c: Year 2 ending carrying amount",
+      "value": 120000
+    },
+    {
+      "label": "c: Year 3 amortization expense",
+      "value": 15000
+    },
+    {
+      "label": "c: Year 3 ending carrying amount",
+      "value": 105000
+    },
+    {
+      "label": "c: Year 4 amortization expense",
+      "value": 15000
+    },
+    {
+      "label": "c: Year 4 ending carrying amount",
+      "value": 90000
+    },
+    {
+      "label": "c: Year 5 amortization expense",
+      "value": 22500
+    },
+    {
+      "label": "c: Year 5 ending carrying amount",
+      "value": 67500
+    },
+    {
+      "label": "c: Year 6 amortization expense",
+      "value": 22500
+    },
+    {
+      "label": "c: Year 6 ending carrying amount",
+      "value": 45000
+    },
+    {
+      "label": "f: total amortization expense recognized Years 1-6",
+      "value": 105000
+    },
+    {
+      "label": "f: reconciliation - cost less disposal carrying amount removed",
+      "value": 105000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "January 1, Year 1 - initial recognition of purchased license",
+      "lines": [
+        {
+          "account": "License",
+          "debit": 150000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 150000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "December 31, Year 5 - amortization under the revised estimate",
+      "lines": [
+        {
+          "account": "Amortization Expense",
+          "debit": 22500,
+          "credit": 0
+        },
+        {
+          "account": "License",
+          "debit": 0,
+          "credit": 22500
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "January 1, Year 7 - sale of license for cash",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 40000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Disposal of License",
+          "debit": 5000,
+          "credit": 0
+        },
+        {
+          "account": "License",
+          "debit": 0,
+          "credit": 45000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Years 1-4 amortize 150,000/10 = 15,000 per year, so the January 1, Year 5 carrying amount is 90,000. The estimate change is prospective: 90,000 over the 4 remaining years = 22,500 per year for Years 5-8. After Year-6 amortization the carrying amount is 45,000, so the 40,000 sale on January 1, Year 7 produces a 5,000 loss. Total amortization Years 1-6 = 105,000, which ties to cost 150,000 less the 45,000 carrying amount removed. License is credited directly, so no accumulated amortization account appears in any entry."
+}

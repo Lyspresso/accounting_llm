@@ -1,0 +1,70 @@
+{
+  "agent_id": 44,
+  "lo": "LO 8-6",
+  "chapter": 8,
+  "critical": false,
+  "title": "Account for the sale of receivables and use as collateral for borrowing",
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-6",
+      "concept": "Initial recognition of secured borrowing; subsequent interest and remittance schedule; settlement of note payable",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-6",
+      "concept": "Number-variant twin — initial recognition of secured borrowing; monthly interest; full settlement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-6",
+      "concept": "Sale of receivables without and with recourse (initial JEs); settlement of holdback and recourse; discounting a note receivable",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-6",
+      "concept": "Classification of a receivables arrangement as a sale vs secured borrowing",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 8-6",
+      "concept": "Classification / presentation when receivables secure borrowing vs when sold",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

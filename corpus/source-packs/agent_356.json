@@ -1,0 +1,68 @@
+{
+  "agent_id": 356,
+  "lo": "LO 15-1",
+  "chapter": 15,
+  "critical": false,
+  "title": "Record accounts payable and sales taxes payable",
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-1",
+      "concept": "Period-end adjusting JE (emphasis) — reclassify embedded sales taxes from Sales; initial recognition of AP (gross method + freight); settlement within discount; remittance of sales taxes; subsequent measurement schedules",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-1",
+      "concept": "Number-variant twin — period-end adjusting JE for embedded sales taxes; AP initial recognition with freight; discount settlement; remittance; liability rollforwards",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-1",
+      "concept": "Initial recognition of sales taxes at point of sale (contrast to period-end method); multi-period subsequent measurement schedule for AP and STP; AP settlement with and without discount; remittance settlement",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-1",
+      "concept": "Classification / presentation — current liability nature; agency role for sales taxes; face measurement of short-term trade AP",
+      "type": "MC",
+      "ok": true,
+      "angles": ["classification_presentation_or_disclosure"]
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 15-1",
+      "concept": "Classification of method — period-end adjusting entry when sales taxes were not isolated at the point of sale",
+      "type": "MC",
+      "ok": true,
+      "angles": ["classification_presentation_or_disclosure", "period_end_adjusting_JE"]
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

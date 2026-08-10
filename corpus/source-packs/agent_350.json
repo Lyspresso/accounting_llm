@@ -1,0 +1,88 @@
+{
+  "agent_id": 350,
+  "lo": "LO 13-3",
+  "chapter": 13,
+  "title": "Account for impairment and derecognition of finite life intangible assets",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-3",
+      "concept": "Initial recognition of finite-life patent; subsequent measurement schedule; period-end adjusting JEs for amortization and two-step impairment; post-impairment amortization on new cost basis",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-3",
+      "concept": "Number-variant twin — initial recognition; subsequent measurement schedule; period-end amortization and impairment AJs; post-impairment amortization",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-3",
+      "concept": "Period-end impairment testing on two finite-life intangibles (one fails recoverability, one passes); amortize to disposal date and record sale gain/loss",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-3",
+      "concept": "Distinguish recoverability test (undiscounted cash flows) from impairment measurement (fair value)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 13-3",
+      "concept": "After impairment, adjusted carrying amount is the new accounting basis; subsequent reversal of impairment is prohibited",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "QL",
+      "lo": "LO 13-3",
+      "concept": "Full finite-life intangible life cycle with period-end AJs, impairment, revised schedule, and mid-year derecognition",
+      "type": "schedule",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "ok": true
+}

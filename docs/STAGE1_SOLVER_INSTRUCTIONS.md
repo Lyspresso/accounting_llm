@@ -32,13 +32,9 @@ divergence propagates through every downstream figure.
   **full fair value**, credit **Cash** for costs actually paid (legal, title,
   transfer), and credit **Contribution Revenue NET of those costs** (fair value
   − costs paid). Do **not** capitalize the costs into the asset, and do **not**
-  include them in the depreciable base. The chapter's own demonstration and its
-  paired review problem agree: the incidental cost is absent from the
-  depreciable base.
-
-  *(The worked example's figures are redacted here — this repository is public
-  and those amounts are textbook content. The rule above is what the solver
-  needs; the numbers add nothing to it.)*
+  include them in the depreciable base. Demo 11-8: `Building 400,000 / Land
+  100,000 / Cash 5,000 / Contribution Revenue ($500,000 − $5,000) 495,000`;
+  Review 11-8 depreciates 375,000, so the 5,000 is absent from the base.
 
 - **Rounding in schedules.** Inside an amortization / effective-interest / ROU
   or lease-liability rollforward, this edition rounds to whole dollars in the

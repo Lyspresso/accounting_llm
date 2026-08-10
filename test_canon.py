@@ -58,7 +58,7 @@ case("period factor fires on a real unit difference",
                                       "annual depreciation"), True)
 
 
-# --- operating-lease regression golden: the two acceptable presentation forms --
+# --- Demo 17-3 regression golden: the chapter's own two acceptable forms ------
 _COMPOUND = [{"account": "Lease Expense", "side": "dr", "amount": 34972, "date": "Dec 31"},
              {"account": "Lease Liability", "side": "cr", "amount": 3251, "date": "Dec 31"},
              {"account": "Right-of-Use Asset", "side": "cr", "amount": 31721, "date": "Dec 31"}]
@@ -73,7 +73,7 @@ def _key(lines):
                   for l in canon.net_per_account(lines))
 
 
-case("operating lease: compound == two-part after net-per-account",
+case("Demo 17-3: compound == two-part after net-per-account",
      lambda: _key(_COMPOUND) == _key(_TWOPART), True)
 case("net-per-account is SCOPED to one entry/date",
      lambda: len(canon.net_per_account(

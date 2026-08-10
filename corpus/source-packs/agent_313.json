@@ -1,0 +1,73 @@
+{
+  "agent_id": 313,
+  "lo": "LO 9-4",
+  "chapter": 9,
+  "title": "Demonstrate accounting in a perpetual inventory system",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-4",
+      "concept": "Initial recognition of inventory under perpetual gross method; freight-in; discount taken; AP settlement; sale (COGS); subsequent inventory rollforward; period-end physical-count adjusting JE (emphasis)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-4",
+      "concept": "Number-variant twin—perpetual gross method purchase cycle, sale, inventory schedule, period-end shortage adjusting JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-4",
+      "concept": "Perpetual net method initial recognition; payment within terms; settlement after discount period (Interest Expense); sale; period-end overage adjusting JE; subsequent inventory schedule",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-4",
+      "concept": "Classification of purchase-discount outcomes under perpetual gross vs net methods",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 9-4",
+      "concept": "Period-end adjusting JE when perpetual books exceed physical count",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

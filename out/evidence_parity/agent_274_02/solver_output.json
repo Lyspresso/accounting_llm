@@ -1,0 +1,277 @@
+{
+ "id": "agent_274#02",
+ "rounding_convention": "decimal.Decimal throughout; PV factors at 28-digit precision; every money figure rounded to the nearest whole dollar with ROUND_HALF_UP, applied per period (interest expense = 3% x that period's rounded carrying amount); the final period plugs the residual premium so the schedule closes at face",
+ "answers": [
+  {
+   "label": "a: Issue price (PV of $7,200 annuity + $180,000 at 3% for 4 periods)",
+   "value": 186691
+  },
+  {
+   "label": "a: Premium on bonds payable at issuance",
+   "value": 6691
+  },
+  {
+   "label": "a: Cash interest per semiannual period (180,000 x 4%)",
+   "value": 7200
+  },
+  {
+   "label": "b: Period 1 (Jun 30, Yr 1) beginning carrying amount",
+   "value": 186691
+  },
+  {
+   "label": "b: Period 1 cash interest paid",
+   "value": 7200
+  },
+  {
+   "label": "b: Period 1 interest expense (3% x beginning CV)",
+   "value": 5601
+  },
+  {
+   "label": "b: Period 1 premium amortization",
+   "value": 1599
+  },
+  {
+   "label": "b: Period 1 ending carrying amount",
+   "value": 185092
+  },
+  {
+   "label": "b: Period 2 (Dec 31, Yr 1) beginning carrying amount",
+   "value": 185092
+  },
+  {
+   "label": "b: Period 2 cash interest paid",
+   "value": 7200
+  },
+  {
+   "label": "b: Period 2 interest expense",
+   "value": 5553
+  },
+  {
+   "label": "b: Period 2 premium amortization",
+   "value": 1647
+  },
+  {
+   "label": "b: Period 2 ending carrying amount",
+   "value": 183445
+  },
+  {
+   "label": "b: Period 3 (Jun 30, Yr 2) beginning carrying amount",
+   "value": 183445
+  },
+  {
+   "label": "b: Period 3 cash interest paid",
+   "value": 7200
+  },
+  {
+   "label": "b: Period 3 interest expense",
+   "value": 5503
+  },
+  {
+   "label": "b: Period 3 premium amortization",
+   "value": 1697
+  },
+  {
+   "label": "b: Period 3 ending carrying amount",
+   "value": 181748
+  },
+  {
+   "label": "b: Period 4 (Dec 31, Yr 2) beginning carrying amount",
+   "value": 181748
+  },
+  {
+   "label": "b: Period 4 cash interest paid",
+   "value": 7200
+  },
+  {
+   "label": "b: Period 4 interest expense (plug: cash - residual premium)",
+   "value": 5452
+  },
+  {
+   "label": "b: Period 4 premium amortization (residual premium plug)",
+   "value": 1748
+  },
+  {
+   "label": "b: Period 4 ending carrying amount (= face)",
+   "value": 180000
+  },
+  {
+   "label": "c: Jun 30, Yr 1 interest expense",
+   "value": 5601
+  },
+  {
+   "label": "c: Jun 30, Yr 1 premium amortization",
+   "value": 1599
+  },
+  {
+   "label": "c: Jun 30, Yr 1 cash paid",
+   "value": 7200
+  },
+  {
+   "label": "d: Aug 31, Yr 1 accrued interest expense (2/6 of period 2 expense)",
+   "value": 1851
+  },
+  {
+   "label": "d: Aug 31, Yr 1 interest payable accrued (2/6 x 7,200)",
+   "value": 2400
+  },
+  {
+   "label": "d: Aug 31, Yr 1 premium amortization (2/6 of period 2 amortization)",
+   "value": 549
+  },
+  {
+   "label": "e: Bonds payable, net (carrying amount) at Dec 31, Yr 1",
+   "value": 183445
+  },
+  {
+   "label": "e: Unamortized premium at Dec 31, Yr 1",
+   "value": 3445
+  },
+  {
+   "label": "e: Year 1 total interest expense (both semiannual periods)",
+   "value": 11154
+  },
+  {
+   "label": "f: Principal repaid at maturity Dec 31, Yr 2",
+   "value": 180000
+  },
+  {
+   "label": "g: Accrued interest collected at Apr 1 issuance (240,000 x 7% x 3/12)",
+   "value": 4200
+  },
+  {
+   "label": "g: Total cash received Apr 1, Yr 1",
+   "value": 244200
+  },
+  {
+   "label": "g: Jun 30, Yr 1 cash interest paid (240,000 x 3.5%)",
+   "value": 8400
+  },
+  {
+   "label": "g: Jun 30, Yr 1 interest expense recognized (3 months held)",
+   "value": 4200
+  },
+  {
+   "label": "h: Classification at Dec 31, Yr 1",
+   "value": "Current liability. The bonds mature Dec 31, Year 2 - within one year of the Dec 31, Year 1 balance sheet date - so the obligation is presented as current. It is shown at its net carrying amount of $183445: face $180000 of bonds payable plus the unamortized premium of $3445, with the premium reported as a direct addition to (valuation account of) bonds payable, not as a separate asset."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 186691,
+     "credit": 0
+    },
+    {
+     "account": "Bonds Payable",
+     "debit": 0,
+     "credit": 180000
+    },
+    {
+     "account": "Premium on Bonds Payable",
+     "debit": 0,
+     "credit": 6691
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 5601,
+     "credit": 0
+    },
+    {
+     "account": "Premium on Bonds Payable",
+     "debit": 1599,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 7200
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 1851,
+     "credit": 0
+    },
+    {
+     "account": "Premium on Bonds Payable",
+     "debit": 549,
+     "credit": 0
+    },
+    {
+     "account": "Interest Payable",
+     "debit": 0,
+     "credit": 2400
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "lines": [
+    {
+     "account": "Bonds Payable",
+     "debit": 180000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 180000
+    }
+   ]
+  },
+  {
+   "part": "g",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 244200,
+     "credit": 0
+    },
+    {
+     "account": "Bonds Payable",
+     "debit": 0,
+     "credit": 240000
+    },
+    {
+     "account": "Interest Payable",
+     "debit": 0,
+     "credit": 4200
+    }
+   ]
+  },
+  {
+   "part": "g",
+   "lines": [
+    {
+     "account": "Interest Payable",
+     "debit": 4200,
+     "credit": 0
+    },
+    {
+     "account": "Interest Expense",
+     "debit": 4200,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 8400
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Part A: semiannual market rate 3%, stated 4%, 4 periods; issued at a premium because market < stated. Aug 31, Year 1 interim accrual prorates the period-2 schedule row by 2/6 (July-August), so interest payable 2,400, expense 1,851, premium amortized 549; the remaining 4/6 is picked up in the Dec 31 payment entry (Dec 31 is an interest date, so full-period totals for Year 1 are unaffected). Part B: bonds dated Jan 1 but issued Apr 1 at par, so the buyer pays 3 months of accrued interest (4,200) credited to Interest Payable; the June 30 payment of 8,400 clears that 4,200 and charges only 4,200 of expense for the 3 months the bonds were outstanding."
+}

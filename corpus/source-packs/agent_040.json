@@ -1,0 +1,61 @@
+{
+  "agent_id": 40,
+  "lo": "LO 8-2",
+  "chapter": 8,
+  "title": "Account for sales and collections on account including the impact of cash discounts",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-2",
+      "concept": "Initial recognition under gross method; settlement with and without cash discount; AR rollforward; net sales presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-2",
+      "concept": "Number-variant twin of gross-method sale, early discount take, and late settlement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-2",
+      "concept": "Net-method initial recognition and settlement; year-end adjusting for expected discounts; classification of Sales Discount vs Sales Discount Forfeited",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-2",
+      "concept": "Classification of cash-discount accounts and method differences",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

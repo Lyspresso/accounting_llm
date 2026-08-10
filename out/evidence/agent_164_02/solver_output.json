@@ -1,0 +1,111 @@
+{
+  "id": "agent_164#02",
+  "rounding_convention": "decimal.Decimal throughout, ROUND_HALF_UP quantized to the cent at every money step; all stem facts are whole dollars so results are exact whole dollars. No PV factors or per-period compounding apply.",
+  "answers": [
+    {
+      "label": "a1: Payment of principal on a finance lease liability",
+      "value": "F outflow"
+    },
+    {
+      "label": "a2: Cash purchase of trading equity securities held for short-term resale profits",
+      "value": "O outflow"
+    },
+    {
+      "label": "a3: Cash proceeds from sale of those same trading securities",
+      "value": "O inflow"
+    },
+    {
+      "label": "a4: Cash purchase of available-for-sale debt securities held for long-term yield",
+      "value": "I outflow"
+    },
+    {
+      "label": "a5: Collection of principal on a short-term trade note receivable from an inventory sale",
+      "value": "O inflow"
+    },
+    {
+      "label": "a6: Collection of interest on that same trade note",
+      "value": "O inflow"
+    },
+    {
+      "label": "a7: Cash paid for early extinguishment of long-term bonds (principal and premium)",
+      "value": "F outflow"
+    },
+    {
+      "label": "a8: Cash proceeds from sale of a patent",
+      "value": "I inflow"
+    },
+    {
+      "label": "a9: Cash received from issuance of a short-term nontrade note payable for general financing",
+      "value": "F inflow"
+    },
+    {
+      "label": "a10: Payment of a cash dividend declared in the prior year",
+      "value": "F outflow"
+    },
+    {
+      "label": "b: ending cash total on the SCF reconciliation (cash + cash equivalents + restricted cash)",
+      "value": 65000
+    },
+    {
+      "label": "b: beginning cash",
+      "value": 60000
+    },
+    {
+      "label": "c: SCF section for the patent sale proceeds",
+      "value": "Investing inflow 22500 (gain 4500 deducted from net income in operating)"
+    },
+    {
+      "label": "c: SCF section for the finance-lease principal payment",
+      "value": "Financing outflow 9000"
+    },
+    {
+      "label": "d: true/false with correction",
+      "value": "False. ASC 230-10-45-26 requires investing (and financing) cash inflows and outflows to be reported separately on a GROSS basis: cash paid to purchase equipment must be shown apart from cash received from selling equipment; they may not be netted to simplify the statement. The only exception (ASC 230-10-45-8/45-9) permits net reporting for investments other than cash equivalents, loans receivable, and debt whose ORIGINAL MATURITY is three months or less (e.g., a revolving line of credit) \u2014 which never covers equipment purchases and sales."
+    },
+    {
+      "label": "e: required section order on the face of the SCF",
+      "value": "1) Cash flows from operating activities; 2) Cash flows from investing activities; 3) Cash flows from financing activities; = Net change in cash, cash equivalents, and restricted cash for the period; + Cash, cash equivalents, and restricted cash at the beginning of the period; = Cash, cash equivalents, and restricted cash at the end of the period."
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "c",
+      "description": "Sale of patent (book value 18,000) for 22,500 cash \u2014 SCF: Investing inflow 22,500; the 4,500 gain is deducted from net income in the operating section under the indirect method",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 22500,
+          "credit": 0
+        },
+        {
+          "account": "Patent",
+          "debit": 0,
+          "credit": 18000
+        },
+        {
+          "account": "Gain on Sale of Patent",
+          "debit": 0,
+          "credit": 4500
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "Cash principal payment on finance lease liability \u2014 SCF: Financing outflow 9,000 (interest paid is operating)",
+      "lines": [
+        {
+          "account": "Lease Liability",
+          "debit": 9000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 9000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part A rules: trading securities follow purpose of acquisition (operating, items 2-3); non-trading AFS investment purchase is investing (4); trade-note principal and interest are both operating (5-6) because only NONTRADE loan collections are investing; patent proceeds are investing (8); finance-lease principal, bond extinguishment, nontrade note issuance, and dividends paid are all financing (1, 7, 9, 10). Part B includes restricted cash per ASC 230-10-45-24 and excludes the 22,000 AFS equity investments, which are not cash equivalents."
+}

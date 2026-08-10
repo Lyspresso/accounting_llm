@@ -1,0 +1,545 @@
+{
+ "id": "agent_043#00",
+ "rounding_convention": "decimal.Decimal throughout; PVs at full precision (getcontext().prec=28); all journal-entry and schedule amounts rounded to whole dollars with ROUND_HALF_UP applied per period (interest rounded independently each period, then added to carrying amount, so rounding never compounds). Interim (Dec 31) amounts split each note-year's rounded annual interest straight-line 6/12, first half rounded ROUND_HALF_UP and second half taken as the remainder. The schedule closes exactly to face $15,000 and zero unamortized discount with no forced final-row plug.",
+ "answers": [
+  {
+   "label": "a: Discount factor (1.10)^3",
+   "value": "1.331000"
+  },
+  {
+   "label": "a: PV of $15,000 face at 10% for 3 years, full precision",
+   "value": "11269.72"
+  },
+  {
+   "label": "a: Initial carrying amount = fair value of inventory = PV of note (recorded)",
+   "value": 11269
+  },
+  {
+   "label": "a: Face (stated) value of note",
+   "value": 15000
+  },
+  {
+   "label": "a: Initial Discount on Notes Receivable = 15,000 - 11,269",
+   "value": 3731
+  },
+  {
+   "label": "a: Stated cash interest per year (0% x 15,000)",
+   "value": 0
+  },
+  {
+   "label": "a: Sales Revenue recognized June 30, Year 1",
+   "value": 11269
+  },
+  {
+   "label": "a: Effective rate check, (15,000/11,269)^(1/3) - 1, percent",
+   "value": "10.00"
+  },
+  {
+   "label": "a: PV equals stated fair value of inventory (stem assertion verified)",
+   "value": true
+  },
+  {
+   "label": "a: JE June 30 Yr 1 -- Dr Notes Receivable",
+   "value": 15000
+  },
+  {
+   "label": "a: JE June 30 Yr 1 -- Cr Discount on Notes Receivable",
+   "value": 3731
+  },
+  {
+   "label": "a: JE June 30 Yr 1 -- Cr Sales Revenue",
+   "value": 11269
+  },
+  {
+   "label": "b: Schedule rounding -- closes exactly to face $15,000 with no forced final-row plug",
+   "value": true
+  },
+  {
+   "label": "b: Row 1 (June 30, Year 2) -- beginning carrying amount",
+   "value": 11269
+  },
+  {
+   "label": "b: Row 1 (June 30, Year 2) -- cash interest received (0%)",
+   "value": 0
+  },
+  {
+   "label": "b: Row 1 (June 30, Year 2) -- interest revenue at 10% effective",
+   "value": 1127
+  },
+  {
+   "label": "b: Row 1 (June 30, Year 2) -- discount amortization",
+   "value": 1127
+  },
+  {
+   "label": "b: Row 1 (June 30, Year 2) -- unamortized discount balance, end",
+   "value": 2604
+  },
+  {
+   "label": "b: Row 1 (June 30, Year 2) -- ending carrying amount",
+   "value": 12396
+  },
+  {
+   "label": "b: Row 2 (June 30, Year 3) -- beginning carrying amount",
+   "value": 12396
+  },
+  {
+   "label": "b: Row 2 (June 30, Year 3) -- cash interest received (0%)",
+   "value": 0
+  },
+  {
+   "label": "b: Row 2 (June 30, Year 3) -- interest revenue at 10% effective",
+   "value": 1240
+  },
+  {
+   "label": "b: Row 2 (June 30, Year 3) -- discount amortization",
+   "value": 1240
+  },
+  {
+   "label": "b: Row 2 (June 30, Year 3) -- unamortized discount balance, end",
+   "value": 1364
+  },
+  {
+   "label": "b: Row 2 (June 30, Year 3) -- ending carrying amount",
+   "value": 13636
+  },
+  {
+   "label": "b: Row 3 (June 30, Year 4) -- beginning carrying amount",
+   "value": 13636
+  },
+  {
+   "label": "b: Row 3 (June 30, Year 4) -- cash interest received (0%)",
+   "value": 0
+  },
+  {
+   "label": "b: Row 3 (June 30, Year 4) -- interest revenue at 10% effective",
+   "value": 1364
+  },
+  {
+   "label": "b: Row 3 (June 30, Year 4) -- discount amortization",
+   "value": 1364
+  },
+  {
+   "label": "b: Row 3 (June 30, Year 4) -- unamortized discount balance, end",
+   "value": 0
+  },
+  {
+   "label": "b: Row 3 (June 30, Year 4) -- ending carrying amount",
+   "value": 15000
+  },
+  {
+   "label": "b: Total cash interest received over 3 years",
+   "value": 0
+  },
+  {
+   "label": "b: Total interest revenue over 3 years",
+   "value": 3731
+  },
+  {
+   "label": "b: Total discount amortized over 3 years",
+   "value": 3731
+  },
+  {
+   "label": "b: Total interest revenue equals initial discount",
+   "value": true
+  },
+  {
+   "label": "b: Final carrying amount at maturity equals face",
+   "value": 15000
+  },
+  {
+   "label": "c: JE June 30 Yr 2 -- Dr Discount on Notes Receivable",
+   "value": 1127
+  },
+  {
+   "label": "c: JE June 30 Yr 2 -- Cr Interest Revenue",
+   "value": 1127
+  },
+  {
+   "label": "c: Carrying amount after June 30 Yr 2 accrual",
+   "value": 12396
+  },
+  {
+   "label": "c: JE June 30 Yr 3 -- Dr Discount on Notes Receivable",
+   "value": 1240
+  },
+  {
+   "label": "c: JE June 30 Yr 3 -- Cr Interest Revenue",
+   "value": 1240
+  },
+  {
+   "label": "c: Carrying amount after June 30 Yr 3 accrual",
+   "value": 13636
+  },
+  {
+   "label": "c: JE June 30 Yr 4 -- Dr Discount on Notes Receivable",
+   "value": 1364
+  },
+  {
+   "label": "c: JE June 30 Yr 4 -- Cr Interest Revenue",
+   "value": 1364
+  },
+  {
+   "label": "c: Carrying amount after June 30 Yr 4 accrual (= face)",
+   "value": 15000
+  },
+  {
+   "label": "c: JE June 30 Yr 4 settlement -- Dr Cash",
+   "value": 15000
+  },
+  {
+   "label": "c: JE June 30 Yr 4 settlement -- Cr Notes Receivable",
+   "value": 15000
+  },
+  {
+   "label": "c: No Interest Receivable is recorded (0% stated rate, no cash interest)",
+   "value": true
+  },
+  {
+   "label": "d: Interim allocation basis -- each note-year's interest split straight-line 6/12 within the note-year",
+   "value": true
+  },
+  {
+   "label": "d: Note-year 1 interest 1127 -- Jul 1 to Dec 31 portion (6 months)",
+   "value": 564
+  },
+  {
+   "label": "d: Note-year 1 interest 1127 -- Jan 1 to Jun 30 portion (6 months)",
+   "value": 563
+  },
+  {
+   "label": "d: Note-year 2 interest 1240 -- Jul 1 to Dec 31 portion (6 months)",
+   "value": 620
+  },
+  {
+   "label": "d: Note-year 2 interest 1240 -- Jan 1 to Jun 30 portion (6 months)",
+   "value": 620
+  },
+  {
+   "label": "d: Note-year 3 interest 1364 -- Jul 1 to Dec 31 portion (6 months)",
+   "value": 682
+  },
+  {
+   "label": "d: Note-year 3 interest 1364 -- Jan 1 to Jun 30 portion (6 months)",
+   "value": 682
+  },
+  {
+   "label": "d: December 31, Year 1 -- months accrued",
+   "value": 6
+  },
+  {
+   "label": "d: December 31, Year 1 -- interest revenue (Cr) = discount amortization (Dr)",
+   "value": 564
+  },
+  {
+   "label": "d: December 31, Year 1 -- unamortized discount after accrual",
+   "value": 3167
+  },
+  {
+   "label": "d: December 31, Year 1 -- carrying amount after accrual",
+   "value": 11833
+  },
+  {
+   "label": "d: December 31, Year 2 -- months accrued",
+   "value": 12
+  },
+  {
+   "label": "d: December 31, Year 2 -- interest revenue (Cr) = discount amortization (Dr)",
+   "value": 1183
+  },
+  {
+   "label": "d: December 31, Year 2 -- unamortized discount after accrual",
+   "value": 1984
+  },
+  {
+   "label": "d: December 31, Year 2 -- carrying amount after accrual",
+   "value": 13016
+  },
+  {
+   "label": "d: December 31, Year 3 -- months accrued",
+   "value": 12
+  },
+  {
+   "label": "d: December 31, Year 3 -- interest revenue (Cr) = discount amortization (Dr)",
+   "value": 1302
+  },
+  {
+   "label": "d: December 31, Year 3 -- unamortized discount after accrual",
+   "value": 682
+  },
+  {
+   "label": "d: December 31, Year 3 -- carrying amount after accrual",
+   "value": 14318
+  },
+  {
+   "label": "d: June 30, Year 4 -- months accrued",
+   "value": 6
+  },
+  {
+   "label": "d: June 30, Year 4 -- interest revenue (Cr) = discount amortization (Dr)",
+   "value": 682
+  },
+  {
+   "label": "d: June 30, Year 4 -- unamortized discount after accrual",
+   "value": 0
+  },
+  {
+   "label": "d: June 30, Year 4 -- carrying amount after accrual",
+   "value": 15000
+  },
+  {
+   "label": "d: Sum of the four interim interest accruals",
+   "value": 3731
+  },
+  {
+   "label": "d: Original discount for comparison",
+   "value": 3731
+  },
+  {
+   "label": "d: Total interest revenue equals original discount (verified)",
+   "value": true
+  },
+  {
+   "label": "d: Carrying amount at June 30 Yr 4 before collection (= face)",
+   "value": 15000
+  },
+  {
+   "label": "d: JE June 30 Yr 4 settlement -- Dr Cash",
+   "value": 15000
+  },
+  {
+   "label": "d: JE June 30 Yr 4 settlement -- Cr Notes Receivable",
+   "value": 15000
+  },
+  {
+   "label": "d: Initial recognition entry unchanged from part (a)",
+   "value": true
+  },
+  {
+   "label": "e: Notes Receivable, face, December 31 Year 1",
+   "value": 15000
+  },
+  {
+   "label": "e: Less unamortized Discount on Notes Receivable, December 31 Year 1",
+   "value": 3167
+  },
+  {
+   "label": "e: Net carrying amount presented, December 31 Year 1",
+   "value": 11833
+  },
+  {
+   "label": "e: Months from December 31 Year 1 to maturity June 30 Year 4",
+   "value": 30
+  },
+  {
+   "label": "e: Balance sheet classification at December 31 Year 1",
+   "value": "noncurrent"
+  },
+  {
+   "label": "e: Current portion at December 31 Year 1",
+   "value": 0
+  },
+  {
+   "label": "e: All journal entries balance (Dr = Cr)",
+   "value": true
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "date": "June 30, Year 1",
+   "description": "Receipt of 3-year noninterest-bearing note for inventory sold (PV at 10%)",
+   "lines": [
+    {
+     "account": "Notes Receivable",
+     "debit": 15000,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 0,
+     "credit": 3731
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0,
+     "credit": 11269
+    }
+   ],
+   "total_debits": 15000,
+   "total_credits": 15000
+  },
+  {
+   "part": "c",
+   "date": "June 30, Year 2",
+   "description": "Interest accrual, note-year 1: 10% x 11269 carrying amount (no cash interest received)",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 1127,
+     "credit": 0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 1127
+    }
+   ],
+   "total_debits": 1127,
+   "total_credits": 1127
+  },
+  {
+   "part": "c",
+   "date": "June 30, Year 3",
+   "description": "Interest accrual, note-year 2: 10% x 12396 carrying amount (no cash interest received)",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 1240,
+     "credit": 0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 1240
+    }
+   ],
+   "total_debits": 1240,
+   "total_credits": 1240
+  },
+  {
+   "part": "c",
+   "date": "June 30, Year 4",
+   "description": "Interest accrual, note-year 3: 10% x 13636 carrying amount (no cash interest received)",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 1364,
+     "credit": 0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 1364
+    }
+   ],
+   "total_debits": 1364,
+   "total_credits": 1364
+  },
+  {
+   "part": "c",
+   "date": "June 30, Year 4",
+   "description": "Collection of note face value at maturity (discount fully amortized)",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 15000,
+     "credit": 0
+    },
+    {
+     "account": "Notes Receivable",
+     "debit": 0,
+     "credit": 15000
+    }
+   ],
+   "total_debits": 15000,
+   "total_credits": 15000
+  },
+  {
+   "part": "d",
+   "date": "December 31, Year 1",
+   "description": "Interest accrual (6 months): 6/12 of note-year 1 interest 564",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 564,
+     "credit": 0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 564
+    }
+   ],
+   "total_debits": 564,
+   "total_credits": 564
+  },
+  {
+   "part": "d",
+   "date": "December 31, Year 2",
+   "description": "Interest accrual (12 months): 6/12 of note-year 1 interest 563 + 6/12 of note-year 2 interest 620",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 1183,
+     "credit": 0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 1183
+    }
+   ],
+   "total_debits": 1183,
+   "total_credits": 1183
+  },
+  {
+   "part": "d",
+   "date": "December 31, Year 3",
+   "description": "Interest accrual (12 months): 6/12 of note-year 2 interest 620 + 6/12 of note-year 3 interest 682",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 1302,
+     "credit": 0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 1302
+    }
+   ],
+   "total_debits": 1302,
+   "total_credits": 1302
+  },
+  {
+   "part": "d",
+   "date": "June 30, Year 4",
+   "description": "Interest accrual (6 months): 6/12 of note-year 3 interest 682",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 682,
+     "credit": 0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 682
+    }
+   ],
+   "total_debits": 682,
+   "total_credits": 682
+  },
+  {
+   "part": "d",
+   "date": "June 30, Year 4",
+   "description": "Collection of note face value at maturity (unchanged from part c)",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 15000,
+     "credit": 0
+    },
+    {
+     "account": "Notes Receivable",
+     "debit": 0,
+     "credit": 15000
+    }
+   ],
+   "total_debits": 15000,
+   "total_credits": 15000
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Independent cold derivation. Full-precision PV = 15,000/1.10^3 = 11,269.72; the stem states the inventory's clearly determinable fair value as $11,269, so $11,269 is the initial carrying amount and the discount is 15,000 - 11,269 = 3,731. Whole-dollar journal entries with full-precision PV, ROUND_HALF_UP per period. The schedule closes EXACTLY to face 15,000 / zero discount with no forced plug (1,127 + 1,240 + 1,364 = 3,731), which corroborates 11,269 as the intended basis: starting instead at a half-up 11,270 would overshoot face by $1 and require a plug. Because the stated rate is 0% there is no cash interest and no Interest Receivable; every accrual is Dr Discount on Notes Receivable / Cr Interest Revenue, and the note's carrying amount is presented net of the unamortized discount (a valuation account). Part (d) allocates each note-year's rounded annual interest straight-line 6/12 inside the note-year: Dec 31 Yr 1 = 564; Dec 31 Yr 2 = 563 + 620 = 1,183; Dec 31 Yr 3 = 620 + 682 = 1,302; Jun 30 Yr 4 = 682; total 3,731 = original discount. At Dec 31 Yr 1 maturity is 30 months away, so the note is noncurrent: 15,000 face less 3,167 unamortized discount = 11,833 net, no current portion. Discount amortization equals interest revenue in every period because cash interest is zero."
+}

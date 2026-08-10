@@ -1,0 +1,79 @@
+{
+  "agent_id": 382,
+  "lo": "LO 20-6",
+  "chapter": 20,
+  "title": "Compute EPS using if-converted method for convertible securities",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-6",
+      "concept": "Period-end adjusting JE for convertible-bond interest accrual (emphasis); initial recognition at par; subsequent-measurement interest schedule; basic and diluted EPS under the if-converted method (full year and mid-year issuance); conversion settlement JE after paying accrued interest; income-statement EPS presentation",
+      "type": "multipart",
+      "company": "Harborline Robotics Corp.",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-6",
+      "concept": "Number-variant twin: period-end interest accrual AJ on convertible debt; subsequent measurement interest schedule; if-converted diluted EPS reconciliation; initial recognition at par; conversion settlement after paying accrued interest; EPS presentation",
+      "type": "multipart",
+      "company": "Steelvine Industrial Products Inc.",
+      "angles": [
+        "number_variant_twin",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-6",
+      "concept": "Period-end preferred-dividend adjusting/declaration JE; if-converted diluted EPS for convertible preferred; preferred issuance and conversion settlement; diluted EPS when company has a net loss (antidilutive exclusion and disclosure); mid-year actual bond conversion and if-converted full-year dilution logic",
+      "type": "multipart",
+      "company": "Cedarpoint Logistics Group",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-6",
+      "concept": "Classification — which computational method applies to convertible securities; identifying dilutive vs antidilutive outcomes under if-converted (loss-year exclusion)",
+      "type": "MC",
+      "company": null,
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_382.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_382.json"
+}

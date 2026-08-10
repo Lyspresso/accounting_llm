@@ -1,0 +1,146 @@
+{
+  "id": "agent_052#01",
+  "rounding_convention": "decimal.Decimal only, no floats. ROUND_HALF_UP applied per transaction (per period), not deferred to the end. Moving-average unit cost recomputed after each purchase and carried at 4 decimals (ROUND_HALF_UP); each sale's cost = units x that unit cost, quantized to cents at the sale date, with the inventory balance rolled forward as prior balance minus that cost so no rounding residue accumulates. FIFO/LIFO consume whole layers, so all amounts are cent-exact. All reported figures quantized to cents ROUND_HALF_UP. No PV factors involved in this item.",
+  "answers": [
+    {
+      "label": "a1: moving average - ending inventory",
+      "value": 5700
+    },
+    {
+      "label": "a1: moving average - COGS",
+      "value": 8000
+    },
+    {
+      "label": "a2: FIFO - ending inventory",
+      "value": 6150
+    },
+    {
+      "label": "a2: FIFO - COGS",
+      "value": 7550
+    },
+    {
+      "label": "a3: LIFO - ending inventory",
+      "value": 4950
+    },
+    {
+      "label": "a3: LIFO - COGS",
+      "value": 8750
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "date": "Oct 6",
+      "lines": [
+        {
+          "account": "Inventory",
+          "debit": 3000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Payable",
+          "debit": 0,
+          "credit": 3000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Oct 18",
+      "lines": [
+        {
+          "account": "Inventory",
+          "debit": 5500,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Payable",
+          "debit": 0,
+          "credit": 5500
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Oct 30",
+      "lines": [
+        {
+          "account": "Inventory",
+          "debit": 1200,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Payable",
+          "debit": 0,
+          "credit": 1200
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "Oct 12",
+      "lines": [
+        {
+          "account": "Accounts Receivable",
+          "debit": 7200,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 7200
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "Oct 12",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 3800,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 0,
+          "credit": 3800
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "Oct 25",
+      "lines": [
+        {
+          "account": "Accounts Receivable",
+          "debit": 8550,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 8550
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "Oct 25",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 4950,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 0,
+          "credit": 4950
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "1,400 units available, 850 sold, 550 units in ending inventory under all three methods. Moving-average unit cost after each purchase: $8.75 (Oct 6), $10.00 (Oct 18), $10.3636 (Oct 30); a sale does not change the average. FIFO layers at Oct 31: 450 @ $11 + 100 @ $12. LIFO layers at Oct 31: 400 @ $8 + 50 @ $11 + 100 @ $12. Part (d) verified in code: goods available for sale less ending inventory equals COGS for moving average, FIFO and LIFO alike (assertion passes). Part (a)'s running balances/layers and part (d)'s check total are omitted from `answers` because they are schedule detail and a check figure, not reported amounts."
+}

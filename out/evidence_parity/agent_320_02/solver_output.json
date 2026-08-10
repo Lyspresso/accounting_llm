@@ -1,0 +1,191 @@
+{
+ "id": "agent_320#02",
+ "rounding_convention": "decimal.Decimal, quantized to cents (0.01) with ROUND_HALF_UP, applied per period; all amounts here are whole dollars",
+ "answers": [
+  {
+   "label": "a: Edger line -- ceiling (NRV)",
+   "value": 27000
+  },
+  {
+   "label": "a: Edger line -- floor (NRV less normal profit)",
+   "value": 24000
+  },
+  {
+   "label": "a: Edger line -- designated market",
+   "value": 24000
+  },
+  {
+   "label": "a: Edger line -- LCM carrying amount",
+   "value": 24000
+  },
+  {
+   "label": "a: Edger line -- write-down",
+   "value": 2000
+  },
+  {
+   "label": "a: Clipper line -- ceiling (NRV)",
+   "value": 62000
+  },
+  {
+   "label": "a: Clipper line -- floor (NRV less normal profit)",
+   "value": 44000
+  },
+  {
+   "label": "a: Clipper line -- designated market",
+   "value": 44000
+  },
+  {
+   "label": "a: Clipper line -- LCM carrying amount",
+   "value": 44000
+  },
+  {
+   "label": "a: Clipper line -- write-down",
+   "value": 6000
+  },
+  {
+   "label": "a: Blade Set line -- ceiling (NRV)",
+   "value": 17000
+  },
+  {
+   "label": "a: Blade Set line -- floor (NRV less normal profit)",
+   "value": 15000
+  },
+  {
+   "label": "a: Blade Set line -- designated market",
+   "value": 15000
+  },
+  {
+   "label": "a: Blade Set line -- LCM carrying amount",
+   "value": 15000
+  },
+  {
+   "label": "a: Blade Set line -- write-down",
+   "value": 500
+  },
+  {
+   "label": "a: Total LIFO cost, Dec 31 Year 1",
+   "value": 91500
+  },
+  {
+   "label": "a: Total LCM (item-by-item), Dec 31 Year 1",
+   "value": 83000
+  },
+  {
+   "label": "a: Total write-down = required allowance balance, Dec 31 Year 1",
+   "value": 8500
+  },
+  {
+   "label": "b: Year 1 period-end adjustment to the allowance (credit increase)",
+   "value": 8500
+  },
+  {
+   "label": "d: Balance sheet (both (b) and (c)) -- Inventory at LIFO cost",
+   "value": 91500
+  },
+  {
+   "label": "d: Balance sheet (both (b) and (c)) -- Less: Allowance to Reduce Inventory to Market",
+   "value": 8500
+  },
+  {
+   "label": "d: Balance sheet (both (b) and (c)) -- Inventory at LCM (net)",
+   "value": 83000
+  },
+  {
+   "label": "d: Income statement under (b) -- Cost of Goods Sold",
+   "value": 218500
+  },
+  {
+   "label": "d: Income statement under (b) -- separate holding loss reported",
+   "value": 0
+  },
+  {
+   "label": "d: Income statement under (c) -- Cost of Goods Sold",
+   "value": 210000
+  },
+  {
+   "label": "d: Income statement under (c) -- Holding Loss on Inventory (separate line, other expenses/losses)",
+   "value": 8500
+  },
+  {
+   "label": "d: Pre-tax income effect of the write-down under (b)",
+   "value": -8500
+  },
+  {
+   "label": "d: Pre-tax income effect of the write-down under (c)",
+   "value": -8500
+  },
+  {
+   "label": "e: Year 2 required allowance, Dec 31 Year 2",
+   "value": 4000
+  },
+  {
+   "label": "e: Allowance balance before the Year 2 adjustment (Year 1 credit balance)",
+   "value": 8500
+  },
+  {
+   "label": "e: Year 2 period-end adjustment (debit to allowance / reduction)",
+   "value": 4500
+  },
+  {
+   "label": "e: Year 2 balance sheet -- Inventory at LIFO cost",
+   "value": 70000
+  },
+  {
+   "label": "e: Year 2 balance sheet -- Inventory at LCM (net)",
+   "value": 66000
+  },
+  {
+   "label": "f: Why LCM rather than LCNRV",
+   "value": "Aspen Forge measures inventory using LIFO. Under ASC 330-10-35, the LCNRV rule applies only to inventory measured by FIFO or average cost; inventory measured by LIFO (or the retail inventory method) remains subject to the traditional lower-of-cost-or-market rule, where market is replacement cost bounded by a ceiling (NRV) and a floor (NRV less a normal profit margin)."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 8500,
+     "credit": 0
+    },
+    {
+     "account": "Allowance to Reduce Inventory to Market",
+     "debit": 0,
+     "credit": 8500
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Holding Loss on Inventory",
+     "debit": 8500,
+     "credit": 0
+    },
+    {
+     "account": "Allowance to Reduce Inventory to Market",
+     "debit": 0,
+     "credit": 8500
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Allowance to Reduce Inventory to Market",
+     "debit": 4500,
+     "credit": 0
+    },
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 0,
+     "credit": 4500
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Designated market = replacement cost bounded by ceiling (NRV = selling price less cost to complete & sell) and floor (NRV less normal profit margin); RC fell below the floor on all three Year 1 item lines, so the floor is designated market for each. LCM applied item by item, so no offsetting of the Clipper line's cost/market cushion. Year 1 allowance required 8,500 credit; the Year 1 layer was fully sold in Year 2, so the Year 2 entry is a true-up of the existing credit balance to the newly required 4,000, i.e. a 4,500 debit to the allowance with a credit to COGS (not a separate reversal-plus-new-write-down)."
+}

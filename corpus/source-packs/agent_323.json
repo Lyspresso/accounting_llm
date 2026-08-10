@@ -1,0 +1,65 @@
+{
+  "agent_id": 323,
+  "lo": "LO 10-5",
+  "chapter": 10,
+  "title": "Demonstrate accounting for purchase commitments",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-5",
+      "concept": "Period-end adjusting JE for estimated loss on firm purchase commitment; settlement JE when goods are acquired; commitment measurement schedule",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-5",
+      "concept": "Number-variant twin: period-end estimated-loss adjusting JE and settlement of purchase commitment",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-5",
+      "concept": "Period-end adjusting JE measured only on open units after partial delivery; no reverse for recovery; settlement of residual; cancelable vs protected commitments",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-5",
+      "concept": "Measuring estimated liability at period-end on remaining units; when period-end adjusting JE applies (recovery not recognized)",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

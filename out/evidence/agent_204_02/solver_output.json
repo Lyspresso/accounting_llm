@@ -1,0 +1,141 @@
+{
+  "id": "agent_204#02",
+  "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent applied per period (each year's depreciation rounded as computed, accumulated depreciation built from the rounded per-period amounts); no PV factors needed",
+  "answers": [
+    {
+      "label": "b: Year 1 depreciation expense",
+      "value": 21000
+    },
+    {
+      "label": "b: Year 1 year-end accumulated depreciation",
+      "value": 21000
+    },
+    {
+      "label": "b: Year 1 year-end net book value",
+      "value": 159000
+    },
+    {
+      "label": "b: Year 2 depreciation expense",
+      "value": 28000
+    },
+    {
+      "label": "b: Year 2 year-end accumulated depreciation",
+      "value": 49000
+    },
+    {
+      "label": "b: Year 2 year-end net book value",
+      "value": 131000
+    },
+    {
+      "label": "b: Year 3 depreciation expense",
+      "value": 28000
+    },
+    {
+      "label": "b: Year 3 year-end accumulated depreciation",
+      "value": 77000
+    },
+    {
+      "label": "b: Year 3 year-end net book value",
+      "value": 103000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "April 1, Year 1 -- record unconditional contribution of equipment received (asset at fair value; contribution revenue net of transfer costs paid).",
+      "lines": [
+        {
+          "account": "Equipment",
+          "debit": 180000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 3000
+        },
+        {
+          "account": "Contribution Revenue",
+          "debit": 0,
+          "credit": 177000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "December 31, Year 1 -- adjusting entry to record straight-line depreciation (partial year, 9 of 12 months held).",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 21000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation -- Equipment",
+          "debit": 0,
+          "credit": 21000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "December 31, Year 2 -- adjusting entry to record straight-line depreciation (full year).",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 28000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation -- Equipment",
+          "debit": 0,
+          "credit": 28000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "December 31, Year 3 -- adjusting entry to record straight-line depreciation (full year).",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 28000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation -- Equipment",
+          "debit": 0,
+          "credit": 28000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "December 31, Year 3 -- scrap the equipment; remove cost and accumulated depreciation, record cash from the salvage dealer and the resulting loss.",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 9500,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation -- Equipment",
+          "debit": 77000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Disposal of Equipment",
+          "debit": 93500,
+          "credit": 0
+        },
+        {
+          "account": "Equipment",
+          "debit": 0,
+          "credit": 180000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Per ASC 958-605 and textbook LO 11-8 / Demo 11-8, the recipient records the contributed asset at fair value ($180,000) and credits Contribution Revenue net of costs paid ($180,000 - $3,000 = $177,000); the $3,000 title-transfer cash is NOT capitalized. Depreciable base = $180,000 - $12,000 residual = $168,000 over 6 years = $28,000 per full year; Year 1 is 9/12 of a year (April 1 - December 31). The December 31, Year 3 scrap is recorded after Year 3 depreciation, so NBV removed is the Year 3 year-end NBV and the shortfall versus the $9,500 proceeds is a loss."
+}

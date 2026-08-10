@@ -1,0 +1,31 @@
+{
+ "id": "agent_113#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 2,
+  "routed_stage2": 1,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Retained Earnings (Unappropriated)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Retained Earnings Appropriated for Plant Expansion"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 250000.0,
+   "solver": "retained earnings appropriated for plant expansion",
+   "key_options": [
+    "appropriated retained earnings plant expansion"
+   ]
+  }
+ ]
+}

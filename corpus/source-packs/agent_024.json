@@ -1,0 +1,84 @@
+{
+  "agent_id": 24,
+  "lo": "LO 17-4",
+  "chapter": 17,
+  "title": "Account for complex finance leases for a lessee",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-4",
+      "concept": "Complex finance lease — IDC + lease incentive; measure liability and ROU; initial JEs",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-4",
+      "concept": "Complex finance lease — IDC + incentive (all numbers changed)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-4",
+      "concept": "Finance lease with residual value guarantee — classification vs measurement; settlement",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-4",
+      "concept": "Finance lease with purchase option expected to be exercised; ROU over economic life; maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 17-4",
+      "concept": "Lessee residual value guarantee — amounts in classification PV vs lease liability",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q6",
+      "lo": "LO 17-4",
+      "concept": "Finance lease ROU amortization — lease term vs useful life when PO is reasonably certain",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "ok": true
+}

@@ -1,0 +1,157 @@
+{
+  "id": "agent_016#00",
+  "rounding_convention": "decimal.Decimal throughout, ROUND_HALF_UP. PV from the exact discount formula at 50-digit internal precision, rounded once to the nearest cent (NOT 5-decimal table factors). Effective-interest schedule: interest expense = carrying amount x 9% rounded to the cent per period, then amortization and new carrying amount derived from that rounded figure; final period plugged so ending carrying amount equals face.",
+  "answers": [
+    {
+      "label": "a: cash proceeds (issue price) of the note on January 1, Year 1",
+      "value": 71899.86
+    },
+    {
+      "label": "c: Year 1 carrying amount at beginning of year",
+      "value": 71899.86
+    },
+    {
+      "label": "c: Year 1 cash interest paid",
+      "value": 4000.0
+    },
+    {
+      "label": "c: Year 1 interest expense",
+      "value": 6470.99
+    },
+    {
+      "label": "c: Year 1 discount amortization",
+      "value": 2470.99
+    },
+    {
+      "label": "c: Year 1 carrying amount at end of year",
+      "value": 74370.85
+    },
+    {
+      "label": "c: Year 2 carrying amount at beginning of year",
+      "value": 74370.85
+    },
+    {
+      "label": "c: Year 2 cash interest paid",
+      "value": 4000.0
+    },
+    {
+      "label": "c: Year 2 interest expense",
+      "value": 6693.38
+    },
+    {
+      "label": "c: Year 2 discount amortization",
+      "value": 2693.38
+    },
+    {
+      "label": "c: Year 2 carrying amount at end of year",
+      "value": 77064.23
+    },
+    {
+      "label": "c: Year 3 carrying amount at beginning of year",
+      "value": 77064.23
+    },
+    {
+      "label": "c: Year 3 cash interest paid",
+      "value": 4000.0
+    },
+    {
+      "label": "c: Year 3 interest expense",
+      "value": 6935.77
+    },
+    {
+      "label": "c: Year 3 discount amortization",
+      "value": 2935.77
+    },
+    {
+      "label": "c: Year 3 carrying amount at end of year",
+      "value": 80000.0
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "date": "Year 1 January 1",
+      "description": "Issuance of 3-year, 5% note payable at a discount (9% market rate)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 71899.86,
+          "credit": 0.0
+        },
+        {
+          "account": "Discount on Notes Payable",
+          "debit": 8100.14,
+          "credit": 0.0
+        },
+        {
+          "account": "Notes Payable",
+          "debit": 0.0,
+          "credit": 80000.0
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Year 1 December 31",
+      "description": "Annual interest payment and discount amortization (effective interest method)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 6470.99,
+          "credit": 0.0
+        },
+        {
+          "account": "Discount on Notes Payable",
+          "debit": 0.0,
+          "credit": 2470.99
+        },
+        {
+          "account": "Cash",
+          "debit": 0.0,
+          "credit": 4000.0
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Year 3 December 31",
+      "description": "Final annual interest payment and discount amortization (final-period plug)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 6935.77,
+          "credit": 0.0
+        },
+        {
+          "account": "Discount on Notes Payable",
+          "debit": 0.0,
+          "credit": 2935.77
+        },
+        {
+          "account": "Cash",
+          "debit": 0.0,
+          "credit": 4000.0
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Year 3 December 31",
+      "description": "Maturity settlement of note principal",
+      "lines": [
+        {
+          "account": "Notes Payable",
+          "debit": 80000.0,
+          "credit": 0.0
+        },
+        {
+          "account": "Cash",
+          "debit": 0.0,
+          "credit": 80000.0
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "PV computed from the exact formula (80,000/1.09^3 + 4,000*(1-1.09^-3)/0.09) at 50-digit precision, rounded once to the cent = 71,899.86; discount = 8,100.14. The stem's instruction to 'round the present value to the nearest cent' rules out 5-decimal printed table factors (those would give 71,899.56), and the CH 16 course handout works notes with Excel PV()/RATE(), which are exact-formula. Schedule rounds interest expense to the cent each period before deriving amortization and the new carrying amount. Per Required (c), Year 3 is plugged: amortization forced to 80,000.00 - 77,064.23 = 2,935.77 so carrying amount retires exactly to face, making Year 3 interest expense 6,935.77 rather than the unplugged 6,935.78. Part (e) is shown as two entries (final interest, then principal settlement), which the stem permits."
+}

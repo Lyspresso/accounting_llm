@@ -1,0 +1,77 @@
+{
+  "agent_id": 270,
+  "lo": "LO 14-7",
+  "chapter": 14,
+  "title": "Account for debt securities measured at FV-NI with fair value adjustments only at period-end",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-7",
+      "concept": "Initial recognition of trading debt securities; cash interest; period-end-only FV-NI adjusting JE (emphasis); disposal with realized G/L vs amortized cost; subsequent period-end FVA elimination",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-7",
+      "concept": "Number-variant twin—initial recognition of trading debt + period-end-only FV-NI adjusting JE + disposal vs amortized cost",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-7",
+      "concept": "Portfolio-level period-end adjusting JE when beginning FVA exists and one security was sold mid-year; fair value option period-end FV-NI; classification/presentation/disclosure",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-7",
+      "concept": "Classification of method—when fair value is adjusted for debt measured at FV-NI under Appendix 14A",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-7",
+      "concept": "Classification/presentation—unrealized holding G/L on TS / FVO debt through net income at period-end",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

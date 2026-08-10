@@ -1,0 +1,123 @@
+{
+  "id": "agent_136#01",
+  "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent applied per period / per computed amount (no floats). No PV factors in this item. Required FVA balance is measured against ORIGINAL COST (purchase price + capitalized commissions) at each measurement date; only the change is journalized.",
+  "answers": [
+    {
+      "label": "c: required Fair Value Adjustment balance at Dec 31, Year 1 (credit/contra balance)",
+      "value": 10200
+    },
+    {
+      "label": "c: required Fair Value Adjustment balance at Feb 8, Year 2 sale date (credit/contra balance)",
+      "value": 7800
+    },
+    {
+      "label": "d: Dec 31, Year 1 balance sheet carrying amount of the equity investment",
+      "value": 84000
+    },
+    {
+      "label": "d: Year 1 income statement - dividend revenue",
+      "value": 3600
+    },
+    {
+      "label": "d: Year 1 income statement - unrealized holding LOSS on equity securities",
+      "value": 10200
+    },
+    {
+      "label": "e: Year 2 income statement - unrealized holding GAIN recognized at the sale date",
+      "value": 2400
+    },
+    {
+      "label": "e: holding-period reconciliation - total net LOSS recognized over the ownership period",
+      "value": 7800
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "March 1, Year 1 - purchase of equity investment (commissions capitalized)",
+      "lines": [
+        {
+          "account": "Investment in Brookfield Media Co. Common Stock",
+          "debit": 94200,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 94200
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "June 30, Year 1 - dividend revenue (Copperline's 7.5% share)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 3600,
+          "credit": 0
+        },
+        {
+          "account": "Dividend Revenue",
+          "debit": 0,
+          "credit": 3600
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "December 31, Year 1 - adjust investment to fair value (FV-NI)",
+      "lines": [
+        {
+          "account": "Unrealized Gain or Loss-Income",
+          "debit": 10200,
+          "credit": 0
+        },
+        {
+          "account": "Fair Value Adjustment-Equity Securities",
+          "debit": 0,
+          "credit": 10200
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "February 8, Year 2 - sale-date adjustment of investment to fair value (FV-NI)",
+      "lines": [
+        {
+          "account": "Fair Value Adjustment-Equity Securities",
+          "debit": 2400,
+          "credit": 0
+        },
+        {
+          "account": "Unrealized Gain or Loss-Income",
+          "debit": 0,
+          "credit": 2400
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "February 8, Year 2 - record sale, eliminating the FVA balance (no separate gain/loss)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 86400,
+          "credit": 0
+        },
+        {
+          "account": "Fair Value Adjustment-Equity Securities",
+          "debit": 7800,
+          "credit": 0
+        },
+        {
+          "account": "Investment in Brookfield Media Co. Common Stock",
+          "debit": 0,
+          "credit": 94200
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Cambridge INT 4e Ch.14 LO 14-4 (DEMO 14-4) method. Commissions of $1,200 are capitalized into cost, so original cost = 6,000 x $15.50 + $1,200 = $94,200. Loss/gain answers are reported as positive magnitudes and named LOSS or GAIN in the label: Year 1 unrealized loss $10,200, Year 2 unrealized gain $2,400, net holding-period loss $7,800 = $86,400 proceeds - $94,200 cost. At sale the FVA has a $7,800 CREDIT balance, so it is DEBITED to eliminate it, and no separate gain or loss on sale is recorded because the fair value change was already recognized."
+}

@@ -1,0 +1,279 @@
+{
+ "id": "agent_391#02",
+ "rounding_convention": "decimal.Decimal throughout; quantized to cents (0.01) with ROUND_HALF_UP, applied once per period (FY ended 12/31/2025); all amounts resolve to whole dollars",
+ "answers": [
+  {
+   "label": "a: Item 1 entry total (Dr = Cr) - AR decrease",
+   "value": 12000
+  },
+  {
+   "label": "a: Item 1 entry total (Dr = Cr) - allowance increase",
+   "value": 2000
+  },
+  {
+   "label": "a: Item 2 entry total (Dr = Cr)",
+   "value": 6500
+  },
+  {
+   "label": "a: Item 3 entry total (Dr = Cr)",
+   "value": 28000
+  },
+  {
+   "label": "a: Item 4 - equipment book value (90,000 - 55,000)",
+   "value": 35000
+  },
+  {
+   "label": "a: Item 4 - loss on sale of equipment (35,000 - 30,000)",
+   "value": 5000
+  },
+  {
+   "label": "a: Item 4 entry total (Dr = Cr)",
+   "value": 90000
+  },
+  {
+   "label": "a: Item 5 - cash proceeds from bond issuance (80,000 x 95/100)",
+   "value": 76000
+  },
+  {
+   "label": "a: Item 5 - discount on bonds payable (80,000 - 76,000)",
+   "value": 4000
+  },
+  {
+   "label": "a: Item 5 entry total (Dr = Cr)",
+   "value": 80000
+  },
+  {
+   "label": "a: Item 6 entry total (Dr = Cr)",
+   "value": 800
+  },
+  {
+   "label": "a: Item 7 - carrying value of bonds at retirement (80,000 - 2,400)",
+   "value": 77600
+  },
+  {
+   "label": "a: Item 7 - loss on early retirement (79,000 - 77,600)",
+   "value": 1400
+  },
+  {
+   "label": "a: Item 7 entry total (Dr = Cr)",
+   "value": 81400
+  },
+  {
+   "label": "b: Item 1 - decrease in AR = Operating add",
+   "value": 12000
+  },
+  {
+   "label": "b: Item 1 - increase in allowance = Operating add",
+   "value": 2000
+  },
+  {
+   "label": "b: Item 2 - increase in inventory = Operating deduct",
+   "value": 6500
+  },
+  {
+   "label": "b: Item 3 - depreciation expense = Operating add",
+   "value": 28000
+  },
+  {
+   "label": "b: Item 4 - loss on sale of equipment = Operating add",
+   "value": 5000
+  },
+  {
+   "label": "b: Item 4 - proceeds from sale of equipment = Investing inflow",
+   "value": 30000
+  },
+  {
+   "label": "b: Item 5 - proceeds from bond issuance = Financing inflow",
+   "value": 76000
+  },
+  {
+   "label": "b: Item 6 - amortization of bond discount = Operating add",
+   "value": 800
+  },
+  {
+   "label": "b: Item 7 - loss on early retirement of bonds = Operating add",
+   "value": 1400
+  },
+  {
+   "label": "b: Item 7 - cash paid to retire bonds = Financing outflow",
+   "value": 79000
+  },
+  {
+   "label": "c: Total operating adds from items (1)-(4) and (6)-(7)",
+   "value": 49200
+  },
+  {
+   "label": "c: Total operating deducts from items (1)-(4) and (6)-(7)",
+   "value": 6500
+  },
+  {
+   "label": "c: Net effect on operating cash flows (indirect), items (1)-(4) and (6)-(7)",
+   "value": 42700
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a-1a",
+   "lines": [
+    {
+     "account": "Operating - Decrease in Accounts Receivable (lower half: Operating add)",
+     "debit": 12000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accounts Receivable",
+     "debit": 0.0,
+     "credit": 12000.0
+    }
+   ],
+   "dr_total": 12000.0,
+   "cr_total": 12000.0
+  },
+  {
+   "part": "a-1b",
+   "lines": [
+    {
+     "account": "Operating - Increase in Allowance for Doubtful Accounts / bad debt expense (lower half: Operating add)",
+     "debit": 2000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Allowance for Doubtful Accounts",
+     "debit": 0.0,
+     "credit": 2000.0
+    }
+   ],
+   "dr_total": 2000.0,
+   "cr_total": 2000.0
+  },
+  {
+   "part": "a-2",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 6500.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Operating - Increase in Inventory (lower half: Operating deduct)",
+     "debit": 0.0,
+     "credit": 6500.0
+    }
+   ],
+   "dr_total": 6500.0,
+   "cr_total": 6500.0
+  },
+  {
+   "part": "a-3",
+   "lines": [
+    {
+     "account": "Operating - Depreciation Expense (lower half: Operating add)",
+     "debit": 28000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0.0,
+     "credit": 28000.0
+    }
+   ],
+   "dr_total": 28000.0,
+   "cr_total": 28000.0
+  },
+  {
+   "part": "a-4",
+   "lines": [
+    {
+     "account": "Investing - Proceeds from Sale of Equipment (lower half: Investing inflow)",
+     "debit": 30000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 55000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Operating - Loss on Sale of Equipment (lower half: Operating add)",
+     "debit": 5000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Equipment",
+     "debit": 0.0,
+     "credit": 90000.0
+    }
+   ],
+   "dr_total": 90000.0,
+   "cr_total": 90000.0
+  },
+  {
+   "part": "a-5",
+   "lines": [
+    {
+     "account": "Financing - Proceeds from Issuance of Bonds (lower half: Financing inflow)",
+     "debit": 76000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 4000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Bonds Payable",
+     "debit": 0.0,
+     "credit": 80000.0
+    }
+   ],
+   "dr_total": 80000.0,
+   "cr_total": 80000.0
+  },
+  {
+   "part": "a-6",
+   "lines": [
+    {
+     "account": "Operating - Amortization of Bond Discount (lower half: Operating add)",
+     "debit": 800.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0.0,
+     "credit": 800.0
+    }
+   ],
+   "dr_total": 800.0,
+   "cr_total": 800.0
+  },
+  {
+   "part": "a-7",
+   "lines": [
+    {
+     "account": "Bonds Payable",
+     "debit": 80000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Operating - Loss on Early Retirement of Bonds (lower half: Operating add)",
+     "debit": 1400.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0.0,
+     "credit": 2400.0
+    },
+    {
+     "account": "Financing - Retirement of Bonds (lower half: Financing outflow)",
+     "debit": 0.0,
+     "credit": 79000.0
+    }
+   ],
+   "dr_total": 81400.0,
+   "cr_total": 81400.0
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Worksheet (reconstructed) entries only; no formal SCF prepared. Lower-half lines are labeled with their section inside the account name. Item 4: book value 35,000 > proceeds 30,000, so a 5,000 loss is added back in Operating while the full 30,000 cash is an Investing inflow. Item 5: 80,000 x 95/100 = 76,000 cash, a Financing inflow; the 4,000 discount is a balance-sheet (upper-half) debit with no cash effect. Item 7: carrying value 80,000 - 2,400 = 77,600 vs 79,000 paid = 1,400 loss added back in Operating, with the full 79,000 shown as a Financing outflow. Internal-consistency note: 4,000 discount at issuance less 800 amortized would leave 3,200, but the problem states 2,400 unamortized at retirement; the stated 2,400 was used as given (implies additional amortization/other bond tranche). Part c excludes item 5 entirely (pure Financing) and excludes the Investing 30,000 and Financing 79,000 cash lines; only Operating-section pieces are counted: +12,000 +2,000 -6,500 +28,000 +5,000 +800 +1,400 = +42,700."
+}

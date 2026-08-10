@@ -1,0 +1,47 @@
+[
+ {
+  "pair": [
+   "Note Payable",
+   "Notes Payable"
+  ],
+  "found_a": [
+   [
+    "Note Payable",
+    115
+   ]
+  ],
+  "found_b": [
+   [
+    "Notes Payable",
+    59
+   ]
+  ],
+  "why_clusterer_split": "merge_key requires EXACT equality after case/punctuation normalisation. Singular vs plural, and an inserted word ('Holding'), are different token sequences, so they never entered the same cluster. That strictness is deliberate - it is what keeps 'Patent A' out of 'Patent' - so these pairs need a ruling, not a looser clusterer.",
+  "ruling": null
+ },
+ {
+  "pair": [
+   "Unrealized Holding Gain or Loss",
+   "Unrealized Gain or Loss"
+  ],
+  "found_a": [],
+  "found_b": [],
+  "why_clusterer_split": "merge_key requires EXACT equality after case/punctuation normalisation. Singular vs plural, and an inserted word ('Holding'), are different token sequences, so they never entered the same cluster. That strictness is deliberate - it is what keeps 'Patent A' out of 'Patent' - so these pairs need a ruling, not a looser clusterer.",
+  "ruling": null
+ },
+ {
+  "pair": [
+   "Building",
+   "Buildings"
+  ],
+  "found_a": [
+   [
+    "Building",
+    55
+   ]
+  ],
+  "found_b": [],
+  "why_clusterer_split": "merge_key requires EXACT equality after case/punctuation normalisation. Singular vs plural, and an inserted word ('Holding'), are different token sequences, so they never entered the same cluster. That strictness is deliberate - it is what keeps 'Patent A' out of 'Patent' - so these pairs need a ruling, not a looser clusterer.",
+  "ruling": null
+ }
+]

@@ -1,0 +1,46 @@
+{
+  "agent_id": 94,
+  "lo": "LO 15-1",
+  "chapter": 15,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-1",
+      "concept": "Initial recognition JE for accounts payable and sales taxes payable; AP payment within discount period; customer collection; remittance of sales taxes; liability rollforward schedule",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-1",
+      "concept": "Number-variant twin — initial recognition of AP and sales taxes payable; discount settlement; remittance; rollforward",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-1",
+      "concept": "Period-end adjusting JE to reclassify sales taxes from Sales; embedded-tax gross-up; settlement of AP after discount period (no discount); classification of current operating liabilities",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-1",
+      "concept": "Classification / presentation — current liability nature of accounts payable and sales taxes payable; agency role for sales taxes",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 15-1",
+      "concept": "Classification of method — gross-method treatment when a purchase discount is taken",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

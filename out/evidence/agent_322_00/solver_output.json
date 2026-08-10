@@ -1,0 +1,182 @@
+{
+  "id": "agent_322#00",
+  "rounding_convention": "decimal.Decimal only; ROUND_HALF_UP to 2 dp applied per period (each quarter's estimated COGS and estimated ending inventory are rounded before being carried forward), not round-at-end. Gross profit rate derived exactly from the 25% markup on cost (0.25/1.25 = 20%); no PV factors involved.",
+  "answers": [
+    {
+      "label": "a: gross profit as a percentage of sales (%)",
+      "value": 20
+    },
+    {
+      "label": "a: cost percentage of sales (%)",
+      "value": 80
+    },
+    {
+      "label": "b: Q1 (Mar 31) goods available for sale",
+      "value": 780000
+    },
+    {
+      "label": "b: Q1 (Mar 31) estimated cost of goods sold",
+      "value": 400000
+    },
+    {
+      "label": "b: estimated ending inventory, March 31",
+      "value": 380000
+    },
+    {
+      "label": "b: Q2 (Jun 30) goods available for sale",
+      "value": 770000
+    },
+    {
+      "label": "b: Q2 (Jun 30) estimated cost of goods sold",
+      "value": 384000
+    },
+    {
+      "label": "b: estimated ending inventory, June 30",
+      "value": 386000
+    },
+    {
+      "label": "d: July 1-12 goods available for sale",
+      "value": 434000
+    },
+    {
+      "label": "d: July 1-12 estimated cost of goods sold",
+      "value": 72000
+    },
+    {
+      "label": "d: estimated inventory on hand at July 12 storm date (before salvage)",
+      "value": 362000
+    },
+    {
+      "label": "d: inventory loss from the storm",
+      "value": 322000
+    },
+    {
+      "label": "h: inventory reported on the balance sheet immediately after the July 12 write-off",
+      "value": 40000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "c",
+      "date": "Year 1 March 31",
+      "description": "Period-end adjusting entry: record estimated COGS for Q1, close Purchases and beginning Inventory, establish estimated ending Inventory (gross profit method).",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 400000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory (ending, Mar 31 - estimated)",
+          "debit": 380000,
+          "credit": 0
+        },
+        {
+          "account": "Purchases",
+          "debit": 0,
+          "credit": 420000
+        },
+        {
+          "account": "Inventory (beginning, Jan 1)",
+          "debit": 0,
+          "credit": 360000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "Year 1 June 30",
+      "description": "Period-end adjusting entry: record estimated COGS for Q2, close Purchases and the Mar 31 estimated Inventory, establish estimated ending Inventory at Jun 30.",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 384000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory (ending, Jun 30 - estimated)",
+          "debit": 386000,
+          "credit": 0
+        },
+        {
+          "account": "Purchases",
+          "debit": 0,
+          "credit": 390000
+        },
+        {
+          "account": "Inventory (beginning, Mar 31)",
+          "debit": 0,
+          "credit": 380000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Year 1 July 12",
+      "description": "Storm loss (before insurance): record July 1-12 estimated COGS, close July Purchases and the Jun 30 Inventory balance, reclassify salvaged goods at cost, and write off the destroyed inventory as a casualty loss.",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold (July 1-12, estimated)",
+          "debit": 72000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory - Salvaged Goods",
+          "debit": 40000,
+          "credit": 0
+        },
+        {
+          "account": "Loss from Storm (Casualty Loss)",
+          "debit": 322000,
+          "credit": 0
+        },
+        {
+          "account": "Purchases",
+          "debit": 0,
+          "credit": 48000
+        },
+        {
+          "account": "Inventory (beginning, Jun 30)",
+          "debit": 0,
+          "credit": 386000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "Year 1 July 12",
+      "description": "Recognize the probable and reasonably estimable insurance recovery, reducing the casualty loss recorded in (e).",
+      "lines": [
+        {
+          "account": "Insurance Claim Receivable",
+          "debit": 300000,
+          "credit": 0
+        },
+        {
+          "account": "Loss from Storm (Casualty Loss)",
+          "debit": 0,
+          "credit": 300000
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "date": "Year 1 August 5",
+      "description": "Insurer pays the claim in full settlement; the receivable is collected dollar for dollar, so no gain or loss.",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 300000,
+          "credit": 0
+        },
+        {
+          "account": "Insurance Claim Receivable",
+          "debit": 0,
+          "credit": 300000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "(a) 25% markup on cost -> GP% of sales = 0.25/1.25 = 20%; cost ratio 80%. (c)/(e) shown in the gross periodic form (close beginning Inventory and Purchases, debit COGS and the new Inventory balance); the equivalent net form debits Inventory only for the change. (e) is stated before insurance, so the full $322,000 casualty loss is recognized there and (f) credits it back by the $300,000 probable recovery, leaving a $22,000 net loss; a presentation that credits an 'Insurance Recovery' income account instead is equivalent in net income. (h) Inventory = $40,000 of salvaged goods at cost; the $300,000 claim is reported as a receivable, not inventory. USE of the gross profit method: it estimates inventory and COGS for interim statements without the cost of a physical count, and it estimates inventory destroyed by a casualty when records are lost. LIMITATION: it relies on a past gross profit rate that may not hold in the current period and on the mix of goods sold being unchanged, it yields only an estimate (GAAP does not accept it for the annual financial statements, which require a physical count), and it cannot detect shrinkage, theft, or spoilage because any such shortage is buried in the estimated ending inventory."
+}

@@ -1,0 +1,258 @@
+{
+ "id": "agent_270#00",
+ "rounding_convention": "decimal.Decimal throughout; each computed period figure quantized to cents with ROUND_HALF_UP (per-period rounding). Bonds purchased at par, so there is no premium/discount schedule; all amounts land on whole dollars and journal entries are stated in whole dollars. Accrued interest uses the 30/360-style months convention (months/12) implied by the Jul 1 dating and Jun 30/Dec 31 coupon dates.",
+ "answers": [
+  {
+   "label": "a: months of interest accrued to seller (bond dated Jul 1 Y1 -> purchase Nov 1 Y1)",
+   "value": 4
+  },
+  {
+   "label": "a: Debt Investments (Trading) debited at par (face x 100%)",
+   "value": 60000
+  },
+  {
+   "label": "a: Interest Receivable debited (accrued interest paid to seller = 60,000 x 9% x 4/12)",
+   "value": 1800
+  },
+  {
+   "label": "a: Cash credited (total paid to seller)",
+   "value": 61800
+  },
+  {
+   "label": "b: semiannual cash coupon received Dec 31 Y1 (60,000 x 9% x 6/12)",
+   "value": 2700
+  },
+  {
+   "label": "b: Interest Receivable credited (removes Nov 1 accrual)",
+   "value": 1800
+  },
+  {
+   "label": "b: Interest Revenue credited (2 months held: 60,000 x 9% x 2/12)",
+   "value": 900
+  },
+  {
+   "label": "c: FVA worksheet - amortized cost of TS portfolio at 12/31/Y1 (par, nothing to amortize)",
+   "value": 60000
+  },
+  {
+   "label": "c: FVA worksheet - fair value at 12/31/Y1",
+   "value": 57000
+  },
+  {
+   "label": "c: FVA worksheet - cumulative unrealized loss = required FVA balance at 12/31/Y1 (credit)",
+   "value": -3000
+  },
+  {
+   "label": "c: FVA worksheet - FVA balance before adjustment (12/31/Y1)",
+   "value": 0
+  },
+  {
+   "label": "c: FVA worksheet - adjustment needed (negative = credit FVA)",
+   "value": -3000
+  },
+  {
+   "label": "c: Dec 31 Y1 JE - Dr Unrealized Holding Gain or Loss - Income",
+   "value": 3000
+  },
+  {
+   "label": "c: Dec 31 Y1 JE - Cr Fair Value Adjustment (Trading)",
+   "value": 3000
+  },
+  {
+   "label": "c: FVA running balance after 12/31/Y1 entry (credit)",
+   "value": -3000
+  },
+  {
+   "label": "d: BS 12/31/Y1 - Debt Investments (Trading) at amortized cost",
+   "value": 60000
+  },
+  {
+   "label": "d: BS 12/31/Y1 - Fair Value Adjustment (Trading), contra/credit",
+   "value": -3000
+  },
+  {
+   "label": "d: BS 12/31/Y1 - carrying amount of TS reported (current asset, at fair value)",
+   "value": 57000
+  },
+  {
+   "label": "d: IS Year 1 - Interest Revenue",
+   "value": 900
+  },
+  {
+   "label": "d: IS Year 1 - Unrealized Holding Loss (FV-NI)",
+   "value": 3000
+  },
+  {
+   "label": "d: IS Year 1 - net pretax income effect of the investment (900 - 3,000)",
+   "value": -2100
+  },
+  {
+   "label": "e: sale proceeds Mar 15 Y2 (Dr Cash)",
+   "value": 57600
+  },
+  {
+   "label": "e: amortized cost of holding removed (Cr Debt Investments - Trading)",
+   "value": 60000
+  },
+  {
+   "label": "e: realized gain/(loss) on sale measured vs amortized cost (57,600 - 60,000)",
+   "value": -2400
+  },
+  {
+   "label": "e: Dr Loss on Sale of Debt Investments (realized loss)",
+   "value": 2400
+  },
+  {
+   "label": "e: FVA balance immediately after the sale (unchanged - no FVA on sale dates)",
+   "value": -3000
+  },
+  {
+   "label": "f: required FVA balance at 12/31/Y2 (no TS held)",
+   "value": 0
+  },
+  {
+   "label": "f: FVA balance before the 12/31/Y2 adjustment (credit)",
+   "value": -3000
+  },
+  {
+   "label": "f: 12/31/Y2 adjustment - Dr Fair Value Adjustment (Trading)",
+   "value": 3000
+  },
+  {
+   "label": "f: 12/31/Y2 adjustment - Cr Unrealized Holding Gain or Loss - Income",
+   "value": 3000
+  },
+  {
+   "label": "f: FVA running balance after 12/31/Y2 entry",
+   "value": 0
+  },
+  {
+   "label": "f: reconciliation row 1 - Year 1 unrealized holding loss recognized",
+   "value": -3000
+  },
+  {
+   "label": "f: reconciliation row 2 - Year 2 realized loss on sale",
+   "value": -2400
+  },
+  {
+   "label": "f: reconciliation row 3 - Year 2 unrealized holding gain (FVA reversal)",
+   "value": 3000
+  },
+  {
+   "label": "f: reconciliation row 4 - net Year 2 gain/(loss) effect (3,000 - 2,400)",
+   "value": 600
+  },
+  {
+   "label": "f: reconciliation row 5 - cumulative two-year gain/(loss) recognized in income",
+   "value": -2400
+  },
+  {
+   "label": "f: reconciliation check - true economic result (proceeds 57,600 - cost 60,000)",
+   "value": -2400
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "date": "Year 1, Nov 1",
+   "description": "Purchase at par plus 4 months accrued interest paid to seller",
+   "lines": [
+    {
+     "account": "Debt Investments (Trading) - Cascade Biologics 9% bonds",
+     "debit": 60000,
+     "credit": 0
+    },
+    {
+     "account": "Interest Receivable",
+     "debit": 1800,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 61800
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "date": "Year 1, Dec 31",
+   "description": "Semiannual cash interest received; only 2 months is revenue",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 2700,
+     "credit": 0
+    },
+    {
+     "account": "Interest Receivable",
+     "debit": 0,
+     "credit": 1800
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 900
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Year 1, Dec 31",
+   "description": "Period-end FVA adjustment to fair value (FV-NI)",
+   "lines": [
+    {
+     "account": "Unrealized Holding Gain or Loss - Income",
+     "debit": 3000,
+     "credit": 0
+    },
+    {
+     "account": "Fair Value Adjustment (Trading)",
+     "debit": 0,
+     "credit": 3000
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "date": "Year 2, Mar 15",
+   "description": "Sale of entire TS holding; realized loss vs amortized cost; FVA NOT adjusted",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 57600,
+     "credit": 0
+    },
+    {
+     "account": "Loss on Sale of Debt Investments (realized)",
+     "debit": 2400,
+     "credit": 0
+    },
+    {
+     "account": "Debt Investments (Trading) - Cascade Biologics 9% bonds",
+     "debit": 0,
+     "credit": 60000
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "date": "Year 2, Dec 31",
+   "description": "Period-end FVA adjustment: no TS on hand, eliminate leftover FVA credit",
+   "lines": [
+    {
+     "account": "Fair Value Adjustment (Trading)",
+     "debit": 3000,
+     "credit": 0
+    },
+    {
+     "account": "Unrealized Holding Gain or Loss - Income",
+     "debit": 0,
+     "credit": 3000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Purchase at par => investment carried at amortized cost 60,000 with no amortization; the 1,800 of interest accrued Jul 1 -> Nov 1 is paid to the seller and debited to Interest Receivable (some texts debit Interest Revenue instead and then record only the net 900 credit on Dec 31 -- Year 1 net interest revenue of 900 is identical either way). Under the LO 14-7 period-end-only FVA policy the Debt Investments account always shows amortized cost and the separate Fair Value Adjustment valuation account carries the cumulative unrealized amount, so (i) 12/31/Y1 needs a 3,000 credit FVA and a 3,000 unrealized loss in income, (ii) the 3/15/Y2 sale is measured against amortized cost 60,000 giving a 2,400 REALIZED loss (not the 600 gain you would get against the 57,000 fair-value carrying amount) and FVA is deliberately left alone, and (iii) 12/31/Y2 removes the now-orphaned 3,000 FVA credit with a 3,000 unrealized holding GAIN. Year 2 net gain/(loss) effect is therefore +600, and 3,000 loss in Y1 plus 600 gain in Y2 nets to the true 2,400 economic loss. March 1/1 -> 3/15 accrued interest is ignored per the stem's clean-price instruction, so no interest revenue or receivable is recorded in Year 2."
+}

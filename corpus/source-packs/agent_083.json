@@ -1,0 +1,46 @@
+{
+  "agent_id": 83,
+  "lo": "LO 12-7",
+  "chapter": 12,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-7",
+      "concept": "Indicators → recoverability → impairment loss initial recognition JE; post-impairment depreciation schedule; later disposal JE; presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-7",
+      "concept": "Number-variant twin: recoverability, impairment initial recognition JE, post-impairment depreciation schedule, period-end presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-7",
+      "concept": "Multi-asset recoverability screen (pass vs fail); combined impairment JE; classification that recoverability pass means no loss even if FV < CV; disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-7",
+      "concept": "Recoverability uses undiscounted cash flows; impairment loss measured with fair value",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-7",
+      "concept": "Prohibition on restoring impairment losses for PPE held for use; new cost basis",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

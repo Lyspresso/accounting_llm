@@ -1,0 +1,213 @@
+{
+  "id": "agent_360#00",
+  "rounding_convention": "decimal.Decimal only, no floats; ROUND_HALF_UP to the cent applied per computed amount (per period / per line), not at the end of a chain; no discounting (all amounts undiscounted)",
+  "answers": [
+    {
+      "label": "a: Dec 31, Year 1 litigation loss accrued (better estimate)",
+      "value": 120000
+    },
+    {
+      "label": "b: Dec 31, Year 1 incremental litigation loss from recognized subsequent event",
+      "value": 25000
+    },
+    {
+      "label": "b: Dec 31, Year 1 litigation liability after remeasurement",
+      "value": 145000
+    },
+    {
+      "label": "c: May 1, Year 2 cash paid to settle litigation",
+      "value": 145000
+    },
+    {
+      "label": "d: Year 1 product sales recorded",
+      "value": 3200000
+    },
+    {
+      "label": "d: Dec 31, Year 1 warranty accrual (2.0% of Year 1 sales)",
+      "value": 64000
+    },
+    {
+      "label": "d: Year 1 warranty claims paid",
+      "value": 18000
+    },
+    {
+      "label": "e: Year 1 warranty liability - beginning",
+      "value": 0
+    },
+    {
+      "label": "e: Year 1 warranty liability - accrual",
+      "value": 64000
+    },
+    {
+      "label": "e: Year 1 warranty liability - claims",
+      "value": 18000
+    },
+    {
+      "label": "e: Year 1 warranty liability - ending",
+      "value": 46000
+    },
+    {
+      "label": "e: Year 2 warranty liability - beginning",
+      "value": 46000
+    },
+    {
+      "label": "e: Year 2 warranty liability - accrual",
+      "value": 72000
+    },
+    {
+      "label": "e: Year 2 warranty liability - claims",
+      "value": 52000
+    },
+    {
+      "label": "e: Year 2 warranty liability - ending",
+      "value": 66000
+    },
+    {
+      "label": "e: Year 3 warranty liability - beginning",
+      "value": 66000
+    },
+    {
+      "label": "e: Year 3 warranty liability - accrual",
+      "value": 80000
+    },
+    {
+      "label": "e: Year 3 warranty liability - claims",
+      "value": 61000
+    },
+    {
+      "label": "e: Year 3 warranty liability - ending",
+      "value": 85000
+    },
+    {
+      "label": "f: Dec 31, Year 2 warranty accrual (2.0% of Year 2 sales)",
+      "value": 72000
+    },
+    {
+      "label": "g: reporting if the litigation loss were only reasonably possible",
+      "value": "No liability or loss would be accrued at December 31, Year 1; the contingency would instead be disclosed in the notes, describing the nature of the lawsuit and the estimated $120,000 possible loss (or range)."
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "December 31, Year 1",
+      "description": "Accrue probable and estimable litigation loss at counsel's better estimate within the range (ignoring the February settlement).",
+      "lines": [
+        {
+          "account": "Loss from Litigation",
+          "debit": 120000,
+          "credit": 0
+        },
+        {
+          "account": "Litigation Liability",
+          "debit": 0,
+          "credit": 120000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "December 31, Year 1",
+      "description": "Recognized (Type 1) subsequent event: remeasure the Year 1 litigation liability from the $120,000 better estimate up to the $145,000 February 18, Year 2 settlement amount.",
+      "lines": [
+        {
+          "account": "Loss from Litigation",
+          "debit": 25000,
+          "credit": 0
+        },
+        {
+          "account": "Litigation Liability",
+          "debit": 0,
+          "credit": 25000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "May 1, Year 2",
+      "description": "Pay the litigation settlement in cash; liability already carried at the settlement amount, so no additional loss.",
+      "lines": [
+        {
+          "account": "Litigation Liability",
+          "debit": 145000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 145000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Year 1",
+      "description": "Record Year 1 cash product sales (COGS ignored per the stem).",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 3200000,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 3200000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 1",
+      "description": "Period-end adjusting entry: accrue estimated warranty cost at 2.0% of Year 1 product sales.",
+      "lines": [
+        {
+          "account": "Warranty Expense",
+          "debit": 64000,
+          "credit": 0
+        },
+        {
+          "account": "Warranty Liability",
+          "debit": 0,
+          "credit": 64000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Year 1",
+      "description": "Settle actual Year 1 warranty claims in cash against the accrued liability.",
+      "lines": [
+        {
+          "account": "Warranty Liability",
+          "debit": 18000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 18000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "December 31, Year 2",
+      "description": "Period-end adjusting entry: accrue estimated warranty cost at 2.0% of Year 2 product sales.",
+      "lines": [
+        {
+          "account": "Warranty Expense",
+          "debit": 72000,
+          "credit": 0
+        },
+        {
+          "account": "Warranty Liability",
+          "debit": 0,
+          "credit": 72000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Litigation: probable + estimable with a better estimate inside the range, so ASC 450-20 accrues the $120,000 better estimate rather than the $90,000 low end or the $350,000 amount sought. The February 18, Year 2 settlement is a recognized (Type 1) subsequent event because the causing condition (the October Year 1 accident) existed at the balance sheet date and the agreement predates the March 10, Year 2 issuance date, so Year 1 is remeasured to $145,000 via an additional $25,000 adjusting entry dated December 31, Year 1. Warranty is assurance-type and not sold separately, so the expense/accrual model applies (no revenue deferral); the two-year coverage affects only how long the single liability account is drawn down, not the accrual amount, which is 2.0% of each year's own sales. Claims paid reduce the liability and are not re-expensed."
+}

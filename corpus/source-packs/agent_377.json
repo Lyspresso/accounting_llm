@@ -1,0 +1,71 @@
+{
+  "agent_id": 377,
+  "lo": "LO 20-10",
+  "chapter": 20,
+  "critical": false,
+  "title": "Describe accounting for stock appreciation rights",
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-10",
+      "concept": "Liability-classified SARs: period-end adjusting JEs each year (including reverse entry when FV declines); subsequent measurement schedule; cash settlement",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-10",
+      "concept": "Number-variant twin: liability SARs subsequent measurement schedule; period-end adjusting JEs; cash settlement at exercise",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-10",
+      "concept": "Equity-classified SARs (employer may settle in stock): grant-date FV straight-line period-end adjusting JEs; no FV remeasurement; stock settlement reclass; contrast cash settlement of equity-classified award",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-10",
+      "concept": "Period-end adjusting journal entry for liability SARs when year-end FV decline reduces cumulative liability",
+      "type": "MC",
+      "ok": true,
+      "angles": [
+        "period_end_adjusting_JE"
+      ]
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 20-10",
+      "concept": "Correct credit account in period-end adjusting JE for equity-classified vs liability-classified SARs",
+      "type": "MC",
+      "ok": true,
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

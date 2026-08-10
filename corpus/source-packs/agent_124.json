@@ -1,0 +1,53 @@
+{
+  "agent_id": 124,
+  "lo": "LO 21-1",
+  "chapter": 21,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 21-1",
+      "concept": "Initial equipment capitalization; SL schedule; prospective change in useful life and residual; period-end JE; multi-year schedule; disposal JE; disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 21-1",
+      "concept": "Number-variant twin: initial capitalization, SL history, prospective life/residual revision, schedule, period-end JE, disposal, income-effect disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 21-1",
+      "concept": "Change from SL to DDB as change in estimate effected by change in principle; prospective DDB schedule; period-end JEs; income comparison disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 21-1",
+      "concept": "Patent initial recognition; prospective amortization after useful-life revision; schedule; disposal JE; note disclosure elements",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 21-1",
+      "concept": "Classification: estimate vs estimate-effected-by-principle vs principle vs error; prospective treatment for depreciation method change",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q6",
+      "lo": "LO 21-1",
+      "concept": "Prospective application of pure change in estimate — no restatement or cumulative catch-up",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "ok": true
+}

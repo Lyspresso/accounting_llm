@@ -1,0 +1,73 @@
+{
+  "agent_id": 230,
+  "lo": "LO 15-6",
+  "chapter": 15,
+  "title": "Explain liability, commitment, and contingency disclosures and analyses using liquidity ratios",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-6",
+      "concept": "Subsequent measurement schedule for multi-year warranty liability; initial recognition of probable litigation; period-end warranty and contingency accruals; settlement JE; commitment/contingency disclosures; current and quick ratios before/after Year-2 accruals",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-6",
+      "concept": "Number-variant twin: three-year warranty subsequent measurement schedule; period-end true-up; initial recognition using minimum of range; settlement with loss; commitment disclosure; current/quick ratios",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-6",
+      "concept": "Multi-year liquidity ratio schedule; classification of commitments vs contingencies; period-end adjusting JE for probable contingency and warranty true-up; callable debt reclassification impact on current liabilities and ratios",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-6",
+      "concept": "Subsequent measurement of product warranty liability (beginning + provision − claims = ending)",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-6",
+      "concept": "Classification of commitments vs probable contingencies and effect on the current ratio",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

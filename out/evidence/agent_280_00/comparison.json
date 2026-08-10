@@ -1,0 +1,28 @@
+{
+ "id": "agent_280#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "failed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 10,
+  "routed_stage2": 1,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "SOLVER_MISMATCH",
+   "label": "e: gain or loss recognized on conversion (book value method)",
+   "solver": 0
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 20000.0,
+   "solver": "common stock",
+   "key_options": [
+    "common stock 5 par"
+   ]
+  }
+ ]
+}

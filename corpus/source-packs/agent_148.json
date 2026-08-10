@@ -1,0 +1,79 @@
+{
+  "agent_id": 148,
+  "lo": "LO 16-7",
+  "chapter": 16,
+  "title": "Account for extinguishment of debt",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-7",
+      "concept": "Subsequent measurement schedule + initial issue JE + interest JEs + partial early extinguishment and remaining maturity path",
+      "type": "multipart",
+      "company": "Copper Canyon Fabricators Inc.",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-7",
+      "concept": "Number-variant twin — recompute issue JE, effective-interest schedule, interest JEs, and partial early extinguishment under changed face, rates, fraction, and call price",
+      "type": "multipart",
+      "company": "Westfield Transit Partners LLC",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-7",
+      "concept": "Period-end adjusting (accrued interest + SL amort to retirement date); mid-period partial extinguishment; maturity settlement; refunding with current-period loss",
+      "type": "multipart",
+      "company": "Redwood Harbor Marine Co. / Glacier Peak Energy Corp.",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-7",
+      "concept": "Classification/presentation — measuring gain or loss on early debt extinguishment and reporting it currently in net income",
+      "type": "MC",
+      "company": "Thornfield Media Group",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "mc_count": 1,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_148.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_148.json"
+}

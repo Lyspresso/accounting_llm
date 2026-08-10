@@ -1,0 +1,46 @@
+{
+  "agent_id": 378,
+  "lo": "LO 20-2",
+  "chapter": 20,
+  "title": "Account for stock options",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-2",
+      "concept": "Grant-date FV measurement (no JE); period-end compensation adjusting JEs; multi-year expense schedule; exercise settlement JE; expiration reclassification JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-2",
+      "concept": "Grant measurement; period-end compensation adjusting JEs; four-year expense schedule; full exercise settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-2",
+      "concept": "Period-end adjusting JE when forfeitures are recognized as incurred; multi-year schedule with catch-up; performance-condition probability and period-end accrual",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-2",
+      "concept": "Grant-date measurement; equity-classified option expense vs exercise accounting; performance vs market conditions",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

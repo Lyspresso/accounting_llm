@@ -1,0 +1,40 @@
+{
+  "agent_id": 120,
+  "lo": "LO 20-6",
+  "chapter": 20,
+  "title": "Compute EPS using if-converted method for convertible securities",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-6",
+      "concept": "Initial recognition of convertible bonds at par; interest JEs; basic and diluted EPS under the if-converted method (full year and mid-year issuance); actual conversion settlement JE; income-statement EPS presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-6",
+      "concept": "Number-variant twin: issue convertible bonds at par; interest; basic and diluted EPS if-converted; conversion JE; EPS presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-6",
+      "concept": "If-converted method for convertible preferred stock; preferred issuance and conversion JEs; diluted EPS when company has a net loss (antidilutive exclusion and disclosure)",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-6",
+      "concept": "Classification — which computational method applies to convertible securities; identifying dilutive vs antidilutive outcomes",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

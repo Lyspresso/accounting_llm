@@ -1,0 +1,161 @@
+{
+ "agent_002#03": {
+  "src": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_002_03",
+  "golden_hash_ok": true,
+  "tier": "adjudicated",
+  "admissible": true,
+  "adm_why": "admissible",
+  "n_hard": 7,
+  "hard": [
+   {
+    "kind": "SOLVER_MISMATCH",
+    "label": "b: Effect of the transfer on net income",
+    "solver": 0,
+    "key": null,
+    "detail": ""
+   },
+   {
+    "kind": "JE_LINE_NOT_IN_KEY",
+    "label": "",
+    "solver": "debt investments available for sale quill dune",
+    "key": null,
+    "detail": ""
+   },
+   {
+    "kind": "JE_LINE_NOT_IN_KEY",
+    "label": "",
+    "solver": "debt investments held to maturity quill dune",
+    "key": null,
+    "detail": ""
+   },
+   {
+    "kind": "KEY_LINE_NOT_IN_SOLVER",
+    "label": "",
+    "solver": null,
+    "key": "investment in afs quill bonds",
+    "detail": ""
+   },
+   {
+    "kind": "KEY_LINE_NOT_IN_SOLVER",
+    "label": "",
+    "solver": null,
+    "key": "investment in htm quill bonds",
+    "detail": ""
+   },
+   {
+    "kind": "KEY_LINE_NOT_IN_SOLVER",
+    "label": "",
+    "solver": null,
+    "key": "investment in afs dune bonds",
+    "detail": ""
+   },
+   {
+    "kind": "KEY_LINE_NOT_IN_SOLVER",
+    "label": "",
+    "solver": null,
+    "key": "investment in htm dune bonds",
+    "detail": ""
+   }
+  ]
+ },
+ "agent_043#00": {
+  "src": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_043_00",
+  "golden_hash_ok": true,
+  "tier": "ai_cross_checked",
+  "admissible": true,
+  "adm_why": "admissible",
+  "n_hard": 0,
+  "hard": []
+ },
+ "agent_130#00": {
+  "src": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_130_00",
+  "golden_hash_ok": true,
+  "tier": "ai_cross_checked",
+  "admissible": true,
+  "adm_why": "admissible",
+  "n_hard": 2,
+  "hard": [
+   {
+    "kind": "JE_LINE_NOT_IN_KEY",
+    "label": "",
+    "solver": "restricted cash",
+    "key": null,
+    "detail": ""
+   },
+   {
+    "kind": "JE_LINE_NOT_IN_KEY",
+    "label": "",
+    "solver": "cash and cash equivalents",
+    "key": null,
+    "detail": ""
+   }
+  ]
+ },
+ "agent_150#02": {
+  "src": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_150_02",
+  "golden_hash_ok": true,
+  "tier": "adjudicated",
+  "admissible": true,
+  "adm_why": "admissible",
+  "n_hard": 0,
+  "hard": []
+ },
+ "agent_151#01": {
+  "src": "out/evidence/agent_151_01",
+  "golden_hash_ok": true,
+  "tier": "adjudicated",
+  "admissible": true,
+  "adm_why": "admissible",
+  "n_hard": 2,
+  "hard": [
+   {
+    "kind": "SOLVER_MISMATCH",
+    "label": "c: post-remeasurement ROU asset carrying amount",
+    "solver": 240612.65,
+    "key": null,
+    "detail": ""
+   },
+   {
+    "kind": "SOLVER_MISMATCH",
+    "label": "d: schedule - liability after paying the $30,000 purchase op",
+    "solver": 0.0,
+    "key": null,
+    "detail": ""
+   }
+  ]
+ },
+ "agent_283#02": {
+  "src": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_283_02",
+  "golden_hash_ok": false,
+  "tier": "adjudicated",
+  "admissible": true,
+  "adm_why": "admissible",
+  "n_hard": 1,
+  "hard": [
+   {
+    "kind": "SOLVER_MISMATCH",
+    "label": "f: total lease expense recognized over the 8-year term",
+    "solver": 360000.0,
+    "key": null,
+    "detail": ""
+   }
+  ]
+ },
+ "agent_285#00": {
+  "src": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence_parity/agent_285_00",
+  "golden_hash_ok": true,
+  "tier": "adjudicated",
+  "admissible": true,
+  "adm_why": "admissible",
+  "n_hard": 1,
+  "hard": [
+   {
+    "kind": "SOLVER_MISMATCH",
+    "label": "a: Criterion 4 - PV of lease payments as % of fair value",
+    "solver": 58.51,
+    "key": null,
+    "detail": ""
+   }
+  ]
+ }
+}

@@ -1,0 +1,70 @@
+{
+  "agent_id": 60,
+  "lo": "LO 10-4",
+  "chapter": 10,
+  "title": "Demonstrate the gross profit method to estimate inventory",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-4",
+      "concept": "Convert markup on cost; gross profit estimation schedule; initial recognition of inventory casualty loss and salvage; insurance settlement JE; presentation of remaining inventory",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-4",
+      "concept": "Markup-on-cost conversion; GP estimation schedule; casualty write-off and insurance settlement (number-variant twin)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-4",
+      "concept": "Gross profit method for interim ending inventory; period-end adjusting JE under periodic inventory; theft/shrinkage estimate vs physical count; multi-class reminder when markups differ",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-4",
+      "concept": "Convert markup on cost and select estimated ending inventory under the gross profit method",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 10-4",
+      "concept": "Identify when the gross profit method must be applied separately by inventory class",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

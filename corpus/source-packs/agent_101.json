@@ -1,0 +1,46 @@
+{
+  "agent_id": 101,
+  "lo": "LO 16-11",
+  "chapter": 16,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-11",
+      "concept": "Initial recognition JE for bonds with detachable warrants (proportional method) and nondetachable contrast; subsequent discount amortization schedule; period-end interest JE; warrant exercise and expiration settlement; classification",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-11",
+      "concept": "Number-variant twin — initial recognition of bonds with detachable warrants (proportional); subsequent premium amortization schedule; period-end interest JE; warrant exercise/expiration; classification",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-11",
+      "concept": "Initial recognition of bonds with detachable warrants using the incremental method (only warrant FV known); subsequent discount schedule; period-end JE; warrant exercise/expiration; bond maturity settlement JE; nondetachable contrast; classification",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-11",
+      "concept": "Method selection for detachable warrants when only warrant FV is known (incremental vs proportional)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 16-11",
+      "concept": "Classification/method — nondetachable warrants: entire package proceeds to debt",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

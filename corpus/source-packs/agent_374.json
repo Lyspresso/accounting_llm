@@ -1,0 +1,71 @@
+{
+  "agent_id": 374,
+  "lo": "LO 19-7",
+  "chapter": 19,
+  "title": "Describe the components of comprehensive income and prepare a statement of comprehensive income and a statement of stockholders’ equity.",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-7",
+      "concept": "Full path—initial AFS recognition, period-end FV/tax/close AJs (emphasis), VA schedule, AFS disposal with reclassification, separate SCI, columnar SSE, equity BS section",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-7",
+      "concept": "Number-variant twin—SCI with AFS/CFH/FX OCI net of tax; period-end NI→RE and OCI→AOCI closes; SSE with stock issuance and dividends; equity BS",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-7",
+      "concept": "Period-end AJ emphasis—AFS VA flip from unrealized loss to gain with tax reallocation; CFH AJ; SCI; RE and AOCI reconciliations when AOCI starts debit; NI vs OCI classification map",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-7",
+      "concept": "Classification—OCI closes to AOCI; NI closes to retained earnings",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 19-7",
+      "concept": "Classification—unrealized AFS holding gains are OCI (net of tax), not net income",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

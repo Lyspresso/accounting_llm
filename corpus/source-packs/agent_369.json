@@ -1,0 +1,39 @@
+{
+  "agent_id": 369,
+  "lo": "LO 19-2",
+  "chapter": 19,
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-2",
+      "concept": "Initial par cash issuance with issue costs; noncash equipment (stock FV more clearly evident); proportional lump-sum common+preferred; year-end cash issue with accrued unpaid issue costs (period-end adjusting emphasis); Dec 31 services settlement; subsequent paid-in capital schedule; post-year settlement of payable",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-2",
+      "concept": "Number-variant twin: par cash with issue costs; noncash land (asset FV more clearly evident); proportional lump-sum; year-end cash issue with unpaid costs (period-end emphasis); period-end legal-services share settlement; subsequent PIC schedule; settlement of payable",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-2",
+      "concept": "True no-par vs stated-value no-par cash issuance; noncash with asset FV; incremental lump-sum allocation (only common FV known); period-end adjusting focus — no FV remeasurement AJE; stockholders' equity presentation of paid-in capital",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-2",
+      "concept": "Stock issue costs reduce PIC (not expense); noncash issuance measured at more clearly evident FV",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

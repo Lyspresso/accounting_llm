@@ -1,0 +1,73 @@
+{
+  "agent_id": 127,
+  "lo": "LO 21-4",
+  "chapter": 21,
+  "title": "Demonstrate the accounting for an error correction",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 21-4",
+      "concept": "Initial recognition of prior-period adjustment JEs for material errors; subsequent incorrect-vs-correct schedule; period-end adjusting JEs; settlement of previously unrecorded liability",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 21-4",
+      "concept": "Number-variant twin — initial PPA recognition JEs, cumulative schedule, period-end adjusting JEs after correction",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 21-4",
+      "concept": "Counterbalancing inventory errors — income-effect schedule; JE only if discovered before self-correction; restatement even when no JE after self-correction",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 21-4",
+      "concept": "Classification — error correction (PPA/restatement) vs change in estimate (prospective) vs change in principle (retrospective)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 21-4",
+      "concept": "Classification of error-correction mechanics — counterbalancing after self-correction; restatement without JE",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

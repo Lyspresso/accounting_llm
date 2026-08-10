@@ -1,0 +1,72 @@
+{
+  "agent_id": 64,
+  "lo": "LO 10-8",
+  "chapter": 10,
+  "title": "Estimate ending inventory using the average cost and conventional retail methods",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-8",
+      "concept": "Initial recognition of purchases/freight/returns; average cost retail inventory schedule; period-end COGS and inventory adjusting entries; comparison to conventional retail",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-8",
+      "concept": "Average cost retail inventory schedule and period-end inventory/COGS entries (all numbers changed)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-8",
+      "concept": "Conventional retail method with freight, returns, abnormal casualty, sales returns, employee discounts, and normal spoilage; casualty loss JE; LCM approximation and presentation",
+      "type": "multipart",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-8",
+      "concept": "Distinguish average cost retail vs conventional retail treatment of net markdowns in the cost-to-retail ratio",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 10-8",
+      "concept": "Conventional retail approximates lower of average cost or market",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

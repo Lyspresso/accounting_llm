@@ -1,0 +1,102 @@
+[
+ {
+  "account": "Income Tax Payable",
+  "lines": 173
+ },
+ {
+  "account": "Unrealized Gain or Loss\u2014Income",
+  "lines": 156
+ },
+ {
+  "account": "Unrealized Gain or Loss\u2014OCI",
+  "lines": 114
+ },
+ {
+  "account": "Research and Development Expense",
+  "lines": 74
+ },
+ {
+  "account": "Accumulated Depreciation\u2014Building",
+  "lines": 61
+ },
+ {
+  "account": "Construction in Process",
+  "lines": 61
+ },
+ {
+  "account": "Building",
+  "lines": 55
+ },
+ {
+  "account": "Fair Value Adjustment\u2014Equity Securities",
+  "lines": 47
+ },
+ {
+  "account": "Discount on Note Receivable",
+  "lines": 45
+ },
+ {
+  "account": "Customer List",
+  "lines": 45
+ },
+ {
+  "account": "Asset Retirement Obligation",
+  "lines": 41
+ },
+ {
+  "account": "Paid-In Capital in Excess of Par\u2014Preferred Stock",
+  "lines": 39
+ },
+ {
+  "account": "Paid-in Capital\u2014Stock Options",
+  "lines": 39
+ },
+ {
+  "account": "Income Summary",
+  "lines": 38
+ },
+ {
+  "account": "Depreciation Expense\u2014Equipment",
+  "lines": 36
+ },
+ {
+  "account": "Liability for Unrecognized Tax Benefits",
+  "lines": 36
+ },
+ {
+  "account": "Valuation Allowance for Deferred Tax Asset",
+  "lines": 35
+ },
+ {
+  "account": "Gain on Sale of Investment",
+  "lines": 33
+ },
+ {
+  "account": "Mandatorily Redeemable Preferred Stock Liability",
+  "lines": 33
+ },
+ {
+  "account": "Additional Paid-in Capital\u2014Common",
+  "lines": 33
+ },
+ {
+  "account": "Investment Income",
+  "lines": 32
+ },
+ {
+  "account": "Loss on Impairment",
+  "lines": 32
+ },
+ {
+  "account": "License",
+  "lines": 30
+ },
+ {
+  "account": "Software Intangible Asset",
+  "lines": 29
+ },
+ {
+  "account": "Allowance to Reduce Inventory to Market",
+  "lines": 29
+ }
+]

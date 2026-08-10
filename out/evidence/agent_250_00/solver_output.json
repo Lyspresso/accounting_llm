@@ -1,0 +1,132 @@
+{
+  "id": "agent_250#00",
+  "rounding_convention": "decimal.Decimal only, never floats. ROUND_HALF_UP applied per period: money to 2 dp (cents), share counts to whole shares rounded row-by-row in the weighted-average schedule then summed, EPS to 2 dp. Time weighting uses exact n/12 Decimal month fractions; no PV table factors apply to this item.",
+  "answers": [
+    {
+      "label": "c: October 1 2-for-1 stock split accounting treatment",
+      "value": "Memorandum entry only - no journal entry. A 2-for-1 stock split under the memorandum method doubles the shares outstanding and halves the par value per share ($2 par to $1 par); total contributed capital, retained earnings, and total stockholders' equity are unchanged, so no formal equity transfer is recorded. Memo: 100,000 -> 200,000 issued equivalent; 116,000 -> 232,000 shares outstanding; par $2.00 -> $1.00."
+    },
+    {
+      "label": "c: par value per common share after the split",
+      "value": 1
+    },
+    {
+      "label": "d: weighted-average common shares outstanding schedule (restatement 2.0 pre-split)",
+      "value": [
+        {
+          "dates": "Jan 1 - Mar 31",
+          "shares_outstanding": 100000,
+          "restatement": 2,
+          "fraction_of_year": "3/12",
+          "weighted_average_shares": 50000
+        },
+        {
+          "dates": "Mar 31 - Jul 1",
+          "shares_outstanding": 96000,
+          "restatement": 2,
+          "fraction_of_year": "3/12",
+          "weighted_average_shares": 48000
+        },
+        {
+          "dates": "Jul 1 - Oct 1",
+          "shares_outstanding": 116000,
+          "restatement": 2,
+          "fraction_of_year": "3/12",
+          "weighted_average_shares": 58000
+        },
+        {
+          "dates": "Oct 1 - Dec 31",
+          "shares_outstanding": 232000,
+          "restatement": 1,
+          "fraction_of_year": "3/12",
+          "weighted_average_shares": 58000
+        }
+      ]
+    },
+    {
+      "label": "d: weighted-average common shares outstanding, Year 1",
+      "value": 214000
+    },
+    {
+      "label": "e: preferred dividend claim (cumulative, undeclared - in arrears)",
+      "value": 8000
+    },
+    {
+      "label": "e: basic EPS numerator - net income available to common stockholders",
+      "value": 428000
+    },
+    {
+      "label": "e: basic EPS denominator - weighted-average common shares",
+      "value": 214000
+    },
+    {
+      "label": "e: basic earnings per share",
+      "value": 2
+    },
+    {
+      "label": "g: net income presented on the Year 1 income statement",
+      "value": 436000
+    },
+    {
+      "label": "g: basic earnings per share presented on the Year 1 income statement",
+      "value": 2
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "March 31 - repurchase 4,000 common shares for the treasury at $15 cash (cost method)",
+      "lines": [
+        {
+          "account": "Treasury Stock",
+          "debit": 60000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 60000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "July 1 - issue 20,000 shares of $2 par common stock for $12 cash per share",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 240000,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 40000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Common Stock",
+          "debit": 0,
+          "credit": 200000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "description": "December 31 - close Income Summary to Retained Earnings",
+      "lines": [
+        {
+          "account": "Income Summary",
+          "debit": 436000,
+          "credit": 0
+        },
+        {
+          "account": "Retained Earnings",
+          "debit": 0,
+          "credit": 436000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part c requires a memorandum note, not a journal entry, so no entry is included for it. Preferred dividend of $8,000 (5,000 x $20 x 8%) is deducted in the basic EPS numerator despite being undeclared because the preferred is cumulative and the dividend goes into arrears. The Oct 1 restatement factor of 2.0 is applied to all pre-split periods, so the Jul 1 - Oct 1 period (116,000 x 2 = 232,000) and the Oct 1 - Dec 31 period carry the same share count."
+}

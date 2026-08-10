@@ -1,0 +1,205 @@
+{
+  "id": "agent_053#01",
+  "rounding_convention": "decimal.Decimal money; ROUND_HALF_UP quantized to whole dollars per period (each year's reserve and \u0394 reserve rounded independently). Inputs are whole dollars, so no rounding difference arises; schedule closes exactly (gross \u2212 allowance = LIFO each year, and \u03a3 \u0394 reserve = Year 3 ending reserve).",
+  "answers": [
+    {
+      "label": "a: Year 1 \u2014 ending inventory at average cost (internal, gross)",
+      "value": 90000
+    },
+    {
+      "label": "a: Year 1 \u2014 ending inventory at LIFO (external, net)",
+      "value": 55000
+    },
+    {
+      "label": "a: Year 1 \u2014 opening LIFO reserve (allowance) balance",
+      "value": 0
+    },
+    {
+      "label": "a: Year 1 \u2014 required ending LIFO reserve (average cost \u2212 LIFO)",
+      "value": 35000
+    },
+    {
+      "label": "a: Year 1 \u2014 \u0394 reserve (change to record; positive = increase)",
+      "value": 35000
+    },
+    {
+      "label": "a: Year 2 \u2014 ending inventory at average cost (internal, gross)",
+      "value": 105000
+    },
+    {
+      "label": "a: Year 2 \u2014 ending inventory at LIFO (external, net)",
+      "value": 62000
+    },
+    {
+      "label": "a: Year 2 \u2014 opening LIFO reserve (allowance) balance",
+      "value": 35000
+    },
+    {
+      "label": "a: Year 2 \u2014 required ending LIFO reserve (average cost \u2212 LIFO)",
+      "value": 43000
+    },
+    {
+      "label": "a: Year 2 \u2014 \u0394 reserve (change to record; positive = increase)",
+      "value": 8000
+    },
+    {
+      "label": "a: Year 3 \u2014 ending inventory at average cost (internal, gross)",
+      "value": 98000
+    },
+    {
+      "label": "a: Year 3 \u2014 ending inventory at LIFO (external, net)",
+      "value": 70000
+    },
+    {
+      "label": "a: Year 3 \u2014 opening LIFO reserve (allowance) balance",
+      "value": 43000
+    },
+    {
+      "label": "a: Year 3 \u2014 required ending LIFO reserve (average cost \u2212 LIFO)",
+      "value": 28000
+    },
+    {
+      "label": "a: Year 3 \u2014 \u0394 reserve (change to record; positive = increase)",
+      "value": -15000
+    },
+    {
+      "label": "b: Dec 31 Year 1 \u2014 Dr Cost of Goods Sold",
+      "value": 35000
+    },
+    {
+      "label": "b: Dec 31 Year 1 \u2014 Cr Allowance to Reduce Inventory to LIFO",
+      "value": 35000
+    },
+    {
+      "label": "c: Dec 31 Year 2 \u2014 Dr Cost of Goods Sold",
+      "value": 8000
+    },
+    {
+      "label": "c: Dec 31 Year 2 \u2014 Cr Allowance to Reduce Inventory to LIFO",
+      "value": 8000
+    },
+    {
+      "label": "c: Dec 31 Year 3 \u2014 Dr Allowance to Reduce Inventory to LIFO (reserve declined)",
+      "value": 15000
+    },
+    {
+      "label": "c: Dec 31 Year 3 \u2014 Cr Cost of Goods Sold",
+      "value": 15000
+    },
+    {
+      "label": "c: Allowance balance after Dec 31 Year 2 entry",
+      "value": 43000
+    },
+    {
+      "label": "c: Allowance balance after Dec 31 Year 3 entry",
+      "value": 28000
+    },
+    {
+      "label": "d: BS Dec 31 Yr 3 \u2014 Inventory at average cost (gross, internal method)",
+      "value": 98000
+    },
+    {
+      "label": "d: BS Dec 31 Yr 3 \u2014 Less: Allowance to reduce inventory to LIFO",
+      "value": 28000
+    },
+    {
+      "label": "d: BS Dec 31 Yr 3 \u2014 Inventory at LIFO (net carrying amount)",
+      "value": 70000
+    },
+    {
+      "label": "e: Cumulative net effect on COGS, Years 1\u20133 (net DEBIT to COGS; = ending reserve)",
+      "value": 28000
+    },
+    {
+      "label": "e: Cumulative effect on pretax income, Years 1\u20133 (decrease)",
+      "value": 28000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "date": "December 31, Year 1",
+      "memo": "Create allowance to reduce inventory to LIFO",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 35000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to LIFO (LIFO reserve)",
+          "debit": 0,
+          "credit": 35000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 2",
+      "memo": "Adjust LIFO reserve from 35000 to 43000",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 8000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to LIFO (LIFO reserve)",
+          "debit": 0,
+          "credit": 8000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 3",
+      "memo": "Adjust LIFO reserve from 43000 to 28000",
+      "lines": [
+        {
+          "account": "Allowance to Reduce Inventory to LIFO (LIFO reserve)",
+          "debit": 15000,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 0,
+          "credit": 15000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "LIFO reserve = internal average-cost inventory \u2212 LIFO inventory: Yr1 90,000\u221255,000=35,000; Yr2 105,000\u221262,000=43,000; Yr3 98,000\u221270,000=28,000. \u0394 reserve: Yr1 +35,000 (from zero, first year of operations); Yr2 +8,000; Yr3 \u221215,000. Because adjustments are recognized in the accounts, each year-end entry adjusts the contra-asset 'Allowance to Reduce Inventory to LIFO' to its required balance with the offset to Cost of Goods Sold: Yr1 Dr COGS 35,000 / Cr Allowance 35,000; Yr2 Dr COGS 8,000 / Cr Allowance 8,000; Yr3 Dr Allowance 15,000 / Cr COGS 15,000 (reserve declined, so the entry reverses part of the allowance and credits COGS). Dec 31 Yr 3 balance sheet: inventory at average cost 98,000 less allowance 28,000 = 70,000 net LIFO, which ties to the given LIFO figure. Cumulative COGS effect Yr1\u2013Yr3 = 35,000 + 8,000 \u2212 15,000 = 28,000 net DEBIT to COGS (equals the ending reserve, since the reserve began at zero), i.e., cumulative pretax income is 28,000 lower under LIFO than under average cost. Schedule rows in extra_schedule.",
+  "extra_schedule": [
+    {
+      "year": 1,
+      "ending_inventory_average_cost": 90000,
+      "ending_inventory_lifo": 55000,
+      "required_ending_lifo_reserve": 35000,
+      "opening_lifo_reserve": 0,
+      "change_in_reserve": 35000,
+      "direction": "increase",
+      "cogs_effect": "Dr COGS 35000"
+    },
+    {
+      "year": 2,
+      "ending_inventory_average_cost": 105000,
+      "ending_inventory_lifo": 62000,
+      "required_ending_lifo_reserve": 43000,
+      "opening_lifo_reserve": 35000,
+      "change_in_reserve": 8000,
+      "direction": "increase",
+      "cogs_effect": "Dr COGS 8000"
+    },
+    {
+      "year": 3,
+      "ending_inventory_average_cost": 98000,
+      "ending_inventory_lifo": 70000,
+      "required_ending_lifo_reserve": 28000,
+      "opening_lifo_reserve": 43000,
+      "change_in_reserve": -15000,
+      "direction": "decrease",
+      "cogs_effect": "Cr COGS 15000"
+    }
+  ]
+}

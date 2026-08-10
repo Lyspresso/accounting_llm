@@ -1,0 +1,79 @@
+{
+  "agent_id": 12,
+  "lo": "LO 16-2",
+  "chapter": 16,
+  "title": "The issue price of bonds depends on the relation between the market and stated rates",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-2",
+      "concept": "Initial recognition — compute bond issue price from market vs stated rate and record issuance JE",
+      "type": "multipart",
+      "company": "Cascade Ridge Manufacturing Inc.",
+      "angles": ["initial_recognition_JE", "classification_presentation_or_disclosure"],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-2",
+      "concept": "Number-variant twin — recompute issue prices and balanced issuance JEs under changed face, rates, and term",
+      "type": "multipart",
+      "company": "Cedar Peak Logistics Corp.",
+      "angles": ["number_variant_twin", "initial_recognition_JE"],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-2",
+      "concept": "Bonds issued between interest dates — proceeds include accrued interest; first interest payment splits Interest Payable and Interest Expense",
+      "type": "JE",
+      "company": "Harborline Tools Co.",
+      "angles": ["initial_recognition_JE", "period_end_adjusting_JE"],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-2",
+      "concept": "Full debtor path for discount bonds — initial recognition, effective-interest schedule, period interest JE, month-end accrual, BS/IS presentation, maturity settlement",
+      "type": "schedule",
+      "company": "Meridian Forge Industries",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5A",
+      "lo": "LO 16-2",
+      "concept": "Classification of bond issue price from the relation of market rate to stated rate",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5B",
+      "lo": "LO 16-2",
+      "concept": "Carrying amount presentation immediately after discount issuance",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_012.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_012.json"
+}

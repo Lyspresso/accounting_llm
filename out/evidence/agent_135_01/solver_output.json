@@ -1,0 +1,223 @@
+{
+  "id": "agent_135#01",
+  "rounding_convention": "decimal.Decimal only, never float; every money figure quantized to the cent with ROUND_HALF_UP applied per period/per line as computed (round-per-period, not round-at-end). Bond purchased at par, so amortized cost stays $55,000 and no PV table factor / effective-interest amortization is involved; interest is the simple annual coupon par x 9% x 12/12.",
+  "answers": [
+    {
+      "label": "c: Dec 31 Y1 — amortized cost",
+      "value": 55000
+    },
+    {
+      "label": "c: Dec 31 Y1 — fair value",
+      "value": 52250
+    },
+    {
+      "label": "c: Dec 31 Y1 — cumulative unrealized holding gain (loss) = required FVA balance",
+      "value": -2750
+    },
+    {
+      "label": "c: Dec 31 Y1 — existing FVA balance",
+      "value": 0
+    },
+    {
+      "label": "c: Dec 31 Y1 — increase (decrease) to FVA needed",
+      "value": -2750
+    },
+    {
+      "label": "c: Dec 31 Y2 — amortized cost",
+      "value": 55000
+    },
+    {
+      "label": "c: Dec 31 Y2 — fair value",
+      "value": 57200
+    },
+    {
+      "label": "c: Dec 31 Y2 — cumulative unrealized holding gain (loss) = required FVA balance",
+      "value": 2200
+    },
+    {
+      "label": "c: Dec 31 Y2 — existing FVA balance",
+      "value": -2750
+    },
+    {
+      "label": "c: Dec 31 Y2 — increase (decrease) to FVA needed",
+      "value": 4950
+    },
+    {
+      "label": "c: Jan 1 Y3 sale date — amortized cost",
+      "value": 55000
+    },
+    {
+      "label": "c: Jan 1 Y3 sale date — fair value",
+      "value": 57750
+    },
+    {
+      "label": "c: Jan 1 Y3 sale date — cumulative unrealized holding gain (loss) = required FVA balance",
+      "value": 2750
+    },
+    {
+      "label": "c: Jan 1 Y3 sale date — existing FVA balance",
+      "value": 2200
+    },
+    {
+      "label": "c: Jan 1 Y3 sale date — increase (decrease) to FVA needed",
+      "value": 550
+    },
+    {
+      "label": "e: Year 1 income statement — Interest revenue",
+      "value": 4950
+    },
+    {
+      "label": "e: Year 1 statement of comprehensive income — Unrealized holding gain (loss) on AFS securities, OCI",
+      "value": -2750
+    },
+    {
+      "label": "e: Dec 31 Y1 balance sheet — Investment in available-for-sale securities (at fair value)",
+      "value": 52250
+    },
+    {
+      "label": "e: Dec 31 Y1 balance sheet — Accumulated other comprehensive income (loss)",
+      "value": -2750
+    },
+    {
+      "label": "h: Accumulated OCI, January 1, Year 3",
+      "value": 2200
+    },
+    {
+      "label": "h: Current period unrealized gain (loss) on AFS securities",
+      "value": 550
+    },
+    {
+      "label": "h: Reclassification adjustment for gain included in net income",
+      "value": -2750
+    },
+    {
+      "label": "h: Net change in AOCI during Year 3",
+      "value": -2200
+    },
+    {
+      "label": "h: Accumulated OCI, December 31, Year 3",
+      "value": 0
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "January 1, Year 1",
+      "description": "To record purchase of AFS bond investment at par",
+      "lines": [
+        {
+          "account": "Investment in AFS Securities—Oakmont Bonds",
+          "debit": 55000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 55000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "December 31, Year 1",
+      "description": "To record receipt of annual cash interest ($55,000 x 9%)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 4950,
+          "credit": 0
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 4950
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 1",
+      "description": "To adjust AFS investment to fair value (FV-OCI)",
+      "lines": [
+        {
+          "account": "Unrealized Gain or Loss—OCI",
+          "debit": 2750,
+          "credit": 0
+        },
+        {
+          "account": "Fair Value Adjustment—AFS",
+          "debit": 0,
+          "credit": 2750
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "December 31, Year 2",
+      "description": "To adjust AFS investment to fair value (FV-OCI)",
+      "lines": [
+        {
+          "account": "Fair Value Adjustment—AFS",
+          "debit": 4950,
+          "credit": 0
+        },
+        {
+          "account": "Unrealized Gain or Loss—OCI",
+          "debit": 0,
+          "credit": 4950
+        }
+      ]
+    },
+    {
+      "part": "g(i)",
+      "date": "January 1, Year 3",
+      "description": "To adjust AFS investment to fair value at the date of sale (FV-OCI)",
+      "lines": [
+        {
+          "account": "Fair Value Adjustment—AFS",
+          "debit": 550,
+          "credit": 0
+        },
+        {
+          "account": "Unrealized Gain or Loss—OCI",
+          "debit": 0,
+          "credit": 550
+        }
+      ]
+    },
+    {
+      "part": "g(ii)",
+      "date": "January 1, Year 3",
+      "description": "To record sale of the AFS bond investment, reclassify the holding gain from AOCI to net income, and eliminate the FVA balance",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 57750,
+          "credit": 0
+        },
+        {
+          "account": "Unrealized Gain or Loss—OCI",
+          "debit": 2750,
+          "credit": 0
+        },
+        {
+          "account": "Investment in AFS Securities—Oakmont Bonds",
+          "debit": 0,
+          "credit": 55000
+        },
+        {
+          "account": "Gain on Sale of Investment",
+          "debit": 0,
+          "credit": 2750
+        },
+        {
+          "account": "Fair Value Adjustment—AFS",
+          "debit": 0,
+          "credit": 2750
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Purchased for par, so there is no premium/discount and amortized cost is $55,000 at every measurement date; interest revenue equals the $4,950 annual cash coupon. FVA schedule signs: positive = debit FVA (cumulative holding gain), negative = credit FVA (cumulative holding loss). Sale-date fair value is taken as the $57,750 proceeds. Realized gain reclassified out of AOCI equals proceeds minus amortized cost, leaving ending Year 3 AOCI of zero."
+}

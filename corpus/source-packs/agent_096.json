@@ -1,0 +1,46 @@
+{
+  "agent_id": 96,
+  "lo": "LO 15-3",
+  "chapter": 15,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-3",
+      "concept": "Initial recognition of employee payroll withholdings and employer payroll taxes; period-end accruals for vacation, bonus, and defined contribution match; settlement remittance",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-3",
+      "concept": "Number-variant twin: payroll + employer taxes + remittance; vacation accrual and use schedule; sales-based bonus; DC match",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-3",
+      "concept": "Period-end adjusting JEs only; classification of compensated absences when payment is probable vs only possible; settlement of bonus and DC plan; presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-3",
+      "concept": "When to accrue a liability for compensated absences (ASC 710 four criteria)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-3",
+      "concept": "Measurement of defined contribution pension expense vs bonus/payroll liabilities",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,16 @@
+{
+ "id": "agent_053#01",
+ "pack_id": "agent_053",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "low",
+ "expected_verdict": "PASS",
+ "guards_rule": "reporting_volume_invariance",
+ "rationale": "order-dependent downgrade manufactured the flip",
+ "truth_as_of_hash": "68f3ae12b622c60cd6838394d534718291c7ad6eeaa8f095c5403386e57e082e",
+ "truth_as_of_bytes": "f40d20e0b19e9ffbe4136a814c67d30cdb4536cf9a669814591bb459fa1f28dd",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "reporting_volume (pre-v3.4 order-dependent rule)",
+ "cross_check_evidence": "Trim's substance identical to key: reserves 35,000/43,000/28,000; deltas +35,000/+8,000/-15,000; cumulative COGS 28,000; BS presentation 98,000-28,000=70,000."
+}

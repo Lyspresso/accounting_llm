@@ -1,0 +1,79 @@
+{
+  "agent_id": 251,
+  "lo": "LO 20-6",
+  "chapter": 20,
+  "title": "Compute EPS using if-converted method for convertible securities",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-6",
+      "concept": "Subsequent measurement schedules for convertible-bond interest and diluted EPS under the if-converted method; initial recognition at par; period-end interest JEs; full-year and mid-year if-converted weighting; conversion settlement JE; income-statement EPS presentation",
+      "type": "multipart",
+      "company": "Riverbend Precision Instruments Inc.",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-6",
+      "concept": "Number-variant twin: subsequent measurement interest schedule and if-converted diluted EPS reconciliation; initial recognition of convertible bonds at par; period-end interest JE; conversion settlement JE; EPS presentation",
+      "type": "multipart",
+      "company": "Copperpeak Materials Group",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-6",
+      "concept": "Subsequent measurement diluted EPS reconciliation for convertible preferred (if-converted); preferred issuance and dividend JEs; conversion settlement JE; diluted EPS when company has a net loss (antidilutive exclusion and disclosure)",
+      "type": "multipart",
+      "company": "Marigold Transit Holdings",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-6",
+      "concept": "Classification — which computational method applies to convertible securities; identifying dilutive vs antidilutive outcomes",
+      "type": "MC",
+      "company": "Trestle Co.",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_251.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_251.json"
+}

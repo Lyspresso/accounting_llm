@@ -1,0 +1,12 @@
+{
+ "agent_130#00": {
+  "defect": "KEY_INCOMPLETE",
+  "required_part": "b. Reconstruct the journal entries ... that explain all income statement accounts and all balance sheet account changes for the year.",
+  "evidence": "The key's own schedule of account changes shows Restricted cash 15,000 -> 25,000 (increase 10,000). None of the key's 26 journal-entry lines names Restricted Cash, so no entry explains that balance-sheet change, which Required (b) demands.",
+  "blind_solver_posted": "Dr Restricted Cash 10,000 / Cr Cash and Cash Equivalents 10,000",
+  "proposed_repair": "add the reclassification entry to part (b)",
+  "status": "PROPOSED - NOT APPLIED",
+  "note": "This modifies your question bank. Source is untouched pending your approval.",
+  "content_hash_at_proposal": "5cde8bc2d931b941e6e402af3fdcaa6512f89ce0b04ec239346c8b0981e5ec8c"
+ }
+}

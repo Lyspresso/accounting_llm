@@ -1,0 +1,46 @@
+{
+  "agent_id": 119,
+  "lo": "LO 20-5",
+  "chapter": 20,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-5",
+      "concept": "Initial recognition JEs for issuance, treasury buyback, preferred dividend, and large stock dividend; weighted-average shares schedule with retroactive stock-dividend factor; basic EPS and income-statement presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-5",
+      "concept": "Number-variant twin of weighted-average basic EPS with cash issuance, treasury buyback, cumulative preferred dividends, and stock-dividend retroactive restatement; supporting equity JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-5",
+      "concept": "Noncumulative preferred with no declaration (no numerator deduction); 2-for-1 stock split retroactive restatement and memo/settlement of legal capital; comparative prior-year EPS restatement; optional year-end treasury reissuance JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-5",
+      "concept": "Classification of denominator treatment — stock split/dividend (retroactive) versus cash share issuance (time-weighted)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-5",
+      "concept": "Classification of numerator adjustment — cumulative vs noncumulative preferred dividends",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,13 @@
+{
+ "id": "agent_336#00",
+ "harness_version": "trim-1",
+ "stem_hash": "08da35563740be97f654541a4bb25310e16c23ede1073431e76ea1b290533a52",
+ "pack_notes_version": "pack-2026-08-07a-PRE-NOTE",
+ "notes_present_at_generation": [],
+ "notes_governing": [],
+ "generated_by": "parity50.js",
+ "why": "hand-written rule block; grep confirms no LO 11-8 rule string",
+ "captured_at_write_time": false,
+ "reconstructed": true,
+ "retroactive_stamp_replaced": "pack-2026-08-07b"
+}

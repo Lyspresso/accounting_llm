@@ -1,0 +1,129 @@
+{
+ "id": "agent_150#02",
+ "rounding_convention": "decimal.Decimal throughout (no floats); present values computed at full 40-digit precision and reported figures quantized to whole dollars with ROUND_HALF_UP; percentages ROUND_HALF_UP to two decimals. No journal entries are required by the Required parts.",
+ "answers": [
+  {
+   "label": "a: Does the CloudRail contract contain a lease?",
+   "value": "No - it is a service contract, not a lease."
+  },
+  {
+   "label": "a: Reason (identified asset / substitution)",
+   "value": "There is no identified asset. CloudRail can fulfil the contract from any server in a large pool of identical servers and routinely substitutes them for its own economic benefit, and Redrock cannot prevent substitution, so the supplier's substitution right is substantive. Without an identified asset Redrock obtains no right to direct the use of, or to obtain substantially all the economic benefits from, a specific asset - it buys only a level of processing capacity. Costs are expensed as the service is received; no right-of-use asset or lease liability is recorded."
+  },
+  {
+   "label": "b: Option 1 - lease term as % of economic life (6/10)",
+   "value": 60.0
+  },
+  {
+   "label": "b: Option 1 - PV of lease payments ($40,000 ordinary annuity, 6 yrs, 6% IBR)",
+   "value": 196693
+  },
+  {
+   "label": "b: Option 1 - PV as % of fair value ($250,000)",
+   "value": 78.68
+  },
+  {
+   "label": "b: Option 1 - classification",
+   "value": "Operating"
+  },
+  {
+   "label": "b: Option 1 - why",
+   "value": "No transfer of ownership, no purchase option, asset not specialized; term test 60% < 75% and PV test 78.68% < 90%. No criterion met -> operating lease."
+  },
+  {
+   "label": "b: Option 2 - lease term as % of economic life (8/10)",
+   "value": 80.0
+  },
+  {
+   "label": "b: Option 2 - PV of lease payments ($40,000 ordinary annuity, 8 yrs, 6% IBR)",
+   "value": 248392
+  },
+  {
+   "label": "b: Option 2 - PV as % of fair value ($250,000)",
+   "value": 99.36
+  },
+  {
+   "label": "b: Option 2 - classification",
+   "value": "Finance"
+  },
+  {
+   "label": "b: Option 2 - why",
+   "value": "Term test met: 80% >= 75% of the 10-year economic life. The PV test is also met (99.36% >= 90%). Meeting either criterion makes it a finance lease."
+  },
+  {
+   "label": "b: Option 3 - lease term as % of economic life (6/10)",
+   "value": 60.0
+  },
+  {
+   "label": "b: Option 3 - PV of the six $42,000 payments (6 yrs, 5.5% implicit rate)",
+   "value": 209812
+  },
+  {
+   "label": "b: Option 3 - PV of the $15,000 purchase option (5.5%, 6 yrs)",
+   "value": 10879
+  },
+  {
+   "label": "b: Option 3 - total PV of lease payments incl. option",
+   "value": 220691
+  },
+  {
+   "label": "b: Option 3 - PV as % of fair value ($250,000)",
+   "value": 88.28
+  },
+  {
+   "label": "b: Option 3 - classification",
+   "value": "Finance"
+  },
+  {
+   "label": "b: Option 3 - why",
+   "value": "Purchase-option criterion is met: the $15,000 exercise price is far below the $55,000 expected fair value and Redrock is reasonably certain to exercise, so it is treated as a purchase. Note the other tests fail - term 60% < 75% and PV 88.28% < 90% (discounted at the known 5.5% implicit rate, which the lessee must use) - yet one criterion is enough, so this is a finance lease."
+  },
+  {
+   "label": "b: Option 4 - lease term as % of economic life (6/10)",
+   "value": 60.0
+  },
+  {
+   "label": "b: Option 4 - PV of lease payments ($45,000 annuity due, 6 yrs, 6% IBR)",
+   "value": 234556
+  },
+  {
+   "label": "b: Option 4 - PV as % of fair value ($250,000)",
+   "value": 93.82
+  },
+  {
+   "label": "b: Option 4 - classification",
+   "value": "Finance"
+  },
+  {
+   "label": "b: Option 4 - why",
+   "value": "Payments are at the beginning of each year (annuity due), which raises the PV. Term test fails (60% < 75%) but the PV test is met: 93.82% >= 90% of the $250,000 fair value -> finance lease."
+  },
+  {
+   "label": "c: Finance lease - Year 1 income statement presentation",
+   "value": "Two separate expenses. (1) Amortization of the right-of-use asset, straight-line over the lease term, reported in operating expenses; (2) Interest expense on the lease liability computed by the effective-interest method on the beginning balance, reported with interest expense (non-operating). Because interest is highest in Year 1 and declines, total Year 1 expense is FRONT-LOADED and falls over the lease term; it exceeds the cash rent in early years."
+  },
+  {
+   "label": "c: Operating lease - Year 1 income statement presentation",
+   "value": "A single straight-line 'lease expense' line, in operating expenses - total lease payments spread evenly over the term. Interest and amortization are not shown separately; the ROU asset amortization is the plug (straight-line lease cost less the period's interest). Expense is the SAME every year."
+  },
+  {
+   "label": "c: Illustrative Option 2 finance lease - Year 1 interest expense (6% x $248,392)",
+   "value": 14904
+  },
+  {
+   "label": "c: Illustrative Option 2 finance lease - Year 1 ROU amortization ($248,392 / 8 yrs)",
+   "value": 31049
+  },
+  {
+   "label": "c: Illustrative Option 2 finance lease - Year 1 total expense",
+   "value": 45952
+  },
+  {
+   "label": "c: Illustrative Option 2 - Year 1 single lease cost if it were operating",
+   "value": 40000
+  }
+ ],
+ "journal_entries": [],
+ "insufficient_info": false,
+ "notes": "Case A: substantive supplier substitution right over a pool of identical servers => no identified asset => no lease (service contract). Case B classification criteria applied: (1) transfer of ownership - none in any option; (2) purchase option reasonably certain to be exercised - only Option 3; (3) term >= 75% of economic life - only Option 2 (80%); (4) PV of lease payments >= 90% of fair value - Options 2 (99.36%) and 4 (93.82%); (5) specialized asset with no alternative use - none. Discount rate: IBR 6% where the implicit rate is unknown (Options 1, 2, 4); the known implicit rate 5.5% is used for Option 3. Option 3's payments include the $15,000 exercise price because exercise is reasonably certain. Result: Option 1 operating; Options 2, 3 and 4 finance. Annuity factors derived, not looked up: PVOA(6%,6)=4.917324, PVOA(6%,8)=6.209794, PVOA(5.5%,6)=4.995530 with PV$1(5.5%,6)=0.725246, PVAD(6%,6)=5.212364. Case C figures are labelled illustrative because no dollar amounts are given for the warehouse lease; the Year 1 rounded components (14,904 + 31,049) sum to 45,953 while the unrounded total rounds to 45,952 - the total shown is the rounded exact total."
+}

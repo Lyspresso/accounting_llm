@@ -1,0 +1,79 @@
+{
+ "id": "agent_002#03",
+ "rounding_convention": "decimal.Decimal, ROUND_HALF_UP to whole dollars once per period; bonds at par so amortized cost is constant (no amortization schedule to close)",
+ "answers": [
+  {
+   "label": "a: AFS debt investments recorded at transfer-date fair value (1/1/Y4 total)",
+   "value": "152100"
+  },
+  {
+   "label": "a: HTM carrying (amortized cost) amount removed on transfer",
+   "value": "150000"
+  },
+  {
+   "label": "a: net unrealized holding gain at transfer date credited to OCI",
+   "value": "2100"
+  },
+  {
+   "label": "b: effect of the transfer on net income",
+   "value": "0"
+  },
+  {
+   "label": "b: effect of the transfer on OCI (increase)",
+   "value": "2100"
+  },
+  {
+   "label": "c: 12/31/Y4 adjustment to Fair Value Adjustment (AFS) - credit / OCI debit",
+   "value": "1100"
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Debt Investments - Available-for-Sale (AFS)",
+     "debit": "150000",
+     "credit": "0"
+    },
+    {
+     "account": "Debt Investments - Held-to-Maturity (HTM)",
+     "debit": "0",
+     "credit": "150000"
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Fair Value Adjustment (AFS)",
+     "debit": "2100",
+     "credit": "0"
+    },
+    {
+     "account": "Unrealized Holding Gain or Loss - Equity (OCI)",
+     "debit": "0",
+     "credit": "2100"
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Unrealized Holding Gain or Loss - Equity (OCI)",
+     "debit": "1100",
+     "credit": "0"
+    },
+    {
+     "account": "Fair Value Adjustment (AFS)",
+     "debit": "0",
+     "credit": "1100"
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Transfer HTM->AFS is recorded at fair value on the transfer date; the entire transfer-date unrealized holding gain/loss goes to OCI and none to net income. Net transfer-date gain = 152100 FV - 150000 amortized cost = 2100 (Quill +6,300; Dune -4,200). b: NI effect $0; OCI increases $2,100 (AOCI credit 2,100). c: bonds were bought at par so amortized cost stays 150000; 12/31/Y4 total FV = 151000 (Quill 94,000 + Dune 57,000), so the Fair Value Adjustment account must show a 1000 debit balance; it already carries 2100 debit from the transfer, so it is credited 1100 with a 1100 debit to Unrealized Holding Gain or Loss - Equity. AOCI ends Year 4 at 1000 credit (net unrealized gain). Whole-dollar ROUND_HALF_UP; all amounts are exact dollars, nothing to force-close. d: Footnote should disclose (i) the reason for the change in intent - significant deterioration in the issuers' creditworthiness, which is one of the limited ASC 320 conditions that does not taint the remaining HTM portfolio; (ii) the amortized cost and fair value of the securities transferred and the date/circumstances of the transfer; (iii) the net unrealized holding gain of $2,100 recognized in OCI (accumulated OCI) at the transfer date, with no effect on net income; and (iv) the fact that the securities are now carried at fair value with subsequent changes reported in OCI."
+}

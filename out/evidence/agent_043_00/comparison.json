@@ -1,0 +1,32 @@
+{
+ "id": "agent_043#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 19,
+  "routed_stage2": 0,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "KEY_SILENT_DERIVED",
+   "label": "e: unamortized Discount on Note Receivable at December 31, Year 1",
+   "solver": 3167,
+   "from_key_components": [
+    563.0,
+    1240.0,
+    1364.0
+   ]
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Note Receivable"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Note Receivable"
+  }
+ ]
+}

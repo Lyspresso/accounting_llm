@@ -1,0 +1,73 @@
+{
+  "agent_id": 141,
+  "lo": "LO 14-9",
+  "chapter": 14,
+  "title": "Account for equity securities measured at FV-NI with fair value adjustments only at period-end",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-9",
+      "concept": "Subsequent measurement schedule for a multi-security equity portfolio under FV-NI with fair value adjustments only at period-end (full life cycle)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-9",
+      "concept": "Subsequent measurement schedule and period-end-only FV-NI (number-variant twin)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-9",
+      "concept": "Partial sale at allocated original cost; multi-period subsequent measurement schedule; classification and presentation",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-9",
+      "concept": "Classification of method — period-end-only FVA (LO 14-9) versus sale-date and period-end FVA (LO 14-4)",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

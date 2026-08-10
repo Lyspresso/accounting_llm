@@ -1,0 +1,36 @@
+{
+ "note_payable_singular_plural": {
+  "pair": [
+   "Note Payable",
+   "Notes Payable"
+  ],
+  "textbook": {
+   "Note Payable": 612,
+   "Notes Payable": 82,
+   "je_context": {
+    "Note Payable": 154,
+    "Notes Payable": 36
+   }
+  },
+  "ruling": "ALIAS_TO_CANONICAL",
+  "canonical": "Note Payable",
+  "why": "The book uses BOTH but is not balanced: 612 vs 82 overall, 154 vs 36 in journal-entry position - roughly 4:1 for the singular in both views. That is a dominant house form, not two equally sanctioned spellings, so the singular is canonical and the plural aliases to it. An equivalence pair would be the right call only if the counts were comparable."
+ },
+ "unrealized_holding_token": {
+  "pair": [
+   "Unrealized Gain or Loss",
+   "Unrealized Holding Gain/Loss"
+  ],
+  "ruling": "EQUIVALENCE_PAIR_FAMILY_LEVEL",
+  "canonical": null,
+  "why": "Neither bare string occurs. The corpus writes 27 distinct spellings, all carrying a destination suffix (--Income / --OCI) that is semantically load-bearing: --Income and --OCI are DIFFERENT accounts and must never merge. The token 'Holding' is the only difference within a destination (e.g. 'Unrealized Gain or Loss--OCI' 114 vs 'Unrealized Holding Gain--OCI' 9), so equivalence is declared FAMILY-LEVEL: same destination suffix and differing only by 'Holding' -> equivalent; different suffix -> distinct."
+ },
+ "rd_expense": {
+  "pair": [
+   "Research and Development Expense"
+  ],
+  "ruling": "CANONICAL_AS_HARVESTED",
+  "canonical": "Research and Development Expense",
+  "why": "'R&D Expense' was order-block shorthand and does not occur in the corpus; disregarded."
+ }
+}

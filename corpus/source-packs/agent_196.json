@@ -1,0 +1,63 @@
+{
+  "agent_id": 196,
+  "lo": "LO 10-9",
+  "chapter": 10,
+  "title": "Retail inventory methods have two other options: the LIFO retail method",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-9",
+      "concept": "Subsequent measurement schedule for LIFO retail — multi-year layer rollforward (build and liquidation), current-year cost ratios excluding BI, period-end inventory/COGS JEs, and sales settlement of merchandise",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-9",
+      "concept": "Number-variant twin of LIFO retail — EI at retail, separate base vs current cost ratios, layer schedule, COGS, and period-end JE (all numbers changed)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-9",
+      "concept": "Dollar-value LIFO retail subsequent measurement — convert EI to base-year retail, value layers with price index × cost ratio; multi-year layer increase then liquidation; adoption restatement from conventional retail; period-end COGS JE",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-9",
+      "concept": "Method classification — LIFO retail uses average-cost-style cost ratios (markdowns in ratio); dollar-value LIFO retail applies both price index and cost ratio to each layer",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

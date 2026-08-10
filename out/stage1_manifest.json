@@ -1,0 +1,1804 @@
+{
+ "pilot": 100,
+ "batch_size": 50,
+ "seed": 343,
+ "items": [
+  {
+   "id": "agent_319#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_319_01",
+   "pack_id": "agent_319",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 2,
+   "concepts": [
+    "LO 10-1",
+    "Number-variant twin \u2014 LCNRV by item/category/total and period-end allowance JE"
+   ]
+  },
+  {
+   "id": "agent_052#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_052_01",
+   "pack_id": "agent_052",
+   "type": "numeric",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 1,
+   "n_je_lines": 0,
+   "concepts": [
+    "LO 9-5",
+    "Number-variant twin \u2014 perpetual moving average, FIFO, and LIFO schedules; purchase recognition and LIFO COGS settlement JEs"
+   ]
+  },
+  {
+   "id": "agent_360#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_360_00",
+   "pack_id": "agent_360",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 14,
+   "concepts": [
+    "LO 15-5",
+    "Period-end adjusting JEs for probable/estimable litigation; recognized subsequent-event remeasurement dated year-end; settlement JE; assurance-type warranty period-end accruals and subsequent measurement liability schedule"
+   ]
+  },
+  {
+   "id": "agent_187#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_187_02",
+   "pack_id": "agent_187",
+   "type": "numeric",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 1,
+   "n_je_lines": 0,
+   "concepts": [
+    "LO 9-9",
+    "Period-end LIFO conversion adjusting JE; subsequent measurement ratio schedule under LIFO vs FIFO (LIFO reserve restatement); method effects when prices rise; peer comparison after adjustment"
+   ]
+  },
+  {
+   "id": "agent_196#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_196_01",
+   "pack_id": "agent_196",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 6,
+   "concepts": [
+    "LO 10-9",
+    "Number-variant twin of LIFO retail \u2014 EI at retail, separate base vs current cost ratios, layer schedule, COGS, and period-end JE (all numbers changed)"
+   ]
+  },
+  {
+   "id": "agent_097#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_097_01",
+   "pack_id": "agent_097",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 8,
+   "concepts": [
+    "LO 15-4",
+    "Number-variant twin \u2014 initial recognition JE; period-end interest accrual; subsequent interest schedule; maturity settlement; current presentation"
+   ]
+  },
+  {
+   "id": "agent_270#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_270_00",
+   "pack_id": "agent_270",
+   "type": "journal_entry",
+   "risk_score": 5,
+   "risk_why": [
+    "no citation",
+    "appendix",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 13,
+   "concepts": [
+    "LO 14-7",
+    "Initial recognition of trading debt securities; cash interest; **period-end-only** FV-NI adjusting JE (emphasis); disposal with realized G/L vs amortized cost; subsequent period-end FVA elimination"
+   ]
+  },
+  {
+   "id": "agent_254#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_254_00",
+   "pack_id": "agent_254",
+   "type": "journal_entry",
+   "risk_score": 8,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "pack FORMAT_DRIFT",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 8,
+   "concepts": [
+    "LO 20-9",
+    "Initial recognition of convertible securities; subsequent measurement ranking and sequential diluted EPS schedules; period-end preferred dividend and bond interest JEs; dual face presentation of basic and diluted EPS"
+   ]
+  },
+  {
+   "id": "agent_186#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_186_02",
+   "pack_id": "agent_186",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 2,
+   "concepts": [
+    "LO 9-8",
+    "Subsequent measurement with multi-year layers then **liquidation** (newest layers drop first); period-end JE when LIFO reserve **decreases** (layer settlement / COGS credit)"
+   ]
+  },
+  {
+   "id": "agent_223#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_223_00",
+   "pack_id": "agent_223",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 28,
+   "concepts": [
+    "LO 13-7",
+    "Initial recognition of R&D (expense vs capitalize multi-use assets); full straight-line **subsequent measurement schedules** for multi-use equipment and multi-project intangible (amortization classified as R&D); period-end adjusting JEs; disposal of multi-use equipment; Year-1 R&D disclosure total"
+   ]
+  },
+  {
+   "id": "agent_391#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_391_02",
+   "pack_id": "agent_391",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 20,
+   "concepts": [
+    "LO 22-6",
+    "Period-end adjusting worksheet JEs (WC, depreciation, bond premium amortization); disposal of equipment; initial recognition of bonds at a discount; early bond retirement (settlement) \u2014 classify each lower-half amount O/I/F"
+   ]
+  },
+  {
+   "id": "agent_248#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_248_01",
+   "pack_id": "agent_248",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 12,
+   "concepts": [
+    "LO 20-3",
+    "Number-variant twin: subsequent measurement liability schedule; initial recognition of noncompensatory and compensatory ESPP issuances; period-end withholding; settlement JE; total compensation expense"
+   ]
+  },
+  {
+   "id": "agent_080#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_080_01",
+   "pack_id": "agent_080",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 8,
+   "concepts": [
+    "LO 12-4",
+    "Number-variant twin: initial PPE recognition; SL schedule; prospective change in useful life and residual; updated period-end dep; disposal with loss"
+   ]
+  },
+  {
+   "id": "agent_119#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_119_00",
+   "pack_id": "agent_119",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 9,
+   "concepts": [
+    "LO 20-5",
+    "Initial recognition JEs for issuance, treasury buyback, preferred dividend, and large stock dividend; weighted-average shares schedule with retroactive stock-dividend factor; basic EPS and income-statement presentation"
+   ]
+  },
+  {
+   "id": "agent_373#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_373_00",
+   "pack_id": "agent_373",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 9,
+   "concepts": [
+    "LO 19-6",
+    "Initial recognition (small at FV vs large at par); period-end equity presentation of dividends distributable; distribution settlement; true split (no JE); subsequent equity schedule"
+   ]
+  },
+  {
+   "id": "agent_297#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_297_01",
+   "pack_id": "agent_297",
+   "type": "numeric",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 1,
+   "n_je_lines": 0,
+   "concepts": [
+    "LO 22-3",
+    "Prepare cash flows from investing activities \u2014 all numbers changed (period-end depreciation feeds AD schedule; PPE/investment/loan rollforwards)"
+   ]
+  },
+  {
+   "id": "agent_309#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_309_01",
+   "pack_id": "agent_309",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 14,
+   "concepts": [
+    "LO 8-9",
+    "Number-variant twin \u2014 initial recognition, period-end interest, DCF impairment AJE, subsequent measurement schedule, period-end effective-interest accruals, settlement"
+   ]
+  },
+  {
+   "id": "agent_392#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_392_00",
+   "pack_id": "agent_392",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 26,
+   "concepts": [
+    "LO 22-8",
+    "Reconstruct entries from comparative BS and IS; subsequent measurement schedules; period-end depreciation AJE (noncash emphasis); complete cash T-account; direct-method SCF"
+   ]
+  },
+  {
+   "id": "agent_283#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_283_02",
+   "pack_id": "agent_283",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 15,
+   "concepts": [
+    "LO 17-12",
+    "Recognized sale-leaseback with **payments in advance**: initial sale + ROU/liability + first payment; pure **period-end adjusting JE** (no cash) each December 31; settlement when ROU/liability reach zero"
+   ]
+  },
+  {
+   "id": "agent_029#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_029_01",
+   "pack_id": "agent_029",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 11,
+   "concepts": [
+    "LO 18-4",
+    "Multiple tax differences \u2014 number-variant twin of Q1 (all amounts and rate changed)"
+   ]
+  },
+  {
+   "id": "agent_189#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_189_00",
+   "pack_id": "agent_189",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 14,
+   "concepts": [
+    "LO 10-2",
+    "Individual-item LCM measurement schedule; multi-period subsequent allowance rollforward (emphasis); period-end adjusting JEs; disposal close of allowance on sale"
+   ]
+  },
+  {
+   "id": "agent_219#05",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_219_05",
+   "pack_id": "agent_219",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 13,
+   "concepts": [
+    "LO 13-3",
+    "Integrated subsequent measurement schedule across acquisition, amortization, impairment, post-impairment amortization, and cash disposal"
+   ]
+  },
+  {
+   "id": "agent_008#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_008_02",
+   "pack_id": "agent_008",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 5,
+   "concepts": [
+    "LO 14-7",
+    "subsequent_measurement_schedule; disposal_maturity_or_settlement_JE; period_end_adjusting_JE; classification_presentation_or_disclosure"
+   ]
+  },
+  {
+   "id": "agent_363#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_363_00",
+   "pack_id": "agent_363",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 15,
+   "concepts": [
+    "LO 16-11",
+    "Proportional allocation of detachable bond-with-warrants proceeds; subsequent straight-line premium amortization schedule; period-end interest adjusting JE; warrant exercise and expiration; bond maturity"
+   ]
+  },
+  {
+   "id": "agent_277#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_277_00",
+   "pack_id": "agent_277",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 1,
+   "n_je_lines": 14,
+   "concepts": [
+    "LO 16-5",
+    "Bonds issued at a premium \u2014 initial recognition; effective-interest amortization schedule; **period-end adjusting JE** when year-end falls between interest dates; maturity settlement; BS/IS presentation"
+   ]
+  },
+  {
+   "id": "agent_291#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_291_02",
+   "pack_id": "agent_291",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 4,
+   "concepts": [
+    "LO 18-4",
+    "Period-end adjusting JE when beginning DTL settles, new taxable and deductible temporary differences originate, and **both** nontaxable and nondeductible permanent items affect the rate reconciliation; net BS presentation"
+   ]
+  },
+  {
+   "id": "agent_220#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_220_01",
+   "pack_id": "agent_220",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 7,
+   "concepts": [
+    "LO 13-4",
+    "Number-variant twin: subsequent measurement schedule for a finite-life license; prospective useful-life shortening; period-end JE; disposal with loss"
+   ]
+  },
+  {
+   "id": "agent_151#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_151_01",
+   "pack_id": "agent_151",
+   "type": "journal_entry",
+   "risk_score": 6,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 1,
+   "n_je_lines": 10,
+   "concepts": [
+    "LO 17-11",
+    "Purchase-option reassessment remeasurement (number-variant twin of Q1) \u2014 subsequent interest and schedule path"
+   ]
+  },
+  {
+   "id": "agent_274#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_274_02",
+   "pack_id": "agent_274",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 1,
+   "n_je_lines": 17,
+   "concepts": [
+    "LO 16-2",
+    "Premium when market < stated; effective-interest premium amortization; **period-end adjusting JE for a premium bond**; bonds issued between interest dates; classification of net carrying amount"
+   ]
+  },
+  {
+   "id": "agent_204#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_204_02",
+   "pack_id": "agent_204",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 13,
+   "concepts": [
+    "LO 11-8",
+    "Contributed equipment at FV; partial-year depreciation schedule; period-end adjusting JEs; disposal at scrap value"
+   ]
+  },
+  {
+   "id": "agent_251#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_251_00",
+   "pack_id": "agent_251",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 9,
+   "concepts": [
+    "LO 20-6",
+    "Subsequent measurement schedules for convertible-bond interest and diluted EPS under the if-converted method; initial recognition at par; period-end interest JEs; full-year and mid-year if-converted weighting; conversion settlement JE; income-statement EPS presentation"
+   ]
+  },
+  {
+   "id": "agent_143#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_143_01",
+   "pack_id": "agent_143",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 1,
+   "n_je_lines": 14,
+   "concepts": [
+    "LO 16-2",
+    "Number-variant twin: recompute issue price when market > stated; effective-interest subsequent measurement schedule; interest JEs; maturity settlement; net presentation"
+   ]
+  },
+  {
+   "id": "agent_306#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_306_01",
+   "pack_id": "agent_306",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 16,
+   "concepts": [
+    "LO 8-6",
+    "Same path as Q1 \u2014 initial secured-borrowing JE, loan schedule, **period-end interest/remittance adjusting JEs**, final settlement \u2014 with all different amounts and rate"
+   ]
+  },
+  {
+   "id": "agent_115#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_115_01",
+   "pack_id": "agent_115",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 10,
+   "concepts": [
+    "LO 20-10",
+    "Number-variant twin: four-year liability SARs schedule including a year with **negative** compensation expense; settlement"
+   ]
+  },
+  {
+   "id": "agent_280#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_280_00",
+   "pack_id": "agent_280",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 10,
+   "concepts": [
+    "LO 16-8",
+    "Initial recognition of convertible debt as straight debt; subsequent SL premium amortization schedule; **period-end adjusting JE** for interest and amortization (emphasis); partial conversion into equity at book value (no G/L); presentation"
+   ]
+  },
+  {
+   "id": "agent_060#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_060_00",
+   "pack_id": "agent_060",
+   "type": "numeric",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 1,
+   "n_je_lines": 0,
+   "concepts": [
+    "LO 10-4",
+    "Convert markup on cost; gross profit estimation schedule; initial recognition of inventory casualty loss and salvage; insurance settlement JE; presentation of remaining inventory"
+   ]
+  },
+  {
+   "id": "agent_305#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_305_01",
+   "pack_id": "agent_305",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 13,
+   "concepts": [
+    "LO 8-5",
+    "Number-variant twin \u2014 0% / 10% NR for inventory; note-year schedule; period-end adjusting with October issuance and December 31 YE (3/9 allocation); maturity settlement"
+   ]
+  },
+  {
+   "id": "agent_132#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_132_02",
+   "pack_id": "agent_132",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 8,
+   "concepts": [
+    "LO 14-1",
+    "HTM purchased at a premium \u2014 subsequent measurement schedule; period-end premium amortization JE; sale before maturity with realized G/L in NI; classification implications of early sale"
+   ]
+  },
+  {
+   "id": "agent_322#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_322_00",
+   "pack_id": "agent_322",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 15,
+   "concepts": [
+    "LO 10-4",
+    "Period-end adjusting JEs for interim inventory under the gross profit method (emphasis); markup-on-cost conversion; subsequent measurement schedule; casualty write-off and insurance settlement"
+   ]
+  },
+  {
+   "id": "agent_381#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_381_02",
+   "pack_id": "agent_381",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 9,
+   "concepts": [
+    "LO 20-5",
+    "Weighted-average shares with **retroactive restatement** for a large stock dividend; mid-year issuance and buyback JEs; large stock dividend capitalization JE; noncumulative preferred dividends (subtract only when declared); basic EPS schedule"
+   ]
+  },
+  {
+   "id": "agent_221#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_221_00",
+   "pack_id": "agent_221",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 16,
+   "concepts": [
+    "LO 13-5",
+    "Initial recognition JE (goodwill residual + indefinite brand/IPR&D); multi-year subsequent carrying-amount schedule (zero amortization emphasis); period-end finite amort only; disposal of indefinite-life brand"
+   ]
+  },
+  {
+   "id": "agent_136#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_136_01",
+   "pack_id": "agent_136",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 11,
+   "concepts": [
+    "LO 14-4",
+    "Initial recognition + FVA schedule + period-end JE + disposal (number twin; loss then partial recovery)"
+   ]
+  },
+  {
+   "id": "agent_296#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_296_00",
+   "pack_id": "agent_296",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 14,
+   "concepts": [
+    "LO 22-2",
+    "Reconstruct **period-end adjusting JEs** (emphasis), disposal and bond-settlement JEs, supporting T-account schedules, and the full **indirect-method operating activities** section"
+   ]
+  },
+  {
+   "id": "agent_092#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_092_00",
+   "pack_id": "agent_092",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 28,
+   "concepts": [
+    "LO 13-7",
+    "Initial recognition of R&D costs (expense vs capitalize multi-use assets); Year-1 R&D depreciation; multi-year depreciation schedule; disposal of multi-use equipment; R&D expense disclosure total"
+   ]
+  },
+  {
+   "id": "agent_183#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_183_01",
+   "pack_id": "agent_183",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 1,
+   "n_je_lines": 8,
+   "concepts": [
+    "LO 9-5",
+    "Number-variant twin \u2014 perpetual subsequent measurement schedules under MA, FIFO, and LIFO; purchase recognition; LIFO sale settlement JEs"
+   ]
+  },
+  {
+   "id": "agent_327#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_327_00",
+   "pack_id": "agent_327",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 16,
+   "concepts": [
+    "LO 10-9",
+    "LIFO retail multi-year layer schedule; initial purchase recognition; sales disposal of retail pool; **period-end adjusting JEs** each year (including layer liquidation year)"
+   ]
+  },
+  {
+   "id": "agent_145#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_145_02",
+   "pack_id": "agent_145",
+   "type": "journal_entry",
+   "risk_score": 2,
+   "risk_why": [
+    "no citation"
+   ],
+   "batch": 1,
+   "n_je_lines": 14,
+   "concepts": [
+    "LO 16-4",
+    "Straight-line interest method for discount amortization (constant amort. per period); interest JE pattern; maturity when discount fully amortized; contrast with effective interest"
+   ]
+  },
+  {
+   "id": "agent_352#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_352_01",
+   "pack_id": "agent_352",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 22,
+   "concepts": [
+    "LO 13-5",
+    "Number-variant twin \u2014 initial recognition JE for indefinite-life trademark and goodwill residual; period-end crypto FV AJ; subsequent-measurement schedule (no amort); disposal JE"
+   ]
+  },
+  {
+   "id": "agent_279#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_279_01",
+   "pack_id": "agent_279",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 18,
+   "concepts": [
+    "LO 16-7",
+    "Number-variant twin \u2014 effective-interest life cycle with 50% early extinguishment at 103 after period-end update"
+   ]
+  },
+  {
+   "id": "agent_184#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_184_02",
+   "pack_id": "agent_184",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 1,
+   "n_je_lines": 6,
+   "concepts": [
+    "LO 9-6",
+    "Subsequent measurement schedule from a nonzero beginning allowance; period-end adjusting JEs; reverse when reserve falls; in-accounts vs outside-the-books conversion; COGS bridge"
+   ]
+  },
+  {
+   "id": "agent_201#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_201_00",
+   "pack_id": "agent_201",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 9,
+   "concepts": [
+    "LO 11-5",
+    "Initial capitalization of ARO at PV into plant asset; full subsequent measurement (accretion) schedule under effective interest; period-end depreciation and accretion adjusting JEs; settlement of ARO with loss"
+   ]
+  },
+  {
+   "id": "agent_131#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_131_02",
+   "pack_id": "agent_131",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 14,
+   "concepts": [
+    "LO 13-8",
+    "Internal-use software (preliminary vs application development; training expensed); cloud computing hosting as service contract \u2014 capitalize implementation, expense subscription, amortize over hosting term; period-end adjusting JEs; classification/presentation of cloud implementation costs"
+   ]
+  },
+  {
+   "id": "agent_194#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_194_01",
+   "pack_id": "agent_194",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 4,
+   "concepts": [
+    "LO 10-7",
+    "Number-variant twin \u2014 multi-year subsequent measurement schedule for understated ending inventory; flipped correcting JEs; two-year net $0"
+   ]
+  },
+  {
+   "id": "agent_150#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_150_02",
+   "pack_id": "agent_150",
+   "type": "numeric",
+   "risk_score": 6,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 2,
+   "n_je_lines": 0,
+   "concepts": [
+    "LO 17-1",
+    "Identify whether a contract is a lease (control vs service / substitution); apply all five classification criteria across scenarios; determine finance vs operating; classification-driven presentation differences"
+   ]
+  },
+  {
+   "id": "agent_026#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_026_02",
+   "pack_id": "agent_026",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 8,
+   "concepts": [
+    "LO 18-1",
+    "Classify a portfolio of common book-tax differences; subsequent measurement schedule for accelerated tax depreciation; period-end settlement JE"
+   ]
+  },
+  {
+   "id": "agent_326#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_326_02",
+   "pack_id": "agent_326",
+   "type": "journal_entry",
+   "risk_score": 8,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "pack FORMAT_DRIFT",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 8,
+   "concepts": [
+    "LO 10-8",
+    "Conventional retail subsequent measurement schedule (markdowns excluded from cost ratio); complicating factors; **period-end EI/COGS JE**; physical inventory settlement (shrinkage) JE"
+   ]
+  },
+  {
+   "id": "agent_188#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_188_00",
+   "pack_id": "agent_188",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 16,
+   "concepts": [
+    "LO 10-1",
+    "Subsequent measurement schedule for LCNRV allowance (multi-year rollforward); initial recognition of write-down; period-end adjusting JEs; disposal close of allowance"
+   ]
+  },
+  {
+   "id": "agent_022#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_022_01",
+   "pack_id": "agent_022",
+   "type": "numeric",
+   "risk_score": 6,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 2,
+   "n_je_lines": 0,
+   "concepts": [
+    "LO 17-2",
+    "Number-variant twin \u2014 initial recognition, 4-year schedule, period-end and maturity JEs"
+   ]
+  },
+  {
+   "id": "agent_019#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_019_00",
+   "pack_id": "agent_019",
+   "type": "journal_entry",
+   "risk_score": 5,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation"
+   ],
+   "batch": 2,
+   "n_je_lines": 24,
+   "concepts": [
+    "LO 17-1",
+    "Lease identification & classification \u2192 finance-lease initial recognition and subsequent measurement"
+   ]
+  },
+  {
+   "id": "agent_032#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_032_01",
+   "pack_id": "agent_032",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 7,
+   "concepts": [
+    "LO 18-7",
+    "NOL carryforward initial recognition and Year-2 utilization with valuation allowance (number-variant twin of Q1)"
+   ]
+  },
+  {
+   "id": "agent_385#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_385_00",
+   "pack_id": "agent_385",
+   "type": "journal_entry",
+   "risk_score": 6,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 23,
+   "concepts": [
+    "LO 20-9",
+    "Initial recognition JEs for common, convertible preferred, and two series of convertible bonds; period-end adjusting JEs that finalize interest, tax, and preferred claim (emphasis); ranking by earnings per incremental share; sequential diluted EPS schedule with one antidilutive exclusion; period-end closing; dual EPS presentation; post-period conversion settlement JE"
+   ]
+  },
+  {
+   "id": "agent_135#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_135_01",
+   "pack_id": "agent_135",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 15,
+   "concepts": [
+    "LO 14-3",
+    "number_variant_twin \u2014 same AFS FV-OCI path (purchase, interest, FVA schedule, sale reclass) with all new amounts"
+   ]
+  },
+  {
+   "id": "agent_016#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_016_00",
+   "pack_id": "agent_016",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 11,
+   "concepts": [
+    "LO 16-6",
+    "Initial recognition JE + effective-interest schedule + period-end interest JE + maturity settlement"
+   ]
+  },
+  {
+   "id": "agent_214#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_214_02",
+   "pack_id": "agent_214",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 4,
+   "concepts": [
+    "LO 12-7",
+    "Period-end multi-asset recoverability (pass vs fail); combined impairment JE only for failed assets; **subsequent measurement schedule** with nonzero residual on the written-down asset"
+   ]
+  },
+  {
+   "id": "agent_053#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_053_01",
+   "pack_id": "agent_053",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 6,
+   "concepts": [
+    "LO 9-6",
+    "Number-variant twin \u2014 create LIFO reserve, multi-year \u0394-reserve schedule, period-end JEs, and BS net presentation"
+   ]
+  },
+  {
+   "id": "agent_285#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_285_00",
+   "pack_id": "agent_285",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 4,
+   "concepts": [
+    "LO 17-3",
+    "Classify as operating; measure ROU/liability; liability + ROU schedules; initial JEs; **period-end single lease-expense adjusting JE**; maturity; BS/IS presentation"
+   ]
+  },
+  {
+   "id": "agent_206#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_206_02",
+   "pack_id": "agent_206",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 8,
+   "concepts": [
+    "LO 12-1",
+    "Double-declining-balance subsequent measurement schedule with residual-value floor (final-year plug); SYD and units-of-production Year 1 expense; period-end dep JE; disposal after three years under DDB"
+   ]
+  },
+  {
+   "id": "agent_167#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_167_01",
+   "pack_id": "agent_167",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 9,
+   "concepts": [
+    "LO 22-4",
+    "Number-variant twin \u2014 subsequent measurement schedules for bonds/discount, installment note, lease, dividends payable; stock issuance; bond retirement; treasury stock; financing section"
+   ]
+  },
+  {
+   "id": "agent_268#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_268_00",
+   "pack_id": "agent_268",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 8,
+   "concepts": [
+    "LO 14-5",
+    "Period-end equity-method adjusting entries (share of NI, excess depreciation on basis difference, dividends as return of investment) and investment account rollforward"
+   ]
+  },
+  {
+   "id": "agent_240#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_240_00",
+   "pack_id": "agent_240",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 10,
+   "concepts": [
+    "LO 19-4",
+    "Subsequent measurement schedule for mandatorily redeemable preferred stock (fixed amount and fixed date); initial liability recognition; period-end interest accretion; maturity settlement"
+   ]
+  },
+  {
+   "id": "agent_366#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_366_02",
+   "pack_id": "agent_366",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 17,
+   "concepts": [
+    "LO 18-8",
+    "Period-end adjusting JEs for UTB remeasurement and interest/penalties (emphasis); fails-MLTN initial recognition; settlement/resolution JEs for full loss, full sustain, measured partial, and unexpected partial"
+   ]
+  },
+  {
+   "id": "agent_382#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_382_00",
+   "pack_id": "agent_382",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 11,
+   "concepts": [
+    "LO 20-6",
+    "Period-end adjusting JE for convertible-bond interest accrual (emphasis); initial recognition at par; subsequent-measurement interest schedule; basic and diluted EPS under the if-converted method (full year and mid-year issuance); conversion settlement JE after paying accrued interest; income-statement EPS presentation"
+   ]
+  },
+  {
+   "id": "agent_107#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_107_02",
+   "pack_id": "agent_107",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 10,
+   "concepts": [
+    "LO 19-2",
+    "Lump-sum (combined) stock issuance \u2014 proportional allocation when both FVs known; incremental allocation when only one FV known; classification of allocated amounts to CS/PS and PIC; settlement of proceeds among classes"
+   ]
+  },
+  {
+   "id": "agent_328#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_328_02",
+   "pack_id": "agent_328",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 13,
+   "concepts": [
+    "LO 11-1",
+    "Self-constructed asset cost accumulation in CIP; completion JE with **fair-value ceiling** (cost > FV \u2192 loss); **period-end depreciation adjusting JE** (emphasis); subsequent CV schedule; disposal settlement"
+   ]
+  },
+  {
+   "id": "agent_130#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_130_00",
+   "pack_id": "agent_130",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 26,
+   "concepts": [
+    "LO 22-8",
+    "Reconstruct all cash and noncash entries from comparative balance sheets and the income statement; complete the cash T-account; prepare the statement of cash flows (direct method for operating activities)"
+   ]
+  },
+  {
+   "id": "agent_356#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_356_00",
+   "pack_id": "agent_356",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 26,
+   "concepts": [
+    "LO 15-1",
+    "Period-end adjusting JE (emphasis) \u2014 reclassify embedded sales taxes from Sales; initial recognition of AP (gross method + freight); settlement within discount; remittance of sales taxes; subsequent measurement schedules"
+   ]
+  },
+  {
+   "id": "agent_086#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_086_01",
+   "pack_id": "agent_086",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 21,
+   "concepts": [
+    "LO 13-1",
+    "Number-variant twin: classify items; initial recognition JEs; amortization schedule; period-end adjusting JE"
+   ]
+  },
+  {
+   "id": "agent_193#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_193_02",
+   "pack_id": "agent_193",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 2,
+   "n_je_lines": 2,
+   "concepts": [
+    "LO 10-6",
+    "Prospective application when changing **to LIFO** (no JE; base-layer schedule); retrospective average\u2192FIFO when FIFO EI is lower; presentation of cumulative effect"
+   ]
+  },
+  {
+   "id": "agent_367#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_367_02",
+   "pack_id": "agent_367",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 7,
+   "concepts": [
+    "LO 18-9",
+    "Disposal (settlement) journal entry for a discontinued component; intraperiod tax allocation when continuing operations includes a permanent difference and an originating taxable temporary difference; period-end tax adjusting JE and income statement"
+   ]
+  },
+  {
+   "id": "agent_301#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_301_00",
+   "pack_id": "agent_301",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 17,
+   "concepts": [
+    "LO 8-1",
+    "Initial recognition JEs for borrowing/compensating balance and cash equivalents; subsequent measurement schedule; period-end NSF reclass; maturity/settlement of commercial paper; Dec 31 classification totals"
+   ]
+  },
+  {
+   "id": "agent_043#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_043_00",
+   "pack_id": "agent_043",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 19,
+   "concepts": [
+    "LO 8-5",
+    "Initial recognition of 0% stated / 10% market noncurrent NR for inventory; effective-interest amortization; interim YE allocation; face settlement"
+   ]
+  },
+  {
+   "id": "agent_056#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_056_02",
+   "pack_id": "agent_056",
+   "type": "numeric",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 2,
+   "n_je_lines": 0,
+   "concepts": [
+    "LO 9-9",
+    "Period-end LIFO conversion adjusting JE; inventory method effects on turnover, days, and GP%; LIFO-reserve adjustment for peer comparability; disclosure/presentation of method and reserve"
+   ]
+  },
+  {
+   "id": "agent_134#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_134_01",
+   "pack_id": "agent_134",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 13,
+   "concepts": [
+    "LO 14-2",
+    "number_variant_twin \u2014 same TS FV-NI path with all new amounts"
+   ]
+  },
+  {
+   "id": "agent_250#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_250_00",
+   "pack_id": "agent_250",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 7,
+   "concepts": [
+    "LO 20-5",
+    "Weighted-average common shares schedule with mid-year buyback and issuance and retroactive 2-for-1 stock-split restatement; numerator reduction for cumulative preferred (undeclared); initial recognition JE for cash common issuance; treasury repurchase settlement JE; period-end closing of net income"
+   ]
+  },
+  {
+   "id": "agent_113#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_113_00",
+   "pack_id": "agent_113",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 2,
+   "concepts": [
+    "LO 19-8",
+    "Initial recognition JE for appropriation of retained earnings; multi-year book value per share, payout, ROE, and P/E schedule; preferred claim for common equity; equity disclosure list"
+   ]
+  },
+  {
+   "id": "agent_161#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_161_02",
+   "pack_id": "agent_161",
+   "type": "journal_entry",
+   "risk_score": 6,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 2,
+   "concepts": [
+    "LO 18-5",
+    "Classification / presentation \u2014 offset DTA, valuation allowance, and DTL into one noncurrent net amount; period-end VA-only adjusting JE"
+   ]
+  },
+  {
+   "id": "agent_333#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_333_02",
+   "pack_id": "agent_333",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 16,
+   "concepts": [
+    "LO 11-6",
+    "**Period-end adjusting JE emphasis** after life-extending electrical upgrade (reduction of accumulated depreciation method vs capitalization alternative); prohibition on accruing planned major maintenance; equipment substitution with partial-period dep. update through disposal date"
+   ]
+  },
+  {
+   "id": "agent_164#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_164_02",
+   "pack_id": "agent_164",
+   "type": "journal_entry",
+   "risk_score": 6,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 5,
+   "concepts": [
+    "LO 22-1",
+    "Period-end cash (cash + equivalents + restricted cash) reconciliation; edge-case classification (trade note vs nontrade; trading securities; interest vs principal); gross presentation requirement; disposal of patent and settlement of finance-lease principal"
+   ]
+  },
+  {
+   "id": "agent_160#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_160_01",
+   "pack_id": "agent_160",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 11,
+   "concepts": [
+    "LO 18-4",
+    "Number-variant twin \u2014 multi-year DTL/DTA schedules, period-end JEs, and rate recon with all amounts and rate changed"
+   ]
+  },
+  {
+   "id": "agent_320#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_320_02",
+   "pack_id": "agent_320",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 6,
+   "concepts": [
+    "LO 10-2",
+    "**Period-end adjusting JE emphasis** \u2014 compute designated market from ceiling/floor/RC edge cases; record Year 1 write-down two ways; Year 2 allowance true-up after full turnover of prior layer; BS/IS presentation"
+   ]
+  },
+  {
+   "id": "agent_303#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_303_02",
+   "pack_id": "agent_303",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 18,
+   "concepts": [
+    "LO 8-3",
+    "subsequent_measurement_schedule; **period_end_adjusting_JE** (emphasis); disposal_maturity_or_settlement_JE; classification/presentation"
+   ]
+  },
+  {
+   "id": "agent_007#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_007_02",
+   "pack_id": "agent_007",
+   "type": "numeric",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 2,
+   "n_je_lines": 0,
+   "concepts": [
+    "LO 14-6",
+    "Intent-to-sell AFS impairment (full write-down to FV), subsequent measurement / disposal after impairment"
+   ]
+  },
+  {
+   "id": "agent_230#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_230_00",
+   "pack_id": "agent_230",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 9,
+   "concepts": [
+    "LO 15-6",
+    "Subsequent measurement schedule for multi-year warranty liability; initial recognition of probable litigation; period-end warranty and contingency accruals; settlement JE; commitment/contingency disclosures; current and quick ratios before/after Year-2 accruals"
+   ]
+  },
+  {
+   "id": "agent_336#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_336_00",
+   "pack_id": "agent_336",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 17,
+   "concepts": [
+    "LO 11-9",
+    "Full lifecycle for a **nonmonetary exchange with commercial substance** (here a **loss** after residual-aware SL dep) \u2014 initial recognition, subsequent measurement schedule, **period-end adjusting JE** to update AD through exchange date (emphasis), exchange JE, subsequent dep on new asset, later disposal"
+   ]
+  },
+  {
+   "id": "agent_295#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_295_02",
+   "pack_id": "agent_295",
+   "type": "journal_entry",
+   "risk_score": 7,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 14,
+   "concepts": [
+    "LO 22-1",
+    "Period-end cash (cash + equivalents + restricted cash) reconciliation; period-end adjusting JEs (interest accrual, dividend declaration) vs cash settlement; edge-case classification (trading securities; finance-lease principal; noncash land-for-note); disposal of building and maturity settlement of bonds; solve for beginning cash"
+   ]
+  },
+  {
+   "id": "agent_002#03",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_002_03",
+   "pack_id": "agent_002",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 8,
+   "concepts": [
+    "LO 14-10",
+    "HTM \u2192 AFS transfer at fair value through OCI (no NI); subsequent AFS FVA period-end JE"
+   ]
+  },
+  {
+   "id": "agent_302#01",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_302_01",
+   "pack_id": "agent_302",
+   "type": "journal_entry",
+   "risk_score": 4,
+   "risk_why": [
+    "no citation",
+    "empty standard_context",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 18,
+   "concepts": [
+    "LO 8-2",
+    "Number-variant twin: gross-method initial recognition; early/late settlement; **period-end adjusting JE** for expected discounts; AR/allowance schedule; post-YE settlement"
+   ]
+  },
+  {
+   "id": "agent_120#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_120_02",
+   "pack_id": "agent_120",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 7,
+   "concepts": [
+    "LO 20-6",
+    "If-converted method for convertible preferred stock; preferred issuance and conversion JEs; diluted EPS when company has a net loss (antidilutive exclusion and disclosure)"
+   ]
+  },
+  {
+   "id": "agent_229#00",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_229_00",
+   "pack_id": "agent_229",
+   "type": "journal_entry",
+   "risk_score": 6,
+   "risk_why": [
+    "standard-sensitive",
+    "no citation",
+    "empty standard_context"
+   ],
+   "batch": 2,
+   "n_je_lines": 10,
+   "concepts": [
+    "LO 15-5",
+    "Assurance-type warranty loss contingency \u2014 initial recognition of sales and estimated liability; subsequent measurement schedule (warranty liability rollforward); period-end adjusting accruals; settlement of claims against the liability"
+   ]
+  },
+  {
+   "id": "agent_263#02",
+   "dir": "/Users/lyspressopro/Developer/LedgerRush/staged-work/qbverify/out/evidence/agent_263_02",
+   "pack_id": "agent_263",
+   "type": "journal_entry",
+   "risk_score": 3,
+   "risk_why": [
+    "no citation",
+    "unknown account"
+   ],
+   "batch": 2,
+   "n_je_lines": 10,
+   "concepts": [
+    "LO 14-1",
+    "HTM purchased at a **premium**; effective-interest amortization reducing investment and interest revenue; period-end interest JE on an interest date; BS presentation; sale before maturity; maturity settlement"
+   ]
+  }
+ ]
+}

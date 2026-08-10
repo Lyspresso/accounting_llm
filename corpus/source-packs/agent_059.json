@@ -1,0 +1,63 @@
+{
+  "agent_id": 59,
+  "lo": "LO 10-3",
+  "chapter": 10,
+  "title": "Demonstrate the relative sales value method to allocate costs to inventory",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-3",
+      "concept": "Relative sales value allocation of a lump-sum produce purchase; initial recognition JE; partial sale disposal; ending inventory schedule",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-3",
+      "concept": "Number-variant twin of relative sales value allocation, initial recognition, disposal, and ending inventory",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-3",
+      "concept": "Relative sales value for real-estate lot inventory; sales/COGS disposal; period-end carrying amounts; BS classification/presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-3",
+      "concept": "Identify relative sales value allocation and compute allocated cost for one inventory group",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

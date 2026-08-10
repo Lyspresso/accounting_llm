@@ -1,0 +1,168 @@
+{
+ "id": "agent_214#02",
+ "rounding_convention": "decimal.Decimal throughout (no floats); ROUND_HALF_UP to the cent applied per period, with the final year of the Asset B schedule trued up so the ending carrying amount equals the $10,000 residual",
+ "answers": [
+  {
+   "label": "a: Asset A (Precision press) carrying amount at 12/31/Yr3",
+   "value": 300000.0
+  },
+  {
+   "label": "a: Asset A recoverability test (undiscounted $350000.00 vs carrying $300000.00)",
+   "value": "Passes recoverability test - not impaired"
+  },
+  {
+   "label": "a: Asset A impairment loss",
+   "value": 0.0
+  },
+  {
+   "label": "a: Asset B (Curing oven) carrying amount at 12/31/Yr3",
+   "value": 500000.0
+  },
+  {
+   "label": "a: Asset B recoverability test (undiscounted $420000.00 vs carrying $500000.00)",
+   "value": "Fails recoverability test - impaired"
+  },
+  {
+   "label": "a: Asset B impairment loss",
+   "value": 190000.0
+  },
+  {
+   "label": "a: Asset C (Assembly conveyor) carrying amount at 12/31/Yr3",
+   "value": 750000.0
+  },
+  {
+   "label": "a: Asset C recoverability test (undiscounted $750000.00 vs carrying $750000.00)",
+   "value": "Passes recoverability test - not impaired"
+  },
+  {
+   "label": "a: Asset C impairment loss",
+   "value": 0.0
+  },
+  {
+   "label": "a: Total impairment loss recognized 12/31/Yr3",
+   "value": 190000.0
+  },
+  {
+   "label": "b: Dec 31, Year 3 entry - debit Loss on Impairment",
+   "value": 190000.0
+  },
+  {
+   "label": "b: Dec 31, Year 3 entry - credit Accumulated Depreciation (Asset B, Curing oven)",
+   "value": 190000.0
+  },
+  {
+   "label": "c: Asset B carrying amount after write-down (new depreciable base)",
+   "value": 310000.0
+  },
+  {
+   "label": "c: Asset B depreciable cost (new basis less $10000.00 residual)",
+   "value": 300000.0
+  },
+  {
+   "label": "c: Asset B annual straight-line depreciation, Years 4-8",
+   "value": 60000.0
+  },
+  {
+   "label": "c: Year 4 depreciation expense (Asset B)",
+   "value": 60000.0
+  },
+  {
+   "label": "c: Year 4 accumulated depreciation since write-down (Asset B)",
+   "value": 60000.0
+  },
+  {
+   "label": "c: Year 4 ending carrying amount (Asset B)",
+   "value": 250000.0
+  },
+  {
+   "label": "c: Year 5 depreciation expense (Asset B)",
+   "value": 60000.0
+  },
+  {
+   "label": "c: Year 5 accumulated depreciation since write-down (Asset B)",
+   "value": 120000.0
+  },
+  {
+   "label": "c: Year 5 ending carrying amount (Asset B)",
+   "value": 190000.0
+  },
+  {
+   "label": "c: Year 6 depreciation expense (Asset B)",
+   "value": 60000.0
+  },
+  {
+   "label": "c: Year 6 accumulated depreciation since write-down (Asset B)",
+   "value": 180000.0
+  },
+  {
+   "label": "c: Year 6 ending carrying amount (Asset B)",
+   "value": 130000.0
+  },
+  {
+   "label": "c: Year 7 depreciation expense (Asset B)",
+   "value": 60000.0
+  },
+  {
+   "label": "c: Year 7 accumulated depreciation since write-down (Asset B)",
+   "value": 240000.0
+  },
+  {
+   "label": "c: Year 7 ending carrying amount (Asset B)",
+   "value": 70000.0
+  },
+  {
+   "label": "c: Year 8 depreciation expense (Asset B)",
+   "value": 60000.0
+  },
+  {
+   "label": "c: Year 8 accumulated depreciation since write-down (Asset B)",
+   "value": 300000.0
+  },
+  {
+   "label": "c: Year 8 ending carrying amount (Asset B)",
+   "value": 10000.0
+  },
+  {
+   "label": "c: Asset B carrying amount at end of Year 8 (equals residual)",
+   "value": 10000.0
+  },
+  {
+   "label": "d: Why fair value below carrying amount can still mean no impairment loss",
+   "value": "Impairment is a two-step test for assets held for use. Step 1 (recoverability) compares the carrying amount with the TOTAL UNDISCOUNTED future cash flows expected from use and disposal; a loss is recorded only if the carrying amount exceeds that undiscounted amount. Only if step 1 fails is the loss measured in step 2 as carrying amount less fair value. Fair value is a discounted, market-based exit price, so it is normally lower than undiscounted cash flows. Assets A and C recover their carrying amounts on an undiscounted basis ($350,000 > $300,000; $750,000 = $750,000), so they pass step 1 and no loss is recognized even though each has a fair value below carrying amount."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Loss on Impairment",
+     "debit": 190000.0,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Curing oven (Asset B)",
+     "debit": 0,
+     "credit": 190000.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Depreciation Expense - Curing Oven (Asset B)",
+     "debit": 60000.0,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Curing Oven (Asset B)",
+     "debit": 0,
+     "credit": 60000.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Recoverability test fails only when carrying amount EXCEEDS undiscounted future cash flows. Asset A: $350,000 > $300,000 - passes. Asset C: $750,000 = $750,000 - equal, so it passes (no loss). Asset B: $420,000 < $500,000 - fails, loss = $500,000 - $310,000 fair value = $190,000. Part b is a single combined entry covering the only impaired asset (B); the credit is to Accumulated Depreciation, leaving the asset at historical cost with a new $310,000 book basis. Asset B then depreciates ($310,000 - $10,000) / 5 = $60,000 per year for Years 4-8, ending at the $10,000 residual. Assets A and C keep their pre-existing depreciation policies and are unaffected."
+}

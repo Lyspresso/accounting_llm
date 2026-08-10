@@ -1,0 +1,18 @@
+{
+ "id": "agent_186#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 2,
+  "routed_stage2": 0,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Allowance to Reduce FIFO Inventory to LIFO Basis"
+  }
+ ]
+}

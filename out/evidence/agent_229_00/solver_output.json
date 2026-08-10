@@ -1,0 +1,133 @@
+{
+  "id": "agent_229#00",
+  "rounding_convention": "decimal.Decimal only, no floats; ROUND_HALF_UP quantized to the cent per period (round-per-period, not round-at-end); no PV discounting applies to this item",
+  "answers": [
+    {
+      "label": "d: Year 1 warranty liability beginning balance",
+      "value": 0
+    },
+    {
+      "label": "d: Year 1 warranty accrual (1.5% of sales)",
+      "value": 36000
+    },
+    {
+      "label": "d: Year 1 actual claims paid (charged to liability)",
+      "value": 12000
+    },
+    {
+      "label": "d: Year 1 warranty liability ending balance",
+      "value": 24000
+    },
+    {
+      "label": "d: Year 2 warranty liability beginning balance",
+      "value": 24000
+    },
+    {
+      "label": "d: Year 2 warranty accrual (1.5% of sales)",
+      "value": 42000
+    },
+    {
+      "label": "d: Year 2 actual claims paid (charged to liability)",
+      "value": 48000
+    },
+    {
+      "label": "d: Year 2 warranty liability ending balance",
+      "value": 18000
+    },
+    {
+      "label": "d: Year 3 warranty liability beginning balance",
+      "value": 18000
+    },
+    {
+      "label": "d: Year 3 warranty accrual (1.5% of sales)",
+      "value": 45000
+    },
+    {
+      "label": "d: Year 3 actual claims paid (charged to liability)",
+      "value": 55000
+    },
+    {
+      "label": "d: Year 3 warranty liability ending balance",
+      "value": 8000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 2400000,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 2400000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "lines": [
+        {
+          "account": "Warranty Expense",
+          "debit": 36000,
+          "credit": 0
+        },
+        {
+          "account": "Warranty Liability",
+          "debit": 0,
+          "credit": 36000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "lines": [
+        {
+          "account": "Warranty Liability",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "lines": [
+        {
+          "account": "Warranty Expense",
+          "debit": 42000,
+          "credit": 0
+        },
+        {
+          "account": "Warranty Liability",
+          "debit": 0,
+          "credit": 42000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "lines": [
+        {
+          "account": "Warranty Liability",
+          "debit": 55000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 55000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part g (narrative, no figure): An assurance-type warranty is not a separate performance obligation because it only guarantees the product performs as promised rather than transferring an additional distinct service, so no part of the transaction price is deferred; instead the future repair cost is a probable and reasonably estimable obligation arising from the past sale, so it is accrued as a loss contingency (Warranty Expense / Warranty Liability) in the period of sale under the matching principle. Part f: the Year 3 beginning liability plus the Year 3 accrual covers the 55,000 paid, so the whole payment is charged to the liability with no direct expense."
+}

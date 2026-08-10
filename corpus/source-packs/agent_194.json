@@ -1,0 +1,74 @@
+{
+  "agent_id": 194,
+  "lo": "LO 10-7",
+  "chapter": 10,
+  "title": "Explain accounting treatment of inventory errors",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-7",
+      "concept": "Multi-year subsequent measurement schedule of inventory error effects; same-period correcting JE; PPA before self-correction; no entry after self-correction (settlement)",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-7",
+      "concept": "Number-variant twin — multi-year subsequent measurement schedule for understated ending inventory; flipped correcting JEs; two-year net $0",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-7",
+      "concept": "Period-end cutoff effect analysis; subsequent measurement when consecutive EI errors exist; noncounterbalancing purchase-as-equipment correcting JEs",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-7",
+      "concept": "When the subsequent measurement schedule shows self-correction; classify counterbalancing vs noncounterbalancing",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "subsequent_measurement_schedule"
+      ],
+      "n_mc": 2,
+      "answers": ["C", "D"],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

@@ -1,0 +1,74 @@
+{
+  "agent_id": 136,
+  "lo": "LO 14-4",
+  "chapter": 14,
+  "title": "Account for equity securities measured at FV-NI with fair value adjustments at sale date and period-end",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-4",
+      "concept": "Initial recognition (cost + commissions); subsequent measurement / FVA schedule; period-end adjusting JE; disposal at FV-NI; classification/presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-4",
+      "concept": "Initial recognition + FVA schedule + period-end JE + disposal (number twin; loss then partial recovery)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-4",
+      "concept": "Subsequent measurement schedule with partial disposal; sale-date FV-NI on shares sold; period-end FVA on remaining portfolio; dividend on shares held",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-4",
+      "concept": "Classification / presentation of unrealized holding G/L on equity securities measured at FV-NI",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-4",
+      "concept": "Disposal JE mechanics—adjust FVA first, then eliminate investment and FVA",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

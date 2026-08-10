@@ -1,0 +1,55 @@
+{
+  "agent_id": 115,
+  "lo": "LO 20-10",
+  "chapter": 20,
+  "title": "Describe accounting for stock appreciation rights",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-10",
+      "concept": "Initial recognition and multi-year subsequent measurement of cash-settled (liability) SARs; period-end adjusting entries; cash settlement at exercise",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-10",
+      "concept": "Number-variant twin: four-year liability SARs schedule including a year with negative compensation expense; settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-10",
+      "concept": "Equity classification when employer controls settlement; straight-line expense without remeasurement; cash settlement with catch-up expense; stock settlement reclassification",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-10",
+      "concept": "ASC 718 classification: employee cash settlement feature → liability; employer stock settlement control → equity",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-10",
+      "concept": "Settlement JE after liability is fully remeasured to expected cash",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

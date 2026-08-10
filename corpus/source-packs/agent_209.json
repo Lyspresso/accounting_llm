@@ -1,0 +1,69 @@
+{
+  "agent_id": 209,
+  "lo": "LO 12-2",
+  "chapter": 12,
+  "title": "Account for depreciation in partial periods",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-2",
+      "concept": "Subsequent measurement schedule for partial-period depreciation under SL, SYD, DDB, and UOP; initial recognition JE; Year 1 period-end adjusting JE",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-2",
+      "concept": "Number-variant twin — subsequent measurement SL schedule under exact fractional months; policy-convention comparison schedule; initial recognition and period-end JEs",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-2",
+      "concept": "Period-end/through-date partial depreciation before disposal; disposal JE (gain); policy-convention Year-1 amounts for mid-period purchase",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-2",
+      "concept": "Identify correct partial-period depreciation under the half-year convention",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-2",
+      "concept": "Prorate first SYD layer when asset is acquired mid-year",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,65 @@
+{
+  "agent_id": 213,
+  "lo": "LO 12-6",
+  "chapter": 12,
+  "critical": false,
+  "title": "Account for errors in reporting property, plant, and equipment",
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-6",
+      "concept": "Depreciation system error (useful life entered wrong); subsequent measurement schedule of incorrect vs correct depreciation; prior period adjustment; period-end adjusting JE after correction; disposal using corrected book value",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-6",
+      "concept": "Number-variant twin: ordinary repairs improperly capitalized; multi-year subsequent measurement schedule of depreciation on the error; prior period adjustment removing cost, AD, and net RE overstatement",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-6",
+      "concept": "Capital improvement incorrectly expensed (initial recognition error); subsequent measurement schedule of missing depreciation; prior period adjustment to capitalize cost, catch up AD, and restore RE; period-end adjusting JE after correction",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-6",
+      "concept": "Classification of PPE error correction path; measurement of net PPA when depreciation was double-recorded and partly omitted",
+      "type": "MC",
+      "ok": true,
+      "n_mc": 2,
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ]
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

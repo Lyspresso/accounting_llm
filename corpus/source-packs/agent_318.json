@@ -1,0 +1,71 @@
+{
+  "agent_id": 318,
+  "lo": "LO 9-9",
+  "chapter": 9,
+  "title": "Perform inventory ratio analysis and interpretation",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-9",
+      "concept": "Period-end adjusting journal entry under the periodic system that establishes ending inventory and residual COGS; initial recognition of purchases/freight; AP settlement and sales; multi-year inventory turnover, days in inventory, and gross profit % with interpretation",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-9",
+      "concept": "Number-variant twin of periodic purchase recognition, settlements, period-end COGS adjusting JE, inventory bridge, and multi-year inventory ratio analysis",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-9",
+      "concept": "Period-end LIFO conversion adjusting JE; subsequent measurement ratio schedule under LIFO vs FIFO (LIFO reserve restatement); method effects when prices rise; peer comparison after adjustment",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-9",
+      "concept": "Classification of cost-flow method effects on inventory turnover when acquisition costs are rising",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 9-9",
+      "concept": "Correct computation of inventory turnover and average days in inventory",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,82 @@
+{
+  "agent_id": 167,
+  "lo": "LO 22-4",
+  "chapter": 22,
+  "title": "Prepare the financing activities section of the statement of cash flows",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-4",
+      "concept": "Subsequent measurement / rollforward schedules for bonds, installment note, finance lease, and dividends payable; stock issuance JE; bond retirement settlement; discount amortization; financing section",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-4",
+      "concept": "Number-variant twin — subsequent measurement schedules, stock issuance, bond retirement, treasury stock, financing section (all numbers changed)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-4",
+      "concept": "Installment note life cycle — initial recognition, multi-year amortization schedule, period-end payment JEs, principal as financing outflow each year",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-4",
+      "concept": "Classify cash flows — financing vs operating vs investing vs noncash",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 22-4",
+      "concept": "Compute net cash from financing activities from mixed transactions",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

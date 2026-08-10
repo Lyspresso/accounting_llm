@@ -1,0 +1,99 @@
+{
+  "id": "agent_119#00",
+  "rounding_convention": "decimal.Decimal throughout, no floats. ROUND_HALF_UP applied once at the end. Journal-entry amounts and the weighted-average share schedule are exact integers (no rounding occurs). Basic EPS is computed from the unrounded numerator and unrounded weighted-average denominator and quantized once to the nearest cent with ROUND_HALF_UP. No PV factors in this item.",
+  "answers": [
+    {
+      "label": "b: weighted-average common shares outstanding for 2025",
+      "value": 167400
+    },
+    {
+      "label": "c: income available to common stockholders",
+      "value": 366000
+    },
+    {
+      "label": "c: basic earnings per share",
+      "value": 2.19
+    },
+    {
+      "label": "d: basic EPS as presented on the 2025 income statement (single line, 'Earnings per common share')",
+      "value": 2.19
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "2025-04-01",
+      "description": "Issued 30,000 common shares for cash at $14",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 420000,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 60000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Common",
+          "debit": 0,
+          "credit": 360000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "date": "2025-07-01",
+      "description": "Purchased 6,000 treasury shares at $16 (cost method)",
+      "lines": [
+        {
+          "account": "Treasury Stock",
+          "debit": 96000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 96000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "date": "2025-09-30",
+      "description": "Declared and paid full annual cumulative preferred dividend (8,000 sh x $25 par x 6%)",
+      "lines": [
+        {
+          "account": "Retained Earnings (Cash Dividends - Preferred)",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "date": "2025-11-01",
+      "description": "Declared and distributed 20% large common stock dividend (144,000 sh outstanding x 20% = 28,800 sh) recorded at $2 par",
+      "lines": [
+        {
+          "account": "Retained Earnings (Stock Dividends)",
+          "debit": 57600,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 57600
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "PART b SCHEDULE: Jan 1 - Apr 1: 120,000 x 1.2 x 3/12 = 36,000; Apr 1 - Jul 1: 150,000 x 1.2 x 3/12 = 45,000; Jul 1 - Nov 1: 144,000 x 1.2 x 4/12 = 57,600; Nov 1 - Dec 31: 172,800 x 1 x 2/12 = 28,800; total = 167,400 shares. PART d PRESENTATION: a simple capital structure presents ONE EPS figure on the face of the income statement, immediately below net income: 'Earnings per common share .......... $2.19'. Because there are no discontinued operations, no per-share subtotals are required, and diluted EPS is not presented. PART e EXPLANATION: the April 1 cash issuance brought new assets into the company, so those shares are weighted only from April 1 forward - the company had that capital for 9 months, not 12. The November 1 stock dividend brought in nothing: it merely re-sliced the same pie, so every shareholder's proportionate interest and the company's resources are unchanged. Weighting the new shares from November 1 would depress EPS without any economic cause and would destroy comparability with prior years, so the 1.20 factor is applied retroactively to every period before the dividend, as if those shares had always been outstanding. STOCK-DIVIDEND BASE: the 28,800 dividend shares are 20% of the 144,000 shares OUTSTANDING on Nov 1; treasury shares do not receive dividends. The $18 Nov 1 market price is a distractor - a LARGE stock dividend is recorded at par ($2), not at fair value. Preferred is cumulative and the full annual claim was declared and paid, so exactly one year of preferred dividends is subtracted in the numerator; no arrearages exist."
+}

@@ -1,0 +1,134 @@
+{
+  "id": "agent_248#01",
+  "rounding_convention": "decimal.Decimal only, never floats; ROUND_HALF_UP quantized to $0.01 per period / per computed line (round-per-period, not round-at-end); whole shares only via floor division of accumulated withholdings by the purchase price; Paid-in Capital in Excess of Par is the balancing credit",
+  "answers": [
+    {
+      "label": "a: Plan N classification",
+      "value": "Noncompensatory"
+    },
+    {
+      "label": "a: Plan C classification",
+      "value": "Compensatory"
+    },
+    {
+      "label": "d: Liability-ESPP balance after January withholding",
+      "value": 11400
+    },
+    {
+      "label": "d: Liability-ESPP balance after February withholding",
+      "value": 22800
+    },
+    {
+      "label": "d: Liability-ESPP balance after March withholding",
+      "value": 34200
+    },
+    {
+      "label": "d: Liability-ESPP balance after April withholding",
+      "value": 45600
+    },
+    {
+      "label": "d: Liability-ESPP balance after May withholding",
+      "value": 57000
+    },
+    {
+      "label": "d: Liability-ESPP balance at June 30 (total accumulated)",
+      "value": 68400
+    },
+    {
+      "label": "d: shares issued June 30 to the payroll-funded Plan N cohort",
+      "value": 1800
+    },
+    {
+      "label": "f: total Year 1 compensation expense from these ESPP transactions",
+      "value": 9600
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "description": "September 30, Year 1 - issuance of 3,000 shares under Plan N (noncompensatory employee stock purchase plan)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 136800,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 6000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par-Common Stock",
+          "debit": 0,
+          "credit": 130800
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "September 30, Year 1 - issuance of 2,000 shares under Plan C (compensatory employee stock purchase plan)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 86400,
+          "credit": 0
+        },
+        {
+          "account": "Compensation Expense",
+          "debit": 9600,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 4000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par-Common Stock",
+          "debit": 0,
+          "credit": 92000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "January 31, Year 1 - representative period-end payroll withholding for the Plan N cohort (one of six identical monthly entries)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 11400,
+          "credit": 0
+        },
+        {
+          "account": "Liability-Employee Stock Purchase Plan",
+          "debit": 0,
+          "credit": 11400
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "June 30, Year 1 - settlement: issuance of shares to the payroll-funded Plan N cohort at 95% of the $40 market price",
+      "lines": [
+        {
+          "account": "Liability-Employee Stock Purchase Plan",
+          "debit": 68400,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 3600
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par-Common Stock",
+          "debit": 0,
+          "credit": 64800
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "a. Plan N is noncompensatory: the 5% discount is within the ASC 718-50-25-1 safe harbor, substantially all eligible employees may participate equitably, withholdings are refundable on cancellation before the purchase date, and the post-price enrollment window does not exceed 31 days - so no compensation cost is recognized. Plan C is compensatory: participation is limited to designated high performers (failing the substantially-all-employees criterion) and the 10% discount exceeds the 5% safe harbor, so the employee discount is compensation expense. d. Withholdings accumulate $11,400 per month to $68,400 at June 30; the Plan N price is 95% x $40 = $38, giving 68,400 / 38 = 1,800 whole shares with no residual liability (exact fit, as stated). e. The January 31 entry is one of six identical monthly entries; the debit is shown as Cash for the funds withheld from employee pay and held by the company (an equivalent presentation debits Salaries and Wages Payable for the withheld portion of that payroll). f. Only Plan C generates compensation expense (2,000 x $48 x 10% = $9,600); the Plan N cash purchase and the Plan N payroll cohort generate none."
+}

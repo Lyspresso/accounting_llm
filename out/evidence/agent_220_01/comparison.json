@@ -1,0 +1,27 @@
+{
+ "id": "agent_220#01",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 7,
+  "routed_stage2": 1,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Disposal of License"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 5000.0,
+   "solver": "loss on disposal of license",
+   "key_options": [
+    "loss on sale of license"
+   ]
+  }
+ ]
+}

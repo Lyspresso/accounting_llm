@@ -1,0 +1,61 @@
+{
+  "agent_id": 92,
+  "lo": "LO 13-7",
+  "chapter": 13,
+  "title": "Account for research and development costs",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-7",
+      "concept": "Initial recognition of R&D costs (expense vs capitalize multi-use assets); Year-1 R&D depreciation; multi-year depreciation schedule; disposal of multi-use equipment; R&D expense disclosure total",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-7",
+      "concept": "Number-variant twin: initial R&D recognition (expense vs multi-use capitalize), period-end R&D depreciation, disclosure total",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-7",
+      "concept": "Period-end adjusting and classification — materials inventory with alternative future uses consumed in R&D; mixed cost classification and disclosure schedule",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-7",
+      "concept": "Classification of expenditures as R&D expense vs non-R&D vs capitalized multi-use asset",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

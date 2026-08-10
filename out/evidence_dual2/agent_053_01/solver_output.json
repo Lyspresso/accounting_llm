@@ -1,0 +1,134 @@
+{
+  "id": "agent_053#01",
+  "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP applied per period, amounts stated in whole dollars (all given data are exact whole dollars, so no rounding difference arises). Allowance rolls forward from zero and closes exactly to the Dec 31, Year 3 reserve of $28,000.",
+  "answers": [
+    {
+      "label": "a: Dec 31, Year 1 - ending inventory at average cost",
+      "value": 90000
+    },
+    {
+      "label": "a: Dec 31, Year 1 - ending inventory at LIFO",
+      "value": 55000
+    },
+    {
+      "label": "a: Dec 31, Year 1 - LIFO reserve (required allowance balance)",
+      "value": 35000
+    },
+    {
+      "label": "a: Dec 31, Year 1 - prior-year allowance balance",
+      "value": 0
+    },
+    {
+      "label": "a: Year 1 - change in LIFO reserve (increase/(decrease))",
+      "value": 35000
+    },
+    {
+      "label": "a: Dec 31, Year 2 - ending inventory at average cost",
+      "value": 105000
+    },
+    {
+      "label": "a: Dec 31, Year 2 - ending inventory at LIFO",
+      "value": 62000
+    },
+    {
+      "label": "a: Dec 31, Year 2 - LIFO reserve (required allowance balance)",
+      "value": 43000
+    },
+    {
+      "label": "a: Dec 31, Year 2 - prior-year allowance balance",
+      "value": 35000
+    },
+    {
+      "label": "a: Year 2 - change in LIFO reserve (increase/(decrease))",
+      "value": 8000
+    },
+    {
+      "label": "a: Dec 31, Year 3 - ending inventory at average cost",
+      "value": 98000
+    },
+    {
+      "label": "a: Dec 31, Year 3 - ending inventory at LIFO",
+      "value": 70000
+    },
+    {
+      "label": "a: Dec 31, Year 3 - LIFO reserve (required allowance balance)",
+      "value": 28000
+    },
+    {
+      "label": "a: Dec 31, Year 3 - prior-year allowance balance",
+      "value": 43000
+    },
+    {
+      "label": "a: Year 3 - change in LIFO reserve (increase/(decrease))",
+      "value": -15000
+    },
+    {
+      "label": "d: Dec 31, Year 3 balance sheet - Inventory at average cost (gross, internal method)",
+      "value": 98000
+    },
+    {
+      "label": "d: Dec 31, Year 3 balance sheet - Less: Allowance to reduce inventory to LIFO",
+      "value": 28000
+    },
+    {
+      "label": "d: Dec 31, Year 3 balance sheet - Inventory at LIFO (net)",
+      "value": 70000
+    },
+    {
+      "label": "e: Cumulative effect on COGS, Years 1-3 (net debit = increase in COGS)",
+      "value": 28000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "date": "Dec 31, Year 1",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 35000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to LIFO",
+          "debit": 0,
+          "credit": 35000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "Dec 31, Year 2",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 8000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to LIFO",
+          "debit": 0,
+          "credit": 8000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "Dec 31, Year 3",
+      "lines": [
+        {
+          "account": "Allowance to Reduce Inventory to LIFO",
+          "debit": 15000,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 0,
+          "credit": 15000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Year 1 is the first year of operations, so the opening allowance is $0 and the Year 1 entry creates the full $35,000 allowance. The allowance is a contra-inventory (valuation) account; each year-end entry is the plug that brings its balance to the current LIFO reserve. Year 3's reserve declines ($43,000 -> $28,000), so that entry is a $15,000 debit to the allowance and a credit that reduces COGS. Cumulative net debit to COGS over the three years ($35,000 + $8,000 - $15,000 = $28,000) equals the ending allowance balance."
+}

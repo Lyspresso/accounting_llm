@@ -1,0 +1,145 @@
+{
+ "id": "agent_002#03",
+ "rounding_convention": "decimal.Decimal only (no floats); every money figure quantized to cents with ROUND_HALF_UP once per computation step. Stem amounts are exact whole dollars, so no rounding is triggered; journal entries are stated in whole dollars.",
+ "answers": [
+  {
+   "label": "a: Total amortized cost reclassified HTM -> AFS on 1/1/Y4 (Dr AFS / Cr HTM)",
+   "value": 150000
+  },
+  {
+   "label": "a: Aggregate fair value on transfer date 1/1/Y4",
+   "value": 152100
+  },
+  {
+   "label": "a: Quill Corp. bonds transfer-date unrealized gain (96,300 - 90,000)",
+   "value": 6300
+  },
+  {
+   "label": "a: Dune Partners bonds transfer-date unrealized loss (55,800 - 60,000)",
+   "value": -4200
+  },
+  {
+   "label": "a: Net transfer-date unrealized gain debited to Fair Value Adjustment (AFS) and credited to OCI",
+   "value": 2100
+  },
+  {
+   "label": "a: AFS carrying amount immediately after the 1/1/Y4 transfer (amortized cost 150,000 + FVA 2,100)",
+   "value": 152100
+  },
+  {
+   "label": "b: Effect of the transfer on Year 4 net income (none - HTM -> AFS unrealized amount bypasses NI)",
+   "value": 0
+  },
+  {
+   "label": "b: Effect of the transfer on Year 4 other comprehensive income (increase)",
+   "value": 2100
+  },
+  {
+   "label": "b: AOCI (accumulated unrealized holding gain) balance immediately after the transfer",
+   "value": 2100
+  },
+  {
+   "label": "c: Quill Corp. bonds unrealized gain at 12/31/Y4 (94,000 - 90,000)",
+   "value": 4000
+  },
+  {
+   "label": "c: Dune Partners bonds unrealized loss at 12/31/Y4 (57,000 - 60,000)",
+   "value": -3000
+  },
+  {
+   "label": "c: Aggregate fair value of AFS portfolio at 12/31/Y4",
+   "value": 151000
+  },
+  {
+   "label": "c: Amortized cost of AFS portfolio at 12/31/Y4 (bonds bought at par; no amortization)",
+   "value": 150000
+  },
+  {
+   "label": "c: Required Fair Value Adjustment (AFS) balance at 12/31/Y4 (debit)",
+   "value": 1000
+  },
+  {
+   "label": "c: Fair Value Adjustment (AFS) balance before the 12/31/Y4 entry (debit, from transfer)",
+   "value": 2100
+  },
+  {
+   "label": "c: 12/31/Y4 adjustment - decrease in Fair Value Adjustment (Dr OCI / Cr FVA)",
+   "value": 1100
+  },
+  {
+   "label": "c: Quill Corp. bonds change in unrealized position during Y4 (4,000 - 6,300)",
+   "value": -2300
+  },
+  {
+   "label": "c: Dune Partners bonds change in unrealized position during Y4 (-3,000 - (-4,200))",
+   "value": 1200
+  },
+  {
+   "label": "c: AOCI (accumulated unrealized holding gain) balance at 12/31/Y4",
+   "value": 1000
+  },
+  {
+   "label": "c: AFS carrying amount reported on the 12/31/Y4 balance sheet",
+   "value": 151000
+  },
+  {
+   "label": "c: Effect of the 12/31/Y4 adjusting entry on Year 4 net income (none)",
+   "value": 0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "date": "Jan. 1, Year 4",
+   "description": "Reclassify both bonds out of HTM into AFS at carrying (amortized cost) amount",
+   "lines": [
+    {
+     "account": "Debt Investments (available-for-sale), at amortized cost",
+     "debit": 150000,
+     "credit": 0
+    },
+    {
+     "account": "Debt Investments (held-to-maturity)",
+     "debit": 0,
+     "credit": 150000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "date": "Jan. 1, Year 4",
+   "description": "Record transfer-date fair value; net unrealized holding gain of $2,100 goes to OCI, not net income",
+   "lines": [
+    {
+     "account": "Fair Value Adjustment (available-for-sale)",
+     "debit": 2100,
+     "credit": 0
+    },
+    {
+     "account": "Unrealized Holding Gain or Loss - Equity (OCI)",
+     "debit": 0,
+     "credit": 2100
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Dec. 31, Year 4",
+   "description": "Adjust AFS portfolio to aggregate fair value $151,000 vs. amortized cost $150,000; reduce Fair Value Adjustment from $2,100 to $1,000 through OCI",
+   "lines": [
+    {
+     "account": "Unrealized Holding Gain or Loss - Equity (OCI)",
+     "debit": 1100,
+     "credit": 0
+    },
+    {
+     "account": "Fair Value Adjustment (available-for-sale)",
+     "debit": 0,
+     "credit": 1100
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "All bonds were purchased at par, so amortized cost equals par ($150,000) at every date and there is no premium/discount amortization in Year 4. Part a: the transfer out of HTM is recorded in two steps - reclassify the securities at their $150,000 amortized cost carrying amount, then set up a Fair Value Adjustment (AFS) of $2,100 (Quill +$6,300 gain net of Dune -$4,200 loss) with the offset in OCI, bringing the AFS carrying amount to the $152,100 transfer-date fair value. The amortized cost basis is retained as the reference for measuring later unrealized amounts. Part b: no effect on net income ($0); OCI increases $2,100, so AOCI holds a $2,100 net unrealized holding gain right after the transfer. (Under the older 'transfer at fair value' presentation the same $2,100 is debited to the investment account itself instead of a separate valuation account - either presentation produces the same $152,100 carrying amount, $0 NI and +$2,100 OCI.) Part c: at 12/31/Y4 fair value is $94,000 + $57,000 = $151,000 against $150,000 amortized cost, so the Fair Value Adjustment must be a $1,000 debit balance ($4,000 Quill gain less $3,000 Dune loss). It currently stands at $2,100 debit, so the entry credits Fair Value Adjustment $1,100 and debits Unrealized Holding Gain or Loss - Equity (OCI) $1,100 (Quill -$2,300 plus Dune +$1,200 = -$1,100). No net income effect; AOCI ends Year 4 at a $1,000 net unrealized gain and the AFS portfolio is reported at $151,000. Part d (disclosure, narrative): the footnote should disclose the transfer out of held-to-maturity - the reason for the change in intent (the significant deterioration in the issuers' credit standings, which is one of the limited circumstances that does not taint the remaining HTM classification), the amortized cost and fair value of the securities transferred ($150,000 and $152,100) and the transfer date, the net unrealized holding gain of $2,100 recognized in other comprehensive income on transfer (with no effect on net income), the circumstances/nature of the securities involved, and the fact that the securities are now carried at fair value with subsequent changes reported in OCI."
+}

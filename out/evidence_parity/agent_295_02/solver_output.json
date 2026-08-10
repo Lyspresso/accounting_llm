@@ -1,0 +1,254 @@
+{
+ "id": "agent_295#02",
+ "rounding_convention": "decimal.Decimal throughout, ROUND_HALF_UP applied once per period (quantized to the cent); all scenario inputs are whole dollars so every reported amount is an exact whole dollar. No floating point used.",
+ "answers": [
+  {
+   "label": "a: item 1 JE proof - total debits = total credits",
+   "value": 235000
+  },
+  {
+   "label": "a: item 2 JE proof - total debits = total credits",
+   "value": 80000
+  },
+  {
+   "label": "a: item 4 JE proof - total debits = total credits",
+   "value": 2400
+  },
+  {
+   "label": "a: item 5 JE proof - total debits = total credits",
+   "value": 55000
+  },
+  {
+   "label": "a: item 7 JE proof - total debits = total credits",
+   "value": 50000
+  },
+  {
+   "label": "a: item 9 JE proof - total debits = total credits",
+   "value": 10000
+  },
+  {
+   "label": "a: item 1 supporting - book value of building at sale (cost - accum. dep.)",
+   "value": 125000
+  },
+  {
+   "label": "a: item 1 supporting - gain on sale of building",
+   "value": 15000
+  },
+  {
+   "label": "b: item 1 - sale of building, $140,000",
+   "value": "Investing INFLOW (I, +$140,000); the $15,000 gain is not a cash flow"
+  },
+  {
+   "label": "b: item 2 - bonds paid at maturity, $80,000",
+   "value": "Financing OUTFLOW (F, -$80,000)"
+  },
+  {
+   "label": "b: item 3 - interest paid in cash, $9,600",
+   "value": "Operating OUTFLOW (O, -$9,600)"
+  },
+  {
+   "label": "b: item 5 - equipment purchased, $55,000",
+   "value": "Investing OUTFLOW (I, -$55,000)"
+  },
+  {
+   "label": "b: item 7 - long-term bank note borrowed, $50,000",
+   "value": "Financing INFLOW (F, +$50,000)"
+  },
+  {
+   "label": "b: item 8 - finance lease principal paid, $12,000",
+   "value": "Financing OUTFLOW (F, -$12,000)"
+  },
+  {
+   "label": "b: item 10 - prior-year dividends paid, $7,500",
+   "value": "Financing OUTFLOW (F, -$7,500)"
+  },
+  {
+   "label": "b: item 11 - collections from customers, $285,000",
+   "value": "Operating INFLOW (O, +$285,000)"
+  },
+  {
+   "label": "b: item 11 - cash paid to suppliers and employees, $240,000",
+   "value": "Operating OUTFLOW (O, -$240,000)"
+  },
+  {
+   "label": "b: item 11 - income taxes paid, $14,000",
+   "value": "Operating OUTFLOW (O, -$14,000)"
+  },
+  {
+   "label": "b: item 12 - trading securities purchased, $16,000",
+   "value": "Operating OUTFLOW (O, -$16,000); securities held for resale/trading are classified by the nature/purpose for which they are held, so they are operating, not investing"
+  },
+  {
+   "label": "b: item 4 - accrued interest, $2,400",
+   "value": "NOT a cash flow on Dec 31 - no cash moved. Under the indirect method it appears only as a noncash add-back / increase in interest payable in the operating reconciliation; under the direct method it is simply excluded (only the $9,600 actually paid is shown)."
+  },
+  {
+   "label": "b: item 6 - land acquired by issuing a $90,000 note",
+   "value": "NOT in any of the three sections - a noncash investing and financing transaction; disclosed in the supplemental noncash schedule (or notes) at $90,000"
+  },
+  {
+   "label": "b: item 9 - dividends declared, $10,000",
+   "value": "NOT a financing cash outflow in 2027 - declaration only; no cash on Dec 31. It becomes a financing outflow when paid in January 2028; the dividends payable increase is a noncash item."
+  },
+  {
+   "label": "c: ending cash total per SCF reconciliation (cash + equivalents + restricted cash)",
+   "value": 84500
+  },
+  {
+   "label": "c: short-term equity investments excluded from the SCF cash total",
+   "value": 19000
+  },
+  {
+   "label": "c: net cash provided by operating activities",
+   "value": 5400
+  },
+  {
+   "label": "c: net cash provided by investing activities",
+   "value": 85000
+  },
+  {
+   "label": "c: net cash used in financing activities",
+   "value": -49500
+  },
+  {
+   "label": "c: net change in cash, cash equivalents and restricted cash",
+   "value": 40900
+  },
+  {
+   "label": "c: beginning cash, cash equivalents and restricted cash (solved)",
+   "value": 43600
+  },
+  {
+   "label": "d: SCF section order",
+   "value": "1) Cash flows from OPERATING activities; 2) Cash flows from INVESTING activities; 3) Cash flows from FINANCING activities; 4) Net increase (decrease) in cash, cash equivalents and restricted cash; 5) Cash, cash equivalents and restricted cash at beginning of year; 6) Cash, cash equivalents and restricted cash at end of year; followed by the supplemental schedule of noncash investing and financing activities (land acquired by issuing a $90,000 note)."
+  },
+  {
+   "label": "d: reconciliation line 1 - net increase in cash, cash equivalents and restricted cash",
+   "value": 40900
+  },
+  {
+   "label": "d: reconciliation line 2 - beginning cash, cash equivalents and restricted cash",
+   "value": 43600
+  },
+  {
+   "label": "d: reconciliation line 3 - ending cash, cash equivalents and restricted cash",
+   "value": 84500
+  },
+  {
+   "label": "d: three-line proof",
+   "value": "Net change $40,900 + beginning $43,600 = ending $84,500"
+  },
+  {
+   "label": "e: true/false",
+   "value": "False"
+  },
+  {
+   "label": "e: correction",
+   "value": "Investing (and financing) cash flows must generally be reported GROSS: major classes of gross cash receipts and gross cash payments are shown separately - here the $140,000 proceeds from the building sale and the $55,000 equipment purchase are reported on separate lines, not netted to $85,000. Net reporting is permitted only in limited cases (items with quick turnover, large amounts and short maturities), which does not include purchases and sales of PPE."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a: item 1 - sale of building for cash",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 140000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Building",
+     "debit": 95000,
+     "credit": 0
+    },
+    {
+     "account": "Building",
+     "debit": 0,
+     "credit": 220000
+    },
+    {
+     "account": "Gain on Sale of Building",
+     "debit": 0,
+     "credit": 15000
+    }
+   ]
+  },
+  {
+   "part": "a: item 2 - bonds payable settled at maturity (face, no gain/loss)",
+   "lines": [
+    {
+     "account": "Bonds Payable",
+     "debit": 80000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 80000
+    }
+   ]
+  },
+  {
+   "part": "a: item 4 - period-end adjusting JE, accrued interest",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 2400,
+     "credit": 0
+    },
+    {
+     "account": "Interest Payable",
+     "debit": 0,
+     "credit": 2400
+    }
+   ]
+  },
+  {
+   "part": "a: item 5 - purchase of production equipment for cash",
+   "lines": [
+    {
+     "account": "Equipment",
+     "debit": 55000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 55000
+    }
+   ]
+  },
+  {
+   "part": "a: item 7 - long-term bank note issued for cash",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 50000,
+     "credit": 0
+    },
+    {
+     "account": "Notes Payable (long-term)",
+     "debit": 0,
+     "credit": 50000
+    }
+   ]
+  },
+  {
+   "part": "a: item 9 - period-end adjusting JE, dividends declared",
+   "lines": [
+    {
+     "account": "Retained Earnings",
+     "debit": 10000,
+     "credit": 0
+    },
+    {
+     "account": "Dividends Payable",
+     "debit": 0,
+     "credit": 10000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Cash total per ASU 2016-18 = unrestricted cash $71,000 + money-market equivalents $9,500 + restricted cash $4,000 = $84,500; the $19,000 short-term equity investments are not cash or cash equivalents and are excluded. Operating = 285,000 - 240,000 - 14,000 - 9,600 - 16,000 = 5,400 (trading securities bought for resale are operating). Investing = 140,000 - 55,000 = 85,000. Financing = 50,000 - 80,000 - 12,000 - 7,500 = -49,500. Net change 40,900; beginning cash = 84,500 - 40,900 = 43,600. Items 4 and 9 are period-end accruals with no Dec 31 cash effect; item 6 is a noncash investing/financing transaction disclosed supplementally."
+}

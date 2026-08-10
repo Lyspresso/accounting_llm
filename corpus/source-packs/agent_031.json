@@ -1,0 +1,61 @@
+{
+  "agent_id": 31,
+  "lo": "LO 18-6",
+  "chapter": 18,
+  "title": "Explain how a change in tax rates impacts deferred taxes",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-6",
+      "concept": "Initial recognition of deferred tax liability using phased-in enacted rates matched to years of reversal; period-end tax JE; subsequent reversal and settlement of TTD",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-6",
+      "concept": "Number-variant twin — multi-rate DTL initial recognition; later enactment reduces rates and remeasures existing DTL",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-6",
+      "concept": "Rate-change impact on an existing deferred tax asset; period-end adjusting JE; settlement when deductible difference reverses; statutory-to-effective rate reconciliation",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-6",
+      "concept": "Classification of income-statement effect when enacted rates change for DTA vs DTL",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

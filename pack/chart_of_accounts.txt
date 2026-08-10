@@ -1,0 +1,79 @@
+# SEED chart-of-accounts whitelist — extend from your textbook's own examples.
+# One canonical account per line. Grouping comments are ignored by parsers.
+
+## Assets
+Cash
+Petty Cash
+Accounts Receivable
+Allowance for Doubtful Accounts
+Notes Receivable
+Interest Receivable
+Inventory
+Supplies
+Prepaid Insurance
+Prepaid Rent
+Investments in Debt Securities
+Investments in Equity Securities
+Fair Value Adjustment
+Land
+Building
+Equipment
+Accumulated Depreciation—Building
+Accumulated Depreciation - Equipment
+Right-of-Use Asset
+Patents
+Goodwill
+Deferred Tax Asset
+
+## Liabilities
+Accounts Payable
+Note Payable
+Salaries and Wages Payable
+Interest Payable
+Income Tax Payable
+Unearned Revenue
+Dividends Payable
+Lease Liability
+Bonds Payable
+Discount on Bonds Payable
+Premium on Bonds Payable
+Warranty Liability
+Deferred Tax Liability
+
+## Equity
+Common Stock
+Preferred Stock
+Paid-in Capital in Excess of Par - Common
+Paid-in Capital in Excess of Par - Preferred
+Treasury Stock
+Retained Earnings
+Accumulated Other Comprehensive Income
+Dividends
+
+## Revenues and gains
+Sales Revenue
+Service Revenue
+Interest Revenue
+Dividend Revenue
+Rent Revenue
+Sales Returns and Allowances
+Sales Discounts
+Gain on Disposal of Plant Assets
+Unrealized Holding Gain or Loss - Income
+Unrealized Holding Gain or Loss - Equity
+
+## Expenses and losses
+Cost of Goods Sold
+Salaries and Wages Expense
+Rent Expense
+Insurance Expense
+Supplies Expense
+Depreciation Expense
+Amortization Expense
+Bad Debt Expense
+Interest Expense
+Warranty Expense
+Income Tax Expense
+Loss on Disposal of Plant Assets
+Contribution Revenue
+Loss on Disposal of Equipment

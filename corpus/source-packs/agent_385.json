@@ -1,0 +1,46 @@
+{
+  "agent_id": 385,
+  "lo": "LO 20-9",
+  "chapter": 20,
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-9",
+      "concept": "Initial recognition JEs for common, convertible preferred, and two series of convertible bonds; period-end adjusting JEs that finalize interest, tax, and preferred claim (emphasis); ranking by earnings per incremental share; sequential diluted EPS schedule with one antidilutive exclusion; period-end closing; dual EPS presentation; post-period conversion settlement JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-9",
+      "concept": "Number-variant twin of multi-security ranking and sequential diluted EPS; initial recognition JEs; period-end interest/tax/preferred AJs (emphasis); subsequent measurement ranking schedule; dual presentation; option-exercise settlement JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-9",
+      "concept": "Period-end ranking and sequential dilution using income from continuing operations as the control number; dual basic/diluted presentation for continuing operations, discontinued operations, and net income; period-end preferred dividend AJ and closing JE; warrant settlement JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-9",
+      "concept": "Classification of the correct inclusion order for multiple potentially dilutive securities",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-9",
+      "concept": "Classification of when a convertible is excluded from diluted EPS even if it appears dilutive versus basic EPS alone",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

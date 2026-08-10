@@ -1,0 +1,46 @@
+{
+  "agent_id": 375,
+  "lo": "LO 19-8",
+  "chapter": 19,
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-8",
+      "concept": "Initial recognition JE (common issuance); period-end appropriation JE; equity disclosure schedule; BVPS, payout, ROE, and P/E",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-8",
+      "concept": "Number-variant twin — common issuance; period-end RE appropriation for sinking fund; disclosure schedule; four equity ratios",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-8",
+      "concept": "Preferred dividends in arrears in preferred claim and disclosures; multi-year subsequent measurement ratio schedule; period-end appropriation and later settlement (release) JE; cash dividend settlement JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-8",
+      "concept": "Classification of appropriated retained earnings and effect on total equity",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 19-8",
+      "concept": "Correct measurement of book value per common share with preferred stock",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

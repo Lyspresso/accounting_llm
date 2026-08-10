@@ -1,0 +1,75 @@
+{
+  "agent_id": 17,
+  "lo": "LO 16-7",
+  "chapter": 16,
+  "title": "Account for extinguishment of debt",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-7",
+      "concept": "Initial recognition JE + effective-interest schedule + period-end interest JE + partial early extinguishment JE",
+      "type": "multipart",
+      "company": "Meridian Forge Co.",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-7",
+      "concept": "Number-variant twin — issue JE, effective-interest schedule, interest JEs, partial early extinguishment at a premium call price",
+      "type": "multipart",
+      "company": "Oakridge Packaging Inc.",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-7",
+      "concept": "Period-end adjusting (accrued interest + SL amort to retirement date); mid-period partial extinguishment; maturity vs. refunding",
+      "type": "multipart",
+      "company": "Blue Harbor Logistics Corp. / Pinecrest Utilities",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-7",
+      "concept": "Classification/presentation — measuring and reporting gain or loss on early debt extinguishment",
+      "type": "MC",
+      "company": "Summit Rail Co.",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

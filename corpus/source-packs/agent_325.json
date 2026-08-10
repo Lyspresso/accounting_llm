@@ -1,0 +1,72 @@
+{
+  "agent_id": 325,
+  "lo": "LO 10-7",
+  "chapter": 10,
+  "title": "Explain accounting treatment of inventory errors",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-7",
+      "concept": "Counterbalancing ending-inventory overstatement; period-end adjusting JE in year of error (emphasis); multi-year effect schedule; subsequent-period PPA before self-correction; no entry after self-correction (settlement)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-7",
+      "concept": "Number-variant twin — counterbalancing understatement of ending inventory; period-end correcting JE; multi-year effect schedule; PPA; post-self-correction",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-7",
+      "concept": "Multi-error effect classification schedule; period-end adjusting JEs for cutoff/count errors (emphasis); balance-sheet-only reclass; noncounterbalancing purchase-as-equipment PPA settlement",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-7",
+      "concept": "Classification of counterbalancing discovery timing; combined BI/EI error effect on COGS",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "answers": ["D", "C"],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

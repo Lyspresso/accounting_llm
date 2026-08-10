@@ -1,0 +1,46 @@
+{
+  "agent_id": 106,
+  "lo": "LO 19-1",
+  "chapter": 19,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-1",
+      "concept": "Initial recognition of paid-in capital (CS/PS/APIC); period-end RE and AOCI activity; treasury stock reacquisition and reissuance; prepare equity section and statement of stockholders' equity",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-1",
+      "concept": "Number-variant twin — initial recognition of CS/PS; dividend and OCI period-end effects; treasury purchase; equity section and SOE schedule",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-1",
+      "concept": "Classification of financial statement items into the five equity components; prepare complete equity section including noncontrolling interest; RE and AOCI roll-forwards",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-1",
+      "concept": "Classification of treasury stock within the five key components of stockholders' equity",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 19-1",
+      "concept": "Computing outstanding shares for equity-section disclosure and EPS",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

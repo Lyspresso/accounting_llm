@@ -1,0 +1,103 @@
+{
+ "id": "agent_336#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 17,
+  "routed_stage2": 5,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Equipment - Hydraulic Press"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation - Hydraulic Press"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Equipment - CNC Mill"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation - Hydraulic Press"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Exchange of Asset"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Equipment - Hydraulic Press"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation - CNC Mill"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation - CNC Mill"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation - CNC Mill"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Disposal of Asset"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Equipment - CNC Mill"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 10125.0,
+   "solver": "depreciation expense",
+   "key_options": [
+    "depreciation expense hydraulic press"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 1375.0,
+   "solver": "loss on exchange of asset",
+   "key_options": [
+    "loss on asset exchange"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 3000.0,
+   "solver": "depreciation expense",
+   "key_options": [
+    "depreciation expense cnc mill"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 6000.0,
+   "solver": "depreciation expense",
+   "key_options": [
+    "depreciation expense cnc mill"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 2000.0,
+   "solver": "loss on disposal of asset",
+   "key_options": [
+    "loss on disposal of equipment"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,358 @@
+{
+  "id": "agent_130#00",
+  "rounding_convention": "decimal.Decimal only, never floats; ROUND_HALF_UP quantized to $0.01 applied per period. All inputs and derived figures are whole dollars, so no rounding is exercised. Inflows positive / outflows negative in the statement lines.",
+  "answers": [
+    {
+      "label": "a: change in Cash and cash equivalents",
+      "value": -25000
+    },
+    {
+      "label": "a: change in Restricted cash",
+      "value": 10000
+    },
+    {
+      "label": "a: change in Accounts receivable, net",
+      "value": -70000
+    },
+    {
+      "label": "a: change in Inventory",
+      "value": 150000
+    },
+    {
+      "label": "a: change in Equipment",
+      "value": 600000
+    },
+    {
+      "label": "a: change in Accumulated depreciation\u2014equipment (credit balance increase)",
+      "value": 260000
+    },
+    {
+      "label": "a: change in Accounts payable",
+      "value": -40000
+    },
+    {
+      "label": "a: change in Salaries payable",
+      "value": -20000
+    },
+    {
+      "label": "a: change in Bonds payable",
+      "value": 150000
+    },
+    {
+      "label": "a: change in Common stock, no-par",
+      "value": 100000
+    },
+    {
+      "label": "a: change in Retained earnings",
+      "value": 215000
+    },
+    {
+      "label": "a: change in cash + cash equivalents + restricted cash (decrease)",
+      "value": -15000
+    },
+    {
+      "label": "c: Equipment purchased for cash (equipment rollforward plug)",
+      "value": 920000
+    },
+    {
+      "label": "c: Equipment, ending balance",
+      "value": 2200000
+    },
+    {
+      "label": "c: Accumulated depreciation removed on disposal",
+      "value": 60000
+    },
+    {
+      "label": "c: Accumulated depreciation, ending balance",
+      "value": 420000
+    },
+    {
+      "label": "c: Dividends declared and paid (retained earnings rollforward plug)",
+      "value": 207000
+    },
+    {
+      "label": "c: Retained earnings, ending balance",
+      "value": 420000
+    },
+    {
+      "label": "d: Cash T-account \u2014 net cash provided by operating activities",
+      "value": 762000
+    },
+    {
+      "label": "d: Cash T-account \u2014 net cash used in investing activities",
+      "value": -820000
+    },
+    {
+      "label": "d: Cash T-account \u2014 net cash provided by financing activities",
+      "value": 43000
+    },
+    {
+      "label": "d: Cash T-account \u2014 net decrease in cash, cash equivalents and restricted cash",
+      "value": -15000
+    },
+    {
+      "label": "e: Operating \u2014 cash collected from customers",
+      "value": 2470000
+    },
+    {
+      "label": "e: Operating \u2014 cash paid to suppliers",
+      "value": -1540000
+    },
+    {
+      "label": "e: Operating \u2014 cash paid to employees",
+      "value": -120000
+    },
+    {
+      "label": "e: Operating \u2014 cash paid for interest",
+      "value": -48000
+    },
+    {
+      "label": "e: Net cash provided by operating activities",
+      "value": 762000
+    },
+    {
+      "label": "e: Investing \u2014 proceeds from sale of equipment",
+      "value": 100000
+    },
+    {
+      "label": "e: Investing \u2014 purchase of equipment",
+      "value": -920000
+    },
+    {
+      "label": "e: Net cash used in investing activities",
+      "value": -820000
+    },
+    {
+      "label": "e: Financing \u2014 proceeds from issuance of bonds payable",
+      "value": 150000
+    },
+    {
+      "label": "e: Financing \u2014 proceeds from issuance of common stock",
+      "value": 100000
+    },
+    {
+      "label": "e: Financing \u2014 dividends paid",
+      "value": -207000
+    },
+    {
+      "label": "e: Net cash provided by financing activities",
+      "value": 43000
+    },
+    {
+      "label": "e: Net decrease in cash, cash equivalents and restricted cash",
+      "value": -15000
+    },
+    {
+      "label": "e: Cash, cash equivalents and restricted cash, beginning of year",
+      "value": 95000
+    },
+    {
+      "label": "e: Cash, cash equivalents and restricted cash, end of year",
+      "value": 80000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "entry": "a",
+      "description": "Collections from customers (sales and the decrease in A/R)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 2470000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Receivable, net",
+          "debit": 0,
+          "credit": 70000
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 2400000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "entry": "b",
+      "description": "Payments to suppliers (COGS, inventory build, A/P decrease)",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 1350000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 150000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Payable",
+          "debit": 40000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 1540000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "entry": "c",
+      "description": "Payments to employees (salary expense and salaries payable decrease)",
+      "lines": [
+        {
+          "account": "Salary Expense",
+          "debit": 100000,
+          "credit": 0
+        },
+        {
+          "account": "Salaries Payable",
+          "debit": 20000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 120000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "entry": "d",
+      "description": "Interest paid in cash (no accrued interest at either year-end)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 48000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 48000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "entry": "e",
+      "description": "Depreciation expense for the year (noncash)",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 320000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation\u2014Equipment",
+          "debit": 0,
+          "credit": 320000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "entry": "f",
+      "description": "Sale of equipment for cash at a loss",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 100000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation\u2014Equipment",
+          "debit": 60000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Sale of Equipment",
+          "debit": 160000,
+          "credit": 0
+        },
+        {
+          "account": "Equipment",
+          "debit": 0,
+          "credit": 320000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "entry": "g",
+      "description": "Purchase of equipment for cash (plug in the equipment rollforward)",
+      "lines": [
+        {
+          "account": "Equipment",
+          "debit": 920000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 920000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "entry": "h",
+      "description": "Issuance of bonds payable for cash",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 150000,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable",
+          "debit": 0,
+          "credit": 150000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "entry": "i",
+      "description": "Issuance of no-par common stock for cash",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 100000,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock, no-par",
+          "debit": 0,
+          "credit": 100000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "entry": "j",
+      "description": "Dividends declared and paid in cash (plug in the retained earnings rollforward)",
+      "lines": [
+        {
+          "account": "Retained Earnings",
+          "debit": 207000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 207000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Signs: inflows positive, outflows negative; balance-sheet changes are current year less prior year stated on each account's normal balance (so the increase in the credit balance of accumulated depreciation is +260,000). Part (f), classification/presentation: the $160,000 loss on sale is not a cash outflow at all \u2014 it is the difference between the equipment's $260,000 book value ($320,000 cost less $60,000 accumulated depreciation) and the $100,000 received, i.e. a bookkeeping measure of value already consumed and written off, not cash that left the company. Building the statement from the cash T-account makes this automatic: the only cash the disposal touched was the $100,000 received, which is posted to the T-account once, in the investing section, as 'Proceeds from sale of equipment $100,000.' The loss never enters the T-account because it was never a debit or credit to cash; the entry that recorded it (Dr Cash 100,000, Dr Accumulated depreciation 60,000, Dr Loss 160,000, Cr Equipment 320,000) moves the loss against the noncash equipment and accumulated depreciation accounts. Under the direct method the loss therefore appears nowhere in the operating section either \u2014 there is nothing to add back, since operating cash flows are built from actual receipts and payments rather than from net income. (It is only under the indirect method that the loss must be added back to net income, precisely to undo its noncash effect and to keep the whole disposal in investing where it belongs.) The disposal's income statement effect appears solely in the reported net income; its cash effect appears solely as the $100,000 investing inflow."
+}

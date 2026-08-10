@@ -1,0 +1,65 @@
+{
+  "agent_id": 295,
+  "lo": "LO 22-1",
+  "chapter": 22,
+  "title": "Identify operating, investing, and financing activities, and the statement of cash flows format",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-1",
+      "concept": "Classify O/I/F cash flows; initial recognition and disposal/settlement JEs; period-end adjusting JEs (interest accrual, dividend declaration) with no SCF cash; cash reconciliation schedule; formal SCF format",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-1",
+      "concept": "Number-variant twin: classify O/I/F; PPE purchase, disposal with loss, stock/debt issue, principal settlement; period-end interest accrual; cash rollforward and SCF cash definition",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-1",
+      "concept": "Period-end adjusting JEs vs cash settlements; cash+equivalents+restricted cash total; edge classifications (trading securities, finance-lease principal, noncash land-for-note); building disposal and bond maturity; reverse solve beginning cash; gross presentation",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-1",
+      "concept": "Classification of cash interest vs accrual and dividends paid; full PPE sale proceeds as investing inflow",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

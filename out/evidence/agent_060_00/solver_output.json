@@ -1,0 +1,90 @@
+{
+  "id": "agent_060#00",
+  "rounding_convention": "decimal.Decimal only; monetary amounts quantized to cents with ROUND_HALF_UP applied per computed amount (round-per-step); gross profit rate held exact (25/125) and rounded HALF_UP to 4 dp for reporting only. All amounts here are whole dollars.",
+  "answers": [
+    {
+      "label": "a: gross profit as a percentage of sales (percent)",
+      "value": 20
+    },
+    {
+      "label": "b: cost of goods available for sale (Sept 1-14)",
+      "value": 835000
+    },
+    {
+      "label": "b: estimated cost of goods sold (Sept 1-14)",
+      "value": 576000
+    },
+    {
+      "label": "b: estimated inventory on hand at fire date, before salvage",
+      "value": 259000
+    },
+    {
+      "label": "c: inventory loss from the fire",
+      "value": 207000
+    },
+    {
+      "label": "g: inventory reported on the balance sheet immediately after the September 14 entries (salvaged merchandise at cost)",
+      "value": 52000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "d",
+      "date": "September 14, Year 1",
+      "description": "Reclassify salvaged inventory at cost, write off inventory destroyed by fire, and recognize the casualty loss before insurance recovery.",
+      "lines": [
+        {
+          "account": "Inventory - Salvaged Merchandise",
+          "debit": 52000,
+          "credit": 0
+        },
+        {
+          "account": "Loss from Fire (Casualty Loss)",
+          "debit": 207000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 0,
+          "credit": 259000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "September 14, Year 1",
+      "description": "Recognize insurance receivable for the expected recovery; the recovery reduces the casualty loss.",
+      "lines": [
+        {
+          "account": "Insurance Claim Receivable",
+          "debit": 195000,
+          "credit": 0
+        },
+        {
+          "account": "Loss from Fire (Casualty Loss)",
+          "debit": 0,
+          "credit": 195000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "October 5, Year 1",
+      "description": "Collect final cash settlement of the insurance claim.",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 195000,
+          "credit": 0
+        },
+        {
+          "account": "Insurance Claim Receivable",
+          "debit": 0,
+          "credit": 195000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "(b) Schedule: Beginning inventory $540,000 + net purchases $295,000 = cost of goods available for sale $835,000; less estimated cost of goods sold $720,000 x (1 - 0.20) = $576,000; estimated inventory at the fire date $259,000. (c) $259,000 - $52,000 salvaged = $207,000 loss. (g) Inventory on the balance sheet is only the $52,000 of salvaged merchandise, at cost; the $195,000 insurance claim is presented separately as a current receivable, not as inventory, and the net casualty loss carried to the income statement is $12,000. Use: the gross profit method estimates the cost of inventory destroyed by a casualty such as a fire, which is needed both for the accounting records and as the basis for the insurance claim (it also tests the reasonableness of a physical count and supports interim reporting when no perpetual records exist). Limitation: it relies on a past gross profit rate that may not hold in the current period, and markup rates differ across inventory lines, so a change in rate or in sales mix makes the estimate unreliable."
+}

@@ -1,0 +1,72 @@
+{
+  "agent_id": 351,
+  "lo": "LO 13-4",
+  "chapter": 13,
+  "title": "Account for change in estimate in finite life intangible assets",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-4",
+      "concept": "Initial recognition at cost; subsequent-measurement schedule; prospective change in useful life; period-end amortization adjusting JEs (emphasis) before and after the change; disposal JE after amortizing to sale date",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-4",
+      "concept": "Number-variant twin—initial recognition JE; pre-change amortization schedule; prospective extension of useful life (change in estimate); period-end AJs after change; full-year amort then disposal",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-4",
+      "concept": "Period-end adjusting JE emphasis when useful life changes mid-year (blend old + new rates); change in residual value and remaining life applied prospectively; carrying-value schedule; disposal after residual-life revision",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-4",
+      "concept": "Prospective treatment of changes in useful life / residual value / amortization method for finite-life intangibles (no restatement, no cumulative effect)",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 13-4",
+      "concept": "Compute period amortization expense when useful life is revised mid-year (old rate for first half, new rate for second half)",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

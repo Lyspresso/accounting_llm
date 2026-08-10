@@ -1,0 +1,61 @@
+{
+  "agent_id": 29,
+  "lo": "LO 18-4",
+  "chapter": 18,
+  "critical": true,
+  "title": "Account for multiple tax differences and prepare a tax reconciliation disclosure",
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-4",
+      "concept": "Multi-year DTL+DTA+permanent; initial JE, schedules, period-end entries, rate recon",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-4",
+      "concept": "Multiple tax differences number-variant twin",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-4",
+      "concept": "Multi-difference JE; settlement year; rate recon with nontaxable+nondeductible; net BS presentation",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-4",
+      "concept": "Rate-reconciliation classification and deferred tax BS netting MC",
+      "type": "MC",
+      "ok": true,
+      "n_mc": 2,
+      "angles": ["classification_presentation_or_disclosure"]
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

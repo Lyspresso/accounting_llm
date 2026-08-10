@@ -1,0 +1,133 @@
+{
+ "id": "agent_008#02",
+ "rounding_convention": "decimal.Decimal, ROUND_HALF_UP to $0.01, applied once per period/computed figure; no floats in the math",
+ "answers": [
+  {
+   "label": "a: Loss on sale of trading securities (Crest), June 12",
+   "value": 1200
+  },
+  {
+   "label": "a: Cash received on Crest sale",
+   "value": 33800
+  },
+  {
+   "label": "a: Investment in TS (Crest) removed at amortized cost",
+   "value": 35000
+  },
+  {
+   "label": "b: Dune 5% bonds - amortized cost",
+   "value": 25000
+  },
+  {
+   "label": "b: Dune 5% bonds - fair value 12/31/Y2",
+   "value": 24100
+  },
+  {
+   "label": "b: Dune 5% bonds - unrealized (FV - cost)",
+   "value": -900
+  },
+  {
+   "label": "b: Pier 4% bonds - amortized cost",
+   "value": 60000
+  },
+  {
+   "label": "b: Pier 4% bonds - fair value 12/31/Y2",
+   "value": 61500
+  },
+  {
+   "label": "b: Pier 4% bonds - unrealized (FV - cost)",
+   "value": 1500
+  },
+  {
+   "label": "b: Total remaining portfolio - amortized cost",
+   "value": 85000
+  },
+  {
+   "label": "b: Total remaining portfolio - fair value",
+   "value": 85600
+  },
+  {
+   "label": "b: Required Fair Value Adjustment-TS ending balance (debit)",
+   "value": 600
+  },
+  {
+   "label": "b: Existing Fair Value Adjustment-TS balance 1/1/Y2 (credit)",
+   "value": 3200
+  },
+  {
+   "label": "b: Required change in Fair Value Adjustment-TS (debit)",
+   "value": 3800
+  },
+  {
+   "label": "c: Debit Fair Value Adjustment-TS",
+   "value": 3800
+  },
+  {
+   "label": "c: Credit Unrealized Holding Gain or Loss-Income",
+   "value": 3800
+  },
+  {
+   "label": "d: Investment in trading securities, at amortized cost (current asset)",
+   "value": 85000
+  },
+  {
+   "label": "d: Add: Fair Value Adjustment-TS (debit balance)",
+   "value": 600
+  },
+  {
+   "label": "d: Investment in trading securities, at fair value",
+   "value": 85600
+  },
+  {
+   "label": "e(i): Income statement effect of Crest sale (realized loss)",
+   "value": -1200
+  },
+  {
+   "label": "e(ii): Income statement effect of 12/31 FVA adjustment (unrealized gain)",
+   "value": 3800
+  },
+  {
+   "label": "e: Net Year 2 income statement effect",
+   "value": 2600
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 33800,
+     "credit": 0
+    },
+    {
+     "account": "Loss on Sale of Trading Securities",
+     "debit": 1200,
+     "credit": 0
+    },
+    {
+     "account": "Investment in Trading Securities (Crest 4.5% bonds)",
+     "debit": 0,
+     "credit": 35000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Fair Value Adjustment-Trading Securities",
+     "debit": 3800,
+     "credit": 0
+    },
+    {
+     "account": "Unrealized Holding Gain or Loss-Income",
+     "debit": 0,
+     "credit": 3800
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Period-end-only method: the June 12 sale is recorded against amortized cost with no entry to Fair Value Adjustment-TS, so the realized loss is 33,800 - 35,000 = (1,200). At 12/31/Y2 the remaining portfolio needs a debit FVA balance of 600 (85,600 - 85,000); the account starts with a 3,200 credit, so a 3,800 debit adjustment is required, recognizing a 3,800 unrealized holding gain in income. Net Year 2 effect = 3,800 - 1,200 = 2,600 increase."
+}

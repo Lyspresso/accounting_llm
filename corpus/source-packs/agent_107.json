@@ -1,0 +1,55 @@
+{
+  "agent_id": 107,
+  "lo": "LO 19-2",
+  "chapter": 19,
+  "title": "Account for common stock issuance, including par and no-par, cash and noncash, and issue costs",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-2",
+      "concept": "Initial recognition JEs for par cash, true no-par, stated-value no-par, noncash asset exchange, and cash with stock issue costs; paid-in capital rollforward schedule; period-end equity presentation (no remeasurement AJ)",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-2",
+      "concept": "Number-variant twin: par cash, true no-par, stated-value, noncash (asset FV more clearly evident), stock issue costs, rollforward, period-end equity",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-2",
+      "concept": "Lump-sum (combined) stock issuance — proportional allocation when both FVs known; incremental allocation when only one FV known; classification of allocated amounts to CS/PS and PIC; settlement of proceeds among classes",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-2",
+      "concept": "Classification of stock issue costs — capital reduction, not expense",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 19-2",
+      "concept": "Measurement basis for common stock issued for noncash consideration",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

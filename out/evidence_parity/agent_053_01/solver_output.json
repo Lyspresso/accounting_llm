@@ -1,0 +1,143 @@
+{
+ "id": "agent_053#01",
+ "rounding_convention": "decimal.Decimal throughout; quantized to cents with ROUND_HALF_UP once per period; debits equal credits on every entry",
+ "answers": [
+  {
+   "label": "a: Year 1 \u2014 ending inventory at average cost",
+   "value": 90000
+  },
+  {
+   "label": "a: Year 1 \u2014 ending inventory at LIFO",
+   "value": 55000
+  },
+  {
+   "label": "a: Year 1 \u2014 LIFO reserve (allowance) required ending balance",
+   "value": 35000
+  },
+  {
+   "label": "a: Year 1 \u2014 allowance beginning balance",
+   "value": 0
+  },
+  {
+   "label": "a: Year 1 \u2014 change in LIFO reserve (Delta reserve; + = increase)",
+   "value": 35000
+  },
+  {
+   "label": "a: Year 2 \u2014 ending inventory at average cost",
+   "value": 105000
+  },
+  {
+   "label": "a: Year 2 \u2014 ending inventory at LIFO",
+   "value": 62000
+  },
+  {
+   "label": "a: Year 2 \u2014 LIFO reserve (allowance) required ending balance",
+   "value": 43000
+  },
+  {
+   "label": "a: Year 2 \u2014 allowance beginning balance",
+   "value": 35000
+  },
+  {
+   "label": "a: Year 2 \u2014 change in LIFO reserve (Delta reserve; + = increase)",
+   "value": 8000
+  },
+  {
+   "label": "a: Year 3 \u2014 ending inventory at average cost",
+   "value": 98000
+  },
+  {
+   "label": "a: Year 3 \u2014 ending inventory at LIFO",
+   "value": 70000
+  },
+  {
+   "label": "a: Year 3 \u2014 LIFO reserve (allowance) required ending balance",
+   "value": 28000
+  },
+  {
+   "label": "a: Year 3 \u2014 allowance beginning balance",
+   "value": 43000
+  },
+  {
+   "label": "a: Year 3 \u2014 change in LIFO reserve (Delta reserve; + = increase)",
+   "value": -15000
+  },
+  {
+   "label": "b: Dec 31, Year 1 entry amount (Dr COGS / Cr Allowance 35000)",
+   "value": 35000
+  },
+  {
+   "label": "c: Dec 31, Year 2 entry amount (Dr COGS / Cr Allowance 8000)",
+   "value": 8000
+  },
+  {
+   "label": "c: Dec 31, Year 3 entry amount (Dr Allowance / Cr COGS 15000)",
+   "value": 15000
+  },
+  {
+   "label": "d: BS Dec 31, Year 3 \u2014 Inventory at average cost (gross, internal method)",
+   "value": 98000
+  },
+  {
+   "label": "d: BS Dec 31, Year 3 \u2014 Less: Allowance to reduce inventory to LIFO",
+   "value": 28000
+  },
+  {
+   "label": "d: BS Dec 31, Year 3 \u2014 Inventory, net (at LIFO)",
+   "value": 70000
+  },
+  {
+   "label": "e: Cumulative net effect on COGS, Years 1-3 (net DEBIT = increase in COGS)",
+   "value": 28000
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 35000,
+     "credit": 0
+    },
+    {
+     "account": "Allowance to Reduce Inventory to LIFO (LIFO reserve)",
+     "debit": 0,
+     "credit": 35000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 8000,
+     "credit": 0
+    },
+    {
+     "account": "Allowance to Reduce Inventory to LIFO (LIFO reserve)",
+     "debit": 0,
+     "credit": 8000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Allowance to Reduce Inventory to LIFO (LIFO reserve)",
+     "debit": 15000,
+     "credit": 0
+    },
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 0,
+     "credit": 15000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "LIFO reserve = average-cost ending inventory less LIFO ending inventory: Yr1 35,000; Yr2 43,000; Yr3 28,000. Deltas: Yr1 +35,000 (create allowance, Dr COGS), Yr2 +8,000 (Dr COGS), Yr3 -15,000 (reserve declines, Dr Allowance / Cr COGS). Net cumulative debit to COGS 28,000 equals the ending allowance balance, so net inventory on the Dec 31 Year 3 balance sheet is 98,000 - 28,000 = 70,000, the LIFO amount."
+}

@@ -1,0 +1,223 @@
+{
+  "id": "agent_143#01",
+  "rounding_convention": "ROUND_HALF_UP to the nearest dollar per period (interest expense = beginning carrying amount x 4%, rounded each period before deriving amortization); issue price from exact PV formulas rounded once to the nearest dollar (5-decimal PV table factors give the same figure); final period discount amortization plugged so carrying amount closes to face",
+  "answers": [
+    {
+      "label": "a: issue price of the bonds (January 1, Year 1)",
+      "value": 233168
+    },
+    {
+      "label": "b: period 1 interest expense",
+      "value": 9327
+    },
+    {
+      "label": "b: period 1 discount amortization",
+      "value": 1827
+    },
+    {
+      "label": "b: period 1 ending carrying amount (bonds payable, net)",
+      "value": 234995
+    },
+    {
+      "label": "b: period 2 interest expense",
+      "value": 9400
+    },
+    {
+      "label": "b: period 2 discount amortization",
+      "value": 1900
+    },
+    {
+      "label": "b: period 2 ending carrying amount (bonds payable, net)",
+      "value": 236895
+    },
+    {
+      "label": "b: period 3 interest expense",
+      "value": 9476
+    },
+    {
+      "label": "b: period 3 discount amortization",
+      "value": 1976
+    },
+    {
+      "label": "b: period 3 ending carrying amount (bonds payable, net)",
+      "value": 238871
+    },
+    {
+      "label": "b: period 4 interest expense",
+      "value": 9555
+    },
+    {
+      "label": "b: period 4 discount amortization",
+      "value": 2055
+    },
+    {
+      "label": "b: period 4 ending carrying amount (bonds payable, net)",
+      "value": 240926
+    },
+    {
+      "label": "b: period 5 interest expense",
+      "value": 9637
+    },
+    {
+      "label": "b: period 5 discount amortization",
+      "value": 2137
+    },
+    {
+      "label": "b: period 5 ending carrying amount (bonds payable, net)",
+      "value": 243063
+    },
+    {
+      "label": "b: period 6 interest expense",
+      "value": 9723
+    },
+    {
+      "label": "b: period 6 discount amortization",
+      "value": 2223
+    },
+    {
+      "label": "b: period 6 ending carrying amount (bonds payable, net)",
+      "value": 245286
+    },
+    {
+      "label": "b: period 7 interest expense",
+      "value": 9811
+    },
+    {
+      "label": "b: period 7 discount amortization",
+      "value": 2311
+    },
+    {
+      "label": "b: period 7 ending carrying amount (bonds payable, net)",
+      "value": 247597
+    },
+    {
+      "label": "b: period 8 interest expense",
+      "value": 9903
+    },
+    {
+      "label": "b: period 8 discount amortization",
+      "value": 2403
+    },
+    {
+      "label": "b: period 8 ending carrying amount (bonds payable, net)",
+      "value": 250000
+    },
+    {
+      "label": "d: bonds payable, net at December 31, Year 1",
+      "value": 236895
+    },
+    {
+      "label": "d: Year 1 interest expense",
+      "value": 18727
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "January 1, Year 1",
+      "description": "Issuance of $250,000 face, 6% bonds at a discount to yield 8%",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 233168,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 16832,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable",
+          "debit": 0,
+          "credit": 250000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "June 30, Year 1",
+      "description": "Semiannual interest payment and discount amortization (period 1)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 9327,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 1827
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 7500
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 1",
+      "description": "Semiannual interest payment and discount amortization (period 2)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 9400,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 1900
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 7500
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "December 31, Year 4",
+      "description": "Final semiannual interest and residual discount amortization (period 8, plug)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 9903,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 2403
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 7500
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "December 31, Year 4",
+      "description": "Repayment of principal at maturity",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 250000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 250000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Semiannual: 8 periods, market 4%/period, cash interest $7,500/period. Issue price from exact PV formulas = 233168; 5-decimal table factors (6.73274 / 0.73069) agree: yes. Discount of 16832 fully amortized; period 8 amortization is the residual plug (2403), so interest expense in period 8 is 9903. Cash interest of $7,500 per period is stated-rate based and is not rounded. No prior Interest Payable at maturity, per the stem."
+}

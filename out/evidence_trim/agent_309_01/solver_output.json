@@ -1,0 +1,220 @@
+{
+ "id": "agent_309#01",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the nearest whole dollar applied independently at each period end, with each period's 6% accretion computed on the already-rounded prior net carrying amount (schedule ties exactly to $54,000 / $26,000 with no plug)",
+ "answers": [
+  {
+   "label": "a: Notes Receivable debited on initial recognition, Jan 1 Y1 (note at face, 6% stated = 6% market)",
+   "value": 80000
+  },
+  {
+   "label": "a: Sales Revenue credited, Jan 1 Y1",
+   "value": 80000
+  },
+  {
+   "label": "a: Cash collected for Year 1 interest, Dec 31 Y1",
+   "value": 4800
+  },
+  {
+   "label": "a: Interest Revenue recognized in Year 1",
+   "value": 4800
+  },
+  {
+   "label": "b: Carrying amount of the note before impairment, Dec 31 Y1",
+   "value": 80000
+  },
+  {
+   "label": "b: PV of expected future cash flows ($54,000 in 3 yrs @ original 6%), Dec 31 Y1",
+   "value": 45339
+  },
+  {
+   "label": "b: Impairment loss recognized Dec 31 Y1 (Dr Impairment Loss / Cr Allowance)",
+   "value": 34661
+  },
+  {
+   "label": "c: Net carrying amount, Dec 31 Y1 (after impairment)",
+   "value": 45339
+  },
+  {
+   "label": "c: Allowance (AFDA) balance, Dec 31 Y1",
+   "value": 34661
+  },
+  {
+   "label": "c: Year 2 interest accretion @6% on net CA",
+   "value": 2720
+  },
+  {
+   "label": "c: Net carrying amount, Dec 31 Y2",
+   "value": 48059
+  },
+  {
+   "label": "c: Allowance (AFDA) balance, Dec 31 Y2",
+   "value": 31941
+  },
+  {
+   "label": "c: Year 3 interest accretion @6% on net CA",
+   "value": 2884
+  },
+  {
+   "label": "c: Net carrying amount, Dec 31 Y3",
+   "value": 50943
+  },
+  {
+   "label": "c: Allowance (AFDA) balance, Dec 31 Y3",
+   "value": 29057
+  },
+  {
+   "label": "c: Year 4 interest accretion @6% on net CA",
+   "value": 3057
+  },
+  {
+   "label": "c: Net carrying amount, Dec 31 Y4 before settlement",
+   "value": 54000
+  },
+  {
+   "label": "c: Allowance (AFDA) balance, Dec 31 Y4 before settlement",
+   "value": 26000
+  },
+  {
+   "label": "c: Gross Notes Receivable throughout (unchanged)",
+   "value": 80000
+  },
+  {
+   "label": "d: Dec 31 Y2 AJE amount - Dr Allowance / Cr Interest Revenue",
+   "value": 2720
+  },
+  {
+   "label": "d: Dec 31 Y3 AJE amount - Dr Allowance / Cr Interest Revenue",
+   "value": 2884
+  },
+  {
+   "label": "e: Cash collected at settlement, Dec 31 Y4",
+   "value": 54000
+  },
+  {
+   "label": "e: Final Year 4 interest revenue (accretion) included in settlement entry",
+   "value": 3057
+  },
+  {
+   "label": "e: Allowance (AFDA) debited/removed in combined settlement entry",
+   "value": 29057
+  },
+  {
+   "label": "e: Notes Receivable credited (derecognized) at settlement",
+   "value": 80000
+  },
+  {
+   "label": "e: Gain or loss on settlement (cash equals final net CA)",
+   "value": 0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "description": "Jan 1, Y1 - sale of inventory for a 4-year 6% note issued at face",
+   "lines": [
+    {
+     "account": "Notes Receivable",
+     "debit": 80000,
+     "credit": 0
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0,
+     "credit": 80000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "description": "Dec 31, Y1 - collection of Year 1 stated interest ($80,000 x 6%)",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 4800,
+     "credit": 0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 4800
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "description": "Dec 31, Y1 - impairment AJE ($80,000 CA less $45,339 PV at original 6%)",
+   "lines": [
+    {
+     "account": "Impairment Loss on Note Receivable (Bad Debt Expense)",
+     "debit": 34661,
+     "credit": 0
+    },
+    {
+     "account": "Allowance for Doubtful Accounts - Notes Receivable",
+     "debit": 0,
+     "credit": 34661
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "description": "Dec 31, Y2 - effective-interest accretion AJE (6% x $45339 net CA)",
+   "lines": [
+    {
+     "account": "Allowance for Doubtful Accounts - Notes Receivable",
+     "debit": 2720,
+     "credit": 0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 2720
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "description": "Dec 31, Y3 - effective-interest accretion AJE (6% x $48059 net CA)",
+   "lines": [
+    {
+     "account": "Allowance for Doubtful Accounts - Notes Receivable",
+     "debit": 2884,
+     "credit": 0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 2884
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "description": "Dec 31, Y4 - combined settlement: final accretion + collection of $54,000 and derecognition",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 54000,
+     "credit": 0
+    },
+    {
+     "account": "Allowance for Doubtful Accounts - Notes Receivable",
+     "debit": 29057,
+     "credit": 0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 3057
+    },
+    {
+     "account": "Notes Receivable",
+     "debit": 0,
+     "credit": 80000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Note issued at face because the 6% stated rate equals the 6% market rate, so no premium/discount; stated interest = 80,000 x 6% = 4,800 collected each Dec 31. Impairment at 12/31/Y1 is measured as carrying amount 80,000 less the PV of the ONLY expected cash flow (54,000 due 12/31/Y4) discounted 3 periods at the ORIGINAL effective rate of 6%: 54,000 / 1.06^3 = 45,339 (matches the given PV: True); the current 12% similar-risk rate is ignored for discounting per the requirement. Impairment loss = 34,661, credited to a valuation allowance so gross Notes Receivable stays at 80,000. After impairment the net carrying amount accretes at 6% each period with the offset debited to the allowance and credited to Interest Revenue (no cash interest is expected): Y2 2,720; Y3 2,884; Y4 3,057. The schedule ties exactly: net CA reaches 54,000 and the allowance falls to 26,000 (= 80,000 - 54,000) at 12/31/Y4 (schedule ties: True). Because 54,000 is collected exactly as expected, no gain or loss arises; the combined settlement entry debits Cash 54,000 and the remaining allowance 29,057 (26,000 residual + 3,057 Year 4 accretion), credits Interest Revenue 3,057 and Notes Receivable 80,000."
+}

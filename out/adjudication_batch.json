@@ -1,0 +1,226 @@
+[
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "b: Full-year straight-line depreciation",
+  "s1": 28500.0,
+  "s2": 28000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "b: Year 1 depreciation expense",
+  "s1": 21375.0,
+  "s2": 21000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "b: Year 1 year-end accumulated depreciation",
+  "s1": 21375.0,
+  "s2": 21000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "b: Year 1 year-end net book value",
+  "s1": 161625.0,
+  "s2": 159000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "b: Year 2 depreciation expense",
+  "s1": 28500.0,
+  "s2": 21000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "b: Year 2 year-end accumulated depreciation",
+  "s1": 49875.0,
+  "s2": 21000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "b: Year 2 year-end net book value",
+  "s1": 133125.0,
+  "s2": 159000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "b: Year 3 depreciation expense",
+  "s1": 28500.0,
+  "s2": 21000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "b: Year 3 year-end accumulated depreciation",
+  "s1": 78375.0,
+  "s2": 21000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "b: Year 3 year-end net book value",
+  "s1": 104625.0,
+  "s2": 159000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "c: Dec 31, Year 1 depreciation adjusting entry amount",
+  "s1": 21375.0,
+  "s2": 21000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "c: Dec 31, Year 2 depreciation adjusting entry amount",
+  "s1": 28500.0,
+  "s2": 21000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "d: Dec 31, Year 3 depreciation adjusting entry amount",
+  "s1": 28500.0,
+  "s2": 21000.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "DISAGREE",
+  "label": "d: Loss on disposal (scrapping)",
+  "s1": 95125.0,
+  "s2": 93500.0
+ },
+ {
+  "id": "agent_086#01",
+  "kind": "DISAGREE",
+  "label": "c: Patent defense costs - Year 1 amortization (6/12 prorated)",
+  "s1": 861.54,
+  "s2": 1723.0
+ },
+ {
+  "id": "agent_150#02",
+  "kind": "DISAGREE",
+  "label": "b: Option 2 \u2014 PV factor, ordinary annuity, 8 yrs @ 6% (IBR)",
+  "s1": 6.209794,
+  "s2": 4.917324
+ },
+ {
+  "id": "agent_150#02",
+  "kind": "DISAGREE",
+  "label": "b: Option 3 \u2014 PV of $15,000 purchase-option price (single sum, 6 yrs @",
+  "s1": 10878.69,
+  "s2": 0.725246
+ },
+ {
+  "id": "agent_283#02",
+  "kind": "DISAGREE",
+  "label": "f: total lease expense recognized over the 8-year term",
+  "s1": 360000.0,
+  "s2": 80713.0
+ },
+ {
+  "id": "agent_002#03",
+  "kind": "NO_COUNTERPART",
+  "label": "b: Effect of the transfer on net income",
+  "s1": 0,
+  "s2": null
+ },
+ {
+  "id": "agent_143#01",
+  "kind": "NO_COUNTERPART",
+  "label": "a: PV annuity factor, 8 periods @ 4% (support)",
+  "s1": 6.732745,
+  "s2": null
+ },
+ {
+  "id": "agent_143#01",
+  "kind": "NO_COUNTERPART",
+  "label": "a: PV of $1 factor, 8 periods @ 4% (support)",
+  "s1": 0.73069,
+  "s2": null
+ },
+ {
+  "id": "agent_214#02",
+  "kind": "PERIOD_UNIT_MISMATCH (scoring artifact)",
+  "label": "c: Year 5 accumulated depreciation since write-down (Asset B)",
+  "s1": 120000.0,
+  "s2": 60000.0
+ },
+ {
+  "id": "agent_214#02",
+  "kind": "PERIOD_UNIT_MISMATCH (scoring artifact)",
+  "label": "c: Year 6 accumulated depreciation since write-down (Asset B)",
+  "s1": 180000.0,
+  "s2": 60000.0
+ },
+ {
+  "id": "agent_214#02",
+  "kind": "PERIOD_UNIT_MISMATCH (scoring artifact)",
+  "label": "c: Year 7 accumulated depreciation since write-down (Asset B)",
+  "s1": 240000.0,
+  "s2": 60000.0
+ },
+ {
+  "id": "agent_043#00",
+  "kind": "NO_COUNTERPART",
+  "label": "d: Carrying amount Dec 31 Yr2",
+  "s1": 13015.7,
+  "s2": null
+ },
+ {
+  "id": "agent_043#00",
+  "kind": "NO_COUNTERPART",
+  "label": "d: Carrying amount Dec 31 Yr3",
+  "s1": 14317.75,
+  "s2": null
+ },
+ {
+  "id": "agent_336#00",
+  "kind": "PERIOD_UNIT_MISMATCH (scoring artifact)",
+  "label": "b: Press monthly straight-line depreciation",
+  "s1": 1125.0,
+  "s2": 13500.0
+ },
+ {
+  "id": "agent_204#02",
+  "kind": "NO_COUNTERPART",
+  "label": "d: NBV immediately before scrapping",
+  "s1": 104625,
+  "s2": null
+ },
+ {
+  "id": "agent_092#00",
+  "kind": "NO_COUNTERPART",
+  "label": "d: Total Year 1 costs excluded from the R&D disclosure",
+  "s1": 363600,
+  "s2": null
+ },
+ {
+  "id": "agent_285#00",
+  "kind": "NO_COUNTERPART",
+  "label": "a: Criterion 4 - PV of lease payments as % of fair value",
+  "s1": 58.51,
+  "s2": null
+ },
+ {
+  "id": "agent_283#02",
+  "kind": "NO_COUNTERPART",
+  "label": "e: Year 2 - lease liability after the January 1 payment",
+  "s1": 208029.58,
+  "s2": null
+ },
+ {
+  "id": "agent_283#02",
+  "kind": "NO_COUNTERPART",
+  "label": "e: Year 3 - lease liability after the January 1 payment",
+  "s1": 179671.95,
+  "s2": null
+ }
+]

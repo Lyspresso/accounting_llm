@@ -1,0 +1,70 @@
+{
+ "id": "agent_263#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 10,
+  "routed_stage2": 4,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in HTM Securities\u2014Meridian Telecom Bonds"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in HTM Securities\u2014Meridian Telecom Bonds"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Sale of Investment"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in HTM Securities\u2014Meridian Telecom Bonds"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in HTM Securities\u2014Meridian Telecom Bonds"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 216339.0,
+   "solver": "investment in htm securities meridian telecom bonds",
+   "key_options": [
+    "investment in htm securities meridian bonds"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 5183.0,
+   "solver": "investment in htm securities meridian telecom bonds",
+   "key_options": [
+    "investment in htm securities meridian bonds"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 205714.0,
+   "solver": "investment in htm securities meridian telecom bonds",
+   "key_options": [
+    "investment in htm securities meridian bonds"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 200000.0,
+   "solver": "investment in htm securities meridian telecom bonds",
+   "key_options": [
+    "investment in htm securities meridian bonds"
+   ]
+  }
+ ]
+}

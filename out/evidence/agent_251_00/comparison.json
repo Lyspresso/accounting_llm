@@ -1,0 +1,43 @@
+{
+ "id": "agent_251#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 9,
+  "routed_stage2": 2,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "d: bonds dilutive or antidilutive",
+   "solver": "dilutive"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "g: bonds dilutive or antidilutive (July 1 issuance)",
+   "solver": "dilutive"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 45000.0,
+   "solver": "common stock",
+   "key_options": [
+    "cash",
+    "common stock 1 par"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 1455000.0,
+   "solver": "paid in capital in excess of par common stock",
+   "key_options": [
+    "apic common stock"
+   ]
+  }
+ ]
+}

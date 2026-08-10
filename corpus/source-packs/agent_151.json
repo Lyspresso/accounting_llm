@@ -1,0 +1,61 @@
+{
+  "agent_id": 151,
+  "lo": "LO 17-11",
+  "chapter": 17,
+  "critical": true,
+  "title": "Explain lease modifications and lease remeasurements",
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-11",
+      "concept": "Purchase-option reassessment remeasure LL at updated rate against ROU; subsequent multi-period liability and ROU schedules; period-end JEs; PO settlement",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-11",
+      "concept": "PO reassessment remeasurement number-variant twin with full post-remeasurement liability schedule",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-11",
+      "concept": "Residual-value remeasurement at original rate; subsequent schedule through GRV settlement; modification classification map",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-11",
+      "concept": "Separate lease vs remeasurement classification MC; discount-rate update rules",
+      "type": "MC",
+      "ok": true,
+      "n_mc": 2,
+      "angles": ["classification_presentation_or_disclosure"]
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

@@ -1,0 +1,170 @@
+{
+  "id": "agent_107#02",
+  "rounding_convention": "decimal.Decimal throughout; monetary amounts rounded HALF_UP to the cent; allocation percentages rounded HALF_UP to 4 decimals for display only, with allocations computed from unrounded ratios and the residual class taking the balancing amount so Dr = Cr.",
+  "answers": [
+    {
+      "label": "a: Case A - fair value of common issued (2,000 sh x $36)",
+      "value": 72000.0
+    },
+    {
+      "label": "a: Case A - fair value of preferred issued (1,000 sh x $28)",
+      "value": 28000.0
+    },
+    {
+      "label": "a: Case A - total relative fair value",
+      "value": 100000.0
+    },
+    {
+      "label": "a: Case A - allocation percentage to common (%)",
+      "value": 72.0
+    },
+    {
+      "label": "a: Case A - allocation percentage to preferred (%)",
+      "value": 28.0
+    },
+    {
+      "label": "a: Case A - proceeds allocated to common stock",
+      "value": 68400.0
+    },
+    {
+      "label": "a: Case A - proceeds allocated to preferred stock",
+      "value": 26600.0
+    },
+    {
+      "label": "a: Case A - Common Stock at par (2,000 sh x $5)",
+      "value": 10000.0
+    },
+    {
+      "label": "a: Case A - Paid-in Capital in Excess of Par - Common",
+      "value": 58400.0
+    },
+    {
+      "label": "a: Case A - Preferred Stock at par (1,000 sh x $10)",
+      "value": 10000.0
+    },
+    {
+      "label": "a: Case A - Paid-in Capital in Excess of Par - Preferred",
+      "value": 16600.0
+    },
+    {
+      "label": "a: Case A - cash debited March 1",
+      "value": 95000.0
+    },
+    {
+      "label": "b: Case B - proceeds allocated to common stock (2,000 sh x $38, incremental)",
+      "value": 76000.0
+    },
+    {
+      "label": "b: Case B - residual proceeds allocated to preferred stock ($100,000 - $76,000)",
+      "value": 24000.0
+    },
+    {
+      "label": "b: Case B - Common Stock at par (2,000 sh x $5)",
+      "value": 10000.0
+    },
+    {
+      "label": "b: Case B - Paid-in Capital in Excess of Par - Common",
+      "value": 66000.0
+    },
+    {
+      "label": "b: Case B - Preferred Stock at par (1,000 sh x $10)",
+      "value": 10000.0
+    },
+    {
+      "label": "b: Case B - Paid-in Capital in Excess of Par - Preferred",
+      "value": 14000.0
+    },
+    {
+      "label": "b: Case B - cash debited March 1",
+      "value": 100000.0
+    },
+    {
+      "label": "c: Case A presentation - Preferred stock, $10 par, 1,000 shares issued and outstanding",
+      "value": 10000.0
+    },
+    {
+      "label": "c: Case A presentation - Common stock, $5 par, 2,000 shares issued and outstanding",
+      "value": 10000.0
+    },
+    {
+      "label": "c: Case A presentation - Paid-in capital in excess of par - preferred",
+      "value": 16600.0
+    },
+    {
+      "label": "c: Case A presentation - Paid-in capital in excess of par - common",
+      "value": 58400.0
+    },
+    {
+      "label": "c: Case A presentation - Total paid-in capital",
+      "value": 95000.0
+    },
+    {
+      "label": "d: Treatment of stock issue costs (not an expense)",
+      "value": "Direct costs of issuing stock are a cost of obtaining capital, not of operations, so they are netted against the issuance proceeds - debited to Paid-in Capital in Excess of Par (reducing recorded paid-in capital) rather than reported as an expense on the income statement."
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "lines": [
+        {
+          "account": "Cash (March 1, Year 1 - Case A lump-sum issuance)",
+          "debit": 95000.0,
+          "credit": 0
+        },
+        {
+          "account": "Preferred Stock ($10 par, 1,000 shares)",
+          "debit": 0,
+          "credit": 10000.0
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Preferred",
+          "debit": 0,
+          "credit": 16600.0
+        },
+        {
+          "account": "Common Stock ($5 par, 2,000 shares)",
+          "debit": 0,
+          "credit": 10000.0
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Common",
+          "debit": 0,
+          "credit": 58400.0
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "lines": [
+        {
+          "account": "Cash (March 1, Year 1 - Case B lump-sum issuance)",
+          "debit": 100000.0,
+          "credit": 0
+        },
+        {
+          "account": "Preferred Stock ($10 par, 1,000 shares)",
+          "debit": 0,
+          "credit": 10000.0
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Preferred",
+          "debit": 0,
+          "credit": 14000.0
+        },
+        {
+          "account": "Common Stock ($5 par, 2,000 shares)",
+          "debit": 0,
+          "credit": 10000.0
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Common",
+          "debit": 0,
+          "credit": 66000.0
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Case A uses the proportional (relative fair value) method because both fair values are known: common $72,000 / $100,000 = 72%, preferred $28,000 / $100,000 = 28% of the $95,000 lump sum. Case B uses the incremental method because only the common fair value is reliable: common takes its $76,000 fair value and preferred takes the $24,000 residual. Part c total paid-in capital of $95,000 equals the Case A cash proceeds, since no issue costs were incurred."
+}

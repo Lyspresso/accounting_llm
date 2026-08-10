@@ -1,0 +1,76 @@
+{
+  "agent_id": 280,
+  "lo": "LO 16-8",
+  "chapter": 16,
+  "title": "Account for conversion of debt into equity",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-8",
+      "concept": "Initial recognition of convertible debt as straight debt; subsequent SL premium amortization schedule; period-end adjusting JE for interest and amortization (emphasis); partial conversion into equity at book value (no G/L); presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-8",
+      "concept": "Number-variant twin—initial recognition of convertible debt at discount; SL amortization schedule; period-end interest adjusting JE; full conversion at book value (no G/L)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-8",
+      "concept": "Period-end-style adjusting JE to the conversion date (accrue interest + amortize premium between interest dates); conversion settlement JE; induced conversion expense; classification of inducement vs extinguishment",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-8",
+      "concept": "Classification/measurement—APIC recognized on conversion equals carrying amount of debt converted minus par of shares issued",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-8",
+      "concept": "Classification—convertible debt recorded entirely as a liability; no proceeds allocated to equity for the embedded conversion feature",
+      "type": "MC",
+      "angles": [
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

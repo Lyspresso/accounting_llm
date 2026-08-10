@@ -1,0 +1,40 @@
+{
+  "agent_id": 185,
+  "lo": "LO 9-7",
+  "chapter": 9,
+  "title": "Describe and compute the effect of LIFO liquidation",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-7",
+      "concept": "Subsequent measurement multi-year LIFO layer roll-forward; Year 3 liquidation COGS-by-layer; pretax/after-tax effect; purchases and period-end closing JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-7",
+      "concept": "Number-variant twin — multi-layer LIFO liquidation schedule; pretax/after-tax effect at 21% tax; balanced period-end closing JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-7",
+      "concept": "Interim adjusting JE for temporary LIFO liquidation expected to be restored; settlement JE on replacement; permanent year-end liquidation schedule and disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-7",
+      "concept": "Voluntary vs involuntary LIFO liquidation classification and material disclosure; after-tax liquidation income effect computation",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

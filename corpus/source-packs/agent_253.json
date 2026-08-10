@@ -1,0 +1,47 @@
+{
+  "agent_id": 253,
+  "lo": "LO 20-8",
+  "chapter": 20,
+  "title": "Compute EPS Given Contingently Issuable Shares",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-8",
+      "concept": "Initial recognition JE for common stock; period-end as-if diluted test; multi-year subsequent measurement schedule of basic/diluted EPS with contingent shares; period-end closing JE; settlement issuance JE when conditions are met",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-8",
+      "concept": "Number-variant twin of Demo 20-8 path: current-year earnings used as proxy for next-year NI target; subsequent measurement schedule when target later fails; no settlement issuance JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-8",
+      "concept": "Period-end determination of contingently issuable shares under an earnings formula; subsequent measurement of basic vs diluted share counts; income-statement presentation; no period-end equity adjusting JE until issuance; settlement JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-8",
+      "concept": "Classification of when contingently issuable shares are included in diluted EPS under the as-if period-end rule",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-8",
+      "concept": "EPS presentation when contingently issuable shares fail the period-end as-if test",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

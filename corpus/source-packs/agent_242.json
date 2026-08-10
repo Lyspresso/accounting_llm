@@ -1,0 +1,61 @@
+{
+  "agent_id": 242,
+  "lo": "LO 19-6",
+  "chapter": 19,
+  "title": "Account for Stock Dividends and Stock Splits",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-6",
+      "concept": "Small stock dividend at fair value; subsequent equity measurement schedule; distribution settlement; large stock dividend at par",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-6",
+      "concept": "Number-variant twin — small stock dividend at FV with fractional shares paid in cash",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-6",
+      "concept": "Stock split and reverse split (no JE); large stock dividend declared at period-end with settlement after year-end",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-6",
+      "concept": "Classification of small vs large stock dividend measurement basis; pure stock split no-entry rule",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

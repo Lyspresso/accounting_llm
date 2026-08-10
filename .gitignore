@@ -1,77 +1,22 @@
 # =====================================================================
-# COPYRIGHT FIREWALL — THIS REPOSITORY IS PUBLIC
+# What stays out
 # =====================================================================
-# The question bank is derived from a commercial textbook and its
-# courseware, licensed for one person's personal use. Publishing any of
-# it — in a data file, a fixture, an evidence bundle, or a report — is
-# infringement, and a public git history cannot be un-published by
-# deleting the file in a later commit.
+# The question bank IS in this repo — it is AI-authored (400 CORE DEMO
+# authoring agents, `provenance.generated_by: core-demo authoring agent`),
+# not textbook material. Publishing it is the point: the whole project is
+# an argument that AI-generated questions are unreliable until verified,
+# and that argument is unfalsifiable without the corpus and the evidence.
 #
-# These rules block by PATTERN, not by filename, so a new file of the
-# same shape is ignored by default rather than requiring someone to
-# remember. Do not add an exception without reading the file first.
+# What still stays out is machine-local or regenerable:
 
-# --- the corpus itself: every stem and every worked answer key -------
-questions.jsonl
-*questions.jsonl
-**/questions.jsonl
-*corpus*.jsonl
-*QUESTION_BANK*
-*CORE_DEMO*
-ACCOUNT343_*
-core-demo/
-staged-work/
-
-# --- evidence bundles: each carries a verbatim stem.md ---------------
-evidence/
-evidence_*/
-**/evidence/
-**/evidence_*/
-stem.md
-**/stem.md
-
-# --- generated harness scripts: full stems inside prompt strings -----
-*_batch.json
-parity50.json
-dual*.json
-trim*.json
-*.js
-
-# --- held-back keys, solutions, and anything answer-bearing ----------
-blind/
-keys/
-*answer_key*
-*ANSWER_KEY*
-*solutions*
-*SOLVED*
-VERIFY*
-ARITH_*
-proof/
-fix_pass/
-verify50/
-verify100/
-
-# --- raw textbook / courseware source --------------------------------
-*.pdf
-*.epub
-*.docx
-*.pptx
-Canvas/
-chapters/
-textbook/
-*Hanlon*
-*MBC*
-
-# --- pipeline output tree (regenerable, and full of the above) -------
-out/
-goldens/
-
-# --- local config: contains absolute paths and course identifiers ----
+# local config: absolute paths and machine-specific locations
 config.yaml
 
-# =====================================================================
-# Ordinary ignores
-# =====================================================================
+# regenerable pipeline scratch (reports and state are rebuilt by the
+# scripts; committing them just makes diffs noisy)
+out/reports/
+out/pack_diffs/
+out/*.tmp
 
 # macOS
 .DS_Store

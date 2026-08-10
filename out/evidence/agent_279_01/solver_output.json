@@ -1,0 +1,240 @@
+{
+  "id": "agent_279#01",
+  "rounding_convention": "ROUND_HALF_UP to whole dollars, applied per period (round-per-period). Interest expense = beginning carrying value x 8% effective rate, rounded each period; discount amortization is the plug (expense - cash interest); each rounded carrying value carries forward. Issue price is given in the stem, so no PV table factors are used.",
+  "answers": [
+    {
+      "label": "b: Year 1 cash interest",
+      "value": 24000
+    },
+    {
+      "label": "b: Year 1 interest expense",
+      "value": 29880
+    },
+    {
+      "label": "b: Year 1 discount amortized",
+      "value": 5880
+    },
+    {
+      "label": "b: Year 1 ending carrying value",
+      "value": 379383
+    },
+    {
+      "label": "b: Year 2 cash interest",
+      "value": 24000
+    },
+    {
+      "label": "b: Year 2 interest expense",
+      "value": 30351
+    },
+    {
+      "label": "b: Year 2 discount amortized",
+      "value": 6351
+    },
+    {
+      "label": "b: Year 2 ending carrying value",
+      "value": 385734
+    },
+    {
+      "label": "b: Year 3 cash interest",
+      "value": 24000
+    },
+    {
+      "label": "b: Year 3 interest expense",
+      "value": 30859
+    },
+    {
+      "label": "b: Year 3 discount amortized",
+      "value": 6859
+    },
+    {
+      "label": "b: Year 3 ending carrying value",
+      "value": 392593
+    },
+    {
+      "label": "b: Year 4 cash interest",
+      "value": 24000
+    },
+    {
+      "label": "b: Year 4 interest expense",
+      "value": 31407
+    },
+    {
+      "label": "b: Year 4 discount amortized",
+      "value": 7407
+    },
+    {
+      "label": "b: Year 4 ending carrying value",
+      "value": 400000
+    },
+    {
+      "label": "c: carrying value of the 50% retired (Dec 31, Year 2)",
+      "value": 192867
+    },
+    {
+      "label": "c: reacquisition price paid (50% at 103)",
+      "value": 206000
+    },
+    {
+      "label": "c: loss on extinguishment of 50% of the bonds",
+      "value": 13133
+    },
+    {
+      "label": "d: Year 3 interest expense (remaining 50%)",
+      "value": 15429
+    },
+    {
+      "label": "d: Year 3 discount amortized (remaining 50%)",
+      "value": 3429
+    },
+    {
+      "label": "d: Year 3 cash interest (remaining 50%)",
+      "value": 12000
+    },
+    {
+      "label": "d: Year 4 interest expense (remaining 50%)",
+      "value": 15704
+    },
+    {
+      "label": "d: Year 4 discount amortized (remaining 50%)",
+      "value": 3704
+    },
+    {
+      "label": "d: Year 4 cash interest (remaining 50%)",
+      "value": 12000
+    },
+    {
+      "label": "d: cash paid at maturity, December 31, Year 4 (remaining 50%)",
+      "value": 200000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "January 1, Year 1",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 373503,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 26497,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable",
+          "debit": 0,
+          "credit": 400000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 2 - interest",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 30351,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 6351
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 24000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 2 - retire 50% at 103",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 200000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Redemption of Bonds",
+          "debit": 13133,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 7133
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 206000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 3 - interest (remaining 50%)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 15429,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 3429
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 4 - interest (remaining 50%)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 15704,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 3704
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 4 - maturity (remaining 50%)",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 200000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 200000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Schedule self-closes: the four periods' amortization sums to the given $26,497 discount and carrying value reaches $400,000 at Dec 31 Year 4 with no plug. Retirement is recorded after the Dec 31 Year 2 interest entry, so carrying value is 385,734; half of that (192,867) versus 206,000 paid gives a loss. The remaining 50% is amortized on its own half-sized schedule (192,867 x 8% in Year 3), which closes exactly to 200,000 at maturity."
+}

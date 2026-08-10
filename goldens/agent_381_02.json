@@ -1,0 +1,16 @@
+{
+ "id": "agent_381#02",
+ "pack_id": "agent_381",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "low",
+ "expected_verdict": "PASS",
+ "guards_rule": "corroboration_not_waving_through",
+ "rationale": "Before/after dividend 55,000/110,000; par capitalized 55,000; WAS 25,000+30,000+27,500+27,500=110,000; noncumulative subtracts declared 30,000 only; EPS 330,000",
+ "truth_as_of_hash": "f39444ba8cdd46f59942a7ade4c3df54fc14e878e2d97375b8f995abb23465cf",
+ "truth_as_of_bytes": "eaf9b17aed47b22bfd8a40c48d638d9cb774462f0abb45e9d5c4db8c188406f4",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "clean",
+ "cross_check_evidence": "Before/after dividend 55,000/110,000; par capitalized 55,000; WAS 25,000+30,000+27,500+27,500=110,000; noncumulative subtracts declared 30,000 only; EPS 330,000/110,000=3.00."
+}

@@ -1,0 +1,157 @@
+{
+  "id": "agent_167#01",
+  "rounding_convention": "decimal.Decimal only (no floats); ROUND_HALF_UP quantized to the cent applied per period. All fact-pattern and derived amounts are whole dollars obtained by exact roll-forward addition/subtraction, so no rounding is triggered; no PV table factor is required because interest on the note and lease is given and the bond discount amortization is the discount roll-forward plug.",
+  "answers": [
+    {
+      "label": "b: financing cash outflow for the bond retirement",
+      "value": -196000
+    },
+    {
+      "label": "b: operating (indirect) effect - add back loss on bond retirement",
+      "value": 1500
+    },
+    {
+      "label": "c: bonds payable, face retired March 1, 20X5",
+      "value": 200000
+    },
+    {
+      "label": "c: bonds payable, face balance December 31, 20X5",
+      "value": 400000
+    },
+    {
+      "label": "c: discount on bonds payable removed with retired bonds",
+      "value": 5500
+    },
+    {
+      "label": "c: remaining bond discount amortization for 20X5",
+      "value": 3500
+    },
+    {
+      "label": "c: discount on bonds payable, December 31, 20X5",
+      "value": 9000
+    },
+    {
+      "label": "c: bonds payable carrying amount, December 31, 20X5",
+      "value": 391000
+    },
+    {
+      "label": "c: installment note principal reduction in 20X5",
+      "value": 32000
+    },
+    {
+      "label": "c: installment note payable balance, December 31, 20X5",
+      "value": 88000
+    },
+    {
+      "label": "c: finance lease principal reduction in 20X5",
+      "value": 28000
+    },
+    {
+      "label": "c: finance lease liability balance, December 31, 20X5",
+      "value": 82000
+    },
+    {
+      "label": "c: cash dividends declared in 20X5",
+      "value": 85000
+    },
+    {
+      "label": "c: cash dividends paid in 20X5",
+      "value": 93000
+    },
+    {
+      "label": "e: financing - proceeds from issuance of common stock",
+      "value": 160000
+    },
+    {
+      "label": "e: financing - cash paid to retire bonds payable",
+      "value": -196000
+    },
+    {
+      "label": "e: financing - principal payments on installment note payable",
+      "value": -32000
+    },
+    {
+      "label": "e: financing - principal payments on finance lease liability",
+      "value": -28000
+    },
+    {
+      "label": "e: financing - purchase of treasury stock",
+      "value": -55000
+    },
+    {
+      "label": "e: financing - cash dividends paid",
+      "value": -93000
+    },
+    {
+      "label": "e: net cash used in financing activities",
+      "value": -244000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "Issuance of common stock for cash",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 160000,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock ($5 par)",
+          "debit": 0,
+          "credit": 80000
+        },
+        {
+          "account": "Additional Paid-in Capital",
+          "debit": 0,
+          "credit": 80000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "Retirement of bonds payable (face $200,000) on March 1, 20X5",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 200000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Retirement of Bonds",
+          "debit": 1500,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 5500
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 196000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "December 31, 20X5 amortization of remaining bond discount",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 3500,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 3500
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Financing amounts are signed as presented: inflows positive, outflows negative. Bond retirement carrying amount 200,000 - 5,500 = 194,500 vs 196,000 cash paid gives a 1,500 loss, a non-cash charge added back in operating while the full 196,000 is a financing outflow. Interest paid on the installment note (8,400) and the finance lease (12,000) is operating under the indirect method and is excluded from financing; only the principal portions appear there."
+}

@@ -1,0 +1,72 @@
+{
+  "agent_id": 143,
+  "lo": "LO 16-2",
+  "chapter": 16,
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "title": "The issue price of bonds depends on the relation between the market and stated rates",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-2",
+      "concept": "Bond issue price from market vs stated rates; initial recognition at par/discount/premium; effective-interest subsequent measurement schedule; period-end accrual; maturity settlement; BS presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-2",
+      "concept": "Number-variant twin: recompute issue price when market > stated; effective-interest subsequent measurement schedule; interest JEs; maturity settlement; net presentation",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-2",
+      "concept": "Premium when market < stated; effective-interest premium amortization schedule; bonds issued between interest dates; classification of net carrying amount",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-2",
+      "concept": "Classification of bond issuance outcome from market vs stated rate relationship",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-2",
+      "concept": "Classification / presentation of Discount on Bonds Payable",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

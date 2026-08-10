@@ -1,0 +1,62 @@
+{
+  "agent_id": 69,
+  "lo": "LO 11-4",
+  "chapter": 11,
+  "critical": false,
+  "title": "Interest cost incurred during the construction of a fixed asset is considered to",
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-4",
+      "concept": "Calculate and record capitalized interest (lesser of actual vs avoidable); initial CIP JEs; year-end interest JE; disclosure",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-4",
+      "concept": "Calculate and record capitalized interest (number-variant twin of Q1)",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-4",
+      "concept": "Interest on land-site expenditures capitalized to building; completion settlement (CIP → Building); subsequent depreciation of capitalized interest",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-4",
+      "concept": "Capitalize lesser of actual vs avoidable interest; classification of capitalized interest on land-site expenditures",
+      "type": "MC",
+      "ok": true,
+      "n_mc": 2,
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ]
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

@@ -1,0 +1,47 @@
+{
+  "agent_id": 207,
+  "lo": "LO 12-10",
+  "chapter": 12,
+  "title": "Record acquisition and depletion of natural resources",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-10",
+      "concept": "Subsequent measurement schedule multi-year UOP; initial recognition depletion base (acq+explor+dev+ARO); period-end depletion/COGS; residual land disposal and ARO settlement; equipment separate from base",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-10",
+      "concept": "Number-variant twin: coal property initial recognition + ARO; depletion base/rate; multi-year UOP subsequent measurement schedule; period-end depletion and COGS",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-10",
+      "concept": "Prospective change in estimated recoverable units; revised unit rate; multi-year subsequent measurement schedule with rate kink; period-end depletion and FIFO COGS after revision",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-10",
+      "concept": "Successful-efforts vs full-cost — amount capitalized to oil and gas properties",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-10",
+      "concept": "Which costs enter the depletion base vs separate PPE (movable multi-use equipment)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

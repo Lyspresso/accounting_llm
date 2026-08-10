@@ -1,0 +1,75 @@
+{
+  "agent_id": 287,
+  "lo": "LO 17-5",
+  "chapter": 17,
+  "title": "Account for complex operating leases for a lessee",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-5",
+      "concept": "Initial recognition of complex operating lease (incentive + IDC); liability and ROU schedules; period-end adjusting JE for straight-line lease expense; maturity zero-out",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-5",
+      "concept": "Number-variant twin—complex operating lessee accounting with incentive, IDC, liability/ROU schedules, and period-end straight-line adjusting JEs",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-5",
+      "concept": "Period-end adjusting JE emphasis from incomplete books; current/noncurrent split; SCF and income-statement presentation for operating leases; prepaid-payment commencement; final settlement",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-5",
+      "concept": "Classification—when a residual value guarantee can cause a lessee lease that would otherwise be operating to fail criterion 4 (PV of payments)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 17-5",
+      "concept": "Period-end adjusting JE—composition of the single operating lease expense entry",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

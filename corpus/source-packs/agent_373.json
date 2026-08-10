@@ -1,0 +1,71 @@
+{
+  "agent_id": 373,
+  "lo": "LO 19-6",
+  "chapter": 19,
+  "title": "Account for Stock Dividends and Stock Splits",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-6",
+      "concept": "Initial recognition (small at FV vs large at par); period-end equity presentation of dividends distributable; distribution settlement; true split (no JE); subsequent equity schedule",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-6",
+      "concept": "Number-variant twin — small stock dividend at FV with year-end open distributable; large stock dividend at par; true multi-for-1 stock split",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-6",
+      "concept": "Period-end adjusting/presentation for stock dividends open at year-end; fractional-share cash liability; large dividend at par declared late December; reverse split (no JE); settlement after year-end",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-6",
+      "concept": "Classification of small vs large stock dividend measurement basis; CSDD equity vs liability; pure stock split no-entry rule",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

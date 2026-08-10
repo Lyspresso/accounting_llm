@@ -1,0 +1,167 @@
+{
+  "id": "agent_194#01",
+  "rounding_convention": "ROUND_HALF_UP to the cent, applied per line item as computed (round-per-period, not deferred to the end); decimal.Decimal only, no floats. Effect = as recorded minus correct: positive = overstated, negative = understated.",
+  "answers": [
+    {
+      "label": "a: Year 1 ending inventory as recorded",
+      "value": 61000
+    },
+    {
+      "label": "a: Year 1 ending inventory correct",
+      "value": 76600
+    },
+    {
+      "label": "a: Year 1 ending inventory effect of error (as recorded - correct; understated by 15600.00)",
+      "value": -15600
+    },
+    {
+      "label": "a: Year 1 cost of goods sold as recorded",
+      "value": 189000
+    },
+    {
+      "label": "a: Year 1 cost of goods sold correct",
+      "value": 173400
+    },
+    {
+      "label": "a: Year 1 cost of goods sold effect of error (as recorded - correct; overstated by 15600.00)",
+      "value": 15600
+    },
+    {
+      "label": "a: Year 1 pretax income as recorded",
+      "value": 73000
+    },
+    {
+      "label": "a: Year 1 pretax income correct",
+      "value": 88600
+    },
+    {
+      "label": "a: Year 1 pretax income effect of error (as recorded - correct; understated by 15600.00)",
+      "value": -15600
+    },
+    {
+      "label": "a: Year 1 cumulative pretax income as recorded",
+      "value": 73000
+    },
+    {
+      "label": "a: Year 1 cumulative pretax income correct",
+      "value": 88600
+    },
+    {
+      "label": "a: Year 1 cumulative pretax income effect of error (as recorded - correct; understated by 15600.00)",
+      "value": -15600
+    },
+    {
+      "label": "a: Year 2 ending inventory as recorded",
+      "value": 70000
+    },
+    {
+      "label": "a: Year 2 ending inventory correct",
+      "value": 70000
+    },
+    {
+      "label": "a: Year 2 ending inventory effect of error (as recorded - correct; correctly stated, no effect)",
+      "value": 0
+    },
+    {
+      "label": "a: Year 2 cost of goods sold as recorded",
+      "value": 206000
+    },
+    {
+      "label": "a: Year 2 cost of goods sold correct",
+      "value": 221600
+    },
+    {
+      "label": "a: Year 2 cost of goods sold effect of error (as recorded - correct; understated by 15600.00)",
+      "value": -15600
+    },
+    {
+      "label": "a: Year 2 pretax income as recorded",
+      "value": 98000
+    },
+    {
+      "label": "a: Year 2 pretax income correct",
+      "value": 82400
+    },
+    {
+      "label": "a: Year 2 pretax income effect of error (as recorded - correct; overstated by 15600.00)",
+      "value": 15600
+    },
+    {
+      "label": "a: Year 2 cumulative pretax income as recorded",
+      "value": 171000
+    },
+    {
+      "label": "a: Year 2 cumulative pretax income correct",
+      "value": 171000
+    },
+    {
+      "label": "a: Year 2 cumulative pretax income effect of error (as recorded - correct; correctly stated, no effect)",
+      "value": 0
+    },
+    {
+      "label": "b: Inventory misstatement at Dec 31, Year 1, books uncorrected (understated by 15600.00)",
+      "value": -15600
+    },
+    {
+      "label": "b: Retained earnings misstatement at Dec 31, Year 1, books uncorrected (understated by 15600.00)",
+      "value": -15600
+    },
+    {
+      "label": "b: Inventory misstatement at Dec 31, Year 2, books uncorrected (correctly stated, no effect)",
+      "value": 0
+    },
+    {
+      "label": "b: Retained earnings misstatement at Dec 31, Year 2, books uncorrected (correctly stated, no effect)",
+      "value": 0
+    },
+    {
+      "label": "f: Is the error counterbalancing?",
+      "value": "Yes"
+    },
+    {
+      "label": "f: Two-year net effect on pretax income",
+      "value": 0
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "c",
+      "description": "December 31, Year 1 - to correct the Year 1 ending inventory count error (books still open)",
+      "lines": [
+        {
+          "account": "Inventory",
+          "debit": 15600,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 0,
+          "credit": 15600
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "January 1, Year 2 - prior period adjustment; Year 1 is closed and the error has not yet self-corrected",
+      "lines": [
+        {
+          "account": "Inventory",
+          "debit": 15600,
+          "credit": 0
+        },
+        {
+          "account": "Retained Earnings - Prior Period Adjustment",
+          "debit": 0,
+          "credit": 15600
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "January 1, Year 3 - no entry required; the counterbalancing error self-corrected during Year 2 (prior-year statements are still restated)",
+      "lines": []
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part (e) requires no journal entry, so its 'lines' array is empty. Correcting-entry pattern follows Exhibit 10-2 / Demo 10-7 (LO 10-7): correct Inventory and COGS in the year of the error; prior period adjustment to Retained Earnings if discovered after closing but before self-correction; nothing once the counterbalancing error has reversed. Taxes ignored per the stem, so the retained earnings misstatement equals the cumulative pretax misstatement."
+}

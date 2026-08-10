@@ -1,0 +1,72 @@
+{
+  "agent_id": 324,
+  "lo": "LO 10-6",
+  "chapter": 10,
+  "title": "Describe the accounting treatment for changes in inventory methods",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-6",
+      "concept": "Retrospective inventory-method change (LIFO to FIFO) — opening Inventory/RE adjusting JE; subsequent inventory–income reconciliation schedule; restated comparative NI and inventory",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-6",
+      "concept": "Number-variant twin — retrospective change from average cost to FIFO; opening Inventory/RE JE; multi-year ΔInv = cum ΔNI schedule; restated comparatives",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-6",
+      "concept": "Prospective application when changing to LIFO (impracticable to reconstruct layers); no opening JE; base-layer subsequent schedule; mixed-method comparative presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-6",
+      "concept": "Classification of equity effect from the January 1 retrospective Inventory/RE entry (LIFO → FIFO)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 10-6",
+      "concept": "Method classification — when inventory-method changes are retrospective vs prospective",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,307 @@
+{
+ "id": "agent_043#00",
+ "rounding_convention": "decimal.Decimal only; PVs at full precision; all reported/journalized amounts rounded to whole dollars with ROUND_HALF_UP once per period; schedule closes exactly to 15,000 face / zero discount (final period plugged); semiannual split pro-rata by months with remainder to the second half",
+ "answers": [
+  {
+   "label": "a: Present value of note = fair value of inventory (Sales Revenue credited), 6/30/Y1",
+   "value": 11269.0
+  },
+  {
+   "label": "a: Note Receivable recorded at face",
+   "value": 15000.0
+  },
+  {
+   "label": "a: Initial Discount on Note Receivable",
+   "value": 3731.0
+  },
+  {
+   "label": "b: Period 1 (6/30/Y1-6/30/Y2) carrying amount, beginning",
+   "value": 11269.0
+  },
+  {
+   "label": "b: Period 1 cash interest received",
+   "value": 0.0
+  },
+  {
+   "label": "b: Period 1 interest revenue (10% of carrying amount)",
+   "value": 1127.0
+  },
+  {
+   "label": "b: Period 1 discount amortization",
+   "value": 1127.0
+  },
+  {
+   "label": "b: Period 1 carrying amount, ending 6/30/Y2",
+   "value": 12396.0
+  },
+  {
+   "label": "b: Period 2 (6/30/Y2-6/30/Y3) carrying amount, beginning",
+   "value": 12396.0
+  },
+  {
+   "label": "b: Period 2 cash interest received",
+   "value": 0.0
+  },
+  {
+   "label": "b: Period 2 interest revenue",
+   "value": 1240.0
+  },
+  {
+   "label": "b: Period 2 discount amortization",
+   "value": 1240.0
+  },
+  {
+   "label": "b: Period 2 carrying amount, ending 6/30/Y3",
+   "value": 13636.0
+  },
+  {
+   "label": "b: Period 3 (6/30/Y3-6/30/Y4) carrying amount, beginning",
+   "value": 13636.0
+  },
+  {
+   "label": "b: Period 3 cash interest received",
+   "value": 0.0
+  },
+  {
+   "label": "b: Period 3 interest revenue",
+   "value": 1364.0
+  },
+  {
+   "label": "b: Period 3 discount amortization",
+   "value": 1364.0
+  },
+  {
+   "label": "b: Period 3 carrying amount, ending 6/30/Y4 (= face)",
+   "value": 15000.0
+  },
+  {
+   "label": "b: Total cash interest over term",
+   "value": 0.0
+  },
+  {
+   "label": "b: Total interest revenue over term",
+   "value": 3731.0
+  },
+  {
+   "label": "b: Total discount amortization over term",
+   "value": 3731.0
+  },
+  {
+   "label": "c: Interest revenue accrued 6/30/Y2 (June 30 year-end)",
+   "value": 1127.0
+  },
+  {
+   "label": "c: Interest revenue accrued 6/30/Y3",
+   "value": 1240.0
+  },
+  {
+   "label": "c: Interest revenue accrued 6/30/Y4",
+   "value": 1364.0
+  },
+  {
+   "label": "c: Cash collected at maturity 6/30/Y4",
+   "value": 15000.0
+  },
+  {
+   "label": "d: Interest revenue accrued 12/31/Y1 (6 months of period 1)",
+   "value": 564.0
+  },
+  {
+   "label": "d: Interest revenue accrued 12/31/Y2 (2nd half period 1 + 1st half period 2)",
+   "value": 1183.0
+  },
+  {
+   "label": "d: Interest revenue accrued 12/31/Y3 (2nd half period 2 + 1st half period 3)",
+   "value": 1302.0
+  },
+  {
+   "label": "d: Interest revenue accrued 6/30/Y4 (2nd half period 3)",
+   "value": 682.0
+  },
+  {
+   "label": "d: Total interest revenue recognized = original discount",
+   "value": 3731.0
+  },
+  {
+   "label": "e: Note Receivable face on 12/31/Y1 balance sheet",
+   "value": 15000.0
+  },
+  {
+   "label": "e: Unamortized Discount on Note Receivable at 12/31/Y1",
+   "value": 3167.0
+  },
+  {
+   "label": "e: Carrying (net) amount of note at 12/31/Y1 - reported as NONCURRENT",
+   "value": 11833.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "date": "Year 1 June 30",
+   "lines": [
+    {
+     "account": "Notes Receivable",
+     "debit": 15000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 0.0,
+     "credit": 3731.0
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0.0,
+     "credit": 11269.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Year 2 June 30",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 1127.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0.0,
+     "credit": 1127.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Year 3 June 30",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 1240.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0.0,
+     "credit": 1240.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Year 4 June 30",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 1364.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0.0,
+     "credit": 1364.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Year 4 June 30 (settlement)",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 15000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Notes Receivable",
+     "debit": 0.0,
+     "credit": 15000.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "date": "Year 1 December 31",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 564.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0.0,
+     "credit": 564.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "date": "Year 2 December 31",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 1183.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0.0,
+     "credit": 1183.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "date": "Year 3 December 31",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 1302.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0.0,
+     "credit": 1302.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "date": "Year 4 June 30",
+   "lines": [
+    {
+     "account": "Discount on Notes Receivable",
+     "debit": 682.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0.0,
+     "credit": 682.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "date": "Year 4 June 30 (settlement)",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 15000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Notes Receivable",
+     "debit": 0.0,
+     "credit": 15000.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Note measured at the clearly determinable fair value of the inventory given up, 11,269, which the problem also states as the PV; the unrounded discounted figure is 15,000/(1.10)^3 = 11,269.72, rounded down to 11,269 by the problem - using the stated 11,269 is what makes the schedule tie exactly to face. Initial discount 3,731. Schedule run off the whole-dollar carrying amount with ROUND_HALF_UP per period; the final period is the plug, and here it required no adjustment (1,127+1,240+1,364 = 3,731 exactly and carrying closes to 15,000). No cash interest in any period (0% stated). (c) June-30 year-end: accruals equal the annual schedule amounts. (d) Dec-31 year-end: each schedule year is split 6/12 by months - 12/31/Y1 = 1,127 x 1/2 = 564 (half-up); 12/31/Y2 = 563 + 620 = 1,183; 12/31/Y3 = 620 + 682 = 1,302; 6/30/Y4 = 682; total 3,731 = original discount (verified). (e) At 12/31/Y1 the note is presented as a NONCURRENT (long-term) receivable because the single principal payment is not due until 6/30/Year 4, more than one year (and beyond the operating cycle) after the balance sheet date: Notes Receivable 15,000 less Discount on Notes Receivable 3,167 = net carrying amount 11,833. The discount is a contra-asset presented as a direct deduction from the note; it is not reported as an asset or deferred credit."
+}

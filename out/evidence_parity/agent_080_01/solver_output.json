@@ -1,0 +1,261 @@
+{
+ "id": "agent_080#01",
+ "rounding_convention": "decimal.Decimal throughout (no floats); each period's amount quantized to the cent with ROUND_HALF_UP at period end; totals accumulated from rounded period amounts",
+ "answers": [
+  {
+   "label": "a: Debit Equipment - Tempering Furnace (Jan 1, Year 1)",
+   "value": 240000
+  },
+  {
+   "label": "a: Credit Cash (Jan 1, Year 1)",
+   "value": 240000
+  },
+  {
+   "label": "b: Original annual straight-line depreciation = (240,000 - 24,000) / 8",
+   "value": 27000
+  },
+  {
+   "label": "b: Year 1 depreciation expense",
+   "value": 27000
+  },
+  {
+   "label": "b: Year 1 accumulated depreciation (end of year)",
+   "value": 27000
+  },
+  {
+   "label": "b: Year 1 carrying amount (end of year)",
+   "value": 213000
+  },
+  {
+   "label": "b: Year 2 depreciation expense",
+   "value": 27000
+  },
+  {
+   "label": "b: Year 2 accumulated depreciation (end of year)",
+   "value": 54000
+  },
+  {
+   "label": "b: Year 2 carrying amount (end of year)",
+   "value": 186000
+  },
+  {
+   "label": "b: Year 3 depreciation expense",
+   "value": 27000
+  },
+  {
+   "label": "b: Year 3 accumulated depreciation (end of year)",
+   "value": 81000
+  },
+  {
+   "label": "b: Year 3 carrying amount (end of year)",
+   "value": 159000
+  },
+  {
+   "label": "b: Year 4 depreciation expense",
+   "value": 27000
+  },
+  {
+   "label": "b: Year 4 accumulated depreciation (end of year)",
+   "value": 108000
+  },
+  {
+   "label": "b: Year 4 carrying amount (end of year)",
+   "value": 132000
+  },
+  {
+   "label": "c: Carrying amount at January 1, Year 5 (240,000 - 108,000)",
+   "value": 132000
+  },
+  {
+   "label": "c: Remaining useful life at Jan 1, Year 5 (12 total - 4 elapsed), years",
+   "value": 8
+  },
+  {
+   "label": "c: Revised depreciable base (132,000 - 12,000 revised residual)",
+   "value": 120000
+  },
+  {
+   "label": "c: Updated annual depreciation (Years 5-12)",
+   "value": 15000
+  },
+  {
+   "label": "c: Year 5 period-end depreciation expense (JE amount)",
+   "value": 15000
+  },
+  {
+   "label": "d: Year 5 depreciation expense",
+   "value": 15000
+  },
+  {
+   "label": "d: Year 5 accumulated depreciation (end of year)",
+   "value": 123000
+  },
+  {
+   "label": "d: Year 5 carrying amount (end of year)",
+   "value": 117000
+  },
+  {
+   "label": "d: Year 6 depreciation expense",
+   "value": 15000
+  },
+  {
+   "label": "d: Year 6 accumulated depreciation (end of year)",
+   "value": 138000
+  },
+  {
+   "label": "d: Year 6 carrying amount (end of year)",
+   "value": 102000
+  },
+  {
+   "label": "d: Year 7 depreciation expense",
+   "value": 15000
+  },
+  {
+   "label": "d: Year 7 accumulated depreciation (end of year)",
+   "value": 153000
+  },
+  {
+   "label": "d: Year 7 carrying amount (end of year)",
+   "value": 87000
+  },
+  {
+   "label": "d: Year 8 depreciation expense",
+   "value": 15000
+  },
+  {
+   "label": "d: Year 8 accumulated depreciation (end of year)",
+   "value": 168000
+  },
+  {
+   "label": "d: Year 8 carrying amount (end of year)",
+   "value": 72000
+  },
+  {
+   "label": "d: Year 9 depreciation expense",
+   "value": 15000
+  },
+  {
+   "label": "d: Year 9 accumulated depreciation (end of year)",
+   "value": 183000
+  },
+  {
+   "label": "d: Year 9 carrying amount (end of year)",
+   "value": 57000
+  },
+  {
+   "label": "d: Year 10 depreciation expense",
+   "value": 15000
+  },
+  {
+   "label": "d: Year 10 accumulated depreciation (end of year)",
+   "value": 198000
+  },
+  {
+   "label": "d: Year 10 carrying amount (end of year)",
+   "value": 42000
+  },
+  {
+   "label": "d: Year 11 depreciation expense",
+   "value": 15000
+  },
+  {
+   "label": "d: Year 11 accumulated depreciation (end of year)",
+   "value": 213000
+  },
+  {
+   "label": "d: Year 11 carrying amount (end of year)",
+   "value": 27000
+  },
+  {
+   "label": "d: Year 12 depreciation expense",
+   "value": 15000
+  },
+  {
+   "label": "d: Year 12 accumulated depreciation (end of year)",
+   "value": 228000
+  },
+  {
+   "label": "d: Year 12 carrying amount (end of year)",
+   "value": 12000
+  },
+  {
+   "label": "d: Spot-check - carrying amount at end of Year 12 equals revised residual 12,000",
+   "value": 12000
+  },
+  {
+   "label": "e: Accumulated depreciation at December 31, Year 6 (after Year 6 depreciation)",
+   "value": 138000
+  },
+  {
+   "label": "e: Carrying amount at December 31, Year 6",
+   "value": 102000
+  },
+  {
+   "label": "e: Cash proceeds",
+   "value": 95000
+  },
+  {
+   "label": "e: Loss on disposal (95,000 proceeds - 102,000 carrying amount)",
+   "value": 7000
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Equipment - Tempering Furnace",
+     "debit": 240000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 240000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Depreciation Expense",
+     "debit": 15000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 15000
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 95000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 138000,
+     "credit": 0
+    },
+    {
+     "account": "Loss on Disposal of Equipment",
+     "debit": 7000,
+     "credit": 0
+    },
+    {
+     "account": "Equipment - Tempering Furnace",
+     "debit": 0,
+     "credit": 240000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "f: This is a change in accounting estimate (revised useful life and residual value), not a change in accounting principle or an error correction, so it is accounted for prospectively over the remaining 8 years with no restatement of Years 1-4. Original annual depreciation 27,000; carrying amount at 1/1/Y5 132,000; revised annual depreciation 15,000; Year 12 ending carrying amount equals the revised residual of 12,000; sale of the furnace for 95,000 against a 102,000 carrying amount yields a 7,000 loss."
+}

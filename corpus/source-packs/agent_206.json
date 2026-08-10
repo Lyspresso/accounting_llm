@@ -1,0 +1,63 @@
+{
+  "agent_id": 206,
+  "lo": "LO 12-1",
+  "chapter": 12,
+  "title": "Calculate depreciation using straight-line, sum-of-the-years’-digits, declining-balance, and units-of-production methods",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-1",
+      "concept": "Straight-line subsequent measurement schedule over full useful life; initial recognition JE; period-end depreciation adjusting JE; balance sheet presentation; disposal settlement JE",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-1",
+      "concept": "Number-variant twin — straight-line subsequent measurement schedule; initial recognition; period-end depreciation JE; disposal settlement after two years",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-1",
+      "concept": "Double-declining-balance subsequent measurement schedule with residual-value floor (final-year plug); SYD and units-of-production Year 1 expense; period-end dep JE; disposal after three years under DDB",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-1",
+      "concept": "Classify how residual value enters each depreciation method and identify the straight-line rate",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

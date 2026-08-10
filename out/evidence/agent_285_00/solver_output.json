@@ -1,0 +1,454 @@
+{
+  "id": "agent_285#00",
+  "rounding_convention": "decimal.Decimal only; ROUND_HALF_UP to the nearest whole dollar applied per period (rounded balances carried forward, never round-at-end); PV of the annuity due from the exact formula =PV(0.05,4,-22000,0,1) at 50-digit precision per the course handout, not a 5-decimal table factor; final-period interest plugged so the lease liability clears to zero",
+  "answers": [
+    {
+      "label": "a: lease classification for Riverglen (lessee)",
+      "value": "Operating"
+    },
+    {
+      "label": "a: discount rate used (%) - rate implicit in the lease, known by lessee",
+      "value": 5
+    },
+    {
+      "label": "b: lease liability at commencement (Jan 1, Year 1, before first payment)",
+      "value": 81911
+    },
+    {
+      "label": "b: right-of-use asset at commencement (Jan 1, Year 1)",
+      "value": 81911
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 1 - lease payment",
+      "value": 22000
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 1 - interest on liability",
+      "value": 0
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 1 - lease liability change",
+      "value": 22000
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 1 - lease liability balance after payment",
+      "value": 59911
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 2 - lease payment",
+      "value": 22000
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 2 - interest on liability",
+      "value": 2996
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 2 - lease liability change",
+      "value": 19004
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 2 - lease liability balance after payment",
+      "value": 40907
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 3 - lease payment",
+      "value": 22000
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 3 - interest on liability",
+      "value": 2045
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 3 - lease liability change",
+      "value": 19955
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 3 - lease liability balance after payment",
+      "value": 20952
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 4 - lease payment",
+      "value": 22000
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 4 - interest on liability",
+      "value": 1048
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 4 - lease liability change",
+      "value": 20952
+    },
+    {
+      "label": "c: lease liability schedule - Jan 1, Year 4 - lease liability balance after payment",
+      "value": 0
+    },
+    {
+      "label": "c: lease liability schedule - total lease payments",
+      "value": 88000
+    },
+    {
+      "label": "c: lease liability schedule - total interest",
+      "value": 6089
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 1 - lease expense",
+      "value": 22000
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 1 - interest on liability",
+      "value": 2996
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 1 - ROU asset change",
+      "value": 19004
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 1 - ROU asset balance",
+      "value": 62907
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 2 - lease expense",
+      "value": 22000
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 2 - interest on liability",
+      "value": 2045
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 2 - ROU asset change",
+      "value": 19955
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 2 - ROU asset balance",
+      "value": 42952
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 3 - lease expense",
+      "value": 22000
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 3 - interest on liability",
+      "value": 1048
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 3 - ROU asset change",
+      "value": 20952
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 3 - ROU asset balance",
+      "value": 22000
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 4 - lease expense",
+      "value": 22000
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 4 - interest on liability",
+      "value": 0
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 4 - ROU asset change",
+      "value": 22000
+    },
+    {
+      "label": "c: ROU asset schedule - Dec 31, Year 4 - ROU asset balance",
+      "value": 0
+    },
+    {
+      "label": "e: Year 1 income statement - lease expense (single operating lease cost)",
+      "value": 22000
+    },
+    {
+      "label": "e: Dec 31, Year 1 balance sheet - right-of-use asset",
+      "value": 62907
+    },
+    {
+      "label": "e: Dec 31, Year 1 balance sheet - current lease liability",
+      "value": 22000
+    },
+    {
+      "label": "e: Dec 31, Year 1 balance sheet - noncurrent lease liability",
+      "value": 40907
+    },
+    {
+      "label": "e: Dec 31, Year 1 balance sheet - total lease liability",
+      "value": 62907
+    },
+    {
+      "label": "g: right-of-use asset balance after Dec 31, Year 4",
+      "value": 0
+    },
+    {
+      "label": "g: lease liability balance after Jan 1, Year 4 final payment",
+      "value": 0
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "d",
+      "date": "Jan 1, Year 1",
+      "memo": "Commencement: recognize right-of-use asset and lease liability",
+      "lines": [
+        {
+          "account": "Right-of-Use Asset",
+          "debit": 81911,
+          "credit": 0
+        },
+        {
+          "account": "Lease Liability",
+          "debit": 0,
+          "credit": 81911
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Jan 1, Year 1",
+      "memo": "First annual lease payment",
+      "lines": [
+        {
+          "account": "Lease Liability",
+          "debit": 22000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 22000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Dec 31, Year 1",
+      "memo": "Period-end adjusting entry - single lease expense",
+      "lines": [
+        {
+          "account": "Lease Expense",
+          "debit": 22000,
+          "credit": 0
+        },
+        {
+          "account": "Lease Liability",
+          "debit": 0,
+          "credit": 2996
+        },
+        {
+          "account": "Right-of-Use Asset",
+          "debit": 0,
+          "credit": 19004
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "Jan 1, Year 2",
+      "memo": "Year 2 annual lease payment",
+      "lines": [
+        {
+          "account": "Lease Liability",
+          "debit": 22000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 22000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "Dec 31, Year 2",
+      "memo": "Period-end adjusting entry - single lease expense",
+      "lines": [
+        {
+          "account": "Lease Expense",
+          "debit": 22000,
+          "credit": 0
+        },
+        {
+          "account": "Lease Liability",
+          "debit": 0,
+          "credit": 2045
+        },
+        {
+          "account": "Right-of-Use Asset",
+          "debit": 0,
+          "credit": 19955
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "Jan 1, Year 3",
+      "memo": "Year 3 annual lease payment",
+      "lines": [
+        {
+          "account": "Lease Liability",
+          "debit": 22000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 22000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "Dec 31, Year 3",
+      "memo": "Period-end adjusting entry - single lease expense",
+      "lines": [
+        {
+          "account": "Lease Expense",
+          "debit": 22000,
+          "credit": 0
+        },
+        {
+          "account": "Lease Liability",
+          "debit": 0,
+          "credit": 1048
+        },
+        {
+          "account": "Right-of-Use Asset",
+          "debit": 0,
+          "credit": 20952
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "date": "Jan 1, Year 4",
+      "memo": "Final annual lease payment - lease liability settled",
+      "lines": [
+        {
+          "account": "Lease Liability",
+          "debit": 22000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 22000
+        }
+      ]
+    },
+    {
+      "part": "g",
+      "date": "Dec 31, Year 4",
+      "memo": "Final period-end adjusting entry - no interest remains; ROU asset written off",
+      "lines": [
+        {
+          "account": "Lease Expense",
+          "debit": 22000,
+          "credit": 0
+        },
+        {
+          "account": "Right-of-Use Asset",
+          "debit": 0,
+          "credit": 22000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Operating lease: none of the five ASC 842 classification criteria is met (no ownership transfer, no purchase option, 4/10 = 40% < 75% of economic life, PV $81,911 / $140,000 = 58.51% < 90% of fair value, and the equipment is not specialized since Summit routinely leases it to others). Discount rate is the 5% implicit rate because it is known to Riverglen; the 6% IBR is not used. PV of the annuity due uses the exact Excel =PV(0.05,4,-22000,0,1) formula = $81,911.4566, rounded to $81,911. Interest on the Jan 1, Year 4 row ($1,048) is the plug that clears the liability; it equals the unrounded 5% calculation anyway. Single lease cost is $88,000 / 4 = $22,000 per year, and each period's ROU reduction is that expense less the period's interest, credited directly to the ROU asset. Dec 31, Year 1 current lease liability is the $22,000 Jan 1, Year 2 payment; noncurrent is the $62,907 total less that $22,000. Both the ROU asset and the lease liability are zero after lease end. Convention note: a 5-decimal PV table factor (3.72325) would give $81,911.50 -> $81,912 and shift the schedule by $1; the exact Excel PV formula prescribed by the CH 17 handout and used in Demo 17-3 gives $81,911, which is what is reported here.",
+  "supporting_detail": {
+    "classification_criteria": [
+      {
+        "criterion": "1. Transfer of ownership",
+        "met": false,
+        "analysis": "Equipment reverts to Summit at the end of the 4-year term; no transfer of ownership."
+      },
+      {
+        "criterion": "2. Purchase option",
+        "met": false,
+        "analysis": "The lease contains no purchase option."
+      },
+      {
+        "criterion": "3. Lease term for a major part of remaining economic life",
+        "met": false,
+        "analysis": "4-year lease term / 10-year remaining economic life = 40.00%, which is less than the 75% major-part threshold (7.5 years)."
+      },
+      {
+        "criterion": "4. PV of lease payments equals substantially all of fair value",
+        "met": false,
+        "analysis": "PV of lease payments $81,911 / fair value $140,000 = 58.51%, which is less than 90% of fair value ($126,000)."
+      },
+      {
+        "criterion": "5. Specialized asset with no alternative use",
+        "met": false,
+        "analysis": "Summit routinely leases this forklift equipment to other customers, so it has alternative use."
+      }
+    ],
+    "pv_of_lease_payments_unrounded": "81911.4566",
+    "lease_liability_schedule": [
+      {
+        "date": "Jan 1, Year 1",
+        "lease_payment": 22000,
+        "interest_on_liability": 0,
+        "lease_liability_change": 22000,
+        "lease_liability_balance": 59911
+      },
+      {
+        "date": "Jan 1, Year 2",
+        "lease_payment": 22000,
+        "interest_on_liability": 2996,
+        "lease_liability_change": 19004,
+        "lease_liability_balance": 40907
+      },
+      {
+        "date": "Jan 1, Year 3",
+        "lease_payment": 22000,
+        "interest_on_liability": 2045,
+        "lease_liability_change": 19955,
+        "lease_liability_balance": 20952
+      },
+      {
+        "date": "Jan 1, Year 4",
+        "lease_payment": 22000,
+        "interest_on_liability": 1048,
+        "lease_liability_change": 20952,
+        "lease_liability_balance": 0
+      }
+    ],
+    "right_of_use_asset_schedule": [
+      {
+        "date": "Dec 31, Year 1",
+        "lease_expense": 22000,
+        "interest_on_liability": 2996,
+        "rou_asset_change": 19004,
+        "rou_asset_balance": 62907
+      },
+      {
+        "date": "Dec 31, Year 2",
+        "lease_expense": 22000,
+        "interest_on_liability": 2045,
+        "rou_asset_change": 19955,
+        "rou_asset_balance": 42952
+      },
+      {
+        "date": "Dec 31, Year 3",
+        "lease_expense": 22000,
+        "interest_on_liability": 1048,
+        "rou_asset_change": 20952,
+        "rou_asset_balance": 22000
+      },
+      {
+        "date": "Dec 31, Year 4",
+        "lease_expense": 22000,
+        "interest_on_liability": 0,
+        "rou_asset_change": 22000,
+        "rou_asset_balance": 0
+      }
+    ],
+    "dec31_lease_liability_balances": {
+      "Dec 31, Year 1": 62907,
+      "Dec 31, Year 2": 42952,
+      "Dec 31, Year 3": 22000,
+      "Dec 31, Year 4": 0
+    }
+  }
+}

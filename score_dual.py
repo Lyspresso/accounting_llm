@@ -76,8 +76,8 @@ def find_counterpart(label, value, dual_answers):
         v0 = abs(v)
         # A zero paired against a materially non-zero figure is not a
         # counterpart, it is a mis-pairing: label overlap alone matched two of
-        # one item's lease-liability figures against an unrelated 0.00 and
-        # reported the full amounts as disagreements against it. Unless the labels are a
+        # agent_283#02's lease-liability figures against an unrelated 0.00 and
+        # reported them as 208,029 vs 0 disagreements. Unless the labels are a
         # near-exact match, treat it as no counterpart - which leaves the figure
         # UNVERIFIED rather than either passing it or inventing a finding.
         if bv is not None and best_score < 0.70:
@@ -137,7 +137,7 @@ def main():
             tolv = canon.tol_for(abs(v1), prec, sched, str(f.get("label") or ""))
             # A pair related by a whole period factor is a UNIT mismatch in my
             # label matching, not two solvers disagreeing: 1,125 monthly vs
-            # an annual figure at the same rate. Do not score it as a finding.
+            # 13,500 annual is the same rate. Do not score it as a finding.
             if canon.period_factor_pair(v1, v2, str(f.get("label") or ""),
                                         str(a.get("label") or "")):
                 unmatched.append({"id": qid, "label": f.get("label"),

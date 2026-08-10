@@ -1,0 +1,46 @@
+{
+  "agent_id": 51,
+  "lo": "LO 9-4",
+  "chapter": 9,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-4",
+      "concept": "Initial recognition of purchases/freight under perpetual gross method; AP settlement and returns; sale with simultaneous COGS; period-end shortage adjustment",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-4",
+      "concept": "Number-variant twin of perpetual gross-method purchases, settlements, sale with COGS, rollforward, and period-end shortage",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-4",
+      "concept": "Perpetual net-method initial recognition; settlement within/after discount (Interest Expense for lost discount); sale COGS; period-end shortage; classification of Interest Expense vs COGS",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-4",
+      "concept": "Classification of accounts and journal treatment under perpetual inventory (gross method purchase discount)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 9-4",
+      "concept": "Classification of simultaneous revenue and COGS recognition under perpetual vs periodic",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,39 @@
+{
+  "agent_id": 55,
+  "lo": "LO 9-8",
+  "chapter": 9,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-8",
+      "concept": "Initial year base layer; subsequent DV LIFO measurement schedule; first and subsequent LIFO-reserve adjusting JEs; BS presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-8",
+      "concept": "Number-variant twin of DV LIFO layers, reserve schedule, and period-end adjusting JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-8",
+      "concept": "Subsequent measurement with growth then liquidation of DV LIFO layers; period-end reserve JE including a decrease in the allowance",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-8",
+      "concept": "Classification of the LIFO allowance and application of DV LIFO steps",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

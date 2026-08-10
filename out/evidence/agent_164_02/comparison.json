@@ -1,0 +1,106 @@
+{
+ "id": "agent_164#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 5,
+  "routed_stage2": 2,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a1: Payment of principal on a finance lease liability",
+   "solver": "F outflow"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a2: Cash purchase of trading equity securities held for short-term resale profits",
+   "solver": "O outflow"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a3: Cash proceeds from sale of those same trading securities",
+   "solver": "O inflow"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a4: Cash purchase of available-for-sale debt securities held for long-term yield",
+   "solver": "I outflow"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a5: Collection of principal on a short-term trade note receivable from an inventory sale",
+   "solver": "O inflow"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a6: Collection of interest on that same trade note",
+   "solver": "O inflow"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a7: Cash paid for early extinguishment of long-term bonds (principal and premium)",
+   "solver": "F outflow"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a8: Cash proceeds from sale of a patent",
+   "solver": "I inflow"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a9: Cash received from issuance of a short-term nontrade note payable for general financing",
+   "solver": "F inflow"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a10: Payment of a cash dividend declared in the prior year",
+   "solver": "F outflow"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "c: SCF section for the patent sale proceeds",
+   "solver": "Investing inflow 22500 (gain 4500 deducted from net income in operating)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "c: SCF section for the finance-lease principal payment",
+   "solver": "Financing outflow 9000"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "d: true/false with correction",
+   "solver": "False. ASC 230-10-45-26 requires investing (and financing) cash inflows and outflows to be reported separately on a GROSS basis: cash paid to purchase equipment"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "e: required section order on the face of the SCF",
+   "solver": "1) Cash flows from operating activities; 2) Cash flows from investing activities; 3) Cash flows from financing activities; = Net change in cash, cash equivalent"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Gain on Sale of Patent"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 18000.0,
+   "solver": "patent",
+   "key_options": [
+    "patent net"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 9000.0,
+   "solver": "lease liability",
+   "key_options": [
+    "finance lease liability"
+   ]
+  }
+ ]
+}

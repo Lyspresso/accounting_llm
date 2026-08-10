@@ -1,0 +1,65 @@
+{
+  "agent_id": 147,
+  "lo": "LO 16-6",
+  "chapter": 16,
+  "title": "Accounting for Notes Payable",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-6",
+      "concept": "Zero-interest-bearing note payable — initial PV measurement, subsequent effective-interest schedule, year-end adjusting entries, maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-6",
+      "concept": "Number-variant twin — interest-bearing note at discount; effective-interest schedule; period-end cash interest and amortization; maturity",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-6",
+      "concept": "Note payable exchanged for equipment (asset FV more clearly evident); effective-interest subsequent measurement; maturity; current vs noncurrent classification",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-6",
+      "concept": "Measurement basis for notes issued for noncash consideration; balance-sheet classification of discounted notes",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

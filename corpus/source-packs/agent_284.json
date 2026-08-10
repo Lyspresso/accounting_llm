@@ -1,0 +1,75 @@
+{
+  "agent_id": 284,
+  "lo": "LO 17-2",
+  "chapter": 17,
+  "title": "Accounting for a Basic Finance Lease by a Lessee",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-2",
+      "concept": "Lessee basic finance lease—initial ROU/liability recognition, effective-interest liability schedule, period-end interest & ROU amortization adjusting JEs, BS/IS presentation, runoff to maturity",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-2",
+      "concept": "Number-variant twin—lessee finance lease initial recognition, full liability schedule, period-end adjusting JEs, and Year-1 presentation",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-2",
+      "concept": "Period-end adjusting JE emphasis—full-year and interim (month-fraction) interest accrual; ROU amortization; current/noncurrent presentation; final-year settlement",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-2",
+      "concept": "Classification/method—rate used to measure the lease liability when the implicit rate is known",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 17-2",
+      "concept": "Classification/presentation—finance lease expense pattern vs operating lease single lease cost",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

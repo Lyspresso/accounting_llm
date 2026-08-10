@@ -1,0 +1,72 @@
+{
+  "agent_id": 370,
+  "lo": "LO 19-3",
+  "chapter": 19,
+  "title": "Account for reacquisition of common stock",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-3",
+      "concept": "Treasury stock cost method — purchase, reissue above/below cost, period-end equity, subsequent retirement, direct-retirement alternative",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-3",
+      "concept": "Number-variant twin — treasury purchase, reissue above/below cost, period-end equity, retirement; direct retirement when cash < original issue",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-3",
+      "concept": "Period-end equity emphasis — multi-lot FIFO treasury cost schedule and year-end reissuance below cost with equity presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-3",
+      "concept": "Cost-method reissuance below cost — debit PIC—Treasury Stock first, then Retained Earnings; no income-statement loss",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 19-3",
+      "concept": "Treasury holding vs direct retirement — issued vs outstanding shares; treasury is contra equity not an asset",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

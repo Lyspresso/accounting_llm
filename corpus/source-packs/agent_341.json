@@ -1,0 +1,76 @@
+{
+  "agent_id": 341,
+  "lo": "LO 12-3",
+  "chapter": 12,
+  "title": "Calculate depreciation using group and composite depreciation methods",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-3",
+      "concept": "Composite depreciation schedule; rate and useful life; initial recognition; period-end adjusting JEs (Year 1 and Year 2 emphasis); disposal with AD plug (no G/L); subsequent measurement at old rate × new cost; AD control roll-forward",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-3",
+      "concept": "Number-variant twin: composite schedule, rate/life, initial recognition, period-end adjusting JEs, disposal with AD plug, Year-2 dep at old rate × new cost",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-3",
+      "concept": "Group depreciation for similar assets; group rate and life; period-end adjusting JEs across years; multi-unit disposal with AD plug; non-material addition; subsequent group depreciation at old rate × new cost",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-3",
+      "concept": "Classification of disposal accounting under group/composite methods (no separate G/L; AD plug)",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-3",
+      "concept": "Period-end adjusting measurement after non-material change — old rate × revised total acquisition cost",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

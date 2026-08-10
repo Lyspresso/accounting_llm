@@ -1,0 +1,484 @@
+{
+ "id": "agent_092#00",
+ "rounding_convention": "decimal.Decimal throughout; amounts quantized to cents (0.01) with ROUND_HALF_UP, applied per period (each year's depreciation/amortization rounded independently, final year trued up so accumulated depreciation equals depreciable cost). All results here are exact whole dollars.",
+ "answers": [
+  {
+   "label": "a: Item 1 treatment - expensed immediately as R&D",
+   "value": 240000
+  },
+  {
+   "label": "a: Item 2 treatment - capitalized (equipment, alternative future use)",
+   "value": 480000
+  },
+  {
+   "label": "a: Item 3 treatment - expensed immediately as R&D",
+   "value": 96000
+  },
+  {
+   "label": "a: Item 4 treatment - expensed immediately as R&D",
+   "value": 1150000
+  },
+  {
+   "label": "a: Item 5 treatment - expensed immediately as R&D",
+   "value": 85000
+  },
+  {
+   "label": "a: Item 6 treatment - expensed immediately as R&D",
+   "value": 72000
+  },
+  {
+   "label": "a: Item 7 treatment - NOT R&D - G&A expense",
+   "value": 310000
+  },
+  {
+   "label": "a: Item 8 treatment - NOT R&D - routine production troubleshooting/repair",
+   "value": 41000
+  },
+  {
+   "label": "a: Item 9 treatment - expensed immediately as R&D",
+   "value": 55000
+  },
+  {
+   "label": "a: Item 10 treatment - capitalized (patent registration legal fees)",
+   "value": 12000
+  },
+  {
+   "label": "a: Total Year 1 costs expensed immediately as R&D (items 1,3,4,5,6,9)",
+   "value": 1698000
+  },
+  {
+   "label": "a: Total Year 1 costs capitalized - multi-use laboratory equipment (item 2)",
+   "value": 480000
+  },
+  {
+   "label": "a: Total Year 1 costs capitalized - patent registration legal fees (item 10)",
+   "value": 12000
+  },
+  {
+   "label": "a: Total Year 1 costs charged to G&A, not R&D (item 7)",
+   "value": 310000
+  },
+  {
+   "label": "a: Total Year 1 costs charged to production repairs, not R&D (item 8)",
+   "value": 41000
+  },
+  {
+   "label": "a: Total cash paid, Year 1 (items 1-10)",
+   "value": 2541000
+  },
+  {
+   "label": "b(1): Dec 31, Year 1 depreciation on multi-use laboratory equipment (R&D expense)",
+   "value": 80000
+  },
+  {
+   "label": "b(2): Dec 31, Year 1 patent amortization (12,000 / 10 yrs x 6/12)",
+   "value": 600
+  },
+  {
+   "label": "b(2): Patent carrying amount, Dec 31, Year 1",
+   "value": 11400
+  },
+  {
+   "label": "c: Year 1 beginning book value",
+   "value": 480000
+  },
+  {
+   "label": "c: Year 1 depreciation expense (classified as R&D expense)",
+   "value": 80000
+  },
+  {
+   "label": "c: Year 1 accumulated depreciation",
+   "value": 80000
+  },
+  {
+   "label": "c: Year 1 ending book value",
+   "value": 400000
+  },
+  {
+   "label": "c: Year 2 beginning book value",
+   "value": 400000
+  },
+  {
+   "label": "c: Year 2 depreciation expense (classified as R&D expense)",
+   "value": 80000
+  },
+  {
+   "label": "c: Year 2 accumulated depreciation",
+   "value": 160000
+  },
+  {
+   "label": "c: Year 2 ending book value",
+   "value": 320000
+  },
+  {
+   "label": "c: Year 3 beginning book value",
+   "value": 320000
+  },
+  {
+   "label": "c: Year 3 depreciation expense (classified as R&D expense)",
+   "value": 80000
+  },
+  {
+   "label": "c: Year 3 accumulated depreciation",
+   "value": 240000
+  },
+  {
+   "label": "c: Year 3 ending book value",
+   "value": 240000
+  },
+  {
+   "label": "c: Year 4 beginning book value",
+   "value": 240000
+  },
+  {
+   "label": "c: Year 4 depreciation expense (classified as R&D expense)",
+   "value": 80000
+  },
+  {
+   "label": "c: Year 4 accumulated depreciation",
+   "value": 320000
+  },
+  {
+   "label": "c: Year 4 ending book value",
+   "value": 160000
+  },
+  {
+   "label": "c: Year 5 beginning book value",
+   "value": 160000
+  },
+  {
+   "label": "c: Year 5 depreciation expense (classified as R&D expense)",
+   "value": 80000
+  },
+  {
+   "label": "c: Year 5 accumulated depreciation",
+   "value": 400000
+  },
+  {
+   "label": "c: Year 5 ending book value",
+   "value": 80000
+  },
+  {
+   "label": "c: Year 6 beginning book value",
+   "value": 80000
+  },
+  {
+   "label": "c: Year 6 depreciation expense (classified as R&D expense)",
+   "value": 80000
+  },
+  {
+   "label": "c: Year 6 accumulated depreciation",
+   "value": 480000
+  },
+  {
+   "label": "c: Year 6 ending book value",
+   "value": 0
+  },
+  {
+   "label": "d: Total Year 1 R&D expense to be disclosed (1,698,000 cash R&D + 80,000 equipment depreciation)",
+   "value": 1778000
+  },
+  {
+   "label": "d: Excluded from R&D - corporate HQ G&A (item 7)",
+   "value": 310000
+  },
+  {
+   "label": "d: Excluded from R&D - routine troubleshooting/repair of existing production line (item 8)",
+   "value": 41000
+  },
+  {
+   "label": "d: Excluded from R&D - patent registration legal fees, capitalized as intangible (item 10)",
+   "value": 12000
+  },
+  {
+   "label": "d: Excluded from R&D - Year 1 patent amortization (amortization of intangible, not R&D)",
+   "value": 600
+  },
+  {
+   "label": "d: Excluded from R&D - equipment cost itself capitalized (only its 80,000 depreciation is R&D) (item 2)",
+   "value": 480000
+  },
+  {
+   "label": "d: Total Year 1 costs excluded from the R&D disclosure",
+   "value": 363600
+  },
+  {
+   "label": "e: Accumulated depreciation at Jan 1, Year 4 (3 x 80,000)",
+   "value": 240000
+  },
+  {
+   "label": "e: Book value of laboratory equipment at Jan 1, Year 4",
+   "value": 240000
+  },
+  {
+   "label": "e: Cash proceeds on sale",
+   "value": 250000
+  },
+  {
+   "label": "e: Gain on sale of laboratory equipment (250,000 - 240,000)",
+   "value": 10000
+  },
+  {
+   "label": "f: ASC 730 presentation/disclosure of total R&D cost",
+   "value": "ASC 730-10-50-1 requires disclosure of the total R&D costs charged to expense in each income statement period presented. R&D costs are expensed as incurred and reported as an operating expense; the total (here $1,778,000.00 for Year 1) is disclosed either as a separate line item on the face of the income statement or in the notes/significant accounting policies, and includes depreciation of capitalized multi-use assets used in R&D."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "description": "Item 1 - Materials consumed on current R&D projects (no alternative future use) (expensed as R&D when incurred)",
+   "lines": [
+    {
+     "account": "Research and Development Expense",
+     "debit": 240000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 240000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "description": "Item 2 - Laboratory equipment (significant alternative future uses) (capitalized: alternative future use)",
+   "lines": [
+    {
+     "account": "Laboratory Equipment (multi-use)",
+     "debit": 480000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 480000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "description": "Item 3 - Specialized testing apparatus, single project, no alternative use (expensed as R&D when incurred)",
+   "lines": [
+    {
+     "account": "Research and Development Expense",
+     "debit": 96000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 96000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "description": "Item 4 - Salaries and wages of R&D scientists and technicians (expensed as R&D when incurred)",
+   "lines": [
+    {
+     "account": "Research and Development Expense",
+     "debit": 1150000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 1150000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "description": "Item 5 - Contract research fees paid to outside university lab (expensed as R&D when incurred)",
+   "lines": [
+    {
+     "account": "Research and Development Expense",
+     "debit": 85000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 85000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "description": "Item 6 - Reasonable allocation of indirect facility costs related to R&D (expensed as R&D when incurred)",
+   "lines": [
+    {
+     "account": "Research and Development Expense",
+     "debit": 72000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 72000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "description": "Item 7 - Corporate headquarters G&A not clearly related to R&D (not R&D)",
+   "lines": [
+    {
+     "account": "General and Administrative Expense",
+     "debit": 310000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 310000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "description": "Item 8 - Troubleshooting/repair of existing commercial production line (not R&D; routine production cost)",
+   "lines": [
+    {
+     "account": "Repairs and Maintenance Expense (Production)",
+     "debit": 41000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 41000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "description": "Item 9 - Design and construction of preproduction prototypes (expensed as R&D when incurred)",
+   "lines": [
+    {
+     "account": "Research and Development Expense",
+     "debit": 55000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 55000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "description": "Item 10 - Legal fees to register patent on successfully developed process (capitalized registration cost, not R&D)",
+   "lines": [
+    {
+     "account": "Patent",
+     "debit": 12000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 12000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "description": "Summary of part a: total R&D expensed immediately vs capitalized vs non-R&D",
+   "lines": [
+    {
+     "account": "Research and Development Expense (items 1,3,4,5,6,9)",
+     "debit": 1698000,
+     "credit": 0
+    },
+    {
+     "account": "Laboratory Equipment (multi-use, item 2)",
+     "debit": 480000,
+     "credit": 0
+    },
+    {
+     "account": "Patent (item 10)",
+     "debit": 12000,
+     "credit": 0
+    },
+    {
+     "account": "General and Administrative Expense (item 7)",
+     "debit": 310000,
+     "credit": 0
+    },
+    {
+     "account": "Repairs and Maintenance Expense (item 8)",
+     "debit": 41000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 2541000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "description": "Dec 31, Year 1 - depreciation of multi-use laboratory equipment (charged to R&D)",
+   "lines": [
+    {
+     "account": "Research and Development Expense (Depreciation)",
+     "debit": 80000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Laboratory Equipment",
+     "debit": 0,
+     "credit": 80000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "description": "Dec 31, Year 1 - patent amortization (6 months, not R&D)",
+   "lines": [
+    {
+     "account": "Amortization Expense - Patent",
+     "debit": 600,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Amortization - Patent",
+     "debit": 0,
+     "credit": 600
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "description": "Jan 1, Year 4 - sale of multi-use laboratory equipment for cash",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 250000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Laboratory Equipment",
+     "debit": 240000,
+     "credit": 0
+    },
+    {
+     "account": "Laboratory Equipment (multi-use)",
+     "debit": 0,
+     "credit": 480000
+    },
+    {
+     "account": "Gain on Sale of Equipment",
+     "debit": 0,
+     "credit": 10000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Item 2 equipment has alternative future uses, so it is capitalized and only its annual straight-line depreciation ($480,000/6 = $80,000) is charged to R&D expense; item 3 apparatus has no alternative future use, so its full $96,000 is expensed immediately as R&D even though purchased April 1 (no depreciation on it). Items 7 (corporate G&A) and 8 (routine troubleshooting/repair of an existing commercial production line) are not R&D under ASC 730-10-55. Item 9 preproduction prototypes ARE R&D. Item 10 patent registration legal fees are capitalized as an intangible (not R&D) and amortized over the shorter 10-year useful life from July 1, Year 1 ($600 in Year 1); patent amortization is not part of R&D expense. Year 1 R&D disclosure = 240,000 + 96,000 + 1,150,000 + 85,000 + 72,000 + 55,000 + 80,000 = 1,778,000. Sale on Jan 1, Year 4: book value 480,000 - 240,000 = 240,000 vs proceeds 250,000, so a 10,000 gain (no Year 4 depreciation because the sale is on the first day of the year)."
+}

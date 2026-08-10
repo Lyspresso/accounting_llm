@@ -1,0 +1,16 @@
+{
+ "id": "agent_135#01",
+ "pack_id": "agent_135",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "low",
+ "expected_verdict": "PASS",
+ "guards_rule": "corroboration_not_waving_through",
+ "rationale": "FVA rollforward -2,750 / +4,950 / +550; realized gain 2,750; sale entry foots 60,500=60,500; AOCI 2,200+550-2,750=0.",
+ "truth_as_of_hash": "3d10d5440f09c05665378c9da765555cbd94995f5b79325f315513496197651f",
+ "truth_as_of_bytes": "6dcc1dc6e1f753af550a0815f443d951dccfa013a99db4b6cb06682b4da22a69",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "clean",
+ "cross_check_evidence": "FVA rollforward -2,750 / +4,950 / +550; realized gain 2,750; sale entry foots 60,500=60,500; AOCI 2,200+550-2,750=0."
+}

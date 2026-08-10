@@ -1,0 +1,62 @@
+{
+ "id": "agent_008#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 5,
+  "routed_stage2": 4,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Sale of Investments"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Debt Investments (Trading)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Fair Value Adjustment-Trading Securities"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 1200.0,
+   "solver": "loss on sale of investments",
+   "key_options": [
+    "loss on sale of investment"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 35000.0,
+   "solver": "debt investments trading",
+   "key_options": [
+    "investment in ts crest bonds"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 3800.0,
+   "solver": "fair value adjustment trading securities",
+   "key_options": [
+    "fair value adjustment ts"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 3800.0,
+   "solver": "unrealized holding gain or loss income",
+   "key_options": [
+    "unrealized gain or loss income"
+   ]
+  }
+ ]
+}

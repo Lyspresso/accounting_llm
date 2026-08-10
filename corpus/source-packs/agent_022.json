@@ -1,0 +1,60 @@
+{
+  "agent_id": 22,
+  "lo": "LO 17-2",
+  "chapter": 17,
+  "title": "Accounting for a Basic Finance Lease by a Lessee",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-2",
+      "concept": "Initial recognition JE + full liability schedule + period-end and maturity JEs",
+      "type": "multipart",
+      "company": "Cedar Ridge Fabricators",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-2",
+      "concept": "Number-variant twin — initial recognition, 4-year schedule, period-end and maturity JEs",
+      "type": "multipart",
+      "company": "Northwind Packaging Co.",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-2",
+      "concept": "Period-end interest/amortization adjusting JEs + interim liability measurement + BS classification",
+      "type": "multipart",
+      "company": "Harborline Diagnostics",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-2",
+      "concept": "Implicit rate vs incremental borrowing rate for initial measurement",
+      "type": "MC",
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 17-2",
+      "concept": "Dual expense presentation (interest + amortization) vs single lease expense",
+      "type": "MC",
+      "answer": "C",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

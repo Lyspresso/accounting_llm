@@ -1,0 +1,16 @@
+{
+ "id": "agent_285#00",
+ "pack_id": "agent_285",
+ "provenance_tier": "adjudicated",
+ "countersigned": false,
+ "countersign_priority": null,
+ "expected_verdict": "PASS",
+ "guards_rule": "header_driven_je_extraction",
+ "rationale": "parser lifted a 4-line optional-form table as the whole key",
+ "truth_as_of_hash": "6003be7ff99d0327a508f504af2877169647573d5483fd647c1f61889b0d7d2f",
+ "truth_as_of_bytes": "80c58a790966f649c699d8785afcd378d1766252cff0bbbaefeee704a11f8c75",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": null,
+ "cross_check_evidence": null
+}

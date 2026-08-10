@@ -1,0 +1,72 @@
+{
+  "agent_id": 362,
+  "lo": "LO 16-10",
+  "chapter": 16,
+  "title": "Describe financing disclosures and analyses using leverage ratios",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-10",
+      "concept": "Initial recognition of mixed debt; period-end interest and current-portion reclass (emphasis); five-year maturity schedule/disclosure; three leverage ratios",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-10",
+      "concept": "Number-variant twin — initial debt recognition; period-end interest and reclass; five-year maturity disclosure; leverage ratios; installment settlement JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-10",
+      "concept": "Period-end adjusting JEs only (emphasis)—accrue/pay interest and reclass current LTD; five-year disclosure from existing debt; settlement of serial principal; recompute leverage ratios",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-10",
+      "concept": "Identify required five-year aggregate maturity (and sinking-fund) disclosure for long-term borrowings",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 16-10",
+      "concept": "Correct formula for the times interest earned ratio",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

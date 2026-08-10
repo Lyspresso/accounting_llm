@@ -1,0 +1,72 @@
+{
+  "agent_id": 335,
+  "lo": "LO 11-8",
+  "chapter": 11,
+  "title": "Account for contributed property, plant, and equipment",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "number_variant_twin",
+    "classification_presentation_or_disclosure"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-8",
+      "concept": "Initial recognition of contributed land and building at FV with transfer costs netted against Contribution Revenue; subsequent multi-year depreciation schedule; period-end depreciation adjusting JEs (emphasis); disposal of the contributed building",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-8",
+      "concept": "Number-variant twin — initial recognition of contributed land and building at FV net of transfer costs; subsequent measurement schedule; period-end depreciation adjusting JEs; disposal of contributed building",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-8",
+      "concept": "Period-end adjusting JE emphasis — defer contribution revenue until donor-imposed condition is met; recognize equipment at FV when condition is satisfied at year-end; subsequent depreciation schedule; disposal at end of use",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-8",
+      "concept": "Classification/measurement of Contribution Revenue when recipient pays cash; correct recipient rule for unconditional contributed PPE",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "answers": ["C", "B"],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

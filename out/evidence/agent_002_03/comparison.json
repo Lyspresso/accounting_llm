@@ -1,0 +1,71 @@
+{
+ "id": "agent_002#03",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "failed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 8,
+  "routed_stage2": 4,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "SOLVER_MISMATCH",
+   "label": "b: effect on net income on the January 1, Year 4 transfer date",
+   "solver": 0
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in AFS-Quill Corp. Bonds"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in AFS-Dune Partners Bonds"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in HTM-Quill Corp. Bonds"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in HTM-Dune Partners Bonds"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 90000.0,
+   "solver": "investment in afs quill corp bonds",
+   "key_options": [
+    "investment in afs quill bonds"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 60000.0,
+   "solver": "investment in afs dune partners bonds",
+   "key_options": [
+    "investment in afs dune bonds"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 90000.0,
+   "solver": "investment in htm quill corp bonds",
+   "key_options": [
+    "investment in htm quill bonds"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 60000.0,
+   "solver": "investment in htm dune partners bonds",
+   "key_options": [
+    "investment in htm dune bonds"
+   ]
+  }
+ ]
+}

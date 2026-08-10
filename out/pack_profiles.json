@@ -1,0 +1,5607 @@
+{
+ "corpus": {
+  "mean_overlap": 0.0027,
+  "sd": 0.0057,
+  "leak_cutoff": 0.35
+ },
+ "packs": {
+  "agent_000": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1670.5,
+   "mean_solution_len": 1834.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_001": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1178.2,
+   "mean_solution_len": 2079.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 1
+   }
+  },
+  "agent_002": {
+   "items": 7,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1356.9,
+   "mean_solution_len": 1771.7,
+   "mean_stem_solution_overlap": 0.0005,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 22,
+   "types": {
+    "journal_entry": 5,
+    "mcq": 2
+   }
+  },
+  "agent_003": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1375.2,
+   "mean_solution_len": 1945,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_004": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1206.2,
+   "mean_solution_len": 2124,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_005": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1236.4,
+   "mean_solution_len": 1713.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3,
+    "mcq": 2
+   }
+  },
+  "agent_006": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1564.8,
+   "mean_solution_len": 1773.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 12,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_007": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1415.8,
+   "mean_solution_len": 1644,
+   "mean_stem_solution_overlap": 0.0006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 4,
+    "mcq": 1
+   }
+  },
+  "agent_008": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1296,
+   "mean_solution_len": 2076.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 1
+   }
+  },
+  "agent_009": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1555.6,
+   "mean_solution_len": 1810.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3,
+    "mcq": 2
+   }
+  },
+  "agent_010": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1192,
+   "mean_solution_len": 2012.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 7,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_011": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1021.7,
+   "mean_solution_len": 1823.7,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 5,
+    "mcq": 1
+   }
+  },
+  "agent_012": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1187.8,
+   "mean_solution_len": 1969.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 1
+   }
+  },
+  "agent_013": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 971.2,
+   "mean_solution_len": 1211,
+   "mean_stem_solution_overlap": 0.0032,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 4,
+    "mcq": 1
+   }
+  },
+  "agent_014": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1178.2,
+   "mean_solution_len": 1710.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_015": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1008.7,
+   "mean_solution_len": 1566.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_016": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1390,
+   "mean_solution_len": 2395,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_017": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1337.2,
+   "mean_solution_len": 2600.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 14,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_018": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1356,
+   "mean_solution_len": 1880.6,
+   "mean_stem_solution_overlap": 0.0014,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_019": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1520.2,
+   "mean_solution_len": 2185.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_020": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1744.2,
+   "mean_solution_len": 2309.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_021": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1499.5,
+   "mean_solution_len": 2800,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_022": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1314.4,
+   "mean_solution_len": 2067.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3,
+    "mcq": 2
+   }
+  },
+  "agent_023": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1379.6,
+   "mean_solution_len": 2253,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 2,
+    "numeric": 1,
+    "mcq": 2
+   }
+  },
+  "agent_024": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1583,
+   "mean_solution_len": 2896.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 4
+   }
+  },
+  "agent_025": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1708.7,
+   "mean_solution_len": 3672.7,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3
+   }
+  },
+  "agent_026": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2229.2,
+   "mean_solution_len": 3257.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_027": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1594.2,
+   "mean_solution_len": 2439.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_028": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1728.7,
+   "mean_solution_len": 2610.7,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3
+   }
+  },
+  "agent_029": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1688.8,
+   "mean_solution_len": 2889,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_030": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1727.8,
+   "mean_solution_len": 2000.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_031": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2113.8,
+   "mean_solution_len": 2532.8,
+   "mean_stem_solution_overlap": 0.005,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_032": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1771.5,
+   "mean_solution_len": 2397.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_033": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2133.7,
+   "mean_solution_len": 4315.7,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3
+   }
+  },
+  "agent_034": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1786.8,
+   "mean_solution_len": 1957.8,
+   "mean_stem_solution_overlap": 0.0341,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3,
+    "mcq": 2
+   }
+  },
+  "agent_035": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1896.3,
+   "mean_solution_len": 2711.7,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3
+   }
+  },
+  "agent_036": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1326.2,
+   "mean_solution_len": 1828.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_037": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1945.8,
+   "mean_solution_len": 2327,
+   "mean_stem_solution_overlap": 0.0187,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 4,
+    "mcq": 1
+   }
+  },
+  "agent_038": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2094.8,
+   "mean_solution_len": 3112,
+   "mean_stem_solution_overlap": 0.0065,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 4,
+   "types": {
+    "journal_entry": 2,
+    "numeric": 1,
+    "mcq": 1
+   }
+  },
+  "agent_039": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2326,
+   "mean_solution_len": 2602.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3,
+    "mcq": 2
+   }
+  },
+  "agent_040": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1313.8,
+   "mean_solution_len": 1846,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_041": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1677.8,
+   "mean_solution_len": 2775,
+   "mean_stem_solution_overlap": 0.0032,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_042": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1644.2,
+   "mean_solution_len": 2216.5,
+   "mean_stem_solution_overlap": 0.0105,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_043": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1364,
+   "mean_solution_len": 2359.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_044": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1517.8,
+   "mean_solution_len": 1884.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 12,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_045": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1616,
+   "mean_solution_len": 2156.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3,
+    "mcq": 2
+   }
+  },
+  "agent_046": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2052.5,
+   "mean_solution_len": 2715,
+   "mean_stem_solution_overlap": 0.0015,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 24,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_047": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2196.3,
+   "mean_solution_len": 2994.3,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3
+   }
+  },
+  "agent_048": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1815.2,
+   "mean_solution_len": 2331.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_049": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1320.8,
+   "mean_solution_len": 2273.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_050": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1197.6,
+   "mean_solution_len": 2187.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_051": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1193.8,
+   "mean_solution_len": 2003.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_052": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1679.3,
+   "mean_solution_len": 3237,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3
+   }
+  },
+  "agent_053": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1385.5,
+   "mean_solution_len": 1957.8,
+   "mean_stem_solution_overlap": 0.001,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_054": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1669,
+   "mean_solution_len": 2497.8,
+   "mean_stem_solution_overlap": 0.0024,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_055": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1267.3,
+   "mean_solution_len": 2387.3,
+   "mean_stem_solution_overlap": 0.0012,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3
+   }
+  },
+  "agent_056": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1376.2,
+   "mean_solution_len": 1988.8,
+   "mean_stem_solution_overlap": 0.001,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3,
+    "mcq": 2
+   }
+  },
+  "agent_057": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1452.5,
+   "mean_solution_len": 1970.5,
+   "mean_stem_solution_overlap": 0.0022,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 7,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_058": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1454.8,
+   "mean_solution_len": 1933.8,
+   "mean_stem_solution_overlap": 0.0016,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_059": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1377.5,
+   "mean_solution_len": 2434.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_060": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2019.3,
+   "mean_solution_len": 2038.3,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3
+   }
+  },
+  "agent_061": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1398.8,
+   "mean_solution_len": 1873.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 12,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_062": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1135.8,
+   "mean_solution_len": 1211.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "numeric": 1,
+    "mcq": 2
+   }
+  },
+  "agent_063": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1850.8,
+   "mean_solution_len": 2282.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_064": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1966.3,
+   "mean_solution_len": 3031,
+   "mean_stem_solution_overlap": 0.0638,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3
+   }
+  },
+  "agent_065": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1627.2,
+   "mean_solution_len": 2037.5,
+   "mean_stem_solution_overlap": 0.0118,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_066": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2002.2,
+   "mean_solution_len": 2351.8,
+   "mean_stem_solution_overlap": 0.0006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_067": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1734.5,
+   "mean_solution_len": 2290.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 11,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_068": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1499.2,
+   "mean_solution_len": 2133,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_069": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1572.8,
+   "mean_solution_len": 2343.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_070": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1172,
+   "mean_solution_len": 1815.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 12,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_071": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2007.8,
+   "mean_solution_len": 2456.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_072": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1282.2,
+   "mean_solution_len": 1804.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_073": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1493,
+   "mean_solution_len": 1785,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 4,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_074": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1285.2,
+   "mean_solution_len": 1854.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 30,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_075": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1529,
+   "mean_solution_len": 2382.8,
+   "mean_stem_solution_overlap": 0.001,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_076": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1528,
+   "mean_solution_len": 2450.2,
+   "mean_stem_solution_overlap": 0.0004,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_077": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1357.2,
+   "mean_solution_len": 1821.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_078": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1120,
+   "mean_solution_len": 1973.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_079": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1243,
+   "mean_solution_len": 1789.6,
+   "mean_stem_solution_overlap": 0.0036,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 16,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_080": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1155.6,
+   "mean_solution_len": 1788.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 14,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_081": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1140.8,
+   "mean_solution_len": 1672.6,
+   "mean_stem_solution_overlap": 0.0076,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_082": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1346.4,
+   "mean_solution_len": 2069.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_083": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1352.6,
+   "mean_solution_len": 1714,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_084": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1373.4,
+   "mean_solution_len": 1776.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_085": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1773.2,
+   "mean_solution_len": 2588.8,
+   "mean_stem_solution_overlap": 0.018,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 21,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_086": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1936.2,
+   "mean_solution_len": 3113.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_087": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1658.8,
+   "mean_solution_len": 2294.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 15,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_088": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1490,
+   "mean_solution_len": 1748.6,
+   "mean_stem_solution_overlap": 0.0037,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_089": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1374.4,
+   "mean_solution_len": 1539.4,
+   "mean_stem_solution_overlap": 0.005,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_090": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1552.4,
+   "mean_solution_len": 1796.2,
+   "mean_stem_solution_overlap": 0.0034,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_091": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1546.4,
+   "mean_solution_len": 1644.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 11,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_092": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2054.8,
+   "mean_solution_len": 2826,
+   "mean_stem_solution_overlap": 0.0008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 15,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_093": {
+   "items": 7,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1445.9,
+   "mean_solution_len": 1667.3,
+   "mean_stem_solution_overlap": 0.0006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 19,
+   "types": {
+    "journal_entry": 5,
+    "mcq": 2
+   }
+  },
+  "agent_094": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1481,
+   "mean_solution_len": 2011,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 11,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_095": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1452.2,
+   "mean_solution_len": 1902.6,
+   "mean_stem_solution_overlap": 0.0008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_096": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1552.8,
+   "mean_solution_len": 2027.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 39,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_097": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1693.8,
+   "mean_solution_len": 1835.6,
+   "mean_stem_solution_overlap": 0.0091,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_098": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1740.2,
+   "mean_solution_len": 2433.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 24,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_099": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2115.4,
+   "mean_solution_len": 2490.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 12,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_100": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2161.2,
+   "mean_solution_len": 2732,
+   "mean_stem_solution_overlap": 0.0147,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_101": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1915,
+   "mean_solution_len": 3453.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_102": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1857.2,
+   "mean_solution_len": 2608.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 20,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_103": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1912.8,
+   "mean_solution_len": 2930,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 12,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_104": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1629,
+   "mean_solution_len": 2335.2,
+   "mean_stem_solution_overlap": 0.0027,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_105": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1368.6,
+   "mean_solution_len": 2020.4,
+   "mean_stem_solution_overlap": 0.0098,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_106": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1544.8,
+   "mean_solution_len": 2424.6,
+   "mean_stem_solution_overlap": 0.0148,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_107": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1530.2,
+   "mean_solution_len": 2277.4,
+   "mean_stem_solution_overlap": 0.001,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 16,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_108": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1046,
+   "mean_solution_len": 1800.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_109": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1477.4,
+   "mean_solution_len": 2654.8,
+   "mean_stem_solution_overlap": 0.0014,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_110": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2007,
+   "mean_solution_len": 2876.2,
+   "mean_stem_solution_overlap": 0.0064,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 22,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_111": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1744.8,
+   "mean_solution_len": 2294.8,
+   "mean_stem_solution_overlap": 0.009,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 15,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_112": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1568.4,
+   "mean_solution_len": 3041.6,
+   "mean_stem_solution_overlap": 0.0169,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 31,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_113": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1676.4,
+   "mean_solution_len": 1957.4,
+   "mean_stem_solution_overlap": 0.003,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_114": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1443.2,
+   "mean_solution_len": 1826.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 15,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_115": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1447,
+   "mean_solution_len": 2110.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 15,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_116": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1472,
+   "mean_solution_len": 1742.6,
+   "mean_stem_solution_overlap": 0.0007,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_117": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2051.5,
+   "mean_solution_len": 2593,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 19,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_118": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1154.2,
+   "mean_solution_len": 1479.4,
+   "mean_stem_solution_overlap": 0.0009,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_119": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1964.3,
+   "mean_solution_len": 3466.3,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 14,
+   "types": {
+    "journal_entry": 3
+   }
+  },
+  "agent_120": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1794,
+   "mean_solution_len": 2802,
+   "mean_stem_solution_overlap": 0.0021,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 7,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_121": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1638.6,
+   "mean_solution_len": 1897.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 12,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_122": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1388.2,
+   "mean_solution_len": 1758.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 1,
+    "numeric": 2,
+    "mcq": 2
+   }
+  },
+  "agent_123": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1422.6,
+   "mean_solution_len": 2024.6,
+   "mean_stem_solution_overlap": 0.01,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_124": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1398.5,
+   "mean_solution_len": 2098.8,
+   "mean_stem_solution_overlap": 0.0096,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 4,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_125": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1651.2,
+   "mean_solution_len": 2082.5,
+   "mean_stem_solution_overlap": 0.0072,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "numeric": 1,
+    "mcq": 2
+   }
+  },
+  "agent_126": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2117.4,
+   "mean_solution_len": 2643.2,
+   "mean_stem_solution_overlap": 0.0027,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 17,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_127": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1604,
+   "mean_solution_len": 2875.4,
+   "mean_stem_solution_overlap": 0.0005,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 12,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_128": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1892.5,
+   "mean_solution_len": 2560,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_129": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2148.5,
+   "mean_solution_len": 4206.2,
+   "mean_stem_solution_overlap": 0.0041,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 49,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_130": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2221.5,
+   "mean_solution_len": 4321.8,
+   "mean_stem_solution_overlap": 0.0044,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_131": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2052,
+   "mean_solution_len": 2946.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_132": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1401.5,
+   "mean_solution_len": 2871.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 12,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_133": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1896.5,
+   "mean_solution_len": 3584.8,
+   "mean_stem_solution_overlap": 0.0133,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 17,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_134": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1529.4,
+   "mean_solution_len": 2627.8,
+   "mean_stem_solution_overlap": 0.0026,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_135": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1366.8,
+   "mean_solution_len": 2468.8,
+   "mean_stem_solution_overlap": 0.0012,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_136": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1366,
+   "mean_solution_len": 2404.8,
+   "mean_stem_solution_overlap": 0.0006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_137": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2272.5,
+   "mean_solution_len": 3079.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 21,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_138": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1540.2,
+   "mean_solution_len": 2693.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 14,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 1
+   }
+  },
+  "agent_139": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1487.3,
+   "mean_solution_len": 2425.5,
+   "mean_stem_solution_overlap": 0.0011,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_140": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1746.6,
+   "mean_solution_len": 2674,
+   "mean_stem_solution_overlap": 0.0007,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_141": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1932.8,
+   "mean_solution_len": 3251.5,
+   "mean_stem_solution_overlap": 0.0021,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_142": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1874.5,
+   "mean_solution_len": 2495.5,
+   "mean_stem_solution_overlap": 0.0007,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_143": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1286.8,
+   "mean_solution_len": 2395.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_144": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1188.4,
+   "mean_solution_len": 2060.4,
+   "mean_stem_solution_overlap": 0.0034,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_145": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1403.5,
+   "mean_solution_len": 2595.8,
+   "mean_stem_solution_overlap": 0.0013,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_146": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1171.6,
+   "mean_solution_len": 1825.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_147": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1526,
+   "mean_solution_len": 2089.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_148": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1433.5,
+   "mean_solution_len": 2823,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_149": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1859.8,
+   "mean_solution_len": 2904.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_150": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1878.8,
+   "mean_solution_len": 2846.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 2,
+    "numeric": 1,
+    "mcq": 2
+   }
+  },
+  "agent_151": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1933.5,
+   "mean_solution_len": 3068.2,
+   "mean_stem_solution_overlap": 0.0006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_152": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1711.2,
+   "mean_solution_len": 3574.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_153": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1673,
+   "mean_solution_len": 3082,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3,
+    "mcq": 1
+   }
+  },
+  "agent_154": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1557.5,
+   "mean_solution_len": 2993.8,
+   "mean_stem_solution_overlap": 0.0011,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_155": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1560.4,
+   "mean_solution_len": 2754.2,
+   "mean_stem_solution_overlap": 0.0066,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_156": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1541,
+   "mean_solution_len": 2821,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_157": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2100,
+   "mean_solution_len": 3263,
+   "mean_stem_solution_overlap": 0.0007,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 11,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_158": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1737.4,
+   "mean_solution_len": 2827.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_159": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1352.2,
+   "mean_solution_len": 1912.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_160": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1800.5,
+   "mean_solution_len": 3198.5,
+   "mean_stem_solution_overlap": 0.0008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_161": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1898,
+   "mean_solution_len": 2325,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_162": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1623,
+   "mean_solution_len": 2372.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_163": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1972.8,
+   "mean_solution_len": 3041.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_164": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2361.5,
+   "mean_solution_len": 3361,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_165": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2017.4,
+   "mean_solution_len": 2865.2,
+   "mean_stem_solution_overlap": 0.0093,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 7,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_166": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2336.3,
+   "mean_solution_len": 3442,
+   "mean_stem_solution_overlap": 0.0009,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3
+   }
+  },
+  "agent_167": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1707,
+   "mean_solution_len": 2646.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_168": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2397.2,
+   "mean_solution_len": 2981.6,
+   "mean_stem_solution_overlap": 0.0127,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 4,
+    "mcq": 1
+   }
+  },
+  "agent_169": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2153.2,
+   "mean_solution_len": 3862.2,
+   "mean_stem_solution_overlap": 0.0041,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 2,
+    "numeric": 1,
+    "mcq": 1
+   }
+  },
+  "agent_170": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2521.6,
+   "mean_solution_len": 3525.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 21,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_171": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1596.2,
+   "mean_solution_len": 2702.2,
+   "mean_stem_solution_overlap": 0.0008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_172": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1837,
+   "mean_solution_len": 3361.8,
+   "mean_stem_solution_overlap": 0.003,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 24,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_173": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1990.2,
+   "mean_solution_len": 2868.2,
+   "mean_stem_solution_overlap": 0.008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 15,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_174": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1364.5,
+   "mean_solution_len": 2729,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_175": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1629,
+   "mean_solution_len": 2008.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_176": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2389,
+   "mean_solution_len": 3576.2,
+   "mean_stem_solution_overlap": 0.0129,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_177": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1817,
+   "mean_solution_len": 2879.8,
+   "mean_stem_solution_overlap": 0.0035,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 27,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_178": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1370.6,
+   "mean_solution_len": 2180.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 7,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_179": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2164.8,
+   "mean_solution_len": 3138.8,
+   "mean_stem_solution_overlap": 0.0013,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 26,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_180": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1702.2,
+   "mean_solution_len": 3663.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 17,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_181": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1261.8,
+   "mean_solution_len": 2410.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_182": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1586.5,
+   "mean_solution_len": 2883.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_183": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1514.8,
+   "mean_solution_len": 3127,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_184": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1657.5,
+   "mean_solution_len": 2791.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_185": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1755,
+   "mean_solution_len": 2953.2,
+   "mean_stem_solution_overlap": 0.003,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_186": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1248.5,
+   "mean_solution_len": 2575.5,
+   "mean_stem_solution_overlap": 0.0009,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_187": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1379,
+   "mean_solution_len": 1868.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3,
+    "mcq": 2
+   }
+  },
+  "agent_188": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1883.5,
+   "mean_solution_len": 2949.2,
+   "mean_stem_solution_overlap": 0.006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 11,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_189": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1888,
+   "mean_solution_len": 2866.5,
+   "mean_stem_solution_overlap": 0.0029,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_190": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1274,
+   "mean_solution_len": 2752.2,
+   "mean_stem_solution_overlap": 0.0011,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_191": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1615.8,
+   "mean_solution_len": 2112.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 14,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_192": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1797,
+   "mean_solution_len": 2781.5,
+   "mean_stem_solution_overlap": 0.0007,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 16,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_193": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1707,
+   "mean_solution_len": 2055.8,
+   "mean_stem_solution_overlap": 0.0028,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_194": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1996.5,
+   "mean_solution_len": 2472.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_195": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1794,
+   "mean_solution_len": 2377,
+   "mean_stem_solution_overlap": 0.0194,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 4,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_196": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1923.2,
+   "mean_solution_len": 3014.5,
+   "mean_stem_solution_overlap": 0.0107,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 15,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_197": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2325.2,
+   "mean_solution_len": 3836.8,
+   "mean_stem_solution_overlap": 0.0006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_198": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1844,
+   "mean_solution_len": 2906.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 14,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_199": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1610.2,
+   "mean_solution_len": 2623.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_200": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1632.8,
+   "mean_solution_len": 2396,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_201": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1545,
+   "mean_solution_len": 2644.8,
+   "mean_stem_solution_overlap": 0.0035,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_202": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1869.8,
+   "mean_solution_len": 2816.8,
+   "mean_stem_solution_overlap": 0.0009,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_203": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1301.5,
+   "mean_solution_len": 2033.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_204": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1190,
+   "mean_solution_len": 1598.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_205": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1476.2,
+   "mean_solution_len": 2609.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 25,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_206": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1383.5,
+   "mean_solution_len": 2014.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_207": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1568.2,
+   "mean_solution_len": 2686.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 23,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_208": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1600.2,
+   "mean_solution_len": 2481,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_209": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1209.2,
+   "mean_solution_len": 2424.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_210": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1333,
+   "mean_solution_len": 2022.8,
+   "mean_stem_solution_overlap": 0.0037,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 16,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_211": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1546.5,
+   "mean_solution_len": 2252.8,
+   "mean_stem_solution_overlap": 0.0012,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_212": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1168,
+   "mean_solution_len": 1903,
+   "mean_stem_solution_overlap": 0.0077,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_213": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1830.5,
+   "mean_solution_len": 3308.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_214": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1407,
+   "mean_solution_len": 1696.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_215": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1785.8,
+   "mean_solution_len": 2594.2,
+   "mean_stem_solution_overlap": 0.0232,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 17,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_216": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2043,
+   "mean_solution_len": 2995.8,
+   "mean_stem_solution_overlap": 0.0131,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 21,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_217": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2674,
+   "mean_solution_len": 4738,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 20,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_218": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1340.4,
+   "mean_solution_len": 1919,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_219": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1193.5,
+   "mean_solution_len": 1500.3,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_220": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1389.2,
+   "mean_solution_len": 1647.2,
+   "mean_stem_solution_overlap": 0.005,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_221": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2077.2,
+   "mean_solution_len": 2770.2,
+   "mean_stem_solution_overlap": 0.008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 23,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_222": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1951.4,
+   "mean_solution_len": 2303.2,
+   "mean_stem_solution_overlap": 0.0013,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 24,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_223": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2532.8,
+   "mean_solution_len": 4400,
+   "mean_stem_solution_overlap": 0.0028,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 22,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_224": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2289,
+   "mean_solution_len": 3431.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 24,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_225": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1840.2,
+   "mean_solution_len": 3108.6,
+   "mean_stem_solution_overlap": 0.0031,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 29,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_226": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1308.5,
+   "mean_solution_len": 1790,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_227": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1849.8,
+   "mean_solution_len": 2433,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 48,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_228": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1729.8,
+   "mean_solution_len": 1923.8,
+   "mean_stem_solution_overlap": 0.0063,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_229": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1461,
+   "mean_solution_len": 2069.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_230": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2612,
+   "mean_solution_len": 2859.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 12,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_231": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2104.6,
+   "mean_solution_len": 2812.8,
+   "mean_stem_solution_overlap": 0.0148,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_232": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1577.4,
+   "mean_solution_len": 2323,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_233": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2188,
+   "mean_solution_len": 3270.2,
+   "mean_stem_solution_overlap": 0.0026,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_234": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1831.8,
+   "mean_solution_len": 2913.5,
+   "mean_stem_solution_overlap": 0.0019,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_235": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1914.8,
+   "mean_solution_len": 2630,
+   "mean_stem_solution_overlap": 0.0023,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_236": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1284.2,
+   "mean_solution_len": 2010,
+   "mean_stem_solution_overlap": 0.0029,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_237": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1584,
+   "mean_solution_len": 3280.8,
+   "mean_stem_solution_overlap": 0.0031,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 7,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_238": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1769.5,
+   "mean_solution_len": 3100.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_239": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1600.2,
+   "mean_solution_len": 2865.2,
+   "mean_stem_solution_overlap": 0.001,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 7,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_240": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1269.4,
+   "mean_solution_len": 2067,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_241": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2076.2,
+   "mean_solution_len": 2885,
+   "mean_stem_solution_overlap": 0.0047,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 24,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_242": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1667.8,
+   "mean_solution_len": 2436.2,
+   "mean_stem_solution_overlap": 0.0213,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 12,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_243": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1866.8,
+   "mean_solution_len": 3731,
+   "mean_stem_solution_overlap": 0.0089,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 16,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_244": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1750,
+   "mean_solution_len": 2145.8,
+   "mean_stem_solution_overlap": 0.0042,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_245": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1443.6,
+   "mean_solution_len": 1869.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_246": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1363.8,
+   "mean_solution_len": 1474.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_247": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1521.2,
+   "mean_solution_len": 1961.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_248": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1770.4,
+   "mean_solution_len": 2721.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 23,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_249": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1242.4,
+   "mean_solution_len": 1651.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_250": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1705.8,
+   "mean_solution_len": 2316,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 7,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_251": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1933.8,
+   "mean_solution_len": 3131.5,
+   "mean_stem_solution_overlap": 0.002,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_252": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1586,
+   "mean_solution_len": 2699.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_253": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1446.4,
+   "mean_solution_len": 2164.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 2,
+    "numeric": 1,
+    "mcq": 2
+   }
+  },
+  "agent_254": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1748.2,
+   "mean_solution_len": 2649.6,
+   "mean_stem_solution_overlap": 0.032,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 4,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_255": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1340.8,
+   "mean_solution_len": 1990.2,
+   "mean_stem_solution_overlap": 0.0006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 4,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_256": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1714.5,
+   "mean_solution_len": 2415.7,
+   "mean_stem_solution_overlap": 0.006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "numeric": 1,
+    "mcq": 2
+   }
+  },
+  "agent_257": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2220.2,
+   "mean_solution_len": 2905.8,
+   "mean_stem_solution_overlap": 0.0025,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 17,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_258": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1842.4,
+   "mean_solution_len": 2757.6,
+   "mean_stem_solution_overlap": 0.0005,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_259": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2295.5,
+   "mean_solution_len": 3167.8,
+   "mean_stem_solution_overlap": 0.0027,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_260": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2328,
+   "mean_solution_len": 5214.8,
+   "mean_stem_solution_overlap": 0.0033,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 62,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_261": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2377.8,
+   "mean_solution_len": 5409,
+   "mean_stem_solution_overlap": 0.004,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_262": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1989.6,
+   "mean_solution_len": 2825.2,
+   "mean_stem_solution_overlap": 0.0018,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 16,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_263": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1429.6,
+   "mean_solution_len": 2431.2,
+   "mean_stem_solution_overlap": 0.0011,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_264": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1573.4,
+   "mean_solution_len": 2550,
+   "mean_stem_solution_overlap": 0.0011,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 16,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_265": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1475.8,
+   "mean_solution_len": 2243.2,
+   "mean_stem_solution_overlap": 0.0012,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_266": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1307.2,
+   "mean_solution_len": 2359.2,
+   "mean_stem_solution_overlap": 0.0012,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_267": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1327.8,
+   "mean_solution_len": 2458.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_268": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1824.2,
+   "mean_solution_len": 2111,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_269": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1736.4,
+   "mean_solution_len": 2749.2,
+   "mean_stem_solution_overlap": 0.0023,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 16,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_270": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1630,
+   "mean_solution_len": 2368,
+   "mean_stem_solution_overlap": 0.0013,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 7,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_271": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1654.6,
+   "mean_solution_len": 2178.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_272": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1812.8,
+   "mean_solution_len": 3484.2,
+   "mean_stem_solution_overlap": 0.0022,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_273": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2356.8,
+   "mean_solution_len": 3468.2,
+   "mean_stem_solution_overlap": 0.0006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_274": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1560.6,
+   "mean_solution_len": 2751.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_275": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1539.2,
+   "mean_solution_len": 2335.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_276": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1530.2,
+   "mean_solution_len": 3020.2,
+   "mean_stem_solution_overlap": 0.002,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_277": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1598.2,
+   "mean_solution_len": 2685.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_278": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2087.5,
+   "mean_solution_len": 3706,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_279": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1454.5,
+   "mean_solution_len": 2852.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_280": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1671,
+   "mean_solution_len": 2258.6,
+   "mean_stem_solution_overlap": 0.0021,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_281": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2070.6,
+   "mean_solution_len": 3304.2,
+   "mean_stem_solution_overlap": 0.0024,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_282": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1942.2,
+   "mean_solution_len": 3132.2,
+   "mean_stem_solution_overlap": 0.0017,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 16,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_283": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1642.8,
+   "mean_solution_len": 3235.4,
+   "mean_stem_solution_overlap": 0.0013,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_284": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1363.8,
+   "mean_solution_len": 2694,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_285": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1559.4,
+   "mean_solution_len": 2351,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 2,
+    "numeric": 1,
+    "mcq": 2
+   }
+  },
+  "agent_286": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1806.2,
+   "mean_solution_len": 3696.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_287": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1598.4,
+   "mean_solution_len": 2845,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 14,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_288": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2166.6,
+   "mean_solution_len": 3801,
+   "mean_stem_solution_overlap": 0.0017,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 11,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_289": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1635.2,
+   "mean_solution_len": 2727,
+   "mean_stem_solution_overlap": 0.0007,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_290": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1392.2,
+   "mean_solution_len": 2245,
+   "mean_stem_solution_overlap": 0.0007,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_291": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1894.5,
+   "mean_solution_len": 3150.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_292": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1726.4,
+   "mean_solution_len": 2477,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_293": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1473.6,
+   "mean_solution_len": 2342.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_294": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2060.5,
+   "mean_solution_len": 2681,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_295": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2970,
+   "mean_solution_len": 5343.7,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 7,
+   "types": {
+    "journal_entry": 3
+   }
+  },
+  "agent_296": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1951.6,
+   "mean_solution_len": 2752,
+   "mean_stem_solution_overlap": 0.0074,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_297": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2456.3,
+   "mean_solution_len": 3464,
+   "mean_stem_solution_overlap": 0.0008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3
+   }
+  },
+  "agent_298": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1832.8,
+   "mean_solution_len": 2822.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_299": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2588.8,
+   "mean_solution_len": 3315,
+   "mean_stem_solution_overlap": 0.0208,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_300": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2429.8,
+   "mean_solution_len": 3746.8,
+   "mean_stem_solution_overlap": 0.0079,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 27,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_301": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2538.4,
+   "mean_solution_len": 3582.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 21,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_302": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1486,
+   "mean_solution_len": 2865,
+   "mean_stem_solution_overlap": 0.0014,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_303": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1596.2,
+   "mean_solution_len": 3014.5,
+   "mean_stem_solution_overlap": 0.0031,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_304": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1684.2,
+   "mean_solution_len": 2336,
+   "mean_stem_solution_overlap": 0.0105,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_305": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1549.8,
+   "mean_solution_len": 3193.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_306": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1515.6,
+   "mean_solution_len": 2348.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 15,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_307": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2044,
+   "mean_solution_len": 2862.8,
+   "mean_stem_solution_overlap": 0.006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_308": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1920.4,
+   "mean_solution_len": 3016.8,
+   "mean_stem_solution_overlap": 0.0075,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 24,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_309": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1607.4,
+   "mean_solution_len": 2643.6,
+   "mean_stem_solution_overlap": 0.0023,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 11,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_310": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1950.4,
+   "mean_solution_len": 2699.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 14,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_311": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1313.8,
+   "mean_solution_len": 2235.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_312": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1316.6,
+   "mean_solution_len": 2812.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_313": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1261.6,
+   "mean_solution_len": 2055.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_314": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1661,
+   "mean_solution_len": 3401.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 2,
+    "numeric": 1,
+    "mcq": 1
+   }
+  },
+  "agent_315": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1747.5,
+   "mean_solution_len": 3232,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_316": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1819.2,
+   "mean_solution_len": 3230.2,
+   "mean_stem_solution_overlap": 0.006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_317": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1161.5,
+   "mean_solution_len": 2563,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 7,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_318": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1444,
+   "mean_solution_len": 2150.4,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3,
+    "mcq": 2
+   }
+  },
+  "agent_319": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1902.5,
+   "mean_solution_len": 2534.5,
+   "mean_stem_solution_overlap": 0.0015,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_320": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2258,
+   "mean_solution_len": 3255,
+   "mean_stem_solution_overlap": 0.0007,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_321": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1447.8,
+   "mean_solution_len": 2515.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_322": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1665,
+   "mean_solution_len": 2412.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 17,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_323": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1582.2,
+   "mean_solution_len": 2261.8,
+   "mean_stem_solution_overlap": 0.0049,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 12,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_324": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1668,
+   "mean_solution_len": 1669,
+   "mean_stem_solution_overlap": 0.0085,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 2,
+    "numeric": 1,
+    "mcq": 2
+   }
+  },
+  "agent_325": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2078.2,
+   "mean_solution_len": 3218.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_326": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1922.2,
+   "mean_solution_len": 2495.8,
+   "mean_stem_solution_overlap": 0.0236,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_327": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1866.2,
+   "mean_solution_len": 3548.2,
+   "mean_stem_solution_overlap": 0.0185,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 23,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_328": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2100,
+   "mean_solution_len": 3469.2,
+   "mean_stem_solution_overlap": 0.0011,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 17,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_329": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1766.5,
+   "mean_solution_len": 2865.2,
+   "mean_stem_solution_overlap": 0.0009,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_330": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1735.5,
+   "mean_solution_len": 3556,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_331": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1705,
+   "mean_solution_len": 2451,
+   "mean_stem_solution_overlap": 0.0008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_332": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1653.5,
+   "mean_solution_len": 2693.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 19,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_333": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2299.8,
+   "mean_solution_len": 3774.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 17,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_334": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1767.5,
+   "mean_solution_len": 2552.5,
+   "mean_stem_solution_overlap": 0.0011,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_335": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1907.2,
+   "mean_solution_len": 2409.8,
+   "mean_stem_solution_overlap": 0.0014,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_336": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1828.2,
+   "mean_solution_len": 2999,
+   "mean_stem_solution_overlap": 0.0015,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 40,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_337": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1768.8,
+   "mean_solution_len": 3625,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 32,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_338": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2091.2,
+   "mean_solution_len": 3404,
+   "mean_stem_solution_overlap": 0.0013,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 29,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_339": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1611.8,
+   "mean_solution_len": 3229,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_340": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1268.8,
+   "mean_solution_len": 2714.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 23,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_341": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1431.8,
+   "mean_solution_len": 2214.8,
+   "mean_stem_solution_overlap": 0.0045,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 19,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_342": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1913.8,
+   "mean_solution_len": 3165.5,
+   "mean_stem_solution_overlap": 0.004,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 2,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_343": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1212.8,
+   "mean_solution_len": 2195.6,
+   "mean_stem_solution_overlap": 0.0156,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_344": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1912.8,
+   "mean_solution_len": 3665.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_345": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1599,
+   "mean_solution_len": 2118.4,
+   "mean_stem_solution_overlap": 0.0008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 4,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_346": {
+   "items": 3,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1397.7,
+   "mean_solution_len": 2347.7,
+   "mean_stem_solution_overlap": 0.0047,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "numeric": 3
+   }
+  },
+  "agent_347": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2269.6,
+   "mean_solution_len": 3354.4,
+   "mean_stem_solution_overlap": 0.0179,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 22,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_348": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2504,
+   "mean_solution_len": 5092.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 19,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_349": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1506.2,
+   "mean_solution_len": 2040.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_350": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1345.8,
+   "mean_solution_len": 1869,
+   "mean_stem_solution_overlap": 0.0008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 16,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_351": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1439.2,
+   "mean_solution_len": 2164.6,
+   "mean_stem_solution_overlap": 0.0007,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 11,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_352": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2144.2,
+   "mean_solution_len": 2329.4,
+   "mean_stem_solution_overlap": 0.0091,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 26,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_353": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1858.8,
+   "mean_solution_len": 2097.4,
+   "mean_stem_solution_overlap": 0.0053,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_354": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2360.8,
+   "mean_solution_len": 4436.5,
+   "mean_stem_solution_overlap": 0.0005,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 32,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_355": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2117.8,
+   "mean_solution_len": 2871.6,
+   "mean_stem_solution_overlap": 0.0004,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 29,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 1
+   }
+  },
+  "agent_356": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1944.2,
+   "mean_solution_len": 3278.4,
+   "mean_stem_solution_overlap": 0.0031,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 26,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_357": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1382.7,
+   "mean_solution_len": 2016.2,
+   "mean_stem_solution_overlap": 0.0009,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_358": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1735.4,
+   "mean_solution_len": 2656.2,
+   "mean_stem_solution_overlap": 0.0013,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 46,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_359": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1714.2,
+   "mean_solution_len": 1902,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 3,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_360": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1781.8,
+   "mean_solution_len": 2590,
+   "mean_stem_solution_overlap": 0.0005,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 17,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_361": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1985.4,
+   "mean_solution_len": 2165.4,
+   "mean_stem_solution_overlap": 0.0004,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 7,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_362": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1610.6,
+   "mean_solution_len": 3189,
+   "mean_stem_solution_overlap": 0.0188,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 17,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_363": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1922.8,
+   "mean_solution_len": 3276.5,
+   "mean_stem_solution_overlap": 0.0008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 0,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_364": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1709.6,
+   "mean_solution_len": 3023,
+   "mean_stem_solution_overlap": 0.0089,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 16,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_365": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1587.4,
+   "mean_solution_len": 2853.2,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 15,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_366": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1983.2,
+   "mean_solution_len": 2682.8,
+   "mean_stem_solution_overlap": 0.003,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_367": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1487.4,
+   "mean_solution_len": 1996.8,
+   "mean_stem_solution_overlap": 0.0083,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_368": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1711.4,
+   "mean_solution_len": 2716,
+   "mean_stem_solution_overlap": 0.0125,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_369": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2456.5,
+   "mean_solution_len": 4329.8,
+   "mean_stem_solution_overlap": 0.0013,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 11,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_370": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1585.6,
+   "mean_solution_len": 2662,
+   "mean_stem_solution_overlap": 0.0069,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 5,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_371": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1682.6,
+   "mean_solution_len": 3181.6,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_372": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2032.5,
+   "mean_solution_len": 2943.5,
+   "mean_stem_solution_overlap": 0.0048,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 26,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_373": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2266.2,
+   "mean_solution_len": 3388.2,
+   "mean_stem_solution_overlap": 0.0115,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_374": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1973.6,
+   "mean_solution_len": 2960.8,
+   "mean_stem_solution_overlap": 0.0029,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 18,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_375": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1811.6,
+   "mean_solution_len": 2449.4,
+   "mean_stem_solution_overlap": 0.0151,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 14,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_376": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1412,
+   "mean_solution_len": 2532.8,
+   "mean_stem_solution_overlap": 0.0009,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 14,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_377": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1486.2,
+   "mean_solution_len": 1675.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_378": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1682.8,
+   "mean_solution_len": 2405.8,
+   "mean_stem_solution_overlap": 0.0009,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_379": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1679,
+   "mean_solution_len": 2272.5,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_380": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1371.4,
+   "mean_solution_len": 2052.8,
+   "mean_stem_solution_overlap": 0.001,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_381": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1937.4,
+   "mean_solution_len": 2938.8,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 10,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_382": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2408.8,
+   "mean_solution_len": 3848.8,
+   "mean_stem_solution_overlap": 0.004,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 11,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_383": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1907.2,
+   "mean_solution_len": 2847.2,
+   "mean_stem_solution_overlap": 0.0011,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 8,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_384": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1862.4,
+   "mean_solution_len": 2503.8,
+   "mean_stem_solution_overlap": 0.0058,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 4,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_385": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1895.2,
+   "mean_solution_len": 3286.8,
+   "mean_stem_solution_overlap": 0.001,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 22,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_386": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1543.8,
+   "mean_solution_len": 2361.8,
+   "mean_stem_solution_overlap": 0.0032,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 4,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_387": {
+   "items": 6,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1805.7,
+   "mean_solution_len": 2880.8,
+   "mean_stem_solution_overlap": 0.0062,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 13,
+   "types": {
+    "journal_entry": 4,
+    "mcq": 2
+   }
+  },
+  "agent_388": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2518.6,
+   "mean_solution_len": 3332.4,
+   "mean_stem_solution_overlap": 0.0025,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 26,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_389": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1749.6,
+   "mean_solution_len": 3002.4,
+   "mean_stem_solution_overlap": 0.0026,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 9,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_390": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2589.8,
+   "mean_solution_len": 3786,
+   "mean_stem_solution_overlap": 0.008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 4,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_391": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2054.8,
+   "mean_solution_len": 4390.5,
+   "mean_stem_solution_overlap": 0.0033,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 51,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_392": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2502,
+   "mean_solution_len": 5378,
+   "mean_stem_solution_overlap": 0.0035,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 1,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_393": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2373.2,
+   "mean_solution_len": 3816.2,
+   "mean_stem_solution_overlap": 0.0005,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 23,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_394": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1517,
+   "mean_solution_len": 2625,
+   "mean_stem_solution_overlap": 0.0,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 17,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_395": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2145,
+   "mean_solution_len": 4196.2,
+   "mean_stem_solution_overlap": 0.0024,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 19,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  },
+  "agent_396": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1470.4,
+   "mean_solution_len": 2711.6,
+   "mean_stem_solution_overlap": 0.0064,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_397": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1598.4,
+   "mean_solution_len": 2577.6,
+   "mean_stem_solution_overlap": 0.0051,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_398": {
+   "items": 5,
+   "parse_rate": 1.0,
+   "mean_stem_len": 1380,
+   "mean_solution_len": 2512.4,
+   "mean_stem_solution_overlap": 0.0008,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 6,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 2
+   }
+  },
+  "agent_399": {
+   "items": 4,
+   "parse_rate": 1.0,
+   "mean_stem_len": 2321.5,
+   "mean_solution_len": 3479.8,
+   "mean_stem_solution_overlap": 0.0006,
+   "no_key": 0,
+   "schema_fail": 0,
+   "unknown_account_lines": 25,
+   "types": {
+    "journal_entry": 3,
+    "mcq": 1
+   }
+  }
+ },
+ "format_drift": []
+}

@@ -1,0 +1,55 @@
+{
+  "agent_id": 165,
+  "lo": "LO 22-2",
+  "chapter": 22,
+  "title": "Prepare the operating activities section of the statement of cash flows using the indirect method",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-2",
+      "concept": "Full indirect OA section: noncash G/L and expense adjustments; WC schedule; AccDep and bond premium rollforwards; period-end adjusting JEs; equipment disposal and bond retirement JEs; investing/financing classification and ASC 230 disclosures",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-2",
+      "concept": "Number-variant twin: indirect OA with bond discount amortization, stock-based compensation, land/equipment disposal G/L, and mixed WC changes",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-2",
+      "concept": "Alternate OA adjustments: equity-method income vs dividends, deferred tax asset/liability changes, unrealized FV-NI gain, WC; related period JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-2",
+      "concept": "Sign of OA adjustment for bond premium amortization under the indirect method",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 22-2",
+      "concept": "Classification/presentation of PPE disposal gain and cash proceeds under the indirect method",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

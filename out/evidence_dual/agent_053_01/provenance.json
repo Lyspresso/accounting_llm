@@ -1,0 +1,14 @@
+{
+ "id": "agent_053#01",
+ "harness_version": "dual-1",
+ "stem_hash": "670af36b34c4abf46ffcb9ed236acf00b2395bc9d2902ce6d9e1690af4fb011e",
+ "pack_notes_version": "pack-2026-08-07a-ASYMMETRIC",
+ "notes_present_at_generation": [
+  "lo_11_8_donated_assets"
+ ],
+ "notes_governing": [],
+ "generated_by": "dual.js",
+ "why": "hand-written rule block that DID carry the LO 11-8 note",
+ "captured_at_write_time": false,
+ "reconstructed": true
+}

@@ -1,0 +1,59 @@
+{
+  "agent_id": 0,
+  "lo": "LO 13-8",
+  "chapter": 13,
+  "title": "Account for internally developed software and cloud computing arrangements",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-8",
+      "concept": "Initial recognition of software-to-be-sold costs; greater-of revenue vs straight-line amortization",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-8",
+      "concept": "Number-variant twin of software-to-be-sold initial recognition and greater-of amortization",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-8",
+      "concept": "Internal-use software stage accounting; cloud CCA as service contract with capitalized implementation costs",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-8",
+      "concept": "Classification of costs by software stage and cloud possession criteria",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

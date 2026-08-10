@@ -106,9 +106,8 @@ def aggregation_equivalent(key_lines, solver_lines):
 
     Per side: totals must agree, and every solver amount must be a subset-sum of
     unconsumed key amounts whose accounts each share a token with the solver's.
-    The token guard is what keeps this from certifying a Cash line as equivalent
-    to an Investment line of the same amount - equal money is not equal
-    accounting.
+    The token guard is what keeps this from certifying "Cash 150,000" as
+    equivalent to "Investment 150,000" - equal money is not equal accounting.
     """
     import collections
     K, S = collections.defaultdict(list), collections.defaultdict(list)
@@ -144,11 +143,11 @@ def ratio_derivable(value, pool):
     """
     Is the value a RATIO of two figures the key states?
 
-    derivable_from_key does subset-SUMS only. A key can state both inputs of a
-    percentage - the numerator and the base it is compared against - without
-    ever writing the percentage itself, so a solver reporting the ratio is
-    charged with a mismatch against a key that contains its own derivation.
-    Percent, fraction and their reciprocals are all checked.
+    derivable_from_key does subset-SUMS only. A key that writes
+    "PV = $81,911 < 90% x $140,000" states both inputs of a percentage without
+    ever writing the percentage, so a solver reporting 58.51% is charged with a
+    mismatch against a key that contains its own derivation. Percent, fraction
+    and their reciprocals are all checked.
     """
     v = canon.as_number(value)
     if v is None or not pool:

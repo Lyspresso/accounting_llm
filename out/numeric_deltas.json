@@ -1,0 +1,330 @@
+[
+ {
+  "id": "agent_151#01",
+  "label": "c: post-remeasurement ROU asset carrying amoun",
+  "solver": 240612.65,
+  "nearest_key": 240614.0,
+  "delta": 1.3500000000058208,
+  "rel": 5.610677576618772e-06
+ },
+ {
+  "id": "agent_151#01",
+  "label": "b: ROU asset carrying amount Jan 1 Year 3 (2 y",
+  "solver": 210586.14,
+  "nearest_key": 209945.0,
+  "delta": 641.140000000014,
+  "rel": 0.0030445498454932216
+ },
+ {
+  "id": "agent_194#01",
+  "label": "a: Year 1 cost of goods sold correct",
+  "solver": 173400.0,
+  "nearest_key": 171000.0,
+  "delta": 2400.0,
+  "rel": 0.01384083044982699
+ },
+ {
+  "id": "agent_184#02",
+  "label": "e: Year 6 FIFO-basis COGS",
+  "solver": 875000.0,
+  "nearest_key": 890000.0,
+  "delta": 15000.0,
+  "rel": 0.017142857142857144
+ },
+ {
+  "id": "agent_150#02",
+  "label": "b: Option 3 - PV of lease payments incl. purch",
+  "solver": 220690.96,
+  "nearest_key": 225000.0,
+  "delta": 4309.040000000008,
+  "rel": 0.019525222057124626
+ },
+ {
+  "id": "agent_167#01",
+  "label": "c: bonds payable carrying amount, December 31,",
+  "solver": 391000.0,
+  "nearest_key": 400000.0,
+  "delta": 9000.0,
+  "rel": 0.023017902813299233
+ },
+ {
+  "id": "agent_019#00",
+  "label": "f: Dec 31, Year 1 net right-of-use asset",
+  "solver": 90754.17,
+  "nearest_key": 88505.56,
+  "delta": 2248.6100000000006,
+  "rel": 0.02477693311502932
+ },
+ {
+  "id": "agent_283#02",
+  "label": "a: 90% of fair value (PV test threshold)",
+  "solver": 288000.0,
+  "nearest_key": 279286.0,
+  "delta": 8714.0,
+  "rel": 0.030256944444444444
+ },
+ {
+  "id": "agent_187#02",
+  "label": "c: LIFO (as reported) average inventory",
+  "solver": 495000.0,
+  "nearest_key": 480000.0,
+  "delta": 15000.0,
+  "rel": 0.030303030303030304
+ },
+ {
+  "id": "agent_019#00",
+  "label": "b: PV of lease payments as % of fair value (90",
+  "solver": 96.8,
+  "nearest_key": 100.0,
+  "delta": 3.200000000000003,
+  "rel": 0.03305785123966945
+ },
+ {
+  "id": "agent_187#02",
+  "label": "c: FIFO (as if) average inventory",
+  "solver": 578500.0,
+  "nearest_key": 552000.0,
+  "delta": 26500.0,
+  "rel": 0.045808124459809856
+ },
+ {
+  "id": "agent_019#00",
+  "label": "f: Dec 31, Year 1 total lease liability",
+  "solver": 92930.84,
+  "nearest_key": 88505.56,
+  "delta": 4425.279999999999,
+  "rel": 0.04761906811560079
+ },
+ {
+  "id": "agent_086#01",
+  "label": "c: Year-1 amortization - patent, original cost",
+  "solver": 8000.0,
+  "nearest_key": 8400.0,
+  "delta": 400.0,
+  "rel": 0.05
+ },
+ {
+  "id": "agent_277#00",
+  "label": "e: Year 1 interest expense (income statement)",
+  "solver": 7898.0,
+  "nearest_key": 7500.0,
+  "delta": 398.0,
+  "rel": 0.050392504431501645
+ },
+ {
+  "id": "agent_296#00",
+  "label": "d: net working-capital change effect on operat",
+  "solver": 9500.0,
+  "nearest_key": 10000.0,
+  "delta": 500.0,
+  "rel": 0.05263157894736842
+ },
+ {
+  "id": "agent_366#02",
+  "label": "a: Part A - Year 2 required UTB liability for ",
+  "solver": 20000.0,
+  "nearest_key": 18750.0,
+  "delta": 1250.0,
+  "rel": 0.0625
+ },
+ {
+  "id": "agent_326#02",
+  "label": "b: average cost retail cost ratio if net markd",
+  "solver": 53.49,
+  "nearest_key": 50.0,
+  "delta": 3.490000000000002,
+  "rel": 0.06524584034398957
+ },
+ {
+  "id": "agent_268#00",
+  "label": "e: net equity-method income recognized in Year",
+  "solver": 22500.0,
+  "nearest_key": 24000.0,
+  "delta": 1500.0,
+  "rel": 0.06666666666666667
+ },
+ {
+  "id": "agent_194#01",
+  "label": "a: Year 2 pretax income correct",
+  "solver": 82400.0,
+  "nearest_key": 76600.0,
+  "delta": 5800.0,
+  "rel": 0.0703883495145631
+ },
+ {
+  "id": "agent_184#02",
+  "label": "e: Year 8 FIFO-basis COGS",
+  "solver": 990000.0,
+  "nearest_key": 920000.0,
+  "delta": 70000.0,
+  "rel": 0.0707070707070707
+ },
+ {
+  "id": "agent_326#02",
+  "label": "e: ending inventory reported on the balance sh",
+  "solver": 37000.0,
+  "nearest_key": 40000.0,
+  "delta": 3000.0,
+  "rel": 0.08108108108108109
+ },
+ {
+  "id": "agent_026#02",
+  "label": "C: ending deferred tax asset",
+  "solver": 2750.0,
+  "nearest_key": 3000.0,
+  "delta": 250.0,
+  "rel": 0.09090909090909091
+ },
+ {
+  "id": "agent_194#01",
+  "label": "a: Year 1 cost of goods sold as recorded",
+  "solver": 189000.0,
+  "nearest_key": 171000.0,
+  "delta": 18000.0,
+  "rel": 0.09523809523809523
+ },
+ {
+  "id": "agent_194#01",
+  "label": "a: Year 2 pretax income as recorded",
+  "solver": 98000.0,
+  "nearest_key": 88600.0,
+  "delta": 9400.0,
+  "rel": 0.09591836734693877
+ },
+ {
+  "id": "agent_333#02",
+  "label": "c: building accumulated depreciation at Dec 31",
+  "solver": 1062000.0,
+  "nearest_key": 960000.0,
+  "delta": 102000.0,
+  "rel": 0.096045197740113
+ },
+ {
+  "id": "agent_143#01",
+  "label": "d: Year 1 interest expense",
+  "solver": 18727.0,
+  "nearest_key": 16832.0,
+  "delta": 1895.0,
+  "rel": 0.10119079404068991
+ },
+ {
+  "id": "agent_303#02",
+  "label": "d: Inventory\u2014Estimated Returns rollforward \u2014 a",
+  "solver": 14850.0,
+  "nearest_key": 16450.0,
+  "delta": 1600.0,
+  "rel": 0.10774410774410774
+ },
+ {
+  "id": "agent_134#01",
+  "label": "d: net effect on Year 1 net income from this i",
+  "solver": 900.0,
+  "nearest_key": 1000.0,
+  "delta": 100.0,
+  "rel": 0.1111111111111111
+ },
+ {
+  "id": "agent_270#00",
+  "label": "d: Year 1 net pretax income effect of the inve",
+  "solver": 2100.0,
+  "nearest_key": 1800.0,
+  "delta": 300.0,
+  "rel": 0.14285714285714285
+ },
+ {
+  "id": "agent_194#01",
+  "label": "a: Year 2 cost of goods sold as recorded",
+  "solver": 206000.0,
+  "nearest_key": 171000.0,
+  "delta": 35000.0,
+  "rel": 0.16990291262135923
+ },
+ {
+  "id": "agent_043#00",
+  "label": "e: unamortized Discount on Note Receivable at ",
+  "solver": 3167.0,
+  "nearest_key": 3731.0,
+  "delta": 564.0,
+  "rel": 0.17808651720871488
+ },
+ {
+  "id": "agent_194#01",
+  "label": "a: Year 2 cost of goods sold correct",
+  "solver": 221600.0,
+  "nearest_key": 171000.0,
+  "delta": 50600.0,
+  "rel": 0.2283393501805054
+ },
+ {
+  "id": "agent_274#02",
+  "label": "e: Year 1 total interest expense",
+  "solver": 11154.0,
+  "nearest_key": 8400.0,
+  "delta": 2754.0,
+  "rel": 0.24690693921463153
+ },
+ {
+  "id": "agent_391#02",
+  "label": "c: net effect on operating cash flows from ite",
+  "solver": 42700.0,
+  "nearest_key": 55000.0,
+  "delta": 12300.0,
+  "rel": 0.28805620608899296
+ },
+ {
+  "id": "agent_056#02",
+  "label": "c: Summitline gross profit - FIFO (as if)",
+  "solver": 560000.0,
+  "nearest_key": 840000.0,
+  "delta": 280000.0,
+  "rel": 0.5
+ },
+ {
+  "id": "agent_056#02",
+  "label": "c: Summitline gross profit - LIFO (as reported",
+  "solver": 540000.0,
+  "nearest_key": 840000.0,
+  "delta": 300000.0,
+  "rel": 0.5555555555555556
+ },
+ {
+  "id": "agent_032#01",
+  "label": "d: Net deferred tax asset reported at 12/31/Ye",
+  "solver": 18000.0,
+  "nearest_key": 7500.0,
+  "delta": 10500.0,
+  "rel": 0.5833333333333334
+ },
+ {
+  "id": "agent_086#01",
+  "label": "c: Year-1 amortization - patent defense costs ",
+  "solver": 861.54,
+  "nearest_key": 31.0,
+  "delta": 830.54,
+  "rel": 0.9640179213965689
+ },
+ {
+  "id": "agent_002#03",
+  "label": "b: effect on net income on the January 1, Year",
+  "solver": 0.0,
+  "nearest_key": 1.0,
+  "delta": 1.0,
+  "rel": 1.0
+ },
+ {
+  "id": "agent_107#02",
+  "label": "a: Case A allocation percentage to common (0.7",
+  "solver": 0.72,
+  "nearest_key": 5.0,
+  "delta": 4.28,
+  "rel": 4.28
+ },
+ {
+  "id": "agent_107#02",
+  "label": "a: Case A allocation percentage to preferred (",
+  "solver": 0.28,
+  "nearest_key": 5.0,
+  "delta": 4.72,
+  "rel": 4.72
+ }
+]

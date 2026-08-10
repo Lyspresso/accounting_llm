@@ -1,0 +1,296 @@
+{
+  "id": "agent_221#00",
+  "rounding_convention": "decimal.Decimal only (no floats); ROUND_HALF_UP to the cent applied per period, each year's amortization rounded before being carried forward; straight-line amortization computed from acquisition-date fair value less zero residual over the 6-year life; no present-value work required, so no PV table factors used",
+  "answers": [
+    {
+      "label": "a: fair value of identifiable net assets acquired, January 1, Year 1",
+      "value": 683000
+    },
+    {
+      "label": "a: goodwill recorded, January 1, Year 1",
+      "value": 192000
+    },
+    {
+      "label": "c: Brand name - Year 1 amortization",
+      "value": 0
+    },
+    {
+      "label": "c: Brand name - carrying amount, December 31, Year 1",
+      "value": 90000
+    },
+    {
+      "label": "c: Brand name - Year 2 amortization",
+      "value": 0
+    },
+    {
+      "label": "c: Brand name - carrying amount, December 31, Year 2",
+      "value": 90000
+    },
+    {
+      "label": "c: Acquired IPR&D - Year 1 amortization",
+      "value": 0
+    },
+    {
+      "label": "c: Acquired IPR&D - carrying amount, December 31, Year 1",
+      "value": 65000
+    },
+    {
+      "label": "c: Acquired IPR&D - Year 2 amortization",
+      "value": 0
+    },
+    {
+      "label": "c: Acquired IPR&D - carrying amount, December 31, Year 2",
+      "value": 65000
+    },
+    {
+      "label": "c: Goodwill - Year 1 amortization",
+      "value": 0
+    },
+    {
+      "label": "c: Goodwill - carrying amount, December 31, Year 1",
+      "value": 192000
+    },
+    {
+      "label": "c: Goodwill - Year 2 amortization",
+      "value": 0
+    },
+    {
+      "label": "c: Goodwill - carrying amount, December 31, Year 2",
+      "value": 192000
+    },
+    {
+      "label": "c: Customer relationships - Year 1 amortization",
+      "value": 8000
+    },
+    {
+      "label": "c: Customer relationships - carrying amount, December 31, Year 1",
+      "value": 40000
+    },
+    {
+      "label": "c: Customer relationships - Year 2 amortization",
+      "value": 8000
+    },
+    {
+      "label": "c: Customer relationships - carrying amount, December 31, Year 2",
+      "value": 32000
+    },
+    {
+      "label": "e: goodwill roll-forward - beginning balance, January 1, Year 1",
+      "value": 0
+    },
+    {
+      "label": "e: goodwill roll-forward - goodwill acquired, Year 1",
+      "value": 192000
+    },
+    {
+      "label": "e: goodwill roll-forward - amortization, Years 1-2",
+      "value": 0
+    },
+    {
+      "label": "e: goodwill roll-forward - ending balance, December 31, Year 1",
+      "value": 192000
+    },
+    {
+      "label": "e: goodwill roll-forward - ending balance, December 31, Year 2",
+      "value": 192000
+    },
+    {
+      "label": "f: loss on sale of brand name, June 30, Year 3",
+      "value": 12000
+    },
+    {
+      "label": "g: Year-2 balance-sheet presentation of goodwill vs. other intangibles",
+      "value": "Goodwill is presented as a separate line item in the balance sheet, apart from all other intangible assets (ASC 350-20-45-1): Goodwill $192,000. The other intangibles are reported together as 'Intangible assets, net' of $187,000 at December 31, Year 2 - indefinite-life brand name $90,000 and acquired IPR&D $65,000 carried at cost with no amortization, plus finite-life customer relationships net of accumulated amortization $32,000. Goodwill and the indefinite-life intangibles are not amortized (they are tested for impairment instead); only the customer relationships are amortized, and finite- versus indefinite-life intangibles are disclosed separately in the notes."
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b (January 1, Year 1 - acquisition)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 55000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Receivable",
+          "debit": 125000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 110000,
+          "credit": 0
+        },
+        {
+          "account": "Property, Plant, and Equipment",
+          "debit": 480000,
+          "credit": 0
+        },
+        {
+          "account": "Brand Name",
+          "debit": 90000,
+          "credit": 0
+        },
+        {
+          "account": "Customer Relationships",
+          "debit": 48000,
+          "credit": 0
+        },
+        {
+          "account": "Acquired In-Process Research and Development",
+          "debit": 65000,
+          "credit": 0
+        },
+        {
+          "account": "Goodwill",
+          "debit": 192000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Payable",
+          "debit": 0,
+          "credit": 80000
+        },
+        {
+          "account": "Long-Term Debt",
+          "debit": 0,
+          "credit": 210000
+        },
+        {
+          "account": "Cash (consideration paid)",
+          "debit": 0,
+          "credit": 875000
+        }
+      ]
+    },
+    {
+      "part": "d (December 31, Year 1)",
+      "lines": [
+        {
+          "account": "Amortization Expense",
+          "debit": 8000,
+          "credit": 0
+        },
+        {
+          "account": "Customer Relationships",
+          "debit": 0,
+          "credit": 8000
+        }
+      ]
+    },
+    {
+      "part": "d (December 31, Year 2)",
+      "lines": [
+        {
+          "account": "Amortization Expense",
+          "debit": 8000,
+          "credit": 0
+        },
+        {
+          "account": "Customer Relationships",
+          "debit": 0,
+          "credit": 8000
+        }
+      ]
+    },
+    {
+      "part": "f (June 30, Year 3 - sale of brand name)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 78000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Sale of Intangible Asset",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Brand Name",
+          "debit": 0,
+          "credit": 90000
+        }
+      ]
+    }
+  ],
+  "supporting_schedules": {
+    "c_subsequent_measurement": {
+      "Brand name (indefinite life)": [
+        {
+          "year": 1,
+          "beginning_carrying_amount": 90000,
+          "amortization": 0,
+          "ending_carrying_amount": 90000
+        },
+        {
+          "year": 2,
+          "beginning_carrying_amount": 90000,
+          "amortization": 0,
+          "ending_carrying_amount": 90000
+        }
+      ],
+      "Acquired IPR&D (indefinite until complete)": [
+        {
+          "year": 1,
+          "beginning_carrying_amount": 65000,
+          "amortization": 0,
+          "ending_carrying_amount": 65000
+        },
+        {
+          "year": 2,
+          "beginning_carrying_amount": 65000,
+          "amortization": 0,
+          "ending_carrying_amount": 65000
+        }
+      ],
+      "Goodwill (not amortized)": [
+        {
+          "year": 1,
+          "beginning_carrying_amount": 192000,
+          "amortization": 0,
+          "ending_carrying_amount": 192000
+        },
+        {
+          "year": 2,
+          "beginning_carrying_amount": 192000,
+          "amortization": 0,
+          "ending_carrying_amount": 192000
+        }
+      ],
+      "Customer relationships (6-year finite life)": [
+        {
+          "year": 1,
+          "beginning_carrying_amount": 48000,
+          "amortization": 8000,
+          "ending_carrying_amount": 40000
+        },
+        {
+          "year": 2,
+          "beginning_carrying_amount": 40000,
+          "amortization": 8000,
+          "ending_carrying_amount": 32000
+        }
+      ]
+    },
+    "e_goodwill_rollforward": [
+      {
+        "year": 1,
+        "beginning_balance": 0,
+        "goodwill_from_acquisitions": 192000,
+        "amortization": 0,
+        "ending_balance": 192000
+      },
+      {
+        "year": 2,
+        "beginning_balance": 192000,
+        "goodwill_from_acquisitions": 0,
+        "amortization": 0,
+        "ending_balance": 192000
+      }
+    ]
+  },
+  "insufficient_info": false,
+  "notes": "Goodwill = $875,000 consideration - $683,000 fair value of identifiable net assets ($973,000 assets - $290,000 liabilities). Brand name, acquired IPR&D, and goodwill are all indefinite-lived and are not amortized, so the only period-end entries in part d are the $8,000 annual customer-relationship amortization ($48,000 / 6). Amortization is credited directly to the intangible account per the textbook's most-common presentation; an Accumulated Amortization contra account is an equally acceptable alternative. The brand name carries at $90,000 on 6/30/Year 3, so the $78,000 sale produces a $12,000 loss."
+}

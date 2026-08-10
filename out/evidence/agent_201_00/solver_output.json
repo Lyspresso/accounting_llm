@@ -1,0 +1,155 @@
+{
+  "id": "agent_201#00",
+  "rounding_convention": "ROUND_HALF_UP to the cent, applied per period. PV via the exact formula FV/(1+i)^n in Decimal (not a truncated table factor); each year's accretion is rounded before rolling into the next year's beginning balance.",
+  "answers": [
+    {
+      "label": "a: present value of the ARO at December 31, Year 1",
+      "value": 300000
+    },
+    {
+      "label": "b: December 31, Year 2 - beginning ARO",
+      "value": 300000
+    },
+    {
+      "label": "b: December 31, Year 2 - accretion expense at 10%",
+      "value": 30000
+    },
+    {
+      "label": "b: December 31, Year 2 - ending ARO",
+      "value": 330000
+    },
+    {
+      "label": "b: December 31, Year 3 - beginning ARO",
+      "value": 330000
+    },
+    {
+      "label": "b: December 31, Year 3 - accretion expense at 10%",
+      "value": 33000
+    },
+    {
+      "label": "b: December 31, Year 3 - ending ARO",
+      "value": 363000
+    },
+    {
+      "label": "b: December 31, Year 4 - beginning ARO",
+      "value": 363000
+    },
+    {
+      "label": "b: December 31, Year 4 - accretion expense at 10%",
+      "value": 36300
+    },
+    {
+      "label": "b: December 31, Year 4 - ending ARO",
+      "value": 399300
+    },
+    {
+      "label": "b: December 31, Year 5 - beginning ARO",
+      "value": 399300
+    },
+    {
+      "label": "b: December 31, Year 5 - accretion expense at 10%",
+      "value": 39930
+    },
+    {
+      "label": "b: December 31, Year 5 - ending ARO",
+      "value": 439230
+    },
+    {
+      "label": "b: December 31, Year 6 - beginning ARO",
+      "value": 439230
+    },
+    {
+      "label": "b: December 31, Year 6 - accretion expense at 10%",
+      "value": 43923
+    },
+    {
+      "label": "b: December 31, Year 6 - ending ARO",
+      "value": 483153
+    },
+    {
+      "label": "e: total accretion expense over the life of the ARO",
+      "value": 183153
+    },
+    {
+      "label": "e: total depreciation of the landfill cell",
+      "value": 8800000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "December 31, Year 1",
+      "description": "Initial recognition of the ARO at present value, capitalized into the cost of the landfill cell",
+      "lines": [
+        {
+          "account": "Landfill Cell (Asset Retirement Cost)",
+          "debit": 300000,
+          "credit": 0
+        },
+        {
+          "account": "Asset Retirement Obligation",
+          "debit": 0,
+          "credit": 300000
+        }
+      ]
+    },
+    {
+      "part": "c1",
+      "date": "December 31, Year 2",
+      "description": "Straight-line depreciation of the landfill cell (includes the capitalized asset retirement cost)",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 2200000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation - Landfill Cell",
+          "debit": 0,
+          "credit": 2200000
+        }
+      ]
+    },
+    {
+      "part": "c2",
+      "date": "December 31, Year 2",
+      "description": "Accretion of the ARO at 10% of the beginning balance",
+      "lines": [
+        {
+          "account": "Accretion Expense",
+          "debit": 30000,
+          "credit": 0
+        },
+        {
+          "account": "Asset Retirement Obligation",
+          "debit": 0,
+          "credit": 30000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 6",
+      "description": "Settlement of the ARO with a third-party reclamation firm; Year 6 accretion already recorded",
+      "lines": [
+        {
+          "account": "Asset Retirement Obligation",
+          "debit": 483153,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Settlement of Asset Retirement Obligation",
+          "debit": 16847,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 500000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Discount period is 5 years (Dec 31 Year 1 to the Dec 31 Year 6 cash outflow), not the 4-year useful life, so the ARO accretes through a sixth year after the cell is fully depreciated at the end of Year 5. The schedule's beginning balance at December 31, Year 1 is the recognition-date PV; the first accretion charge falls in Year 2. Depreciation runs Years 2-5 on a base of construction cost plus the capitalized asset retirement cost. e (explanation): the ARO's present value is capitalized rather than expensed immediately because the legal obligation to dismantle and reclaim is an unavoidable cost of getting the cell into service - it is part of the total cost of using the asset, and it produces future economic benefit over the cell's operating life. Capitalizing it and depreciating it over the 4-year life matches that retirement cost against the revenue the cell generates, instead of dumping the whole amount into the period of construction when no benefit has yet been consumed. The liability is recorded at present value because settlement is five years away; the discount unwinds as accretion expense, which is an operating expense (not interest expense) under the effective-interest approach."
+}

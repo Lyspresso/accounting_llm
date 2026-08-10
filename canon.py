@@ -238,11 +238,10 @@ def resolve_contextual(account, entry_accounts=(), part_text=""):
 def net_per_account(lines, scope_key=lambda l: l.get("date")):
     """
     Within ONE entry/date, an account appearing on both dr and cr collapses to
-    its net line. The course material presents the same year-end operating lease
-    entry two ways and prefers neither: a compound form that nets the ROU
-    movement into a single credit, and a two-part form that shows the gross
-    debit and credit separately. Identical ledgers; only netting makes them
-    compare equal.
+    its net line. Demo 17-3 presents the same year-end operating entry two ways
+    and prefers neither: the compound form credits ROU 31,721 while the two-part
+    form debits ROU 3,251 and credits 34,972. Identical ledgers; only netting
+    makes them compare equal.
 
     SCOPED: netting spans one entry/date only. Netting across an item would
     collapse genuinely separate entries and hide a real error.

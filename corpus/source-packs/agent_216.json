@@ -1,0 +1,47 @@
+{
+  "agent_id": 216,
+  "lo": "LO 12-9",
+  "chapter": 12,
+  "title": "Describe property, plant, and equipment disclosures and ratio analyses",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-9",
+      "concept": "Initial recognition of CNC equipment; multi-year subsequent measurement (SL schedule emphasis); period-end dep JE; mid-year disposal; ASC 360 PPE note disclosures; asset turnover, ROA, fixed asset turnover",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-9",
+      "concept": "Number-variant twin — initial recognition JE; multi-year SL subsequent measurement schedule; period-end dep; mid-year disposal with loss; ASC 360 note + three ratios",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-9",
+      "concept": "Subsequent measurement cost/AD rollforward for a reporting year; ASC 360 disclosure checklist; AD-to-cost indicator; relation of depreciation method and asset age to ROA; period-end dep JE and disposal settlement with IS presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-9",
+      "concept": "Classification of required depreciation and PPE disclosures (ASC 360-10-50-1)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 12-9",
+      "concept": "Classification of PPE-related activity and profitability ratios (fixed asset turnover definition)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,39 @@
+{
+  "agent_id": 137,
+  "lo": "LO 14-5",
+  "chapter": 14,
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-5",
+      "concept": "Initial recognition under equity method; multi-year subsequent measurement schedule (share of NI, dividends, excess depreciation); period-end adjusting JEs; ignore fair value; partial-year proration; disposal settlement JE; SCF presentation of equity income vs dividends",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-5",
+      "concept": "Number-variant twin — initial recognition; subsequent measurement schedule including share of loss and excess depreciation; period-end JEs; ignore FV; sale of equity-method investment",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-5",
+      "concept": "Period-end adjusting JEs after mid-year purchase; allocate cost to BV, depreciable FV excess, and goodwill; investment ending balance; equity method vs FV-NI contrast; balance-sheet and SCF classification",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-5",
+      "concept": "Classification / method choice — significant influence → equity method; dividends reduce Investment; FV ignored; goodwill not amortized",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

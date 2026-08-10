@@ -1,0 +1,2189 @@
+{
+ "comparator_version": "3.5",
+ "rows": [
+  {
+   "id": "agent_134#01",
+   "ch": 14,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "baseline-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 20,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "d: net effect on Year 1 net income from this investment",
+      "solver": 900
+     }
+    ]
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 35,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "d: IS Yr 1 - Net effect on income from this investment",
+      "solver": 900.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_268#00",
+   "ch": 14,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 10,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 18,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_008#02",
+   "ch": 14,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 9,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 22,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_002#03",
+   "ch": 14,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "baseline-1": {
+    "verdict": "failed",
+    "coverage": 0.75,
+    "n_answers": 2,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: effect on net income on the January 1, Year 4 transfer date",
+      "solver": 0
+     }
+    ]
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 11,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Effect of the transfer on net income",
+      "solver": 0
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 150000.0,
+      "solver": "debt investments available for sale quill dune",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 150000.0,
+      "solver": "debt investments held to maturity quill dune",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "dr",
+      "amount": 90000.0,
+      "key": "investment in afs quill bonds",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "cr",
+      "amount": 90000.0,
+      "key": "investment in htm quill bonds",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "dr",
+      "amount": 60000.0,
+      "key": "investment in afs dune bonds",
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_270#00",
+   "ch": 14,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 17,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "d: Year 1 net pretax income effect of the investment",
+      "solver": -2100
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "f: reconciliation - Year 2 income statement gain (loss)",
+      "solver": 600
+     }
+    ]
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 30,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "d: Year 1 total pre-tax income effect",
+      "solver": -2100.0
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "f: Reconciliation - Year 2 net gain/(loss) recognized",
+      "solver": 600.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_279#01",
+   "ch": 16,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 26,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 54,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_143#01",
+   "ch": 16,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 27,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 59,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "a: PV annuity factor, 8 periods @ 4% (support)",
+      "solver": 6.732745
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "a: PV of $1 factor, 8 periods @ 4% (support)",
+      "solver": 0.73069
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_363#00",
+   "ch": 16,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.875,
+    "n_answers": 29,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.875,
+    "n_answers": 44,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_016#00",
+   "ch": 16,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 16,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 19,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_145#02",
+   "ch": 16,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 18,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 42,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_206#02",
+   "ch": 12,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.75,
+    "n_answers": 25,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.75,
+    "n_answers": 32,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_214#02",
+   "ch": 12,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.75,
+    "n_answers": 17,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 32,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "c: Year 5 accumulated depreciation since write-down (Asset B)",
+      "solver": 120000.0
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "c: Year 6 accumulated depreciation since write-down (Asset B)",
+      "solver": 180000.0
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "c: Year 7 accumulated depreciation since write-down (Asset B)",
+      "solver": 240000.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_080#01",
+   "ch": 12,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 41,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.833,
+    "n_answers": 49,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_254#00",
+   "ch": 20,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 20,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 63,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_248#01",
+   "ch": 20,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 10,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 24,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Plan N purchase price per share (95% x $48 market)",
+      "solver": 45.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_119#00",
+   "ch": 20,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.8,
+    "n_answers": 4,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 31,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_381#02",
+   "ch": 20,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 5,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 32,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_320#02",
+   "ch": 10,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.833,
+    "n_answers": 26,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 34,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_322#00",
+   "ch": 10,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+   ],
+   "baseline-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 13,
+    "hard": [
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 72000.0,
+      "solver": "cost of goods sold july 1 12 estimated",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 48000.0,
+      "solver": "purchases",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 386000.0,
+      "solver": "inventory beginning jun 30",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "cr",
+      "amount": 362000.0,
+      "key": "inventory",
+      "n": 1
+     }
+    ]
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 30,
+    "hard": [
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 362000.0,
+      "solver": "inventory july 12 estimated balance before storm",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 72000.0,
+      "solver": "cost of goods sold july 1 12",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 386000.0,
+      "solver": "inventory june 30 balance removed",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 48000.0,
+      "solver": "purchases july 1 12 net purchases closed",
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_193#02",
+   "ch": 10,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 13,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 17,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_032#01",
+   "ch": 18,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 5,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 17,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "a: Valuation allowance at 12/31/Y1 (full realization MLTN)",
+      "solver": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_367#02",
+   "ch": 18,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.857,
+    "n_answers": 9,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.857,
+    "n_answers": 26,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_161#02",
+   "ch": 18,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.8,
+    "n_answers": 12,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 19,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_303#02",
+   "ch": 8,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 10,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 32,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "c: Year-end adjusting entry - Sales Returns debit / Refund Liability credit (increase)",
+      "solver": 13250.0
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "c: Year-end adjusting entry - Inventory-Estimated Returns debit / COGS credit (increase)",
+      "solver": 7950.0
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "d: Refund Liability rollforward - actual returns charged against the liability",
+      "solver": 0.0
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "d: Refund Liability rollforward - year-end adjustment (true-up)",
+      "solver": 13250.0
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "d: Inventory-Estimated Returns rollforward - amounts relieved for actual returns",
+      "solver": 0.0
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "d: Inventory-Estimated Returns rollforward - year-end adjustment (true-up)",
+      "solver": 7950.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_043#00",
+   "ch": 8,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 24,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 38,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "d: Carrying amount Dec 31 Yr2",
+      "solver": 13015.7
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "d: Carrying amount Dec 31 Yr3",
+      "solver": 14317.75
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "e: Less unamortized Discount on Note Receivable at Dec 31 Yr1",
+      "solver": 3167.55
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 1126.9,
+      "solver": "discount on note receivable",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 1126.9,
+      "solver": "interest revenue",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 1239.59,
+      "solver": "discount on note receivable",
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_301#00",
+   "ch": 8,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 48,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 49,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_053#01",
+   "ch": 9,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 10,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 22,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "a: Year 1 \u2014 allowance beginning balance",
+      "solver": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_183#01",
+   "ch": 9,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.5,
+    "n_answers": 6,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.75,
+    "n_answers": 44,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_186#02",
+   "ch": 9,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.75,
+    "n_answers": 12,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 42,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_333#02",
+   "ch": 11,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 21,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 43,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "e: New machine snapshot Dec 31, 20X7 \u2014 remaining useful life (months)",
+      "solver": 91
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "e: New machine snapshot Dec 31, 20X7 \u2014 remaining useful life (years)",
+      "solver": 7.583
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_336#00",
+   "ch": 11,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 20,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 44,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Press monthly straight-line depreciation",
+      "solver": 1125.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_204#02",
+   "ch": 11,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 9,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 21,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Full-year straight-line depreciation",
+      "solver": 28500
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Year 1 depreciation expense",
+      "solver": 21375
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Year 1 year-end accumulated depreciation",
+      "solver": 21375
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Year 1 year-end net book value",
+      "solver": 161625
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Year 2 depreciation expense",
+      "solver": 28500
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Year 2 year-end accumulated depreciation",
+      "solver": 49875
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_086#01",
+   "ch": 13,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 25,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "c: Year-1 amortization - patent, original cost (56,000 / 7, full year)",
+      "solver": 8000
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "c: Year-1 amortization - patent defense costs (11,200 / 6.5 x 6/12)",
+      "solver": 861.54
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 26861.54,
+      "solver": "amortization expense",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 8861.54,
+      "solver": "patent",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "dr",
+      "amount": 26862.0,
+      "key": "amortization expense",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "cr",
+      "amount": 8862.0,
+      "key": "patent",
+      "n": 1
+     }
+    ]
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 34,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "c: Patent original cost - Year 1 amortization (full year)",
+      "solver": 8000
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "c: Patent defense costs - full-year amortization",
+      "solver": 1723.08
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "c: Patent defense costs - Year 1 amortization (6/12 prorated)",
+      "solver": 861.54
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 26861.54,
+      "solver": "amortization expense",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 8861.54,
+      "solver": "accumulated amortization patent",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "dr",
+      "amount": 26862.0,
+      "key": "amortization expense",
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_092#00",
+   "ch": 13,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "failed",
+    "coverage": 0.833,
+    "n_answers": 19,
+    "hard": [
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 1698000.0,
+      "solver": "research and development expense",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 1698000.0,
+      "solver": "cash",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "cr",
+      "amount": 240000.0,
+      "key": "cash",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "dr",
+      "amount": 96000.0,
+      "key": "research and development expense",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "cr",
+      "amount": 96000.0,
+      "key": "cash",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "dr",
+      "amount": 1150000.0,
+      "key": "research and development expense",
+      "n": 1
+     }
+    ]
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 55,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "a: Total Year 1 costs expensed immediately as R&D (items 1,3,4,5,6,9)",
+      "solver": 1698000
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "a: Total cash paid, Year 1 (items 1-10)",
+      "solver": 2541000
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "d: Total Year 1 costs excluded from the R&D disclosure",
+      "solver": 363600
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 1698000.0,
+      "solver": "research and development expense items 1 3 4 5 6 9",
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_219#05",
+   "ch": 13,
+   "required_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 12,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 22,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_164#02",
+   "ch": 22,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.8,
+    "n_answers": 16,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 29,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_391#02",
+   "ch": 22,
+   "required_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 10,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 24,
+    "hard": [
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 12000.0,
+      "solver": "operating decrease in accounts receivable lower half",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 2000.0,
+      "solver": "operating increase in allowance for doubtful accounts lower half",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "dr",
+      "amount": 14000.0,
+      "key": "decrease in accounts receivable net operating",
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_130#00",
+   "ch": 22,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.833,
+    "n_answers": 37,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 63,
+    "hard": [
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 10000.0,
+      "solver": "restricted cash",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 10000.0,
+      "solver": "cash and cash equivalents",
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_240#00",
+   "ch": 19,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 17,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 27,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "a: Amount reported in stockholders' equity immediately after issuance",
+      "solver": 0.0
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "d: Gain or loss on settlement (carrying amount equals redemption price)",
+      "solver": 0.0
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "e: Reconciling difference (total interest expense - (redemption - proceeds)); zero proves the schedule ties",
+      "solver": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_107#02",
+   "ch": 19,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.75,
+    "n_answers": 14,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 25,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_373#00",
+   "ch": 19,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 38,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 47,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_150#02",
+   "ch": 17,
+   "required_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "baseline-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 10,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Option 3 - PV of lease payments incl. purchase option (6 yrs, $42,000 ordinary annuity + $15,000 option @ 5.5% implicit)",
+      "solver": 220690.96
+     }
+    ]
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 26,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Option 1 \u2014 PV factor, ordinary annuity, 6 yrs @ 6% (IBR)",
+      "solver": "4.917324"
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Option 2 \u2014 PV factor, ordinary annuity, 8 yrs @ 6% (IBR)",
+      "solver": "6.209794"
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Option 3 \u2014 PV of six $42,000 payments",
+      "solver": "209812.27"
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Option 3 \u2014 PV of $15,000 purchase-option price (single sum, 6 yrs @ 5.5%)",
+      "solver": "10878.69"
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Option 3 \u2014 total PV of lease payments (payments + option price)",
+      "solver": "220690.96"
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: Option 4 \u2014 PV factor, annuity DUE, 6 yrs @ 6% (IBR)",
+      "solver": "5.212364"
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_285#00",
+   "ch": 17,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "baseline-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 45,
+    "hard": [
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 19004.0,
+      "solver": "right of use asset",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "dr",
+      "amount": 2996.0,
+      "key": "right of use asset",
+      "n": 1
+     }
+    ]
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 49,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "a: Criterion 4 - PV of lease payments as % of fair value",
+      "solver": 58.51
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "b: PV factor, annuity due, 4 payments @ 5%",
+      "solver": 3.723248
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 19004.0,
+      "solver": "right of use asset operating lease",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "dr",
+      "amount": 2996.0,
+      "key": "right of use asset",
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_283#02",
+   "ch": 17,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "baseline-1": {
+    "verdict": "failed",
+    "coverage": 0.857,
+    "n_answers": 14,
+    "hard": [
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 279286.65,
+      "solver": "right of use asset",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 279286.65,
+      "solver": "lease liability",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 18742.93,
+      "solver": "lease liability",
+      "n": 1
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "cr",
+      "amount": 26257.07,
+      "solver": "right of use asset",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "dr",
+      "amount": 279286.0,
+      "key": "right of use asset",
+      "n": 1
+     },
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "cr",
+      "amount": 279286.0,
+      "key": "lease liability",
+      "n": 1
+     }
+    ]
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 47,
+    "hard": [
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "a: PV of lease payments as % of fair value $320,000 (< 90%)",
+      "solver": 87.28
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "e: Year 2 - lease liability after the January 1 payment",
+      "solver": 208029.58
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "e: Year 3 - lease liability after the January 1 payment",
+      "solver": 179671.95
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "f: total lease expense recognized over the 8-year term",
+      "solver": 360000.0
+     },
+     {
+      "kind": "SOLVER_MISMATCH",
+      "label": "f: total interest component over the term",
+      "solver": 80713.35
+     },
+     {
+      "kind": "JE_LINE_NOT_IN_KEY",
+      "side": "dr",
+      "amount": 279286.65,
+      "solver": "right of use asset",
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_230#00",
+   "ch": 15,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "failed",
+    "coverage": 0.833,
+    "n_answers": 24,
+    "hard": [
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "cr",
+      "amount": 15000.0,
+      "key": "estimated litigation liability",
+      "n": 1
+     }
+    ]
+   },
+   "trim-1": {
+    "verdict": "failed",
+    "coverage": 1.0,
+    "n_answers": 39,
+    "hard": [
+     {
+      "kind": "KEY_LINE_NOT_IN_SOLVER",
+      "side": "cr",
+      "amount": 15000.0,
+      "key": "estimated litigation liability",
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "agent_229#00",
+   "ch": 15,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.857,
+    "n_answers": 12,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 18,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_274#02",
+   "ch": 16,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 20,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 38,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_135#01",
+   "ch": 14,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 24,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 49,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_295#02",
+   "ch": 22,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 20,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 1.0,
+    "n_answers": 36,
+    "hard": []
+   }
+  },
+  {
+   "id": "agent_392#00",
+   "ch": 22,
+   "required_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "baseline-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.833,
+    "n_answers": 17,
+    "hard": []
+   },
+   "trim-1": {
+    "verdict": "machine_passed",
+    "coverage": 0.833,
+    "n_answers": 79,
+    "hard": []
+   }
+  }
+ ],
+ "flips": [
+  {
+   "id": "agent_143#01",
+   "ch": 16,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 1.0,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: PV annuity factor, 8 periods @ 4% (support)",
+     "solver": 6.732745
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: PV of $1 factor, 8 periods @ 4% (support)",
+     "solver": 0.73069
+    }
+   ],
+   "baseline_hard": []
+  },
+  {
+   "id": "agent_214#02",
+   "ch": 12,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 0.75,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: Year 5 accumulated depreciation since write-down (Asset B)",
+     "solver": 120000.0
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: Year 6 accumulated depreciation since write-down (Asset B)",
+     "solver": 180000.0
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: Year 7 accumulated depreciation since write-down (Asset B)",
+     "solver": 240000.0
+    }
+   ],
+   "baseline_hard": []
+  },
+  {
+   "id": "agent_248#01",
+   "ch": 20,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 1.0,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: Plan N purchase price per share (95% x $48 market)",
+     "solver": 45.6
+    }
+   ],
+   "baseline_hard": []
+  },
+  {
+   "id": "agent_032#01",
+   "ch": 18,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 1.0,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: Valuation allowance at 12/31/Y1 (full realization MLTN)",
+     "solver": 0
+    }
+   ],
+   "baseline_hard": []
+  },
+  {
+   "id": "agent_303#02",
+   "ch": 8,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 1.0,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: Year-end adjusting entry - Sales Returns debit / Refund Liability credit (increase)",
+     "solver": 13250.0
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "c: Year-end adjusting entry - Inventory-Estimated Returns debit / COGS credit (increase)",
+     "solver": 7950.0
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: Refund Liability rollforward - actual returns charged against the liability",
+     "solver": 0.0
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: Refund Liability rollforward - year-end adjustment (true-up)",
+     "solver": 13250.0
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: Inventory-Estimated Returns rollforward - amounts relieved for actual returns",
+     "solver": 0.0
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: Inventory-Estimated Returns rollforward - year-end adjustment (true-up)",
+     "solver": 7950.0
+    }
+   ],
+   "baseline_hard": []
+  },
+  {
+   "id": "agent_043#00",
+   "ch": 8,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 1.0,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: Carrying amount Dec 31 Yr2",
+     "solver": 13015.7
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: Carrying amount Dec 31 Yr3",
+     "solver": 14317.75
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "e: Less unamortized Discount on Note Receivable at Dec 31 Yr1",
+     "solver": 3167.55
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 1126.9,
+     "solver": "discount on note receivable",
+     "n": 1
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 1126.9,
+     "solver": "interest revenue",
+     "n": 1
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 1239.59,
+     "solver": "discount on note receivable",
+     "n": 1
+    }
+   ],
+   "baseline_hard": []
+  },
+  {
+   "id": "agent_053#01",
+   "ch": 9,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 1.0,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: Year 1 \u2014 allowance beginning balance",
+     "solver": 0
+    }
+   ],
+   "baseline_hard": []
+  },
+  {
+   "id": "agent_333#02",
+   "ch": 11,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 1.0,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "e: New machine snapshot Dec 31, 20X7 \u2014 remaining useful life (months)",
+     "solver": 91
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "e: New machine snapshot Dec 31, 20X7 \u2014 remaining useful life (years)",
+     "solver": 7.583
+    }
+   ],
+   "baseline_hard": []
+  },
+  {
+   "id": "agent_336#00",
+   "ch": 11,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 1.0,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: Press monthly straight-line depreciation",
+     "solver": 1125.0
+    }
+   ],
+   "baseline_hard": []
+  },
+  {
+   "id": "agent_204#02",
+   "ch": 11,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 1.0,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: Full-year straight-line depreciation",
+     "solver": 28500
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: Year 1 depreciation expense",
+     "solver": 21375
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: Year 1 year-end accumulated depreciation",
+     "solver": 21375
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: Year 1 year-end net book value",
+     "solver": 161625
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: Year 2 depreciation expense",
+     "solver": 28500
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "b: Year 2 year-end accumulated depreciation",
+     "solver": 49875
+    }
+   ],
+   "baseline_hard": []
+  },
+  {
+   "id": "agent_391#02",
+   "ch": 22,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 1.0,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 12000.0,
+     "solver": "operating decrease in accounts receivable lower half",
+     "n": 1
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 2000.0,
+     "solver": "operating increase in allowance for doubtful accounts lower half",
+     "n": 1
+    },
+    {
+     "kind": "KEY_LINE_NOT_IN_SOLVER",
+     "side": "dr",
+     "amount": 14000.0,
+     "key": "decrease in accounts receivable net operating",
+     "n": 1
+    }
+   ],
+   "baseline_hard": []
+  },
+  {
+   "id": "agent_130#00",
+   "ch": 22,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 0.833,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "dr",
+     "amount": 10000.0,
+     "solver": "restricted cash",
+     "n": 1
+    },
+    {
+     "kind": "JE_LINE_NOT_IN_KEY",
+     "side": "cr",
+     "amount": 10000.0,
+     "solver": "cash and cash equivalents",
+     "n": 1
+    }
+   ],
+   "baseline_hard": []
+  },
+  {
+   "id": "agent_240#00",
+   "ch": 19,
+   "baseline": "machine_passed",
+   "trim": "failed",
+   "baseline_cov": 1.0,
+   "trim_cov": 1.0,
+   "trim_hard": [
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "a: Amount reported in stockholders' equity immediately after issuance",
+     "solver": 0.0
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "d: Gain or loss on settlement (carrying amount equals redemption price)",
+     "solver": 0.0
+    },
+    {
+     "kind": "SOLVER_MISMATCH",
+     "label": "e: Reconciling difference (total interest expense - (redemption - proceeds)); zero proves the schedule ties",
+     "solver": 0.0
+    }
+   ],
+   "baseline_hard": []
+  }
+ ]
+}

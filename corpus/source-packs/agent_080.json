@@ -1,0 +1,46 @@
+{
+  "agent_id": 80,
+  "lo": "LO 12-4",
+  "chapter": 12,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-4",
+      "concept": "Initial recognition of PPE; multi-year SL schedule; prospective change in useful life and residual value; period-end dep JE after change; disposal JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-4",
+      "concept": "Number-variant twin: initial PPE recognition; SL schedule; prospective change in useful life and residual; updated period-end dep; disposal with loss",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-4",
+      "concept": "Prospective treatment when useful life is shortened (higher remaining depreciation); period-end JE; scrap disposal; presentation of accelerated estimate change",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-4",
+      "concept": "Classification — prospective treatment of changes in depreciation estimates (life/residual)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 12-4",
+      "concept": "Measurement — compute updated annual depreciation after change in life and residual",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

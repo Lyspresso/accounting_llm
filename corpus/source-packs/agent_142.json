@@ -1,0 +1,46 @@
+{
+  "agent_id": 142,
+  "lo": "LO 16-1",
+  "chapter": 16,
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-1",
+      "concept": "Identify bond types and features; initial recognition at discount; effective-interest amortization schedule; period-end accrual; maturity settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-1",
+      "concept": "Number-variant twin — bond types/features; discount issuance; effective-interest schedule; mid-period accrual; maturity settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-1",
+      "concept": "Multi-issue bond type classification; indenture vs market features; premium issuance JE; net liability presentation and interest expense classification",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4-1",
+      "lo": "LO 16-1",
+      "concept": "Classify municipal serial secured callable bond issue",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4-2",
+      "lo": "LO 16-1",
+      "concept": "Classify issue-price outcome when market rate exceeds stated rate (discount)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

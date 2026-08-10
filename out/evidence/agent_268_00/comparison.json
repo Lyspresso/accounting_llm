@@ -1,0 +1,92 @@
+{
+ "id": "agent_268#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 8,
+  "routed_stage2": 6,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in Meridian Forge Co."
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in Meridian Forge Co."
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment Income (Equity in Investee Income)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment Income (Equity in Investee Income)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in Meridian Forge Co."
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in Meridian Forge Co."
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 240000.0,
+   "solver": "investment in meridian forge co",
+   "key_options": [
+    "investment in meridian forge stock"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 24000.0,
+   "solver": "investment in meridian forge co",
+   "key_options": [
+    "investment in meridian forge stock"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 24000.0,
+   "solver": "investment income equity in investee income",
+   "key_options": [
+    "investment income"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 1500.0,
+   "solver": "investment income equity in investee income",
+   "key_options": [
+    "investment income"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 1500.0,
+   "solver": "investment in meridian forge co",
+   "key_options": [
+    "investment in meridian forge stock"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 6000.0,
+   "solver": "investment in meridian forge co",
+   "key_options": [
+    "investment in meridian forge stock"
+   ]
+  }
+ ]
+}

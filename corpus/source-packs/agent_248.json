@@ -1,0 +1,91 @@
+{
+  "agent_id": 248,
+  "lo": "LO 20-3",
+  "chapter": 20,
+  "title": "Accounting for Employee Stock Purchase Plans",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-3",
+      "concept": "Subsequent measurement schedules for multi-period ESPP payroll liability accumulation and multi-offering share issuance; initial recognition of noncompensatory and compensatory cash purchases; period-end withholding JE; settlement JE",
+      "type": "multipart",
+      "company": "Northwind Analytical Labs",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-3",
+      "concept": "Number-variant twin: subsequent measurement liability schedule; initial recognition of noncompensatory and compensatory ESPP issuances; period-end withholding; settlement JE; total compensation expense",
+      "type": "multipart",
+      "company": "Silverbrook Medical Devices Inc.",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-3",
+      "concept": "Subsequent measurement schedule of quarterly compensatory ESPP issuances and compensation cost; period-end purchase JE; payroll liability roll-forward with residual cash refund settlement",
+      "type": "multipart",
+      "company": "Harborpoint Logistics Group",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-3",
+      "concept": "Classification — noncompensatory ESPP (5% discount, broad participation) and correct cash/equity journal entry",
+      "type": "MC",
+      "company": "Cascade Ridge Analytics Co.",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-3",
+      "concept": "Classification/measurement — PIC credit when compensatory ESPP issues shares at full market value",
+      "type": "MC",
+      "company": "Cascade Ridge Analytics Co.",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_248.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_248.json"
+}

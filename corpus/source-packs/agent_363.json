@@ -1,0 +1,63 @@
+{
+  "agent_id": 363,
+  "lo": "LO 16-11",
+  "chapter": 16,
+  "title": "Accounting for Bonds with Stock Warrants",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-11",
+      "concept": "Proportional allocation of detachable bond-with-warrants proceeds; subsequent straight-line premium amortization schedule; period-end interest adjusting JE; warrant exercise and expiration; bond maturity",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-11",
+      "concept": "Number-variant twin: incremental allocation when only warrant FV is known; subsequent straight-line discount amortization schedule; period-end interest adjusting JE; exercise of all warrants; bond maturity",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-11",
+      "concept": "Period-end adjusting JE emphasis — partial-period interest accrual and discount amortization when bonds with detachable warrants are issued off fiscal year-end; full interest-date payment; warrant exercise; maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-11",
+      "concept": "Classification of allocation method for detachable warrants; accounting contrast for nondetachable warrants",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

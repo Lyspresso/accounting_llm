@@ -1,0 +1,47 @@
+{
+  "agent_id": 122,
+  "lo": "LO 20-8",
+  "chapter": 20,
+  "title": "Compute EPS Given Contingently Issuable Shares",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-8",
+      "concept": "Multi-year contingent shares: diluted as-if test, EPS schedule, settlement issuance JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-8",
+      "concept": "Number-variant twin: current-year proxy for next-year NI target; miss year; no issuance JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-8",
+      "concept": "Multi-condition contingency (earnings, patents, market price); basic vs diluted share counts; presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-8",
+      "concept": "Classification: when contingent shares enter diluted EPS (as-if period-end rule)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-8",
+      "concept": "Presentation when as-if contingency test fails; basic equals diluted",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

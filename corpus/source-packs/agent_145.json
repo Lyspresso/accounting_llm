@@ -1,0 +1,39 @@
+{
+  "agent_id": 145,
+  "lo": "LO 16-4",
+  "chapter": 16,
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-4",
+      "concept": "Initial recognition at a discount; full effective-interest amortization schedule; semiannual interest JEs; month-end accrual; maturity settlement; balance-sheet net presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-4",
+      "concept": "Number-variant twin — issuance at discount, full effective-interest schedule, Year 1 interest JEs, year-end BS presentation, maturity settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-4",
+      "concept": "Straight-line interest method for discount amortization (constant amort. per period); interest JE pattern; maturity when discount fully amortized; contrast with effective interest",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-4",
+      "concept": "Balance-sheet classification of Discount on Bonds Payable and GAAP amortization method",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

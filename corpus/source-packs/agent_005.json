@@ -1,0 +1,60 @@
+{
+  "agent_id": 5,
+  "lo": "LO 14-4",
+  "chapter": 14,
+  "title": "Account for equity securities measured at FV-NI with fair value adjustments at sale date and period-end",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-4",
+      "concept": "initial_recognition_JE + period_end_adjusting_JE + disposal with sale-date FV-NI",
+      "type": "multipart",
+      "ok": true,
+      "summary": "Meridian/Oakridge full cycle: cost $141,200 incl. commissions; dividend $6,000; YE FVA $10,800; sale $154,800 with sale-date FVA +$2,800 then clear Investment+FVA"
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-4",
+      "concept": "number_variant_twin — same FV-NI cycle with loss FVA and sale-date recovery",
+      "type": "multipart",
+      "ok": true,
+      "summary": "Harbor/Crestline: cost $176,800; YE unrealized loss FVA $16,800; sale $165,600 with FVA recovery $5,600 then clear Investment+FVA $11,200"
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-4",
+      "concept": "partial disposal + remaining-share FVA schedule + presentation",
+      "type": "multipart",
+      "ok": true,
+      "summary": "Pinecrest/Helix: cost $376,000; sell 2/5 for $164,000 (cost sold $150,400, sale FVA $13,600); remaining cost $225,600; YE FV $234,000 FVA $8,400"
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-4",
+      "concept": "classification_presentation_or_disclosure — FV-NI vs equity method; unrealized G/L in NI",
+      "type": "MC",
+      "ok": true,
+      "answer": "B"
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-4",
+      "concept": "disposal_maturity_or_settlement_JE — sale-date FV adjust then eliminate FVA",
+      "type": "MC",
+      "ok": true,
+      "answer": "B"
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,85 @@
+{
+ "id": "agent_119#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 9,
+  "routed_stage2": 7,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Retained Earnings (Cash Dividends - Preferred)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Retained Earnings (Stock Dividends)"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 420000.0,
+   "solver": "cash",
+   "key_options": [
+    "cash 30 000 14"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 60000.0,
+   "solver": "common stock",
+   "key_options": [
+    "common stock 30 000 2"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 360000.0,
+   "solver": "paid in capital in excess of par common",
+   "key_options": [
+    "paid in capital in excess of par common 30 000 12"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 96000.0,
+   "solver": "treasury stock",
+   "key_options": [
+    "treasury stock 6 000 16"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 12000.0,
+   "solver": "retained earnings cash dividends preferred",
+   "key_options": [
+    "retained earnings or preferred dividends"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 57600.0,
+   "solver": "retained earnings stock dividends",
+   "key_options": [
+    "retained earnings"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 57600.0,
+   "solver": "common stock",
+   "key_options": [
+    "common stock 28 800 2"
+   ]
+  }
+ ]
+}

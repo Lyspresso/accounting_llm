@@ -1,0 +1,74 @@
+{
+  "agent_id": 282,
+  "lo": "LO 17-11",
+  "chapter": 17,
+  "title": "Explain lease modifications and lease remeasurements",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 17-11",
+      "concept": "Initial recognition of finance lease; liability/ROU schedules; period-end interest and ROU amortization adjusting JEs; remeasurement when purchase option becomes reasonably certain (update discount rate; ROU ↔ LL); settlement by exercising PO",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 17-11",
+      "concept": "Number-variant twin—initial finance lease JE; liability schedule; period-end adjusting JEs; remeasurement JE (updated rate) when purchase option assessment changes; post-remeasurement period-end JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 17-11",
+      "concept": "Remeasure-only for change in probable residual-guarantee payment (original discount rate retained); ROU/LL adjusting JE; period-end interest after remeasurement; classify separate lease vs modified lease vs reassess+remeasure events",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 17-11",
+      "concept": "Classify lease modification / event as separate lease, remeasure-only, or reassess+remeasure; identify correct discount-rate treatment",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 17-11",
+      "concept": "Period-end adjusting JE after purchase-option remeasurement — which accounts and rate",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

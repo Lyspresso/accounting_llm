@@ -203,7 +203,7 @@ def compare(sol, q, known, amap):
 
     # AMOUNT equivalence now routes through canon, exactly as the scalar path
     # does. Previously ms() compared round(amount, 2) for exact equality, so a
-    # a solver carrying cents never matched a key stating whole dollars even though
+    # solver carrying 279,286.65 never matched a key stating 279,287 even though
     # corroborates() called the same pair equivalent. Two paths, one figure, two
     # verdicts. Pairing on (account, side) remains a hard structural gate.
     prec_je = num_precision(key_text)
@@ -267,8 +267,8 @@ def compare(sol, q, known, amap):
     extra_key = k_ms
 
     # Aggregation equivalence: a pooled control-account line (Dr Investments-AFS
-    # one pooled line) is the same entry as the key's per-security split.
-    # Same ledger balances, different house style - not a content
+    # 150,000) is the same entry as the key's per-security split (90,000 +
+    # 60,000). Same ledger balances, different house style - not a content
     # defect. Match a solver line against the SUM of key lines on the same side
     # whose account shares its leading token.
     def aggregates_to(acct, side, amt):

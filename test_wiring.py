@@ -9,9 +9,9 @@ shared builder. A verbal "the note is wired" was wrong for the production
 harness and would have run 12 items under the treatment the note forbids.
 
 Anchoring rule: presence is asserted against the INSTRUCTION region only. The
-governed stems themselves contain the vocabulary the rule is about, so a
-stem-satisfiable check would have passed while a harness carried no rule at
-all. The check must read the rules region and nothing else.
+Cedar Ridge stem itself contains "donated" and "$3,000 cash for legal title
+transfer" - a stem-satisfiable check would have passed while trim carried no
+rule at all.
 """
 
 import json

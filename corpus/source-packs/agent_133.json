@@ -1,0 +1,40 @@
+{
+  "agent_id": 133,
+  "lo": "LO 14-10",
+  "chapter": 14,
+  "title": "Explain the accounting for transfers of investments",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-10",
+      "concept": "Initial AFS recognition; period-end OCI fair-value adjustment; AFS→HTM transfer at fair value with no NI effect; subsequent measurement schedule amortizing AOCI unrealized loss as yield adjustment (offsetting discount amortization); interest JEs; maturity settlement; transfer disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-10",
+      "concept": "Number-variant twin: AFS initial recognition; OCI fair-value adjustment; AFS→HTM transfer; subsequent AOCI/discount amortization schedule; period-end interest JEs; maturity",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-10",
+      "concept": "Transfer HTM→AFS (FV through OCI, no NI); transfer AFS→TS (holding loss to NI); transfer equity FV-NI→equity method (FV becomes new cost basis); subsequent TS fair-value adjustment and disposal",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-10",
+      "concept": "Classification — which transfer recognizes holding gains/losses in net income on the transfer date",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

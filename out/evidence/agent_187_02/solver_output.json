@@ -1,0 +1,90 @@
+{
+  "id": "agent_187#02",
+  "rounding_convention": "ROUND_HALF_UP throughout; dollars to the cent (all figures whole dollars); inventory turnover to 2 decimals; average days in inventory = 365 / rounded turnover, to 1 decimal (round-per-step); gross profit percentage to 1 decimal",
+  "answers": [
+    {
+      "label": "a: increase in LIFO reserve for Year 3",
+      "value": 23000
+    },
+    {
+      "label": "b: FIFO inventory at Dec 31, Year 2",
+      "value": 552000
+    },
+    {
+      "label": "b: FIFO inventory at Dec 31, Year 3",
+      "value": 605000
+    },
+    {
+      "label": "b: FIFO cost of goods sold for Year 3",
+      "value": 2827000
+    },
+    {
+      "label": "c: LIFO (as reported) average inventory",
+      "value": 495000
+    },
+    {
+      "label": "c: LIFO (as reported) inventory turnover",
+      "value": 5.76
+    },
+    {
+      "label": "c: LIFO (as reported) average days in inventory",
+      "value": 63.4
+    },
+    {
+      "label": "c: LIFO (as reported) gross profit",
+      "value": 1350000
+    },
+    {
+      "label": "c: LIFO (as reported) gross profit percentage",
+      "value": 32.1
+    },
+    {
+      "label": "c: FIFO (as if) average inventory",
+      "value": 578500
+    },
+    {
+      "label": "c: FIFO (as if) inventory turnover",
+      "value": 4.89
+    },
+    {
+      "label": "c: FIFO (as if) average days in inventory",
+      "value": 74.6
+    },
+    {
+      "label": "c: FIFO (as if) gross profit",
+      "value": 1373000
+    },
+    {
+      "label": "c: FIFO (as if) gross profit percentage",
+      "value": 32.7
+    },
+    {
+      "label": "d: Maplebridge Year 3 inventory turnover",
+      "value": 4.78
+    },
+    {
+      "label": "d: Maplebridge Year 3 average days in inventory",
+      "value": 76.4
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "Year-end entry converting FIFO internal records to LIFO for external reporting (increase in LIFO reserve)",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 23000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to LIFO (LIFO Reserve)",
+          "debit": 0,
+          "credit": 23000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Rising costs, so the LIFO reserve grows: LIFO COGS exceeds FIFO COGS by the $23,000 increase, and LIFO ending inventory is $95,000 below FIFO. (e) Interpretation: as reported, Harborcrest turns inventory 5.76 times (63.4 days) versus Maplebridge's 4.78 times (76.4 days), so Harborcrest looks markedly faster - but that is a measurement artifact: LIFO puts old, low costs in inventory (small denominator) and current, high costs in COGS (large numerator), inflating turnover on both sides of the fraction. Restated to FIFO, Harborcrest turns 4.89 times (74.6 days), essentially the same as the FIFO peer, so the apparent advantage nearly disappears; method matters because ratios are only comparable across firms after they are placed on the same cost-flow assumption, which the LIFO reserve disclosure makes possible. Rounding sensitivity: average days computed instead as 365 divided by the UNROUNDED turnover would give LIFO 63.4, FIFO 74.7, Maplebridge 76.3; the reported figures use the rounded (2-dp) turnover as divisor."
+}

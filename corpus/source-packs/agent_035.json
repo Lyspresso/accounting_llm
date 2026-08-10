@@ -1,0 +1,72 @@
+{
+  "agent_id": 35,
+  "lo": "LO 22-3",
+  "chapter": 22,
+  "title": "Prepare the investing activities section of the statement of cash flows",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-3",
+      "concept": "Prepare cash flows from investing activities — solve PPE purchases via T-accounts; record purchase and disposal JEs; report gross investing inflows and outflows",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-3",
+      "concept": "Prepare cash flows from investing activities — all numbers changed (PPE T-account plug; investment and loan rollforwards)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-3",
+      "concept": "Investing section with insurance recovery on destroyed PPE, land sale, cash-only portion of equipment purchase, and patent purchase; disclose noncash financing of PPE",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-3",
+      "concept": "Identify which items are included as investing inflows or outflows (gross presentation)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 22-3",
+      "concept": "Compute net cash used by investing activities when insurance proceeds and cash construction of a replacement asset both occur",
+      "type": "MC",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

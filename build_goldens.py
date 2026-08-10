@@ -28,20 +28,20 @@ ADJUDICATED = {
     # chapter 17 lease cohort - zero genuine accounting disagreements
     "agent_022#01": ("ch17", "PASS", "no disagreement; NON_NUMERIC_ANSWER only"),
     "agent_019#00": ("ch17", "KEY_SILENT", "key states figures in LaTeX prose; extraction artifact"),
-    "agent_285#00": ("ch17", "EXTRACTION_BUG", "parser lifted a 4-line optional-form table as the whole key; solver agreed on all <figure> figures"),
-    "agent_151#01": ("ch17", "BOTH_DEFENSIBLE", "<figure>/<figure> round-then-carry vs carry-then-round; chapter blesses both"),
-    "agent_283#02": ("ch17", "BOTH_DEFENSIBLE", "<figure> same rounding convention; plus account-name gaps"),
-    "agent_150#02": ("ch17", "KEY_SILENT", "key declines to state Option 3 PV; solver correct"),
+    "agent_285#00": ("ch17", "EXTRACTION_BUG", "parser lifted a 4-line optional-form table as the whole key; solver agreed on all 45 figures"),
+    "agent_151#01": ("ch17", "BOTH_DEFENSIBLE", "$0.86/$1.35 round-then-carry vs carry-then-round; chapter blesses both"),
+    "agent_283#02": ("ch17", "BOTH_DEFENSIBLE", "$0.65 same rounding convention; plus account-name gaps"),
+    "agent_150#02": ("ch17", "KEY_SILENT", "key declines to state Option 3 PV; solver's 220,690.96 correct"),
     # parity flips
-    "agent_002#03": ("parity", "NEITHER", "solver pooled two securities; key splits per security; aggregation equivalence"),
-    "agent_032#01": ("parity", "NEITHER", "LaTeX {,} made <figure>/<figure>/<figure> invisible; both solvers correct"),
+    "agent_002#03": ("parity", "NEITHER", "pooled 150,000 entry vs key's 90,000+60,000 split; aggregation equivalence"),
+    "agent_032#01": ("parity", "NEITHER", "LaTeX {,} thousands separators made the key figures unreadable to the old extractor; both solvers correct"),
     "agent_303#02": ("parity", "NEITHER", "comparator at fault"),
     "agent_043#00": ("parity", "NEITHER", "comparator at fault"),
     "agent_204#02": ("parity", "BASELINE", "baseline ruled right"),
     "agent_130#00": ("parity", "KEY_WRONG", "genuine key defect - the only one found tonight"),
     "agent_392#00": ("parity", "BASELINE", "baseline ruled right"),
     # the trim A/B flip
-    "agent_052#01": ("trim-ab", "KEY_SILENT", "FIFO/LIFO Oct <figure> running balances <figure>/<figure> correct from key's own layers; key never totals them"),
+    "agent_052#01": ("trim-ab", "KEY_SILENT", "FIFO/LIFO running balances correct from the key's own layers; key never totals them"),
 }
 
 

@@ -1,0 +1,46 @@
+{
+  "agent_id": 112,
+  "lo": "LO 19-7",
+  "chapter": 19,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-7",
+      "concept": "Initial recognition JEs for OCI components (AFS, cash-flow hedge, FX translation) with tax; close NI to RE and OCI to AOCI; prepare separate SCI, columnar statement of stockholders’ equity, and equity section",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-7",
+      "concept": "Number-variant twin of Demo 19-7 path: different NI, mixed OCI signs, dividends only (no new stock), full SCI + SSE + equity section + closing JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-7",
+      "concept": "Disposal of AFS debt securities: realized gain in NI, reclassification adjustment out of AOCI, period-end OCI for remaining items, SCI with reclassification line, AOCI rollforward",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-7",
+      "concept": "Classification of gains/losses as net income vs other comprehensive income",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 19-7",
+      "concept": "Closing process — OCI closes to AOCI, not retained earnings",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

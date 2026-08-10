@@ -1,0 +1,27 @@
+{
+ "id": "agent_279#01",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 18,
+  "routed_stage2": 1,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Redemption of Bonds"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 13133.0,
+   "solver": "loss on redemption of bonds",
+   "key_options": [
+    "loss on extinguishment of debt"
+   ]
+  }
+ ]
+}

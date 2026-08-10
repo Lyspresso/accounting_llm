@@ -1,0 +1,144 @@
+{
+  "id": "agent_263#02",
+  "rounding_convention": "decimal.Decimal throughout, no floats. Purchase price from the exact effective-interest PV formula at 40-digit precision, then ROUND_HALF_UP to the nearest whole dollar (Excel =PV convention used by the course textbook, not 5-decimal PV table factors). Amortization schedule rounded ROUND_HALF_UP to the nearest dollar PER PERIOD and carried forward: interest revenue = round(beginning carrying amount x 5%), amortization = cash interest - interest revenue, ending carrying = beginning - amortization. No final-period plug; the schedule closes on face value on its own.",
+  "answers": [
+    {
+      "label": "a: January 1, Year 1 purchase price of the bond investment",
+      "value": 216339
+    },
+    {
+      "label": "b: Year 1 cash interest received",
+      "value": 16000
+    },
+    {
+      "label": "b: Year 1 interest revenue (effective interest)",
+      "value": 10817
+    },
+    {
+      "label": "b: Year 1 premium amortization",
+      "value": 5183
+    },
+    {
+      "label": "b: carrying amount (amortized cost) at December 31, Year 1",
+      "value": 211156
+    },
+    {
+      "label": "b: Year 2 cash interest received",
+      "value": 16000
+    },
+    {
+      "label": "b: Year 2 interest revenue (effective interest)",
+      "value": 10558
+    },
+    {
+      "label": "b: Year 2 premium amortization",
+      "value": 5442
+    },
+    {
+      "label": "b: carrying amount (amortized cost) at December 31, Year 2",
+      "value": 205714
+    },
+    {
+      "label": "b: Year 3 cash interest received",
+      "value": 16000
+    },
+    {
+      "label": "b: Year 3 interest revenue (effective interest)",
+      "value": 10286
+    },
+    {
+      "label": "b: Year 3 premium amortization",
+      "value": 5714
+    },
+    {
+      "label": "b: carrying amount (amortized cost) at December 31, Year 3",
+      "value": 200000
+    },
+    {
+      "label": "c: Investment in HTM securities on the December 31, Year 1 balance sheet",
+      "value": 211156
+    },
+    {
+      "label": "c: Interest revenue on the Year 1 income statement",
+      "value": 10817
+    },
+    {
+      "label": "d: Loss on sale of investment, January 1, Year 3",
+      "value": 914
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "lines": [
+        {
+          "account": "Investment in HTM Securities—Meridian Telecom Bonds",
+          "debit": 216339,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 216339
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 16000,
+          "credit": 0
+        },
+        {
+          "account": "Investment in HTM Securities—Meridian Telecom Bonds",
+          "debit": 0,
+          "credit": 5183
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 10817
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 204800,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Sale of Investment",
+          "debit": 914,
+          "credit": 0
+        },
+        {
+          "account": "Investment in HTM Securities—Meridian Telecom Bonds",
+          "debit": 0,
+          "credit": 205714
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 200000,
+          "credit": 0
+        },
+        {
+          "account": "Investment in HTM Securities—Meridian Telecom Bonds",
+          "debit": 0,
+          "credit": 200000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Annual coupons, so the effective-interest period rate is the full 5% market yield and n = 3. Price = 16,000 x PVOA(5%,3) + 200,000 x PV(5%,3) = 216,339.49 exact -> $216,339 at the nearest dollar (course textbook Ch. 14 Demo 14-1C prices bonds with the exact Excel =PV formula, not 5-decimal table factors). $216,339 is confirmed by the schedule closing on face value with no final-period plug; the 5-decimal-table alternative ($216,340) overshoots to $200,001. Premium = $16,339. Part b schedule (cash / revenue / amortization / ending amortized cost): Y1 16,000 / 10,817 / 5,183 / 211,156; Y2 16,000 / 10,558 / 5,442 / 205,714; Y3 16,000 / 10,286 / 5,714 / 200,000. Part d: the Jan 1, Year 3 sale happens after the Dec 31, Year 2 interest entry, so amortized cost is $205,714; proceeds of $204,800 give a $914 loss. The sale is due to significant deterioration in the issuer's creditworthiness (ASC 320-10-25-6(a)), so it does not call the remaining HTM classification into question. Part e: amortized cost equals face at maturity, so collection of $200,000 produces no gain or loss. Premium is rolled into the investment account rather than a separate premium account, per the course handout."
+}

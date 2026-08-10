@@ -1,0 +1,92 @@
+{
+  "agent_id": 16,
+  "lo": "LO 16-6",
+  "chapter": 16,
+  "title": "Accounting for Notes Payable",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-6",
+      "concept": "Initial recognition JE + effective-interest schedule + period-end interest JE + maturity settlement",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "company": "Redwood Metalworks Inc.",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-6",
+      "concept": "Number-variant twin — initial recognition, effective-interest schedule, period-end JE, maturity",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "company": "Solstice Components Corp.",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-6",
+      "concept": "Noncash initial measurement (imputed market rate); zero-interest note; BS current/noncurrent classification of installment note",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "companies": [
+        "Fairview Industrial LLC",
+        "Pinecroft Logistics Co.",
+        "Riverbend Outfitters Inc."
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4.1",
+      "lo": "LO 16-6",
+      "concept": "Classification presentation — current net carrying amount of balloon note within one year",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "B",
+      "ok": true
+    },
+    {
+      "qid": "Q4.2",
+      "lo": "LO 16-6",
+      "concept": "Measurement basis when asset and note fair values not clearly evident (imputed market rate PV)",
+      "type": "MC",
+      "angles": [
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "C",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "n_mc": 2,
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "ok": true
+}

@@ -1,0 +1,55 @@
+{
+  "agent_id": 121,
+  "lo": "LO 20-7",
+  "chapter": 20,
+  "title": "Compute EPS using treasury stock method for options, warrants, and restricted stock",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-7",
+      "concept": "Initial recognition JE for restricted stock award; period-end compensation JE; treasury stock method schedules for fully vested options and unvested RS; basic and diluted EPS presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-7",
+      "concept": "Number-variant twin: initial RS grant JE; year-end compensation JE; TSM for options, warrants, and unvested RS; basic vs diluted EPS",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-7",
+      "concept": "Subsequent measurement schedule of unearned compensation and year-by-year TSM incremental shares; antidilutive options excluded; warrant exercise (settlement) journal entry; classification/presentation when some PCS are antidilutive",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-7",
+      "concept": "Classification — when options/warrants are included in diluted EPS under the treasury stock method",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-7",
+      "concept": "Classification of assumed proceeds for unvested restricted stock in diluted EPS",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

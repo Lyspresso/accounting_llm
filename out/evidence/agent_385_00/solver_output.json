@@ -1,0 +1,273 @@
+{
+  "id": "agent_385#00",
+  "rounding_convention": "decimal.Decimal only, ROUND_HALF_UP per period/per figure. Dollar amounts quantized to $0.01 (all exact here); per-share amounts quantized to the nearest cent at presentation. Dilutive/antidilutive sequencing tested on unrounded EPS ratios. Bonds issued at par on Jan 1 and held all year, so simple full-year interest with no amortization.",
+  "answers": [
+    {
+      "label": "c: Year 1 net income",
+      "value": 347200
+    },
+    {
+      "label": "c: Year 1 income available to common stockholders",
+      "value": 323200
+    },
+    {
+      "label": "d: rank 1 - Employee stock options (treasury stock method) - numerator effect",
+      "value": 0
+    },
+    {
+      "label": "d: rank 1 - Employee stock options (treasury stock method) - incremental shares",
+      "value": 1000
+    },
+    {
+      "label": "d: rank 1 - Employee stock options (treasury stock method) - earnings per incremental share",
+      "value": 0
+    },
+    {
+      "label": "d: rank 2 - Series B convertible bonds (5%) - numerator effect",
+      "value": 20000
+    },
+    {
+      "label": "d: rank 2 - Series B convertible bonds (5%) - incremental shares",
+      "value": 20000
+    },
+    {
+      "label": "d: rank 2 - Series B convertible bonds (5%) - earnings per incremental share",
+      "value": 1
+    },
+    {
+      "label": "d: rank 3 - Convertible preferred stock (6% cumulative) - numerator effect",
+      "value": 24000
+    },
+    {
+      "label": "d: rank 3 - Convertible preferred stock (6% cumulative) - incremental shares",
+      "value": 12000
+    },
+    {
+      "label": "d: rank 3 - Convertible preferred stock (6% cumulative) - earnings per incremental share",
+      "value": 2
+    },
+    {
+      "label": "d: rank 4 - Series A convertible bonds (7%) - numerator effect",
+      "value": 16800
+    },
+    {
+      "label": "d: rank 4 - Series A convertible bonds (7%) - incremental shares",
+      "value": 6000
+    },
+    {
+      "label": "d: rank 4 - Series A convertible bonds (7%) - earnings per incremental share",
+      "value": 2.8
+    },
+    {
+      "label": "e: sequential schedule - Basic EPS - cumulative EPS (basic)",
+      "value": 2.69
+    },
+    {
+      "label": "e: sequential schedule - Employee stock options (treasury stock method) - cumulative EPS (dilutive)",
+      "value": 2.67
+    },
+    {
+      "label": "e: sequential schedule - Series B convertible bonds (5%) - cumulative EPS (dilutive)",
+      "value": 2.43
+    },
+    {
+      "label": "e: sequential schedule - Convertible preferred stock (6% cumulative) - cumulative EPS (dilutive)",
+      "value": 2.4
+    },
+    {
+      "label": "e: sequential schedule - Series A convertible bonds (7%) - cumulative EPS (antidilutive - excluded)",
+      "value": 2.42
+    },
+    {
+      "label": "e/g: Year 1 basic EPS",
+      "value": 2.69
+    },
+    {
+      "label": "e/g: Year 1 diluted EPS",
+      "value": 2.4
+    },
+    {
+      "label": "g: antidilutive security excluded from diluted EPS and disclosed",
+      "value": "Series A convertible bonds (7%)"
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a1",
+      "description": "Jan 1, Year 1 - issue 120,000 shares of $2 par common at $15 cash",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 1800000,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 240000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Common",
+          "debit": 0,
+          "credit": 1560000
+        }
+      ]
+    },
+    {
+      "part": "a2",
+      "description": "Jan 1, Year 1 - issue 4,000 shares of 6%, $100 par cumulative convertible preferred at $105 cash",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 420000,
+          "credit": 0
+        },
+        {
+          "account": "Preferred Stock",
+          "debit": 0,
+          "credit": 400000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Preferred",
+          "debit": 0,
+          "credit": 20000
+        }
+      ]
+    },
+    {
+      "part": "a3",
+      "description": "Jan 1, Year 1 - issue $500,000 face of 5% Series B convertible bonds at par",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 500000,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable - Series B",
+          "debit": 0,
+          "credit": 500000
+        }
+      ]
+    },
+    {
+      "part": "a4",
+      "description": "Jan 1, Year 1 - issue $300,000 face of 7% Series A convertible bonds at par",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 300000,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable - Series A",
+          "debit": 0,
+          "credit": 300000
+        }
+      ]
+    },
+    {
+      "part": "b1",
+      "description": "Dec 31, Year 1 - accrue Year 1 interest on Series B bonds (500,000 x 5%)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 25000,
+          "credit": 0
+        },
+        {
+          "account": "Interest Payable",
+          "debit": 0,
+          "credit": 25000
+        }
+      ]
+    },
+    {
+      "part": "b2",
+      "description": "Dec 31, Year 1 - accrue Year 1 interest on Series A bonds (300,000 x 7%)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 21000,
+          "credit": 0
+        },
+        {
+          "account": "Interest Payable",
+          "debit": 0,
+          "credit": 21000
+        }
+      ]
+    },
+    {
+      "part": "b3",
+      "description": "Dec 31, Year 1 - record Year 1 income tax (434,000 x 20%)",
+      "lines": [
+        {
+          "account": "Income Tax Expense",
+          "debit": 86800,
+          "credit": 0
+        },
+        {
+          "account": "Income Taxes Payable",
+          "debit": 0,
+          "credit": 86800
+        }
+      ]
+    },
+    {
+      "part": "b4",
+      "description": "Dec 31, Year 1 - declare full Year 1 cumulative preferred dividend (4,000 x $100 x 6%)",
+      "lines": [
+        {
+          "account": "Retained Earnings",
+          "debit": 24000,
+          "credit": 0
+        },
+        {
+          "account": "Dividends Payable - Preferred",
+          "debit": 0,
+          "credit": 24000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "description": "Dec 31, Year 1 - close net income to retained earnings",
+      "lines": [
+        {
+          "account": "Income Summary",
+          "debit": 347200,
+          "credit": 0
+        },
+        {
+          "account": "Retained Earnings",
+          "debit": 0,
+          "credit": 347200
+        }
+      ]
+    },
+    {
+      "part": "h",
+      "description": "Jan 8, Year 2 - all Series B bondholders convert $500,000 of bonds into 20,000 common shares (book value method)",
+      "lines": [
+        {
+          "account": "Bonds Payable - Series B",
+          "debit": 500000,
+          "credit": 0
+        },
+        {
+          "account": "Common Stock",
+          "debit": 0,
+          "credit": 40000
+        },
+        {
+          "account": "Paid-in Capital in Excess of Par - Common",
+          "debit": 0,
+          "credit": 460000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Ranking by earnings per incremental share (most to least dilutive): options $0.00 (0 / 1,000 incremental shares under the treasury stock method: 3,000 options less 3,000 x $10 / $15 = 2,000 treasury shares); Series B bonds $1.00 (20,000 after-tax interest / 20,000 shares); convertible preferred $2.00 (24,000 / 12,000 shares); Series A bonds $2.80 (16,800 after-tax interest / 6,000 shares). Adding Series A last raises EPS from 2.40 to 2.4151, so Series A convertible bonds are antidilutive, are excluded from diluted EPS, and are disclosed as such (part g). Part b4 debits Retained Earnings for the declared cumulative preferred dividend; a Dividends Declared account closed to Retained Earnings is equivalent. Part h uses the book value method, the course convention for convertible bond conversions."
+}

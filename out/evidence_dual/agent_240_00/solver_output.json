@@ -1,0 +1,238 @@
+{
+ "id": "agent_240#00",
+ "rounding_convention": "decimal.Decimal throughout; per-period interest quantized to whole dollars with ROUND_HALF_UP; effective-interest math at full Decimal precision; final period's interest taken as the plug so the schedule closes EXACTLY to the $199,650 fixed redemption amount (plug was zero here \u2014 all periods are exact whole dollars)",
+ "answers": [
+  {
+   "label": "a: Jan 1 Yr 1 \u2014 Dr Cash",
+   "value": 150000
+  },
+  {
+   "label": "a: Jan 1 Yr 1 \u2014 Cr Mandatorily redeemable preferred stock (liability)",
+   "value": 150000
+  },
+  {
+   "label": "a: initial carrying amount of the liability (proceeds; = PV of the $199,650 fixed redemption discounted 3 yrs at 10%)",
+   "value": 150000
+  },
+  {
+   "label": "a: classification immediately after issuance \u2014 ASC 480-10-25-4: shares embodying an unconditional obligation to redeem a FIXED amount ($199,650) at a FIXED date (12/31 Yr 3), not solely upon liquidation, are a LIABILITY, not equity; presented as a NONCURRENT (long-term) liability at 1/1/Yr 1 since redemption is >12 months away. Nothing is reported in stockholders' equity; the $120,000 aggregate par (3,000 sh x $40) never appears in equity",
+   "value": "Liability (noncurrent) \u2014 no amount in equity"
+  },
+  {
+   "label": "a: aggregate par of the preferred (form only; NOT recorded in equity)",
+   "value": 120000
+  },
+  {
+   "label": "a: subsequent-measurement basis \u2014 accrete to redemption amount using the interest method at the 10% inception effective rate (ASC 480-10-35-3); accretion is charged to INTEREST EXPENSE, not to dividends/retained earnings",
+   "value": "Interest method at 10%; accretion = interest expense"
+  },
+  {
+   "label": "b: Year 1 \u2014 beginning carrying amount",
+   "value": 150000
+  },
+  {
+   "label": "b: Year 1 \u2014 interest expense (accretion) @10% of beginning balance",
+   "value": 15000
+  },
+  {
+   "label": "b: Year 1 \u2014 ending carrying amount",
+   "value": 165000
+  },
+  {
+   "label": "b: Year 2 \u2014 beginning carrying amount",
+   "value": 165000
+  },
+  {
+   "label": "b: Year 2 \u2014 interest expense (accretion) @10% of beginning balance",
+   "value": 16500
+  },
+  {
+   "label": "b: Year 2 \u2014 ending carrying amount",
+   "value": 181500
+  },
+  {
+   "label": "b: Year 3 \u2014 beginning carrying amount",
+   "value": 181500
+  },
+  {
+   "label": "b: Year 3 \u2014 interest expense (accretion) @10% of beginning balance",
+   "value": 18150
+  },
+  {
+   "label": "b: Year 3 \u2014 ending carrying amount",
+   "value": 199650
+  },
+  {
+   "label": "b: schedule total interest expense (accretion), Years 1-3",
+   "value": 49650
+  },
+  {
+   "label": "b: Year 3 ending carrying amount equals the fixed redemption amount",
+   "value": 199650
+  },
+  {
+   "label": "b: rate check \u2014 $150,000 x 1.10^3 = $199,650 (10% reproduces the fixed redemption)",
+   "value": true
+  },
+  {
+   "label": "c: Dec 31 Yr 1 \u2014 Dr Interest expense",
+   "value": 15000
+  },
+  {
+   "label": "c: Dec 31 Yr 1 \u2014 Cr Mandatorily redeemable preferred stock (liability)",
+   "value": 15000
+  },
+  {
+   "label": "c: carrying amount reported at Dec 31 Yr 1 (noncurrent liability)",
+   "value": 165000
+  },
+  {
+   "label": "c: Dec 31 Yr 2 \u2014 Dr Interest expense",
+   "value": 16500
+  },
+  {
+   "label": "c: Dec 31 Yr 2 \u2014 Cr Mandatorily redeemable preferred stock (liability)",
+   "value": 16500
+  },
+  {
+   "label": "c: carrying amount reported at Dec 31 Yr 2 (now CURRENT liability \u2014 redeemable within 12 months)",
+   "value": 181500
+  },
+  {
+   "label": "d: Dec 31 Yr 3 entry 1 \u2014 Dr Interest expense",
+   "value": 18150
+  },
+  {
+   "label": "d: Dec 31 Yr 3 entry 1 \u2014 Cr Mandatorily redeemable preferred stock (liability)",
+   "value": 18150
+  },
+  {
+   "label": "d: liability balance immediately before settlement",
+   "value": 199650
+  },
+  {
+   "label": "d: Dec 31 Yr 3 entry 2 \u2014 Dr Mandatorily redeemable preferred stock (liability)",
+   "value": 199650
+  },
+  {
+   "label": "d: Dec 31 Yr 3 entry 2 \u2014 Cr Cash",
+   "value": 199650
+  },
+  {
+   "label": "d: gain or loss on settlement (carrying amount equals the cash paid)",
+   "value": 0
+  },
+  {
+   "label": "d: liability carrying amount after settlement",
+   "value": 0
+  },
+  {
+   "label": "e: redemption amount",
+   "value": 199650
+  },
+  {
+   "label": "e: less issue proceeds",
+   "value": 150000
+  },
+  {
+   "label": "e: redemption - proceeds",
+   "value": 49650
+  },
+  {
+   "label": "e: sum of interest expense Yr 1 + Yr 2 + Yr 3 (15000 + 16500 + 18150)",
+   "value": 49650
+  },
+  {
+   "label": "e: reconciles (total interest expense == redemption - proceeds)",
+   "value": true
+  },
+  {
+   "label": "e: total cash flows \u2014 cash in at issuance vs cash out at redemption (dividends ignored per stem)",
+   "value": 49650
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "memo": "Jan 1, Year 1 \u2014 issuance of mandatorily redeemable preferred; recorded as a liability at proceeds (= PV of $199,650 at 10% for 3 yrs); no equity credit",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 150000,
+     "credit": 0
+    },
+    {
+     "account": "Mandatorily redeemable preferred stock (liability)",
+     "debit": 0,
+     "credit": 150000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "memo": "Dec 31, Year 1 \u2014 adjusting entry, accretion of the liability toward the $199,650 redemption at the 10% effective rate",
+   "lines": [
+    {
+     "account": "Interest expense",
+     "debit": 15000,
+     "credit": 0
+    },
+    {
+     "account": "Mandatorily redeemable preferred stock (liability)",
+     "debit": 0,
+     "credit": 15000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "memo": "Dec 31, Year 2 \u2014 adjusting entry, accretion at 10% of the $165,000 beginning carrying amount",
+   "lines": [
+    {
+     "account": "Interest expense",
+     "debit": 16500,
+     "credit": 0
+    },
+    {
+     "account": "Mandatorily redeemable preferred stock (liability)",
+     "debit": 0,
+     "credit": 16500
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "memo": "Dec 31, Year 3 (entry 1 of 2) \u2014 final accretion; brings the liability to the $199,650 mandatory redemption amount",
+   "lines": [
+    {
+     "account": "Interest expense",
+     "debit": 18150,
+     "credit": 0
+    },
+    {
+     "account": "Mandatorily redeemable preferred stock (liability)",
+     "debit": 0,
+     "credit": 18150
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "memo": "Dec 31, Year 3 (entry 2 of 2) \u2014 mandatory cash redemption; liability retired at carrying amount, no gain or loss",
+   "lines": [
+    {
+     "account": "Mandatorily redeemable preferred stock (liability)",
+     "debit": 199650,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 199650
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "ASC 480-10-25-4: preferred shares with an unconditional obligation to redeem a FIXED amount ($199,650) on a FIXED date (12/31 Yr 3) \u2014 not solely upon liquidation \u2014 are classified as a LIABILITY; the $120,000 aggregate par (3,000 sh x $40) is never shown in equity. Initial measurement = $150,000 cash proceeds, which is the PV of $199,650 for 3 years at 10% (150,000 x 1.10^3 = 199,650, so 10% is the implicit rate). Subsequent measurement (ASC 480-10-35-3) accretes the liability to the redemption amount using the interest method; the accretion is INTEREST EXPENSE (not a dividend / not a charge to retained earnings) because the instrument is a liability. Schedule: Yr1 150,000 + 15,000 = 165,000; Yr2 165,000 + 16,500 = 181,500; Yr3 181,500 + 18,150 = 199,650. Total accretion 49,650 = 199,650 - 150,000. Presentation: noncurrent liability at 1/1/Yr1 and 12/31/Yr1; current liability at 12/31/Yr2 (due within 12 months). Settlement at maturity is at carrying amount, so no gain or loss. Periodic preferred dividends ignored per the stem; had they been paid they would also be interest expense. Whole-dollar journal entries with the schedule forced to close exactly to the $199,650 face; here every period's interest is already an exact whole dollar, so the forced close produced no rounding plug."
+}

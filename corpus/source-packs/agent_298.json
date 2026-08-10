@@ -1,0 +1,74 @@
+{
+  "agent_id": 298,
+  "lo": "LO 22-4",
+  "chapter": 22,
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "title": "Prepare the financing activities section of the statement of cash flows",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-4",
+      "concept": "Prepare cash flows from financing activities — stock issuance JE; bond retirement settlement JE; mortgage/lease/dividends schedules; period-end adjusting JE to amortize remaining bond premium; financing section presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-4",
+      "concept": "Number-variant twin — stock issuance; bond retirement settlement; mortgage/lease/dividends rollforwards; period-end premium amortization adjusting JE; financing section",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-4",
+      "concept": "Bond issue at premium; subsequent SL amort schedule; period-end adjusting JE when year-end falls between interest dates; equity issue and dividends payable; financing section excluding interest accruals",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-4",
+      "concept": "Classification of cash flows — financing vs operating vs investing vs noncash",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 22-4",
+      "concept": "Compute financing outflow for dividends using dividends payable (period-end unpaid declaration)",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

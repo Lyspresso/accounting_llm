@@ -1,0 +1,341 @@
+{
+ "id": "agent_143#01",
+ "rounding_convention": "Decimal money only; ROUND_HALF_UP to the nearest whole dollar on the issue price and on each period's interest expense; amortization = expense - cash interest; final period plugs the residual discount so carrying value equals $250,000 face.",
+ "answers": [
+  {
+   "label": "a: PV annuity factor, 8 periods @ 4% (support)",
+   "value": 6.732745
+  },
+  {
+   "label": "a: PV of $1 factor, 8 periods @ 4% (support)",
+   "value": 0.73069
+  },
+  {
+   "label": "a: semiannual cash interest payment (250,000 x 3%)",
+   "value": 7500
+  },
+  {
+   "label": "a: issue price (proceeds) of the bonds",
+   "value": 233168
+  },
+  {
+   "label": "a: discount on bonds payable at issuance",
+   "value": 16832
+  },
+  {
+   "label": "b: period 1 - beginning carrying value",
+   "value": 233168
+  },
+  {
+   "label": "b: period 1 - cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: period 1 - interest expense (4% of carrying value)",
+   "value": 9327
+  },
+  {
+   "label": "b: period 1 - discount amortization",
+   "value": 1827
+  },
+  {
+   "label": "b: period 1 - ending carrying value",
+   "value": 234995
+  },
+  {
+   "label": "b: period 2 - beginning carrying value",
+   "value": 234995
+  },
+  {
+   "label": "b: period 2 - cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: period 2 - interest expense (4% of carrying value)",
+   "value": 9400
+  },
+  {
+   "label": "b: period 2 - discount amortization",
+   "value": 1900
+  },
+  {
+   "label": "b: period 2 - ending carrying value",
+   "value": 236895
+  },
+  {
+   "label": "b: period 3 - beginning carrying value",
+   "value": 236895
+  },
+  {
+   "label": "b: period 3 - cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: period 3 - interest expense (4% of carrying value)",
+   "value": 9476
+  },
+  {
+   "label": "b: period 3 - discount amortization",
+   "value": 1976
+  },
+  {
+   "label": "b: period 3 - ending carrying value",
+   "value": 238871
+  },
+  {
+   "label": "b: period 4 - beginning carrying value",
+   "value": 238871
+  },
+  {
+   "label": "b: period 4 - cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: period 4 - interest expense (4% of carrying value)",
+   "value": 9555
+  },
+  {
+   "label": "b: period 4 - discount amortization",
+   "value": 2055
+  },
+  {
+   "label": "b: period 4 - ending carrying value",
+   "value": 240926
+  },
+  {
+   "label": "b: period 5 - beginning carrying value",
+   "value": 240926
+  },
+  {
+   "label": "b: period 5 - cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: period 5 - interest expense (4% of carrying value)",
+   "value": 9637
+  },
+  {
+   "label": "b: period 5 - discount amortization",
+   "value": 2137
+  },
+  {
+   "label": "b: period 5 - ending carrying value",
+   "value": 243063
+  },
+  {
+   "label": "b: period 6 - beginning carrying value",
+   "value": 243063
+  },
+  {
+   "label": "b: period 6 - cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: period 6 - interest expense (4% of carrying value)",
+   "value": 9723
+  },
+  {
+   "label": "b: period 6 - discount amortization",
+   "value": 2223
+  },
+  {
+   "label": "b: period 6 - ending carrying value",
+   "value": 245286
+  },
+  {
+   "label": "b: period 7 - beginning carrying value",
+   "value": 245286
+  },
+  {
+   "label": "b: period 7 - cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: period 7 - interest expense (4% of carrying value)",
+   "value": 9811
+  },
+  {
+   "label": "b: period 7 - discount amortization",
+   "value": 2311
+  },
+  {
+   "label": "b: period 7 - ending carrying value",
+   "value": 247597
+  },
+  {
+   "label": "b: period 8 - beginning carrying value",
+   "value": 247597
+  },
+  {
+   "label": "b: period 8 - cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "b: period 8 - interest expense (4% of carrying value)",
+   "value": 9903
+  },
+  {
+   "label": "b: period 8 - discount amortization",
+   "value": 2403
+  },
+  {
+   "label": "b: period 8 - ending carrying value",
+   "value": 250000
+  },
+  {
+   "label": "c: June 30, Year 1 - interest expense",
+   "value": 9327
+  },
+  {
+   "label": "c: June 30, Year 1 - discount amortization",
+   "value": 1827
+  },
+  {
+   "label": "c: June 30, Year 1 - cash paid",
+   "value": 7500
+  },
+  {
+   "label": "c: December 31, Year 1 - interest expense",
+   "value": 9400
+  },
+  {
+   "label": "c: December 31, Year 1 - discount amortization",
+   "value": 1900
+  },
+  {
+   "label": "c: December 31, Year 1 - cash paid",
+   "value": 7500
+  },
+  {
+   "label": "d: bonds payable, face amount at December 31, Year 1",
+   "value": 250000
+  },
+  {
+   "label": "d: less unamortized discount at December 31, Year 1",
+   "value": 13105
+  },
+  {
+   "label": "d: bonds payable, net at December 31, Year 1",
+   "value": 236895
+  },
+  {
+   "label": "d: Year 1 total interest expense",
+   "value": 18727
+  },
+  {
+   "label": "e: December 31, Year 4 - final interest expense",
+   "value": 9903
+  },
+  {
+   "label": "e: December 31, Year 4 - final discount amortization (residual plug)",
+   "value": 2403
+  },
+  {
+   "label": "e: December 31, Year 4 - final cash interest paid",
+   "value": 7500
+  },
+  {
+   "label": "e: December 31, Year 4 - principal repaid at maturity",
+   "value": 250000
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 233168,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 16832,
+     "credit": 0
+    },
+    {
+     "account": "Bonds Payable",
+     "debit": 0,
+     "credit": 250000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Interest Expense (June 30, Year 1)",
+     "debit": 9327,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0,
+     "credit": 1827
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 7500
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Interest Expense (December 31, Year 1)",
+     "debit": 9400,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0,
+     "credit": 1900
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 7500
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Interest Expense (December 31, Year 4)",
+     "debit": 9903,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0,
+     "credit": 2403
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 7500
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Bonds Payable",
+     "debit": 250000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 250000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Priced at 4% per semiannual period for 8 periods: PV of $7,500 annuity plus PV of $250,000 face. Discount, so carrying value and interest expense rise each period. Maturity split into the final interest entry and the principal repayment; no prior Interest Payable accrual exists because interest is paid on the December 31 year-end."
+}

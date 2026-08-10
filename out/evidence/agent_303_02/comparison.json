@@ -1,0 +1,51 @@
+{
+ "id": "agent_303#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 19,
+  "routed_stage2": 0,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "KEY_SILENT_DERIVED",
+   "label": "d: Inventory\u2014Estimated Returns rollforward \u2014 add cost of estimated returns",
+   "solver": 14850,
+   "from_key_components": [
+    2970.0,
+    11880.0
+   ]
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Sales Returns"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Sales Allowances"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Sales Returns"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Refund Liability"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory\u2014Estimated Returns"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Refund Liability"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory\u2014Estimated Returns"
+  }
+ ]
+}

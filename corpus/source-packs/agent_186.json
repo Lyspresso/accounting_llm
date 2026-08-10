@@ -1,0 +1,40 @@
+{
+  "agent_id": 186,
+  "lo": "LO 9-8",
+  "chapter": 9,
+  "title": "Apply the dollar-value LIFO method",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-8",
+      "concept": "Subsequent measurement schedule (four-step layer rollforward emphasis); base-year initial layer; period-end LIFO-reserve adjusting JEs; FIFO purchase remains unconverted mid-year",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-8",
+      "concept": "Number-variant twin: four-step DV LIFO subsequent measurement schedule; LIFO reserve rollforward; period-end adjusting JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-8",
+      "concept": "Subsequent measurement with multi-year layers then liquidation (newest layers drop first); period-end JE when LIFO reserve decreases (layer settlement)",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-8",
+      "concept": "Classification of the LIFO allowance; applying the four-step DV LIFO schedule when base-year dollars are flat",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

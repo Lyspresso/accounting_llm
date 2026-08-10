@@ -1,0 +1,169 @@
+{
+  "id": "agent_297#01",
+  "rounding_convention": "ROUND_HALF_UP per period, quantized to the cent as each money figure is produced; decimal.Decimal throughout, no floats. No present-value discounting in this item, so no PV table factor vs exact formula choice applies.",
+  "answers": [
+    {
+      "label": "b: cash paid to purchase equipment (solved from equipment schedule)",
+      "value": 290000
+    },
+    {
+      "label": "f: investing activities -- Purchase of equipment",
+      "value": -290000
+    },
+    {
+      "label": "f: investing activities -- Proceeds from sale of equipment",
+      "value": 25000
+    },
+    {
+      "label": "f: investing activities -- Purchase of debt investments",
+      "value": -40000
+    },
+    {
+      "label": "f: investing activities -- Proceeds from sale of debt investments",
+      "value": 26000
+    },
+    {
+      "label": "f: investing activities -- Loan advanced (nontrade note receivable issued)",
+      "value": -22000
+    },
+    {
+      "label": "f: investing activities -- Principal collected on notes receivable",
+      "value": 64000
+    },
+    {
+      "label": "f: net cash provided (used) by investing activities",
+      "value": -237000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "Dec. 31, 2026 adjusting entry -- depreciation on equipment",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 73000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation-Equipment",
+          "debit": 0,
+          "credit": 73000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "Sale of equipment for cash",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 25000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation-Equipment",
+          "debit": 38000,
+          "credit": 0
+        },
+        {
+          "account": "Equipment",
+          "debit": 0,
+          "credit": 60000
+        },
+        {
+          "account": "Gain on Disposal of Equipment",
+          "debit": 0,
+          "credit": 3000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "description": "Purchase of equipment for cash",
+      "lines": [
+        {
+          "account": "Equipment",
+          "debit": 290000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 290000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "Purchase of debt investments for cash",
+      "lines": [
+        {
+          "account": "Debt Investments",
+          "debit": 40000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 40000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "Sale of debt investments for cash",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 26000,
+          "credit": 0
+        },
+        {
+          "account": "Debt Investments",
+          "debit": 0,
+          "credit": 23000
+        },
+        {
+          "account": "Gain on Sale of Debt Investments",
+          "debit": 0,
+          "credit": 3000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "Nontrade loan advanced (cash lent)",
+      "lines": [
+        {
+          "account": "Notes Receivable",
+          "debit": 22000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 22000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "description": "Principal collections on notes receivable",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 64000,
+          "credit": 0
+        },
+        {
+          "account": "Notes Receivable",
+          "debit": 0,
+          "credit": 64000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Equipment purchases solved from the cost rollforward: 680,000 - 450,000 + 60,000 = 290,000 (all purchases were cash per fact 3). AD, debt investment, and notes receivable rollforwards all tie to the given ending balances. Gains on the equipment sale (3,000) and the debt investment sale (3,000) are operating-section reconciling items, not investing cash flows, so only gross proceeds are reported in (f). Debt investments are amortized cost and explicitly not held for trading/resale, and the notes receivable are nontrade lending, so all four of those flows are investing rather than operating."
+}

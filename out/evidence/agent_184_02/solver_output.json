@@ -1,0 +1,174 @@
+{
+  "id": "agent_184#02",
+  "rounding_convention": "decimal.Decimal only, no floats; ROUND_HALF_UP quantized to the cent per period (applied at each year-end figure, not only at the end). No PV factors in this item.",
+  "answers": [
+    {
+      "label": "a: Year 6 \u2014 ending inventory at FIFO",
+      "value": 520000
+    },
+    {
+      "label": "a: Year 6 \u2014 ending inventory at LIFO",
+      "value": 385000
+    },
+    {
+      "label": "a: Year 6 \u2014 LIFO reserve at Dec 31",
+      "value": 135000
+    },
+    {
+      "label": "a: Year 6 \u2014 change in LIFO reserve",
+      "value": 15000
+    },
+    {
+      "label": "a: Year 6 \u2014 COGS effect (positive = increase in COGS)",
+      "value": 15000
+    },
+    {
+      "label": "a: Year 6 \u2014 ending allowance balance (credit)",
+      "value": 135000
+    },
+    {
+      "label": "a: Year 7 \u2014 ending inventory at FIFO",
+      "value": 545000
+    },
+    {
+      "label": "a: Year 7 \u2014 ending inventory at LIFO",
+      "value": 400000
+    },
+    {
+      "label": "a: Year 7 \u2014 LIFO reserve at Dec 31",
+      "value": 145000
+    },
+    {
+      "label": "a: Year 7 \u2014 change in LIFO reserve",
+      "value": 10000
+    },
+    {
+      "label": "a: Year 7 \u2014 COGS effect (positive = increase in COGS)",
+      "value": 10000
+    },
+    {
+      "label": "a: Year 7 \u2014 ending allowance balance (credit)",
+      "value": 145000
+    },
+    {
+      "label": "a: Year 8 \u2014 ending inventory at FIFO",
+      "value": 490000
+    },
+    {
+      "label": "a: Year 8 \u2014 ending inventory at LIFO",
+      "value": 415000
+    },
+    {
+      "label": "a: Year 8 \u2014 LIFO reserve at Dec 31",
+      "value": 75000
+    },
+    {
+      "label": "a: Year 8 \u2014 change in LIFO reserve",
+      "value": -70000
+    },
+    {
+      "label": "a: Year 8 \u2014 COGS effect (positive = increase in COGS)",
+      "value": -70000
+    },
+    {
+      "label": "a: Year 8 \u2014 ending allowance balance (credit)",
+      "value": 75000
+    },
+    {
+      "label": "c: Dec 31, Year 8 balance sheet \u2014 Inventory (at FIFO cost)",
+      "value": 490000
+    },
+    {
+      "label": "c: Dec 31, Year 8 balance sheet \u2014 less Allowance to Reduce Inventory to LIFO Basis",
+      "value": 75000
+    },
+    {
+      "label": "c: Dec 31, Year 8 balance sheet \u2014 Inventory at LIFO basis (net current asset)",
+      "value": 415000
+    },
+    {
+      "label": "d(i): formal JE made for the reserve under approach (2)?",
+      "value": "No \u2014 no formal journal entry is made for the reserve; the books stay on FIFO and the LIFO conversion is made only for external reporting."
+    },
+    {
+      "label": "d(ii): inventory on the Year 8 LIFO-basis balance sheet",
+      "value": 415000
+    },
+    {
+      "label": "d(iii): LIFO reserve disclosed in the Year 8 notes",
+      "value": 75000
+    },
+    {
+      "label": "d(iv): FIFO inventory an analyst would reconstruct at Dec 31, Year 8",
+      "value": 490000
+    },
+    {
+      "label": "e: Year 6 FIFO-basis COGS",
+      "value": 875000
+    },
+    {
+      "label": "e: Year 8 FIFO-basis COGS",
+      "value": 990000
+    },
+    {
+      "label": "f: year with the reverse / settlement-type adjustment",
+      "value": "Year 8"
+    },
+    {
+      "label": "f: income-statement effect",
+      "value": "Year 8: the allowance is debited $70,000 to reverse part of the prior LIFO-reserve build-up, with the credit to Cost of Goods Sold. COGS decreases by $70,000, so gross profit and pretax income each increase by $70,000."
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "date": "December 31, Year 6",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 15000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to LIFO Basis",
+          "debit": 0,
+          "credit": 15000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "December 31, Year 7",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 10000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to LIFO Basis",
+          "debit": 0,
+          "credit": 10000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "December 31, Year 8",
+      "lines": [
+        {
+          "account": "Allowance to Reduce Inventory to LIFO Basis",
+          "debit": 70000,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 0,
+          "credit": 70000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Allowance is trued up to the year-end LIFO reserve (FIFO EI - LIFO EI) each Dec 31, with the change run through Cost of Goods Sold. Year 6 +15,000 and Year 7 +10,000 build the reserve (Dr COGS); Year 8 reverses 70,000 (Dr Allowance, Cr COGS). FIFO COGS = LIFO COGS - change in reserve. Given Jan 1, Year 6 allowance of 120,000 is the Dec 31, Year 5 reserve and is the starting point of the Year 6 change."
+}

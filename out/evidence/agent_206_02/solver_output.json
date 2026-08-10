@@ -1,0 +1,168 @@
+{
+  "id": "agent_206#02",
+  "rounding_convention": "ROUND_HALF_UP to the cent, applied per period (rounded annual expense rolls forward into accumulated depreciation and the next year's carrying amount); decimal.Decimal throughout, no floats; no PV factors needed",
+  "answers": [
+    {
+      "label": "a: Year 1 depreciation - straight-line",
+      "value": 9000
+    },
+    {
+      "label": "a: Year 1 depreciation - sum-of-the-years'-digits",
+      "value": 15000
+    },
+    {
+      "label": "a: Year 1 depreciation - double-declining-balance",
+      "value": 20000
+    },
+    {
+      "label": "a: Year 1 depreciation - units-of-production",
+      "value": 8100
+    },
+    {
+      "label": "b: DDB schedule Year 1 - beginning carrying amount",
+      "value": 50000
+    },
+    {
+      "label": "b: DDB schedule Year 1 - depreciation expense",
+      "value": 20000
+    },
+    {
+      "label": "b: DDB schedule Year 1 - accumulated depreciation",
+      "value": 20000
+    },
+    {
+      "label": "b: DDB schedule Year 1 - ending carrying amount",
+      "value": 30000
+    },
+    {
+      "label": "b: DDB schedule Year 2 - beginning carrying amount",
+      "value": 30000
+    },
+    {
+      "label": "b: DDB schedule Year 2 - depreciation expense",
+      "value": 12000
+    },
+    {
+      "label": "b: DDB schedule Year 2 - accumulated depreciation",
+      "value": 32000
+    },
+    {
+      "label": "b: DDB schedule Year 2 - ending carrying amount",
+      "value": 18000
+    },
+    {
+      "label": "b: DDB schedule Year 3 - beginning carrying amount",
+      "value": 18000
+    },
+    {
+      "label": "b: DDB schedule Year 3 - depreciation expense",
+      "value": 7200
+    },
+    {
+      "label": "b: DDB schedule Year 3 - accumulated depreciation",
+      "value": 39200
+    },
+    {
+      "label": "b: DDB schedule Year 3 - ending carrying amount",
+      "value": 10800
+    },
+    {
+      "label": "b: DDB schedule Year 4 - beginning carrying amount",
+      "value": 10800
+    },
+    {
+      "label": "b: DDB schedule Year 4 - depreciation expense",
+      "value": 4320
+    },
+    {
+      "label": "b: DDB schedule Year 4 - accumulated depreciation",
+      "value": 43520
+    },
+    {
+      "label": "b: DDB schedule Year 4 - ending carrying amount",
+      "value": 6480
+    },
+    {
+      "label": "b: DDB schedule Year 5 - beginning carrying amount",
+      "value": 6480
+    },
+    {
+      "label": "b: DDB schedule Year 5 - depreciation expense (plug to residual floor)",
+      "value": 1480
+    },
+    {
+      "label": "b: DDB schedule Year 5 - accumulated depreciation",
+      "value": 45000
+    },
+    {
+      "label": "b: DDB schedule Year 5 - ending carrying amount",
+      "value": 5000
+    },
+    {
+      "label": "c: gain on sale of equipment, 12/31/Year 3 (gain)",
+      "value": 1200
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "description": "Dec 31, Year 1 - period-end adjusting entry, DDB",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 20000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation",
+          "debit": 0,
+          "credit": 20000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "Jan 1, Year 1 - initial recognition of equipment purchased for cash",
+      "lines": [
+        {
+          "account": "Equipment",
+          "debit": 50000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 50000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "description": "Dec 31, Year 3 - disposal settlement after recording Year 3 DDB depreciation",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation",
+          "debit": 39200,
+          "credit": 0
+        },
+        {
+          "account": "Equipment",
+          "debit": 0,
+          "credit": 50000
+        },
+        {
+          "account": "Gain on Sale of Equipment",
+          "debit": 0,
+          "credit": 1200
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "d (narrative, no figure): DDB applies its constant rate (2/5 = 40%) to the declining carrying amount rather than to depreciable cost, so residual value never enters the rate calculation; the method still lands exactly on residual because the residual-value floor forces the final year's expense to be a plug - in Year 5 the computed 2592.00 is replaced by 1480.00, the amount needed to bring carrying amount down to the $5,000 residual and no further. Part c disposal: proceeds $12,000 less carrying amount at 12/31/Year 3 of $10800.00 = a GAIN of $1200.00."
+}

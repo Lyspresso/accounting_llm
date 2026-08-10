@@ -1,0 +1,16 @@
+{
+ "id": "agent_279#01",
+ "pack_id": "agent_279",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "low",
+ "expected_verdict": "PASS",
+ "guards_rule": "corroboration_not_waving_through",
+ "rationale": "PV re-derived 373,503; schedule 29,880/30,351/30,859/31,407 with Y4 plug 7,407; 50% retirement CA 192,867 vs cash 206,000 -> loss 13,133; remaining-half 15,429/",
+ "truth_as_of_hash": "ce2afea497ee396b89c8af424fdb148a99d947dc9e5e04f5b758fe8d397736a6",
+ "truth_as_of_bytes": "e4695b7c33ceba2cfab0ac16a73c93bb789a3512cb8f106744037d3a75e604a8",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "clean",
+ "cross_check_evidence": "PV re-derived 373,503; schedule 29,880/30,351/30,859/31,407 with Y4 plug 7,407; 50% retirement CA 192,867 vs cash 206,000 -> loss 13,133; remaining-half 15,429/15,704 with plug 3,704."
+}

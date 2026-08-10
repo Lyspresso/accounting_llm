@@ -1,0 +1,72 @@
+{
+  "agent_id": 245,
+  "lo": "LO 20-1",
+  "chapter": 20,
+  "critical": false,
+  "title": "Accounting for Restricted Stock Plans",
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-1",
+      "concept": "Initial recognition at grant-date fair value; subsequent straight-line amortization schedule (emphasis); period-end adjusting JE; equity presentation; forfeiture (as incurred) disposal JE",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-1",
+      "concept": "Number-variant twin of RSA initial recognition, multi-year subsequent measurement schedule, period-end expense JEs, and balances after full vesting",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-1",
+      "concept": "RSU period-end adjusting JEs; subsequent measurement schedule with estimated forfeitures; cumulative catch-up for change in estimate; settlement JE when units vest and shares are issued",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-1",
+      "concept": "Classification of Unearned Compensation—Equity for restricted stock awards",
+      "type": "MC",
+      "ok": true,
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 20-1",
+      "concept": "Initial recognition difference — restricted stock units vs restricted stock awards",
+      "type": "MC",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

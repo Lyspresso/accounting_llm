@@ -1,0 +1,46 @@
+{
+  "agent_id": 74,
+  "lo": "LO 11-9",
+  "chapter": 11,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-9",
+      "concept": "Period-end (through-date) depreciation update; initial recognition JE for nonmonetary exchange with commercial substance (gain, cash paid); subsequent depreciation of new asset",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-9",
+      "concept": "Number-variant twin — update dep; initial recognition JE for exchange with commercial substance (gain, cash paid); subsequent depreciation schedule",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-9",
+      "concept": "Gain deferral and partial gain when exchange lacks commercial substance; full loss recognition regardless of commercial substance; classification of gain recognition pattern",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-9",
+      "concept": "Classification of when full gain, partial gain, or no gain is recognized on a nonmonetary PPE exchange",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 11-9",
+      "concept": "Classification — full loss recognition independent of commercial substance",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,82 @@
+{
+ "id": "agent_333#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 16,
+  "routed_stage2": 2,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "KEY_SILENT_DERIVED",
+   "label": "c: building accumulated depreciation at Dec 31, 20X7 under capitalization",
+   "solver": 1062000,
+   "from_key_components": [
+    102000.0,
+    192000.0,
+    768000.0
+   ]
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Depreciation Expense - Building"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Depreciation Expense - Building"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Depreciation Expense - Machine"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation - Machine"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation - Machine"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Disposal of Machine"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Machine"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Machine"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Depreciation Expense - Machine"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation - Machine"
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "dr",
+   "amount": 102000.0,
+   "solver": "depreciation expense building",
+   "key_options": [
+    "depreciation expense building"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_SPELLING",
+   "side": "cr",
+   "amount": 102000.0,
+   "solver": "accumulated depreciation building",
+   "key_options": [
+    "accumulated depreciation building"
+   ]
+  }
+ ]
+}

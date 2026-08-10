@@ -1,0 +1,64 @@
+{
+  "agent_id": 329,
+  "lo": "LO 11-2",
+  "chapter": 11,
+  "title": "Determine costs to capitalize for lump-sum purchases of property, plant, and equipment",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-2",
+      "concept": "Proportional relative-fair-value allocation of a PPE basket purchase; capitalize direct costs; subsequent measurement schedule; period-end depreciation adjusting JEs; disposal of one allocated asset",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-2",
+      "concept": "Number-variant twin of proportional relative-FV allocation, direct costs, subsequent measurement, period-end dep adjusting JEs, and disposal",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-2",
+      "concept": "Incremental allocation when one PPE asset fair value is indeterminable; mid-year initial recognition; period-end partial-year depreciation adjusting JE; disposal of specialized equipment",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-2",
+      "concept": "Choose proportional vs incremental allocation; compute land cost under proportional relative fair value",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

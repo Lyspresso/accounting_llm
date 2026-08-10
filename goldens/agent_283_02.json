@@ -1,0 +1,16 @@
+{
+ "id": "agent_283#02",
+ "pack_id": "agent_283",
+ "provenance_tier": "adjudicated",
+ "countersigned": false,
+ "countersign_priority": null,
+ "expected_verdict": "PASS",
+ "guards_rule": "rounding_context_scope",
+ "rationale": "sub-dollar drift, same rounding-convention pair",
+ "truth_as_of_hash": "cbd54a5d427b0ae031abea1d35b363316268ceaadf1580de40578bdbb774b2e4",
+ "truth_as_of_bytes": "2319a2bb2a03b649d5521ffa656fc24906677f6100e0ef6c6cd20cf0c9c8aed8",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": null,
+ "cross_check_evidence": null
+}

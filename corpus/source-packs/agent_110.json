@@ -1,0 +1,62 @@
+{
+  "agent_id": 110,
+  "lo": "LO 19-5",
+  "chapter": 19,
+  "title": "Record dividend distributions, including cash, property, and liquidating",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-5",
+      "concept": "initial_recognition_JE; subsequent_measurement_schedule; disposal_maturity_or_settlement_JE; period_end_adjusting_JE; classification_presentation_or_disclosure",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-5",
+      "concept": "number_variant_twin; initial_recognition_JE; disposal_maturity_or_settlement_JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-5",
+      "concept": "subsequent_measurement_schedule; period_end_adjusting_JE; disposal_maturity_or_settlement_JE; classification_presentation_or_disclosure",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-5",
+      "concept": "classification_presentation_or_disclosure",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

@@ -1,0 +1,46 @@
+{
+  "agent_id": 181,
+  "lo": "LO 9-3",
+  "chapter": 9,
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-3",
+      "concept": "Subsequent measurement schedules allocating COGAS under specific identification, average cost, FIFO, and LIFO (periodic); initial purchase/sale JEs; period-end adjusting JE under average cost",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-3",
+      "concept": "Number-variant twin — subsequent measurement schedules for specific identification, average cost, FIFO, and LIFO; initial purchase JEs; period-end adjusting entry under LIFO",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-3",
+      "concept": "Subsequent measurement schedules under FIFO and LIFO from identical COGAS; period-end adjusting JEs for both methods; sales settlement vs inventory-cost settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-3",
+      "concept": "Classification of periodic cost-flow method effects on EI and COGS when acquisition costs are rising",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 9-3",
+      "concept": "Classification of the object of period-end cost-flow allocation in a periodic system",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

@@ -1,0 +1,224 @@
+{
+  "id": "agent_254#00",
+  "rounding_convention": "decimal.Decimal only, ROUND_HALF_UP. Money exact to the cent; EPS (basic, each tentative diluted, final diluted) rounded to 2 decimals for reporting; earnings per incremental share rounded to 4 decimals for reporting. Ranking and dilutive/antidilutive tests use the unrounded exact quotients, not the rounded display values.",
+  "answers": [
+    {
+      "label": "b: Employee stock options - numerator effect",
+      "value": 0
+    },
+    {
+      "label": "b: Employee stock options - denominator effect (incremental shares)",
+      "value": 5000
+    },
+    {
+      "label": "b: Employee stock options - earnings per incremental share",
+      "value": 0
+    },
+    {
+      "label": "b: Employee stock options - rank (1 = most dilutive)",
+      "value": 1
+    },
+    {
+      "label": "b: Series X convertible bonds (4%) - numerator effect",
+      "value": 15000
+    },
+    {
+      "label": "b: Series X convertible bonds (4%) - denominator effect (incremental shares)",
+      "value": 12500
+    },
+    {
+      "label": "b: Series X convertible bonds (4%) - earnings per incremental share",
+      "value": 1.2
+    },
+    {
+      "label": "b: Series X convertible bonds (4%) - rank (1 = most dilutive)",
+      "value": 2
+    },
+    {
+      "label": "b: 5% cumulative convertible preferred stock - numerator effect",
+      "value": 20000
+    },
+    {
+      "label": "b: 5% cumulative convertible preferred stock - denominator effect (incremental shares)",
+      "value": 12000
+    },
+    {
+      "label": "b: 5% cumulative convertible preferred stock - earnings per incremental share",
+      "value": 1.6667
+    },
+    {
+      "label": "b: 5% cumulative convertible preferred stock - rank (1 = most dilutive)",
+      "value": 3
+    },
+    {
+      "label": "b: Series Y convertible bonds (10%) - numerator effect",
+      "value": 22500
+    },
+    {
+      "label": "b: Series Y convertible bonds (10%) - denominator effect (incremental shares)",
+      "value": 2400
+    },
+    {
+      "label": "b: Series Y convertible bonds (10%) - earnings per incremental share",
+      "value": 9.375
+    },
+    {
+      "label": "b: Series Y convertible bonds (10%) - rank (1 = most dilutive)",
+      "value": 4
+    },
+    {
+      "label": "c: basic EPS",
+      "value": 1.8
+    },
+    {
+      "label": "d: diluted EPS",
+      "value": 1.72
+    },
+    {
+      "label": "f: face of income statement - basic EPS",
+      "value": 1.8
+    },
+    {
+      "label": "f: face of income statement - diluted EPS",
+      "value": 1.72
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a(1)",
+      "date": "Year 1, January 1",
+      "description": "Issuance of 4,000 shares of 5% cumulative convertible preferred stock, $100 par, at par",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 400000,
+          "credit": 0
+        },
+        {
+          "account": "Preferred stock",
+          "debit": 0,
+          "credit": 400000
+        }
+      ]
+    },
+    {
+      "part": "a(2)",
+      "date": "Year 1, January 1",
+      "description": "Issuance of $500,000 face, 4% Series X convertible bonds at par",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 500000,
+          "credit": 0
+        },
+        {
+          "account": "Bonds payable",
+          "debit": 0,
+          "credit": 500000
+        }
+      ]
+    },
+    {
+      "part": "e(1)",
+      "date": "Year 1, December 31",
+      "description": "Annual 5% preferred dividend declared and paid in cash the same day (4,000 sh x $100 par x 5%)",
+      "lines": [
+        {
+          "account": "Retained earnings",
+          "debit": 20000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 20000
+        }
+      ]
+    },
+    {
+      "part": "e(2)",
+      "date": "Year 1, December 31",
+      "description": "Full-year cash interest on Series X convertible bonds ($500,000 x 4%); bonds issued at par so no amortization",
+      "lines": [
+        {
+          "account": "Interest expense",
+          "debit": 20000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 20000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Ranking most dilutive to least dilutive (earnings per incremental share): Employee stock options ($0.0000) < Series X convertible bonds (4%) ($1.2000) < 5% cumulative convertible preferred stock ($1.6667) < Series Y convertible bonds (10%) ($9.3750). Sequential schedule results: Employee stock options: dilutive; Series X convertible bonds (4%): dilutive; 5% cumulative convertible preferred stock: dilutive; Series Y convertible bonds (10%): antidilutive. Series Y is antidilutive because adding $22,500 after-tax interest for only 2,400 shares raises EPS above the running $1.72, so it is excluded. Options carry no numerator effect (treasury stock method: $200,000 proceeds buy 5,000 shares at the $40 average price, leaving 5,000 incremental shares). The preferred dividend is added back without a tax effect; bond interest is added back net of the 25% tax. Note the near-tie in the schedule: tentative EPS after Series X is 1.724138 and after the preferred is 1.721133 - both display as $1.72, but the exact comparison makes the preferred dilutive; final diluted EPS is $1.72 under either treatment.",
+  "schedule": [
+    {
+      "step": "Basic EPS",
+      "numerator": 360000,
+      "denominator": 200000,
+      "eps": 1.8,
+      "status": "basic"
+    },
+    {
+      "step": "Effect of Employee stock options",
+      "add_to_numerator": 0,
+      "add_to_denominator": 5000,
+      "numerator": 360000,
+      "denominator": 205000,
+      "eps": 1.76,
+      "status": "dilutive"
+    },
+    {
+      "step": "Effect of Series X convertible bonds (4%)",
+      "add_to_numerator": 15000,
+      "add_to_denominator": 12500,
+      "numerator": 375000,
+      "denominator": 217500,
+      "eps": 1.72,
+      "status": "dilutive"
+    },
+    {
+      "step": "Effect of 5% cumulative convertible preferred stock",
+      "add_to_numerator": 20000,
+      "add_to_denominator": 12000,
+      "numerator": 395000,
+      "denominator": 229500,
+      "eps": 1.72,
+      "status": "dilutive"
+    },
+    {
+      "step": "Effect of Series Y convertible bonds (10%)",
+      "add_to_numerator": 22500,
+      "add_to_denominator": 2400,
+      "numerator": 417500,
+      "denominator": 231900,
+      "eps": 1.8,
+      "status": "antidilutive (excluded)"
+    },
+    {
+      "step": "Diluted EPS",
+      "numerator": 395000,
+      "denominator": 229500,
+      "eps": 1.72,
+      "status": "final"
+    }
+  ],
+  "presentation": {
+    "caption": "Income statement (face) - year ended December 31, Year 1",
+    "lines": [
+      {
+        "line": "Earnings per share - basic",
+        "amount": 1.8
+      },
+      {
+        "line": "Earnings per share - diluted",
+        "amount": 1.72
+      }
+    ],
+    "note": "No discontinued operations, so net income is the only line requiring EPS presentation; income from continuing operations equals net income."
+  }
+}

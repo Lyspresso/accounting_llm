@@ -1,0 +1,187 @@
+{
+  "id": "agent_132#02",
+  "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP. Purchase price computed with the exact PV formulas (i=2.5%, n=6) and rounded ONCE to the nearest dollar = 189,915 (5-decimal PV table factors 5.50813 / 0.86230 give 189,915.22, the same rounded answer). Effective-interest revenue is then rounded to the nearest dollar PER PERIOD and that rounded amount is carried forward; premium amortization = 6,300 cash coupon less the rounded interest revenue. Final period (12/31/2027) amortization is plugged so the carrying amount retires exactly at the 180,000 face, absorbing the $1 of accumulated rounding drift.",
+  "answers": [
+    {
+      "label": "a: purchase price of the bonds on January 1, 2025 (nearest dollar)",
+      "value": 189915
+    },
+    {
+      "label": "b: schedule period 1 (2025-06-30) -- cash interest",
+      "value": 6300
+    },
+    {
+      "label": "b: schedule period 1 (2025-06-30) -- interest revenue",
+      "value": 4748
+    },
+    {
+      "label": "b: schedule period 1 (2025-06-30) -- premium amortization",
+      "value": 1552
+    },
+    {
+      "label": "b: schedule period 1 (2025-06-30) -- carrying amount (amortized cost) at end",
+      "value": 188363
+    },
+    {
+      "label": "b: schedule period 2 (2025-12-31) -- cash interest",
+      "value": 6300
+    },
+    {
+      "label": "b: schedule period 2 (2025-12-31) -- interest revenue",
+      "value": 4709
+    },
+    {
+      "label": "b: schedule period 2 (2025-12-31) -- premium amortization",
+      "value": 1591
+    },
+    {
+      "label": "b: schedule period 2 (2025-12-31) -- carrying amount (amortized cost) at end",
+      "value": 186772
+    },
+    {
+      "label": "b: schedule period 3 (2026-06-30) -- cash interest",
+      "value": 6300
+    },
+    {
+      "label": "b: schedule period 3 (2026-06-30) -- interest revenue",
+      "value": 4669
+    },
+    {
+      "label": "b: schedule period 3 (2026-06-30) -- premium amortization",
+      "value": 1631
+    },
+    {
+      "label": "b: schedule period 3 (2026-06-30) -- carrying amount (amortized cost) at end",
+      "value": 185141
+    },
+    {
+      "label": "b: schedule period 4 (2026-12-31) -- cash interest",
+      "value": 6300
+    },
+    {
+      "label": "b: schedule period 4 (2026-12-31) -- interest revenue",
+      "value": 4629
+    },
+    {
+      "label": "b: schedule period 4 (2026-12-31) -- premium amortization",
+      "value": 1671
+    },
+    {
+      "label": "b: schedule period 4 (2026-12-31) -- carrying amount (amortized cost) at end",
+      "value": 183470
+    },
+    {
+      "label": "b: schedule period 5 (2027-06-30) -- cash interest",
+      "value": 6300
+    },
+    {
+      "label": "b: schedule period 5 (2027-06-30) -- interest revenue",
+      "value": 4587
+    },
+    {
+      "label": "b: schedule period 5 (2027-06-30) -- premium amortization",
+      "value": 1713
+    },
+    {
+      "label": "b: schedule period 5 (2027-06-30) -- carrying amount (amortized cost) at end",
+      "value": 181757
+    },
+    {
+      "label": "b: schedule period 6 (2027-12-31) -- cash interest",
+      "value": 6300
+    },
+    {
+      "label": "b: schedule period 6 (2027-12-31) -- interest revenue",
+      "value": 4543
+    },
+    {
+      "label": "b: schedule period 6 (2027-12-31) -- premium amortization",
+      "value": 1757
+    },
+    {
+      "label": "b: schedule period 6 (2027-12-31) -- carrying amount (amortized cost) at end",
+      "value": 180000
+    },
+    {
+      "label": "d: amortized cost of the investment on January 1, 2027",
+      "value": 183470
+    },
+    {
+      "label": "d: realized loss on the January 1, 2027 sale (recognized in net income)",
+      "value": 270
+    },
+    {
+      "label": "e(i): carrying amount reported on the June 30, 2025 balance sheet (noncurrent investment, at amortized cost)",
+      "value": 188363
+    },
+    {
+      "label": "e(i): interest revenue for the six months ended June 30, 2025",
+      "value": 4748
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "2025-01-01",
+      "description": "Purchase of Redwood Partners 7% bonds classified as HTM (net investment recording -- premium rolled into the investment account).",
+      "lines": [
+        {
+          "account": "Investment in HTM Securities",
+          "debit": 189915,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 189915
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "2025-06-30",
+      "description": "Semiannual interest received and effective-interest premium amortization (period 1).",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 6300,
+          "credit": 0
+        },
+        {
+          "account": "Interest Revenue",
+          "debit": 0,
+          "credit": 4748
+        },
+        {
+          "account": "Investment in HTM Securities",
+          "debit": 0,
+          "credit": 1552
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "2027-01-01",
+      "description": "Sale of the entire HTM position for cash; realized gain/loss recognized in net income.",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 183200,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Sale of Investment",
+          "debit": 270,
+          "credit": 0
+        },
+        {
+          "account": "Investment in HTM Securities",
+          "debit": 0,
+          "credit": 183470
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "e(i) Presentation: HTM debt securities are reported at AMORTIZED COST -- no fair-value adjustment and no unrealized holding gain/loss. Because the bonds mature 12/31/2027, more than one year after 6/30/2025, the investment is presented as a NONCURRENT asset (long-term investments), reported at its $188363.00 amortized cost; the original $9915 premium is embedded in that one net investment account rather than shown separately. Interest revenue for the six months ended 6/30/2025 is $4748 -- the effective yield (2.5% x $189915 opening carrying amount), which is LESS than the $6300.00 cash coupon because the bonds were bought at a premium; the $1552.00 difference reduces the carrying amount. Fair value of the bonds is disclosed in the notes only. e(ii) NO -- the sale does not taint the remaining HTM portfolio and does not call Solstice's intent into question. ASC 320 lists a significant deterioration in the ISSUER's creditworthiness as a change in circumstance in which a sale is not inconsistent with the original held-to-maturity intent (it is a change in the issuer's credit, not a change in Solstice's intent or ability, and is not a response to interest-rate, liquidity, or yield-management motives). Solstice may continue to classify its other debt securities as HTM. Note also that the sale occurred with only one year (2 of 6 periods) left to maturity and after roughly 65% of the premium had already amortized, which further supports the classification; the realized loss is reported in net income as a nonoperating item."
+}

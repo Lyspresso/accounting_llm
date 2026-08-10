@@ -1,0 +1,68 @@
+{
+  "agent_id": 6,
+  "lo": "LO 14-5",
+  "chapter": 14,
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "title": "Account for equity securities following the equity method",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-5",
+      "concept": "Initial recognition at cost; allocate excess of cost over BV share to depreciable assets and goodwill; record share of earnings, excess depreciation, and dividends; ignore FV changes",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-5",
+      "concept": "Initial recognition, cost differential (depreciable excess + goodwill), share of earnings, excess depreciation, dividends, FV ignored, ending balance",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-5",
+      "concept": "Partial-year share of earnings and excess depreciation; dividends while held; disposal JE and gain/loss; presentation note",
+      "type": "multipart",
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4A",
+      "lo": "LO 14-5",
+      "concept": "Classification of equity securities with significant influence",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4B",
+      "lo": "LO 14-5",
+      "concept": "Dividends reduce Investment under equity method",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

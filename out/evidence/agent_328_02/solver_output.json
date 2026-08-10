@@ -1,0 +1,134 @@
+{
+  "id": "agent_328#02",
+  "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent applied per period (each period's depreciation charge rounded as computed, then accumulated); partial-year depreciation uses the exact 6/12 service fraction, not a table factor. All figures here are exact whole dollars.",
+  "answers": [
+    {
+      "label": "d: cost at Dec 31, Year 1",
+      "value": 440000
+    },
+    {
+      "label": "d: accumulated depreciation at Dec 31, Year 1",
+      "value": 25000
+    },
+    {
+      "label": "d: carrying amount at Dec 31, Year 1",
+      "value": 415000
+    },
+    {
+      "label": "d: cost at Dec 31, Year 2 (before disposal)",
+      "value": 440000
+    },
+    {
+      "label": "d: accumulated depreciation at Dec 31, Year 2 (before disposal)",
+      "value": 75000
+    },
+    {
+      "label": "d: carrying amount at Dec 31, Year 2 (before disposal)",
+      "value": 365000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "Year 1 (summary, as incurred)",
+      "description": "Accumulate self-construction costs in Construction in Process",
+      "lines": [
+        {
+          "account": "Construction in Process",
+          "debit": 460000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 460000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "July 1, Year 1",
+      "description": "Transfer Construction in Process to Equipment at the fair-value ceiling; expense the excess of construction cost over fair value",
+      "lines": [
+        {
+          "account": "Equipment",
+          "debit": 440000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Construction of Equipment",
+          "debit": 20000,
+          "credit": 0
+        },
+        {
+          "account": "Construction in Process",
+          "debit": 0,
+          "credit": 460000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 1",
+      "description": "Period-end adjusting entry: straight-line depreciation for the half year the equipment was in service",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 25000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation - Equipment",
+          "debit": 0,
+          "credit": 25000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "December 31, Year 2",
+      "description": "Period-end adjusting entry: full-year straight-line depreciation",
+      "lines": [
+        {
+          "account": "Depreciation Expense",
+          "debit": 50000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation - Equipment",
+          "debit": 0,
+          "credit": 50000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "December 31, Year 2",
+      "description": "Sale of equipment for cash; derecognize cost and accumulated depreciation",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 355000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation - Equipment",
+          "debit": 75000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Sale of Equipment",
+          "debit": 10000,
+          "credit": 0
+        },
+        {
+          "account": "Equipment",
+          "debit": 0,
+          "credit": 440000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Fair-value ceiling applied: CIP cost $460,000 exceeds the $440,000 fair value of a similar unit, so Equipment is capitalized at $440,000 and the $20,000 excess is recognized as Loss on Construction of Equipment on July 1, Year 1. Depreciation base is the capitalized $440,000 less $40,000 salvage over 8 years = $50,000/yr; Year 1 is a half year because the asset was placed in service July 1. The Dec 31, Year 2 schedule column is stated after Year 2 depreciation and before the disposal, matching the stem's sequence. Every entry was asserted to balance (debits = credits), which is the part-b proof."
+}

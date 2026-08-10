@@ -1,0 +1,193 @@
+{
+ "id": "agent_206#02",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent once per period, with the rounded period figure carried into the next period's book value; DDB final year plugged so ending book value equals the $5,000 residual floor",
+ "answers": [
+  {
+   "label": "a: Year 1 depreciation - straight-line",
+   "value": 9000
+  },
+  {
+   "label": "a: Year 1 depreciation - sum-of-the-years'-digits (5/15 x $45,000)",
+   "value": 15000
+  },
+  {
+   "label": "a: Year 1 depreciation - double-declining-balance (40% x $50,000)",
+   "value": 20000
+  },
+  {
+   "label": "a: Year 1 depreciation - units-of-production ($4.50/unit x 1,800 units)",
+   "value": 8100
+  },
+  {
+   "label": "a: units-of-production rate per unit",
+   "value": 4.5
+  },
+  {
+   "label": "b: DDB rate applied to beginning book value (percent)",
+   "value": 40
+  },
+  {
+   "label": "b: Year 1 beginning book value",
+   "value": 50000
+  },
+  {
+   "label": "b: Year 1 depreciation expense",
+   "value": 20000
+  },
+  {
+   "label": "b: Year 1 accumulated depreciation (ending)",
+   "value": 20000
+  },
+  {
+   "label": "b: Year 1 ending book value",
+   "value": 30000
+  },
+  {
+   "label": "b: Year 2 beginning book value",
+   "value": 30000
+  },
+  {
+   "label": "b: Year 2 depreciation expense",
+   "value": 12000
+  },
+  {
+   "label": "b: Year 2 accumulated depreciation (ending)",
+   "value": 32000
+  },
+  {
+   "label": "b: Year 2 ending book value",
+   "value": 18000
+  },
+  {
+   "label": "b: Year 3 beginning book value",
+   "value": 18000
+  },
+  {
+   "label": "b: Year 3 depreciation expense",
+   "value": 7200
+  },
+  {
+   "label": "b: Year 3 accumulated depreciation (ending)",
+   "value": 39200
+  },
+  {
+   "label": "b: Year 3 ending book value",
+   "value": 10800
+  },
+  {
+   "label": "b: Year 4 beginning book value",
+   "value": 10800
+  },
+  {
+   "label": "b: Year 4 depreciation expense",
+   "value": 4320
+  },
+  {
+   "label": "b: Year 4 accumulated depreciation (ending)",
+   "value": 43520
+  },
+  {
+   "label": "b: Year 4 ending book value",
+   "value": 6480
+  },
+  {
+   "label": "b: Year 5 beginning book value",
+   "value": 6480
+  },
+  {
+   "label": "b: Year 5 depreciation expense",
+   "value": 1480
+  },
+  {
+   "label": "b: Year 5 accumulated depreciation (ending)",
+   "value": 45000
+  },
+  {
+   "label": "b: Year 5 ending book value",
+   "value": 5000
+  },
+  {
+   "label": "b: Year 5 unadjusted 40% computation before residual floor",
+   "value": 2592
+  },
+  {
+   "label": "b: Year 5 residual-floor plug (limited to beginning BV less residual)",
+   "value": 1480
+  },
+  {
+   "label": "b: total depreciation Years 1-5 (equals cost less residual)",
+   "value": 45000
+  },
+  {
+   "label": "c: accumulated depreciation at Dec 31 Year 3 (after Year 3 dep)",
+   "value": 39200
+  },
+  {
+   "label": "c: book value at Dec 31 Year 3 (after Year 3 dep)",
+   "value": 10800
+  },
+  {
+   "label": "c: gain on disposal (proceeds $12,000 less book value $10,800)",
+   "value": 1200
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Depreciation Expense",
+     "debit": 20000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 20000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Equipment",
+     "debit": 50000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 50000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 12000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 39200,
+     "credit": 0
+    },
+    {
+     "account": "Equipment",
+     "debit": 0,
+     "credit": 50000
+    },
+    {
+     "account": "Gain on Disposal of Equipment",
+     "debit": 0,
+     "credit": 1200
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "d: DDB applies the 2x straight-line rate to the full declining book value (cost less accumulated depreciation), not to a depreciable base net of residual, because the declining-balance formula is a rate-on-carrying-amount mechanic; it still lands on residual because depreciation is stopped/plugged in the final year so book value is never driven below the $5,000 residual floor (Year 5 expense $1,480 instead of the formula's $2,592). Disposal result: gain of $1,200."
+}

@@ -1,0 +1,16 @@
+{
+ "id": "agent_107#02",
+ "pack_id": "agent_107",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "low",
+ "expected_verdict": "PASS",
+ "guards_rule": "percent_fraction_units",
+ "rationale": "<figure>/<figure> vs key's <figure>/<figure>",
+ "truth_as_of_hash": "50e8575bc14213b5cda956f3840e24c47c51a19b774d69ccef98090a80e0ca00",
+ "truth_as_of_bytes": "5bf187147602c5ac006610258709db4766ad99d433ea312a8dcf31dee1fab100",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "percent_fraction_units",
+ "cross_check_evidence": "Flagged figures were 0.72/0.28 vs key's 72%/28% \u2014 unit scale only. All dollar allocations tie: 68,400/26,600 (Case A), 76,000/24,000 (Case B), PICs 58,400/16,600/66,000/14,000; entries foot 95,000 and 100,000."
+}

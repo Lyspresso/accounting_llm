@@ -1,0 +1,71 @@
+{
+  "agent_id": 262,
+  "lo": "LO 13-8",
+  "chapter": 13,
+  "title": "Account for internally developed software and cloud computing arrangements",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-8",
+      "concept": "Software-to-be-sold: initial recognition (R&D vs capitalize after tech feasibility); greater-of revenue vs SL amortization schedule; period-end adjusting JEs; intangible classification",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-8",
+      "concept": "Number-variant twin: software-to-be-sold initial recognition, greater-of amortization schedule, period-end adjusting JEs",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-8",
+      "concept": "Internal-use software stages; cloud service-contract implementation capitalize/amortize; period-end JE; early-termination write-off; presentation of cloud implementation costs",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-8",
+      "concept": "Cloud hosting: service contract vs software purchase; which setup costs capitalize",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 13-8",
+      "concept": "Software-to-be-sold cost classification before/after technological feasibility and after product release",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

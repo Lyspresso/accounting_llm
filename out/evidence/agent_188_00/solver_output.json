@@ -1,0 +1,202 @@
+{
+  "id": "agent_188#00",
+  "rounding_convention": "decimal.Decimal throughout, never float; ROUND_HALF_UP to the cent applied at the point each figure is reported (no intermediate re-rounding). All inputs and derived amounts are whole dollars, so no rounding actually bites; no PV factors or per-period allocations are involved in this item.",
+  "answers": [
+    {
+      "label": "b(1): LCNRV inventory valuation \u2014 individual-item approach",
+      "value": 99500
+    },
+    {
+      "label": "b(1): write-down under individual-item approach (Meridian's policy)",
+      "value": 5000
+    },
+    {
+      "label": "b(2): LCNRV inventory valuation \u2014 category approach",
+      "value": 102700
+    },
+    {
+      "label": "b(2): write-down under category approach",
+      "value": 1800
+    },
+    {
+      "label": "b(3): LCNRV inventory valuation \u2014 total inventory approach",
+      "value": 102700
+    },
+    {
+      "label": "b(3): write-down under total inventory approach",
+      "value": 1800
+    },
+    {
+      "label": "d: required allowance balance at December 31, Year 1",
+      "value": 5000
+    },
+    {
+      "label": "d: December 31, Year 1 adjustment (credit to allowance / debit COGS)",
+      "value": 5000
+    },
+    {
+      "label": "d: required allowance balance at December 31, Year 2",
+      "value": 8800
+    },
+    {
+      "label": "d: December 31, Year 2 adjustment (credit to allowance / debit COGS)",
+      "value": 3800
+    },
+    {
+      "label": "d: required allowance balance at December 31, Year 3",
+      "value": 3600
+    },
+    {
+      "label": "d: December 31, Year 3 adjustment (debit to allowance / credit COGS)",
+      "value": 5200
+    },
+    {
+      "label": "f: net cost of goods sold on this inventory layer",
+      "value": 72400
+    },
+    {
+      "label": "f: gross profit on the April 12, Year 4 sale",
+      "value": 1600
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "January 5, Year 1",
+      "description": "Purchase on account of inventory remaining at year-end",
+      "lines": [
+        {
+          "account": "Inventory",
+          "debit": 104500,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Payable",
+          "debit": 0,
+          "credit": 104500
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 1",
+      "description": "Year-end LCNRV adjustment, item approach (COGS method)",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 5000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to Net Realizable Value",
+          "debit": 0,
+          "credit": 5000
+        }
+      ]
+    },
+    {
+      "part": "c-alternative",
+      "date": "December 31, Year 1",
+      "description": "Same write-down presented as a separate holding loss (loss method)",
+      "lines": [
+        {
+          "account": "Holding Loss on Inventory",
+          "debit": 5000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to Net Realizable Value",
+          "debit": 0,
+          "credit": 5000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "December 31, Year 2",
+      "description": "Increase allowance to required balance",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 3800,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to Net Realizable Value",
+          "debit": 0,
+          "credit": 3800
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "December 31, Year 3",
+      "description": "Reduce allowance to required balance (recovery through COGS)",
+      "lines": [
+        {
+          "account": "Allowance to Reduce Inventory to Net Realizable Value",
+          "debit": 5200,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 0,
+          "credit": 5200
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "April 12, Year 4",
+      "description": "Cash sale of all remaining Year 3 ending inventory",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 74000,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 74000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "April 12, Year 4",
+      "description": "Relieve inventory at cost",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 76000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 0,
+          "credit": 76000
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "April 12, Year 4",
+      "description": "Close the allowance into Cost of Goods Sold",
+      "lines": [
+        {
+          "account": "Allowance to Reduce Inventory to Net Realizable Value",
+          "debit": 3600,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 0,
+          "credit": 3600
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "LCNRV applied at the individual-item level for Year 1 per Meridian's stated policy (write-down 5,000); the category and total applications are shown only because part (b) requires the comparative schedule. Years 2-3 use total cost vs total NRV as the stem provides only totals. The Year 3 adjustment is a recovery (debit allowance, credit COGS) limited to the previously recognized write-down, so the allowance never goes below zero."
+}

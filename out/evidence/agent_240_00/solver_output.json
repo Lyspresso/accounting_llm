@@ -1,0 +1,163 @@
+{
+  "id": "agent_240#00",
+  "rounding_convention": "decimal.Decimal only (no floats); ROUND_HALF_UP to the cent applied per period, so each year's rounded interest expense rolls into the next year's beginning carrying amount. Effective rate given (10%), so no PV table factors used; final year accreted to the contractual $199,650 (plug matches the 10% computation exactly, $0.00 rounding difference).",
+  "answers": [
+    {
+      "label": "a: liability recognized at issuance (Jan 1, Year 1)",
+      "value": 150000
+    },
+    {
+      "label": "a: balance-sheet classification immediately after issuance",
+      "value": "Liability, not equity. Because redemption is mandatory for a fixed amount on a fixed date (not solely upon liquidation), ASC 480 requires the instrument to be reported as a liability despite its legal form as preferred shares. Immediately after the January 1, Year 1 issuance it is a NONCURRENT liability of $150,000 (redemption is more than one year away); it becomes current during Year 3."
+    },
+    {
+      "label": "b: Year 1 beginning carrying amount",
+      "value": 150000
+    },
+    {
+      "label": "b: Year 1 interest expense",
+      "value": 15000
+    },
+    {
+      "label": "b: Year 1 ending carrying amount",
+      "value": 165000
+    },
+    {
+      "label": "b: Year 2 beginning carrying amount",
+      "value": 165000
+    },
+    {
+      "label": "b: Year 2 interest expense",
+      "value": 16500
+    },
+    {
+      "label": "b: Year 2 ending carrying amount",
+      "value": 181500
+    },
+    {
+      "label": "b: Year 3 beginning carrying amount",
+      "value": 181500
+    },
+    {
+      "label": "b: Year 3 interest expense",
+      "value": 18150
+    },
+    {
+      "label": "b: Year 3 ending carrying amount",
+      "value": 199650
+    },
+    {
+      "label": "c: Dec 31, Year 1 interest accretion recorded",
+      "value": 15000
+    },
+    {
+      "label": "c: Dec 31, Year 2 interest accretion recorded",
+      "value": 16500
+    },
+    {
+      "label": "d: Dec 31, Year 3 interest accretion recorded",
+      "value": 18150
+    },
+    {
+      "label": "d: cash paid at maturity settlement",
+      "value": 199650
+    },
+    {
+      "label": "e: total interest expense over the three-year life",
+      "value": 49650
+    },
+    {
+      "label": "e: redemption amount minus issue proceeds (199,650 - 150,000), equals total interest expense",
+      "value": 49650
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "January 1, Year 1",
+      "description": "Initial recognition of mandatorily redeemable preferred stock at proceeds received (ASC 480 liability)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 150000,
+          "credit": 0
+        },
+        {
+          "account": "Mandatorily Redeemable Preferred Stock (liability)",
+          "debit": 0,
+          "credit": 150000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 1",
+      "description": "Interest accretion, Year 1 (10% x $150,000)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 15000,
+          "credit": 0
+        },
+        {
+          "account": "Mandatorily Redeemable Preferred Stock (liability)",
+          "debit": 0,
+          "credit": 15000
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "date": "December 31, Year 2",
+      "description": "Interest accretion, Year 2 (10% x $165,000)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 16500,
+          "credit": 0
+        },
+        {
+          "account": "Mandatorily Redeemable Preferred Stock (liability)",
+          "debit": 0,
+          "credit": 16500
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 3",
+      "description": "Interest accretion, Year 3 (10% x $181,500)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 18150,
+          "credit": 0
+        },
+        {
+          "account": "Mandatorily Redeemable Preferred Stock (liability)",
+          "debit": 0,
+          "credit": 18150
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "December 31, Year 3",
+      "description": "Mandatory redemption / settlement at maturity",
+      "lines": [
+        {
+          "account": "Mandatorily Redeemable Preferred Stock (liability)",
+          "debit": 199650,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 199650
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "ASC 480: mandatorily redeemable preferred with a fixed amount and fixed date is a liability; periodic accretion is interest expense, not a dividend. Dividends ignored per the stem. 150,000 x 1.10^3 = 199,650, confirming the 10% implicit rate is internally consistent with the stated proceeds and redemption price."
+}

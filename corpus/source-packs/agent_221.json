@@ -1,0 +1,48 @@
+{
+  "agent_id": 221,
+  "lo": "LO 13-5",
+  "chapter": 13,
+  "title": "Determine the initial and subsequent measurement of indefinite life intangible assets and goodwill",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-5",
+      "concept": "Initial recognition JE (goodwill residual + indefinite brand/IPR&D); multi-year subsequent carrying-amount schedule (zero amortization emphasis); period-end finite amort only; disposal of indefinite-life brand",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-5",
+      "concept": "Number-variant twin: initial recognition of goodwill and indefinite-life intangibles; multi-year zero-amortization subsequent schedule; disposal of trade name with gain",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-5",
+      "concept": "Multi-period crypto fair-value subsequent measurement schedule and period-end adjusting JEs; standalone indefinite trademark at cost with no amortization; disposal of crypto",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-5",
+      "concept": "Classification of subsequent measurement — amortize finite patent only; not trademark, incomplete IPR&D, or goodwill (public company)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

@@ -1,0 +1,202 @@
+{
+ "id": "agent_204#02",
+ "rounding_convention": "decimal.Decimal only; whole-dollar ROUND_HALF_UP applied per period (each year's depreciation rounded, then accumulated); schedule closed by tying accum. dep. to the sum of rounded annual charges and NBV to FV less accum. dep. (asset scrapped before end of life, so it does not close to residual); no rounding difference arose",
+ "answers": [
+  {
+   "label": "a: Equipment (asset) debited at full fair value",
+   "value": 180000
+  },
+  {
+   "label": "a: Cash credited for incidental title-transfer cost paid",
+   "value": 3000
+  },
+  {
+   "label": "a: Contribution Revenue credited, NET of the cash cost (180,000 - 3,000)",
+   "value": 177000
+  },
+  {
+   "label": "b: depreciable base (180,000 FV - 12,000 residual; 3,000 excluded)",
+   "value": 168000
+  },
+  {
+   "label": "b: full-year straight-line depreciation (168,000 / 6)",
+   "value": 28000
+  },
+  {
+   "label": "b: months held in Year 1 (Apr 1 - Dec 31)",
+   "value": 9
+  },
+  {
+   "label": "b: Year 1 depreciation expense (28,000 x 9/12)",
+   "value": 21000
+  },
+  {
+   "label": "b: Year 1 year-end accumulated depreciation",
+   "value": 21000
+  },
+  {
+   "label": "b: Year 1 year-end NBV",
+   "value": 159000
+  },
+  {
+   "label": "b: Year 2 depreciation expense (full year)",
+   "value": 28000
+  },
+  {
+   "label": "b: Year 2 year-end accumulated depreciation",
+   "value": 49000
+  },
+  {
+   "label": "b: Year 2 year-end NBV",
+   "value": 131000
+  },
+  {
+   "label": "b: Year 3 depreciation expense (full year)",
+   "value": 28000
+  },
+  {
+   "label": "b: Year 3 year-end accumulated depreciation",
+   "value": 77000
+  },
+  {
+   "label": "b: Year 3 year-end NBV (before disposal)",
+   "value": 103000
+  },
+  {
+   "label": "c: Dec 31 Year 1 depreciation adjusting entry amount",
+   "value": 21000
+  },
+  {
+   "label": "c: Dec 31 Year 2 depreciation adjusting entry amount",
+   "value": 28000
+  },
+  {
+   "label": "d: Dec 31 Year 3 depreciation adjusting entry amount",
+   "value": 28000
+  },
+  {
+   "label": "d: cash received from salvage dealer",
+   "value": 9500
+  },
+  {
+   "label": "d: accumulated depreciation removed on disposal",
+   "value": 77000
+  },
+  {
+   "label": "d: equipment cost (FV basis) removed on disposal",
+   "value": 180000
+  },
+  {
+   "label": "d: NBV at disposal date",
+   "value": 103000
+  },
+  {
+   "label": "d: loss on disposal / scrapping (9,500 - 103,000)",
+   "value": 93500
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "date": "Year 1, April 1",
+   "description": "Unconditional contribution of packaging equipment received at fair value; title-transfer cost paid in cash; contribution revenue recorded net of that cost",
+   "lines": [
+    {
+     "account": "Equipment",
+     "debit": 180000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 3000
+    },
+    {
+     "account": "Contribution Revenue (Revenue from Contributed Equipment)",
+     "debit": 0,
+     "credit": 177000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Year 1, December 31",
+   "description": "Partial-year depreciation, 9 of 12 months",
+   "lines": [
+    {
+     "account": "Depreciation Expense",
+     "debit": 21000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 21000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Year 2, December 31",
+   "description": "Full-year depreciation",
+   "lines": [
+    {
+     "account": "Depreciation Expense",
+     "debit": 28000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 28000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "date": "Year 3, December 31 (1 of 2)",
+   "description": "Full-year depreciation recorded before disposal",
+   "lines": [
+    {
+     "account": "Depreciation Expense",
+     "debit": 28000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 28000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "date": "Year 3, December 31 (2 of 2)",
+   "description": "Equipment scrapped; cash received from salvage dealer; carrying amount relieved and loss recognized",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 9500,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 77000,
+     "credit": 0
+    },
+    {
+     "account": "Loss on Disposal of Equipment",
+     "debit": 93500,
+     "credit": 0
+    },
+    {
+     "account": "Equipment",
+     "debit": 0,
+     "credit": 180000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "LO 11-8 donated asset: Equipment debited at the FULL reliable fair value 180,000; the 3,000 title-transfer cash paid is NOT capitalized, so Cash is credited 3,000 and Contribution Revenue is 177,000 (net). Depreciable base = 180,000 - 12,000 = 168,000; full-year SL = 28,000. Year 1 holds 9 months (Apr 1 - Dec 31) => 21,000. Schedule: Y1 21,000 / accum 21,000 / NBV 159,000; Y2 28,000 / accum 49,000 / NBV 131,000; Y3 28,000 / accum 77,000 / NBV 103,000. Disposal at 12/31/Y3 after Y3 depreciation: Dr Cash 9,500, Dr Accum. Dep. 77,000, Dr Loss 93,500, Cr Equipment 180,000. Because the asset is scrapped in year 3 of a 6-year life the schedule does not reach residual value, so it is closed by tying accum. dep. to the sum of rounded annual charges and NBV to 180,000 - accum. dep.; the disposal entry then relieves the 103,000 NBV in full. All amounts are exact whole dollars, so ROUND_HALF_UP produced no rounding difference anywhere."
+}

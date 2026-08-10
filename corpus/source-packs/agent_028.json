@@ -1,0 +1,73 @@
+{
+  "agent_id": 28,
+  "lo": "LO 18-3",
+  "chapter": 18,
+  "title": "Recognize deferred tax assets attributable to deductible temporary differences",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-3",
+      "concept": "Initial recognition of deferred tax asset from warranty accrual; subsequent DTA schedule; period-end tax JEs; settlement when liability is paid",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-3",
+      "concept": "Deductible temporary difference from revenue taxed before GAAP recognition; multi-year DTA schedule and JEs (number-variant twin)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-3",
+      "concept": "DTA from allowance for doubtful accounts; period-end adjusting tax JEs; settlement on full write-off; classification/disclosure",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-3",
+      "concept": "Classification / presentation of deferred tax assets",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 18-3",
+      "concept": "Identifying deductible temporary differences that create DTAs",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

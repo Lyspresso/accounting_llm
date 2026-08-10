@@ -1,0 +1,70 @@
+{
+  "agent_id": 229,
+  "lo": "LO 15-5",
+  "chapter": 15,
+  "title": "Describe accounting for subsequent events and contingencies including litigation, warranties, and other contingencies",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-5",
+      "concept": "Assurance-type warranty multi-year liability subsequent measurement schedule with sales, period-end accruals, and claim settlements",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-5",
+      "concept": "Number-variant twin: warranty liability rollforward schedule, accruals, and claim settlements",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-5",
+      "concept": "Litigation range accrual, recognized subsequent event remeasurement, settlement JE; nonrecognized event and gain contingency contrasts",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-5",
+      "concept": "Recognized vs nonrecognized subsequent event classification for litigation settlement",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-5",
+      "concept": "Reasonably possible loss contingency: disclose only, do not accrue",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

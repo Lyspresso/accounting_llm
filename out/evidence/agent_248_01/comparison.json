@@ -1,0 +1,95 @@
+{
+ "id": "agent_248#01",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 12,
+  "routed_stage2": 7,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: Plan N classification",
+   "solver": "Noncompensatory"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "a: Plan C classification",
+   "solver": "Compensatory"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Liability-Employee Stock Purchase Plan"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Liability-Employee Stock Purchase Plan"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 136800.0,
+   "solver": "cash",
+   "key_options": [
+    "cash 3 000 48 95"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 6000.0,
+   "solver": "common stock",
+   "key_options": [
+    "common stock 3 000 2"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 86400.0,
+   "solver": "cash",
+   "key_options": [
+    "cash 2 000 48 90"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 9600.0,
+   "solver": "compensation expense",
+   "key_options": [
+    "compensation expense 2 000 48 10"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 4000.0,
+   "solver": "common stock",
+   "key_options": [
+    "common stock 2 000 2"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 11400.0,
+   "solver": "cash",
+   "key_options": [
+    "salaries payable or cash reduction of net pay"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 3600.0,
+   "solver": "common stock",
+   "key_options": [
+    "common stock 1 800 2"
+   ]
+  }
+ ]
+}

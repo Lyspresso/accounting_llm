@@ -1,0 +1,165 @@
+{
+  "id": "agent_219#05",
+  "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent applied per period (each annual and partial-year amortization charge rounded as computed, then applied to carrying amount), not round-at-end. No PV factors needed - fair value is given.",
+  "answers": [
+    {
+      "label": "a: Year 1 amortization expense",
+      "value": 12000
+    },
+    {
+      "label": "a: Year 1 carrying amount, 12/31",
+      "value": 84000
+    },
+    {
+      "label": "a: Year 2 amortization expense",
+      "value": 12000
+    },
+    {
+      "label": "a: Year 2 carrying amount, 12/31",
+      "value": 72000
+    },
+    {
+      "label": "a: Year 3 amortization expense",
+      "value": 12000
+    },
+    {
+      "label": "a: Year 3 impairment loss",
+      "value": 12000
+    },
+    {
+      "label": "a: Year 3 carrying amount, 12/31 after impairment",
+      "value": 48000
+    },
+    {
+      "label": "a: Year 4 amortization expense",
+      "value": 9600
+    },
+    {
+      "label": "a: Year 4 carrying amount, 12/31",
+      "value": 38400
+    },
+    {
+      "label": "a: Year 5 amortization expense",
+      "value": 9600
+    },
+    {
+      "label": "a: Year 5 carrying amount, 12/31",
+      "value": 28800
+    },
+    {
+      "label": "c: loss on disposal of patent, 10/1/Year 6",
+      "value": 3100
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b(1)",
+      "date": "January 1, Year 1",
+      "description": "Acquisition of process patent for cash",
+      "lines": [
+        {
+          "account": "Patent",
+          "debit": 96000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 96000
+        }
+      ]
+    },
+    {
+      "part": "b(2)",
+      "date": "December 31, Year 3",
+      "description": "Year 3 straight-line amortization ($96,000 / 8)",
+      "lines": [
+        {
+          "account": "Amortization Expense",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Patent",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    },
+    {
+      "part": "b(3)",
+      "date": "December 31, Year 3",
+      "description": "Impairment write-down to fair value (carrying $60,000 - fair value $48,000)",
+      "lines": [
+        {
+          "account": "Impairment Loss",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Patent",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    },
+    {
+      "part": "b(4)",
+      "date": "December 31, Year 4",
+      "description": "Year 4 amortization on new basis ($48,000 / 5)",
+      "lines": [
+        {
+          "account": "Amortization Expense",
+          "debit": 9600,
+          "credit": 0
+        },
+        {
+          "account": "Patent",
+          "debit": 0,
+          "credit": 9600
+        }
+      ]
+    },
+    {
+      "part": "b(5)",
+      "date": "October 1, Year 6",
+      "description": "Amortization for 9 months of Year 6 to date of disposal ($9,600 x 9/12)",
+      "lines": [
+        {
+          "account": "Amortization Expense",
+          "debit": 7200,
+          "credit": 0
+        },
+        {
+          "account": "Patent",
+          "debit": 0,
+          "credit": 7200
+        }
+      ]
+    },
+    {
+      "part": "b(6)",
+      "date": "October 1, Year 6",
+      "description": "Sale of patent for cash; derecognize carrying amount",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 18500,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Sale of Patent",
+          "debit": 3100,
+          "credit": 0
+        },
+        {
+          "account": "Patent",
+          "debit": 0,
+          "credit": 21600
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Recoverability test at 12/31/Y3: undiscounted cash inflows $52,000 < carrying amount $60,000, so the asset is not recoverable and the impairment test applies; loss = carrying $60,000 - fair value $48,000. Fair value becomes the new basis, amortized over the new 5-year remaining life. Patent is credited directly per the stem, so no accumulated amortization account is used."
+}

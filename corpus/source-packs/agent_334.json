@@ -1,0 +1,73 @@
+{
+  "agent_id": 334,
+  "lo": "LO 11-7",
+  "chapter": 11,
+  "title": "Account for disposal of property, plant, and equipment",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-7",
+      "concept": "Initial recognition of equipment cost; multi-year subsequent depreciation schedule; partial-period adjusting JE to update accum. dep. through disposal date (emphasis); sale disposal JE with gain",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-7",
+      "concept": "Number-variant twin — initial recognition with capitalizable costs; multi-period dep schedule from mid-year placed-in-service date; partial-period adjusting JE at disposal (emphasis); sale disposal JE with loss",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-7",
+      "concept": "Period-end adjusting JE emphasis (annual dep true-up and disposal-date update); disposal under sale-with-loss, sale-with-gain, and involuntary casualty (with and without insurance); income-statement classification",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-7",
+      "concept": "Classification of disposal gain/loss and requirement to update depreciation through disposal date",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "n_mc": 2,
+      "answers": ["B", "B"],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

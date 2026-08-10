@@ -1,0 +1,513 @@
+{
+ "id": "agent_285#00",
+ "rounding_convention": "decimal.Decimal throughout (prec=40); commencement PV computed at full precision then rounded once to the nearest dollar ROUND_HALF_UP ($81,911); schedule thereafter runs in whole dollars with each period's 5% interest accrual rounded ROUND_HALF_UP per period; final interest accrual PLUGGED so the liability closes exactly to zero and the final ROU reduction plugged so the ROU asset closes exactly to zero. Plug adjustment actually required: $0 (rounded values already closed the schedule). All journal entries whole dollars, Dr = Cr asserted.",
+ "answers": [
+  {
+   "label": "a: Criterion 1 - transfer of ownership by end of term? Equipment reverts to Summit",
+   "value": "No - no transfer of ownership"
+  },
+  {
+   "label": "a: Criterion 2 - purchase option reasonably certain to be exercised?",
+   "value": "No - no purchase option exists"
+  },
+  {
+   "label": "a: Criterion 3 - lease term (4 yrs) a major part (>=75%) of remaining economic life (10 yrs)? term percentage",
+   "value": "40% - No (40% < 75%)"
+  },
+  {
+   "label": "a: Criterion 4 - PV of lease payments $81911 vs fair value $140000; substantially all (>=90%)?",
+   "value": "58.51% - No (58.51% < 90%)"
+  },
+  {
+   "label": "a: Criterion 5 - specialized asset with no alternative use to lessor?",
+   "value": "No - Summit routinely leases this equipment to other customers"
+  },
+  {
+   "label": "a: Classification conclusion for Riverglen",
+   "value": "OPERATING lease (no criterion met)"
+  },
+  {
+   "label": "a: Discount rate used",
+   "value": "5% - lessor's implicit rate, known to the lessee (the 6% incremental borrowing rate is NOT used)"
+  },
+  {
+   "label": "b: PV annuity-due factor, 4 payments @ 5% (1 + PVA-ordinary 3 yrs)",
+   "value": 3.723248
+  },
+  {
+   "label": "b: PV of lease payments at full precision (before rounding)",
+   "value": 81911.46
+  },
+  {
+   "label": "b: Lease liability at commencement, Jan 1 Year 1 (before first payment)",
+   "value": 81911
+  },
+  {
+   "label": "b: Right-of-use asset at commencement, Jan 1 Year 1 (before first payment)",
+   "value": 81911
+  },
+  {
+   "label": "c: Total of the four lease payments",
+   "value": 88000
+  },
+  {
+   "label": "c: Total interest over the lease term (88,000 - 81,911)",
+   "value": 6089
+  },
+  {
+   "label": "c: Straight-line single annual lease expense (total lease cost / 4 yrs)",
+   "value": 22000
+  },
+  {
+   "label": "c: Liability schedule - Jan 1 Yr 1 opening balance",
+   "value": 81911
+  },
+  {
+   "label": "c: Liability schedule Yr 1 - Jan 1 payment",
+   "value": 22000
+  },
+  {
+   "label": "c: Liability schedule Yr 1 - Jan 1 reduction of liability (principal)",
+   "value": 22000
+  },
+  {
+   "label": "c: Liability schedule Yr 1 - balance immediately after Jan 1 payment",
+   "value": 59911
+  },
+  {
+   "label": "c: Liability schedule Yr 1 - Dec 31 interest accrual @ 5% on post-payment balance",
+   "value": 2996
+  },
+  {
+   "label": "c: Liability schedule Yr 1 - Dec 31 closing lease liability",
+   "value": 62907
+  },
+  {
+   "label": "c: Liability schedule Yr 2 - Jan 1 payment",
+   "value": 22000
+  },
+  {
+   "label": "c: Liability schedule Yr 2 - Jan 1 reduction of liability (principal)",
+   "value": 22000
+  },
+  {
+   "label": "c: Liability schedule Yr 2 - balance immediately after Jan 1 payment",
+   "value": 40907
+  },
+  {
+   "label": "c: Liability schedule Yr 2 - Dec 31 interest accrual @ 5% on post-payment balance",
+   "value": 2045
+  },
+  {
+   "label": "c: Liability schedule Yr 2 - Dec 31 closing lease liability",
+   "value": 42952
+  },
+  {
+   "label": "c: Liability schedule Yr 3 - Jan 1 payment",
+   "value": 22000
+  },
+  {
+   "label": "c: Liability schedule Yr 3 - Jan 1 reduction of liability (principal)",
+   "value": 22000
+  },
+  {
+   "label": "c: Liability schedule Yr 3 - balance immediately after Jan 1 payment",
+   "value": 20952
+  },
+  {
+   "label": "c: Liability schedule Yr 3 - Dec 31 interest accrual @ 5% on post-payment balance",
+   "value": 1048
+  },
+  {
+   "label": "c: Liability schedule Yr 3 - Dec 31 closing lease liability",
+   "value": 22000
+  },
+  {
+   "label": "c: Liability schedule Yr 4 - Jan 1 payment",
+   "value": 22000
+  },
+  {
+   "label": "c: Liability schedule Yr 4 - Jan 1 reduction of liability (principal)",
+   "value": 22000
+  },
+  {
+   "label": "c: Liability schedule Yr 4 - balance immediately after Jan 1 payment",
+   "value": 0
+  },
+  {
+   "label": "c: Liability schedule Yr 4 - Dec 31 interest accrual @ 5% on post-payment balance",
+   "value": 0
+  },
+  {
+   "label": "c: Liability schedule Yr 4 - Dec 31 closing lease liability",
+   "value": 0
+  },
+  {
+   "label": "c: Liability schedule - balance after final (Jan 1 Yr 4) payment",
+   "value": 0
+  },
+  {
+   "label": "c: ROU schedule Yr 1 - opening ROU asset",
+   "value": 81911
+  },
+  {
+   "label": "c: ROU schedule Yr 1 - single lease expense",
+   "value": 22000
+  },
+  {
+   "label": "c: ROU schedule Yr 1 - less interest on lease liability",
+   "value": 2996
+  },
+  {
+   "label": "c: ROU schedule Yr 1 - ROU amortization (expense - interest)",
+   "value": 19004
+  },
+  {
+   "label": "c: ROU schedule Yr 1 - Dec 31 closing ROU asset",
+   "value": 62907
+  },
+  {
+   "label": "c: ROU schedule Yr 2 - opening ROU asset",
+   "value": 62907
+  },
+  {
+   "label": "c: ROU schedule Yr 2 - single lease expense",
+   "value": 22000
+  },
+  {
+   "label": "c: ROU schedule Yr 2 - less interest on lease liability",
+   "value": 2045
+  },
+  {
+   "label": "c: ROU schedule Yr 2 - ROU amortization (expense - interest)",
+   "value": 19955
+  },
+  {
+   "label": "c: ROU schedule Yr 2 - Dec 31 closing ROU asset",
+   "value": 42952
+  },
+  {
+   "label": "c: ROU schedule Yr 3 - opening ROU asset",
+   "value": 42952
+  },
+  {
+   "label": "c: ROU schedule Yr 3 - single lease expense",
+   "value": 22000
+  },
+  {
+   "label": "c: ROU schedule Yr 3 - less interest on lease liability",
+   "value": 1048
+  },
+  {
+   "label": "c: ROU schedule Yr 3 - ROU amortization (expense - interest)",
+   "value": 20952
+  },
+  {
+   "label": "c: ROU schedule Yr 3 - Dec 31 closing ROU asset",
+   "value": 22000
+  },
+  {
+   "label": "c: ROU schedule Yr 4 - opening ROU asset",
+   "value": 22000
+  },
+  {
+   "label": "c: ROU schedule Yr 4 - single lease expense",
+   "value": 22000
+  },
+  {
+   "label": "c: ROU schedule Yr 4 - less interest on lease liability",
+   "value": 0
+  },
+  {
+   "label": "c: ROU schedule Yr 4 - ROU amortization (expense - interest)",
+   "value": 22000
+  },
+  {
+   "label": "c: ROU schedule Yr 4 - Dec 31 closing ROU asset",
+   "value": 0
+  },
+  {
+   "label": "d: Jan 1 Yr 1 commencement - Dr Right-of-Use Asset / Cr Lease Liability",
+   "value": 81911
+  },
+  {
+   "label": "d: Jan 1 Yr 1 first payment - Dr Lease Liability / Cr Cash",
+   "value": 22000
+  },
+  {
+   "label": "d: Dec 31 Yr 1 adjusting - Dr Lease Expense",
+   "value": 22000
+  },
+  {
+   "label": "d: Dec 31 Yr 1 adjusting - Cr Lease Liability (interest accretion)",
+   "value": 2996
+  },
+  {
+   "label": "d: Dec 31 Yr 1 adjusting - Cr Right-of-Use Asset (period reduction)",
+   "value": 19004
+  },
+  {
+   "label": "e: Year 1 income statement - single Lease Expense in operating expenses (no separate interest or amortization line)",
+   "value": 22000
+  },
+  {
+   "label": "e: Dec 31 Yr 1 balance sheet - Right-of-use asset, operating lease (noncurrent)",
+   "value": 62907
+  },
+  {
+   "label": "e: Dec 31 Yr 1 balance sheet - Lease liability, current portion (principal due Jan 1 Yr 2)",
+   "value": 22000
+  },
+  {
+   "label": "e: Dec 31 Yr 1 balance sheet - Lease liability, noncurrent portion",
+   "value": 40907
+  },
+  {
+   "label": "e: Dec 31 Yr 1 balance sheet - Total lease liability",
+   "value": 62907
+  },
+  {
+   "label": "f: Jan 1 Yr 2 payment - Dr Lease Liability / Cr Cash",
+   "value": 22000
+  },
+  {
+   "label": "f: Dec 31 Yr 2 adjusting - Dr Lease Expense",
+   "value": 22000
+  },
+  {
+   "label": "f: Dec 31 Yr 2 adjusting - Cr Lease Liability (interest)",
+   "value": 2045
+  },
+  {
+   "label": "f: Dec 31 Yr 2 adjusting - Cr Right-of-Use Asset",
+   "value": 19955
+  },
+  {
+   "label": "f: Dec 31 Yr 2 closing lease liability",
+   "value": 42952
+  },
+  {
+   "label": "f: Dec 31 Yr 2 closing right-of-use asset",
+   "value": 42952
+  },
+  {
+   "label": "f: Jan 1 Yr 3 payment - Dr Lease Liability / Cr Cash",
+   "value": 22000
+  },
+  {
+   "label": "f: Dec 31 Yr 3 adjusting - Dr Lease Expense",
+   "value": 22000
+  },
+  {
+   "label": "f: Dec 31 Yr 3 adjusting - Cr Lease Liability (interest)",
+   "value": 1048
+  },
+  {
+   "label": "f: Dec 31 Yr 3 adjusting - Cr Right-of-Use Asset",
+   "value": 20952
+  },
+  {
+   "label": "f: Dec 31 Yr 3 closing lease liability",
+   "value": 22000
+  },
+  {
+   "label": "f: Dec 31 Yr 3 closing right-of-use asset",
+   "value": 22000
+  },
+  {
+   "label": "g: Jan 1 Yr 4 final payment - Dr Lease Liability / Cr Cash",
+   "value": 22000
+  },
+  {
+   "label": "g: Lease liability balance immediately after the Jan 1 Yr 4 payment",
+   "value": 0
+  },
+  {
+   "label": "g: Year 4 interest on lease liability (liability is zero all year)",
+   "value": 0
+  },
+  {
+   "label": "g: Dec 31 Yr 4 adjusting - Dr Lease Expense",
+   "value": 22000
+  },
+  {
+   "label": "g: Dec 31 Yr 4 adjusting - Cr Right-of-Use Asset (final reduction)",
+   "value": 22000
+  },
+  {
+   "label": "g: Right-of-use asset balance after lease end",
+   "value": 0
+  },
+  {
+   "label": "g: Lease liability balance after lease end",
+   "value": 0
+  },
+  {
+   "label": "g: Cumulative lease expense recognized over 4 years (= total cash paid)",
+   "value": 88000
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "d",
+   "description": "Jan 1, Year 1 - commencement: recognize ROU asset and lease liability",
+   "lines": [
+    {
+     "account": "Right-of-Use Asset - Operating Lease",
+     "debit": 81911,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability - Operating Lease",
+     "debit": 0,
+     "credit": 81911
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "description": "Jan 1, Year 1 - first annual lease payment (annuity due; all principal)",
+   "lines": [
+    {
+     "account": "Lease Liability - Operating Lease",
+     "debit": 22000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 22000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "description": "Dec 31, Year 1 - period-end adjusting entry (single lease expense)",
+   "lines": [
+    {
+     "account": "Lease Expense",
+     "debit": 22000,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability - Operating Lease",
+     "debit": 0,
+     "credit": 2996
+    },
+    {
+     "account": "Right-of-Use Asset - Operating Lease",
+     "debit": 0,
+     "credit": 19004
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "description": "Jan 1, Year 2 - annual lease payment",
+   "lines": [
+    {
+     "account": "Lease Liability - Operating Lease",
+     "debit": 22000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 22000
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "description": "Dec 31, Year 2 - period-end adjusting entry (single lease expense)",
+   "lines": [
+    {
+     "account": "Lease Expense",
+     "debit": 22000,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability - Operating Lease",
+     "debit": 0,
+     "credit": 2045
+    },
+    {
+     "account": "Right-of-Use Asset - Operating Lease",
+     "debit": 0,
+     "credit": 19955
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "description": "Jan 1, Year 3 - annual lease payment",
+   "lines": [
+    {
+     "account": "Lease Liability - Operating Lease",
+     "debit": 22000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 22000
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "description": "Dec 31, Year 3 - period-end adjusting entry (single lease expense)",
+   "lines": [
+    {
+     "account": "Lease Expense",
+     "debit": 22000,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability - Operating Lease",
+     "debit": 0,
+     "credit": 1048
+    },
+    {
+     "account": "Right-of-Use Asset - Operating Lease",
+     "debit": 0,
+     "credit": 20952
+    }
+   ]
+  },
+  {
+   "part": "g",
+   "description": "Jan 1, Year 4 - annual lease payment",
+   "lines": [
+    {
+     "account": "Lease Liability - Operating Lease",
+     "debit": 22000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 22000
+    }
+   ]
+  },
+  {
+   "part": "g",
+   "description": "Dec 31, Year 4 - period-end adjusting entry (single lease expense)",
+   "lines": [
+    {
+     "account": "Lease Expense",
+     "debit": 22000,
+     "credit": 0
+    },
+    {
+     "account": "Right-of-Use Asset - Operating Lease",
+     "debit": 0,
+     "credit": 22000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Operating lease: none of the five finance-lease criteria is met (no ownership transfer, no purchase option, 4/10 = 40% of economic life, PV 81,911/140,000 = 58.51% of fair value, non-specialized asset routinely leased to others). Discounted at the 5% implicit rate because it is known to the lessee. Annuity due: the Jan 1 payment is 100% principal (no interest has accrued yet), so interest is accrued only at each Dec 31 on the post-payment balance. Single straight-line lease cost = 88,000/4 = 22,000 per year; the Dec 31 adjusting entry debits Lease Expense 22,000, credits Lease Liability for the interest accretion, and credits the ROU asset directly for the plug difference (chapter convention - no separate accumulated amortization account). Because there are no initial direct costs, prepaid rent or incentives, the ROU asset and lease liability carrying amounts are equal at every period end (62,907 / 42,952 / 22,000 / 0). Year 4 has zero interest because the Jan 1 Yr 4 payment retires the liability at the start of the year, so the entire 22,000 of Year 4 expense reduces the ROU asset. Current portion at 12/31/Yr1 = the 22,000 of principal retired by the Jan 1 Yr 2 payment."
+}

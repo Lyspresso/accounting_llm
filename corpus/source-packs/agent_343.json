@@ -1,0 +1,46 @@
+{
+  "agent_id": 343,
+  "lo": "LO 12-5",
+  "chapter": 12,
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-5",
+      "concept": "Full life cycle with period-end adjusting JEs before and after prospective SYD→SL change; disposal",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-5",
+      "concept": "Number-variant twin — initial recognition; DDB subsequent measurement schedule; prospective change to SL; period-end JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-5",
+      "concept": "Period-end adjusting entry in year of method change; no January 1 catch-up; disposal after change",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-5",
+      "concept": "Classification — change in estimate effected by a change in principle; prospective application",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 12-5",
+      "concept": "Compute new-method depreciation from carrying amount at change date",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

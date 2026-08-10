@@ -1,0 +1,54 @@
+{
+ "id": "agent_392#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 26,
+  "routed_stage2": 3,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accounts Receivable, net"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Common Stock, no-par"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Retained Earnings (Dividends)"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 90000.0,
+   "solver": "accounts receivable net",
+   "key_options": [
+    "accounts receivable"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 150000.0,
+   "solver": "common stock no par",
+   "key_options": [
+    "bonds payable",
+    "common stock"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 906000.0,
+   "solver": "retained earnings dividends",
+   "key_options": [
+    "retained earnings"
+   ]
+  }
+ ]
+}

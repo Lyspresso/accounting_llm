@@ -1,0 +1,55 @@
+{
+  "agent_id": 240,
+  "lo": "LO 19-4",
+  "chapter": 19,
+  "title": "Describe and account for preferred stock",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-4",
+      "concept": "Subsequent measurement schedule for mandatorily redeemable preferred stock (fixed amount and fixed date); initial liability recognition; period-end interest accretion; maturity settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-4",
+      "concept": "Number-variant twin: subsequent measurement schedule for mandatorily redeemable preferred (fixed amount/date); initial JE; multi-year period-end accretion; maturity settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-4",
+      "concept": "Equity preferred initial recognition; call/recall settlement with RE charge; convertible preferred conversion (book value method) as disposal/settlement of preferred equity",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-4",
+      "concept": "Balance-sheet classification of mandatorily redeemable vs callable vs optionally redeemable preferred stock",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 19-4",
+      "concept": "Book-value conversion of convertible preferred into common stock",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

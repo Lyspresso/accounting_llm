@@ -1,0 +1,164 @@
+{
+ "id": "agent_092#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "failed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 28,
+  "routed_stage2": 3,
+  "computable_unmatched": 11
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Laboratory Equipment"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "General and Administrative Expense"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Repairs and Maintenance Expense"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation - Laboratory Equipment"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Amortization Expense - Patent"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Accumulated Depreciation - Laboratory Equipment"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Laboratory Equipment"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Gain on Sale of Equipment"
+  },
+  {
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "side": "dr",
+   "amount": 1698000.0,
+   "solver": "research and development expense",
+   "n": 1
+  },
+  {
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "side": "cr",
+   "amount": 1698000.0,
+   "solver": "cash",
+   "n": 1
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 41000.0,
+   "solver": "repairs and maintenance expense",
+   "key_options": [
+    "production operating expense"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 600.0,
+   "solver": "patent",
+   "key_options": [
+    "accumulated amortization patent"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 10000.0,
+   "solver": "gain on sale of equipment",
+   "key_options": [
+    "gain on disposal of equipment"
+   ]
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "cr",
+   "amount": 240000.0,
+   "key": "cash",
+   "n": 1
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "dr",
+   "amount": 96000.0,
+   "key": "research and development expense",
+   "n": 1
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "cr",
+   "amount": 96000.0,
+   "key": "cash",
+   "n": 1
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "dr",
+   "amount": 1150000.0,
+   "key": "research and development expense",
+   "n": 1
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "cr",
+   "amount": 1150000.0,
+   "key": "cash",
+   "n": 1
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "dr",
+   "amount": 85000.0,
+   "key": "research and development expense",
+   "n": 1
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "cr",
+   "amount": 85000.0,
+   "key": "cash",
+   "n": 1
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "dr",
+   "amount": 72000.0,
+   "key": "research and development expense",
+   "n": 1
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "cr",
+   "amount": 72000.0,
+   "key": "cash",
+   "n": 1
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "dr",
+   "amount": 55000.0,
+   "key": "research and development expense",
+   "n": 1
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "cr",
+   "amount": 55000.0,
+   "key": "cash",
+   "n": 1
+  }
+ ]
+}

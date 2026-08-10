@@ -1,0 +1,55 @@
+{
+ "id": "agent_296#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 16,
+  "routed_stage2": 1,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "KEY_SILENT_DERIVED",
+   "label": "d: net working-capital change effect on operating cash flow",
+   "solver": 9500,
+   "from_key_components": [
+    1000.0,
+    2500.0,
+    6000.0
+   ]
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "f: $35,000 equipment sale proceeds - section",
+   "solver": "Investing activities (cash inflow)"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "f: $53,000 bond redemption cash - section",
+   "solver": "Financing activities (cash outflow)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Gain on Sale of Equipment"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Amortization Expense-Patent"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Patent, net"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 12000.0,
+   "solver": "patent net",
+   "key_options": [
+    "patent"
+   ]
+  }
+ ]
+}

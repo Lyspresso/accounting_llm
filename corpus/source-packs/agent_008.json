@@ -1,0 +1,74 @@
+{
+  "agent_id": 8,
+  "lo": "LO 14-7",
+  "chapter": 14,
+  "title": "Account for debt securities measured at FV-NI with fair value adjustments only at period-end",
+  "critical": true,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-7",
+      "concept": "initial_recognition_JE; period_end_adjusting_JE; disposal_maturity_or_settlement_JE; classification_presentation_or_disclosure",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-7",
+      "concept": "number_variant_twin; initial_recognition_JE; period_end_adjusting_JE; disposal_maturity_or_settlement_JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-7",
+      "concept": "subsequent_measurement_schedule; disposal_maturity_or_settlement_JE; period_end_adjusting_JE; classification_presentation_or_disclosure",
+      "type": "schedule",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-7",
+      "concept": "classification_presentation_or_disclosure; disposal_maturity_or_settlement_JE",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-7",
+      "concept": "period_end_adjusting_JE; classification_presentation_or_disclosure; initial_recognition_JE",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

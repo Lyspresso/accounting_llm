@@ -1,0 +1,16 @@
+{
+ "id": "agent_333#02",
+ "pack_id": "agent_333",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": "low",
+ "expected_verdict": "PASS",
+ "guards_rule": "prose_null_zero",
+ "rationale": "solver 0 IS the key's 'No journal entry'",
+ "truth_as_of_hash": "b24537d44b2786acbf616305db658b75ebe0d6a4ab498e5ab58b1b79c37b70c3",
+ "truth_as_of_bytes": "c74cf8ce6a2e32e5d462c8ed5ab12d7455565b1fa22fcda75bbb555ee542c961",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": "prose_null_zero",
+ "cross_check_evidence": "Flagged figures: 'entries required in January = 0' and 'amount recorded = 0' vs key's prose 'No journal entry.' Solver 0 IS the key's answer. All other figures tie: BV 1,632,000; dep 102,000; cap-method BS 2,592,000/1,062,000/1,530,000; machine update 7,000, loss 15,000; new machine 5,000/91,000; building schedule 870,000/1,530,000."
+}

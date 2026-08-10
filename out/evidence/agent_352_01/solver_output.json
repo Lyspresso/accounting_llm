@@ -1,0 +1,242 @@
+{
+  "id": "agent_352#01",
+  "rounding_convention": "decimal.Decimal throughout, no floats; every amount quantized to the cent with ROUND_HALF_UP applied per computed amount/period (not only at the end). No present value work is required by this fact pattern, so no PV table factors are used.",
+  "answers": [
+    {
+      "label": "a: trademark cost (Feb 1, 20X1 purchased trademark)",
+      "value": 128000
+    },
+    {
+      "label": "a: goodwill from the Oakridge Brands acquisition",
+      "value": 210000
+    },
+    {
+      "label": "b: Dec 31, 20X1 crypto fair value adjustment (unrealized gain to income)",
+      "value": 5000
+    },
+    {
+      "label": "b: 20X1 amortization on purchased trademark (indefinite life - none)",
+      "value": 0
+    },
+    {
+      "label": "b: 20X1 amortization on acquired brand (indefinite life - none)",
+      "value": 0
+    },
+    {
+      "label": "b: 20X1 amortization on acquired IPR&D (indefinite until completed/abandoned - none)",
+      "value": 0
+    },
+    {
+      "label": "b: 20X1 amortization on goodwill (not amortized - none)",
+      "value": 0
+    },
+    {
+      "label": "c: purchased Trademark carrying value 12/31/20X1",
+      "value": 128000
+    },
+    {
+      "label": "c: purchased Trademark carrying value 12/31/20X2 (sold 4/1/20X2)",
+      "value": 0
+    },
+    {
+      "label": "c: Acquired Brand carrying value 12/31/20X1",
+      "value": 80000
+    },
+    {
+      "label": "c: Acquired Brand carrying value 12/31/20X2",
+      "value": 80000
+    },
+    {
+      "label": "c: IPR&D carrying value 12/31/20X1",
+      "value": 50000
+    },
+    {
+      "label": "c: IPR&D carrying value 12/31/20X2",
+      "value": 50000
+    },
+    {
+      "label": "c: Goodwill carrying value 12/31/20X1",
+      "value": 210000
+    },
+    {
+      "label": "c: Goodwill carrying value 12/31/20X2",
+      "value": 210000
+    },
+    {
+      "label": "c: Crypto carrying value 12/31/20X1",
+      "value": 80000
+    },
+    {
+      "label": "c: Crypto carrying value 12/31/20X2",
+      "value": 68000
+    },
+    {
+      "label": "d: loss on disposal of the purchased trademark (April 1, 20X2)",
+      "value": 18000
+    },
+    {
+      "label": "d: gain/loss on disposal, signed (negative = loss)",
+      "value": -18000
+    },
+    {
+      "label": "d: Dec 31, 20X2 crypto fair value adjustment (unrealized loss to income)",
+      "value": 12000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "20X1-02-01",
+      "description": "Purchase of indefinite-life trademark (price plus external registration/legal fees)",
+      "lines": [
+        {
+          "account": "Trademark",
+          "debit": 128000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 128000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "date": "20X1-06-30",
+      "description": "Acquisition of 100% of Oakridge Brands LLC; goodwill is the residual",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 40000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Receivable",
+          "debit": 70000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 125000,
+          "credit": 0
+        },
+        {
+          "account": "Property, Plant, and Equipment",
+          "debit": 410000,
+          "credit": 0
+        },
+        {
+          "account": "Customer Relationships",
+          "debit": 45000,
+          "credit": 0
+        },
+        {
+          "account": "Trademark--Brand",
+          "debit": 80000,
+          "credit": 0
+        },
+        {
+          "account": "Acquired In-Process Research and Development",
+          "debit": 50000,
+          "credit": 0
+        },
+        {
+          "account": "Goodwill",
+          "debit": 210000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Payable",
+          "debit": 0,
+          "credit": 55000
+        },
+        {
+          "account": "Long-Term Debt",
+          "debit": 0,
+          "credit": 195000
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 780000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "date": "20X1-09-01",
+      "description": "Purchase of 3 units of a qualifying crypto asset",
+      "lines": [
+        {
+          "account": "Crypto Assets",
+          "debit": 75000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 75000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "20X1-12-31",
+      "description": "Remeasure crypto assets to fair value; change to net income (ASC 350-60)",
+      "lines": [
+        {
+          "account": "Crypto Assets",
+          "debit": 5000,
+          "credit": 0
+        },
+        {
+          "account": "Unrealized Gain--Crypto Assets (Income)",
+          "debit": 0,
+          "credit": 5000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "20X2-04-01",
+      "description": "Sale of the February 1, 20X1 purchased trademark (no amortization was ever recorded)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 110000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Disposal of Trademark",
+          "debit": 18000,
+          "credit": 0
+        },
+        {
+          "account": "Trademark",
+          "debit": 0,
+          "credit": 128000
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "20X2-12-31",
+      "description": "Remeasure crypto assets to fair value; change to net income (ASC 350-60)",
+      "lines": [
+        {
+          "account": "Unrealized Loss--Crypto Assets (Income)",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Crypto Assets",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Trademark cost = $120,000 purchase price + $8,000 external registration/legal fees = $128,000. Goodwill = $780,000 consideration - ($820,000 identifiable assets at FV - $250,000 liabilities assumed) = $210,000. No amortization is recorded on the purchased trademark, the acquired brand, acquired IPR&D (indefinite-lived until the project is completed or abandoned), or goodwill; they are impairment-tested only and the stem states there is no impairment. Acquired customer relationships ($45,000) are finite-lived and would be amortized, but part (b) does not ask about them. Crypto is carried at fair value each reporting date with remeasurement in net income (ASC 350-60): +$5,000 in 20X1 ($75,000 -> $80,000) and -$12,000 in 20X2 ($80,000 -> $68,000). The April 1, 20X2 sale yields a $18,000 loss ($110,000 proceeds - $128,000 carrying amount); no amortization catch-up applies. All journal entries balance."
+}

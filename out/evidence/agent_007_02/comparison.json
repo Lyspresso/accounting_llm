@@ -1,0 +1,22 @@
+{
+ "id": "agent_007#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 0,
+  "routed_stage2": 0,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in AFS-Oakmont Energy Bonds"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Investment in AFS-Oakmont Energy Bonds"
+  }
+ ]
+}

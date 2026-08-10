@@ -1,0 +1,74 @@
+{
+  "agent_id": 399,
+  "lo": "LO 14-5",
+  "chapter": 14,
+  "title": "Account for equity securities following the equity method",
+  "critical": true,
+  "emphasis": "disposal_maturity_or_settlement_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-5",
+      "concept": "Initial recognition; investment rollforward schedule; period-end equity-method adjustments; disposal JE after updating carrying amount through sale date",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-5",
+      "concept": "Number-variant twin: initial recognition; subsequent measurement schedule; period-end adjustments; disposal JE with updated carrying amount",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-5",
+      "concept": "Update equity-method carrying amount through partial sale date; allocate carrying amount pro rata; record partial disposal JE; continue equity method on retained interest; presentation",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-5",
+      "concept": "Classification of measurement method (equity method vs FV-NI); correct disposal gain base after equity-method updates",
+      "type": "MC",
+      "ok": true,
+      "n_mc": 2,
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

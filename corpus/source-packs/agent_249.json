@@ -1,0 +1,46 @@
+{
+  "agent_id": 249,
+  "lo": "LO 20-4",
+  "chapter": 20,
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-4",
+      "concept": "Initial recognition JE for common stock issuance; subsequent measurement schedules (weighted-average common shares and basic EPS computation); period-end closing of net income; simple-structure income-statement presentation of basic EPS",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-4",
+      "concept": "Number-variant twin: common stock issuance JE; weighted-average shares schedule and basic EPS computation schedule; period-end closing; simple-structure presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-4",
+      "concept": "Basic EPS with two classes of common stock (sum weighted-average shares); net loss per share; cash common dividend declaration and settlement JEs do not change the EPS numerator; simple capital structure presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-4",
+      "concept": "Classification of which EPS amount(s) appear on the face of the income statement when the capital structure is simple",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-4",
+      "concept": "Classification of the correct elementary basic EPS computation for a simple capital structure",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

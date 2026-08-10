@@ -1,0 +1,62 @@
+{
+  "agent_id": 317,
+  "lo": "LO 9-8",
+  "chapter": 9,
+  "title": "Apply the dollar-value LIFO method",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-8",
+      "concept": "Establish base-year layer (initial recognition); subsequent four-step DVLIFO measurement schedule for Years 1–3; period-end adjusting JEs to the LIFO reserve (emphasis); presentation of inventory net of allowance",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-8",
+      "concept": "Number-variant twin—base-year establishment; four-step layer schedule; period-end LIFO reserve adjusting JEs for Years 1–3",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-8",
+      "concept": "Adoption of DVLIFO after FIFO years; multi-year layer build; layer liquidation when base-year dollars fall (disposal of newer layers, then base); period-end adjusting JE that decreases the LIFO reserve (emphasis alternate); COGS effect of liquidation",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-8",
+      "concept": "Classification/method—each inventory layer is restated using the price index of the year the layer originated, not the current-year index",
+      "type": "MC",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

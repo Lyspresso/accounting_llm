@@ -1,0 +1,73 @@
+{
+  "agent_id": 347,
+  "lo": "LO 12-9",
+  "chapter": 12,
+  "title": "Describe property, plant, and equipment disclosures and ratio analyses",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-9",
+      "concept": "Initial recognition of heat-treat furnace; SL subsequent measurement schedule; period-end adjusting dep JE (emphasis); mid-year disposal settlement; ASC 360 PPE note; asset turnover, ROA, fixed asset turnover",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-9",
+      "concept": "Number-variant twin — initial recognition JE; SL subsequent measurement schedule; period-end and partial-period dep adjusting JEs; disposal settlement; ASC 360 note + three ratios",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-9",
+      "concept": "Period-end multi-class adjusting dep JE (emphasis); effect of omitted dep on PPE net, NI, and ratios; ASC 360 disclosure checklist and AD-to-cost; relation of depreciation method to ROA over asset age; disposal after period-end update",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-9",
+      "concept": "Classification of required depreciation and PPE disclosures (ASC 360-10-50-1)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 12-9",
+      "concept": "Classification of PPE-related efficiency and profitability ratios; effect of period-end dep on ROA",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

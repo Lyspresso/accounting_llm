@@ -1,0 +1,55 @@
+{
+  "agent_id": 371,
+  "lo": "LO 19-4",
+  "chapter": 19,
+  "title": "Describe and account for preferred stock",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-4",
+      "concept": "Initial recognition of callable and convertible preferred as equity and mandatorily redeemable as liability; subsequent accretion schedule; multi-year period-end adjusting interest JEs (emphasis); call, conversion, and maturity settlement",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-4",
+      "concept": "Number-variant twin: equity preferred issuance, conversion, call with RE charge; mandatorily redeemable liability with 4-year accretion schedule and multi-year period-end adjusting JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-4",
+      "concept": "Multi-year period-end adjusting JEs for already-outstanding mandatorily redeemable preferred; current/noncurrent presentation; issuer call of equity preferred; book-value conversion when common par exceeds preferred carrying amount; classification of callable vs holder-redeemable vs mandatory",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-4",
+      "concept": "Period-end adjusting JE for mandatorily redeemable preferred stock with fixed amount and fixed date",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 19-4",
+      "concept": "Accounting for call/recall of equity preferred when cash paid exceeds carrying amount",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

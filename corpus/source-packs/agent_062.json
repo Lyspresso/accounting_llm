@@ -1,0 +1,53 @@
+{
+  "agent_id": 62,
+  "lo": "LO 10-6",
+  "chapter": 10,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-6",
+      "concept": "Initial recognition JE for voluntary change from LIFO to FIFO; cumulative inventory–RE adjustment; restated comparative NI and inventory schedules",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-6",
+      "concept": "Number-variant twin of retrospective LIFO-to-FIFO change: cumulative JE, restated comparative NI and inventory",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-6",
+      "concept": "Prospective application when changing to LIFO; no change-date JE; mixed-method comparative presentation; LIFO base layer",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-6",
+      "concept": "Retrospective change when new method yields lower inventory (Dr RE / Cr Inventory); restated prior-year inventory on comparative balance sheet",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 10-6",
+      "concept": "Classify whether a voluntary inventory method change is applied retrospectively or prospectively",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q6",
+      "lo": "LO 10-6",
+      "concept": "Classification of cumulative effect of retrospective inventory principle change (RE vs current income)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "ok": true
+}

@@ -1,0 +1,398 @@
+{
+  "id": "agent_189#00",
+  "rounding_convention": "decimal.Decimal only; ROUND_HALF_UP to cents applied per period / per line item (round-per-period, not round-at-end). Per-unit LCM rounded first, then extended by whole-unit quantities. No PV factors apply.",
+  "answers": [
+    {
+      "label": "a: AlpineShell \u2014 ceiling (NRV) per unit",
+      "value": 80
+    },
+    {
+      "label": "a: AlpineShell \u2014 floor (NRV less normal profit) per unit",
+      "value": 68
+    },
+    {
+      "label": "a: AlpineShell \u2014 designated market per unit",
+      "value": 70
+    },
+    {
+      "label": "a: AlpineShell \u2014 LCM per unit",
+      "value": 70
+    },
+    {
+      "label": "a: AlpineShell \u2014 constraint setting market",
+      "value": "RC"
+    },
+    {
+      "label": "a: BaseLayer \u2014 ceiling (NRV) per unit",
+      "value": 36
+    },
+    {
+      "label": "a: BaseLayer \u2014 floor (NRV less normal profit) per unit",
+      "value": 29
+    },
+    {
+      "label": "a: BaseLayer \u2014 designated market per unit",
+      "value": 36
+    },
+    {
+      "label": "a: BaseLayer \u2014 LCM per unit",
+      "value": 32
+    },
+    {
+      "label": "a: BaseLayer \u2014 constraint setting market",
+      "value": "ceiling"
+    },
+    {
+      "label": "a: TrailBoot \u2014 ceiling (NRV) per unit",
+      "value": 108
+    },
+    {
+      "label": "a: TrailBoot \u2014 floor (NRV less normal profit) per unit",
+      "value": 90
+    },
+    {
+      "label": "a: TrailBoot \u2014 designated market per unit",
+      "value": 90
+    },
+    {
+      "label": "a: TrailBoot \u2014 LCM per unit",
+      "value": 90
+    },
+    {
+      "label": "a: TrailBoot \u2014 constraint setting market",
+      "value": "floor"
+    },
+    {
+      "label": "a: SummitPoles \u2014 ceiling (NRV) per unit",
+      "value": 47
+    },
+    {
+      "label": "a: SummitPoles \u2014 floor (NRV less normal profit) per unit",
+      "value": 41
+    },
+    {
+      "label": "a: SummitPoles \u2014 designated market per unit",
+      "value": 41
+    },
+    {
+      "label": "a: SummitPoles \u2014 LCM per unit",
+      "value": 41
+    },
+    {
+      "label": "a: SummitPoles \u2014 constraint setting market",
+      "value": "floor"
+    },
+    {
+      "label": "a: DayPack \u2014 ceiling (NRV) per unit",
+      "value": 92
+    },
+    {
+      "label": "a: DayPack \u2014 floor (NRV less normal profit) per unit",
+      "value": 78
+    },
+    {
+      "label": "a: DayPack \u2014 designated market per unit",
+      "value": 92
+    },
+    {
+      "label": "a: DayPack \u2014 LCM per unit",
+      "value": 72
+    },
+    {
+      "label": "a: DayPack \u2014 constraint setting market",
+      "value": "ceiling"
+    },
+    {
+      "label": "b: AlpineShell \u2014 total cost",
+      "value": 9360
+    },
+    {
+      "label": "b: AlpineShell \u2014 total LCM",
+      "value": 8400
+    },
+    {
+      "label": "b: AlpineShell \u2014 write-down",
+      "value": 960
+    },
+    {
+      "label": "b: BaseLayer \u2014 total cost",
+      "value": 6400
+    },
+    {
+      "label": "b: BaseLayer \u2014 total LCM",
+      "value": 6400
+    },
+    {
+      "label": "b: BaseLayer \u2014 write-down",
+      "value": 0
+    },
+    {
+      "label": "b: TrailBoot \u2014 total cost",
+      "value": 9450
+    },
+    {
+      "label": "b: TrailBoot \u2014 total LCM",
+      "value": 8100
+    },
+    {
+      "label": "b: TrailBoot \u2014 write-down",
+      "value": 1350
+    },
+    {
+      "label": "b: SummitPoles \u2014 total cost",
+      "value": 7200
+    },
+    {
+      "label": "b: SummitPoles \u2014 total LCM",
+      "value": 6150
+    },
+    {
+      "label": "b: SummitPoles \u2014 write-down",
+      "value": 1050
+    },
+    {
+      "label": "b: DayPack \u2014 total cost",
+      "value": 5400
+    },
+    {
+      "label": "b: DayPack \u2014 total LCM",
+      "value": 5400
+    },
+    {
+      "label": "b: DayPack \u2014 write-down",
+      "value": 0
+    },
+    {
+      "label": "b: total inventory at cost",
+      "value": 37810
+    },
+    {
+      "label": "b: total inventory at LCM (item approach)",
+      "value": 34450
+    },
+    {
+      "label": "b: total required write-down, Year 1",
+      "value": 3360
+    },
+    {
+      "label": "c: balance sheet \u2014 inventory at LIFO cost, Dec 31 Year 1",
+      "value": 37810
+    },
+    {
+      "label": "c: balance sheet \u2014 less allowance to reduce inventory to market",
+      "value": 3360
+    },
+    {
+      "label": "c: balance sheet \u2014 inventory, net (Dec 31 Year 1)",
+      "value": 34450
+    },
+    {
+      "label": "c: income statement \u2014 COGS after LCM adjustment, Year 1",
+      "value": 415360
+    },
+    {
+      "label": "d: Year 1 \u2014 inventory cost",
+      "value": 37810
+    },
+    {
+      "label": "d: Year 1 \u2014 designated market",
+      "value": 34450
+    },
+    {
+      "label": "d: Year 1 \u2014 required allowance",
+      "value": 3360
+    },
+    {
+      "label": "d: Year 1 \u2014 unadjusted allowance",
+      "value": 0
+    },
+    {
+      "label": "d: Year 1 \u2014 adjustment to allowance Dr/(Cr)",
+      "value": -3360
+    },
+    {
+      "label": "d: Year 1 \u2014 ending allowance",
+      "value": 3360
+    },
+    {
+      "label": "d: Year 1 \u2014 inventory, net",
+      "value": 34450
+    },
+    {
+      "label": "d: Year 2 \u2014 inventory cost",
+      "value": 44200
+    },
+    {
+      "label": "d: Year 2 \u2014 designated market",
+      "value": 39850
+    },
+    {
+      "label": "d: Year 2 \u2014 required allowance",
+      "value": 4350
+    },
+    {
+      "label": "d: Year 2 \u2014 unadjusted allowance",
+      "value": 3360
+    },
+    {
+      "label": "d: Year 2 \u2014 adjustment to allowance Dr/(Cr)",
+      "value": -990
+    },
+    {
+      "label": "d: Year 2 \u2014 ending allowance",
+      "value": 4350
+    },
+    {
+      "label": "d: Year 2 \u2014 inventory, net",
+      "value": 39850
+    },
+    {
+      "label": "d: Year 3 \u2014 inventory cost",
+      "value": 41000
+    },
+    {
+      "label": "d: Year 3 \u2014 designated market",
+      "value": 41800
+    },
+    {
+      "label": "d: Year 3 \u2014 required allowance",
+      "value": 0
+    },
+    {
+      "label": "d: Year 3 \u2014 unadjusted allowance",
+      "value": 4350
+    },
+    {
+      "label": "d: Year 3 \u2014 adjustment to allowance Dr/(Cr)",
+      "value": 4350
+    },
+    {
+      "label": "d: Year 3 \u2014 ending allowance",
+      "value": 0
+    },
+    {
+      "label": "d: Year 3 \u2014 inventory, net",
+      "value": 41000
+    },
+    {
+      "label": "f: net COGS related to the Year 2 inventory layer",
+      "value": 39850
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "c",
+      "date": "December 31, Year 1",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 3360,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to Market",
+          "debit": 0,
+          "credit": 3360
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "December 31, Year 1",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 3360,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to Market",
+          "debit": 0,
+          "credit": 3360
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "December 31, Year 2",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 990,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to Market",
+          "debit": 0,
+          "credit": 990
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "December 31, Year 3",
+      "lines": [
+        {
+          "account": "Allowance to Reduce Inventory to Market",
+          "debit": 4350,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 0,
+          "credit": 4350
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "March 15, Year 3 \u2014 sale of inventory for cash",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 42500,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 42500
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "March 15, Year 3 \u2014 cost of the inventory sold",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 44200,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 0,
+          "credit": 44200
+        }
+      ]
+    },
+    {
+      "part": "f",
+      "date": "March 15, Year 3 \u2014 close the December 31, Year 2 allowance",
+      "lines": [
+        {
+          "account": "Allowance to Reduce Inventory to Market",
+          "debit": 4350,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 0,
+          "credit": 4350
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Traditional LCM (LIFO cost flow): designated market = replacement cost bounded by ceiling (NRV) above and floor (NRV less normal profit) below; LCM = lower of cost and designated market, applied item by item. Year-end true-up allowance method: at Dec 31 Year 3 designated market (41,800) exceeds cost (41,000), so the required allowance is zero and the entire prior balance is reversed to COGS (recovery limited to amounts previously written down). In part (d) the adjustment column is signed Dr/(Cr): negative = credit to the allowance, positive = debit."
+}

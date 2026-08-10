@@ -1,0 +1,95 @@
+{
+  "id": "agent_367#02",
+  "rounding_convention": "decimal.Decimal only, never floats; ROUND_HALF_UP quantized to cents applied per computed amount (per period / per line item); no PV factors in this item; all inputs are whole dollars at a 25% enacted rate so every result is exact to the cent",
+  "answers": [
+    {
+      "label": "b: pretax income from continuing operations",
+      "value": 350000
+    },
+    {
+      "label": "c: taxable income",
+      "value": 293000
+    },
+    {
+      "label": "c: income taxes payable",
+      "value": 73250
+    },
+    {
+      "label": "d: deferred tax liability originating in Year 3",
+      "value": 9000
+    },
+    {
+      "label": "d: intraperiod tax expense allocated to continuing operations",
+      "value": 88250
+    },
+    {
+      "label": "d: intraperiod tax benefit allocated to discontinued operations",
+      "value": 6000
+    },
+    {
+      "label": "f: income from continuing operations",
+      "value": 261750
+    },
+    {
+      "label": "f: loss from discontinued operations, net of tax",
+      "value": -18000
+    },
+    {
+      "label": "f: net income",
+      "value": 243750
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "date": "Year 3, October 1",
+      "description": "Sale of discontinued component (tax ignored in this entry)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 156000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Disposal of Discontinued Component",
+          "debit": 24000,
+          "credit": 0
+        },
+        {
+          "account": "Net Assets of Discontinued Component",
+          "debit": 0,
+          "credit": 180000
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "date": "Year 3, December 31",
+      "description": "Record income taxes with intraperiod allocation",
+      "lines": [
+        {
+          "account": "Income Tax Expense (Continuing Operations)",
+          "debit": 88250,
+          "credit": 0
+        },
+        {
+          "account": "Income Tax Benefit (Discontinued Operations)",
+          "debit": 0,
+          "credit": 6000
+        },
+        {
+          "account": "Deferred Tax Liability",
+          "debit": 0,
+          "credit": 9000
+        },
+        {
+          "account": "Income Tax Payable",
+          "debit": 0,
+          "credit": 73250
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "g: The tax effect of the disposal loss is not reported in the continuing-operations income tax expense line. Under intraperiod tax allocation the $24,000 pretax loss on disposal is presented in the discontinued operations section net of its own $6,000 tax benefit, i.e., a single $18,000 net-of-tax loss below income from continuing operations. Continuing operations therefore reports tax computed on its own pretax income adjusted for the nondeductible fines, and the deferred tax liability from the originating temporary difference does not change the total tax expense, only its current/deferred split."
+}

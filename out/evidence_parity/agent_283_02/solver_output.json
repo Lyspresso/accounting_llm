@@ -1,0 +1,308 @@
+{
+ "id": "agent_283#02",
+ "rounding_convention": "decimal.Decimal only (no floats); ROUND_HALF_UP to the cent applied once per period (each annual interest accrual and each annual ROU amortization); accumulated rounding residual of $0.01 is plugged in the December 31, Year 8 settlement entry so ROU and lease liability both close to $0.00 and every entry has Dr = Cr.",
+ "answers": [
+  {
+   "label": "a: PV of 8 annuity-due payments of $45,000 at 8% (annuity-due factor 6.21)",
+   "value": 279286.65
+  },
+  {
+   "label": "a: PV of lease payments as % of fair value $320,000 (< 90%)",
+   "value": 87.28
+  },
+  {
+   "label": "a: lease term as % of remaining useful life (8/25, < 75%)",
+   "value": 32.0
+  },
+  {
+   "label": "a: classification of the leaseback",
+   "value": "Operating lease - no transfer of title, no purchase option, term 32% < 75% of remaining life, PV 87.28% < 90% of fair value, asset has alternative use (not specialized); none of the five finance-lease criteria is met."
+  },
+  {
+   "label": "a: sale recognition conclusion",
+   "value": "Recognized (successful) sale-leaseback: sale price equals fair value $320,000, there is no repurchase option and the leaseback is an operating lease, so control of the building transfers to Harbor Trust; the seller-lessee derecognizes the building and recognizes the full gain."
+  },
+  {
+   "label": "a: carrying amount derecognized ($700,000 cost - $430,000 accumulated depreciation)",
+   "value": 270000.0
+  },
+  {
+   "label": "a: full gain on sale recognized immediately",
+   "value": 50000.0
+  },
+  {
+   "label": "b: commencement PV of the annuity-due lease payments = Right-of-Use Asset recorded",
+   "value": 279286.65
+  },
+  {
+   "label": "b: lease liability recorded at commencement (before the first payment)",
+   "value": 279286.65
+  },
+  {
+   "label": "b: lease liability immediately after the January 1, Year 1 payment",
+   "value": 234286.65
+  },
+  {
+   "label": "c: gain on sale of building (Jan 1, Year 1 sale entry)",
+   "value": 50000.0
+  },
+  {
+   "label": "d: straight-line annual lease cost ($360,000 total payments / 8 years)",
+   "value": 45000.0
+  },
+  {
+   "label": "d: Dec 31, Year 1 interest accrued on the liability (8% x $234,286.66)",
+   "value": 18742.93
+  },
+  {
+   "label": "d: Dec 31, Year 1 ROU amortization (plug: $45,000 - interest)",
+   "value": 26257.07
+  },
+  {
+   "label": "d: why this entry differs from Q1's year-end package",
+   "value": "With payments in advance no cash moves on December 31, so the year-end entry is a pure accrual: one $45,000 lease expense whose interest component INCREASES the lease liability (credit) instead of being settled by a payment, with the remainder credited to the ROU asset. In Q1 (payments in arrears) the December 31 package also included the cash payment, so the liability was debited down by the payment on the same date; here the liability is debited only on the following January 1."
+  },
+  {
+   "label": "e: Year 1 - January 1 payment",
+   "value": 45000.0
+  },
+  {
+   "label": "e: Year 1 - lease liability after the January 1 payment",
+   "value": 234286.65
+  },
+  {
+   "label": "e: Year 1 - interest accrued at December 31 (8%)",
+   "value": 18742.93
+  },
+  {
+   "label": "e: Year 1 - lease liability balance after the December 31 adjusting entry",
+   "value": 253029.58
+  },
+  {
+   "label": "e: Year 1 - ROU amortization for the year",
+   "value": 26257.07
+  },
+  {
+   "label": "e: Year 1 - ROU asset balance after the December 31 adjusting entry",
+   "value": 253029.58
+  },
+  {
+   "label": "e: Year 1 - lease expense recognized (straight line)",
+   "value": 45000.0
+  },
+  {
+   "label": "e: Year 2 - January 1 payment",
+   "value": 45000.0
+  },
+  {
+   "label": "e: Year 2 - lease liability after the January 1 payment",
+   "value": 208029.58
+  },
+  {
+   "label": "e: Year 2 - interest accrued at December 31 (8%)",
+   "value": 16642.37
+  },
+  {
+   "label": "e: Year 2 - lease liability balance after the December 31 adjusting entry",
+   "value": 224671.95
+  },
+  {
+   "label": "e: Year 2 - ROU amortization for the year",
+   "value": 28357.63
+  },
+  {
+   "label": "e: Year 2 - ROU asset balance after the December 31 adjusting entry",
+   "value": 224671.95
+  },
+  {
+   "label": "e: Year 2 - lease expense recognized (straight line)",
+   "value": 45000.0
+  },
+  {
+   "label": "e: Year 3 - January 1 payment",
+   "value": 45000.0
+  },
+  {
+   "label": "e: Year 3 - lease liability after the January 1 payment",
+   "value": 179671.95
+  },
+  {
+   "label": "e: Year 3 - interest accrued at December 31 (8%)",
+   "value": 14373.76
+  },
+  {
+   "label": "e: Year 3 - lease liability balance after the December 31 adjusting entry",
+   "value": 194045.71
+  },
+  {
+   "label": "e: Year 3 - ROU amortization for the year",
+   "value": 30626.24
+  },
+  {
+   "label": "e: Year 3 - ROU asset balance after the December 31 adjusting entry",
+   "value": 194045.71
+  },
+  {
+   "label": "e: Year 3 - lease expense recognized (straight line)",
+   "value": 45000.0
+  },
+  {
+   "label": "f: January 1, Year 8 final cash payment (debit Lease Liability / credit Cash)",
+   "value": 45000.0
+  },
+  {
+   "label": "f: lease liability balance remaining after the January 1, Year 8 payment (rounding residual)",
+   "value": 0.0
+  },
+  {
+   "label": "f: ROU asset balance immediately before the December 31, Year 8 adjusting entry",
+   "value": 45000.0
+  },
+  {
+   "label": "f: Year 8 interest accrued at December 31 (liability already at zero)",
+   "value": 0.0
+  },
+  {
+   "label": "f: lease expense in the December 31, Year 8 final adjusting entry",
+   "value": 45000.0
+  },
+  {
+   "label": "f: ROU asset balance after the December 31, Year 8 entry",
+   "value": 0.0
+  },
+  {
+   "label": "f: lease liability balance after the December 31, Year 8 entry",
+   "value": 0.0
+  },
+  {
+   "label": "f: total lease expense recognized over the 8-year term",
+   "value": 360000.0
+  },
+  {
+   "label": "f: total interest component over the term",
+   "value": 80713.35
+  },
+  {
+   "label": "f: total ROU amortization over the term",
+   "value": 279286.65
+  },
+  {
+   "label": "g: effect if the term were 20 years (80% of life) with PV re-set to ~$320,000",
+   "value": "The leaseback would be a FINANCE lease (term 80% >= 75% of remaining economic life and PV of payments = 100% of fair value >= 90%), so control never passes to Harbor Trust and the transfer FAILS the sale test. Ironclad would recognize NO sale, NO $50,000 gain, and NO ROU asset: it keeps the building at its $270,000 carrying amount and keeps depreciating it over the 25-year remaining life, and records the $320,000 cash as a financial liability. Each $45,000 payment is then split between interest expense (on the financing liability) and principal reduction instead of a single straight-line lease cost; Harbor Trust records a note receivable rather than the building."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 320000.0,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Building",
+     "debit": 430000.0,
+     "credit": 0
+    },
+    {
+     "account": "Building",
+     "debit": 0,
+     "credit": 700000.0
+    },
+    {
+     "account": "Gain on Sale of Building",
+     "debit": 0,
+     "credit": 50000.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Right-of-Use Asset",
+     "debit": 279286.65,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0,
+     "credit": 279286.65
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Lease Liability",
+     "debit": 45000.0,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 45000.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Lease Expense",
+     "debit": 45000.0,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0,
+     "credit": 18742.93
+    },
+    {
+     "account": "Right-of-Use Asset",
+     "debit": 0,
+     "credit": 26257.07
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "lines": [
+    {
+     "account": "Lease Liability",
+     "debit": 45000.0,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 45000.0
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "lines": [
+    {
+     "account": "Lease Expense",
+     "debit": 45000.0,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0,
+     "credit": 0
+    },
+    {
+     "account": "Right-of-Use Asset",
+     "debit": 0,
+     "credit": 45000.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Annuity-due measurement: ROU and lease liability are recorded at the PV of all 8 advance payments ($279,286.66); the January 1, Year 1 payment then reduces the liability in full (no interest has accrued at commencement). Operating leaseback, so a single straight-line lease cost of $45,000 per year is recognized; the December 31 accrual credits Lease Liability for interest and credits the ROU asset for the remainder, leaving ROU = liability at each December 31."
+}

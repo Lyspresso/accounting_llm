@@ -1,0 +1,46 @@
+{
+  "agent_id": 247,
+  "lo": "LO 20-2",
+  "chapter": 20,
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-2",
+      "concept": "Grant-date fair-value measurement (no grant JE); multi-year subsequent measurement schedule with cumulative PIC—Stock Options rollforward; period-end adjusting JE; exercise and expiration settlement JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-2",
+      "concept": "Number-variant twin: grant-date FV measurement (no grant JE); three-year subsequent measurement schedule; exercise and expiration JEs",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-2",
+      "concept": "Subsequent measurement schedules under as-incurred vs estimated forfeitures (cumulative catch-up); period-end adjusting JEs; performance-condition probability gate with multi-year catch-up",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-2",
+      "concept": "Classification of the accounting event at the grant date for equity-classified employee stock options",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-2",
+      "concept": "Classification of settlement outcomes for vested stock options (exercise vs time-lapse expiration)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

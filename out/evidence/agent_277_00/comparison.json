@@ -1,0 +1,13 @@
+{
+ "id": "agent_277#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 14,
+  "routed_stage2": 0,
+  "computable_unmatched": 0
+ },
+ "issues": []
+}

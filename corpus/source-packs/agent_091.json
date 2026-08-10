@@ -1,0 +1,46 @@
+{
+  "agent_id": 91,
+  "lo": "LO 13-6",
+  "chapter": 13,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-6",
+      "concept": "Initial recognition of impairment losses on indefinite-life trade name and reporting-unit goodwill; post-impairment carrying schedule; disposal of trade name; presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-6",
+      "concept": "Number-variant twin: quantitative impairment of indefinite-life trademark and RU goodwill; carrying schedule; disposal with gain; presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-6",
+      "concept": "Period-end quantitative tests: goodwill impairment capped at allocated goodwill; indefinite-life asset with FV ≥ CA (no loss); classification/presentation and qualitative option",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-6",
+      "concept": "Cap on goodwill impairment; optional qualitative assessment",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 13-6",
+      "concept": "Quantitative impairment model for indefinite-life intangible assets (other than goodwill)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

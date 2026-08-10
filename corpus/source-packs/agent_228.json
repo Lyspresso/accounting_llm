@@ -1,0 +1,74 @@
+{
+  "agent_id": 228,
+  "lo": "LO 15-4",
+  "chapter": 15,
+  "title": "Account for short-term debt and classify debt on the balance sheet",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-4",
+      "concept": "Subsequent measurement schedule for SL discount amortization and carrying amount of a short-term noninterest-bearing note; initial recognition at PV; period-end adjusting JE; maturity settlement JE; net current presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-4",
+      "concept": "Number-variant twin: subsequent measurement (SL discount) schedule; initial recognition at PV; period-end amortization JE; maturity settlement; net current presentation",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-4",
+      "concept": "Initial recognition of interest-bearing short-term note; subsequent interest accrual schedule; period-end Interest Payable JE; maturity settlement; multi-scenario balance sheet classification (current maturities, callable debt, refinancing, noncurrent-asset settlement)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-4",
+      "concept": "Balance sheet classification of short-term debt expected to be refinanced (intent and ability)",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-4",
+      "concept": "Classification of long-term debt that is callable because of a covenant violation",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

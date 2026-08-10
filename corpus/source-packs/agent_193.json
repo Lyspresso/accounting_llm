@@ -1,0 +1,78 @@
+{
+  "agent_id": 193,
+  "lo": "LO 10-6",
+  "chapter": 10,
+  "title": "Describe the accounting treatment for changes in inventory methods",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-6",
+      "concept": "Retrospective LIFO→FIFO — cumulative Inventory/RE entry, multi-year inventory/NI schedule, restated comparatives, Year-3 FIFO period-end COGS",
+      "type": "multipart",
+      "company": "Meridian Forge Distributors Inc.",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-6",
+      "concept": "Number-variant twin — recompute cumulative Inventory/RE adjustment, restated NI and inventory schedule, Year-of-change FIFO COGS",
+      "type": "multipart",
+      "company": "Northcliff Wholesale LLC",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-6",
+      "concept": "Prospective FIFO→LIFO (no JE, base-layer schedule); retrospective average→FIFO when EI decreases; cumulative effect settled in RE",
+      "type": "multipart",
+      "company": "Pinecrest Retail Group / Oakridge Parts Co.",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4A",
+      "lo": "LO 10-6",
+      "concept": "Classify prospective application when changing to LIFO (no JE; base layer)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q4B",
+      "lo": "LO 10-6",
+      "concept": "Compute equity effect of retrospective LIFO→FIFO cumulative Inventory/RE entry",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_193.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_193.json"
+}

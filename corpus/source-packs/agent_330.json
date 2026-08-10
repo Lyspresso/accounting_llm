@@ -1,0 +1,72 @@
+{
+  "agent_id": 330,
+  "lo": "LO 11-3",
+  "chapter": 11,
+  "title": "Account for acquisition of property, plant, and equipment through debt and equity issuances",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "number_variant_twin",
+    "classification_presentation_or_disclosure"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-3",
+      "concept": "Initial recognition of specialized equipment at cash + PV of noninterest-bearing note; effective-interest subsequent measurement schedule; period-end adjusting JEs for discount amortization; maturity settlement; equity-issuance alternative",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-3",
+      "concept": "Number-variant twin — cash + PV of noninterest note (asset FV unknown); effective-interest schedule; period-end adjusting JEs; maturity settlement; equity alternative",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-3",
+      "concept": "Period-end adjusting JE emphasis — note-year effective-interest schedule vs fiscal calendar allocation when acquisition is mid-year; maturity settlement; asset FV known / market rate unknown (impute rate)",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-3",
+      "concept": "Classification / method choice — more clearly evident measurement base for noninterest-bearing debt vs publicly traded equity",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "answers": ["B", "B"],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

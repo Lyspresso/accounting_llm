@@ -1,0 +1,46 @@
+{
+  "agent_id": 384,
+  "lo": "LO 20-8",
+  "chapter": 20,
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 20-8",
+      "concept": "Period-end as-if diluted share determination for four contingency types; initial common-stock recognition JE; period-end closing JEs (emphasis); multi-year subsequent measurement schedule; settlement issuance JEs when conditions are met",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 20-8",
+      "concept": "Number-variant twin of Demo 20-8 path: current-year earnings used as proxy for next-year NI target; period-end diluted EPS schedules; subsequent measurement when target later fails; no settlement JE",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 20-8",
+      "concept": "Period-end determination of multiple contingency types (earnings threshold, earnings formula, market-price fail); basic vs diluted share counts; period-end closing JE; settlement issuance JE next year",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 20-8",
+      "concept": "Classification of when contingently issuable shares are included in diluted EPS under the as-if period-end rule",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 20-8",
+      "concept": "EPS presentation when contingently issuable shares fail the period-end as-if test",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

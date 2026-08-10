@@ -1,0 +1,81 @@
+{
+  "agent_id": 241,
+  "lo": "LO 19-5",
+  "chapter": 19,
+  "title": "Record dividend distributions, including cash, property, and liquidating",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "number_variant_twin",
+    "classification_presentation_or_disclosure"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-5",
+      "concept": "Preferred allocation schedule; initial recognition of cash/property/liquidating dividends; property FV remeasurement; settlement; period-end unpaid dividends",
+      "type": "multipart",
+      "company": "Redwood Trail Outfitters Inc.",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-5",
+      "concept": "Number-variant twin — preferred allocation schedule; property remeasurement when FV < CV; liquidating split; settlement",
+      "type": "multipart",
+      "company": "Lumenbridge Logistics Co.",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-5",
+      "concept": "Multi-period preferred arrears schedule; property investment CV rollforward; period-end current liability for unpaid cash dividends",
+      "type": "schedule",
+      "company": "Silverpine Chemtech Corp.",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4A",
+      "lo": "LO 19-5",
+      "concept": "Classification — liquidating vs earnings portion debits APIC vs RE",
+      "type": "MC",
+      "angles": ["classification_presentation_or_disclosure"],
+      "ok": true
+    },
+    {
+      "qid": "Q4B",
+      "lo": "LO 19-5",
+      "concept": "Property dividend measurement basis — fair value at declaration date",
+      "type": "MC",
+      "angles": ["classification_presentation_or_disclosure"],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "mc_count": 2,
+  "ok": true,
+  "output_md": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_241.md",
+  "output_json": "/Users/lyspressopro/Developer/LedgerRush/staged-work/core-demo/results/agent_241.json"
+}

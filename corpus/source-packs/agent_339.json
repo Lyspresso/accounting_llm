@@ -1,0 +1,71 @@
+{
+  "agent_id": 339,
+  "lo": "LO 12-11",
+  "chapter": 12,
+  "title": "Depreciation under GAAP and under the Internal Revenue Code are different",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 12-11",
+      "concept": "Initial recognition of PPE; subsequent book SL vs MACRS tax schedules; period-end adjusting JEs for GAAP depreciation only (emphasis); disposal with different book vs tax gain",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 12-11",
+      "concept": "Number-variant twin — initial PPE recognition; 5-year MACRS tax schedule vs book SL; period-end GAAP adjusting JEs (emphasis); disposal book vs tax",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 12-11",
+      "concept": "Period-end adjusting JE emphasis — compute current-year book depreciation only; reconcile cumulative book vs MACRS tax; identify what is / is not journalized; presentation of book carrying amount",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 12-11",
+      "concept": "Classification of book vs tax depreciation attributes; what is journalized at period-end",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "n_mc": 2,
+      "answers": ["C", "B"],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

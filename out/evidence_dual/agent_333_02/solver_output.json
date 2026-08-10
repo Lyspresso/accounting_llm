@@ -1,0 +1,443 @@
+{
+ "id": "agent_333#02",
+ "rounding_convention": "decimal.Decimal only (no floats); every amount quantized to whole dollars with ROUND_HALF_UP, applied period-by-period as each period's depreciation is computed; schedules closed exactly (Dec 31 BV proved = cost - accum. dep.; all divisions here are exact so no rounding residual arose); Dr = Cr asserted on every entry.",
+ "answers": [
+  {
+   "label": "check: building Jan 1, 20X7 book value = cost - accum. dep.",
+   "value": 1440000.0
+  },
+  {
+   "label": "check: building pre-change annual depreciation = BV / remaining life (straight line)",
+   "value": 120000.0
+  },
+  {
+   "label": "check: machine Jan 1, 20X7 book value = cost - accum. dep.",
+   "value": 24000.0
+  },
+  {
+   "label": "check: old machine annual depreciation = BV / remaining life",
+   "value": 12000.0
+  },
+  {
+   "label": "a: journal entry required in January for the planned major maintenance budget? (0 = no entry / no amount recognized)",
+   "value": 0.0
+  },
+  {
+   "label": "a: liability accrued in January for the planned $180,000 overhaul",
+   "value": 0.0
+  },
+  {
+   "label": "a: expense recognized in January for the planned $180,000 overhaul",
+   "value": 0.0
+  },
+  {
+   "label": "a: the budgeted overhaul amount that remains merely a budget figure (no JE)",
+   "value": 180000.0
+  },
+  {
+   "label": "b: debit to Accumulated Depreciation - Building on Aug 1",
+   "value": 192000.0
+  },
+  {
+   "label": "b: credit to Cash on Aug 1",
+   "value": 192000.0
+  },
+  {
+   "label": "b: building gross cost after the Aug 1 entry (unchanged)",
+   "value": 2400000.0
+  },
+  {
+   "label": "b: building accumulated depreciation immediately after the Aug 1 entry (960,000 - 192,000)",
+   "value": 768000.0
+  },
+  {
+   "label": "b: building book value immediately after the Aug 1 expenditure",
+   "value": 1632000.0
+  },
+  {
+   "label": "b: revised remaining useful life of the building (12 + 4)",
+   "value": 16.0
+  },
+  {
+   "label": "b: revised FULL-YEAR 20X7 building depreciation (post-expenditure BV / 16 yrs)",
+   "value": 102000.0
+  },
+  {
+   "label": "b: increase/(decrease) in annual building depreciation vs pre-change $120,000",
+   "value": -18000.0
+  },
+  {
+   "label": "b: building accumulated depreciation at Dec 31, 20X7 (reduction method)",
+   "value": 870000.0
+  },
+  {
+   "label": "b: building book value at Dec 31, 20X7",
+   "value": 1530000.0
+  },
+  {
+   "label": "c: building gross cost after Aug 1 under capitalization (2,400,000 + 192,000)",
+   "value": 2592000.0
+  },
+  {
+   "label": "c: building accumulated depreciation after Aug 1 under capitalization (unchanged)",
+   "value": 960000.0
+  },
+  {
+   "label": "c: building book value after Aug 1 under capitalization (identical to (b))",
+   "value": 1632000.0
+  },
+  {
+   "label": "c: 20X7 depreciation expense under capitalization (same BV, same 16-year life)",
+   "value": 102000.0
+  },
+  {
+   "label": "c: difference in 20X7 depreciation expense between the two methods",
+   "value": 0.0
+  },
+  {
+   "label": "c: Dec 31 balance sheet - gross cost, reduction method",
+   "value": 2400000.0
+  },
+  {
+   "label": "c: Dec 31 balance sheet - accumulated depreciation, reduction method",
+   "value": 870000.0
+  },
+  {
+   "label": "c: Dec 31 balance sheet - gross cost, capitalization method",
+   "value": 2592000.0
+  },
+  {
+   "label": "c: Dec 31 balance sheet - accumulated depreciation, capitalization method",
+   "value": 1062000.0
+  },
+  {
+   "label": "c: Dec 31 net book value under BOTH methods (identical)",
+   "value": 1530000.0
+  },
+  {
+   "label": "c: gross-cost presentation difference (capitalization - reduction)",
+   "value": 192000.0
+  },
+  {
+   "label": "c: accumulated-depreciation presentation difference (capitalization - reduction)",
+   "value": 192000.0
+  },
+  {
+   "label": "d: months of depreciation on the old machine in 20X7 (Jan 1 -> Aug 1)",
+   "value": 7.0
+  },
+  {
+   "label": "d: depreciation update on the old machine through Aug 1 (7/12 x 12,000)",
+   "value": 7000.0
+  },
+  {
+   "label": "d: old machine accumulated depreciation at Aug 1 (after the update)",
+   "value": 67000.0
+  },
+  {
+   "label": "d: old machine book value at the disposal date",
+   "value": 17000.0
+  },
+  {
+   "label": "d: cash proceeds on sale of the old machine",
+   "value": 2000.0
+  },
+  {
+   "label": "d: loss on disposal of the old machine (BV 17,000 - proceeds 2,000)",
+   "value": 15000.0
+  },
+  {
+   "label": "d: gain on disposal of the old machine",
+   "value": 0.0
+  },
+  {
+   "label": "d: cost capitalized for the new machine",
+   "value": 96000.0
+  },
+  {
+   "label": "d: total cash paid Aug 1 (modernization + new machine)",
+   "value": 288000.0
+  },
+  {
+   "label": "d: net cash outflow Aug 1 (modernization + new machine - proceeds)",
+   "value": 286000.0
+  },
+  {
+   "label": "e: new machine full-year (annual) depreciation (96,000 / 8)",
+   "value": 12000.0
+  },
+  {
+   "label": "e: months the new machine was held in 20X7 (Aug 1 -> Dec 31)",
+   "value": 5.0
+  },
+  {
+   "label": "e: new machine 20X7 depreciation expense (5/12 x 12,000)",
+   "value": 5000.0
+  },
+  {
+   "label": "e: new machine cost at Dec 31, 20X7",
+   "value": 96000.0
+  },
+  {
+   "label": "e: new machine accumulated depreciation at Dec 31, 20X7",
+   "value": 5000.0
+  },
+  {
+   "label": "e: new machine book value (carrying amount) at Dec 31, 20X7",
+   "value": 91000.0
+  },
+  {
+   "label": "e: new machine remaining useful life at Dec 31, 20X7, in months",
+   "value": 91.0
+  },
+  {
+   "label": "e: new machine remaining useful life at Dec 31, 20X7, in years (91/12)",
+   "value": 7.583
+  },
+  {
+   "label": "e: new machine residual value",
+   "value": 0.0
+  },
+  {
+   "label": "e: new machine monthly depreciation (12,000 / 12)",
+   "value": 1000.0
+  },
+  {
+   "label": "f: [Jan 1, 20X7 - opening balances] cost",
+   "value": 2400000.0
+  },
+  {
+   "label": "f: [Jan 1, 20X7 - opening balances] accumulated depreciation",
+   "value": 960000.0
+  },
+  {
+   "label": "f: [Jan 1, 20X7 - opening balances] book value",
+   "value": 1440000.0
+  },
+  {
+   "label": "f: [Jan 1, 20X7 - opening balances] remaining useful life (years)",
+   "value": 12.0
+  },
+  {
+   "label": "f: [Jan 1, 20X7 - opening balances] annual depreciation going forward",
+   "value": 120000.0
+  },
+  {
+   "label": "f: [Aug 1, 20X7 - modernization charged to accum. dep. ($192,000)] cost",
+   "value": 2400000.0
+  },
+  {
+   "label": "f: [Aug 1, 20X7 - modernization charged to accum. dep. ($192,000)] accumulated depreciation",
+   "value": 768000.0
+  },
+  {
+   "label": "f: [Aug 1, 20X7 - modernization charged to accum. dep. ($192,000)] book value",
+   "value": 1632000.0
+  },
+  {
+   "label": "f: [Aug 1, 20X7 - modernization charged to accum. dep. ($192,000)] remaining useful life (years)",
+   "value": 16.0
+  },
+  {
+   "label": "f: [Aug 1, 20X7 - modernization charged to accum. dep. ($192,000)] annual depreciation going forward",
+   "value": 102000.0
+  },
+  {
+   "label": "f: [Dec 31, 20X7 - period-end depreciation ($102,000)] cost",
+   "value": 2400000.0
+  },
+  {
+   "label": "f: [Dec 31, 20X7 - period-end depreciation ($102,000)] accumulated depreciation",
+   "value": 870000.0
+  },
+  {
+   "label": "f: [Dec 31, 20X7 - period-end depreciation ($102,000)] book value",
+   "value": 1530000.0
+  },
+  {
+   "label": "f: [Dec 31, 20X7 - period-end depreciation ($102,000)] remaining useful life (years)",
+   "value": 15.0
+  },
+  {
+   "label": "f: [Dec 31, 20X7 - period-end depreciation ($102,000)] annual depreciation going forward",
+   "value": 102000.0
+  },
+  {
+   "label": "f: proof - opening BV + betterment - 20X7 depreciation = Dec 31 BV",
+   "value": 1530000.0
+  },
+  {
+   "label": "f: remaining depreciable amount at Dec 31, 20X7 over 15 remaining years",
+   "value": 1530000.0
+  },
+  {
+   "label": "total 20X7 depreciation expense (building 102,000 + old machine 7,000 + new machine 5,000)",
+   "value": 114000.0
+  },
+  {
+   "label": "total 20X7 loss on disposal",
+   "value": 15000.0
+  },
+  {
+   "label": "total 20X7 charge to income (depreciation + loss on disposal)",
+   "value": 129000.0
+  },
+  {
+   "label": "total 20X7 PPE-related cash outflow, net of proceeds",
+   "value": 286000.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "No entry required (memorandum only: $180,000 budget is not an accountable event)",
+     "debit": 0.0,
+     "credit": 0.0
+    }
+   ],
+   "memo": "No JE. No past event -> no present obligation; accruing planned major maintenance in advance is not permitted. Recognize only when incurred."
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Accumulated Depreciation - Building",
+     "debit": 192000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 192000.0
+    }
+   ],
+   "memo": "Aug 1 electrical modernization, $192,000, charged against accumulated depreciation (life extension; reduction-of-accumulated-depreciation method)."
+  },
+  {
+   "part": "b-dec31",
+   "lines": [
+    {
+     "account": "Depreciation Expense - Building",
+     "debit": 102000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accumulated Depreciation - Building",
+     "debit": 0.0,
+     "credit": 102000.0
+    }
+   ],
+   "memo": "Dec 31, 20X7 period-end adjusting entry - revised building depreciation."
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Building",
+     "debit": 192000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 192000.0
+    }
+   ],
+   "memo": "Alternative presentation - Aug 1 modernization capitalized to the asset account."
+  },
+  {
+   "part": "c-dec31",
+   "lines": [
+    {
+     "account": "Depreciation Expense - Building",
+     "debit": 102000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accumulated Depreciation - Building",
+     "debit": 0.0,
+     "credit": 102000.0
+    }
+   ],
+   "memo": "Dec 31 under the capitalization alternative - identical amount."
+  },
+  {
+   "part": "d-1",
+   "lines": [
+    {
+     "account": "Depreciation Expense - Machinery",
+     "debit": 7000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accumulated Depreciation - Machinery",
+     "debit": 0.0,
+     "credit": 7000.0
+    }
+   ],
+   "memo": "Aug 1 - update depreciation on the old machine through the disposal date (7/12 x $12,000)."
+  },
+  {
+   "part": "d-2",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 2000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accumulated Depreciation - Machinery",
+     "debit": 67000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Loss on Disposal of Machinery",
+     "debit": 15000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Machinery (old)",
+     "debit": 0.0,
+     "credit": 84000.0
+    }
+   ],
+   "memo": "Aug 1 - sell the old machine for $2,000 cash; remove cost and accumulated depreciation; recognize the loss."
+  },
+  {
+   "part": "d-3",
+   "lines": [
+    {
+     "account": "Machinery (new)",
+     "debit": 96000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 96000.0
+    }
+   ],
+   "memo": "Aug 1 - purchase the replacement machine for $96,000 cash."
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Depreciation Expense - Machinery",
+     "debit": 5000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accumulated Depreciation - Machinery",
+     "debit": 0.0,
+     "credit": 5000.0
+    }
+   ],
+   "memo": "Dec 31, 20X7 period-end adjusting entry - depreciation on the new machine."
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "(a) No JE in January. A planned major overhaul is a future event: there is no past transaction creating a present obligation, so no liability and no expense may be recognized, and accruing/providing in advance for planned major maintenance is not permitted. The $180,000 is a budget only; the cost is recognized when incurred (expensed as repairs/maintenance, or capitalized if it qualifies as a betterment). (b) Because the modernization extends the building's life (rather than improving output quality) and the old electrical component's cost is not separately tracked, the $192,000 is debited to Accumulated Depreciation - Building; gross cost stays at $2,400,000, accum. dep. falls to $768,000, and BV rises to $1,632,000. Revised full-year depreciation = $1,632,000 / 16 yrs = $102,000 (per the stem's simplifying assumption, a full year is taken in 20X7 rather than pro-rating the pre- and post-change periods). (c) Capitalizing instead debits Building $192,000, giving gross cost $2,592,000 with accum. dep. still $960,000 - the same $1,632,000 BV and the same 16-year life, hence identical $102,000 depreciation and identical Dec 31 net book value of $1,530,000. Only the gross presentation differs: capitalization shows a $192,000 larger cost AND a $192,000 larger accumulated depreciation than the reduction method. (d) Old machine: 7/12 x $12,000 = $7,000 catch-up depreciation, accum. dep. $67,000, BV $17,000; sold for $2,000, so a $15,000 loss on disposal. New machine capitalized at $96,000. (e) New machine depreciation for 20X7 = 5/12 x ($96,000 / 8) = $5,000 (held Aug 1 - Dec 31); no full-year simplifying assumption was extended to the machine, which was only acquired on Aug 1. Dec 31 snapshot: cost $96,000, accum. dep. $5,000, BV $91,000, 91 months (7 yr 7 mo) of life left, residual $0. (f) Schedule closes exactly: $1,440,000 + $192,000 - $102,000 = $1,530,000 = $2,400,000 - $870,000. Whole-dollar ROUND_HALF_UP throughout; every amount divided evenly, so no rounding residual arose."
+}

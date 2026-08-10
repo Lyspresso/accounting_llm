@@ -1,0 +1,74 @@
+{
+  "agent_id": 302,
+  "lo": "LO 8-2",
+  "chapter": 8,
+  "title": "Account for sales and collections on account including the impact of cash discounts",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-2",
+      "concept": "Initial recognition under gross method; mid-period collection within discount window; period-end adjusting JE for expected discounts on open AR (emphasis); subsequent AR / allowance schedule; settlement after year-end (with and without discount)",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-2",
+      "concept": "Number-variant twin: gross-method initial recognition; early/late settlement; period-end adjusting JE for expected discounts; AR/allowance schedule; post-YE settlement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-2",
+      "concept": "Net-method initial recognition; partial early settlement; period-end adjusting JE for expected forfeitures (emphasis); subsequent AR schedule at net then stepped-up; late settlement after YE; revenue presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-2",
+      "concept": "Classification of the correct period-end adjusting JE under the gross method vs net method for cash discounts",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 8-2",
+      "concept": "Method classification — initial measurement of AR and sales when a cash discount is offered",
+      "type": "MC",
+      "angles": [
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

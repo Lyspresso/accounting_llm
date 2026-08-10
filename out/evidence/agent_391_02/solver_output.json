@@ -1,0 +1,199 @@
+{
+  "id": "agent_391#02",
+  "rounding_convention": "decimal.Decimal only, never float; ROUND_HALF_UP quantized to cents per period/per amount as computed (all figures here are whole dollars, so the rounding step is a no-op); no PV factors used",
+  "answers": [
+    {
+      "label": "b: item (1) lower-half amount - Decrease in accounts receivable, net of the increase in the allowance - Operating add",
+      "value": 14000
+    },
+    {
+      "label": "b: item (2) lower-half amount - Increase in inventory - Operating deduct",
+      "value": 6500
+    },
+    {
+      "label": "b: item (3) lower-half amount - Depreciation expense - Operating add",
+      "value": 28000
+    },
+    {
+      "label": "b: item (4) lower-half amount - Loss on sale of equipment - Operating add",
+      "value": 5000
+    },
+    {
+      "label": "b: item (4) lower-half amount - Proceeds from sale of equipment - Investing inflow",
+      "value": 30000
+    },
+    {
+      "label": "b: item (5) lower-half amount - Issuance of bonds payable - Financing inflow",
+      "value": 76000
+    },
+    {
+      "label": "b: item (6) lower-half amount - Amortization of bond discount - Operating add",
+      "value": 800
+    },
+    {
+      "label": "b: item (7) lower-half amount - Loss on bond retirement - Operating add",
+      "value": 1400
+    },
+    {
+      "label": "b: item (7) lower-half amount - Payment for bond retirement - Financing outflow",
+      "value": 79000
+    },
+    {
+      "label": "c: net effect on operating cash flows from items (1)-(4) and (6)-(7) (positive = increase in operating cash flows)",
+      "value": 42700
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "item": 1,
+      "description": "Period-end WC: change in accounts receivable, net of allowance",
+      "lines": [
+        {
+          "account": "Decrease in Accounts Receivable-Operating Section",
+          "debit": 14000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Receivable",
+          "debit": 0,
+          "credit": 12000
+        },
+        {
+          "account": "Allowance for Doubtful Accounts",
+          "debit": 0,
+          "credit": 2000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "item": 2,
+      "description": "Period-end WC: increase in inventory",
+      "lines": [
+        {
+          "account": "Inventory",
+          "debit": 6500,
+          "credit": 0
+        },
+        {
+          "account": "Increase in Inventory-Operating Section",
+          "debit": 0,
+          "credit": 6500
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "item": 3,
+      "description": "Period-end adjusting: depreciation expense on equipment",
+      "lines": [
+        {
+          "account": "Depreciation Expense-Operating Section",
+          "debit": 28000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation-Equipment",
+          "debit": 0,
+          "credit": 28000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "item": 4,
+      "description": "Disposal of equipment at a loss",
+      "lines": [
+        {
+          "account": "Proceeds from Sale of Equipment-Investing Section",
+          "debit": 30000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation-Equipment",
+          "debit": 55000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Sale of Equipment-Operating Section",
+          "debit": 5000,
+          "credit": 0
+        },
+        {
+          "account": "Equipment",
+          "debit": 0,
+          "credit": 90000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "item": 5,
+      "description": "Initial recognition: bonds issued at 95 (a discount)",
+      "lines": [
+        {
+          "account": "Issuance of Bonds Payable-Financing Section",
+          "debit": 76000,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 4000,
+          "credit": 0
+        },
+        {
+          "account": "Bonds Payable",
+          "debit": 0,
+          "credit": 80000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "item": 6,
+      "description": "Period-end: amortization of bond discount",
+      "lines": [
+        {
+          "account": "Amortization of Bond Discount-Operating Section",
+          "debit": 800,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 800
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "item": 7,
+      "description": "Settlement: early retirement of bonds at a loss",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 80000,
+          "credit": 0
+        },
+        {
+          "account": "Loss on Bond Retirement-Operating Section",
+          "debit": 1400,
+          "credit": 0
+        },
+        {
+          "account": "Discount on Bonds Payable",
+          "debit": 0,
+          "credit": 2400
+        },
+        {
+          "account": "Payment for Bond Retirement-Financing Section",
+          "debit": 0,
+          "credit": 79000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part a: seven reconstructed worksheet entries, each balanced (Dr = Cr asserted in code). Worksheet convention per LO 22-6: SCF additions are debits and SCF deductions are credits in the lower half; lower-half lines carry the section name. Item 1 follows the textbook practice of carrying accounts receivable to the operating section NET of the allowance change (12,000 + 2,000 = 14,000 as a single operating add), so item 1 produces one lower-half amount rather than two. Item 4: book value 35,000 vs proceeds 30,000 gives a 5,000 loss added back in operating, with the 30,000 proceeds an investing inflow. Item 5: 80,000 x 95% = 76,000 cash, a financing inflow (its lower-half amount is listed in part b but excluded from part c, which is operating-only). Item 7: carrying value 77,600 vs 79,000 paid gives a 1,400 loss added back in operating, with the 79,000 a financing outflow. Part c sums only the operating-section pieces of items 1-4 and 6-7: +14,000 - 6,500 + 28,000 + 5,000 + 800 + 1,400. Note the stem's unamortized discount at retirement (2,400) is a given and is not the 3,200 that 4,000 less one year of 800 amortization would imply; the stem figure is used as stated and this does not affect any required amount other than through the 1,400 loss, which is computed from it."
+}

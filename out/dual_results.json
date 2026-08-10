@@ -1,0 +1,581 @@
+{
+ "verified": [
+  {
+   "id": "agent_134#01",
+   "label": "d: IS Yr 1 - Net effect on income from this investment",
+   "value": 900.0,
+   "matched_by": "label",
+   "label_overlap": 0.67
+  },
+  {
+   "id": "agent_270#00",
+   "label": "d: Year 1 total pre-tax income effect",
+   "value": -2100.0,
+   "matched_by": "value",
+   "label_overlap": 0.0
+  },
+  {
+   "id": "agent_270#00",
+   "label": "f: Reconciliation - Year 2 net gain/(loss) recognized",
+   "value": 600.0,
+   "matched_by": "label",
+   "label_overlap": 0.5
+  },
+  {
+   "id": "agent_214#02",
+   "label": "c: Year 5 accumulated depreciation since write-down (Asset B)",
+   "value": 120000.0,
+   "matched_by": "label",
+   "label_overlap": 0.91
+  },
+  {
+   "id": "agent_214#02",
+   "label": "c: Year 6 accumulated depreciation since write-down (Asset B)",
+   "value": 180000.0,
+   "matched_by": "label",
+   "label_overlap": 0.91
+  },
+  {
+   "id": "agent_214#02",
+   "label": "c: Year 7 accumulated depreciation since write-down (Asset B)",
+   "value": 240000.0,
+   "matched_by": "label",
+   "label_overlap": 0.91
+  },
+  {
+   "id": "agent_248#01",
+   "label": "b: Plan N purchase price per share (95% x $48 market)",
+   "value": 45.6,
+   "matched_by": "label",
+   "label_overlap": 0.91
+  },
+  {
+   "id": "agent_032#01",
+   "label": "a: Valuation allowance at 12/31/Y1 (full realization MLTN)",
+   "value": 0.0,
+   "matched_by": "label",
+   "label_overlap": 0.77
+  },
+  {
+   "id": "agent_303#02",
+   "label": "c: Year-end adjusting entry - Sales Returns debit / Refund Liability credit (increase)",
+   "value": 13250.0,
+   "matched_by": "label",
+   "label_overlap": 0.47
+  },
+  {
+   "id": "agent_303#02",
+   "label": "c: Year-end adjusting entry - Inventory-Estimated Returns debit / COGS credit (increase)",
+   "value": 7950.0,
+   "matched_by": "label",
+   "label_overlap": 0.47
+  },
+  {
+   "id": "agent_303#02",
+   "label": "d: Refund Liability rollforward - actual returns charged against the liability",
+   "value": 0.0,
+   "matched_by": "label",
+   "label_overlap": 0.5
+  },
+  {
+   "id": "agent_303#02",
+   "label": "d: Refund Liability rollforward - year-end adjustment (true-up)",
+   "value": 13250.0,
+   "matched_by": "label",
+   "label_overlap": 0.38
+  },
+  {
+   "id": "agent_303#02",
+   "label": "d: Inventory-Estimated Returns rollforward - amounts relieved for actual returns",
+   "value": 0.0,
+   "matched_by": "label",
+   "label_overlap": 0.41
+  },
+  {
+   "id": "agent_303#02",
+   "label": "d: Inventory-Estimated Returns rollforward - year-end adjustment (true-up)",
+   "value": 7950.0,
+   "matched_by": "label",
+   "label_overlap": 0.44
+  },
+  {
+   "id": "agent_303#02",
+   "label": "f: Total Sales Returns contra (actual $19,800 + true-up $13,250)",
+   "value": 33050.0,
+   "matched_by": "label",
+   "label_overlap": 0.42
+  },
+  {
+   "id": "agent_303#02",
+   "label": "f: Net Sales for Year 2",
+   "value": 515300.0,
+   "matched_by": "label",
+   "label_overlap": 0.83
+  },
+  {
+   "id": "agent_043#00",
+   "label": "d: Carrying amount Dec 31 Yr2",
+   "value": 13015.7,
+   "matched_by": "label",
+   "label_overlap": 0.5
+  },
+  {
+   "id": "agent_043#00",
+   "label": "d: Carrying amount Dec 31 Yr3",
+   "value": 14317.75,
+   "matched_by": "label",
+   "label_overlap": 0.5
+  },
+  {
+   "id": "agent_043#00",
+   "label": "e: Less unamortized Discount on Note Receivable at Dec 31 Yr1",
+   "value": 3167.55,
+   "matched_by": "label",
+   "label_overlap": 0.53
+  },
+  {
+   "id": "agent_053#01",
+   "label": "a: Year 1 \u2014 allowance beginning balance",
+   "value": 0.0,
+   "matched_by": "label",
+   "label_overlap": 0.56
+  },
+  {
+   "id": "agent_333#02",
+   "label": "e: New machine snapshot Dec 31, 20X7 \u2014 remaining useful life (months)",
+   "value": 91.0,
+   "matched_by": "label",
+   "label_overlap": 0.8
+  },
+  {
+   "id": "agent_333#02",
+   "label": "e: New machine snapshot Dec 31, 20X7 \u2014 remaining useful life (years)",
+   "value": 7.583,
+   "matched_by": "label",
+   "label_overlap": 0.71
+  },
+  {
+   "id": "agent_086#01",
+   "label": "c: Patent defense costs - full-year amortization",
+   "value": 1723.08,
+   "matched_by": "label",
+   "label_overlap": 0.58
+  },
+  {
+   "id": "agent_086#01",
+   "label": "c: Patent defense costs - Year 1 amortization (6/12 prorated)",
+   "value": 861.54,
+   "matched_by": "label",
+   "label_overlap": 0.44
+  },
+  {
+   "id": "agent_092#00",
+   "label": "a: Total Year 1 costs expensed immediately as R&D (items 1,3,4,5,6,9)",
+   "value": 1698000.0,
+   "matched_by": "label",
+   "label_overlap": 0.53
+  },
+  {
+   "id": "agent_092#00",
+   "label": "a: Total cash paid, Year 1 (items 1-10)",
+   "value": 2541000.0,
+   "matched_by": "label",
+   "label_overlap": 0.88
+  },
+  {
+   "id": "agent_240#00",
+   "label": "a: Amount reported in stockholders' equity immediately after issuance",
+   "value": 0.0,
+   "matched_by": "value",
+   "label_overlap": 0.0
+  },
+  {
+   "id": "agent_240#00",
+   "label": "d: Gain or loss on settlement (carrying amount equals redemption price)",
+   "value": 0.0,
+   "matched_by": "label",
+   "label_overlap": 0.67
+  },
+  {
+   "id": "agent_240#00",
+   "label": "e: Reconciling difference (total interest expense - (redemption - proceeds)); zero proves the schedule ties",
+   "value": 0.0,
+   "matched_by": "value",
+   "label_overlap": 0.0
+  },
+  {
+   "id": "agent_150#02",
+   "label": "b: Option 1 \u2014 PV factor, ordinary annuity, 6 yrs @ 6% (IBR)",
+   "value": 4.917324,
+   "matched_by": "label",
+   "label_overlap": 0.82
+  },
+  {
+   "id": "agent_150#02",
+   "label": "b: Option 2 \u2014 PV factor, ordinary annuity, 8 yrs @ 6% (IBR)",
+   "value": 6.209794,
+   "matched_by": "label",
+   "label_overlap": 0.83
+  },
+  {
+   "id": "agent_150#02",
+   "label": "b: Option 3 \u2014 PV of six $42,000 payments",
+   "value": 209812.27,
+   "matched_by": "label",
+   "label_overlap": 0.9
+  },
+  {
+   "id": "agent_150#02",
+   "label": "b: Option 3 \u2014 PV of $15,000 purchase-option price (single sum, 6 yrs @ 5.5%)",
+   "value": 10878.69,
+   "matched_by": "label",
+   "label_overlap": 0.6
+  },
+  {
+   "id": "agent_150#02",
+   "label": "b: Option 3 \u2014 total PV of lease payments (payments + option price)",
+   "value": 220690.96,
+   "matched_by": "label",
+   "label_overlap": 0.89
+  },
+  {
+   "id": "agent_150#02",
+   "label": "b: Option 4 \u2014 PV factor, annuity DUE, 6 yrs @ 6% (IBR)",
+   "value": 5.212364,
+   "matched_by": "label",
+   "label_overlap": 0.6
+  },
+  {
+   "id": "agent_285#00",
+   "label": "b: PV factor, annuity due, 4 payments @ 5%",
+   "value": 3.723248,
+   "matched_by": "label",
+   "label_overlap": 0.62
+  },
+  {
+   "id": "agent_283#02",
+   "label": "a: PV of lease payments as % of fair value $320,000 (< 90%)",
+   "value": 87.28,
+   "matched_by": "label",
+   "label_overlap": 0.69
+  },
+  {
+   "id": "agent_283#02",
+   "label": "e: Year 2 - lease liability after the January 1 payment",
+   "value": 208029.58,
+   "matched_by": "label",
+   "label_overlap": 0.67
+  },
+  {
+   "id": "agent_283#02",
+   "label": "e: Year 3 - lease liability after the January 1 payment",
+   "value": 179671.95,
+   "matched_by": "label",
+   "label_overlap": 0.67
+  },
+  {
+   "id": "agent_283#02",
+   "label": "f: total interest component over the term",
+   "value": 80713.35,
+   "matched_by": "label",
+   "label_overlap": 0.45
+  }
+ ],
+ "disagree": [
+  {
+   "id": "agent_143#01",
+   "label": "a: PV annuity factor, 8 periods @ 4% (support)",
+   "solver_1": 6.732745,
+   "solver_2": 50496.0,
+   "matched_by": "label",
+   "label_overlap": 0.31
+  },
+  {
+   "id": "agent_143#01",
+   "label": "a: PV of $1 factor, 8 periods @ 4% (support)",
+   "solver_1": 0.73069,
+   "solver_2": 182673.0,
+   "matched_by": "label",
+   "label_overlap": 0.4
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Full-year straight-line depreciation",
+   "solver_1": 28500.0,
+   "solver_2": 28000.0,
+   "matched_by": "label",
+   "label_overlap": 0.67
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 1 year-end accumulated depreciation",
+   "solver_1": 21375.0,
+   "solver_2": 21000.0,
+   "matched_by": "label",
+   "label_overlap": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 1 year-end net book value",
+   "solver_1": 161625.0,
+   "solver_2": 159000.0,
+   "matched_by": "label",
+   "label_overlap": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 2 depreciation expense",
+   "solver_1": 28500.0,
+   "solver_2": 28000.0,
+   "matched_by": "label",
+   "label_overlap": 0.83
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 2 year-end accumulated depreciation",
+   "solver_1": 49875.0,
+   "solver_2": 49000.0,
+   "matched_by": "label",
+   "label_overlap": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 2 year-end net book value",
+   "solver_1": 133125.0,
+   "solver_2": 131000.0,
+   "matched_by": "label",
+   "label_overlap": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 3 depreciation expense",
+   "solver_1": 28500.0,
+   "solver_2": 28000.0,
+   "matched_by": "label",
+   "label_overlap": 0.83
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 3 year-end accumulated depreciation",
+   "solver_1": 78375.0,
+   "solver_2": 77000.0,
+   "matched_by": "label",
+   "label_overlap": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 3 year-end net book value",
+   "solver_1": 104625.0,
+   "solver_2": 103000.0,
+   "matched_by": "label",
+   "label_overlap": 0.78
+  },
+  {
+   "id": "agent_204#02",
+   "label": "c: Dec 31, Year 1 depreciation adjusting entry amount",
+   "solver_1": 21375.0,
+   "solver_2": 21000.0,
+   "matched_by": "label",
+   "label_overlap": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "c: Dec 31, Year 2 depreciation adjusting entry amount",
+   "solver_1": 28500.0,
+   "solver_2": 28000.0,
+   "matched_by": "label",
+   "label_overlap": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "d: Dec 31, Year 3 depreciation adjusting entry amount",
+   "solver_1": 28500.0,
+   "solver_2": 28000.0,
+   "matched_by": "label",
+   "label_overlap": 1.0
+  },
+  {
+   "id": "agent_204#02",
+   "label": "d: NBV immediately before scrapping",
+   "solver_1": 104625.0,
+   "solver_2": 103000.0,
+   "matched_by": "label",
+   "label_overlap": 0.4
+  },
+  {
+   "id": "agent_204#02",
+   "label": "d: Loss on disposal (scrapping)",
+   "solver_1": 95125.0,
+   "solver_2": 93500.0,
+   "matched_by": "label",
+   "label_overlap": 0.56
+  },
+  {
+   "id": "agent_086#01",
+   "label": "c: Patent original cost - Year 1 amortization (full year)",
+   "solver_1": 8000.0,
+   "solver_2": 8862.0,
+   "matched_by": "label",
+   "label_overlap": 0.46
+  },
+  {
+   "id": "agent_092#00",
+   "label": "d: Total Year 1 costs excluded from the R&D disclosure",
+   "solver_1": 363600.0,
+   "solver_2": 1778000.0,
+   "matched_by": "label",
+   "label_overlap": 0.42
+  },
+  {
+   "id": "agent_283#02",
+   "label": "f: total lease expense recognized over the 8-year term",
+   "solver_1": 360000.0,
+   "solver_2": 80713.0,
+   "matched_by": "label",
+   "label_overlap": 0.46
+  }
+ ],
+ "unmatched": [
+  {
+   "id": "agent_002#03",
+   "label": "b: Effect of the transfer on net income",
+   "solver": 0,
+   "class": "NO_COUNTERPART"
+  },
+  {
+   "id": "agent_336#00",
+   "label": "b: Press monthly straight-line depreciation",
+   "solver": 1125.0,
+   "counterpart": 13500.0,
+   "class": "PERIOD_UNIT_MISMATCH (scoring artifact)"
+  },
+  {
+   "id": "agent_204#02",
+   "label": "b: Year 1 depreciation expense",
+   "solver": 21375,
+   "class": "NO_COUNTERPART"
+  },
+  {
+   "id": "agent_285#00",
+   "label": "a: Criterion 4 - PV of lease payments as % of fair value",
+   "solver": 58.51,
+   "class": "NO_COUNTERPART"
+  }
+ ],
+ "per_item": {
+  "agent_134#01": {
+   "verified": 1,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_002#03": {
+   "verified": 0,
+   "disagree": 0,
+   "unverified": 1,
+   "now_clean": false
+  },
+  "agent_270#00": {
+   "verified": 2,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_143#01": {
+   "verified": 0,
+   "disagree": 2,
+   "unverified": 0,
+   "now_clean": false
+  },
+  "agent_214#02": {
+   "verified": 3,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_248#01": {
+   "verified": 1,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_032#01": {
+   "verified": 1,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_303#02": {
+   "verified": 8,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_043#00": {
+   "verified": 3,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_053#01": {
+   "verified": 1,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_333#02": {
+   "verified": 2,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_336#00": {
+   "verified": 0,
+   "disagree": 0,
+   "unverified": 1,
+   "now_clean": false
+  },
+  "agent_204#02": {
+   "verified": 0,
+   "disagree": 14,
+   "unverified": 1,
+   "now_clean": false
+  },
+  "agent_086#01": {
+   "verified": 2,
+   "disagree": 1,
+   "unverified": 0,
+   "now_clean": false
+  },
+  "agent_092#00": {
+   "verified": 2,
+   "disagree": 1,
+   "unverified": 0,
+   "now_clean": false
+  },
+  "agent_240#00": {
+   "verified": 3,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_150#02": {
+   "verified": 6,
+   "disagree": 0,
+   "unverified": 0,
+   "now_clean": true
+  },
+  "agent_285#00": {
+   "verified": 1,
+   "disagree": 0,
+   "unverified": 1,
+   "now_clean": false
+  },
+  "agent_283#02": {
+   "verified": 4,
+   "disagree": 1,
+   "unverified": 0,
+   "now_clean": false
+  }
+ }
+}

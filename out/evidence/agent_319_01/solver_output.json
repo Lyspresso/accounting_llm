@@ -1,0 +1,75 @@
+{
+  "id": "agent_319#01",
+  "rounding_convention": "decimal.Decimal throughout, no floats; ROUND_HALF_UP per period, quantized to cents at the period end; no PV factors involved (inputs are whole dollars, so no rounding is triggered)",
+  "answers": [
+    {
+      "label": "a: LCNRV by item - Grain Blend",
+      "value": 32500
+    },
+    {
+      "label": "a: LCNRV by item - Senior Blend",
+      "value": 21000
+    },
+    {
+      "label": "a: LCNRV by item - Chew Rope",
+      "value": 14500
+    },
+    {
+      "label": "a: LCNRV by item - Puzzle Toy",
+      "value": 26500
+    },
+    {
+      "label": "a: LCNRV applied by individual item - total inventory",
+      "value": 94500
+    },
+    {
+      "label": "a: LCNRV by category - Dry Food",
+      "value": 55500
+    },
+    {
+      "label": "a: LCNRV by category - Accessories",
+      "value": 42300
+    },
+    {
+      "label": "a: LCNRV applied by category - total inventory",
+      "value": 97800
+    },
+    {
+      "label": "a: LCNRV applied to inventory in total",
+      "value": 97800
+    },
+    {
+      "label": "a: write-down under the individual item approach",
+      "value": 6000
+    },
+    {
+      "label": "c: Inventory, net on the balance sheet",
+      "value": 94500
+    },
+    {
+      "label": "c: Cost of goods sold after adjustment",
+      "value": 261000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "date": "December 31",
+      "description": "To reduce inventory to net realizable value (individual item approach; allowance account; charge to COGS)",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 6000,
+          "credit": 0
+        },
+        {
+          "account": "Allowance to Reduce Inventory to Net Realizable Value",
+          "debit": 0,
+          "credit": 6000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Average cost is not LIFO/retail, so ASC 330-10-35-1B applies LCNRV (not lower of cost or market). Individual-item approach gives the lowest carrying value because above-cost items (Senior Blend, Chew Rope) cannot offset below-cost items. Category and total approaches coincide here at 97,800 because each category's NRV total happens to be below its cost total. Stem states no pre-existing allowance balance, so the Dec 31 entry is the full required allowance."
+}

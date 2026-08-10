@@ -1,0 +1,71 @@
+{
+  "agent_id": 200,
+  "lo": "LO 11-4",
+  "chapter": 11,
+  "critical": false,
+  "title": "Interest cost incurred during the construction of a fixed asset is considered to",
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-4",
+      "concept": "Full interest-capitalization measurement: initial CIP recognition JEs; subsequent measurement schedules (WAAE and avoidable interest with specific-then-general rates); period-end capitalization JE; CIP rollforward and interest disclosure",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-4",
+      "concept": "Number-variant twin: WAAE schedule, actual vs avoidable interest, initial CIP JEs, period-end capitalization JE, CIP ending balance",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-4",
+      "concept": "Subsequent measurement schedule for a partial-year capitalization period; period-end (completion-date) interest JE; settlement reclassification CIP to Building; repayment of project-specific debt; depreciation of cost that includes capitalized interest",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "initial_recognition_JE"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-4",
+      "concept": "Capitalize lesser of actual vs avoidable interest; actual-interest ceiling",
+      "type": "MC",
+      "ok": true,
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 11-4",
+      "concept": "Classification of interest capitalized on land held as a building site",
+      "type": "MC",
+      "ok": true,
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ]
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

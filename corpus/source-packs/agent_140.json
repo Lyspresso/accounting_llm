@@ -1,0 +1,55 @@
+{
+  "agent_id": 140,
+  "lo": "LO 14-8",
+  "chapter": 14,
+  "title": "Account for debt securities measured at FV-OCI with fair value adjustments only at period-end",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-8",
+      "concept": "Initial recognition; interest in NI; multi-year subsequent measurement / FVA schedule; period-end FV-OCI; disposal without sale-date FVA; year-end FVA elimination; AOCI reclass disclosure",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-8",
+      "concept": "Number-variant twin — same period-end-only FV-OCI path with fully changed facts and subsequent measurement schedule",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-8",
+      "concept": "Portfolio subsequent measurement schedule after partial disposal; period-end FVA only; AOCI reclass when remaining AFS continue; BS/CI presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-8",
+      "concept": "Distinguishing period-end-only FV-OCI (Appendix 14B) from sale-date FV-OCI; routing of unrealized vs realized",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-8",
+      "concept": "Balance-sheet classification and comprehensive-income presentation of AFS debt under FV-OCI",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

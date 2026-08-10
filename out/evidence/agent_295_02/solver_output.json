@@ -1,0 +1,190 @@
+{
+  "id": "agent_295#02",
+  "rounding_convention": "ROUND_HALF_UP to whole cents (Decimal.quantize) applied to each reported figure; all inputs are whole dollars so no rounding is triggered. No PV factors needed for this item.",
+  "answers": [
+    {
+      "label": "b: cash-effect classification of item 1",
+      "value": "I - inflow $140,000 (proceeds from sale of building; reported gross)"
+    },
+    {
+      "label": "b: cash-effect classification of item 2",
+      "value": "F - outflow $80,000 (repayment of bond principal at maturity)"
+    },
+    {
+      "label": "b: cash-effect classification of item 3",
+      "value": "O - outflow $9,600 (interest paid)"
+    },
+    {
+      "label": "b: cash-effect classification of item 5",
+      "value": "I - outflow $55,000 (purchase of production equipment)"
+    },
+    {
+      "label": "b: cash-effect classification of item 7",
+      "value": "F - inflow $50,000 (proceeds from long-term nontrade bank note)"
+    },
+    {
+      "label": "b: cash-effect classification of item 8",
+      "value": "F - outflow $12,000 (finance lease principal; lease interest would be O)"
+    },
+    {
+      "label": "b: cash-effect classification of item 10",
+      "value": "F - outflow $7,500 (cash dividends paid)"
+    },
+    {
+      "label": "b: cash-effect classification of item 11",
+      "value": "O - inflow $285,000 collections; O - outflow $240,000 suppliers/employees; O - outflow $14,000 income taxes"
+    },
+    {
+      "label": "b: cash-effect classification of item 12",
+      "value": "O - outflow $16,000 (trading securities bought for resale are operating, not investing)"
+    },
+    {
+      "label": "b: SCF reporting of item 4",
+      "value": "Item 4 (accrued $2,400 interest): no cash effect, so it is NOT a cash flow line. Under the indirect method it appears only as a reconciling add-back (increase in interest payable) within operating activities; under the direct method it does not appear at all."
+    },
+    {
+      "label": "b: SCF reporting of item 6",
+      "value": "Item 6 (land acquired for a $90,000 note): noncash investing and financing transaction. Excluded from the body of the SCF; disclosed in the supplemental schedule of noncash investing and financing activities."
+    },
+    {
+      "label": "b: SCF reporting of item 9",
+      "value": "Item 9 (declared $10,000 dividends payable in Jan 2028): no cash effect, so it is NOT reported in financing activities this year. It is a noncash declaration (disclosed / reflected as an increase in dividends payable); the cash outflow will be a financing outflow in 2028 when paid."
+    },
+    {
+      "label": "c: ending cash total on the SCF reconciliation (cash + cash equivalents + restricted cash, Dec 31 2027)",
+      "value": 84500
+    },
+    {
+      "label": "c: net cash provided by operating activities",
+      "value": 5400
+    },
+    {
+      "label": "c: net cash provided by investing activities",
+      "value": 85000
+    },
+    {
+      "label": "c: net cash used by financing activities",
+      "value": -49500
+    },
+    {
+      "label": "c: net change in cash",
+      "value": 40900
+    },
+    {
+      "label": "c: beginning cash (Jan 1, 2027), solved",
+      "value": 43600
+    },
+    {
+      "label": "d: SCF section order and three-line cash reconciliation",
+      "value": "SCF section order: (1) Cash flows from operating activities; (2) Cash flows from investing activities; (3) Cash flows from financing activities; then net increase (decrease) in cash, cash equivalents, and restricted cash; plus cash, cash equivalents, and restricted cash at January 1, 2027; equals cash, cash equivalents, and restricted cash at December 31, 2027. Supplemental disclosures follow: noncash investing and financing activities (land acquired by issuing a $90,000 note) and, under the indirect method, interest paid and income taxes paid. Three-line reconciliation: net change $40,900.00 + beginning $43,600.00 = ending $84,500.00."
+    },
+    {
+      "label": "e: True/False with correction",
+      "value": "False. Investing (and financing) cash flows must generally be reported GROSS - cash receipts and cash payments are shown separately (ASC 230-10-45-26), e.g. proceeds from the sale of the building ($140,000) shown apart from the purchase of equipment ($55,000), not netted to $85,000 on one line. The only exception (ASC 230-10-45-8/45-9) is net reporting for items with quick turnover, large amounts, and original maturities of three months or less - certain investments other than cash equivalents, loans receivable, and debt (e.g. a revolving line of credit) - which does not cover purchases and sales of PPE."
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a-1 (item 1: disposal of building)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 140000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Depreciation - Building",
+          "debit": 95000,
+          "credit": 0
+        },
+        {
+          "account": "Building",
+          "debit": 0,
+          "credit": 220000
+        },
+        {
+          "account": "Gain on Sale of Building",
+          "debit": 0,
+          "credit": 15000
+        }
+      ]
+    },
+    {
+      "part": "a-2 (item 2: bond maturity settlement)",
+      "lines": [
+        {
+          "account": "Bonds Payable",
+          "debit": 80000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 80000
+        }
+      ]
+    },
+    {
+      "part": "a-4 (item 4: period-end interest accrual)",
+      "lines": [
+        {
+          "account": "Interest Expense",
+          "debit": 2400,
+          "credit": 0
+        },
+        {
+          "account": "Interest Payable",
+          "debit": 0,
+          "credit": 2400
+        }
+      ]
+    },
+    {
+      "part": "a-5 (item 5: PPE purchase)",
+      "lines": [
+        {
+          "account": "Equipment",
+          "debit": 55000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 55000
+        }
+      ]
+    },
+    {
+      "part": "a-7 (item 7: long-term note borrowing)",
+      "lines": [
+        {
+          "account": "Cash",
+          "debit": 50000,
+          "credit": 0
+        },
+        {
+          "account": "Notes Payable (long-term)",
+          "debit": 0,
+          "credit": 50000
+        }
+      ]
+    },
+    {
+      "part": "a-9 (item 9: dividend declaration)",
+      "lines": [
+        {
+          "account": "Retained Earnings",
+          "debit": 10000,
+          "credit": 0
+        },
+        {
+          "account": "Dividends Payable",
+          "debit": 0,
+          "credit": 10000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Trading securities (item 12) are an operating outflow per ASC 230-10-45-18 and Ch. 22; restricted cash is included in the SCF cash total per ASC 230-10-45-24, while the $19,000 short-term equity investments (not cash equivalents) are excluded. Items 4 and 9 are period-end accruals with no cash movement and item 6 is a noncash exchange, so none of the three enters any cash-flow section."
+}

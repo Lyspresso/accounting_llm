@@ -1,0 +1,46 @@
+{
+  "agent_id": 198,
+  "lo": "LO 11-2",
+  "chapter": 11,
+  "title": "Determine costs to capitalize for lump-sum purchases of property, plant, and equipment",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 11-2",
+      "concept": "Proportional relative-FV allocation of a basket purchase with attributable costs; multi-year subsequent measurement schedule; period-end depreciation; disposal of allocated equipment",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 11-2",
+      "concept": "Number-variant proportional allocation; partial-year first depreciation; subsequent measurement schedule; mid-life machinery disposal",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 11-2",
+      "concept": "Incremental residual allocation when one FV is indeterminable; multi-period carrying schedule; period-end dep; disposal of residual-cost asset",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 11-2",
+      "concept": "MC: incremental vs proportional method selection; even allocation for identical units",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

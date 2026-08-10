@@ -1,0 +1,40 @@
+{
+  "agent_id": 164,
+  "lo": "LO 22-1",
+  "chapter": 22,
+  "title": "Identify operating, investing, and financing activities, and the statement of cash flows format",
+  "critical": true,
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-1",
+      "concept": "Classify operating, investing, and financing cash flows; record initial recognition and disposal/settlement JEs; prepare subsequent cash-section schedule reconciling beginning to ending cash; present formal SCF format",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-1",
+      "concept": "Number-variant twin: classify O/I/F; record PPE purchase, asset disposal, debt issuance, and treasury settlement JEs; complete cash reconciliation schedule and formal SCF totals",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-1",
+      "concept": "Period-end cash (cash + equivalents + restricted cash) reconciliation; edge-case classification (trade note vs nontrade; trading securities; interest vs principal); gross presentation requirement; disposal of patent and settlement of finance-lease principal",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-1",
+      "concept": "Classification of cash flows — interest/dividends and PPE sale proceeds",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

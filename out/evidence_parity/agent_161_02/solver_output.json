@@ -1,0 +1,101 @@
+{
+ "id": "agent_161#02",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent, applied once per period-end amount; no floats",
+ "answers": [
+  {
+   "label": "a: Total gross deferred tax assets (DTA)",
+   "value": 42000
+  },
+  {
+   "label": "a: Total deferred tax liabilities (DTL)",
+   "value": 80000
+  },
+  {
+   "label": "a: Valuation allowance",
+   "value": 15000
+  },
+  {
+   "label": "a: Gross DTA net of valuation allowance",
+   "value": 27000
+  },
+  {
+   "label": "a: Single noncurrent amount reported on the classified balance sheet",
+   "value": 53000
+  },
+  {
+   "label": "a: Classification of the noncurrent line",
+   "value": "noncurrent net deferred tax liability"
+  },
+  {
+   "label": "b: Valuation allowance (revised)",
+   "value": 36000
+  },
+  {
+   "label": "b: Gross DTA net of revised valuation allowance",
+   "value": 6000
+  },
+  {
+   "label": "b: Single noncurrent net amount",
+   "value": 74000
+  },
+  {
+   "label": "b: Classification of the noncurrent line",
+   "value": "noncurrent net deferred tax liability"
+  },
+  {
+   "label": "c: Valuation allowance balance January 1, Year 4",
+   "value": 10000
+  },
+  {
+   "label": "c: Required valuation allowance December 31, Year 4",
+   "value": 15000
+  },
+  {
+   "label": "c: Increase in valuation allowance recorded (adjusting entry amount)",
+   "value": 5000
+  },
+  {
+   "label": "d: ASC 740 offset rule",
+   "value": "For each tax-paying component in each tax jurisdiction, all deferred tax assets (net of any valuation allowance) and all deferred tax liabilities are offset and reported as a single net amount; that net deferred tax asset or liability is classified entirely as noncurrent on the classified balance sheet. DTAs and DTLs of different components or different jurisdictions may not be offset against each other."
+  },
+  {
+   "label": "e: Note schedule - Gross deferred tax assets",
+   "value": 42000
+  },
+  {
+   "label": "e: Note schedule - Less: valuation allowance",
+   "value": 15000
+  },
+  {
+   "label": "e: Note schedule - Deferred tax assets, net of valuation allowance",
+   "value": 27000
+  },
+  {
+   "label": "e: Note schedule - Gross deferred tax liabilities",
+   "value": 80000
+  },
+  {
+   "label": "e: Note schedule - Net noncurrent deferred tax liability",
+   "value": 53000
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Income Tax Expense (deferred)",
+     "debit": 5000,
+     "credit": 0
+    },
+    {
+     "account": "Valuation Allowance for Deferred Tax Asset",
+     "debit": 0,
+     "credit": 5000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Derived DTLs: Excess tax depreciation (MACRS > SL) $60,000; Installment gross profit (accrual vs cash) $20,000. Derived DTAs: Warranty accrual $30,000; Unearned (deferred) revenue $12,000. Part a: DTA 42,000 - VA 15,000 = 27,000; less DTL 80,000 = net -53,000, i.e. a $53,000 noncurrent net deferred tax liability. Part b: DTA 42,000 - VA 36,000 = 6,000; less DTL 80,000 = net -74,000, i.e. a $74,000 noncurrent net deferred tax liability (still a liability, larger). Part c: required 15,000 - beginning 10,000 = 5,000 increase, debit deferred income tax expense and credit the valuation allowance (a contra-DTA)."
+}

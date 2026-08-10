@@ -1,0 +1,194 @@
+{
+  "id": "agent_303#02",
+  "rounding_convention": "decimal.Decimal only, no floats; every monetary amount quantized to cents with ROUND_HALF_UP as it is computed (round-per-period, not round-at-end). Percentages (4.5% return estimate, 60% cost ratio) held as exact Decimals. No present-value factors are involved in this item.",
+  "answers": [
+    {
+      "label": "c: target ending Refund Liability at December 31, Year 2",
+      "value": 16450
+    },
+    {
+      "label": "d: Refund Liability rollforward — beginning balance (Jan 1, Year 2)",
+      "value": 11500
+    },
+    {
+      "label": "d: Refund Liability rollforward — less actual returns taken during Year 2",
+      "value": 19800
+    },
+    {
+      "label": "d: Refund Liability rollforward — add estimated returns on Year 2 sales",
+      "value": 24750
+    },
+    {
+      "label": "d: Refund Liability rollforward — ending balance (Dec 31, Year 2)",
+      "value": 16450
+    },
+    {
+      "label": "d: Inventory—Estimated Returns rollforward — beginning balance (Jan 1, Year 2)",
+      "value": 6900
+    },
+    {
+      "label": "d: Inventory—Estimated Returns rollforward — less cost of actual returns",
+      "value": 11880
+    },
+    {
+      "label": "d: Inventory—Estimated Returns rollforward — add cost of estimated returns",
+      "value": 14850
+    },
+    {
+      "label": "d: Inventory—Estimated Returns rollforward — ending balance (Dec 31, Year 2)",
+      "value": 9870
+    },
+    {
+      "label": "f: Net Sales for Year 2",
+      "value": 523600
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a",
+      "memo": "Year 2 — record credit sales",
+      "lines": [
+        {
+          "account": "Accounts Receivable",
+          "debit": 550000,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 550000
+        }
+      ]
+    },
+    {
+      "part": "a",
+      "memo": "Year 2 — record cost of goods sold (60% of selling price)",
+      "lines": [
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 330000,
+          "credit": 0
+        },
+        {
+          "account": "Inventory",
+          "debit": 0,
+          "credit": 330000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "memo": "Year 2 — actual returns, sales side (recorded as current-year returns)",
+      "lines": [
+        {
+          "account": "Sales Returns",
+          "debit": 19800,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 19800
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "memo": "Year 2 — actual returns, cost side (goods back into inventory at 60%)",
+      "lines": [
+        {
+          "account": "Inventory",
+          "debit": 11880,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 0,
+          "credit": 11880
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "memo": "Year 2 — sales allowances granted on account (no cost-side entry)",
+      "lines": [
+        {
+          "account": "Sales Allowances",
+          "debit": 1650,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Receivable",
+          "debit": 0,
+          "credit": 1650
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "memo": "December 31, Year 2 — adjust Refund Liability to estimated returns on Year 2 sales still expected next period (4.5% x $550,000 less actual returns already taken)",
+      "lines": [
+        {
+          "account": "Sales Returns",
+          "debit": 4950,
+          "credit": 0
+        },
+        {
+          "account": "Refund Liability",
+          "debit": 0,
+          "credit": 4950
+        }
+      ]
+    },
+    {
+      "part": "c",
+      "memo": "December 31, Year 2 — cost-side true-up of Inventory—Estimated Returns (60%)",
+      "lines": [
+        {
+          "account": "Inventory—Estimated Returns",
+          "debit": 2970,
+          "credit": 0
+        },
+        {
+          "account": "Cost of Goods Sold",
+          "debit": 0,
+          "credit": 2970
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "memo": "January 18, Year 2 — settle Year 1 returns already accrued, sales side (no debit to Sales Returns)",
+      "lines": [
+        {
+          "account": "Refund Liability",
+          "debit": 7200,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 7200
+        }
+      ]
+    },
+    {
+      "part": "e",
+      "memo": "January 18, Year 2 — settle Year 1 returns already accrued, cost side",
+      "lines": [
+        {
+          "account": "Inventory",
+          "debit": 4320,
+          "credit": 0
+        },
+        {
+          "account": "Inventory—Estimated Returns",
+          "debit": 0,
+          "credit": 4320
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Method per Review 8-3 (subsequent-period approach): all actual returns during the year are debited to Sales Returns, so the year-end true-up to Refund Liability is (4.5% x $550,000) - $19,800 = $4,950 credit, giving ending Refund Liability of $11,500 + $4,950 = $16,450, equivalently $11,500 - $19,800 + $24,750. Confirmation required by (d): ending Inventory—Estimated Returns $9,870 = ending Refund Liability $16,450 x 60%. Part (f) presentation: Refund Liability is a current liability (it is not netted against the return asset, and academics' alternative of showing it as an Allowance for Sales Returns contra to Accounts Receivable is only noted as an aside); Inventory—Estimated Returns is a separate current asset reported with/next to inventory. Both are presented gross, not offset. Net sales = $550,000 sales revenue less $24,750 net Sales Returns less $1,650 Sales Allowances = $523,600. Part (e) is an independent alternative and does not change (a)-(d)."
+}

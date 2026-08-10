@@ -1,0 +1,146 @@
+{
+ "baseline": {
+  "agent_052#01": {
+   "calls": 10,
+   "billable": 84027,
+   "total": 391041,
+   "output": 10462,
+   "cache_read": 307014
+  },
+  "agent_254#00": {
+   "calls": 10,
+   "billable": 62691,
+   "total": 406293,
+   "output": 11640,
+   "cache_read": 343602
+  },
+  "agent_309#01": {
+   "calls": 10,
+   "billable": 44981,
+   "total": 422809,
+   "output": 12498,
+   "cache_read": 377828
+  },
+  "agent_373#00": {
+   "calls": 5,
+   "billable": 21890,
+   "total": 201583,
+   "output": 1953,
+   "cache_read": 179693
+  },
+  "agent_391#02": {
+   "calls": 9,
+   "billable": 66198,
+   "total": 382679,
+   "output": 12106,
+   "cache_read": 316481
+  },
+  "agent_223#00": {
+   "calls": 8,
+   "billable": 58861,
+   "total": 328520,
+   "output": 10473,
+   "cache_read": 269659
+  },
+  "agent_080#01": {
+   "calls": 6,
+   "billable": 35129,
+   "total": 209545,
+   "output": 6895,
+   "cache_read": 174416
+  },
+  "agent_270#00": {
+   "calls": 8,
+   "billable": 48834,
+   "total": 370110,
+   "output": 11893,
+   "cache_read": 321276
+  },
+  "agent_360#00": {
+   "calls": 7,
+   "billable": 49437,
+   "total": 263001,
+   "output": 8000,
+   "cache_read": 213564
+  },
+  "agent_319#01": {
+   "calls": 7,
+   "billable": 53961,
+   "total": 276069,
+   "output": 7340,
+   "cache_read": 222108
+  }
+ },
+ "trim": {
+  "agent_373#00": {
+   "calls": 1,
+   "billable": 34913,
+   "total": 34913,
+   "output": 5561,
+   "cache_read": 0
+  },
+  "agent_309#01": {
+   "calls": 5,
+   "billable": 55181,
+   "total": 207045,
+   "output": 10460,
+   "cache_read": 151864
+  },
+  "agent_254#00": {
+   "calls": 2,
+   "billable": 49136,
+   "total": 78386,
+   "output": 7098,
+   "cache_read": 29250
+  },
+  "agent_270#00": {
+   "calls": 1,
+   "billable": 12484,
+   "total": 41572,
+   "output": 1069,
+   "cache_read": 29088
+  },
+  "agent_360#00": {
+   "calls": 4,
+   "billable": 35306,
+   "total": 151630,
+   "output": 5879,
+   "cache_read": 116324
+  },
+  "agent_223#00": {
+   "calls": 3,
+   "billable": 45358,
+   "total": 113463,
+   "output": 6622,
+   "cache_read": 68105
+  },
+  "agent_391#02": {
+   "calls": 3,
+   "billable": 48327,
+   "total": 118203,
+   "output": 6978,
+   "cache_read": 69876
+  },
+  "agent_052#01": {
+   "calls": 3,
+   "billable": 44629,
+   "total": 112458,
+   "output": 5405,
+   "cache_read": 67829
+  },
+  "agent_080#01": {
+   "calls": 3,
+   "billable": 21344,
+   "total": 105756,
+   "output": 3818,
+   "cache_read": 84412
+  },
+  "agent_319#01": {
+   "calls": 2,
+   "billable": 13292,
+   "total": 67790,
+   "output": 3604,
+   "cache_read": 54498
+  }
+ }
+}

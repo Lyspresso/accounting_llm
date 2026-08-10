@@ -1,0 +1,46 @@
+{
+  "agent_id": 89,
+  "lo": "LO 13-4",
+  "chapter": 13,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-4",
+      "concept": "Initial recognition of finite-life patent; multi-year amortization schedule; prospective change in useful life; period-end amortization after revision; disposal with loss",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-4",
+      "concept": "Number-variant twin: initial recognition of finite-life license; amortization schedule; prospective useful-life revision; period-end JE; disposal with gain",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-4",
+      "concept": "Initial recognition of customer list; dual prospective revision of useful life and residual; period-end amortization; mid-year disposal; classification/presentation of estimate change",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-4",
+      "concept": "Classification of accounting treatment for change in estimated useful life of a finite-life intangible",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 13-4",
+      "concept": "Change in amortization method as estimate effected by principle (prospective)",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

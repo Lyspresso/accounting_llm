@@ -1,0 +1,64 @@
+{
+  "agent_id": 278,
+  "lo": "LO 16-6",
+  "chapter": 16,
+  "title": "Accounting for Notes Payable",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 16-6",
+      "concept": "Initial recognition of cash notes (zero-interest and interest-bearing discount); effective-interest amortization schedule; period-end adjusting JE when year-end falls between anniversary dates; maturity settlement; BS presentation",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 16-6",
+      "concept": "Number-variant twin — zero-interest mid-year cash note with period-end adjusting JE; interest-bearing discount cash note; schedules; maturity; presentation",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 16-6",
+      "concept": "Note payable issued for noncash consideration (imputed rate and asset FV); installment note amortization and payments; current vs noncurrent classification of note carrying amount",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 16-6",
+      "concept": "Classification of measurement approach for a note issued for noncash consideration; classification of current vs noncurrent installment principal",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

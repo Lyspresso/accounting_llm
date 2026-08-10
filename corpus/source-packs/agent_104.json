@@ -1,0 +1,73 @@
+{
+  "agent_id": 104,
+  "lo": "LO 18-8",
+  "chapter": 18,
+  "critical": false,
+  "title": "Explain and demonstrate accounting for uncertainty in income tax decisions",
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 18-8",
+      "concept": "Initial recognition JE for uncertain tax position (meets MLTN; measure largest amount with cumulative probability >50%); subsequent UTB schedule; period-end remeasurement JE; settlement JE; classification/disclosure",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 18-8",
+      "concept": "Number-variant twin — initial recognition of UTB after two-step process; subsequent UTB schedule; period-end remeasurement; settlement when full benefit is realized",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 18-8",
+      "concept": "Initial recognition when position fails MLTN threshold; settlement/resolution JEs for full loss, full sustain, and negotiated partial realization; presentation of UTB",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 18-8",
+      "concept": "Measurement method for a tax position that meets the more-likely-than-not recognition threshold",
+      "type": "MC",
+      "ok": true,
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4b",
+      "lo": "LO 18-8",
+      "concept": "Effect of failing the more-likely-than-not recognition threshold on initial measurement",
+      "type": "MC",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

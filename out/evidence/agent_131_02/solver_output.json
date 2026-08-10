@@ -1,0 +1,208 @@
+{
+  "id": "agent_131#02",
+  "rounding_convention": "decimal.Decimal throughout, no floats. ROUND_HALF_UP to the cent per period (round-per-period, not round-at-end); the terminal period of each amortization schedule is plugged to the remaining carrying amount so the asset closes to exactly zero. No PV factors needed. Internal-use software uses full-month amortization beginning July 2025 (6/12 of a full year in 2025) per the stem.",
+  "answers": [
+    {
+      "label": "a: internal-use software amount initially capitalized",
+      "value": 240000
+    },
+    {
+      "label": "b: 2025 amortization expense on internal-use software",
+      "value": 30000
+    },
+    {
+      "label": "b: December 31, 2025 carrying amount of internal-use software",
+      "value": 210000
+    },
+    {
+      "label": "b: internal-use software amortization schedule 2025-2028 (year, beginning carrying amount, amortization, ending carrying amount)",
+      "value": [
+        [
+          2025,
+          240000,
+          30000,
+          210000
+        ],
+        [
+          2026,
+          210000,
+          60000,
+          150000
+        ],
+        [
+          2027,
+          150000,
+          60000,
+          90000
+        ],
+        [
+          2028,
+          90000,
+          60000,
+          30000
+        ]
+      ]
+    },
+    {
+      "label": "c: classification of the cloud hosting arrangement",
+      "value": "Service contract"
+    },
+    {
+      "label": "e: cloud implementation asset subsequent measurement schedule (year, beginning BV, amortization, ending BV)",
+      "value": [
+        [
+          2025,
+          80000,
+          20000,
+          60000
+        ],
+        [
+          2026,
+          60000,
+          20000,
+          40000
+        ],
+        [
+          2027,
+          40000,
+          20000,
+          20000
+        ],
+        [
+          2028,
+          20000,
+          20000,
+          0
+        ]
+      ]
+    },
+    {
+      "label": "f(i): balance sheet presentation of capitalized cloud implementation costs",
+      "value": "Balance sheet (ASC 350-40-45-2): present the capitalized implementation costs in the SAME line item in which a prepayment of the hosting fees would be presented - i.e., as a prepaid expense / other asset, split current vs. noncurrent by the portion to be amortized within the next year (at 12/31/25: $20,000 current, $40,000 noncurrent). They are NOT reported as software or as an intangible asset, because the arrangement is a service contract."
+    },
+    {
+      "label": "f(ii): income statement presentation of amortization of cloud implementation costs",
+      "value": "Income statement (ASC 350-40-45-1): present amortization of the capitalized implementation costs in the SAME line item as the expense for the hosting/subscription fees - i.e., inside operating expenses with the subscription cost ($20,000 of amortization alongside the $96,000 subscription fee, $116,000 total for 2025). It is NOT presented with depreciation and amortization of long-lived assets."
+    },
+    {
+      "label": "f(iii): statement of cash flows classification of cloud implementation cash flows",
+      "value": "Statement of cash flows (ASC 350-40-45-3): classify the cash paid for the capitalized implementation costs in the SAME manner as the cash flows for the hosting fees - operating activities (an operating outflow of $80,000 on 1/1/25), not investing. The $96,000 subscription payment is likewise operating."
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "a(i)",
+      "description": "2025 - Preliminary project stage costs on internal-use software (expensed as incurred, ASC 350-40-25-1)",
+      "lines": [
+        {
+          "account": "Research and Development Expense (Preliminary Project Stage)",
+          "debit": 18000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 18000
+        }
+      ]
+    },
+    {
+      "part": "a(ii)",
+      "description": "2025 - Application development stage costs on internal-use software (capitalized, ASC 350-40-25-2)",
+      "lines": [
+        {
+          "account": "Software Intangible Asset (Internal-Use Software)",
+          "debit": 240000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 240000
+        }
+      ]
+    },
+    {
+      "part": "a(iii)",
+      "description": "2025 - Employee training costs (expensed as incurred even when incurred during the application development stage)",
+      "lines": [
+        {
+          "account": "Training Expense",
+          "debit": 12000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "description": "December 31, 2025 - Amortize internal-use software, 6 months (July-December) of a 4-year straight-line life",
+      "lines": [
+        {
+          "account": "Software Amortization Expense",
+          "debit": 30000,
+          "credit": 0
+        },
+        {
+          "account": "Accumulated Amortization - Software Intangible Asset (Software Intangible Asset)",
+          "debit": 0,
+          "credit": 30000
+        }
+      ]
+    },
+    {
+      "part": "d(i)",
+      "description": "January 1, 2025 - Capitalize development-stage implementation/setup costs of the cloud hosting arrangement (ASC 350-40-25-18)",
+      "lines": [
+        {
+          "account": "Capitalized Cloud Computing Implementation Costs",
+          "debit": 80000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 80000
+        }
+      ]
+    },
+    {
+      "part": "d(ii)",
+      "description": "December 31, 2025 - Pay annual cloud subscription (hosting) fee, expensed as incurred",
+      "lines": [
+        {
+          "account": "Cloud Subscription (Hosting) Expense",
+          "debit": 96000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 96000
+        }
+      ]
+    },
+    {
+      "part": "d(iii)",
+      "description": "December 31, 2025 - Adjusting entry to amortize capitalized cloud implementation costs straight-line over the 4-year hosting term",
+      "lines": [
+        {
+          "account": "Cloud Subscription (Hosting) Expense - Amortization of Implementation Costs",
+          "debit": 20000,
+          "credit": 0
+        },
+        {
+          "account": "Capitalized Cloud Computing Implementation Costs",
+          "debit": 0,
+          "credit": 20000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "Part a: only the $240,000 application development stage cost is capitalized (ASC 350-40-25-2); the $18,000 preliminary project stage cost and the $12,000 training cost are expensed as incurred, training even though some of it was incurred during the development stage. Part b: $240,000 / 4 years = $60,000 per full year; 2025 gets 6 months (July-December) = $30,000, leaving a 12/31/25 carrying amount of $210,000. The 2025-2028 schedule therefore runs 30,000 / 60,000 / 60,000 / 60,000 with a 12/31/28 carrying amount of $30,000; the final $30,000 is amortized January-June 2029, when the 4-year life ends. Part c: ASC 350-40-15-4A requires BOTH (a) a contractual right to take possession of the software at any time during the hosting period without significant penalty and (b) feasibility of running the software on the customer's own hardware or having an unrelated party host it. HarborPoint fails both: it has no right to take possession without significant penalty and cannot practically run the ERP module on its own hardware. Failing either criterion makes the arrangement a service contract, so no software intangible is recognized for the right to use the ERP module. Only the development-stage implementation/setup costs are capitalized (ASC 350-40-25-18) and amortized straight-line over the hosting term; the annual subscription fee is expensed. Parts d-e: the $80,000 implementation cost is capitalized and amortized $20,000 per year over the 4-year hosting term; the $96,000 subscription fee is expensed when incurred each December 31. Part f: presentation follows ASC 350-40-45-1 through 45-3 - the capitalized implementation costs and their amortization and cash flows all follow the hosting fee, not the intangible-asset lines."
+}

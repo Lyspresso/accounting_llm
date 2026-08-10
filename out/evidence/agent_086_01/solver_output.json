@@ -1,0 +1,278 @@
+{
+  "id": "agent_086#01",
+  "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent applied per period (each period's amortization charge is rounded before posting, carrying amounts derived from the rounded charges). Straight-line, zero residual; no present-value factors in this item.",
+  "answers": [
+    {
+      "label": "a: item 1 copyright $72,000 - classification",
+      "value": "Finite-life intangible asset (12-year useful life; shorter than legal life)"
+    },
+    {
+      "label": "a: item 2 franchise $110,000 - classification",
+      "value": "Indefinite-life intangible asset (not goodwill); renewals expected indefinitely, no amortization"
+    },
+    {
+      "label": "a: item 3 patent $56,000 - classification",
+      "value": "Finite-life intangible asset (7-year useful life, shorter than the 14-year remaining legal life)"
+    },
+    {
+      "label": "a: item 4 trade name registration fees $8,400 - classification",
+      "value": "Indefinite-life intangible asset (not goodwill); external legal/registration costs are capitalized, not amortized"
+    },
+    {
+      "label": "a: item 5 internal engineer salaries and lab supplies $145,000 - classification",
+      "value": "Expense (research and development expensed as incurred; internally generated intangible)"
+    },
+    {
+      "label": "a: item 6 acquisition of competitor - classification",
+      "value": "Goodwill for the residual excess of price over the fair value of identifiable net assets"
+    },
+    {
+      "label": "a: item 6 goodwill recognized",
+      "value": 270000
+    },
+    {
+      "label": "a: item 7 patent defense fees $11,200 - classification",
+      "value": "Capitalized as part of the cost of the patent (finite-life intangible asset)"
+    },
+    {
+      "label": "a: item 7 effect on the patent's classification and subsequent measurement",
+      "value": "Item 7 does not change the patent's classification: it remains a finite-life intangible asset. The $11,200 successful-defense cost is added to the patent's carrying amount on July 1 and is amortized straight-line over the patent's remaining 6.5-year useful life, so only 6 months of that amortization falls in Year 1. (Had the defense failed, the fees would have been expensed and the patent tested for impairment.)"
+    },
+    {
+      "label": "a: item 8 two-year municipal license $24,000 - classification",
+      "value": "Finite-life intangible asset (2-year life)"
+    },
+    {
+      "label": "c: Year-1 amortization - patent, original cost (56,000 / 7, full year)",
+      "value": 8000
+    },
+    {
+      "label": "c: Year-1 amortization - patent defense costs (11,200 / 6.5 x 6/12)",
+      "value": 861.54
+    },
+    {
+      "label": "c: Year-1 amortization - patent, total",
+      "value": 8861.54
+    },
+    {
+      "label": "c: Year-1 amortization - copyright (72,000 / 12)",
+      "value": 6000
+    },
+    {
+      "label": "c: Year-1 amortization - franchise (indefinite life, none)",
+      "value": 0
+    },
+    {
+      "label": "c: Year-1 amortization - trade name (indefinite life, none)",
+      "value": 0
+    },
+    {
+      "label": "c: Year-1 amortization - license (24,000 / 2)",
+      "value": 12000
+    },
+    {
+      "label": "c: Year-1 amortization - goodwill (not amortized)",
+      "value": 0
+    },
+    {
+      "label": "c: Year-1 amortization expense - total",
+      "value": 26861.54
+    },
+    {
+      "label": "e: Dec 31 Year 1 carrying amount - patent (incl. defense costs)",
+      "value": 58338.46
+    },
+    {
+      "label": "e: Dec 31 Year 1 carrying amount - copyright",
+      "value": 66000
+    },
+    {
+      "label": "e: Dec 31 Year 1 carrying amount - franchise",
+      "value": 110000
+    },
+    {
+      "label": "e: Dec 31 Year 1 carrying amount - trade name",
+      "value": 8400
+    },
+    {
+      "label": "e: Dec 31 Year 1 carrying amount - license",
+      "value": 12000
+    },
+    {
+      "label": "e: Dec 31 Year 1 carrying amount - goodwill",
+      "value": 270000
+    }
+  ],
+  "journal_entries": [
+    {
+      "part": "b",
+      "date": "Year 1, January 1",
+      "description": "Purchase copyright (item 1)",
+      "lines": [
+        {
+          "account": "Copyright",
+          "debit": 72000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 72000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Year 1, January 1",
+      "description": "Purchase franchise (item 2)",
+      "lines": [
+        {
+          "account": "Franchise",
+          "debit": 110000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 110000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Year 1, January 1",
+      "description": "Purchase patent (item 3)",
+      "lines": [
+        {
+          "account": "Patent",
+          "debit": 56000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 56000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Year 1, January 1",
+      "description": "Purchase two-year municipal license (item 8)",
+      "lines": [
+        {
+          "account": "License",
+          "debit": 24000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 24000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Year 1",
+      "description": "Internal salaries and lab supplies on internally developed invention (item 5) -- expensed as incurred",
+      "lines": [
+        {
+          "account": "Research and Development Expense",
+          "debit": 145000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 145000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Year 1",
+      "description": "Acquisition of competitor (item 6); residual to goodwill",
+      "lines": [
+        {
+          "account": "Identifiable Net Assets (at fair value)",
+          "debit": 980000,
+          "credit": 0
+        },
+        {
+          "account": "Goodwill",
+          "debit": 270000,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 1250000
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Year 1, April 1",
+      "description": "External counsel fees to register internally developed trade name (item 4)",
+      "lines": [
+        {
+          "account": "Trade Name",
+          "debit": 8400,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 8400
+        }
+      ]
+    },
+    {
+      "part": "b",
+      "date": "Year 1, July 1",
+      "description": "External legal fees to successfully defend the purchased patent (item 7); capitalized to the patent",
+      "lines": [
+        {
+          "account": "Patent",
+          "debit": 11200,
+          "credit": 0
+        },
+        {
+          "account": "Cash",
+          "debit": 0,
+          "credit": 11200
+        }
+      ]
+    },
+    {
+      "part": "d",
+      "date": "Year 1, December 31",
+      "description": "Year-1 amortization adjusting entry",
+      "lines": [
+        {
+          "account": "Amortization Expense",
+          "debit": 26861.54,
+          "credit": 0
+        },
+        {
+          "account": "Patent",
+          "debit": 0,
+          "credit": 8861.54
+        },
+        {
+          "account": "Copyright",
+          "debit": 0,
+          "credit": 6000
+        },
+        {
+          "account": "License",
+          "debit": 0,
+          "credit": 12000
+        }
+      ]
+    }
+  ],
+  "insufficient_info": false,
+  "notes": "US GAAP (ASC 350 / ASC 730 / ASC 805) per the course text. Item 5 R&D is expensed as incurred; item 4 external registration fees on an indefinite-life trade name are capitalized and not amortized, so the April 1 date is irrelevant. Item 7 successful-defense fees are added to the patent and amortized over the 6.5-year remaining useful life from July 1, giving 11,200 / 6.5 x 6/12 = 861.54 in Year 1 (equivalently, the textbook's restate-and-amortize approach: 4,000 for Jan-Jun plus 63,200 / 6.5 x 0.5 = 4,861.54 for Jul-Dec = 8,861.54, the same total). Amortization is credited directly to the asset accounts as in the text's Demo 13-2; using Accumulated Amortization contra accounts would give identical amounts."
+}

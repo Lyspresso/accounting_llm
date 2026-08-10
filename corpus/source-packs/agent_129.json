@@ -1,0 +1,40 @@
+{
+  "agent_id": 129,
+  "lo": "LO 22-6",
+  "chapter": 22,
+  "title": "Utilize a worksheet to prepare the statement of cash flows",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 22-6",
+      "concept": "Initial recognition worksheet JEs (equipment purchase; stock issuance); subsequent depreciation; period-end WC adjusting worksheet JEs; equipment disposal worksheet JE; complete worksheet; formal indirect SCF",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 22-6",
+      "concept": "Number-variant twin: reconstruct worksheet entries for WC, depreciation schedule, equipment disposal, note principal settlement, stock issuance; prepare formal SCF",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 22-6",
+      "concept": "Period-end and settlement reconstructed worksheet JEs — equipment disposal, early bond retirement (settlement), bond premium amortization (subsequent measurement), NI and dividends; classify each lower-half amount O/I/F",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 22-6",
+      "concept": "Classification / presentation — lower-half worksheet convention (additions = debits; deductions = credits) and correct reconstructed entry for a bond issued at a discount",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

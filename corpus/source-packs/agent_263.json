@@ -1,0 +1,74 @@
+{
+  "agent_id": 263,
+  "lo": "LO 14-1",
+  "chapter": 14,
+  "title": "Account for debt securities measured at amortized cost",
+  "critical": true,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 14-1",
+      "concept": "HTM discount: initial recognition, effective-interest schedule, period-end accrual adjusting JE (emphasis), maturity, FV disclosure",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 14-1",
+      "concept": "Number-variant twin: HTM discount with 4/12 period-end adjusting JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 14-1",
+      "concept": "HTM premium: period-end interest JE, BS presentation, early sale, maturity",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 14-1",
+      "concept": "HTM classification criteria and amortized-cost measurement method",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 14-1",
+      "concept": "Period-end adjusting JE components for HTM discount between interest dates",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

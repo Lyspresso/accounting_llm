@@ -1,0 +1,61 @@
+{
+  "agent_id": 172,
+  "lo": "LO 8-3",
+  "chapter": 8,
+  "critical": false,
+  "title": "Account for the impact of sales returns and allowances",
+  "emphasis": "subsequent_measurement_schedule",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-3",
+      "concept": "Two-year Refund Liability / Inv—Est Returns rollforward; first-year remaining estimate and subsequent-year true-up",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-3",
+      "concept": "First-year returns estimate number-variant twin with YE plug schedule",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "period_end_adjusting_JE",
+        "subsequent_measurement_schedule"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-3",
+      "concept": "Settlement of prior Refund Liability estimate plus subsequent-year RL schedule true-up",
+      "type": "multipart",
+      "ok": true,
+      "angles": [
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ]
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-3",
+      "concept": "Return vs allowance classification; RL and Inv—Est Returns presentation",
+      "type": "MC",
+      "ok": true,
+      "n_mc": 2,
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ]
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

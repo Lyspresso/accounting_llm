@@ -1,0 +1,86 @@
+{
+  "agent_id": 386,
+  "lo": "LO 21-1",
+  "chapter": 21,
+  "title": "Demonstrate accounting for change in accounting estimate including a change in accounting estimate effected by change in accounting principle",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 21-1",
+      "concept": "Prospective change in useful life and residual; multi-year period-end adjusting JEs (emphasis); subsequent measurement schedules before/after change; disposal",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 21-1",
+      "concept": "Number-variant twin: prospective life/residual revision; multi-year period-end adjusting JEs; subsequent measurement schedules; disposal with loss",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 21-1",
+      "concept": "Change from SL to DDB as change in estimate effected by change in principle; prospective DDB subsequent measurement schedule; multi-year period-end AJEs; disposal",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 21-1",
+      "concept": "Intangible initial recognition; subsequent amortization schedule; prospective life revision; multi-year period-end AJEs; abandonment/disposal write-off",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 21-1",
+      "concept": "Classification — pure change in estimate vs estimate effected by principle vs retrospective principle change; prospective application",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q6",
+      "lo": "LO 21-1",
+      "concept": "Period-end adjusting JE implements pure change in estimate — no restatement or cumulative catch-up",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "ok": true
+}

@@ -1,0 +1,199 @@
+{
+ "id": "agent_080#01",
+ "rounding_convention": "decimal.Decimal throughout (no floats); each period's depreciation rounded to the cent with ROUND_HALF_UP; final-year depreciation trued up so the carrying amount lands exactly on the revised residual.",
+ "answers": [
+  {
+   "label": "a: Debit Equipment (tempering furnace) on 1/1/Yr1",
+   "value": 240000
+  },
+  {
+   "label": "a: Credit Cash on 1/1/Yr1",
+   "value": 240000
+  },
+  {
+   "label": "b: Original annual straight-line depreciation (Years 1-4)",
+   "value": 27000
+  },
+  {
+   "label": "b: Depreciation schedule Years 1-4 (dep / accum / carrying amount)",
+   "value": [
+    {
+     "year": 1,
+     "depreciation": 27000,
+     "accum_dep_end": 27000,
+     "carrying_amount_end": 213000
+    },
+    {
+     "year": 2,
+     "depreciation": 27000,
+     "accum_dep_end": 54000,
+     "carrying_amount_end": 186000
+    },
+    {
+     "year": 3,
+     "depreciation": 27000,
+     "accum_dep_end": 81000,
+     "carrying_amount_end": 159000
+    },
+    {
+     "year": 4,
+     "depreciation": 27000,
+     "accum_dep_end": 108000,
+     "carrying_amount_end": 132000
+    }
+   ]
+  },
+  {
+   "label": "b: Accumulated depreciation at 12/31/Yr4",
+   "value": 108000
+  },
+  {
+   "label": "c: Carrying amount at 1/1/Yr5",
+   "value": 132000
+  },
+  {
+   "label": "c: Remaining useful life at 1/1/Yr5 (years)",
+   "value": 8
+  },
+  {
+   "label": "c: Revised annual depreciation, Years 5-12",
+   "value": 15000
+  },
+  {
+   "label": "c: Year 5 depreciation expense (period-end JE amount)",
+   "value": 15000
+  },
+  {
+   "label": "d: Depreciation schedule Years 5-12 (dep / accum / carrying amount)",
+   "value": [
+    {
+     "year": 5,
+     "depreciation": 15000,
+     "accum_dep_end": 123000,
+     "carrying_amount_end": 117000
+    },
+    {
+     "year": 6,
+     "depreciation": 15000,
+     "accum_dep_end": 138000,
+     "carrying_amount_end": 102000
+    },
+    {
+     "year": 7,
+     "depreciation": 15000,
+     "accum_dep_end": 153000,
+     "carrying_amount_end": 87000
+    },
+    {
+     "year": 8,
+     "depreciation": 15000,
+     "accum_dep_end": 168000,
+     "carrying_amount_end": 72000
+    },
+    {
+     "year": 9,
+     "depreciation": 15000,
+     "accum_dep_end": 183000,
+     "carrying_amount_end": 57000
+    },
+    {
+     "year": 10,
+     "depreciation": 15000,
+     "accum_dep_end": 198000,
+     "carrying_amount_end": 42000
+    },
+    {
+     "year": 11,
+     "depreciation": 15000,
+     "accum_dep_end": 213000,
+     "carrying_amount_end": 27000
+    },
+    {
+     "year": 12,
+     "depreciation": 15000,
+     "accum_dep_end": 228000,
+     "carrying_amount_end": 12000
+    }
+   ]
+  },
+  {
+   "label": "d: Carrying amount at end of Year 12 (equals revised residual)",
+   "value": 12000
+  },
+  {
+   "label": "e: Accumulated depreciation at 12/31/Yr6 (date of sale)",
+   "value": 138000
+  },
+  {
+   "label": "e: Carrying amount at 12/31/Yr6 before sale",
+   "value": 102000
+  },
+  {
+   "label": "e: Loss on disposal",
+   "value": 7000
+  },
+  {
+   "label": "f: Classification",
+   "value": "Change in accounting estimate - accounted for prospectively over the remaining useful life; it is not a change in principle and not an error correction."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Equipment - Tempering Furnace",
+     "debit": 240000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 240000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Depreciation Expense",
+     "debit": 15000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 15000
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 95000,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 138000,
+     "credit": 0
+    },
+    {
+     "account": "Loss on Disposal of Equipment",
+     "debit": 7000,
+     "credit": 0
+    },
+    {
+     "account": "Equipment - Tempering Furnace",
+     "debit": 0,
+     "credit": 240000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Original SL dep = (240,000 - 24,000)/8 = 27,000/yr; 4 years accumulate 108,000, leaving a 1/1/Yr5 carrying amount of 132,000. The 1/1/Yr5 revision (total life 12 years => 8 remaining; residual 12,000) is applied prospectively: (132,000 - 12,000)/8 = 15,000/yr for Years 5-12, which reaches the 12,000 residual exactly at 12/31/Yr12. At 12/31/Yr6 accumulated depreciation is 108,000 + 2(15,000) = 138,000 and carrying amount is 102,000; proceeds of 95,000 give a 7,000 loss."
+}

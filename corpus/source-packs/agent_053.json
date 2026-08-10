@@ -1,0 +1,39 @@
+{
+  "agent_id": 53,
+  "lo": "LO 9-6",
+  "chapter": 9,
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-6",
+      "concept": "Initial recognition of LIFO reserve (Allowance to Reduce Inventory to LIFO Basis); subsequent period-end adjustments for Δ reserve; BS presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-6",
+      "concept": "Number-variant twin — create LIFO reserve, multi-year Δ-reserve schedule, period-end JEs, and BS net presentation",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-6",
+      "concept": "Period-end LIFO reserve adjustment from given beginning allowance; classification/presentation; outside-the-books disclosure alternative",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-6",
+      "concept": "Classification of the LIFO allowance and which amount adjusts COGS each period",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 4,
+  "ok": true
+}

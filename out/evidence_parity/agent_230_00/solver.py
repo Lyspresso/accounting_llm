@@ -1,0 +1,162 @@
+"""Silverpine Fitness Equipment Co. - warranty rollforward, litigation contingency,
+disclosure classification, liquidity ratios.
+
+Rounding convention: all monetary amounts are decimal.Decimal, quantized to the cent
+with ROUND_HALF_UP applied once per period/line (no float arithmetic anywhere).
+Ratios are computed from unrounded Decimal totals and quantized to two decimals with
+ROUND_HALF_UP.  Every figure is derived from the fact pattern; nothing is hard-coded
+beyond the given inputs.
+"""
+import json
+from decimal import Decimal as D, ROUND_HALF_UP
+
+C = D("0.01")
+R = D("0.01")
+
+
+def m(x):
+    return (D(x) if not isinstance(x, D) else x).quantize(C, rounding=ROUND_HALF_UP)
+
+
+def ratio(n, d):
+    return (n / d).quantize(R, rounding=ROUND_HALF_UP)
+
+
+def f(x):
+    return float(x)
+
+
+# ---------------- inputs ----------------
+sales = {1: m("4800000"), 2: m("5400000"), 3: m("5700000")}
+rate = {1: D("0.025"), 2: D("0.025"), 3: D("0.020")}
+claims = {1: m("105000"), 2: m("118000"), 3: m("122000")}
+warr_beg_y1 = m("52000")
+
+best_estimate = m("160000")
+range_low, range_high = m("120000"), m("250000")
+settle_cash = m("175000")
+
+loc = m("600000")
+plant_commit = m("1500000")
+
+cash = m("380000")
+stms = m("140000")
+ar = m("920000")
+inv = m("1650000")
+ppd = m("110000")
+total_ca = cash + stms + ar + inv + ppd
+
+ap = m("710000")
+accrued = m("390000")
+notes = m("450000")
+unearned = m("180000")
+warr_on_books = m("67000")
+total_cl_unadj = ap + accrued + notes + unearned + warr_on_books
+
+# ---------------- (a) warranty rollforward ----------------
+rows = []
+beg = warr_beg_y1
+for y in (1, 2, 3):
+    prov = m(sales[y] * rate[y])
+    end = m(beg + prov - claims[y])
+    rows.append({"year": y, "beg": beg, "prov": prov, "paid": claims[y], "end": end})
+    beg = end
+y1, y2, y3 = rows
+
+# ---------------- (b) Year-2 warranty true-up ----------------
+trueup = m(y2["prov"] - y2["paid"])          # additional expense to reach total provision
+liab_increase = m(y2["end"] - y2["beg"])     # must equal trueup
+assert trueup == liab_increase
+
+# ---------------- (d) contingency rollforward ----------------
+cont_y2_beg = m("0")
+cont_y2_prov = best_estimate
+cont_y2_pay = m("0")
+cont_y2_end = m(cont_y2_beg + cont_y2_prov - cont_y2_pay)
+cont_y3_beg = cont_y2_end
+cont_y3_remeas = m(settle_cash - cont_y3_beg)
+cont_y3_pay = settle_cash
+cont_y3_end = m(cont_y3_beg + cont_y3_remeas - cont_y3_pay)
+
+# ---------------- (f) ratios ----------------
+quick_assets = cash + stms + ar
+cr_un = ratio(total_ca, total_cl_unadj)
+qr_un = ratio(quick_assets, total_cl_unadj)
+total_cl_adj = m(total_cl_unadj + trueup + best_estimate)
+cr_adj = ratio(total_ca, total_cl_adj)
+qr_adj = ratio(quick_assets, total_cl_adj)
+
+answers = [
+    # a
+    {"label": "a: Year 1 - beginning warranty liability", "value": f(y1["beg"])},
+    {"label": "a: Year 1 - provision (4,800,000 x 2.5%)", "value": f(y1["prov"])},
+    {"label": "a: Year 1 - claims paid", "value": f(y1["paid"])},
+    {"label": "a: Year 1 - ending warranty liability (verifies Jan 1, Yr 2 book balance of 67,000)", "value": f(y1["end"])},
+    {"label": "a: Year 2 - beginning warranty liability", "value": f(y2["beg"])},
+    {"label": "a: Year 2 - provision (5,400,000 x 2.5%)", "value": f(y2["prov"])},
+    {"label": "a: Year 2 - claims paid", "value": f(y2["paid"])},
+    {"label": "a: Year 2 - ending warranty liability (Dec 31, Yr 2 balance sheet)", "value": f(y2["end"])},
+    {"label": "a: Year 3 - beginning warranty liability", "value": f(y3["beg"])},
+    {"label": "a: Year 3 - provision (5,700,000 x 2.0%)", "value": f(y3["prov"])},
+    {"label": "a: Year 3 - claims paid", "value": f(y3["paid"])},
+    {"label": "a: Year 3 - ending warranty liability", "value": f(y3["end"])},
+    # b
+    {"label": "b: Year-2 warranty true-up adjusting amount (135,000 total expense - 118,000 claims already expensed)", "value": f(trueup)},
+    {"label": "b: total Year-2 warranty expense reported (claims 118,000 + true-up 17,000)", "value": f(y2["prov"])},
+    # c
+    {"label": "c: Dec 31, Year 2 litigation loss accrued (best estimate within 120,000-250,000 range; probable and estimable)", "value": f(best_estimate)},
+    # d
+    {"label": "d: contingency - Year 2 beginning balance", "value": f(cont_y2_beg)},
+    {"label": "d: contingency - Year 2 provision (initial recognition)", "value": f(cont_y2_prov)},
+    {"label": "d: contingency - Year 2 payments", "value": f(cont_y2_pay)},
+    {"label": "d: contingency - Year 2 ending balance", "value": f(cont_y2_end)},
+    {"label": "d: contingency - Year 3 beginning balance", "value": f(cont_y3_beg)},
+    {"label": "d: contingency - Year 3 remeasurement/additional loss on settlement (175,000 - 160,000)", "value": f(cont_y3_remeas)},
+    {"label": "d: contingency - Year 3 payment (Mar 5, Year 3 cash settlement)", "value": f(cont_y3_pay)},
+    {"label": "d: contingency - Year 3 ending balance", "value": f(cont_y3_end)},
+    {"label": "d: recognized subsequent event - liability/loss that would be reported in the Year-2 issued statements (settled Mar 5, Yr 3 before the Mar 12, Yr 3 issuance date; conditions existed at 12/31/Yr 2, so the accrual is adjusted up to the settlement amount)", "value": f(settle_cash)},
+    {"label": "d: recognized subsequent event - additional Year-2 loss accrual required above the 160,000 best estimate", "value": f(cont_y3_remeas)},
+    {"label": "d: recognized subsequent event - narrative", "value": "Adjusting (Type 1) event: because the loss condition existed at 12/31/Year 2 and the case settled before the March 12, Year 3 issuance date, Year-2 statements are adjusted - the estimated litigation liability and loss are written up from the 160,000 best estimate to the 175,000 settlement amount (extra 15,000 loss in Year 2), with disclosure of the settlement; the Year-3 payment then simply debits the liability 175,000 and credits cash 175,000, with no Year-3 loss."},
+    # e
+    {"label": "e(i): litigation accrual - treatment", "value": "Accrued AND disclosed. Loss is probable and reasonably estimable, so accrue the 160,000 best estimate within the range; disclose the nature of the suit, the 120,000-250,000 range of reasonably possible loss, the amount accrued, and the subsequent 175,000 settlement."},
+    {"label": "e(ii): warranty liability - treatment", "value": "Accrued AND disclosed. Assurance-type warranty is a probable, estimable obligation, so accrue the 84,000 Dec 31, Year 2 balance as a current liability; disclose the warranty policy and the rollforward (beginning balance, provisions, claims paid, ending balance)."},
+    {"label": "e(iii): plant expansion commitment (1,500,000) - treatment", "value": "Disclosed only, not accrued. A noncancelable purchase/construction commitment is an unperformed executory contract - no past event has created a liability - so disclose the 1,500,000 amount, the nature of the commitment, and the expected May Year 3 closing."},
+    {"label": "e(iv): unused letter of credit (600,000) - treatment", "value": "Disclosed only, not accrued. The unused 600,000 line is off-balance-sheet available credit/contingent exposure, not a present obligation; disclose the amount, the issuing bank arrangement, and any related terms."},
+    # f
+    {"label": "f(1): unadjusted total current assets", "value": f(total_ca)},
+    {"label": "f(1): unadjusted quick assets (cash 380,000 + marketable securities 140,000 + net A/R 920,000)", "value": f(quick_assets)},
+    {"label": "f(1): unadjusted total current liabilities", "value": f(total_cl_unadj)},
+    {"label": "f(1): unadjusted current ratio", "value": f(cr_un)},
+    {"label": "f(1): unadjusted quick ratio", "value": f(qr_un)},
+    {"label": "f(2): adjusted total current liabilities (1,797,000 + 17,000 warranty true-up + 160,000 litigation)", "value": f(total_cl_adj)},
+    {"label": "f(2): adjusted current ratio", "value": f(cr_adj)},
+    {"label": "f(2): adjusted quick ratio", "value": f(qr_adj)},
+    {"label": "f: analysis of effect on short-term liquidity", "value": "Both accruals hit current liabilities only; current assets are unchanged because no cash moves in Year 2. Current liabilities rise 177,000 (1,797,000 to 1,974,000), so the current ratio falls from 1.78 to 1.62 and the quick ratio from 0.80 to 0.73. Reported liquidity weakens and the quick ratio stays below 1.0, tightening debt-covenant headroom, even though the company's economic position is unchanged - the entries merely recognize obligations that already existed. The 1,500,000 plant commitment and 600,000 unused letter of credit are not in the ratios but represent future cash demands (and available borrowing capacity) a reader must weigh."},
+]
+
+jes = [
+    {"part": "b", "lines": [
+        {"account": "Warranty Expense", "debit": f(trueup), "credit": 0},
+        {"account": "Warranty Liability", "debit": 0, "credit": f(trueup)},
+    ]},
+    {"part": "c", "lines": [
+        {"account": "Loss from Litigation (Estimated Litigation Loss)", "debit": f(best_estimate), "credit": 0},
+        {"account": "Estimated Litigation Liability", "debit": 0, "credit": f(best_estimate)},
+    ]},
+    {"part": "d", "lines": [
+        {"account": "Estimated Litigation Liability", "debit": f(cont_y3_beg), "credit": 0},
+        {"account": "Loss from Litigation Settlement (remeasurement)", "debit": f(cont_y3_remeas), "credit": 0},
+        {"account": "Cash", "debit": 0, "credit": f(settle_cash)},
+    ]},
+]
+for je in jes:
+    assert sum(D(str(l["debit"])) for l in je["lines"]) == sum(D(str(l["credit"])) for l in je["lines"])
+
+print(json.dumps({
+    "id": "agent_230#00",
+    "rounding_convention": "decimal.Decimal throughout (no floats); money quantized to the cent with ROUND_HALF_UP once per period/line; ratios computed from unrounded Decimal totals and quantized to 2 decimals with ROUND_HALF_UP",
+    "answers": answers,
+    "journal_entries": jes,
+    "insufficient_info": False,
+    "notes": "Warranty policy check: claims paid during the year are already in Warranty Expense, so the year-end true-up equals provision minus claims paid (135,000 - 118,000 = 17,000), which is exactly the change in the liability (67,000 to 84,000); total Year-2 warranty expense is the 135,000 provision. Year-1 ending balance of 67,000 ties to the Jan 1, Year 2 book balance, verifying the schedule. Part (d) settlement JE is recorded against the 160,000 Year-2 accrual as instructed; under recognized-subsequent-event (adjusting) treatment the Year-2 accrual would instead be 175,000 and no Year-3 loss would arise."
+}, indent=1))

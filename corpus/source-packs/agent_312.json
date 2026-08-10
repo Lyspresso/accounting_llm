@@ -1,0 +1,46 @@
+{
+  "agent_id": 312,
+  "lo": "LO 9-3",
+  "chapter": 9,
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 9-3",
+      "concept": "Initial purchase recognition under periodic; sale (revenue only); COGAS schedule; EI/COGS under specific identification, average cost, FIFO, and LIFO; period-end adjusting JE under average cost (emphasis)",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 9-3",
+      "concept": "Number-variant twin—periodic specific identification, average cost, FIFO, and LIFO; initial purchase/sale JEs; period-end adjusting JE under LIFO (emphasis)",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 9-3",
+      "concept": "Period-end adjusting JEs for specific identification, average cost, FIFO, and LIFO from the same COGAS; subsequent comparison schedule; BS/IS presentation and rising-price pretax income effects",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 9-3",
+      "concept": "Classification of cost-flow method effects on EI and COGS when acquisition costs are rising",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 9-3",
+      "concept": "Classification of when COGS is measured under periodic cost-flow assumptions",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

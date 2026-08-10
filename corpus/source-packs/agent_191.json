@@ -1,0 +1,82 @@
+{
+  "agent_id": 191,
+  "lo": "LO 10-4",
+  "chapter": 10,
+  "title": "Demonstrate the gross profit method to estimate inventory",
+  "critical": false,
+  "emphasis": "subsequent_measurement_schedule",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 10-4",
+      "concept": "Subsequent measurement schedule of estimated inventory under the gross profit method; markup-on-cost conversion; period-end interim adjusting JEs; initial recognition of casualty loss; insurance settlement",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 10-4",
+      "concept": "Number-variant twin — subsequent measurement schedule of estimated inventory; markup conversion; interim adjusting JEs; casualty write-off and insurance settlement",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 10-4",
+      "concept": "Subsequent measurement schedules applied separately by inventory class when markups differ; compare to blended-rate estimate; period-end adjusting JE; estimated missing inventory vs physical count",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 10-4",
+      "concept": "Convert markup on cost and select estimated ending inventory under the gross profit method",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "A",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 10-4",
+      "concept": "Identify when the gross profit method must be applied separately by inventory class",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "answer": "B",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

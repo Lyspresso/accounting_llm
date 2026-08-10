@@ -1,0 +1,85 @@
+{
+  "agent_id": 357,
+  "lo": "LO 15-2",
+  "chapter": 15,
+  "title": "Record customer deposits and advances",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 15-2",
+      "concept": "Period-end adjusting JE for deferred revenue on a multi-month customer advance; initial recognition JE; subsequent measurement schedule; final-period settlement JE",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 15-2",
+      "concept": "Number-variant twin: period-end adjusting JE for deferred revenue; initial recognition; subsequent measurement schedule; final settlement JE",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 15-2",
+      "concept": "Period-end adjusting JE for gift-card breakage under the proportional method; initial sale JE; redemption settlement; subsequent measurement schedule; remote alternative",
+      "type": "multipart",
+      "angles": [
+        "period_end_adjusting_JE",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 15-2",
+      "concept": "Initial recognition of returnable deposits; settlement by cash return; settlement by forfeiture with sales and COGS; deposit liability schedule",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "disposal_maturity_or_settlement_JE",
+        "subsequent_measurement_schedule"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 15-2",
+      "concept": "Classify initial credit for returnable deposit vs customer advance vs immediate revenue",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure",
+        "initial_recognition_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q6",
+      "lo": "LO 15-2",
+      "concept": "Period-end adjusting amount for proportional gift-card breakage",
+      "type": "MC",
+      "angles": [
+        "period_end_adjusting_JE"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 6,
+  "ok": true
+}

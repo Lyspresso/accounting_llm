@@ -1,0 +1,71 @@
+{
+  "agent_id": 45,
+  "lo": "LO 8-7",
+  "chapter": 8,
+  "title": "Describe receivables disclosures and ratio analyses",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 8-7",
+      "concept": "Initial recognition of credit sales; write-offs/recoveries; period-end ADA adjusting JE; allowance disclosure rollforward; AR turnover and days to collect",
+      "type": "multipart",
+      "angles": [
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 8-7",
+      "concept": "Allowance rollforward, period-end ADA JE, write-off/recovery settlement, AR ratios (all numbers changed)",
+      "type": "multipart",
+      "angles": [
+        "number_variant_twin",
+        "initial_recognition_JE",
+        "subsequent_measurement_schedule",
+        "period_end_adjusting_JE",
+        "disposal_maturity_or_settlement_JE"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 8-7",
+      "concept": "Comparative AR turnover and days to collect; interpret peer differences; map facts to ASC 310-10-50 disclosure requirements",
+      "type": "multipart",
+      "angles": [
+        "subsequent_measurement_schedule",
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 8-7",
+      "concept": "Identify when a concentration of credit risk disclosure is required",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 8-7",
+      "concept": "Correct computation of accounts receivable turnover and days to collect",
+      "type": "MC",
+      "angles": [
+        "classification_presentation_or_disclosure"
+      ],
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

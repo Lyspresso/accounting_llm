@@ -1,0 +1,41 @@
+{
+ "id": "agent_184#02",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 6,
+  "routed_stage2": 0,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "d(i): formal JE made for the reserve under approach (2)?",
+   "solver": "No \u2014 no formal journal entry is made for the reserve; the books stay on FIFO and the LIFO conversion is made only for external reporting."
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "f: year with the reverse / settlement-type adjustment",
+   "solver": "Year 8"
+  },
+  {
+   "kind": "NON_NUMERIC_ANSWER",
+   "label": "f: income-statement effect",
+   "solver": "Year 8: the allowance is debited $70,000 to reverse part of the prior LIFO-reserve build-up, with the credit to Cost of Goods Sold. COGS decreases by $70,000, s"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Allowance to Reduce Inventory to LIFO Basis"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Allowance to Reduce Inventory to LIFO Basis"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Allowance to Reduce Inventory to LIFO Basis"
+  }
+ ]
+}

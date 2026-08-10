@@ -1,0 +1,55 @@
+{
+  "agent_id": 113,
+  "lo": "LO 19-8",
+  "chapter": 19,
+  "title": "Explain stockholders’ equity disclosures and key ratios",
+  "critical": false,
+  "emphasis": "initial_recognition_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 19-8",
+      "concept": "Appropriation of RE JE; two-year BVPS, payout, ROE, P/E schedule; preferred liquidation claim; ASC 505 equity disclosures",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 19-8",
+      "concept": "Number-variant twin: appropriation JE; BVPS, payout, ROE, P/E with preferred claim; comparative ratio schedule",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 19-8",
+      "concept": "BVPS with liquidation preference and preferred dividends in arrears; YE appropriation JE; settlement release JE; reverse payout; disclosure vs ratio classification",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 19-8",
+      "concept": "Classification of preferred claims subtracted for common equity in BVPS (liquidation preference + arrears)",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 19-8",
+      "concept": "Classification — required ASC 505 equity disclosure (preferred dividends in arrears) versus analytical ratios",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

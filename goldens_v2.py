@@ -39,16 +39,16 @@ RULINGS = {
     "agent_285#00": ("adjudicated", "PASS", "header_driven_je_extraction",
                      "parser lifted a 4-line optional-form table as the whole key"),
     "agent_151#01": ("adjudicated", "PASS", "rounding_context_scope",
-                     "sub-dollar round-then-carry drift in an ROU rollforward"),
+                     "$0.86/$1.35 round-then-carry in an ROU rollforward"),
     "agent_283#02": ("adjudicated", "PASS", "rounding_context_scope",
-                     "sub-dollar drift, same rounding-convention pair"),
+                     "$0.65 same convention pair"),
     "agent_150#02": ("adjudicated", "PASS", "key_silent_derived",
                      "key declines to state Option 3 PV; solver correct"),
     # ---- parity flips ----
     "agent_002#03": ("adjudicated", "PASS", "je_aggregation_equivalence",
-                     "solver pooled two securities into one line; key splits per security"),
+                     "pooled 150,000 vs key's 90,000+60,000 split"),
     "agent_032#01": ("ai_cross_checked", "PASS", "latex_number_extraction",
-                     "key states <figure> in LaTeX the old extractor split"),
+                     "key states 18,000 in LaTeX the old extractor split"),
     "agent_303#02": ("ai_cross_checked", "FAIL", "stem_ambiguity",
                      "stem underdetermines the refund-liability identity"),
     "agent_043#00": ("ai_cross_checked", "PASS", "rounding_context_scope",
@@ -56,7 +56,7 @@ RULINGS = {
     "agent_053#01": ("ai_cross_checked", "PASS", "reporting_volume_invariance",
                      "order-dependent downgrade manufactured the flip"),
     "agent_107#02": ("ai_cross_checked", "PASS", "percent_fraction_units",
-                     "<figure>/<figure> vs key's <figure>/<figure>"),
+                     "0.72/0.28 vs key's 72/28"),
     # CORRECTED. This was recorded as a solver treatment error. It was not: the
     # trim harness carried no LO 11-8 rule at all while the dual harness did, so
     # the two solvers were answering under different instructions and the split
@@ -75,7 +75,7 @@ RULINGS = {
     # CORRECTED to FAIL. The T-account repair fixed one defect and the golden was
     # rewritten as clean, but a SECOND defect survives in the same key: Required
     # (b) demands entries explaining "all balance sheet account changes", the
-    # key's own schedule shows the restricted-cash balance rising, and none
+    # key's own schedule shows Restricted cash rising 15,000 -> 25,000, and none
     # of the key's 26 entry lines posts Restricted Cash. A comparator that flags
     # this is right, so a golden calling it clean makes the pipeline look wrong
     # for being correct. Repair is PROPOSED, not applied - see

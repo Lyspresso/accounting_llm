@@ -1,0 +1,170 @@
+{
+ "id": "agent_322#00",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "failed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 15,
+  "routed_stage2": 9,
+  "computable_unmatched": 1
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory (ending, Mar 31 - estimated)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory (beginning, Jan 1)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory (ending, Jun 30 - estimated)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory (beginning, Mar 31)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Cost of Goods Sold (July 1-12, estimated)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory - Salvaged Goods"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss from Storm (Casualty Loss)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Inventory (beginning, Jun 30)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Insurance Claim Receivable"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss from Storm (Casualty Loss)"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Insurance Claim Receivable"
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 380000.0,
+   "solver": "inventory ending mar 31 estimated",
+   "key_options": [
+    "inventory ending estimated"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 360000.0,
+   "solver": "inventory beginning jan 1",
+   "key_options": [
+    "inventory beginning"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 386000.0,
+   "solver": "inventory ending jun 30 estimated",
+   "key_options": [
+    "inventory ending estimated"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 380000.0,
+   "solver": "inventory beginning mar 31",
+   "key_options": [
+    "inventory beginning"
+   ]
+  },
+  {
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "side": "dr",
+   "amount": 72000.0,
+   "solver": "cost of goods sold july 1 12 estimated",
+   "n": 1
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 40000.0,
+   "solver": "inventory salvaged goods",
+   "key_options": [
+    "inventory salvage"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 322000.0,
+   "solver": "loss from storm casualty loss",
+   "key_options": [
+    "loss from storm"
+   ]
+  },
+  {
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "side": "cr",
+   "amount": 48000.0,
+   "solver": "purchases",
+   "n": 1
+  },
+  {
+   "kind": "JE_LINE_NOT_IN_KEY",
+   "side": "cr",
+   "amount": 386000.0,
+   "solver": "inventory beginning jun 30",
+   "n": 1
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "dr",
+   "amount": 300000.0,
+   "solver": "insurance claim receivable",
+   "key_options": [
+    "cash",
+    "insurance receivable"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 300000.0,
+   "solver": "loss from storm casualty loss",
+   "key_options": [
+    "insurance receivable",
+    "loss from storm"
+   ]
+  },
+  {
+   "kind": "ACCOUNT_TO_STAGE2",
+   "side": "cr",
+   "amount": 300000.0,
+   "solver": "insurance claim receivable",
+   "key_options": [
+    "insurance receivable",
+    "loss from storm"
+   ]
+  },
+  {
+   "kind": "KEY_LINE_NOT_IN_SOLVER",
+   "side": "cr",
+   "amount": 362000.0,
+   "key": "inventory",
+   "n": 1
+  }
+ ]
+}

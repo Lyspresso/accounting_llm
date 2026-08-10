@@ -1,0 +1,184 @@
+{
+ "id": "agent_204#02",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent applied per period (each year's depreciation rounded independently), accumulated depreciation and NBV built from the rounded per-period amounts; Dr = Cr enforced on every entry.",
+ "answers": [
+  {
+   "label": "a: Equipment capitalized (Dr) = $180,000 FV + $3,000 title cost",
+   "value": 183000
+  },
+  {
+   "label": "a: Contribution revenue (Cr)",
+   "value": 180000
+  },
+  {
+   "label": "a: Cash paid (Cr)",
+   "value": 3000
+  },
+  {
+   "label": "b: Depreciable base (cost - residual)",
+   "value": 171000
+  },
+  {
+   "label": "b: Full-year straight-line depreciation",
+   "value": 28500
+  },
+  {
+   "label": "b: Months held in Year 1 (Apr 1 - Dec 31)",
+   "value": 9
+  },
+  {
+   "label": "b: Year 1 depreciation expense",
+   "value": 21375
+  },
+  {
+   "label": "b: Year 1 year-end accumulated depreciation",
+   "value": 21375
+  },
+  {
+   "label": "b: Year 1 year-end net book value",
+   "value": 161625
+  },
+  {
+   "label": "b: Year 2 depreciation expense",
+   "value": 28500
+  },
+  {
+   "label": "b: Year 2 year-end accumulated depreciation",
+   "value": 49875
+  },
+  {
+   "label": "b: Year 2 year-end net book value",
+   "value": 133125
+  },
+  {
+   "label": "b: Year 3 depreciation expense",
+   "value": 28500
+  },
+  {
+   "label": "b: Year 3 year-end accumulated depreciation",
+   "value": 78375
+  },
+  {
+   "label": "b: Year 3 year-end net book value",
+   "value": 104625
+  },
+  {
+   "label": "c: Dec 31, Year 1 depreciation adjusting entry amount",
+   "value": 21375
+  },
+  {
+   "label": "c: Dec 31, Year 2 depreciation adjusting entry amount",
+   "value": 28500
+  },
+  {
+   "label": "d: Dec 31, Year 3 depreciation adjusting entry amount",
+   "value": 28500
+  },
+  {
+   "label": "d: NBV immediately before scrapping",
+   "value": 104625
+  },
+  {
+   "label": "d: Cash received from salvage dealer",
+   "value": 9500
+  },
+  {
+   "label": "d: Loss on disposal (scrapping)",
+   "value": 95125
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Equipment",
+     "debit": 183000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 3000
+    },
+    {
+     "account": "Contribution Revenue (Revenue from contribution received)",
+     "debit": 0,
+     "credit": 180000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Depreciation Expense - Equipment (Dec 31, Year 1)",
+     "debit": 21375,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 21375
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Depreciation Expense - Equipment (Dec 31, Year 2)",
+     "debit": 28500,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 28500
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Depreciation Expense - Equipment (Dec 31, Year 3)",
+     "debit": 28500,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 0,
+     "credit": 28500
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 9500,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated Depreciation - Equipment",
+     "debit": 78375,
+     "credit": 0
+    },
+    {
+     "account": "Loss on Disposal of Equipment",
+     "debit": 95125,
+     "credit": 0
+    },
+    {
+     "account": "Equipment",
+     "debit": 0,
+     "credit": 183000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Nonreciprocal transfer: equipment recognized at $180,000 fair value with the $3,000 legal title-transfer cost capitalized as a directly attributable cost of readying the asset, giving a $183,000 capitalized cost and $180,000 contribution revenue. Straight-line: ($183,000 - $12,000)/6 = $28,500 per full year; Year 1 held 9 months (Apr 1 - Dec 31) = $21,375. Accumulated depreciation at Dec 31, Year 3 = $78,375, NBV $104,625; scrapping for $9,500 cash yields a $95,125 loss on disposal."
+}

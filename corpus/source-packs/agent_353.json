@@ -1,0 +1,55 @@
+{
+  "agent_id": 353,
+  "lo": "LO 13-6",
+  "chapter": 13,
+  "title": "Account for impairment of indefinite life intangible assets and goodwill",
+  "critical": false,
+  "emphasis": "period_end_adjusting_JE",
+  "angles_covered": [
+    "initial_recognition_JE",
+    "subsequent_measurement_schedule",
+    "period_end_adjusting_JE",
+    "disposal_maturity_or_settlement_JE",
+    "classification_presentation_or_disclosure",
+    "number_variant_twin"
+  ],
+  "items": [
+    {
+      "qid": "Q1",
+      "lo": "LO 13-6",
+      "concept": "Period-end quantitative impairment adjusting entries for an indefinite-life trade name and for goodwill of a reporting unit; initial recognition; carrying-amount schedule; post-impairment disposal",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q2",
+      "lo": "LO 13-6",
+      "concept": "Number-variant twin: initial recognition of brand and residual goodwill; subsequent zero-amortization schedule with Year-3 period-end impairments; disposal of brand after impairment",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q3",
+      "lo": "LO 13-6",
+      "concept": "Period-end adjusting entries under edge cases — FV ≥ CA (no loss); goodwill impairment capped at GW when RU shortfall exceeds GW; qualitative assessment that stops testing; disposal of indefinite-life asset",
+      "type": "multipart",
+      "ok": true
+    },
+    {
+      "qid": "Q4",
+      "lo": "LO 13-6",
+      "concept": "Quantitative goodwill impairment amount = excess of reporting-unit CA over RU FV, limited to allocated goodwill",
+      "type": "MC",
+      "ok": true
+    },
+    {
+      "qid": "Q5",
+      "lo": "LO 13-6",
+      "concept": "Classification of impairment testing model — indefinite-life one-step FV vs CA (optional qualitative first); not the finite-life recoverability test",
+      "type": "MC",
+      "ok": true
+    }
+  ],
+  "n_items": 5,
+  "ok": true
+}

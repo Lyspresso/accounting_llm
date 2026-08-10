@@ -1,0 +1,22 @@
+{
+ "id": "agent_219#05",
+ "comparator_version": "3.8",
+ "pipeline_version": "1.2",
+ "status": "machine_passed",
+ "scope": {
+  "solver_has_entries": true,
+  "key_lines": 13,
+  "routed_stage2": 0,
+  "computable_unmatched": 0
+ },
+ "issues": [
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Impairment Loss"
+  },
+  {
+   "kind": "UNKNOWN_ACCOUNT",
+   "account": "Loss on Sale of Patent"
+  }
+ ]
+}

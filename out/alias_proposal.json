@@ -1,0 +1,4598 @@
+[
+ {
+  "canonical": "Cash",
+  "occurrences": 2444,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Interest Expense",
+  "occurrences": 409,
+  "variants": [
+   "Interest expense"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Cost of Goods Sold",
+  "occurrences": 324,
+  "variants": [
+   "Cost of goods sold"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Inventory",
+  "occurrences": 317,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Equipment",
+  "occurrences": 312,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Income Tax Expense",
+  "occurrences": 248,
+  "variants": [
+   "Income tax expense"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Equipment",
+  "occurrences": 235,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Accounts Receivable",
+  "occurrences": 228,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Lease Liability",
+  "occurrences": 227,
+  "variants": [
+   "Lease liability"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Bonds Payable",
+  "occurrences": 215,
+  "variants": [
+   "Bonds payable"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Depreciation Expense",
+  "occurrences": 192,
+  "variants": [
+   "Depreciation expense"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Accounts Payable",
+  "occurrences": 183,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Retained Earnings",
+  "occurrences": 180,
+  "variants": [
+   "Retained earnings"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Income Tax Payable",
+  "occurrences": 173,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Interest Revenue",
+  "occurrences": 172,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Discount on Bonds Payable",
+  "occurrences": 168,
+  "variants": [
+   "Discount on bonds payable"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Unrealized Gain or Loss\u2014Income",
+  "occurrences": 156,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Sales Revenue",
+  "occurrences": 143,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Paid-In Capital in Excess of Par\u2014Common Stock",
+  "occurrences": 139,
+  "variants": [
+   "Paid-in Capital in Excess of Par\u2014Common Stock"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Right-of-Use Asset",
+  "occurrences": 131,
+  "variants": [
+   "Right-of-use asset"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Deferred Tax Asset",
+  "occurrences": 129,
+  "variants": [
+   "Deferred tax asset"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Interest Payable",
+  "occurrences": 128,
+  "variants": [
+   "Interest payable"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Deferred Tax Liability",
+  "occurrences": 128,
+  "variants": [
+   "Deferred tax liability"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Patent",
+  "occurrences": 128,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Note Payable",
+  "occurrences": 115,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unrealized Gain or Loss\u2014OCI",
+  "occurrences": 114,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock",
+  "occurrences": 111,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Amortization Expense",
+  "occurrences": 107,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Fair Value Adjustment\u2014AFS",
+  "occurrences": 106,
+  "variants": [
+   "Fair value adjustment\u2014AFS"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Purchases",
+  "occurrences": 102,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Premium on Bonds Payable",
+  "occurrences": 101,
+  "variants": [
+   "Premium on bonds payable"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Allowance for Doubtful Accounts",
+  "occurrences": 90,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Compensation Expense",
+  "occurrences": 85,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Discount on Note Payable",
+  "occurrences": 76,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Research and Development Expense",
+  "occurrences": 74,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Fair Value Adjustment\u2014TS",
+  "occurrences": 67,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Building",
+  "occurrences": 61,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Construction in Process",
+  "occurrences": 61,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Notes Payable",
+  "occurrences": 59,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Retained Earnings\u2014Prior Period Adjustment",
+  "occurrences": 59,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory (beginning)",
+  "occurrences": 56,
+  "variants": [
+   "Inventory (Beginning)"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Building",
+  "occurrences": 55,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Disposal of Equipment",
+  "occurrences": 54,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Lease Expense",
+  "occurrences": 49,
+  "variants": [
+   "Lease expense"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Treasury Stock",
+  "occurrences": 49,
+  "variants": [
+   "Treasury stock"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Interest Receivable",
+  "occurrences": 47,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Fair Value Adjustment\u2014Equity Securities",
+  "occurrences": 47,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Land",
+  "occurrences": 46,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Discount on Note Receivable",
+  "occurrences": 45,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Customer List",
+  "occurrences": 45,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory (ending)",
+  "occurrences": 43,
+  "variants": [
+   "Inventory (Ending)"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Asset Retirement Obligation",
+  "occurrences": 41,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Paid-In Capital in Excess of Par\u2014Preferred Stock",
+  "occurrences": 39,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Paid-in Capital\u2014Stock Options",
+  "occurrences": 39,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Sales",
+  "occurrences": 38,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Income Summary",
+  "occurrences": 38,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Equipment",
+  "occurrences": 36,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Warranty Liability",
+  "occurrences": 36,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Liability for Unrecognized Tax Benefits",
+  "occurrences": 36,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Valuation Allowance for Deferred Tax Asset",
+  "occurrences": 35,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Salaries Expense",
+  "occurrences": 35,
+  "variants": [
+   "Salaries expense"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Salaries Payable",
+  "occurrences": 34,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Income Taxes Payable",
+  "occurrences": 34,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Gain on Sale of Investment",
+  "occurrences": 33,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Mandatorily Redeemable Preferred Stock Liability",
+  "occurrences": 33,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Additional Paid-in Capital\u2014Common",
+  "occurrences": 33,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment Income",
+  "occurrences": 32,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Impairment",
+  "occurrences": 32,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "License",
+  "occurrences": 30,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Software Intangible Asset",
+  "occurrences": 29,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Warranty Expense",
+  "occurrences": 29,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Bad Debt Expense",
+  "occurrences": 29,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Allowance to Reduce Inventory to Market",
+  "occurrences": 29,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock ($1 par)",
+  "occurrences": 29,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Allowance to Reduce Inventory to LIFO Basis",
+  "occurrences": 28,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Call Option",
+  "occurrences": 28,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Dividends Payable",
+  "occurrences": 28,
+  "variants": [
+   "Dividends payable"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "SARs Liability",
+  "occurrences": 27,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Note Receivable",
+  "occurrences": 26,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Sales Taxes Payable",
+  "occurrences": 26,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Fair Value Adjustment\u2014Bond Payable",
+  "occurrences": 26,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Freight-In",
+  "occurrences": 24,
+  "variants": [
+   "Freight-in"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Paid-In Capital\u2014Stock Warrants",
+  "occurrences": 24,
+  "variants": [
+   "Paid-in Capital\u2014Stock Warrants"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cash Over and Short",
+  "occurrences": 23,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Allowance to Reduce Inventory to Net Realizable Value",
+  "occurrences": 23,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Estimated Litigation Liability",
+  "occurrences": 23,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock Dividends Distributable",
+  "occurrences": 23,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Software Amortization Expense",
+  "occurrences": 22,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Dividend Revenue",
+  "occurrences": 22,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Gain on Disposal of Equipment",
+  "occurrences": 21,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Franchise",
+  "occurrences": 21,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Goodwill",
+  "occurrences": 21,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Deferred Revenue",
+  "occurrences": 21,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock ($2 par)",
+  "occurrences": 21,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation",
+  "occurrences": 21,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Sale of Investment",
+  "occurrences": 20,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Sales Returns",
+  "occurrences": 20,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Estimated Liability on Purchase Commitment",
+  "occurrences": 20,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Sale of Equipment",
+  "occurrences": 20,
+  "variants": [
+   "Loss on sale of equipment"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Amortization Expense\u2014Patent",
+  "occurrences": 19,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Notes Receivable",
+  "occurrences": 19,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Accumulated Other Comprehensive Income",
+  "occurrences": 19,
+  "variants": [
+   "Accumulated other comprehensive income"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Purchase Returns and Allowances",
+  "occurrences": 18,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Building",
+  "occurrences": 18,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Dividends Payable\u2014Preferred Stock",
+  "occurrences": 18,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Dividends Payable\u2014Common Stock",
+  "occurrences": 18,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Property Dividends Payable",
+  "occurrences": 18,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Prepaid Insurance",
+  "occurrences": 17,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Refund Liability",
+  "occurrences": 17,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Petty Cash",
+  "occurrences": 17,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Purchase Discount",
+  "occurrences": 17,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accrued Compensation",
+  "occurrences": 17,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Mine Property",
+  "occurrences": 16,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Copyright",
+  "occurrences": 16,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Restructuring of Debt",
+  "occurrences": 16,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unearned Compensation\u2014Equity",
+  "occurrences": 16,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Liability\u2014Employee Stock Purchase Plan",
+  "occurrences": 16,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Initial Direct Cost",
+  "occurrences": 16,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Sales Discount",
+  "occurrences": 15,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Merchandise Inventory (beginning)",
+  "occurrences": 15,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Purchases (net)",
+  "occurrences": 15,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "FICA Taxes Payable",
+  "occurrences": 15,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Beg. balance",
+  "occurrences": 14,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "End. balance",
+  "occurrences": 14,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Inventory Shortage",
+  "occurrences": 14,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accretion Expense",
+  "occurrences": 14,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accrued Pension Liability",
+  "occurrences": 14,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Paid-In Capital\u2014Treasury Stock",
+  "occurrences": 14,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Allowance for Credit Losses\u2014AFS",
+  "occurrences": 14,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Lease Incentive Liability",
+  "occurrences": 14,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on bond retirement",
+  "occurrences": 13,
+  "variants": [
+   "Loss on Bond Retirement"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Estimated Returns",
+  "occurrences": 13,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Preferred Stock",
+  "occurrences": 13,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Paid-in Capital\u2014Restricted Stock",
+  "occurrences": 13,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Repair Expense",
+  "occurrences": 12,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Sale of Equipment",
+  "occurrences": 12,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Machinery and Equipment",
+  "occurrences": 12,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Liability\u2014Returnable Deposit",
+  "occurrences": 12,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "FUTA Taxes Payable",
+  "occurrences": 12,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "SUTA Taxes Payable",
+  "occurrences": 12,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Retained Earnings (Unappropriated)",
+  "occurrences": 12,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock ($5 par)",
+  "occurrences": 11,
+  "variants": [
+   "Common stock, $5 par"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Miscellaneous Expense",
+  "occurrences": 11,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Land Improvements",
+  "occurrences": 11,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cash (or Salaries Payable)",
+  "occurrences": 11,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Impairment Loss\u2014Goodwill",
+  "occurrences": 11,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Service Revenue",
+  "occurrences": 11,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Deferred Gift Card Revenue",
+  "occurrences": 11,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Litigation",
+  "occurrences": 11,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Paid-in Capital\u2014SARs Plan",
+  "occurrences": 11,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "APIC\u2014Common Stock",
+  "occurrences": 11,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory (ending, estimated)",
+  "occurrences": 11,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Dividends Payable\u2014Preferred",
+  "occurrences": 11,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Training Expense",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Insurance Expense",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Office Supplies Expense",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Holding Loss on Inventory",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Estimated Loss on Purchase Commitment",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Purchase Contract",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Merchandise Inventory (ending, LIFO retail)",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Land Improvements",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Delivery Equipment",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Impairment Loss",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Laboratory Equipment",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Amortization\u2014Patent",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Put Option",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Withholding Taxes Payable\u2014Federal",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Withholding Taxes Payable\u2014State",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Retirement Contributions Payable",
+  "occurrences": 10,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Internal-Use Software Intangible Asset",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM Securities\u2014Summit Bonds",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accrued Warranty Liability",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Sales Allowances",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Receivable from Factor",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Postage Expense",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Wages Payable",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Contribution Revenue",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Inventory\u2014Copper Ore",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Pension Expense",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Preferred Stock\u2014Convertible",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Preferred Stock\u2014Callable",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unrealized Holding Gain\u2014OCI",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Income Tax Receivable",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Operating",
+  "occurrences": 9,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Additional paid-in capital",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Liability under Repurchase Agreement",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Asset Improvement",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Hydraulic Press",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Delivery Truck",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Trademark",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Property, Plant, and Equipment",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Laboratory Equipment",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Health Care Premiums Payable",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Discount on Notes Payable",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Paid-in Capital in Excess of Par\u2014Common",
+  "occurrences": 8,
+  "variants": [
+   "Paid-In Capital in Excess of Par\u2014Common"
+  ],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Net Income\u2014Operating",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Dividends Paid\u2014Financing",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Proceeds from Sale of Equipment\u2014Investing",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM Securities\u2014Meridian Bonds",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Mariner Tech \u2014 Equity Method",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Cedar Grove \u2014 Equity Method",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Restricted Cash\u2014Compensating Balance",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cash Equivalents\u2014Commercial Paper",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Insurance Receivable",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Machinery",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Boreal Sensors Stock",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Cedarline Logistics Stock",
+  "occurrences": 8,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM Securities\u2014Redwood Bonds",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Fair Value Adjustment\u2014Fair Value Option",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Sale-Leaseback",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Land Improvements",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Asset Exchange",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Delivery Truck",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Disposal of PPE",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Delivery Equipment (group control)",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Delivery Equipment",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Sale of Patent",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Sale of Patent",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Fair Value Adjustment\u2014AFS Debt Securities",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Purchase of Equipment\u2014Investing",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Issuance of Stock\u2014Financing",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Salary Expense",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Retained Earnings (or Dividends)",
+  "occurrences": 7,
+  "variants": [
+   "Retained earnings (or Dividends)"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Fair Value Adjustment\u2014Note Payable",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Allowance to Reduce FIFO Inventory to LIFO",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Crypto Asset",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "R&D Materials Inventory",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Notes Payable\u2014Installment (Secured)",
+  "occurrences": 7,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Harborline Bonds",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Crestview Stock",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Redemption of Bonds",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Warehouse",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Interest Revenue\u2014Municipal Bonds",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Write-offs",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Finance Expense",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Sale of Receivables",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accrued Liability for Inventory Replacement",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Packaging Line",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Machinery and Equipment (composite control)",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Machinery and Equipment",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment (composite control)",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Recovery of Impaired Asset",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Developed Technology",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Trademark (indefinite life)",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Fair Value Adjustment\u2014HTM",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain or Loss\u2014OCI",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Purchase on account",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Payroll Tax Expense",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Note Payable (restructured)",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Income Tax Expense\u2014Continuing Operations",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock ($10 par)",
+  "occurrences": 6,
+  "variants": [
+   "Common stock, $10 par"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Preferred Dividends (or Retained Earnings)",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Bonus Payable",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Royalties Payable",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Sale of Equipment\u2014Operating",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Increase in Accounts Payable\u2014Operating",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Redwood Bonds",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cash Equivalents\u2014U.S. Treasury Bill",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014On Hand",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014CNC",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Minerals",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cloud Implementation Costs",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Current Portion of Long-Term Debt",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM Securities\u2014Pinecrest Bonds",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Quarry Peak Stock",
+  "occurrences": 6,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cloud Hosting Expense (amortization of implementation)",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM Securities\u2014Cascade Bonds",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Oakmont Stock",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Recoveries",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Sales Discount Forfeited",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Recourse Liability",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Merchandise Inventory (ending, DV LIFO retail)",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Property Tax Expense",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Hydraulic Press",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Hydraulic Press",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014CNC Router",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Packaging Line",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Disposal of PPE",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Marketing Expense (or SG&A)",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Trade Name",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "General and Administrative Expense",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Point-of-sale tax accrual",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gift Card Breakage Revenue",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Litigation Settlement",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cash (and other resources)",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Income Tax Benefit\u2014Discontinued Operations",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unrealized Holding Gain\u2014Income",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Paid-in Capital\u2014Expired Stock Options",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Increase in Inventory\u2014Operating",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cloud Hosting / Subscription Expense",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Allowance to Reduce FIFO Inventory to LIFO Basis",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014CNC",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Identifiable Net Assets (summary at FV)",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Salaries Payable (Bonuses Payable)",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Dividends Payable\u2014Common",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Right-of-Use Asset\u2014Equipment",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Amortization\u2014ROU Asset",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Prepaid Rent",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Bagging Line",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Packaging Machine",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Packaging Machine",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM Securities\u2014Helios Bonds",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM Securities\u2014Westfield Bonds",
+  "occurrences": 5,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Cascade Bonds",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS\u2014Redwood Bonds",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Redline Stock",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Fine Expense",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Commission Expense",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory count adjustment / COGS",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accounts Payable (or Cash)",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Merchandise Inventory",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Forklifts",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014CNC Mill",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014New",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Old",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Old",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Asset Exchange",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Settlement of ARO",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014CNC Router",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Packaging Line",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Delivery Van",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Plant Assets",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Long-Term Debt",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Crypto Assets",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Production / Operating Expense",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014R&D Equipment",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Materials Inventory",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Interest Rate Swap Contract",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Futures Contract",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Coffee Inventory",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Deferred Warranty Revenue",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accrued Environmental Liability",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Current Maturities of Long-Term Debt",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Disposal of Assets",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Note Payable (old)",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Income Tax Expense\u2014Discontinued Operations",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "OCI\u2014Loss (net of tax)",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Paid-In Capital in Excess of Stated Value\u2014Common Stock",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Appropriated Retained Earnings\u2014Debt Covenant",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Salaries Payable (or Cash \u2014 reduction of net pay)",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Retained Earnings (or Preferred Dividends)",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Preferred Stock ($50 par)",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Improvements",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Prepaid Expenses",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Decrease in Salaries Payable\u2014Operating",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Decrease in Accounts Receivable, net\u2014Operating",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Increase in Interest Payable\u2014Operating",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Bond Retirement\u2014Operating",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Payment for Bond Retirement\u2014Financing",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Amortization of Bond Premium\u2014Operating",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM Securities\u2014Portage Bonds",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Pinnacle Fasteners \u2014 Equity Method",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Sale of Land",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Installment note payable",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Restricted Cash\u2014Bond Sinking Fund",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014On Consignment",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Salvage",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss from Flood",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Machinery",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Purchase",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Available-for-Sale Debt Securities",
+  "occurrences": 4,
+  "variants": [
+   "Available-for-sale debt securities"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM Securities\u2014Oakridge Bonds",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM\u2014Meridian Bonds",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Blueharbor Bonds",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Meridian Forge Stock",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Solstice Components Stock",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Alder Ridge Media Stock",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Sale of Equity-Method Investment",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Amortization Expense\u2014ROU Asset",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Notes Payable (long-term)",
+  "occurrences": 4,
+  "variants": [
+   "Notes Payable\u2014Long-term"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Allowance for Sales Discounts",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cost of Goods Sold (count correction)",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014New Packaging Line",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Old Packaging Line",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Old Packaging Line",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Bagging Line",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Silver Ore",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Timber",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accrued Litigation Liability",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Briarpoint Tooling LLC",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Driftwood Sensors LLC",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM\u2014Cascade Rail Bonds",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM\u2014Bayfront Utilities Bonds",
+  "occurrences": 4,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Disposal of Software Intangible",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Fable\u2014Equity Method",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Oakridge Bonds",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS\u2014Pinecrest Bonds",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Debt Conversion Expense",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Prepaid Maintenance",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Income Tax Refund Receivable",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Notes payable (installment)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Sales Returns and Allowances",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Loss on Sale of Note Receivable",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Delivery Expense",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Transportation Expense",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss / Expense \u2014 Abnormal Spoilage",
+  "occurrences": 3,
+  "variants": [
+   "Loss / Expense\u2014Abnormal Spoilage"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Construction of Equipment",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Forklifts",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Forklifts",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Settlement of Asset Retirement Obligation",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014CNC Mill",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Showroom Fixtures",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Sealing Machine",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Embroidery Machine",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Stamping Press",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Trade Name (indefinite life)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Disposal of Trade Name",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Remittance to tax authority",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Salaries Payable (or Bonuses Payable)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Early Extinguishment of Debt",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Note Payable (old face)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unrealized Gain or Loss\u2014OCI (AOCI)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Other Comprehensive Income (Loss)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Paid-In Capital\u2014Retired Stock",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Cash Flow Hedge\u2014OCI",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Foreign Currency Translation Gain\u2014OCI",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unrealized Holding Loss\u2014OCI",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Cash Flow Hedge\u2014OCI",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unrealized Holding Gain\u2014OCI (reclassification)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Foreign Currency Translation Loss\u2014OCI",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock (3,000 \u00d7 $1)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Retained Earnings (or Dividends Declared)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Retained Earnings (or Cash Dividends\u2014Preferred)",
+  "occurrences": 3,
+  "variants": [
+   "Retained Earnings (or Cash Dividends \u2014 Preferred)"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Compensation Expense\u2014Restricted Stock",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Royalty Expense",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Oakdale Precision LLC",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Tamarack Labs Inc.",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Intercompany Payable",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Intercompany Receivable",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Prepaid Expense",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Increase in Accounts Receivable, net\u2014Operating",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Decrease in Inventory\u2014Operating",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Increase in Income Tax Payable\u2014Operating",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Net income",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Increase in AR, net",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Increase in accounts payable",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Decrease in salaries payable",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Increase in Cash\u2014Reconciliation",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Increase in Prepaid Expenses\u2014Operating",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Sale of Equipment\u2014Operating",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM\u2014Redwood Bonds",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM\u2014Pinecrest Bonds",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS\u2014Boreal Mining Bonds",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Timberline Bonds",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Prepaid Lease Payment",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Maintenance Expense",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Beg. bal.",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accounts Receivable\u2014Trent Co.",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accounts Receivable\u2014Lumen Retail LLC",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accounts Receivable\u2014Pike Dental",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Settlement of Note Receivable",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cash (and/or Accounts Receivable)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Machinery",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014CNC Mill",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Bus",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Bus",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Mineral Property",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Disposal of Asset Held for Sale",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014CNC Milling Center",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Bottling Filler",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Brand Name",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Trade Name\u2014Vesper",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Goodwill\u2014Lakeside RU",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Trademark\u2014NexusLink",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Goodwill\u2014Riverton RU",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Facility Equipment",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Period-end adjusting accrual",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Paid-in Capital in Excess of Par",
+  "occurrences": 3,
+  "variants": [
+   "Paid-In Capital in Excess of Par"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Maplefield Components LLC",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Fernwood Logistics LLC",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Amortization Expense\u2014Operating",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS Securities\u2014Cascade Bonds",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS Securities\u2014Redwood Bonds",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Redwood Data Stock",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Extinguishment of Debt",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Rent Expense",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Common Stock (or CS + APIC)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Storage Tanks",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Machine",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Heat-Treat Furnace",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Patent Alpha",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Technology License",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unrealized Loss\u2014Income",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Notes Payable\u2014Term (Unsecured)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Stock Issue Costs Payable",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Income tax expense\u2014OCI",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Retained Earnings (or Preferred Dividends Declared)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory (ending, FIFO)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory (beginning, FIFO)",
+  "occurrences": 3,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Capitalized Implementation Costs (Cloud Hosting)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM Securities\u2014Northfield Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Rockford Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Meridian Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Summit Ridge Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Cedar Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Pinewood Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Summit Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Redemption of Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Warehouse",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Dec 31, Y1 establish",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Dec 31, Y2 adjust",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accounts Receivable (or Allowance for Sales Discounts)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Dec 31 YE true-up (est. on Y2 sales \u2212 actual)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Utilities Expense",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Commission Expense (or Selling Expense)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Premium Almonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Select Almonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Standard Almonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Ridge Lots (20)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Vista Lots",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Ridge Lots",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Building\u2014Warehouse",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Warehouse",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Specialized",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Settlement of Asset Retirement Obligation",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Storage Tank",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Storage Tank",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Track Loader",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Delivery Truck",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Commercial Press",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Commercial Press",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Factory Overhead\u2014Depreciation (or Inventory/WIP via OH)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Selling (Showroom Fixtures)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Quarry Property",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Gravel",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Oil Reserve (or Oil and Gas Properties)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Crude Oil",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014CNC Router",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Delivery Van",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Sealing Machine",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Tempering Furnace",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Tempering Furnace",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Repair Expense (or Maintenance Expense)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Cartoning Line",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cash (selling costs)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Machinery and Equipment\u2014Packaging Line",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Machinery and Equipment\u2014Stamping Press",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Stamping Press",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Truck",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Identifiable Net Assets (summary)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Amortization Expense\u2014Intangibles",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Sale of Intangible Asset",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Sale of License",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Sale of Customer List",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Acquired In-Process Research and Development (indefinite until complete)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Disposal of Trademark",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Acquired In-Process Research and Development",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Disposal of Intangible Asset",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Trade Name\u2014AuroraGlow",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Trademark\u2014SummitPath",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "R&D Equipment",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "HSA Payable",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Estimated Contingency Liability",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Litigation Settlement",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Warranty Revenue",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Litigation (Litigation Expense)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Environmental Remediation Expense (Loss)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Environmental Settlement",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Product Liability Loss (Expense)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accrued Product Liability",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Notes Payable\u2014Long-Term (Installment)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Mortgage Payable\u2014Long-Term",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unrealized Gain or Loss\u2014Income (reclassification)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Other Comprehensive Income\u2014Tax Effect on AFS Gain",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Other Comprehensive Income\u2014Tax Benefit on AFS Loss",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "OCI\u2014Unrealized Holding Gain on AFS (net of tax)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "OCI\u2014Foreign Currency Translation Loss (net of tax)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock (8,000 \u00d7 $2)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock (40,000 \u00d7 $1)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock (2,000 \u00d7 $5)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Preferred Stock (1,000 \u00d7 $10)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Preferred Stock\u2014Callable ($50 par)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Northwind Equity",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Solstice Instruments",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Asset Held for Distribution (or Unrealized Holding Loss\u2014Income)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Retained Earnings (9,600 \u00d7 $25)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Dividends",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Appropriated Retained Earnings\u2014Plant Expansion",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Appropriated Retained Earnings\u2014Legal Restriction",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock (6,000 \u00d7 $1)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock (10,000 \u00d7 $1)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Building Improvements",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Improvements",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment (Improvements)",
+  "occurrences": 2,
+  "variants": [
+   "Equipment Improvements"
+  ],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Decrease in inventory",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Increase in income tax payable",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Principal Payment on Notes\u2014Financing",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Decrease in Cash\u2014Reconciliation",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Quarry Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014SierraTech Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS Securities\u2014Crestview Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS\u2014Crestview Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS Securities\u2014Oakmont Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS\u2014Oakmont Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Equity Securities\u2014Riverstone",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Equity Securities\u2014Brookfield",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Equity Securities\u2014Meridian",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Impairment (recovery)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Crestview Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Tundra Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Helix Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Interest Expense ($5,777 \u00d7 1/6)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Discount on Bonds Payable ($1,777 \u00d7 1/6)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Interest Payable ($4,000 \u00d7 1/6)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cash (or Accrued Fines Payable)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Life Insurance Expense",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Sale of Building",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Sierra Trail Co.",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Dividends declared",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cash dividends paid",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Restricted Cash\u2014Payroll Fund",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Restricted Cash\u2014Dividend Fund",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Restricted Cash\u2014Plant Expansion Escrow",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Supplies (or Prepaid Postage)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Travel Advances (Other Current Asset)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Short-Term Investments",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Short-Term Investments\u2014CD",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Bank Overdraft Payable (or Accounts Payable)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Interest Expense (or Interest Payable)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Miscellaneous Payables",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Supplies Expense",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Inventory\u2014Under Firm Repurchase",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Inventory Overage",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory (or Purchases)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Meadow Lots",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss from Fire",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory Shortage Loss (or COGS)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Casualty Loss (or COGS\u2014abnormal)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Purchases (net of returns, freight-in, after casualty removal)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cost of Goods Sold (shrinkage)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Disposal of Machinery",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Refrigeration Plant",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Disposal of Building",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Disposal of Building",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Press",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Van",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Zinc Ore",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Coal Property",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Coal",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Fabrication Cell",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Diagnostic Tooling",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Filler Line",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Filler Line",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Transit Bus",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Equipment (B)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Machinery and Equipment\u2014CNC Milling Center",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014CNC Milling Center",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Machinery and Equipment\u2014Bottling Filler",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Bottling Filler",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Disposal of Intangible Asset",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Software",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Customer List (Intangible Asset)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Sale of Customer List",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Brand Name (indefinite life)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Identifiable Net Assets (at FV)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Amortization\u2014Technical License",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM Securities\u2014Larkspur Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Pay April AP",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Remit April taxes",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Point-of-sale tax",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "OCI\u2014Gain (net of tax)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Consulting Expense",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock (1,500 \u00d7 $2)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Harborlight Labs",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Solstice Rail",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Oakridge Sensors",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unrealized Loss\u2014OCI (cash flow hedge)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock (2,000 \u00d7 $1)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock (2,400 \u00d7 $1)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Common Stock (3,200 \u00d7 $1)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Preferred Stock ($100 par)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Convertible Preferred Stock ($100 par)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Abandonment of Patent",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Decrease in Cash\u2014Reconciliation (SCF)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Decrease in Prepaid Insurance\u2014Operating",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Amortization of patent",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Amortization of bond premium",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Decrease in prepaid insurance",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Increase in interest payable",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Amortization of Bond Discount\u2014Operating",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Software Development Expense (or Operating Expense)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cloud Implementation Costs (asset / prepaid-type)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss on Early Termination of Cloud Arrangement (or Cloud Hosting Expense)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS\u2014Meridian Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM\u2014Summit Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Ironclad Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS Securities\u2014Thornridge Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS Securities\u2014Summit Ridge Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Riverstone Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Tidal Bay Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Meridian Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Riverstone Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Cascade Forge Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Nimbus Cloud Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Right-of-Use Asset\u2014Vehicle",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Installment Receivable",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Affiliate",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Cost of Goods Sold (consignment / count correction)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Premium Hazelnuts",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Choice Hazelnuts",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Inventory\u2014Economy Hazelnuts",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss from Storm",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Leachate Treatment Facility",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Leachate Treatment Facility",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Ore Crusher & Site Works",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Repair and Maintenance Expense",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Loss from Accident Damage",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Machine",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Machine",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014CNC Finishing Machine",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014CNC Machining Center",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Equipment\u2014Bagging Line",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Sale of Mine Property",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Timberland Rights",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Polisher B",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Machinery and Equipment\u2014Heat-Treat Furnace",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Depreciation Expense\u2014Heat-Treat Furnace",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Buildings",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": true
+ },
+ {
+  "canonical": "Machinery and Equipment\u2014Hydraulic Press",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Patent A",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Patent B",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Noncompete Agreement",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Franchise Bravo",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Acquired In-Process R&D",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unrealized Gain\u2014Income",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Sale of Trademark",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Product Design / Operating Expense",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Patent Amortization Expense",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in HTM Securities\u2014Lumen Forge Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Gain on Early Extinguishment of Debt",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Lakeshore REIT",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unrealized Gain or Loss\u2014Income (holding gain)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Coral Bay Foods",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Redwood Spice Co.",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unrealized holding gain/loss\u2014OCI",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Income summary (net income)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Retained Earnings\u2014Appropriated for Litigation Contingency",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Unearned Compensation",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Bonds Payable\u2014Series B (5% convertible)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Interest Expense / Interest Payable (Series B)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Interest Expense / Interest Payable (Series A)",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Income Tax Expense / Income Taxes Payable",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Retained Earnings (or Preferred Dividends) / Dividends Payable\u2014Preferred",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Accumulated Depreciation\u2014Building Improvements",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Utilities Payable",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS\u2014Cascade Rail Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in AFS\u2014Bayfront Utilities Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Summit Chemical Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Pinnacle Energy Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Summit Logistics Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in TS\u2014Cobalt Industrial Bonds",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Oakridge Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in Harborlight Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ },
+ {
+  "canonical": "Investment in PrismTech Stock",
+  "occurrences": 2,
+  "variants": [],
+  "already_in_chart": false
+ }
+]
