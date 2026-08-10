@@ -621,3 +621,19 @@ Each entry: the rule as it should read in the prompts, then [origin].
 - **A caveat reads its SUBJECT, not its inputs**: the packet's scope
   warning reported the nominations while describing the golden set — a
   caveat misreporting its own subject is worse than none.
+
+
+## Added at REPORT-004
+
+- **Predictions name their STORE**: a ruling's benefit is scoped to the
+  store it edits — alias rulings buy comparator agreement; only key-side
+  occurrences buy chart coverage. An expected delta names which counter
+  it expects to move. [zero unknown-count delta from three correct
+  rulings; both ORDER-004 predictions missed, scored against the
+  reviewer]
+- **Session-artifact law**: in any document a human audits, the claim
+  under audit is PRINTED beside its evidence, never asserted ("matches
+  key" ships as the figure next to the key text); and anything that
+  could not be paired is SURFACED and flagged as the part deserving
+  attention, never dropped — a silent omission is precisely what the
+  human is there to catch.

@@ -21,8 +21,9 @@ This is the reviewer's pick-up-here file. Read it with deliverables/STATUS.md
 
 ## The in-flight order block
 
-ORDER-003 (comms/orders/) — refactor verification, io_json/make_row
-adoption, 130 stem amendment, numeric golden minting, packet to n>=35.
+ORDER-005 (comms/orders/) — agent_002 pair ruling; everything else done.
+Worksheet READY at deliverables/countersign_worksheet.md; fixtures 10/10;
+ledger 3,184 rows / 1,828 lineages / 0 terminal; v1.4.6 cut.
 Superseded history below retained for context:
 
 1. Write-time provenance: stamps captured at generation, immutable;

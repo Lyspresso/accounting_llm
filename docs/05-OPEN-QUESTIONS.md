@@ -5,6 +5,6 @@
 - Post-launch production items: the 130 treatment note (zero-net pool
   transfers), Stage 2/3 over Class B (568 solves), the three applied
   alias pairs' downstream unknown-count deltas.
-- v1.4.6 cut owed for REPORT-003's behavior changes (ORDER-004 item 5).
-- The agent_002 matcher-artifact offender: its alias pair sits in the
-  pair queue; expected to clear with the D15.1 batch machinery.
+- agent_002#03's pair needs its own ruling (ORDER-005 item 2):
+  Investment in AFS <security> Bonds vs Debt Investments—Available for
+  Sale. Non-blocking; the last finding-bearing golden.
