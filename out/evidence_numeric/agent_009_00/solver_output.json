@@ -1,0 +1,149 @@
+{
+ "id": "agent_009#00",
+ "rounding_convention": "decimal.Decimal only (no floats); every amount quantized to the cent with ROUND_HALF_UP once per period/entry; par purchase means no discount/premium amortization, so all figures are exact whole dollars; the Fair Value Adjustment schedule is closed exactly to the required $0 balance at Dec 31, Year 3 (no plug)",
+ "answers": [
+  {
+   "label": "d: Dec 31, Year 1 balance sheet carrying amount of AFS investment (amortized cost 40,000 + FVA -2,400 = fair value)",
+   "value": 37600
+  },
+  {
+   "label": "d: Dec 31, Year 1 Accumulated OCI related to these bonds (negative = debit balance / net unrealized loss)",
+   "value": -2400
+  },
+  {
+   "label": "d: Year 1 interest revenue (one semiannual coupon, Jul 1-Dec 31)",
+   "value": 1400
+  },
+  {
+   "label": "d: Year 1 OCI unrealized holding gain (loss) (negative = loss)",
+   "value": -2400
+  },
+  {
+   "label": "e: FVA bridge - required FVA balance at Dec 31, Year 2 (positive = debit)",
+   "value": 1200
+  },
+  {
+   "label": "e: FVA bridge - existing FVA balance before adjustment (negative = credit)",
+   "value": -2400
+  },
+  {
+   "label": "e: FVA bridge - Dec 31, Year 2 adjustment needed (positive = debit FVA, credit OCI)",
+   "value": 3600
+  },
+  {
+   "label": "h: Year 3 AOCI reconciliation - beginning AOCI, Jan 1, Year 3 (positive = credit / net unrealized gain)",
+   "value": 1200
+  },
+  {
+   "label": "h: Year 3 AOCI reconciliation - current-period unrealized holding gain (loss) in OCI",
+   "value": 0
+  },
+  {
+   "label": "h: Year 3 AOCI reconciliation - reclassification adjustment to net income (negative = removed from AOCI)",
+   "value": -1200
+  },
+  {
+   "label": "h: Year 3 AOCI reconciliation - ending AOCI, Dec 31, Year 3",
+   "value": 0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Debt Investments-Available-for-Sale (Meridian 7% bonds)",
+     "debit": 40000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 40000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 1400,
+     "credit": 0
+    },
+    {
+     "account": "Interest Revenue",
+     "debit": 0,
+     "credit": 1400
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Unrealized Holding Gain or Loss-OCI",
+     "debit": 2400,
+     "credit": 0
+    },
+    {
+     "account": "Fair Value Adjustment-Available-for-Sale",
+     "debit": 0,
+     "credit": 2400
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Fair Value Adjustment-Available-for-Sale",
+     "debit": 3600,
+     "credit": 0
+    },
+    {
+     "account": "Unrealized Holding Gain or Loss-OCI",
+     "debit": 0,
+     "credit": 3600
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 42000,
+     "credit": 0
+    },
+    {
+     "account": "Debt Investments-Available-for-Sale (Meridian 7% bonds)",
+     "debit": 0,
+     "credit": 40000
+    },
+    {
+     "account": "Gain on Sale of Investments",
+     "debit": 0,
+     "credit": 2000
+    }
+   ]
+  },
+  {
+   "part": "g",
+   "lines": [
+    {
+     "account": "Unrealized Holding Gain or Loss-OCI",
+     "debit": 1200,
+     "credit": 0
+    },
+    {
+     "account": "Fair Value Adjustment-Available-for-Sale",
+     "debit": 0,
+     "credit": 1200
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Bonds bought at par, so amortized cost = $40,000 throughout and interest revenue = cash interest ($40,000 x 7% x 6/12 = $1,400 per coupon date). (c) FVA required -2,400 vs 0 existing -> credit FVA 2,400. (e) required +1,200 vs existing -2,400 -> debit FVA 3,600. (f) Period-end-only method: FVA and OCI are NOT touched at the Jan 1, Year 3 sale date; the realized gain is proceeds 42,000 - amortized cost 40,000 = 2,000 to net income. (g) At Dec 31, Year 3 the remaining 1,200 debit FVA is eliminated (debit OCI 1,200), closing the account exactly to the required $0. (h) That 1,200 OCI debit is entirely the reclassification adjustment for the previously recognized unrealized gain now realized in net income; no current-period unrealized amount arises because nothing was held at any period end during Year 3, so ending AOCI = 0."
+}

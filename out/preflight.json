@@ -1,31 +1,31 @@
 {
  "detection": {
-  "run": 0,
-  "caught": 0,
-  "vacuous": 0,
-  "rate": 0.0,
+  "run": 40,
+  "caught": 40,
+  "vacuous": 1,
+  "rate": 1.0,
   "ci": [
-   0.0,
+   0.9123754607496077,
    1.0
   ],
-  "passes": false,
+  "passes": true,
   "misses": []
  },
  "false_positive": {
-  "clean": 27,
+  "clean": 40,
   "fp": 1,
   "stale": 0,
   "inadmissible": 0,
   "chargeable": 0,
   "rate": 0.0,
   "ci": [
-   6.938893903907228e-18,
-   0.12455903714463581
+   0.0,
+   0.08762453925039232
   ],
-  "raw_rate": 0.037037037037037035,
+  "raw_rate": 0.025,
   "raw_ci": [
-   0.006567976533097597,
-   0.1828385393415652
+   0.0044267174077949195,
+   0.1288165948800778
   ],
   "charge_detail": {
    "TRUE_FP": 0,
@@ -34,10 +34,10 @@
    "HASH_MIXING": 0,
    "PENDING": 0
   },
-  "passes": false,
+  "passes": true,
   "tiers": {
    "adjudicated": 8,
-   "ai_cross_checked": 19
+   "ai_cross_checked": 32
   },
   "offenders": [
    {
@@ -50,5 +50,5 @@
    }
   ]
  },
- "gate": "RED"
+ "gate": "GREEN"
 }

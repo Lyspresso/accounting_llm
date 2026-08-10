@@ -1,0 +1,16 @@
+{
+ "id": "agent_318#00",
+ "pack_id": "agent_318",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": null,
+ "expected_verdict": "PASS",
+ "guards_rule": "numeric_class_a",
+ "rationale": "Stage-1 numeric, 0 hard findings, admissible bundle",
+ "truth_as_of_hash": "99dab91be19aa6a68d0b6783648e83ba4c000e8777352ee437b51323c9a8f5ea",
+ "truth_as_of_bytes": "99dab91be19aa6a68d0b6783648e83ba4c000e8777352ee437b51323c9a8f5ea",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": null,
+ "cross_check_evidence": null
+}

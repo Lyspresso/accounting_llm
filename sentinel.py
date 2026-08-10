@@ -28,11 +28,17 @@ from collections import Counter, defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "out")
 STATE = os.path.join(OUT, "sentinel_state.json")
-try:
-    from ledger_io import PIPELINE_VERSION, TERMINAL   # single source (2.2/2.3)
-except ImportError:                                    # test_sentinel runs a bare copy of
-    PIPELINE_VERSION = "1.2"                           # this file in a tempdir; fallbacks
-    TERMINAL = ("verified", "needs_human")             # must track ledger_io
+# ORDER-003 item 4, decided: HARD import, no fallback. The guarded version
+# carried shadow copies of PIPELINE_VERSION and TERMINAL with a comment telling
+# a human to keep them in sync with ledger_io - which is the drift that
+# single-homing exists to remove, reintroduced one line below the fix. A
+# fallback that must "track" its source is a second source.
+#
+# The fixture is what adapts: test_sentinel.py copies ledger_io.py and paths.py
+# into its tempdir alongside sentinel.py, so the bare copy imports the REAL
+# definitions. Cost is two file copies; the benefit is that these constants
+# cannot silently disagree.
+from ledger_io import PIPELINE_VERSION, TERMINAL   # single source (2.2/2.3)
 # ONLY two terminal states exist. `machine_passed` is a stage-PROGRESS state -
 # an item that cleared Stage 1 arithmetic has not been verified, it has passed
 # one layer. Counting it as terminal reported 671 "terminal" items under a RED

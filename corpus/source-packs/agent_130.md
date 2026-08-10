@@ -60,7 +60,7 @@
 
 **Required:**  
 a. Prepare a **schedule of account changes** (increase/decrease) and compute the change in **cash + cash equivalents + restricted cash**.  
-b. Reconstruct the **journal entries** (labeled a–j as in Demo 22-8 style) that explain all income statement accounts and all balance sheet account changes for the year. Every cash-impacting entry must balance.  
+b. Reconstruct the **journal entries** (labeled a–k as in Demo 22-8 style) that explain all income statement accounts and all balance sheet account changes for the year. Every cash-impacting entry must balance.  
 c. Prepare the **equipment** and **accumulated depreciation** rollforward schedules and the **retained earnings** rollforward (solve for dividends).  
 d. Complete the **cash T-account** (operating / investing / financing sections) and prove it to the change in cash + restricted cash.  
 e. Prepare the **statement of cash flows** for the current year using the **direct method** for operating activities.  

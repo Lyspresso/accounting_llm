@@ -1,0 +1,11 @@
+{
+ "id": "agent_130#00",
+ "harness_version": "restem-1",
+ "stem_hash": "ac239ad40672e59f03518c179b7ead6e4db7da91c13cd7324bbbb05c1ca03379",
+ "pack_notes_version": "pack-2026-08-07b",
+ "comparator_version": "3.8",
+ "canon_version": "canon-1",
+ "notes_governing": [],
+ "captured_at_write_time": true,
+ "reconstructed": false
+}

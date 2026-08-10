@@ -1,7 +1,7 @@
 {
  "target_n": 35,
- "existing": 28,
- "needed": 13,
+ "existing": 42,
+ "needed": 6,
  "nominated": [
   {
    "id": "agent_327#00",
@@ -80,103 +80,16 @@
    "routed_stage2": 7,
    "admissible": "admissible",
    "clean": true
-  },
-  {
-   "id": "agent_352#01",
-   "chapter": "ch13",
-   "class": "journal_entry",
-   "evidence": "out/evidence/agent_352_01",
-   "harness": "evidence",
-   "key_lines": 22,
-   "n_answers": 20,
-   "hard_findings": 0,
-   "routed_stage2": 10,
-   "admissible": "admissible",
-   "clean": true
-  },
-  {
-   "id": "agent_336#00",
-   "chapter": "ch11",
-   "class": "journal_entry",
-   "evidence": "out/evidence_parity/agent_336_00",
-   "harness": "evidence_parity",
-   "key_lines": 17,
-   "n_answers": 44,
-   "hard_findings": 0,
-   "routed_stage2": 4,
-   "admissible": "admissible",
-   "clean": true
-  },
-  {
-   "id": "agent_080#01",
-   "chapter": "ch12",
-   "class": "journal_entry",
-   "evidence": "out/evidence_parity/agent_080_01",
-   "harness": "evidence_parity",
-   "key_lines": 8,
-   "n_answers": 49,
-   "hard_findings": 0,
-   "routed_stage2": 2,
-   "admissible": "admissible",
-   "clean": true
-  },
-  {
-   "id": "agent_240#00",
-   "chapter": "ch19",
-   "class": "journal_entry",
-   "evidence": "out/evidence_parity/agent_240_00",
-   "harness": "evidence_parity",
-   "key_lines": 10,
-   "n_answers": 27,
-   "hard_findings": 0,
-   "routed_stage2": 5,
-   "admissible": "admissible",
-   "clean": true
-  },
-  {
-   "id": "agent_296#00",
-   "chapter": "ch22",
-   "class": "journal_entry",
-   "evidence": "out/evidence/agent_296_00",
-   "harness": "evidence",
-   "key_lines": 16,
-   "n_answers": 29,
-   "hard_findings": 0,
-   "routed_stage2": 1,
-   "admissible": "admissible",
-   "clean": true
-  },
-  {
-   "id": "agent_360#00",
-   "chapter": "ch15",
-   "class": "journal_entry",
-   "evidence": "out/evidence_trim/agent_360_00",
-   "harness": "evidence_trim",
-   "key_lines": 14,
-   "n_answers": 21,
-   "hard_findings": 0,
-   "routed_stage2": 5,
-   "admissible": "admissible",
-   "clean": true
-  },
-  {
-   "id": "agent_184#02",
-   "chapter": "ch9",
-   "class": "journal_entry",
-   "evidence": "out/evidence/agent_184_02",
-   "harness": "evidence",
-   "key_lines": 6,
-   "n_answers": 29,
-   "hard_findings": 0,
-   "routed_stage2": 0,
-   "admissible": "admissible",
-   "clean": true
   }
  ],
  "clean_candidates": 64,
  "considered": 72,
- "by_class": {
-  "journal_entry": 13
+ "by_class_nominated": {
+  "journal_entry": 6
+ },
+ "by_class_certified_set": {
+  "numeric": 17,
+  "journal_entry": 31
  },
  "by_chapter": {
   "ch10": 1,
@@ -184,19 +97,11 @@
   "ch20": 1,
   "ch14": 1,
   "ch16": 1,
-  "ch8": 1,
-  "ch13": 1,
-  "ch11": 1,
-  "ch12": 1,
-  "ch19": 1,
-  "ch22": 1,
-  "ch15": 1,
-  "ch9": 1
+  "ch8": 1
  },
  "short_by": 0,
  "classes_not_represented": {
-  "mcq": 596,
-  "numeric": 104
+  "mcq": 596
  },
  "caveat": "certifies floor #2 for the classes present ONLY; classes with no admissible derivation are not covered by this packet"
 }

@@ -13,6 +13,7 @@ toward baseline once key-silent figures verify this way.
 """
 
 import json
+import io_json
 import os
 import re
 import sys
@@ -164,9 +165,9 @@ def main():
                          # not-disagreeing
                          "now_clean": item_d == 0 and item_u == 0 and item_v > 0}
 
-    with open(os.path.join(OUT, "dual_results.json"), "w", encoding="utf-8") as fh:
-        json.dump({"verified": verified, "disagree": disagree,
-                   "unmatched": unmatched, "per_item": per_item}, fh, indent=1)
+    io_json.dump(os.path.join(OUT, "dual_results.json"),
+                 {"verified": verified, "disagree": disagree,
+                  "unmatched": unmatched, "per_item": per_item})
 
     tot = len(verified) + len(disagree)
     print(f"figures put to dual derivation : {tot}")

@@ -1,6 +1,6 @@
 # Verification run — consolidated status
 
-generated: 2026-08-10T03:30:39Z
+generated: 2026-08-10T03:55:48Z
 
 ## Corpus
 
@@ -26,9 +26,9 @@ Reconciliation: purging **129 notation LINES** removed **13 ITEMS** from the `UN
 | floor | result | verdict |
 |---|---|---|
 | detection | 40/40 = 100.0% | PASS |
-| false positive | 1/27 = 0.0% | FAIL |
+| false positive | 1/40 = 0.0% | PASS |
 
-**LAUNCH GATE: RED**
+**LAUNCH GATE: GREEN**
 
 ## Dual derivation — symmetric context
 
@@ -39,9 +39,9 @@ Reconciliation: purging **129 notation LINES** removed **13 ITEMS** from the `UN
 
 ## Goldens
 
-- count: **28** (items)
-- tiers: {'adjudicated': 8, 'ai_cross_checked': 20}
-- rules guarded: **12**, none unguarded
+- count: **42** (items)
+- tiers: {'adjudicated': 8, 'ai_cross_checked': 34}
+- rules guarded: **13**, none unguarded
 
 ## Duplicates
 
@@ -57,13 +57,13 @@ Reconciliation: purging **129 notation LINES** removed **13 ITEMS** from the `UN
 
 | state | lineages |
 |---|---:|
-| `unverified` | 1720 |
-| `machine_passed` | 85 |
-| `failed` | 14 |
+| `unverified` | 1703 |
+| `machine_passed` | 99 |
+| `failed` | 17 |
 | `DUPLICATE_OF` | 9 |
 | **TOTAL** | **1828** |
 
-Partition remainder: **0**.  Unit ladder: rows (3167, forensics) → distinct content hashes → **lineages (1828, the reporting unit)**.
+Partition remainder: **0**.  Unit ladder: rows (3185, forensics) → distinct content hashes → **lineages (1828, the reporting unit)**.
 
 ## Cost — harness meter authoritative
 

@@ -1,5 +1,5 @@
 {
- "clean": 27,
+ "clean": 40,
  "findings": [
   {
    "id": "agent_002#03",
@@ -56,8 +56,8 @@
  },
  "chargeable": 0,
  "chargeable_ci": [
-  6.938893903907228e-18,
-  0.12455903714463581
+  0.0,
+  0.08762453925039232
  ],
  "caveat": "MATCHER_ARTIFACT excluded; forecast until fixed and detection re-measured"
 }

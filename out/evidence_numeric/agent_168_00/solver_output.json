@@ -1,0 +1,394 @@
+{
+ "id": "agent_168#00",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to whole dollars applied per period/per schedule row (no float accumulation). Simple interest = face x rate x months/12, so every figure is an exact whole dollar and no rounding difference arises. The Oct 1 note is a face-value, non-amortizing instrument: the subsequent-measurement schedule closes exactly to face $45,000 and drives Interest Payable exactly to $0 right after the 9/30/20X9 coupon. Journal entries are stated in whole dollars.",
+ "answers": [
+  {
+   "label": "a(i): Equipment acquired by issuing common stock - Dr Equipment",
+   "value": 70000.0
+  },
+  {
+   "label": "a(i): Cr Common Stock (fair value of shares issued)",
+   "value": 70000.0
+  },
+  {
+   "label": "a(i): proof entry balances (total debits = total credits)",
+   "value": 70000.0
+  },
+  {
+   "label": "a(ii): Equipment acquired for Oct 1 note - Dr Equipment",
+   "value": 45000.0
+  },
+  {
+   "label": "a(ii): Cr Notes Payable",
+   "value": 45000.0
+  },
+  {
+   "label": "a(ii): proof entry balances (total debits = total credits)",
+   "value": 45000.0
+  },
+  {
+   "label": "a(iii): Finance lease commencement - Dr Right-of-Use Asset",
+   "value": 112000.0
+  },
+  {
+   "label": "a(iii): Cr Lease Liability",
+   "value": 112000.0
+  },
+  {
+   "label": "a(iii): proof entry balances (total debits = total credits)",
+   "value": 112000.0
+  },
+  {
+   "label": "a: no cash is involved in any of the three initial-recognition entries (cash effect)",
+   "value": 0
+  },
+  {
+   "label": "b: Equipment additions - cash purchases",
+   "value": 130000.0
+  },
+  {
+   "label": "b: Equipment additions - noncash, issued common stock",
+   "value": 70000.0
+  },
+  {
+   "label": "b: Equipment additions - noncash, signed Oct 1 3-yr 8% note",
+   "value": 45000.0
+  },
+  {
+   "label": "b: Equipment additions - total noncash component",
+   "value": 115000.0
+  },
+  {
+   "label": "b: Equipment additions - total additions per schedule",
+   "value": 245000.0
+  },
+  {
+   "label": "b: Investing cash outflow for equipment purchases",
+   "value": -130000.0
+  },
+  {
+   "label": "b: T-account rollforward - Equipment balance Jan 1, 20X8",
+   "value": 720000.0
+  },
+  {
+   "label": "b: T-account rollforward - add total additions",
+   "value": 245000.0
+  },
+  {
+   "label": "b: T-account rollforward - deduct cost of equipment sold",
+   "value": -55000.0
+  },
+  {
+   "label": "b: T-account rollforward - Equipment balance Dec 31, 20X8 (proved)",
+   "value": 910000.0
+  },
+  {
+   "label": "c: 20X8 interest expense on the Oct 1 equipment note (45,000 x 8% x 3/12)",
+   "value": 900.0
+  },
+  {
+   "label": "c: Dec 31, 20X8 adjusting entry - Dr Interest Expense",
+   "value": 900.0
+  },
+  {
+   "label": "c: Dec 31, 20X8 adjusting entry - Cr Interest Payable",
+   "value": 900.0
+  },
+  {
+   "label": "c: proof entry balances (total debits = total credits)",
+   "value": 900.0
+  },
+  {
+   "label": "d: Note carrying amount (face, non-amortizing) at Oct 1, 20X8",
+   "value": 45000.0
+  },
+  {
+   "label": "d: Row 1 - 20X8 accrual period Oct 1-Dec 31 interest expense",
+   "value": 900.0
+  },
+  {
+   "label": "d: Row 1 - cash interest paid in 20X8",
+   "value": 0.0
+  },
+  {
+   "label": "d: Row 1 - Interest Payable balance Dec 31, 20X8",
+   "value": 900.0
+  },
+  {
+   "label": "d: Row 1 - note carrying amount Dec 31, 20X8",
+   "value": 45000.0
+  },
+  {
+   "label": "d: Row 2 - 20X9 accrual Jan 1-Sep 30 interest expense (45,000 x 8% x 9/12)",
+   "value": 2700.0
+  },
+  {
+   "label": "d: Row 2 - first annual coupon paid Sep 30, 20X9 (45,000 x 8%)",
+   "value": 3600.0
+  },
+  {
+   "label": "d: Row 2 - coupon component: settlement of 20X8 accrued interest payable",
+   "value": 900.0
+  },
+  {
+   "label": "d: Row 2 - coupon component: 20X9 interest expense",
+   "value": 2700.0
+  },
+  {
+   "label": "d: Row 2 - Interest Payable balance immediately after Sep 30, 20X9 coupon (schedule closes to zero)",
+   "value": 0.0
+  },
+  {
+   "label": "d: Row 2 - note carrying amount after first coupon (closes exactly to face)",
+   "value": 45000.0
+  },
+  {
+   "label": "e: Investing - Purchase of equipment (cash portion only)",
+   "value": -130000.0
+  },
+  {
+   "label": "e: Investing - Proceeds from sale of equipment",
+   "value": 14000.0
+  },
+  {
+   "label": "e: Investing - Net cash used by investing activities (corrected)",
+   "value": -116000.0
+  },
+  {
+   "label": "e: Financing - Issuance of common stock for cash",
+   "value": 60000.0
+  },
+  {
+   "label": "e: Financing - Proceeds from issuance of bonds payable",
+   "value": 200000.0
+  },
+  {
+   "label": "e: Financing - Cash retirement of other notes payable",
+   "value": -80000.0
+  },
+  {
+   "label": "e: Financing - Principal payments on finance lease",
+   "value": -18000.0
+  },
+  {
+   "label": "e: Financing - Cash dividends paid",
+   "value": -42000.0
+  },
+  {
+   "label": "e: Financing - Net cash provided by financing activities (corrected)",
+   "value": 120000.0
+  },
+  {
+   "label": "e: Staff draft net investing",
+   "value": -231000.0
+  },
+  {
+   "label": "e: Staff draft net financing",
+   "value": 347000.0
+  },
+  {
+   "label": "e: Staff draft combined investing + financing",
+   "value": 116000.0
+  },
+  {
+   "label": "e: Corrected combined investing + financing",
+   "value": 4000.0
+  },
+  {
+   "label": "e: Change in the combined total caused by removing noncash items",
+   "value": -112000.0
+  },
+  {
+   "label": "e: Paired noncash items removed from BOTH sections - stock-for-equipment (no effect on combined total)",
+   "value": 70000.0
+  },
+  {
+   "label": "e: Paired noncash items removed from BOTH sections - note-for-equipment (no effect on combined total)",
+   "value": 45000.0
+  },
+  {
+   "label": "e: Unpaired noncash item removed from financing only - lease liability recognized (drives the entire change in the combined total)",
+   "value": 112000.0
+  },
+  {
+   "label": "e: explanation",
+   "value": "The combined total is NOT unchanged. The two equipment-for-securities items were mis-shown on both sides of the draft (a $70,000 and a $45,000 investing outflow paired with the same amounts as financing inflows), so deleting them nets to zero: investing improves by $115,000 and financing falls by $115,000. The finance lease was different - the draft reported the $112,000 lease liability as a financing inflow but never reported an offsetting $112,000 investing outflow for the right-of-use asset, so it was an unpaired item that never should have been cash at all. Removing it lowers the combined total by $112,000, from $116,000 to $4,000. Corrected: investing $(116,000) + financing $120,000 = $4,000."
+  },
+  {
+   "label": "f: Noncash schedule - Equipment acquired by issuing common stock",
+   "value": 70000.0
+  },
+  {
+   "label": "f: Noncash schedule - Equipment acquired by issuing 3-year 8% note payable",
+   "value": 45000.0
+  },
+  {
+   "label": "f: Noncash schedule - Right-of-use asset obtained in exchange for finance lease liability",
+   "value": 112000.0
+  },
+  {
+   "label": "f: Noncash schedule - Total noncash investing and financing activities",
+   "value": 227000.0
+  },
+  {
+   "label": "f: Relating cash and noncash - total equipment acquired during 20X8",
+   "value": 245000.0
+  },
+  {
+   "label": "f: Relating cash and noncash - portion of equipment acquired for cash (reported in investing)",
+   "value": 130000.0
+  },
+  {
+   "label": "f: Relating cash and noncash - portion of equipment acquired noncash (reported in the schedule)",
+   "value": 115000.0
+  },
+  {
+   "label": "f: Relating cash and noncash - total common stock issued during 20X8",
+   "value": 130000.0
+  },
+  {
+   "label": "f: Relating cash and noncash - common stock issued for cash",
+   "value": 60000.0
+  },
+  {
+   "label": "f: Relating cash and noncash - common stock issued for equipment",
+   "value": 70000.0
+  },
+  {
+   "label": "g: Interest paid on other obligations (36,000 + 5,500 - 4,200)",
+   "value": 37300.0
+  },
+  {
+   "label": "g: Finance-lease interest paid in cash",
+   "value": 7000.0
+  },
+  {
+   "label": "g: Cash interest paid on the Oct 1 equipment note during 20X8 (first coupon not due until 9/30/20X9)",
+   "value": 0.0
+  },
+  {
+   "label": "g: Less capitalized interest",
+   "value": 0.0
+  },
+  {
+   "label": "g: Total cash paid for interest, net of capitalized interest",
+   "value": 44300.0
+  },
+  {
+   "label": "g: Income taxes paid (74,000 + 16,000 - 19,500 - 0)",
+   "value": 70500.0
+  },
+  {
+   "label": "g: Restricted cash held as a compensating balance",
+   "value": 28000.0
+  },
+  {
+   "label": "g: Restricted cash disclosure requirement",
+   "value": "The $28,000 legally restricted compensating balance stays inside the 'cash, cash equivalents, and restricted cash' beginning and ending totals that the statement of cash flows reconciles to. Harborline must (1) disclose the nature of the restriction and the long-term credit agreement that imposes it, and (2) present, on the face of the statement or in the notes, a reconciliation of the cash/restricted-cash totals used in the statement to the corresponding line items reported on the balance sheet. Because the restriction arises from a long-term credit agreement, the balance is also identified as noncurrent/segregated on the balance sheet."
+  },
+  {
+   "label": "h: SCF reporting/disclosure requirement 1 of 5",
+   "value": "1. Report significant noncash investing and financing activities (equipment for stock, equipment for a note, right-of-use assets obtained for lease liabilities) in a separate schedule or note - never in the body of the statement of cash flows."
+  },
+  {
+   "label": "h: SCF reporting/disclosure requirement 2 of 5",
+   "value": "2. When the indirect method is used, disclose cash paid for interest (net of any amounts capitalized) and cash paid for income taxes."
+  },
+  {
+   "label": "h: SCF reporting/disclosure requirement 3 of 5",
+   "value": "3. Report investing and financing cash flows gross - separate cash receipts from cash payments rather than netting them (e.g., bond proceeds and note retirements shown separately)."
+  },
+  {
+   "label": "h: SCF reporting/disclosure requirement 4 of 5",
+   "value": "4. Disclose the entity's policy for determining which highly liquid, short-term investments are treated as cash equivalents."
+  },
+  {
+   "label": "h: SCF reporting/disclosure requirement 5 of 5",
+   "value": "5. Include restricted cash in the total cash amounts the statement reconciles, disclose the nature of the restrictions, and reconcile those totals to the related balance sheet line items."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a(i)",
+   "lines": [
+    {
+     "account": "Equipment",
+     "debit": 70000.0,
+     "credit": 0
+    },
+    {
+     "account": "Common Stock (and Paid-in Capital) - shares issued at fair value",
+     "debit": 0,
+     "credit": 70000.0
+    }
+   ]
+  },
+  {
+   "part": "a(ii)",
+   "lines": [
+    {
+     "account": "Equipment",
+     "debit": 45000.0,
+     "credit": 0
+    },
+    {
+     "account": "Notes Payable (3-year, 8%, dated Oct 1, 20X8)",
+     "debit": 0,
+     "credit": 45000.0
+    }
+   ]
+  },
+  {
+   "part": "a(iii)",
+   "lines": [
+    {
+     "account": "Right-of-Use Asset - finance lease",
+     "debit": 112000.0,
+     "credit": 0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0,
+     "credit": 112000.0
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 900.0,
+     "credit": 0
+    },
+    {
+     "account": "Interest Payable",
+     "debit": 0,
+     "credit": 900.0
+    }
+   ]
+  },
+  {
+   "part": "d (9/30/20X9 first coupon)",
+   "lines": [
+    {
+     "account": "Interest Payable (reversal of 20X8 accrual)",
+     "debit": 900.0,
+     "credit": 0
+    },
+    {
+     "account": "Interest Expense (Jan 1 - Sep 30, 20X9)",
+     "debit": 2700.0,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 3600.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Checks: Equipment rolls forward 720,000 + 245,000 - 55,000 = 910,000 (ties to the given ending balance). Sale check: book value 55,000 - 38,000 = 17,000 vs. 14,000 proceeds = 3,000 loss, agreeing with the stated loss already in net income; the loss is added back in operating and the full 14,000 proceeds appear in investing. Draft correction check: investing +115,000 (remove the stock- and note-financed equipment), financing -227,000 (remove 70,000 stock, 45,000 note, 112,000 lease liability); combined falls 112,000 because the lease liability was the one unpaired noncash item in the draft. Every entry proved Dr = Cr in code via assertion. Operating section and the cash-flow reconciliation were not requested and are not reported."
+}

@@ -1,0 +1,16 @@
+{
+ "id": "agent_011#00",
+ "pack_id": "agent_011",
+ "provenance_tier": "ai_cross_checked",
+ "countersigned": false,
+ "countersign_priority": null,
+ "expected_verdict": "PASS",
+ "guards_rule": "numeric_class_a",
+ "rationale": "Stage-1 numeric, 0 hard findings, admissible bundle",
+ "truth_as_of_hash": "3332262a778975496ff10a06edec2c031b4ea6be79c4e233380e8c7591cea37d",
+ "truth_as_of_bytes": "3332262a778975496ff10a06edec2c031b4ea6be79c4e233380e8c7591cea37d",
+ "adjudicated_on": "2026-08-07",
+ "comparator_version_at_truth": "3.6",
+ "cross_check_finding_class": null,
+ "cross_check_evidence": null
+}

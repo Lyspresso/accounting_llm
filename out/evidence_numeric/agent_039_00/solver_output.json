@@ -1,0 +1,291 @@
+{
+ "id": "agent_039#00",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to whole dollars applied per period/per amount. Journal entries stated in whole dollars; the Dec 31 classification schedule foots exactly to the listed item amounts with no plug (all inputs are exact whole dollars).",
+ "answers": [
+  {
+   "label": "a: Jul 1 - Dr Cash (note proceeds deposited to First Prairie)",
+   "value": 300000
+  },
+  {
+   "label": "a: Jul 1 - Cr Note payable (one-year, 8%)",
+   "value": 300000
+  },
+  {
+   "label": "a: Jul 1 - Dr Restricted cash - compensating balance (12% x $300,000)",
+   "value": 36000
+  },
+  {
+   "label": "a: Jul 1 - Cr Cash for the compensating-balance reclassification",
+   "value": 36000
+  },
+  {
+   "label": "b: Nov 1 - Dr Cash equivalents - commercial paper",
+   "value": 54000
+  },
+  {
+   "label": "b: Nov 1 - Cr Cash",
+   "value": 54000
+  },
+  {
+   "label": "c: Dec 31 - Dr Cash on commercial paper maturity",
+   "value": 54810
+  },
+  {
+   "label": "c: Dec 31 - Cr Cash equivalents - commercial paper (carrying amount removed)",
+   "value": 54000
+  },
+  {
+   "label": "c: Dec 31 - Cr Interest revenue (discount accretion)",
+   "value": 810
+  },
+  {
+   "label": "d: Dec 1 - Dr Cash equivalents - U.S. T-bill",
+   "value": 24900
+  },
+  {
+   "label": "d: Dec 1 - Cr Cash",
+   "value": 24900
+  },
+  {
+   "label": "e: Dec 20 - Dr Restricted cash - payroll fund / Cr Cash",
+   "value": 14000
+  },
+  {
+   "label": "e: Dec 22 - Dr Restricted cash - bond sinking fund / Cr Cash",
+   "value": 60000
+  },
+  {
+   "label": "f: Checking - First Prairie Bank, unrestricted portion (71,200 less 36,000 legally restricted) -> Cash",
+   "value": 35200
+  },
+  {
+   "label": "f: Checking - First Prairie Bank, legally restricted compensating balance (note matures Jun 30, Yr 2) -> Restricted cash - current",
+   "value": 36000
+  },
+  {
+   "label": "f: Checking - Heartland Credit Union, after removing NSF check -> Cash",
+   "value": 27750
+  },
+  {
+   "label": "f: Heartland NSF check returned from customer - reclassified -> Accounts receivable",
+   "value": 650
+  },
+  {
+   "label": "f: Savings account -> Cash",
+   "value": 12000
+  },
+  {
+   "label": "f: Petty cash -> Cash",
+   "value": 600
+  },
+  {
+   "label": "f: Cashier's check payable to Summit, dated Dec 29, on hand -> Cash",
+   "value": 1800
+  },
+  {
+   "label": "f: U.S. T-bill purchased Dec 1 (2 months original maturity to Summit) -> Cash equivalents",
+   "value": 24900
+  },
+  {
+   "label": "f: Money market fund (1 month original maturity to Summit, low credit risk) -> Cash equivalents",
+   "value": 33000
+  },
+  {
+   "label": "f: Restricted cash - payroll fund (paid Jan 5, Yr 2) -> Restricted cash - current",
+   "value": 14000
+  },
+  {
+   "label": "f: Restricted cash - bond sinking fund (bonds mature in 5 years) -> Restricted cash - noncurrent",
+   "value": 60000
+  },
+  {
+   "label": "f: T-bill bought Jun 1 with 7 months to maturity (original maturity > 3 months) -> Short-term investment",
+   "value": 16000
+  },
+  {
+   "label": "f: Travel advance to employee for January sales trip -> Other current asset - employee travel advance (prepaid/receivable from employee)",
+   "value": 2200
+  },
+  {
+   "label": "f: Customer check postdated Jan 20, Yr 2 -> Accounts receivable",
+   "value": 1100
+  },
+  {
+   "label": "f: Overdraft at Lakeside Bank (no other account at Lakeside, no right of offset) -> Current liability - bank overdraft payable",
+   "value": 3500
+  },
+  {
+   "label": "f: NSF reclassifying entry - Dr Accounts receivable / Cr Cash",
+   "value": 650
+  },
+  {
+   "label": "f: schedule foots to the listed Dec 31 items",
+   "value": 268700
+  },
+  {
+   "label": "g: Cash",
+   "value": 77350
+  },
+  {
+   "label": "g: Cash equivalents",
+   "value": 57900
+  },
+  {
+   "label": "g: Cash and cash equivalents combined",
+   "value": 135250
+  },
+  {
+   "label": "g: Restricted cash - current",
+   "value": 50000
+  },
+  {
+   "label": "g: Restricted cash - noncurrent",
+   "value": 60000
+  },
+  {
+   "label": "g: Current liability - bank overdraft (Lakeside)",
+   "value": 3500
+  },
+  {
+   "label": "h: Note disclosure if the compensating balance were NOT legally restricted",
+   "value": "No reclassification: the $36,000 would stay in unrestricted Cash (Cash would be $113,350 and cash and cash equivalents $171,250). Because the arrangement is only an informal understanding with First Prairie rather than a legal restriction, it is not segregated on the face of the balance sheet; instead Summit discloses the compensating-balance arrangement in the notes - the amount, the related 8% one-year $300,000 note, and the fact that the deposit is not legally restricted but its maintenance is expected under the borrowing arrangement (so it is not fully available for general use and the effective borrowing rate is higher)."
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "description": "Jul 1, Yr 1 - borrow on one-year 8% note payable, First Prairie Bank",
+   "lines": [
+    {
+     "account": "Cash - First Prairie Bank (checking)",
+     "debit": 300000,
+     "credit": 0
+    },
+    {
+     "account": "Note payable - First Prairie Bank",
+     "debit": 0,
+     "credit": 300000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "description": "Jul 1, Yr 1 - initial recognition reclass of legally restricted 12% compensating balance",
+   "lines": [
+    {
+     "account": "Restricted cash - compensating balance (current asset)",
+     "debit": 36000,
+     "credit": 0
+    },
+    {
+     "account": "Cash - First Prairie Bank (checking)",
+     "debit": 0,
+     "credit": 36000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "description": "Nov 1, Yr 1 - purchase Atlas Power commercial paper, 60-day original maturity (cash equivalent)",
+   "lines": [
+    {
+     "account": "Cash equivalents - commercial paper",
+     "debit": 54000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 54000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "description": "Dec 31, Yr 1 - maturity/settlement of commercial paper",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 54810,
+     "credit": 0
+    },
+    {
+     "account": "Cash equivalents - commercial paper",
+     "debit": 0,
+     "credit": 54000
+    },
+    {
+     "account": "Interest revenue",
+     "debit": 0,
+     "credit": 810
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "description": "Dec 1, Yr 1 - purchase U.S. T-bill, two months to maturity (cash equivalent)",
+   "lines": [
+    {
+     "account": "Cash equivalents - U.S. Treasury bill",
+     "debit": 24900,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 24900
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "description": "Dec 20, Yr 1 - transfer to restricted payroll fund",
+   "lines": [
+    {
+     "account": "Restricted cash - payroll fund",
+     "debit": 14000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 14000
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "description": "Dec 22, Yr 1 - deposit with trustee, bond sinking fund (bonds mature in 5 years)",
+   "lines": [
+    {
+     "account": "Restricted cash - bond sinking fund (noncurrent)",
+     "debit": 60000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 60000
+    }
+   ]
+  },
+  {
+   "part": "f",
+   "description": "Dec 31, Yr 1 - reclassify returned NSF customer check out of cash",
+   "lines": [
+    {
+     "account": "Accounts receivable",
+     "debit": 650,
+     "credit": 0
+    },
+    {
+     "account": "Cash - Heartland Credit Union",
+     "debit": 0,
+     "credit": 650
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Cash equivalent test is original maturity to Summit of 3 months or less: the Nov 1 commercial paper (60 days) and the Dec 1 T-bill (2 months) and the money market fund (1 month) qualify; the T-bill bought Jun 1 with 7 months to run does NOT qualify even though only 2 months remain - it is a short-term investment. Legally restricted compensating balance ($36,000) is restricted cash-current because the note matures Jun 30, Year 2. Payroll fund is restricted cash-current (paid Jan 5, Year 2); bond sinking fund is restricted cash-noncurrent (bonds mature in 5 years). NSF check and the postdated customer check go back to accounts receivable; the employee travel advance is an other current asset; the Lakeside overdraft is a current liability because Summit has no other Lakeside account to offset against. Interest accrual on the 8% note (Jul 1-Dec 31) and accretion on the Dec 1 T-bill were not requested by any Required part."
+}

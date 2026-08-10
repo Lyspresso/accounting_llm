@@ -1,0 +1,450 @@
+{
+ "id": "agent_052#00",
+ "rounding_convention": "decimal.Decimal only (no floats); ROUND_HALF_UP to the cent applied per period to every money figure. Moving-average unit costs carried at full precision and only the resulting dollar amounts rounded; the moving-average schedule is closed exactly so COGAS - EI = COGS with no residual. FIFO/LIFO layer costs are exact dollars, so all journal-entry amounts are whole dollars. Dr = Cr asserted on every entry.",
+ "answers": [
+  {
+   "label": "a: moving average -- units available for sale (COGAS units)",
+   "value": 950
+  },
+  {
+   "label": "a: moving average -- cost of goods available for sale (COGAS)",
+   "value": 23900.0
+  },
+  {
+   "label": "a: moving average -- June 1 balance: 300 units @ $20.00 avg = inventory balance",
+   "value": 6000.0
+  },
+  {
+   "label": "a: moving average -- after June 5 purchase (200 units @ $25): units on hand",
+   "value": 500
+  },
+  {
+   "label": "a: moving average -- after June 5 purchase: inventory balance",
+   "value": 11000.0
+  },
+  {
+   "label": "a: moving average -- after June 5 purchase: new moving-average unit cost",
+   "value": 22.0
+  },
+  {
+   "label": "a: moving average -- after June 18 purchase (300 units @ $28): units on hand",
+   "value": 600
+  },
+  {
+   "label": "a: moving average -- after June 18 purchase: inventory balance",
+   "value": 15000.0
+  },
+  {
+   "label": "a: moving average -- after June 18 purchase: new moving-average unit cost",
+   "value": 25.0
+  },
+  {
+   "label": "a: moving average -- after June 29 purchase (150 units @ $30): units on hand",
+   "value": 500
+  },
+  {
+   "label": "a: moving average -- after June 29 purchase: inventory balance",
+   "value": 13250.0
+  },
+  {
+   "label": "a: moving average -- after June 29 purchase: new moving-average unit cost",
+   "value": 26.5
+  },
+  {
+   "label": "a: moving average -- June 10 sale (200 units): COGS unit cost",
+   "value": 22.0
+  },
+  {
+   "label": "a: moving average -- June 10 sale: COGS amount",
+   "value": 4400.0
+  },
+  {
+   "label": "a: moving average -- after June 10 sale: units on hand",
+   "value": 300
+  },
+  {
+   "label": "a: moving average -- after June 10 sale: inventory balance",
+   "value": 6600.0
+  },
+  {
+   "label": "a: moving average -- June 24 sale (250 units): COGS unit cost",
+   "value": 25.0
+  },
+  {
+   "label": "a: moving average -- June 24 sale: COGS amount",
+   "value": 6250.0
+  },
+  {
+   "label": "a: moving average -- after June 24 sale: units on hand",
+   "value": 350
+  },
+  {
+   "label": "a: moving average -- after June 24 sale: inventory balance",
+   "value": 8750.0
+  },
+  {
+   "label": "a: moving average -- ending inventory units",
+   "value": 500
+  },
+  {
+   "label": "a: moving average -- June ending inventory",
+   "value": 13250.0
+  },
+  {
+   "label": "a: moving average -- June COGS",
+   "value": 10650.0
+  },
+  {
+   "label": "b: FIFO -- cost of goods available for sale (COGAS)",
+   "value": 23900.0
+  },
+  {
+   "label": "b: FIFO -- after June 5 purchase: inventory balance",
+   "value": 11000.0
+  },
+  {
+   "label": "b: FIFO -- after June 18 purchase: inventory balance",
+   "value": 15400.0
+  },
+  {
+   "label": "b: FIFO -- after June 29 purchase: inventory balance",
+   "value": 14150.0
+  },
+  {
+   "label": "b: FIFO -- June 10 sale: layer used 200 units @ $20 = cost",
+   "value": 4000.0
+  },
+  {
+   "label": "b: FIFO -- June 10 sale: total COGS",
+   "value": 4000.0
+  },
+  {
+   "label": "b: FIFO -- after June 10 sale: inventory balance",
+   "value": 7000.0
+  },
+  {
+   "label": "b: FIFO -- June 24 sale: layer used 100 units @ $20 = cost",
+   "value": 2000.0
+  },
+  {
+   "label": "b: FIFO -- June 24 sale: layer used 150 units @ $25 = cost",
+   "value": 3750.0
+  },
+  {
+   "label": "b: FIFO -- June 24 sale: total COGS",
+   "value": 5750.0
+  },
+  {
+   "label": "b: FIFO -- after June 24 sale: inventory balance",
+   "value": 9650.0
+  },
+  {
+   "label": "b: FIFO -- ending inventory layer: 50 units @ $25",
+   "value": 1250.0
+  },
+  {
+   "label": "b: FIFO -- ending inventory layer: 300 units @ $28",
+   "value": 8400.0
+  },
+  {
+   "label": "b: FIFO -- ending inventory layer: 150 units @ $30",
+   "value": 4500.0
+  },
+  {
+   "label": "b: FIFO -- ending inventory units",
+   "value": 500
+  },
+  {
+   "label": "b: FIFO -- June ending inventory",
+   "value": 14150.0
+  },
+  {
+   "label": "b: FIFO -- June COGS",
+   "value": 9750.0
+  },
+  {
+   "label": "c: LIFO -- cost of goods available for sale (COGAS)",
+   "value": 23900.0
+  },
+  {
+   "label": "c: LIFO -- after June 5 purchase: inventory balance",
+   "value": 11000.0
+  },
+  {
+   "label": "c: LIFO -- after June 18 purchase: inventory balance",
+   "value": 14400.0
+  },
+  {
+   "label": "c: LIFO -- after June 29 purchase: inventory balance",
+   "value": 11900.0
+  },
+  {
+   "label": "c: LIFO -- June 10 sale: layer used 200 units @ $25 = cost",
+   "value": 5000.0
+  },
+  {
+   "label": "c: LIFO -- June 10 sale: total COGS",
+   "value": 5000.0
+  },
+  {
+   "label": "c: LIFO -- after June 10 sale: inventory balance",
+   "value": 6000.0
+  },
+  {
+   "label": "c: LIFO -- June 24 sale: layer used 250 units @ $28 = cost",
+   "value": 7000.0
+  },
+  {
+   "label": "c: LIFO -- June 24 sale: total COGS",
+   "value": 7000.0
+  },
+  {
+   "label": "c: LIFO -- after June 24 sale: inventory balance",
+   "value": 7400.0
+  },
+  {
+   "label": "c: LIFO -- ending inventory layer: 300 units @ $20",
+   "value": 6000.0
+  },
+  {
+   "label": "c: LIFO -- ending inventory layer: 50 units @ $28",
+   "value": 1400.0
+  },
+  {
+   "label": "c: LIFO -- ending inventory layer: 150 units @ $30",
+   "value": 4500.0
+  },
+  {
+   "label": "c: LIFO -- ending inventory units",
+   "value": 500
+  },
+  {
+   "label": "c: LIFO -- June ending inventory",
+   "value": 11900.0
+  },
+  {
+   "label": "c: LIFO -- June COGS",
+   "value": 12000.0
+  },
+  {
+   "label": "d: June 5 purchase -- Dr Inventory / Cr Accounts Payable",
+   "value": 5000.0
+  },
+  {
+   "label": "d: June 18 purchase -- Dr Inventory / Cr Accounts Payable",
+   "value": 8400.0
+  },
+  {
+   "label": "d: June 29 purchase -- Dr Inventory / Cr Accounts Payable",
+   "value": 4500.0
+  },
+  {
+   "label": "d: total inventory debited for June purchases",
+   "value": 17900.0
+  },
+  {
+   "label": "e: June 10 sale revenue -- Dr Accounts Receivable / Cr Sales Revenue",
+   "value": 8000.0
+  },
+  {
+   "label": "e: June 10 FIFO cost entry -- Dr COGS / Cr Inventory",
+   "value": 4000.0
+  },
+  {
+   "label": "e: June 24 sale revenue -- Dr Accounts Receivable / Cr Sales Revenue",
+   "value": 10500.0
+  },
+  {
+   "label": "e: June 24 FIFO cost entry -- Dr COGS / Cr Inventory",
+   "value": 5750.0
+  },
+  {
+   "label": "e: total June sales revenue (FIFO entries)",
+   "value": 18500.0
+  },
+  {
+   "label": "e: total June COGS recorded (FIFO)",
+   "value": 9750.0
+  },
+  {
+   "label": "e: June gross profit under FIFO",
+   "value": 8750.0
+  },
+  {
+   "label": "f: moving average -- COGAS less ending inventory (must equal COGS)",
+   "value": 10650.0
+  },
+  {
+   "label": "f: moving average -- COGS per schedule",
+   "value": 10650.0
+  },
+  {
+   "label": "f: moving average -- check COGAS - EI = COGS holds (1=yes)",
+   "value": 1
+  },
+  {
+   "label": "f: FIFO -- COGAS less ending inventory (must equal COGS)",
+   "value": 9750.0
+  },
+  {
+   "label": "f: FIFO -- COGS per schedule",
+   "value": 9750.0
+  },
+  {
+   "label": "f: FIFO -- check COGAS - EI = COGS holds (1=yes)",
+   "value": 1
+  },
+  {
+   "label": "f: LIFO -- COGAS less ending inventory (must equal COGS)",
+   "value": 12000.0
+  },
+  {
+   "label": "f: LIFO -- COGS per schedule",
+   "value": 12000.0
+  },
+  {
+   "label": "f: LIFO -- check COGAS - EI = COGS holds (1=yes)",
+   "value": 1
+  },
+  {
+   "label": "f: rank by highest ending inventory -- 1st (FIFO)",
+   "value": 14150.0
+  },
+  {
+   "label": "f: rank by highest ending inventory -- 2nd (moving average)",
+   "value": 13250.0
+  },
+  {
+   "label": "f: rank by highest ending inventory -- 3rd (LIFO)",
+   "value": 11900.0
+  },
+  {
+   "label": "f: rank by highest COGS -- 1st (LIFO)",
+   "value": 12000.0
+  },
+  {
+   "label": "f: rank by highest COGS -- 2nd (moving average)",
+   "value": 10650.0
+  },
+  {
+   "label": "f: rank by highest COGS -- 3rd (FIFO)",
+   "value": 9750.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "d",
+   "description": "June 5 -- purchase of 200 units @ $25 on account (perpetual, gross method)",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 5000.0,
+     "credit": 0
+    },
+    {
+     "account": "Accounts Payable",
+     "debit": 0,
+     "credit": 5000.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "description": "June 18 -- purchase of 300 units @ $28 on account (perpetual, gross method)",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 8400.0,
+     "credit": 0
+    },
+    {
+     "account": "Accounts Payable",
+     "debit": 0,
+     "credit": 8400.0
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "description": "June 29 -- purchase of 150 units @ $30 on account (perpetual, gross method)",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 4500.0,
+     "credit": 0
+    },
+    {
+     "account": "Accounts Payable",
+     "debit": 0,
+     "credit": 4500.0
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "description": "June 10 -- credit sale of 200 units @ $40 (revenue)",
+   "lines": [
+    {
+     "account": "Accounts Receivable",
+     "debit": 8000.0,
+     "credit": 0
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0,
+     "credit": 8000.0
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "description": "June 10 -- cost of the 200 units sold (FIFO, perpetual)",
+   "lines": [
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 4000.0,
+     "credit": 0
+    },
+    {
+     "account": "Inventory",
+     "debit": 0,
+     "credit": 4000.0
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "description": "June 24 -- credit sale of 250 units @ $42 (revenue)",
+   "lines": [
+    {
+     "account": "Accounts Receivable",
+     "debit": 10500.0,
+     "credit": 0
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0,
+     "credit": 10500.0
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "description": "June 24 -- cost of the 250 units sold (FIFO, perpetual)",
+   "lines": [
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 5750.0,
+     "credit": 0
+    },
+    {
+     "account": "Inventory",
+     "debit": 0,
+     "credit": 5750.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Perpetual system throughout; purchases recorded gross, debited directly to Inventory. (a) Moving average: a new weighted-average unit cost is struck after EACH purchase and that average is the COGS unit cost for the next sale; average carried at full precision, money rounded to the cent ROUND_HALF_UP, and COGS closed to COGAS - EI so the schedule ties exactly. (b) FIFO perpetual equals FIFO periodic here. (c) LIFO is perpetual (moving/running LIFO): each sale strips the most recent layer on hand at that date, so the June 10 sale takes the June 5 layer and the June 29 purchase stays in ending inventory. (f) COGAS - EI = COGS verified for all three. In a rising-cost environment ending inventory is highest under FIFO, then moving average, then LIFO; COGS is the mirror image -- highest under LIFO, then moving average, then FIFO (FIFO leaves the newest, dearest costs on the balance sheet and charges the oldest, cheapest costs to expense). Presentation: Inventory is a current asset on the balance sheet, listed after receivables in order of liquidity, reported at the lower of cost and net realisable value (US GAAP retains lower of cost or market for LIFO and retail); the carrying amount is a single line with detail in the notes. Disclosure: the cost-flow assumption/method used and the basis of measurement, the composition of inventory, the amount recognised as expense (COGS) in the period, any write-down to NRV and any reversal, inventories pledged as security, and -- if LIFO is used -- the LIFO reserve (excess of replacement/FIFO cost over LIFO carrying amount) plus any LIFO liquidation effect on income."
+}

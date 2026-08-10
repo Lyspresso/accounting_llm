@@ -97,23 +97,60 @@ def terminal_override():
     return None
 
 
+def certified():
+    """
+    (bool, reason). Has floor #2 been certified at HUMAN tier?
+
+    D6: floor #2 certifies at HUMAN tier only; ai_cross_checked goldens operate
+    it PROVISIONALLY. And the operator chose letter A (certify first), so the
+    launch condition is a CONJUNCTION - GREEN and certified - not GREEN alone.
+
+    This exists because the gate turning GREEN silently unlocked terminal writes
+    while zero human-tier goldens existed. A measured floor and a certified floor
+    are different things, and only one of them is a permission.
+    """
+    idx = os.path.join(HERE, "goldens", "INDEX.json")
+    n = 0
+    if os.path.exists(idx):
+        try:
+            n = json.load(open(idx, encoding="utf-8")).get(
+                "by_tier", {}).get("human_confirmed", 0)
+        except (json.JSONDecodeError, OSError):
+            n = 0
+    if n > 0:
+        return True, f"{n} human_confirmed golden(s)"
+    if os.path.isdir(OVERRIDE_DIR):
+        for fn in sorted(os.listdir(OVERRIDE_DIR)):
+            if fn.startswith("CERTIFICATION"):
+                return True, f"operator artifact {fn}"
+    return False, ("ZERO human-tier goldens and no operator CERTIFICATION file - "
+                   "floor #2 is OPERATED PROVISIONALLY, not certified (D6)")
+
+
 def check_terminal_writes(new_rows):
-    """Refuse terminal rows under a RED gate. Returns the rows unchanged."""
+    """
+    Refuse terminal rows unless the gate is GREEN **and** floor #2 is certified.
+
+    Both conditions, per DECISION-002 letter A. GREEN alone is a measurement;
+    certification is the permission.
+    """
     terminals = [r for r in new_rows if r.get("status") in TERMINAL_STATES]
     if not terminals:
         return new_rows
     gate, src = launch_gate()
-    if gate == "GREEN":
+    cert, why = certified()
+    if gate == "GREEN" and cert:
         return new_rows
     ov = terminal_override()
     if ov:
         return new_rows
     ids = ", ".join(sorted({str(r.get("id")) for r in terminals})[:5])
     raise TerminalWriteRefused(
-        f"REFUSED: {len(terminals)} terminal row(s) [{ids}] while LAUNCH gate is "
-        f"{gate} (per {src}). Terminal states require a certified floor. To "
-        f"override, commit a file named {OVERRIDE_PREFIX}*.md in "
-        f"comms/operator/ stating the authority."
+        f"REFUSED: {len(terminals)} terminal row(s) [{ids}]. LAUNCH gate = {gate} "
+        f"(per {src}); certified = {cert} ({why}). Terminal states require GREEN "
+        f"AND certification (DECISION-002 letter A; D6). To override, commit a "
+        f"file named {OVERRIDE_PREFIX}*.md in comms/operator/ stating the "
+        f"authority."
     )
 
 

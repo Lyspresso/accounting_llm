@@ -37,6 +37,7 @@ the solver for the key's silence.
 """
 
 import json
+import io_json
 import os
 import re
 import sys
@@ -210,7 +211,7 @@ def main():
     qs, known, amap = PF.load()
     dv = PF.dual_verified()
     repaired = load_repairs()
-    par = {e["id"]: e["dir"] for e in
+    par = {e["id"]: P.local(e["dir"]) for e in
            json.load(open(os.path.join(OUT, "parity50.json"), encoding="utf-8"))}
     gold_dir = os.path.join(HERE, "goldens")
 
@@ -287,12 +288,12 @@ def main():
     for qid, v in sorted(item_class.items()):
         print(f"    item {qid:14s} -> {v}")
 
-    json.dump({"clean": clean, "findings": rows, "tally": tally,
-               "item_class": item_class, "chargeable": charge,
-               "chargeable_ci": [lo, hi],
-               "caveat": "MATCHER_ARTIFACT excluded; forecast until fixed and "
-                         "detection re-measured"},
-              open(os.path.join(OUT, "fp_taxonomy.json"), "w"), indent=1)
+    io_json.dump(os.path.join(OUT, "fp_taxonomy.json"),
+                 {"clean": clean, "findings": rows, "tally": tally,
+                  "item_class": item_class, "chargeable": charge,
+                  "chargeable_ci": [lo, hi],
+                  "caveat": "MATCHER_ARTIFACT excluded; forecast until fixed and "
+                            "detection re-measured"})
     print(f"\nwrote {os.path.join(OUT, 'fp_taxonomy.json')}")
 
 

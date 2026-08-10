@@ -14,6 +14,7 @@ narrower pattern set than an old one, because there is only one generator.
 """
 
 import json
+import io_json
 import os
 import re
 
@@ -78,7 +79,7 @@ def normalize_registry():
     r = load_rulings()
     for rid, v in r.items():
         v.pop("banned_patterns", None)
-    json.dump(r, open(REGISTRY, "w", encoding="utf-8"), indent=1)
+    io_json.dump(REGISTRY, r)
     return r
 
 

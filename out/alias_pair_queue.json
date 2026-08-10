@@ -72,5 +72,71 @@
   "raised_by": "agent_002#03 (ORDER-002 item 5)",
   "note": "Routed here rather than special-cased in the comparator, per ORDER-002 item 5. A comparator that hard-codes one item's naming stops measuring naming.",
   "ruling": null
+ },
+ {
+  "pair": [
+   "Accounts Receivable, Net",
+   "Accounts Receivable"
+  ],
+  "found_a": [
+   [
+    "accounts receivable net",
+    0
+   ]
+  ],
+  "found_b": [
+   [
+    "accounts receivable",
+    228
+   ]
+  ],
+  "why_clusterer_split": "Same net value, different account string. merge_key needs exact equality after case/punctuation normalisation, and a qualifier ('Net', 'No Par', a dividends suffix) is a different token sequence. That strictness is deliberate.",
+  "raised_by": "agent_130#00 re-solve after the ORDER-003 item 5 stem repair",
+  "note": "Netting the whole item shows the values agree exactly; only the names differ. Routed here under the dominance rule rather than special-cased.",
+  "ruling": null
+ },
+ {
+  "pair": [
+   "Common Stock, No Par",
+   "Common Stock"
+  ],
+  "found_a": [
+   [
+    "common stock no par",
+    0
+   ]
+  ],
+  "found_b": [
+   [
+    "common stock",
+    111
+   ]
+  ],
+  "why_clusterer_split": "Same net value, different account string. merge_key needs exact equality after case/punctuation normalisation, and a qualifier ('Net', 'No Par', a dividends suffix) is a different token sequence. That strictness is deliberate.",
+  "raised_by": "agent_130#00 re-solve after the ORDER-003 item 5 stem repair",
+  "note": "Netting the whole item shows the values agree exactly; only the names differ. Routed here under the dominance rule rather than special-cased.",
+  "ruling": null
+ },
+ {
+  "pair": [
+   "Retained Earnings\u2014Dividends",
+   "Retained Earnings"
+  ],
+  "found_a": [
+   [
+    "retained earnings dividends",
+    0
+   ]
+  ],
+  "found_b": [
+   [
+    "retained earnings",
+    180
+   ]
+  ],
+  "why_clusterer_split": "Same net value, different account string. merge_key needs exact equality after case/punctuation normalisation, and a qualifier ('Net', 'No Par', a dividends suffix) is a different token sequence. That strictness is deliberate.",
+  "raised_by": "agent_130#00 re-solve after the ORDER-003 item 5 stem repair",
+  "note": "Netting the whole item shows the values agree exactly; only the names differ. Routed here under the dominance rule rather than special-cased.",
+  "ruling": null
  }
 ]

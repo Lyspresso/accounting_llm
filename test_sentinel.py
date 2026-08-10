@@ -33,6 +33,14 @@ def main():
     with tempfile.TemporaryDirectory() as tmp:
         # sandbox: sentinel + a copy of the artifacts it reads
         shutil.copy(os.path.join(HERE, "sentinel.py"), tmp)
+        # sentinel imports PIPELINE_VERSION/TERMINAL from ledger_io with NO
+        # fallback (ORDER-003 item 4), so the sandbox must carry the real
+        # module rather than let the sentinel carry a shadow copy of its
+        # constants. paths.py comes along because ledger_io imports it.
+        for dep in ("ledger_io.py", "paths.py", "io_json.py"):
+            src = os.path.join(HERE, dep)
+            if os.path.exists(src):
+                shutil.copy(src, tmp)
         os.makedirs(os.path.join(tmp, "out"), exist_ok=True)
         for f in ("ledger.jsonl", "questions.jsonl"):
             src = os.path.join(OUT, f)

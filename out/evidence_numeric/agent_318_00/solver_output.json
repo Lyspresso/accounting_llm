@@ -1,0 +1,224 @@
+{
+ "id": "agent_318#00",
+ "rounding_convention": "decimal.Decimal with ROUND_HALF_UP per period; money exact to whole dollars in journal entries, ratios and percentages to two decimals; days in inventory = 365 / turnover rounded to two decimals first",
+ "answers": [
+  {
+   "label": "a: Purchases debited (gross invoice, on account)",
+   "value": 1950000
+  },
+  {
+   "label": "a: Freight-in debited (cash paid)",
+   "value": 48000
+  },
+  {
+   "label": "b: Purchase Returns and Allowances credited (AP reduced)",
+   "value": 32000
+  },
+  {
+   "label": "b: Cash paid to settle remaining Year 2 accounts payable",
+   "value": 1918000
+  },
+  {
+   "label": "c: Sales Revenue credited (on account)",
+   "value": 3150000
+  },
+  {
+   "label": "d: Bridge - Beginning inventory (Dec 31, Year 1)",
+   "value": 440000
+  },
+  {
+   "label": "d: Bridge - Purchases",
+   "value": 1950000
+  },
+  {
+   "label": "d: Bridge - Less: Purchase returns and allowances",
+   "value": 32000
+  },
+  {
+   "label": "d: Bridge - Net purchases",
+   "value": 1918000
+  },
+  {
+   "label": "d: Bridge - Add: Freight-in",
+   "value": 48000
+  },
+  {
+   "label": "d: Bridge - Cost of goods purchased",
+   "value": 1966000
+  },
+  {
+   "label": "d: Bridge - Cost of goods available for sale",
+   "value": 2406000
+  },
+  {
+   "label": "d: Bridge - Less: Ending inventory (Dec 31, Year 2)",
+   "value": 465000
+  },
+  {
+   "label": "d: Year 2 cost of goods sold",
+   "value": 1941000
+  },
+  {
+   "label": "d: Adjusting entry total debits",
+   "value": 2438000
+  },
+  {
+   "label": "d: Adjusting entry total credits",
+   "value": 2438000
+  },
+  {
+   "label": "e: Year 1 average inventory",
+   "value": 420000
+  },
+  {
+   "label": "e: Year 1 inventory turnover (times)",
+   "value": 4.0
+  },
+  {
+   "label": "e: Year 1 average days in inventory",
+   "value": 91.25
+  },
+  {
+   "label": "e: Year 1 gross profit",
+   "value": 1120000
+  },
+  {
+   "label": "e: Year 1 gross profit percentage (%)",
+   "value": 40.0
+  },
+  {
+   "label": "e: Year 2 average inventory",
+   "value": 452500
+  },
+  {
+   "label": "e: Year 2 inventory turnover (times)",
+   "value": 4.29
+  },
+  {
+   "label": "e: Year 2 average days in inventory",
+   "value": 85.08
+  },
+  {
+   "label": "e: Year 2 gross profit",
+   "value": 1209000
+  },
+  {
+   "label": "e: Year 2 gross profit percentage (%)",
+   "value": 38.38
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Purchases",
+     "debit": 1950000,
+     "credit": 0
+    },
+    {
+     "account": "Accounts Payable",
+     "debit": 0,
+     "credit": 1950000
+    }
+   ]
+  },
+  {
+   "part": "a",
+   "lines": [
+    {
+     "account": "Freight-in",
+     "debit": 48000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 48000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Accounts Payable",
+     "debit": 32000,
+     "credit": 0
+    },
+    {
+     "account": "Purchase Returns and Allowances",
+     "debit": 0,
+     "credit": 32000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Accounts Payable",
+     "debit": 1918000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 1918000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Accounts Receivable",
+     "debit": 3150000,
+     "credit": 0
+    },
+    {
+     "account": "Sales Revenue",
+     "debit": 0,
+     "credit": 3150000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "lines": [
+    {
+     "account": "Inventory (ending, Dec 31 Year 2)",
+     "debit": 465000,
+     "credit": 0
+    },
+    {
+     "account": "Purchase Returns and Allowances",
+     "debit": 32000,
+     "credit": 0
+    },
+    {
+     "account": "Cost of Goods Sold",
+     "debit": 1941000,
+     "credit": 0
+    },
+    {
+     "account": "Inventory (beginning, Dec 31 Year 1)",
+     "debit": 0,
+     "credit": 440000
+    },
+    {
+     "account": "Purchases",
+     "debit": 0,
+     "credit": 1950000
+    },
+    {
+     "account": "Freight-in",
+     "debit": 0,
+     "credit": 48000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "(d) Combined period-end adjusting entry proves Dr = Cr at 2,438,000 = 2,438,000. (f) Efficiency improved: turnover rose 4.00 -> 4.29 times and average days in inventory fell 91.25 -> 85.08 days, so Ashwick moved goods faster despite carrying more inventory. Margin weakened: gross profit percentage slipped 40.00% -> 38.38% (COGS grew faster than sales), though gross profit dollars still rose from $1,120,000 to $1,209,000 on the higher sales volume. Net read: the company traded a little margin for volume and inventory efficiency. Schedule convention: money is exact whole dollars (no rounding needed); ratios/percentages quantized HALF_UP to two decimals, and days = 365 / rounded turnover as instructed."
+}

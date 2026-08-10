@@ -2,15 +2,15 @@
  "pipeline_version": "1.2",
  "terminal_count": 0,
  "status_vector": {
-  "failed|current": 164,
-  "machine_passed|current": 917,
+  "failed|current": 167,
+  "machine_passed|current": 931,
   "machine_passed|superseded": 96,
   "failed|superseded": 22,
   "DUPLICATE_OF|superseded": 9,
-  "unverified|superseded": 130,
+  "unverified|superseded": 131,
   "verified|current": 1,
   "unverified|current": 1828
  },
- "ledger_rows": 3167,
+ "ledger_rows": 3185,
  "recorded_at_note": "sentinel check"
 }

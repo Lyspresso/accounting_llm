@@ -1,0 +1,402 @@
+{
+ "id": "agent_153#00",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP to the cent per period (interest, amortization, balances); PV factors carried at full precision; final-period interest plugged so the schedule closes exactly to $0.00",
+ "answers": [
+  {
+   "label": "a: lessee classification",
+   "value": "Finance lease"
+  },
+  {
+   "label": "a: criterion met #1 - lease term as % of remaining economic life (4 yr / 4 yr) = major part (>=75%)",
+   "value": 100.0
+  },
+  {
+   "label": "a: criterion met #2 - PV of lease payments as % of fair value ($150,000.00 / $150,000.00) = substantially all (>=90%)",
+   "value": 100.0
+  },
+  {
+   "label": "a: criteria NOT met - no transfer of ownership, no purchase option, asset is nonspecialized (alternative use exists)",
+   "value": "not met"
+  },
+  {
+   "label": "b: discount rate used - lessor's implicit rate (known to lessee)",
+   "value": "6% (6.5% IBR not used)"
+  },
+  {
+   "label": "b: PV factor, annuity due, n=4, i=6%",
+   "value": 3.673012
+  },
+  {
+   "label": "b: lease liability at commencement 1/1/Yr1",
+   "value": 150000.0
+  },
+  {
+   "label": "b: ROU asset at commencement 1/1/Yr1",
+   "value": 150000.0
+  },
+  {
+   "label": "c: 1/1/Yr1 commencement - lease liability balance",
+   "value": 150000.0
+  },
+  {
+   "label": "c: 1/1/Yr1 payment - cash payment",
+   "value": 40838.42
+  },
+  {
+   "label": "c: 1/1/Yr1 payment - interest on liability",
+   "value": 0.0
+  },
+  {
+   "label": "c: 1/1/Yr1 payment - reduction of lease liability",
+   "value": 40838.42
+  },
+  {
+   "label": "c: 1/1/Yr1 payment - lease liability balance",
+   "value": 109161.58
+  },
+  {
+   "label": "c: 12/31/Yr1 interest accrual - interest expense (6% x prior balance)",
+   "value": 6549.69
+  },
+  {
+   "label": "c: 12/31/Yr1 interest accrual - lease liability balance",
+   "value": 115711.27
+  },
+  {
+   "label": "c: 1/1/Yr2 payment - cash payment",
+   "value": 40838.42
+  },
+  {
+   "label": "c: 1/1/Yr2 payment - interest on liability",
+   "value": 0.0
+  },
+  {
+   "label": "c: 1/1/Yr2 payment - reduction of lease liability",
+   "value": 40838.42
+  },
+  {
+   "label": "c: 1/1/Yr2 payment - lease liability balance",
+   "value": 74872.85
+  },
+  {
+   "label": "c: 12/31/Yr2 interest accrual - interest expense (6% x prior balance)",
+   "value": 4492.37
+  },
+  {
+   "label": "c: 12/31/Yr2 interest accrual - lease liability balance",
+   "value": 79365.22
+  },
+  {
+   "label": "c: 1/1/Yr3 payment - cash payment",
+   "value": 40838.42
+  },
+  {
+   "label": "c: 1/1/Yr3 payment - interest on liability",
+   "value": 0.0
+  },
+  {
+   "label": "c: 1/1/Yr3 payment - reduction of lease liability",
+   "value": 40838.42
+  },
+  {
+   "label": "c: 1/1/Yr3 payment - lease liability balance",
+   "value": 38526.8
+  },
+  {
+   "label": "c: 12/31/Yr3 interest accrual - interest expense (6% x prior balance)",
+   "value": 2311.62
+  },
+  {
+   "label": "c: 12/31/Yr3 interest accrual - lease liability balance",
+   "value": 40838.42
+  },
+  {
+   "label": "c: 1/1/Yr4 payment - cash payment",
+   "value": 40838.42
+  },
+  {
+   "label": "c: 1/1/Yr4 payment - interest on liability",
+   "value": 0.0
+  },
+  {
+   "label": "c: 1/1/Yr4 payment - reduction of lease liability",
+   "value": 40838.42
+  },
+  {
+   "label": "c: 1/1/Yr4 payment - lease liability balance",
+   "value": 0.0
+  },
+  {
+   "label": "c: schedule total - cash payments",
+   "value": 163353.68
+  },
+  {
+   "label": "c: schedule total - interest expense",
+   "value": 13353.68
+  },
+  {
+   "label": "c: schedule total - reduction of lease liability from payments (= total payments; interest is accrued into the liability each 12/31)",
+   "value": 163353.68
+  },
+  {
+   "label": "e: balance sheet 12/31/Yr1 - ROU asset, net ($150,000.00 cost less $37,500.00 amortization)",
+   "value": 112500.0
+  },
+  {
+   "label": "e: balance sheet 12/31/Yr1 - total lease liability",
+   "value": 115711.27
+  },
+  {
+   "label": "e: balance sheet 12/31/Yr1 - current lease liability",
+   "value": 40838.42
+  },
+  {
+   "label": "e: balance sheet 12/31/Yr1 - noncurrent lease liability",
+   "value": 74872.85
+  },
+  {
+   "label": "e: income statement Yr1 - interest expense",
+   "value": 6549.69
+  },
+  {
+   "label": "e: income statement Yr1 - amortization expense on ROU asset",
+   "value": 37500.0
+  },
+  {
+   "label": "e: income statement Yr1 - total lease-related expense",
+   "value": 44049.69
+  },
+  {
+   "label": "f: Yr2 interest expense",
+   "value": 4492.37
+  },
+  {
+   "label": "f: Yr3 interest expense (plugged $0.01 to close schedule to zero)",
+   "value": 2311.62
+  },
+  {
+   "label": "f: Yr4 interest expense (liability is $0 after the 1/1/Yr4 payment)",
+   "value": 0.0
+  },
+  {
+   "label": "f: annual ROU amortization, Yr2 / Yr3 / Yr4",
+   "value": 37500.0
+  },
+  {
+   "label": "f: ROU asset carrying amount after the 12/31/Yr4 entry (asset returned, zero residual)",
+   "value": 0.0
+  },
+  {
+   "label": "f: lease liability balance after the 1/1/Yr4 payment",
+   "value": 0.0
+  },
+  {
+   "label": "g: PV factor, annuity due, n=4, i=6.5%",
+   "value": 3.648476
+  },
+  {
+   "label": "g: lease liability = ROU asset at commencement if 6.5% IBR were used",
+   "value": 148997.98
+  },
+  {
+   "label": "g: decrease vs. the 6% measurement",
+   "value": 1002.02
+  },
+  {
+   "label": "g: PV as % of fair value at 6.5% (still 'substantially all', still a finance lease)",
+   "value": 99.33
+  },
+  {
+   "label": "g: total interest expense over the term at 6.5%",
+   "value": 14355.7
+  },
+  {
+   "label": "g: annual straight-line ROU amortization at 6.5%",
+   "value": 37249.5
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b/d (1/1/Yr1 - commencement, recognize ROU asset and lease liability)",
+   "lines": [
+    {
+     "account": "Right-of-Use Asset",
+     "debit": 150000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0.0,
+     "credit": 150000.0
+    }
+   ]
+  },
+  {
+   "part": "d (1/1/Yr1 - first annuity-due lease payment, all principal)",
+   "lines": [
+    {
+     "account": "Lease Liability",
+     "debit": 40838.42,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 40838.42
+    }
+   ]
+  },
+  {
+   "part": "d (12/31/Yr1 - accrue interest on lease liability)",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 6549.69,
+     "credit": 0.0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0.0,
+     "credit": 6549.69
+    }
+   ]
+  },
+  {
+   "part": "d (12/31/Yr1 - amortize ROU asset straight-line, credited directly)",
+   "lines": [
+    {
+     "account": "Amortization Expense",
+     "debit": 37500.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Right-of-Use Asset",
+     "debit": 0.0,
+     "credit": 37500.0
+    }
+   ]
+  },
+  {
+   "part": "f (1/1/Yr2 - lease payment)",
+   "lines": [
+    {
+     "account": "Lease Liability",
+     "debit": 40838.42,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 40838.42
+    }
+   ]
+  },
+  {
+   "part": "f (12/31/Yr2 - accrue interest on lease liability)",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 4492.37,
+     "credit": 0.0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0.0,
+     "credit": 4492.37
+    }
+   ]
+  },
+  {
+   "part": "f (12/31/Yr2 - amortize ROU asset straight-line, credited directly)",
+   "lines": [
+    {
+     "account": "Amortization Expense",
+     "debit": 37500.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Right-of-Use Asset",
+     "debit": 0.0,
+     "credit": 37500.0
+    }
+   ]
+  },
+  {
+   "part": "f (1/1/Yr3 - lease payment)",
+   "lines": [
+    {
+     "account": "Lease Liability",
+     "debit": 40838.42,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 40838.42
+    }
+   ]
+  },
+  {
+   "part": "f (12/31/Yr3 - accrue interest on lease liability)",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 2311.62,
+     "credit": 0.0
+    },
+    {
+     "account": "Lease Liability",
+     "debit": 0.0,
+     "credit": 2311.62
+    }
+   ]
+  },
+  {
+   "part": "f (12/31/Yr3 - amortize ROU asset straight-line, credited directly)",
+   "lines": [
+    {
+     "account": "Amortization Expense",
+     "debit": 37500.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Right-of-Use Asset",
+     "debit": 0.0,
+     "credit": 37500.0
+    }
+   ]
+  },
+  {
+   "part": "f (1/1/Yr4 - lease payment)",
+   "lines": [
+    {
+     "account": "Lease Liability",
+     "debit": 40838.42,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 40838.42
+    }
+   ]
+  },
+  {
+   "part": "f (12/31/Yr4 - amortize ROU asset straight-line, credited directly)",
+   "lines": [
+    {
+     "account": "Amortization Expense",
+     "debit": 37500.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Right-of-Use Asset",
+     "debit": 0.0,
+     "credit": 37500.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Finance lease: lease term (4 yrs) = 100% of the 4-yr economic life (major part) AND PV of the lease payments ($150,000.00) = 100% of the $150,000 fair value (substantially all). Discount rate = the 6% implicit rate because it is known to the lessee. Annuity due: the 1/1/Yr1 payment is 100% principal (no interest has accrued), and no interest accrues between each 12/31 accrual and the following 1/1 payment, so every payment is 100% principal against the then-accrued balance. Interest is computed at 6% on the post-payment balance and rounded to the cent (ROUND_HALF_UP) each period; the 12/31/Yr3 accrual is plugged to $2,311.62 (un-rounded $2,311.608) so the liability closes EXACTLY to $0.00 at the 1/1/Yr4 payment. No interest arises in Yr4 (the liability is zero after 1/1/Yr4). Current portion at 12/31/Yr1 = the full $40,838.42 due 1/1/Yr2, none of which is interest. (g) With only the 6.5% IBR, the liability and ROU asset would be measured at $148,997.98 (a $1,002.02 decrease); classification is unchanged (99.33% of fair value is still substantially all, and the lease term still equals the economic life); total interest over the term rises to $14,355.70 and annual ROU amortization falls to $37,249.50. A higher discount rate always gives a smaller liability/ROU asset, more total interest expense, and less amortization expense."
+}

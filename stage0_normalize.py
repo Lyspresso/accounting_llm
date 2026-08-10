@@ -19,6 +19,7 @@ Run:  python3 stage0_normalize.py
 from paths import resolve
 import hashlib
 import json
+import ledger_io
 import os
 import re
 import statistics
@@ -376,11 +377,15 @@ def main():
             questions.append(q)
             for f in flags:
                 reasons[f] += 1
-            ledger.append({
-                "content_hash": chash, "id": qid, "lineage_id": qid, "pack_id": pack_id,
-                "remake_count": 0, "status": q["status"], "reasons": flags,
-                "pipeline_version": PIPELINE_VERSION,
-            })
+            # make_row is the single row constructor: it validates `status`
+            # against ledger_io.STATUSES, so a typo becomes an error here
+            # instead of a silent new state that every consumer then has to
+            # guess at. Verified before adoption that this file's vocabulary
+            # ({unverified, failed}) is a subset of STATUSES.
+            ledger.append(ledger_io.make_row(
+                content_hash=chash, id=qid, status=q["status"], stage=None,
+                pack_id=pack_id, lineage_id=qid, remake_count=0, reasons=flags,
+                pipeline_version=PIPELINE_VERSION))
 
     # --- per-pack format profiling / FORMAT_DRIFT ---------------------------
     profiles, drift = {}, []

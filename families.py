@@ -17,6 +17,7 @@ Two jobs:
 """
 
 import json
+import io_json
 import math
 import os
 import re
@@ -199,7 +200,7 @@ def main():
     for d in deltas[-8:]:
         print(f"    {d['id']:14s} {d['label']:46s} solver={d['solver']:>12,.2f} "
               f"key={d['nearest_key']:>12,.2f} d={d['delta']:>10,.2f} ({d['rel']:.1%})")
-    json.dump(deltas, open(os.path.join(OUT, "numeric_deltas.json"), "w"), indent=1)
+    io_json.dump(os.path.join(OUT, "numeric_deltas.json"), deltas)
 
 
 if __name__ == "__main__":

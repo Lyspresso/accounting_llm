@@ -1,0 +1,346 @@
+{
+ "id": "agent_011#01",
+ "rounding_convention": "decimal.Decimal throughout (no floats); PV factors at full precision (prec=50); every dollar figure rounded to the nearest whole dollar with ROUND_HALF_UP, applied per period (interest expense = 3.5% x that period's beginning carrying value, rounded each period). Journal entries in whole dollars. Period 10 amortization is plugged so the schedule closes exactly to the $250,000 face amount.",
+ "answers": [
+  {
+   "label": "a: bond type 1 \u2014 secured bonds (collateralized/mortgage-type: first lien on specified manufacturing equipment)",
+   "value": "Secured bonds"
+  },
+  {
+   "label": "a: bond type 2 \u2014 callable (redeemable) bonds: issuer may call any time after 3 years at 102",
+   "value": "Callable bonds"
+  },
+  {
+   "label": "a: bond type 3 \u2014 term bonds: entire $250,000 face matures on one date, 5 years out (not serial)",
+   "value": "Term bonds"
+  },
+  {
+   "label": "b: feature 1 \u2014 face (par/maturity) value",
+   "value": 250000
+  },
+  {
+   "label": "b: feature 2 \u2014 stated (contract/coupon) rate, annual",
+   "value": "5% annual (2.5% per semiannual period)"
+  },
+  {
+   "label": "b: feature 3 \u2014 market (effective/yield) rate at issue, annual",
+   "value": "7% annual (3.5% per semiannual period)"
+  },
+  {
+   "label": "b: feature 4 \u2014 term to maturity",
+   "value": "5 years = 10 semiannual interest periods"
+  },
+  {
+   "label": "b: feature 5 \u2014 interest payment dates/frequency",
+   "value": "Semiannual, each June 30 and December 31"
+  },
+  {
+   "label": "b: feature 6 \u2014 cash interest payment per period",
+   "value": 6250
+  },
+  {
+   "label": "b: feature 7 \u2014 security/collateral",
+   "value": "Secured \u2014 first lien on specified manufacturing equipment"
+  },
+  {
+   "label": "b: feature 8 \u2014 call (redemption) provision",
+   "value": "Callable by issuer any time after 3 years at 102 (call price $255,000)"
+  },
+  {
+   "label": "c: PV of the 10 semiannual interest payments of $6,250 at 3.5%",
+   "value": 51979
+  },
+  {
+   "label": "c: PV of the $250,000 face amount at 3.5% for 10 periods",
+   "value": 177230
+  },
+  {
+   "label": "c: issue price (proceeds), nearest dollar",
+   "value": 229208
+  },
+  {
+   "label": "c: discount on bonds payable at issuance",
+   "value": 20792
+  },
+  {
+   "label": "d: period 1 (Jun 30, Year 1) \u2014 carrying value, beginning",
+   "value": 229208
+  },
+  {
+   "label": "d: period 1 (Jun 30, Year 1) \u2014 cash interest paid",
+   "value": 6250
+  },
+  {
+   "label": "d: period 1 (Jun 30, Year 1) \u2014 interest expense (3.5% x beginning carrying value)",
+   "value": 8022
+  },
+  {
+   "label": "d: period 1 (Jun 30, Year 1) \u2014 discount amortization",
+   "value": 1772
+  },
+  {
+   "label": "d: period 1 (Jun 30, Year 1) \u2014 carrying value, ending",
+   "value": 230980
+  },
+  {
+   "label": "d: period 2 (Dec 31, Year 1) \u2014 carrying value, beginning",
+   "value": 230980
+  },
+  {
+   "label": "d: period 2 (Dec 31, Year 1) \u2014 cash interest paid",
+   "value": 6250
+  },
+  {
+   "label": "d: period 2 (Dec 31, Year 1) \u2014 interest expense (3.5% x beginning carrying value)",
+   "value": 8084
+  },
+  {
+   "label": "d: period 2 (Dec 31, Year 1) \u2014 discount amortization",
+   "value": 1834
+  },
+  {
+   "label": "d: period 2 (Dec 31, Year 1) \u2014 carrying value, ending",
+   "value": 232814
+  },
+  {
+   "label": "d: period 3 (Jun 30, Year 2) \u2014 carrying value, beginning",
+   "value": 232814
+  },
+  {
+   "label": "d: period 3 (Jun 30, Year 2) \u2014 cash interest paid",
+   "value": 6250
+  },
+  {
+   "label": "d: period 3 (Jun 30, Year 2) \u2014 interest expense (3.5% x beginning carrying value)",
+   "value": 8148
+  },
+  {
+   "label": "d: period 3 (Jun 30, Year 2) \u2014 discount amortization",
+   "value": 1898
+  },
+  {
+   "label": "d: period 3 (Jun 30, Year 2) \u2014 carrying value, ending",
+   "value": 234712
+  },
+  {
+   "label": "d: period 4 (Dec 31, Year 2) \u2014 carrying value, beginning",
+   "value": 234712
+  },
+  {
+   "label": "d: period 4 (Dec 31, Year 2) \u2014 cash interest paid",
+   "value": 6250
+  },
+  {
+   "label": "d: period 4 (Dec 31, Year 2) \u2014 interest expense (3.5% x beginning carrying value)",
+   "value": 8215
+  },
+  {
+   "label": "d: period 4 (Dec 31, Year 2) \u2014 discount amortization",
+   "value": 1965
+  },
+  {
+   "label": "d: period 4 (Dec 31, Year 2) \u2014 carrying value, ending",
+   "value": 236677
+  },
+  {
+   "label": "d: period 5 (Jun 30, Year 3) \u2014 carrying value, beginning",
+   "value": 236677
+  },
+  {
+   "label": "d: period 5 (Jun 30, Year 3) \u2014 cash interest paid",
+   "value": 6250
+  },
+  {
+   "label": "d: period 5 (Jun 30, Year 3) \u2014 interest expense (3.5% x beginning carrying value)",
+   "value": 8284
+  },
+  {
+   "label": "d: period 5 (Jun 30, Year 3) \u2014 discount amortization",
+   "value": 2034
+  },
+  {
+   "label": "d: period 5 (Jun 30, Year 3) \u2014 carrying value, ending",
+   "value": 238711
+  },
+  {
+   "label": "d: period 6 (Dec 31, Year 3) \u2014 carrying value, beginning",
+   "value": 238711
+  },
+  {
+   "label": "d: period 6 (Dec 31, Year 3) \u2014 cash interest paid",
+   "value": 6250
+  },
+  {
+   "label": "d: period 6 (Dec 31, Year 3) \u2014 interest expense (3.5% x beginning carrying value)",
+   "value": 8355
+  },
+  {
+   "label": "d: period 6 (Dec 31, Year 3) \u2014 discount amortization",
+   "value": 2105
+  },
+  {
+   "label": "d: period 6 (Dec 31, Year 3) \u2014 carrying value, ending",
+   "value": 240816
+  },
+  {
+   "label": "d: period 7 (Jun 30, Year 4) \u2014 carrying value, beginning",
+   "value": 240816
+  },
+  {
+   "label": "d: period 7 (Jun 30, Year 4) \u2014 cash interest paid",
+   "value": 6250
+  },
+  {
+   "label": "d: period 7 (Jun 30, Year 4) \u2014 interest expense (3.5% x beginning carrying value)",
+   "value": 8429
+  },
+  {
+   "label": "d: period 7 (Jun 30, Year 4) \u2014 discount amortization",
+   "value": 2179
+  },
+  {
+   "label": "d: period 7 (Jun 30, Year 4) \u2014 carrying value, ending",
+   "value": 242995
+  },
+  {
+   "label": "d: period 8 (Dec 31, Year 4) \u2014 carrying value, beginning",
+   "value": 242995
+  },
+  {
+   "label": "d: period 8 (Dec 31, Year 4) \u2014 cash interest paid",
+   "value": 6250
+  },
+  {
+   "label": "d: period 8 (Dec 31, Year 4) \u2014 interest expense (3.5% x beginning carrying value)",
+   "value": 8505
+  },
+  {
+   "label": "d: period 8 (Dec 31, Year 4) \u2014 discount amortization",
+   "value": 2255
+  },
+  {
+   "label": "d: period 8 (Dec 31, Year 4) \u2014 carrying value, ending",
+   "value": 245250
+  },
+  {
+   "label": "d: period 9 (Jun 30, Year 5) \u2014 carrying value, beginning",
+   "value": 245250
+  },
+  {
+   "label": "d: period 9 (Jun 30, Year 5) \u2014 cash interest paid",
+   "value": 6250
+  },
+  {
+   "label": "d: period 9 (Jun 30, Year 5) \u2014 interest expense (3.5% x beginning carrying value)",
+   "value": 8584
+  },
+  {
+   "label": "d: period 9 (Jun 30, Year 5) \u2014 discount amortization",
+   "value": 2334
+  },
+  {
+   "label": "d: period 9 (Jun 30, Year 5) \u2014 carrying value, ending",
+   "value": 247584
+  },
+  {
+   "label": "d: period 10 (Dec 31, Year 5) \u2014 carrying value, beginning",
+   "value": 247584
+  },
+  {
+   "label": "d: period 10 (Dec 31, Year 5) \u2014 cash interest paid",
+   "value": 6250
+  },
+  {
+   "label": "d: period 10 (Dec 31, Year 5) \u2014 interest expense (3.5% x beginning carrying value)",
+   "value": 8666
+  },
+  {
+   "label": "d: period 10 (Dec 31, Year 5) \u2014 discount amortization",
+   "value": 2416
+  },
+  {
+   "label": "d: period 10 (Dec 31, Year 5) \u2014 carrying value, ending",
+   "value": 250000
+  },
+  {
+   "label": "d: total cash interest paid over 10 periods",
+   "value": 62500
+  },
+  {
+   "label": "d: total interest expense over 10 periods",
+   "value": 83292
+  },
+  {
+   "label": "d: total discount amortized (= discount at issue)",
+   "value": 20792
+  },
+  {
+   "label": "e: June 30, Year 1 \u2014 interest expense",
+   "value": 8022
+  },
+  {
+   "label": "e: June 30, Year 1 \u2014 discount amortization",
+   "value": 1772
+  },
+  {
+   "label": "e: June 30, Year 1 \u2014 cash paid",
+   "value": 6250
+  },
+  {
+   "label": "f: December 31, Year 1 \u2014 bonds payable, face",
+   "value": 250000
+  },
+  {
+   "label": "f: December 31, Year 1 \u2014 unamortized discount",
+   "value": 17186
+  },
+  {
+   "label": "f: December 31, Year 1 \u2014 bonds payable, net (carrying value)",
+   "value": 232814
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 229208,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 20792,
+     "credit": 0
+    },
+    {
+     "account": "Bonds Payable",
+     "debit": 0,
+     "credit": 250000
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 8022,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0,
+     "credit": 1772
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 6250
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Semiannual effective interest: 10 periods, market 3.5%/period, coupon 2.5%/period = $6,250 cash. Issued at a discount because the 5% stated rate is below the 7% market yield. Part b lists the same eight features as Q1 (face, stated rate, market rate, term, payment dates, periodic cash interest, security, call provision) since Q1's own text was not supplied. The call price of 102 ($255,000) is a feature only; no call occurs in Year 1, so it does not affect any entry above. Interest is paid on the Dec 31 year-end date, so no accrual adjusting entry is needed and the Dec 31, Year 1 net carrying amount reflects two periods of amortization. Price detail: exact PV = 229,208.48 -> $229,208 at full precision. A text using 5-decimal table factors (0.70892 / 8.31661) would show $229,209, a $1 table-rounding difference; the whole schedule shifts by that same $1 if the table price is used. The rounded PV components (51,979 + 177,230) also sum to 229,209 because each component rounds up; the total is rounded once from the exact 229,208.48."
+}

@@ -1,8 +1,8 @@
 {
- "count": 28,
+ "count": 42,
  "by_tier": {
   "adjudicated": 8,
-  "ai_cross_checked": 20
+  "ai_cross_checked": 34
  },
  "rules_guarded": {
   "latex_number_extraction": [
@@ -42,6 +42,22 @@
   ],
   "key_completeness_vs_required": [
    "agent_130#00"
+  ],
+  "numeric_class_a": [
+   "agent_168#00",
+   "agent_052#00",
+   "agent_009#00",
+   "agent_011#00",
+   "agent_039#00",
+   "agent_346#00",
+   "agent_028#00",
+   "agent_253#01",
+   "agent_256#02",
+   "agent_033#00",
+   "agent_025#00",
+   "agent_318#00",
+   "agent_007#00",
+   "agent_011#01"
   ],
   "corroboration_not_waving_through": [
    "agent_295#02",

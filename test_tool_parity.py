@@ -78,6 +78,23 @@ def main():
     if bad:
         failed.append(f"inadmissible bundles resolved: {bad[:3]}")
 
+    # 4. the floors must be MEASURABLE, not merely non-failing.
+    #
+    # detection_floor() reads evidence dirs from a manifest that stores absolute
+    # paths. Off the machine that wrote it, every probe path missed, the loop
+    # `continue`d, and the floor came out run=0 / caught=0 / passes=False - and
+    # a preflight.json recording exactly that was committed. It fails CLOSED, so
+    # nothing unsafe shipped, but a floor that silently becomes unmeasurable on
+    # every machine but one is not a floor. Zero probes is a BROKEN measurement,
+    # not a failing one, and the two must never look alike.
+    det = pf["detection"]
+    ok = det.get("run", 0) > 0
+    print(f"  {'ok  ' if ok else 'FAIL'}  detection floor is MEASURABLE "
+          f"(probes run = {det.get('run', 0)}; 0 means unmeasurable, not failing)")
+    if not ok:
+        failed.append("detection floor ran 0 probes - evidence paths unresolved "
+                      "on this machine")
+
     print(f"\ntool parity: {'GREEN' if not failed else 'RED'}")
     if failed:
         for f in failed:

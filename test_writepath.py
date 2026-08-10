@@ -135,13 +135,33 @@ def test_terminal_write_gate():
         ok.append(("explicit override file permits the write",
                    any(r.get("id") == "O#00" for r in L.read_rows())))
 
-        # 5. GREEN permits it with no override
+        # 5. GREEN alone is NOT enough - DECISION-002 letter A makes the launch
+        #    condition a CONJUNCTION (GREEN and certified). The gate turning
+        #    GREEN once silently unlocked terminal writes while zero human-tier
+        #    goldens existed; a measured floor is not a certified one.
         os.remove(os.path.join(L.OVERRIDE_DIR, "OVERRIDE-terminal-test.md"))
         json.dump({"gate": "GREEN"}, open(os.path.join(L.OUT, "preflight.json"), "w"))
-        L.append_rows([{"content_hash": "G", "id": "G#00",
-                        "status": "verified", "stage": 1}])
-        ok.append(("GREEN permits a terminal write",
-                   any(r.get("id") == "G#00" for r in L.read_rows())))
+        real_here = L.HERE
+        L.HERE = tmp                       # empty goldens/ => uncertified
+        try:
+            try:
+                L.append_rows([{"content_hash": "G", "id": "G#00",
+                                "status": "verified", "stage": 1}])
+                r = False
+            except L.TerminalWriteRefused:
+                r = True
+            ok.append(("GREEN but UNCERTIFIED still refuses", r))
+
+            # 6. GREEN + a human-tier golden permits it
+            os.makedirs(os.path.join(tmp, "goldens"), exist_ok=True)
+            json.dump({"by_tier": {"human_confirmed": 1}},
+                      open(os.path.join(tmp, "goldens", "INDEX.json"), "w"))
+            L.append_rows([{"content_hash": "G", "id": "G#00",
+                            "status": "verified", "stage": 1}])
+            ok.append(("GREEN + certified permits a terminal write",
+                       any(r2.get("id") == "G#00" for r2 in L.read_rows())))
+        finally:
+            L.HERE = real_here
     finally:
         L.OUT, L.LEDGER, L.OVERRIDE_DIR = real_out, real_led, real_ovr
 

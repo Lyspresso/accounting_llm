@@ -26,6 +26,7 @@ import argparse
 import glob
 import hashlib
 import json
+import io_json
 import os
 import re
 import sys
@@ -111,7 +112,7 @@ def capture(evidence_dir, item_id, stem, harness_version,
            "notes_governing": notes_governing(stem),
            "captured_at_write_time": True, "reconstructed": False}
     os.makedirs(evidence_dir, exist_ok=True)
-    json.dump(rec, open(p, "w", encoding="utf-8"), indent=1)
+    io_json.dump(p, rec)
     return rec
 
 
@@ -150,7 +151,7 @@ def reconstruct(apply_it=False):
                 rec["retroactive_stamp_replaced"] = was
             out.append((sub, qid, was, rec["pack_notes_version"]))
             if apply_it:
-                json.dump(rec, open(p, "w", encoding="utf-8"), indent=1)
+                io_json.dump(p, rec)
     return out, changed
 
 
@@ -171,8 +172,14 @@ def admissible(prov, q):
     return (True, "admissible")
 
 
-EVIDENCE_PREFERENCE = ("evidence_trim_sym", "evidence_parity", "evidence_dual2",
-                       "evidence_dual", "evidence_trim", "evidence")
+# Newest / most-symmetric harness first. A directory absent from this tuple is
+# INVISIBLE to every tool: minting 14 numeric goldens whose bundles lived in a
+# dir listed nowhere made them all resolve "no admissible evidence", and the
+# golden count silently stayed at 26 while goldens/ held 42. The list is the
+# registry - adding a harness means adding it here.
+EVIDENCE_PREFERENCE = ("evidence_restem", "evidence_numeric", "evidence_trim_sym",
+                       "evidence_parity", "evidence_dual2", "evidence_dual",
+                       "evidence_trim", "evidence")
 
 
 def local(path):

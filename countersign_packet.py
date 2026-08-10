@@ -59,6 +59,13 @@ def main():
         if fn.endswith(".json") and fn != "INDEX.json":
             existing.add(json.load(open(os.path.join(gold_dir, fn),
                                         encoding="utf-8"))["id"])
+    # Class coverage is a property of the GOLDEN SET the session will certify -
+    # existing goldens plus nominations - not of the nominations alone. Reading
+    # it off the nominations said "numeric not represented" the moment numeric
+    # goldens were minted, which is the opposite of the truth. A caveat that
+    # misreports its own subject is worse than no caveat.
+    existing_classes = collections.Counter(
+        qs[i].get("type") for i in existing if i in qs)
 
     # candidates: an admissible derivation exists and the comparator is clean
     cands = []
@@ -129,7 +136,9 @@ def main():
     # journal-entry items and says nothing about the 596 mcq items, which have
     # never been through Stage 1 and therefore have no derivation to nominate.
     corpus_classes = collections.Counter(q.get("type") for q in qs.values())
-    missing = [k for k in corpus_classes if k not in have_by_class]
+    certified_classes = existing_classes + have_by_class
+    missing = [k for k in corpus_classes if k not in certified_classes]
+    print(f"  golden set after this packet, by class: {dict(certified_classes)}")
     if missing:
         print("  ** CLASS COVERAGE WARNING **")
         for k in missing:
@@ -148,13 +157,14 @@ def main():
     json.dump({"target_n": TARGET_N, "existing": len(existing),
                "needed": need, "nominated": picked,
                "clean_candidates": len(clean), "considered": len(cands),
-               "by_class": dict(have_by_class),
+               "by_class_nominated": dict(have_by_class),
+               "by_class_certified_set": dict(existing_classes + have_by_class),
                "by_chapter": dict(have_by_chap),
                "short_by": max(0, need - len(picked)),
                "classes_not_represented": {
                    k: v for k, v in collections.Counter(
                        q.get("type") for q in qs.values()).items()
-                   if k not in have_by_class},
+                   if k not in (existing_classes + have_by_class)},
                "caveat": ("certifies floor #2 for the classes present ONLY; "
                           "classes with no admissible derivation are not "
                           "covered by this packet")},

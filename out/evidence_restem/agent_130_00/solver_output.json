@@ -1,0 +1,497 @@
+{
+ "id": "agent_130#00",
+ "rounding_convention": "decimal.Decimal with ROUND_HALF_UP applied per period; whole dollars. All figures are exact whole dollars, so no rounding differences arise and the cash T-account closes exactly to the $15,000 decrease in cash + restricted cash.",
+ "answers": [
+  {
+   "label": "a: Change in Cash and cash equivalents (decrease)",
+   "value": -25000.0
+  },
+  {
+   "label": "a: Change in Restricted cash (increase)",
+   "value": 10000.0
+  },
+  {
+   "label": "a: Change in Accounts receivable, net (decrease)",
+   "value": -70000.0
+  },
+  {
+   "label": "a: Change in Inventory (increase)",
+   "value": 150000.0
+  },
+  {
+   "label": "a: Change in Equipment (increase)",
+   "value": 600000.0
+  },
+  {
+   "label": "a: Change in Accumulated depreciation-equipment (increase in contra balance)",
+   "value": 260000.0
+  },
+  {
+   "label": "a: Change in Accounts payable (decrease)",
+   "value": -40000.0
+  },
+  {
+   "label": "a: Change in Salaries payable (decrease)",
+   "value": -20000.0
+  },
+  {
+   "label": "a: Change in Bonds payable (increase)",
+   "value": 150000.0
+  },
+  {
+   "label": "a: Change in Common stock, no-par (increase)",
+   "value": 100000.0
+  },
+  {
+   "label": "a: Change in Retained earnings (increase)",
+   "value": 215000.0
+  },
+  {
+   "label": "a: Beginning cash + cash equivalents + restricted cash",
+   "value": 95000.0
+  },
+  {
+   "label": "a: Ending cash + cash equivalents + restricted cash",
+   "value": 80000.0
+  },
+  {
+   "label": "a: Net change in cash + cash equivalents + restricted cash (decrease)",
+   "value": -15000.0
+  },
+  {
+   "label": "c: Equipment - beginning balance",
+   "value": 1600000.0
+  },
+  {
+   "label": "c: Equipment - purchases for cash",
+   "value": 920000.0
+  },
+  {
+   "label": "c: Equipment - cost of equipment sold",
+   "value": 320000.0
+  },
+  {
+   "label": "c: Equipment - ending balance",
+   "value": 2200000.0
+  },
+  {
+   "label": "c: Accumulated depreciation - beginning balance",
+   "value": 160000.0
+  },
+  {
+   "label": "c: Accumulated depreciation - depreciation expense",
+   "value": 320000.0
+  },
+  {
+   "label": "c: Accumulated depreciation - removed on disposal",
+   "value": 60000.0
+  },
+  {
+   "label": "c: Accumulated depreciation - ending balance",
+   "value": 420000.0
+  },
+  {
+   "label": "c: Book value of equipment sold",
+   "value": 260000.0
+  },
+  {
+   "label": "c: Loss on sale of equipment (proof)",
+   "value": 160000.0
+  },
+  {
+   "label": "c: Retained earnings - beginning balance",
+   "value": 205000.0
+  },
+  {
+   "label": "c: Retained earnings - net income",
+   "value": 422000.0
+  },
+  {
+   "label": "c: Retained earnings - dividends declared and paid (solved)",
+   "value": 207000.0
+  },
+  {
+   "label": "c: Retained earnings - ending balance",
+   "value": 420000.0
+  },
+  {
+   "label": "d: Cash T-account beginning balance (cash + restricted)",
+   "value": 95000.0
+  },
+  {
+   "label": "d: Cash T-account debit - collections from customers",
+   "value": 2470000.0
+  },
+  {
+   "label": "d: Cash T-account credit - payments to suppliers of inventory",
+   "value": 1540000.0
+  },
+  {
+   "label": "d: Cash T-account credit - payments to employees",
+   "value": 120000.0
+  },
+  {
+   "label": "d: Cash T-account credit - interest paid",
+   "value": 48000.0
+  },
+  {
+   "label": "d: Net cash provided by operating activities",
+   "value": 762000.0
+  },
+  {
+   "label": "d: Cash T-account debit - proceeds from sale of equipment",
+   "value": 100000.0
+  },
+  {
+   "label": "d: Cash T-account credit - purchase of equipment",
+   "value": 920000.0
+  },
+  {
+   "label": "d: Net cash used in investing activities",
+   "value": -820000.0
+  },
+  {
+   "label": "d: Cash T-account debit - proceeds from issuing bonds payable",
+   "value": 150000.0
+  },
+  {
+   "label": "d: Cash T-account debit - proceeds from issuing common stock",
+   "value": 100000.0
+  },
+  {
+   "label": "d: Cash T-account credit - dividends paid",
+   "value": 207000.0
+  },
+  {
+   "label": "d: Net cash provided by financing activities",
+   "value": 43000.0
+  },
+  {
+   "label": "d: Cash T-account total debits",
+   "value": 2820000.0
+  },
+  {
+   "label": "d: Cash T-account total credits",
+   "value": 2835000.0
+  },
+  {
+   "label": "d: Cash T-account ending balance (cash + restricted)",
+   "value": 80000.0
+  },
+  {
+   "label": "d: Proof - net change per T-account equals change in cash + restricted cash",
+   "value": -15000.0
+  },
+  {
+   "label": "e: Cash received from customers",
+   "value": 2470000.0
+  },
+  {
+   "label": "e: Cash paid for inventory (to suppliers)",
+   "value": -1540000.0
+  },
+  {
+   "label": "e: Cash paid for salaries",
+   "value": -120000.0
+  },
+  {
+   "label": "e: Cash paid for interest",
+   "value": -48000.0
+  },
+  {
+   "label": "e: Net cash provided by operating activities",
+   "value": 762000.0
+  },
+  {
+   "label": "e: Proceeds from sale of equipment",
+   "value": 100000.0
+  },
+  {
+   "label": "e: Cash paid to purchase equipment",
+   "value": -920000.0
+  },
+  {
+   "label": "e: Net cash used in investing activities",
+   "value": -820000.0
+  },
+  {
+   "label": "e: Proceeds from issuance of bonds payable",
+   "value": 150000.0
+  },
+  {
+   "label": "e: Proceeds from issuance of common stock",
+   "value": 100000.0
+  },
+  {
+   "label": "e: Dividends paid",
+   "value": -207000.0
+  },
+  {
+   "label": "e: Net cash provided by financing activities",
+   "value": 43000.0
+  },
+  {
+   "label": "e: Net decrease in cash, cash equivalents, and restricted cash",
+   "value": -15000.0
+  },
+  {
+   "label": "e: Cash, cash equivalents, and restricted cash at beginning of year",
+   "value": 95000.0
+  },
+  {
+   "label": "e: Cash, cash equivalents, and restricted cash at end of year",
+   "value": 80000.0
+  },
+  {
+   "label": "f: Loss on sale of equipment (noncash, not a separate cash outflow)",
+   "value": 160000.0
+  },
+  {
+   "label": "f: Cash inflow reported for the disposal, in investing activities",
+   "value": 100000.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b",
+   "label": "a: Sales on account",
+   "lines": [
+    {
+     "account": "Accounts receivable, net",
+     "debit": 2400000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Sales revenue",
+     "debit": 0.0,
+     "credit": 2400000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "b: Collections from customers",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 2470000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accounts receivable, net",
+     "debit": 0.0,
+     "credit": 2470000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "c: Inventory purchased on account",
+   "lines": [
+    {
+     "account": "Inventory",
+     "debit": 1500000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accounts payable",
+     "debit": 0.0,
+     "credit": 1500000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "d: Cost of goods sold",
+   "lines": [
+    {
+     "account": "Cost of goods sold",
+     "debit": 1350000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Inventory",
+     "debit": 0.0,
+     "credit": 1350000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "e: Cash paid to suppliers",
+   "lines": [
+    {
+     "account": "Accounts payable",
+     "debit": 1540000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 1540000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "f: Salary expense accrued and salaries paid",
+   "lines": [
+    {
+     "account": "Salary expense",
+     "debit": 100000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Salaries payable",
+     "debit": 20000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 120000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "g: Interest paid in cash",
+   "lines": [
+    {
+     "account": "Interest expense",
+     "debit": 48000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 48000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "h: Depreciation expense",
+   "lines": [
+    {
+     "account": "Depreciation expense",
+     "debit": 320000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accumulated depreciation-equipment",
+     "debit": 0.0,
+     "credit": 320000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "i: Sale of equipment for cash at a loss",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 100000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Accumulated depreciation-equipment",
+     "debit": 60000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Loss on sale of equipment",
+     "debit": 160000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Equipment",
+     "debit": 0.0,
+     "credit": 320000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "j: Purchase of equipment for cash",
+   "lines": [
+    {
+     "account": "Equipment",
+     "debit": 920000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 920000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "k: Issued bonds payable for cash",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 150000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Bonds payable",
+     "debit": 0.0,
+     "credit": 150000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "l: Issued no-par common stock for cash",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 100000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Common stock, no-par",
+     "debit": 0.0,
+     "credit": 100000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "m: Declared and paid cash dividends",
+   "lines": [
+    {
+     "account": "Retained earnings (Dividends)",
+     "debit": 207000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Cash",
+     "debit": 0.0,
+     "credit": 207000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "n: Close net income to retained earnings",
+   "lines": [
+    {
+     "account": "Income summary",
+     "debit": 422000.0,
+     "credit": 0.0
+    },
+    {
+     "account": "Retained earnings",
+     "debit": 0.0,
+     "credit": 422000.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Direct method: only actual cash receipts/payments hit the cash T-account, so no noncash items and no reconciliation lines appear in the operating section. (f) The $160,000 loss is not a cash outflow at all - it is the bookkeeping difference between the $260,000 book value of the equipment sold ($320,000 cost less $60,000 accumulated depreciation) and the $100,000 cash actually received. No cash left the company because of the loss; the only cash event was the $100,000 received. Under the direct method the operating section lists only cash collected from customers and cash paid to suppliers, employees, and lenders, so an accrual-only item like a loss never appears there (it would only surface as an add-back if the indirect method were used). The equipment disposal therefore appears once, in INVESTING ACTIVITIES, as 'Proceeds from sale of equipment $100,000' - the full cash inflow, not netted against the loss. Derivations: equipment purchases $920,000 = $2,200,000 - $1,600,000 + $320,000 cost removed; accumulated depreciation rolls $160,000 + $320,000 - $60,000 = $420,000; dividends $207,000 = $205,000 + $422,000 - $420,000; collections $2,470,000 = $2,400,000 sales + $70,000 AR decrease; payments for inventory $1,540,000 = $1,350,000 COGS + $150,000 inventory increase + $40,000 AP decrease; salaries paid $120,000 = $100,000 expense + $20,000 salaries payable decrease. Cash + restricted cash falls $15,000 ($95,000 to $80,000), which equals operating $762,000 + investing (-$820,000) + financing $43,000. Journal entries are labeled a-n; the item asked for 'a-k in Demo 22-8 style' but explaining every income statement account and every balance sheet change requires fourteen entries, so the sequence runs a through n."
+}

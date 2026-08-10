@@ -1,0 +1,219 @@
+{
+ "results": [
+  {
+   "id": "agent_130#00",
+   "state": "FINDINGS",
+   "harness": "restem-1",
+   "hard": 12,
+   "key_lines": 28,
+   "answers": 62,
+   "routed_stage2": 2,
+   "kinds": [
+    "JE_LINE_NOT_IN_KEY",
+    "KEY_LINE_NOT_IN_SOLVER"
+   ],
+   "admissible": "admissible",
+   "evidence": "out/evidence_restem/agent_130_00"
+  },
+  {
+   "id": "agent_168#00",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 76,
+   "routed_stage2": 1,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_168_00"
+  },
+  {
+   "id": "agent_153#00",
+   "state": "FINDINGS",
+   "harness": "numeric-1",
+   "hard": 3,
+   "key_lines": 0,
+   "answers": 53,
+   "routed_stage2": 2,
+   "kinds": [
+    "SOLVER_MISMATCH"
+   ],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_153_00"
+  },
+  {
+   "id": "agent_052#00",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 82,
+   "routed_stage2": 1,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_052_00"
+  },
+  {
+   "id": "agent_009#00",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 11,
+   "routed_stage2": 0,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_009_00"
+  },
+  {
+   "id": "agent_011#00",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 81,
+   "routed_stage2": 0,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_011_00"
+  },
+  {
+   "id": "agent_039#00",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 37,
+   "routed_stage2": 1,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_039_00"
+  },
+  {
+   "id": "agent_064#00",
+   "state": "FINDINGS",
+   "harness": "numeric-1",
+   "hard": 1,
+   "key_lines": 0,
+   "answers": 38,
+   "routed_stage2": 0,
+   "kinds": [
+    "SOLVER_MISMATCH"
+   ],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_064_00"
+  },
+  {
+   "id": "agent_346#00",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 29,
+   "routed_stage2": 0,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_346_00"
+  },
+  {
+   "id": "agent_028#00",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 53,
+   "routed_stage2": 0,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_028_00"
+  },
+  {
+   "id": "agent_253#01",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 28,
+   "routed_stage2": 0,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_253_01"
+  },
+  {
+   "id": "agent_256#02",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 35,
+   "routed_stage2": 0,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_256_02"
+  },
+  {
+   "id": "agent_033#00",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 42,
+   "routed_stage2": 0,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_033_00"
+  },
+  {
+   "id": "agent_025#00",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 70,
+   "routed_stage2": 0,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_025_00"
+  },
+  {
+   "id": "agent_318#00",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 26,
+   "routed_stage2": 0,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_318_00"
+  },
+  {
+   "id": "agent_007#00",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 17,
+   "routed_stage2": 0,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_007_00"
+  },
+  {
+   "id": "agent_011#01",
+   "state": "CLEAN",
+   "harness": "numeric-1",
+   "hard": 0,
+   "key_lines": 0,
+   "answers": 74,
+   "routed_stage2": 2,
+   "kinds": [],
+   "admissible": "admissible",
+   "evidence": "out/evidence_numeric/agent_011_01"
+  }
+ ],
+ "tally": {
+  "FINDINGS": 3,
+  "CLEAN": 14
+ }
+}

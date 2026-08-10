@@ -1,0 +1,138 @@
+{
+ "id": "agent_007#00",
+ "rounding_convention": "decimal.Decimal throughout; ROUND_HALF_UP quantized to whole dollars per period (per scenario); journal entries in whole dollars; each scenario closes exactly to fair value",
+ "answers": [
+  {
+   "label": "a: Scenario A - fair-value shortfall (amortized cost - fair value, floor $0)",
+   "value": 0.0
+  },
+  {
+   "label": "a: Scenario A - credit-loss amount (expected loss due to credit factors)",
+   "value": 12000.0
+  },
+  {
+   "label": "a: Scenario A - limit applied (max loss recognizable in net income = FV shortfall); cap = $0 (FV $85000 exceeds amortized cost by $5000); the FV-shortfall limit binds, no impairment",
+   "value": 0.0
+  },
+  {
+   "label": "a: Scenario A - impairment loss recognized in net income, Year 1",
+   "value": 0.0
+  },
+  {
+   "label": "a: Scenario B - fair-value shortfall (amortized cost - fair value, floor $0)",
+   "value": 8000.0
+  },
+  {
+   "label": "a: Scenario B - credit-loss amount (expected loss due to credit factors)",
+   "value": 12000.0
+  },
+  {
+   "label": "a: Scenario B - limit applied (max loss recognizable in net income = FV shortfall); cap = FV shortfall $8000 < credit estimate $12000; limit binds",
+   "value": 8000.0
+  },
+  {
+   "label": "a: Scenario B - impairment loss recognized in net income, Year 1",
+   "value": 8000.0
+  },
+  {
+   "label": "a: Scenario C - fair-value shortfall (amortized cost - fair value, floor $0)",
+   "value": 15000.0
+  },
+  {
+   "label": "a: Scenario C - credit-loss amount (expected loss due to credit factors)",
+   "value": 12000.0
+  },
+  {
+   "label": "a: Scenario C - limit applied (max loss recognizable in net income = FV shortfall); cap = FV shortfall $15000 > credit estimate $12000; credit estimate governs",
+   "value": 15000.0
+  },
+  {
+   "label": "a: Scenario C - impairment loss recognized in net income, Year 1",
+   "value": 12000.0
+  },
+  {
+   "label": "c: Scenario C - amortized cost",
+   "value": 80000.0
+  },
+  {
+   "label": "c: Scenario C - less Allowance for Credit Losses",
+   "value": -12000.0
+  },
+  {
+   "label": "c: Scenario C - Fair Value Adjustment - AFS balance after entry (credit)",
+   "value": -3000.0
+  },
+  {
+   "label": "c: Scenario C - net carrying amount of the investment on the balance sheet",
+   "value": 65000.0
+  },
+  {
+   "label": "c: Scenario C - noncredit portion of the decline remaining in AOCI (unrealized loss)",
+   "value": 3000.0
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Scenario A - no entry required (fair value $85000 exceeds amortized cost $80000; no impairment)",
+     "debit": 0,
+     "credit": 0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Scenario B - Credit Loss Expense (Impairment Loss on Investments) [net income]",
+     "debit": 8000.0,
+     "credit": 0
+    },
+    {
+     "account": "Scenario B -   Allowance for Credit Losses - AFS Debt Investment",
+     "debit": 0,
+     "credit": 8000.0
+    },
+    {
+     "account": "Scenario B - Fair Value Adjustment - AFS (paired reclassification of credit portion out of OCI)",
+     "debit": 8000.0,
+     "credit": 0
+    },
+    {
+     "account": "Scenario B -   Unrealized Gain or Loss - OCI",
+     "debit": 0,
+     "credit": 8000.0
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "lines": [
+    {
+     "account": "Scenario C - Credit Loss Expense (Impairment Loss on Investments) [net income]",
+     "debit": 12000.0,
+     "credit": 0
+    },
+    {
+     "account": "Scenario C -   Allowance for Credit Losses - AFS Debt Investment",
+     "debit": 0,
+     "credit": 12000.0
+    },
+    {
+     "account": "Scenario C - Fair Value Adjustment - AFS (paired reclassification of credit portion out of OCI)",
+     "debit": 12000.0,
+     "credit": 0
+    },
+    {
+     "account": "Scenario C -   Unrealized Gain or Loss - OCI",
+     "debit": 0,
+     "credit": 12000.0
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Scenario A: FV $85,000 exceeds amortized cost $80,000, so the FV shortfall is $0 and the $12,000 credit estimate is fully limited out - no impairment loss and no entry (the security stays at FV with a $5,000 unrealized gain in AOCI). Scenario B: shortfall $8,000 < credit estimate $12,000, so net income takes only $8,000 (the FV-shortfall limit binds); nothing remains in AOCI. Scenario C: shortfall $15,000 > credit estimate $12,000, so the $12,000 credit estimate governs and the $3,000 noncredit decline stays in AOCI. Entries assume Northridge does not intend to sell and is not more likely than not required to sell before recovery, so only the credit portion hits net income. The FV-OCI restatement to fair value (LO 14-3) was already recorded, so the second pair of lines only reclassifies the credit portion out of OCI. All amounts are whole dollars as given; ROUND_HALF_UP to whole dollars was applied per scenario and no rounding difference arose - each scenario closes exactly to fair value."
+}

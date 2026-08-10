@@ -1,0 +1,394 @@
+{
+ "id": "agent_011#00",
+ "rounding_convention": "decimal.Decimal throughout; PVs computed at full precision (prec=50) then rounded to the nearest whole dollar with ROUND_HALF_UP; interest expense rounded HALF_UP to whole dollars each period and the rounded amount carries forward; final-period discount amortization plugged so the schedule closes exactly to $200,000 face / $0 unamortized discount",
+ "answers": [
+  {
+   "label": "a: bond type \u2014 unsecured bonds (debentures): backed only by Cedar Ridge's general credit, no lien on specific assets",
+   "value": "debenture (unsecured) bonds"
+  },
+  {
+   "label": "a: bond type \u2014 convertible bonds: holders may convert into common stock after two years at 20 shares per $1,000 bond (4000 shares if all converted)",
+   "value": "convertible bonds"
+  },
+  {
+   "label": "a: bond type \u2014 term bonds: entire $200000 principal matures on a single date (December 31, Year 4), not in installments",
+   "value": "term bonds"
+  },
+  {
+   "label": "a: bond type \u2014 bonds issued at a discount: stated rate 6% < market rate 8%",
+   "value": "issued at a discount"
+  },
+  {
+   "label": "b(1): face (par) value",
+   "value": 200000
+  },
+  {
+   "label": "b(2): maturity date",
+   "value": "December 31, Year 4"
+  },
+  {
+   "label": "b(3): stated (contract) rate per interest period = 6% annual / 2",
+   "value": 0.03
+  },
+  {
+   "label": "b(4): interest payment dates",
+   "value": "June 30 and December 31 each year"
+  },
+  {
+   "label": "b(5): bond authorization date",
+   "value": "January 1, Year 1"
+  },
+  {
+   "label": "b(6): market (effective) rate per interest period = 8% annual / 2",
+   "value": 0.04
+  },
+  {
+   "label": "b(7): bond selling price (issue price, rounded to nearest dollar)",
+   "value": 186535
+  },
+  {
+   "label": "b(8): bond issue date",
+   "value": "January 1, Year 1"
+  },
+  {
+   "label": "b(7)-supporting: selling price as a percent of face",
+   "value": 93.268
+  },
+  {
+   "label": "c: cash interest payment per period ($200,000 x 3%)",
+   "value": 6000
+  },
+  {
+   "label": "c: PV of $200000 face discounted 8 periods at 4% (component, rounded)",
+   "value": 146138
+  },
+  {
+   "label": "c: PV of the 8 interest payments of $6000 at 4% (component, rounded)",
+   "value": 40396
+  },
+  {
+   "label": "c: issue price (proceeds) at January 1, Year 1",
+   "value": 186535
+  },
+  {
+   "label": "c: discount on bonds payable at issuance",
+   "value": 13465
+  },
+  {
+   "label": "d: period 1 (June 30, Year 1) beginning carrying amount",
+   "value": 186535
+  },
+  {
+   "label": "d: period 1 (June 30, Year 1) interest expense (4% x beginning carrying amount)",
+   "value": 7461
+  },
+  {
+   "label": "d: period 1 (June 30, Year 1) cash interest paid (3% x face)",
+   "value": 6000
+  },
+  {
+   "label": "d: period 1 (June 30, Year 1) discount amortization",
+   "value": 1461
+  },
+  {
+   "label": "d: period 1 (June 30, Year 1) ending carrying amount",
+   "value": 187996
+  },
+  {
+   "label": "d: period 1 (June 30, Year 1) unamortized discount remaining",
+   "value": 12004
+  },
+  {
+   "label": "d: period 2 (December 31, Year 1) beginning carrying amount",
+   "value": 187996
+  },
+  {
+   "label": "d: period 2 (December 31, Year 1) interest expense (4% x beginning carrying amount)",
+   "value": 7520
+  },
+  {
+   "label": "d: period 2 (December 31, Year 1) cash interest paid (3% x face)",
+   "value": 6000
+  },
+  {
+   "label": "d: period 2 (December 31, Year 1) discount amortization",
+   "value": 1520
+  },
+  {
+   "label": "d: period 2 (December 31, Year 1) ending carrying amount",
+   "value": 189516
+  },
+  {
+   "label": "d: period 2 (December 31, Year 1) unamortized discount remaining",
+   "value": 10484
+  },
+  {
+   "label": "d: period 3 (June 30, Year 2) beginning carrying amount",
+   "value": 189516
+  },
+  {
+   "label": "d: period 3 (June 30, Year 2) interest expense (4% x beginning carrying amount)",
+   "value": 7581
+  },
+  {
+   "label": "d: period 3 (June 30, Year 2) cash interest paid (3% x face)",
+   "value": 6000
+  },
+  {
+   "label": "d: period 3 (June 30, Year 2) discount amortization",
+   "value": 1581
+  },
+  {
+   "label": "d: period 3 (June 30, Year 2) ending carrying amount",
+   "value": 191097
+  },
+  {
+   "label": "d: period 3 (June 30, Year 2) unamortized discount remaining",
+   "value": 8903
+  },
+  {
+   "label": "d: period 4 (December 31, Year 2) beginning carrying amount",
+   "value": 191097
+  },
+  {
+   "label": "d: period 4 (December 31, Year 2) interest expense (4% x beginning carrying amount)",
+   "value": 7644
+  },
+  {
+   "label": "d: period 4 (December 31, Year 2) cash interest paid (3% x face)",
+   "value": 6000
+  },
+  {
+   "label": "d: period 4 (December 31, Year 2) discount amortization",
+   "value": 1644
+  },
+  {
+   "label": "d: period 4 (December 31, Year 2) ending carrying amount",
+   "value": 192741
+  },
+  {
+   "label": "d: period 4 (December 31, Year 2) unamortized discount remaining",
+   "value": 7259
+  },
+  {
+   "label": "d: period 5 (June 30, Year 3) beginning carrying amount",
+   "value": 192741
+  },
+  {
+   "label": "d: period 5 (June 30, Year 3) interest expense (4% x beginning carrying amount)",
+   "value": 7710
+  },
+  {
+   "label": "d: period 5 (June 30, Year 3) cash interest paid (3% x face)",
+   "value": 6000
+  },
+  {
+   "label": "d: period 5 (June 30, Year 3) discount amortization",
+   "value": 1710
+  },
+  {
+   "label": "d: period 5 (June 30, Year 3) ending carrying amount",
+   "value": 194451
+  },
+  {
+   "label": "d: period 5 (June 30, Year 3) unamortized discount remaining",
+   "value": 5549
+  },
+  {
+   "label": "d: period 6 (December 31, Year 3) beginning carrying amount",
+   "value": 194451
+  },
+  {
+   "label": "d: period 6 (December 31, Year 3) interest expense (4% x beginning carrying amount)",
+   "value": 7778
+  },
+  {
+   "label": "d: period 6 (December 31, Year 3) cash interest paid (3% x face)",
+   "value": 6000
+  },
+  {
+   "label": "d: period 6 (December 31, Year 3) discount amortization",
+   "value": 1778
+  },
+  {
+   "label": "d: period 6 (December 31, Year 3) ending carrying amount",
+   "value": 196229
+  },
+  {
+   "label": "d: period 6 (December 31, Year 3) unamortized discount remaining",
+   "value": 3771
+  },
+  {
+   "label": "d: period 7 (June 30, Year 4) beginning carrying amount",
+   "value": 196229
+  },
+  {
+   "label": "d: period 7 (June 30, Year 4) interest expense (4% x beginning carrying amount)",
+   "value": 7849
+  },
+  {
+   "label": "d: period 7 (June 30, Year 4) cash interest paid (3% x face)",
+   "value": 6000
+  },
+  {
+   "label": "d: period 7 (June 30, Year 4) discount amortization",
+   "value": 1849
+  },
+  {
+   "label": "d: period 7 (June 30, Year 4) ending carrying amount",
+   "value": 198078
+  },
+  {
+   "label": "d: period 7 (June 30, Year 4) unamortized discount remaining",
+   "value": 1922
+  },
+  {
+   "label": "d: period 8 (December 31, Year 4) beginning carrying amount",
+   "value": 198078
+  },
+  {
+   "label": "d: period 8 (December 31, Year 4) interest expense (4% x beginning carrying amount)",
+   "value": 7922
+  },
+  {
+   "label": "d: period 8 (December 31, Year 4) cash interest paid (3% x face)",
+   "value": 6000
+  },
+  {
+   "label": "d: period 8 (December 31, Year 4) discount amortization (plug)",
+   "value": 1922
+  },
+  {
+   "label": "d: period 8 (December 31, Year 4) ending carrying amount",
+   "value": 200000
+  },
+  {
+   "label": "d: period 8 (December 31, Year 4) unamortized discount remaining",
+   "value": 0
+  },
+  {
+   "label": "d: schedule total \u2014 interest expense over the 4-year term",
+   "value": 61465
+  },
+  {
+   "label": "d: schedule total \u2014 cash interest paid over the 4-year term",
+   "value": 48000
+  },
+  {
+   "label": "d: schedule total \u2014 discount amortized over the 4-year term",
+   "value": 13465
+  },
+  {
+   "label": "e: June 30, Year 1 interest expense",
+   "value": 7461
+  },
+  {
+   "label": "e: June 30, Year 1 cash paid",
+   "value": 6000
+  },
+  {
+   "label": "e: June 30, Year 1 discount amortized",
+   "value": 1461
+  },
+  {
+   "label": "e: December 31, Year 1 interest expense",
+   "value": 7520
+  },
+  {
+   "label": "e: December 31, Year 1 cash paid",
+   "value": 6000
+  },
+  {
+   "label": "e: December 31, Year 1 discount amortized",
+   "value": 1520
+  },
+  {
+   "label": "f: December 31, Year 1 balance sheet \u2014 Bonds payable (face), long-term liability (matures December 31, Year 4)",
+   "value": 200000
+  },
+  {
+   "label": "f: December 31, Year 1 balance sheet \u2014 Less: unamortized discount on bonds payable",
+   "value": 10484
+  },
+  {
+   "label": "f: December 31, Year 1 balance sheet \u2014 Carrying amount (book value) of bonds payable, reported as long-term debt",
+   "value": 189516
+  },
+  {
+   "label": "f: Year 1 total interest expense (income statement)",
+   "value": 14981
+  },
+  {
+   "label": "f: Year 1 total cash interest paid",
+   "value": 12000
+  },
+  {
+   "label": "f: Year 1 total discount amortized",
+   "value": 2981
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "c",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 186535,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 13465,
+     "credit": 0
+    },
+    {
+     "account": "Bonds Payable",
+     "debit": 0,
+     "credit": 200000
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 7461,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0,
+     "credit": 1461
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 6000
+    }
+   ]
+  },
+  {
+   "part": "e",
+   "lines": [
+    {
+     "account": "Interest Expense",
+     "debit": 7520,
+     "credit": 0
+    },
+    {
+     "account": "Discount on Bonds Payable",
+     "debit": 0,
+     "credit": 1520
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 6000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Semiannual: n=8 periods, stated 3 percent/period, market (effective) 4 percent/period. Issue price = PV(face) + PV(annuity of $6000) at 4 percent = $146138 + $40396 (components rounded separately; exact total $186534.51) = $186535 (93.268 percent of face), a discount of $13465 because the 6 percent stated rate is below the 8 percent market rate. The conversion option is not separated: under U.S. GAAP the convertible bonds are recorded wholly as debt at the issue price, which is why the market rate on similar NONCONVERTIBLE debt (8 percent) is the pricing rate; no equity component or beneficial-conversion amount is recognized, and no entry is made for the conversion feature until holders convert (after two years, 20 shares per $1,000 bond = 4000 shares if all bonds convert). Authorization on January 1, Year 1 requires no journal entry - only issuance does. Interest expense each period = 4 percent of the beginning carrying amount, rounded HALF_UP to whole dollars; cash interest is fixed at $6000; the difference amortizes the discount and raises carrying amount toward face. Period 8 amortization is plugged at $1922 (expense $7922 vs. $7923 unrounded) so carrying amount closes exactly at $200000 and unamortized discount at $0. At December 31, Year 1 the bonds are long-term (mature December 31, Year 4)."
+}

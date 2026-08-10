@@ -10,6 +10,7 @@ bound, not their point estimate.
 """
 
 import json
+import io_json
 import math
 import os
 import random
@@ -42,11 +43,29 @@ def load():
     return qs, C.load_known(), C.load_alias_map(False)
 
 
+def parity_dirs():
+    """
+    The parity batch's evidence dirs, RE-ROOTED onto this checkout.
+
+    out/parity50.json stores absolute paths into the machine that produced it.
+    detection_floor() read them raw, so on any other machine every probe hit a
+    path that does not exist, `continue`d, and the floor came out 0/0 with
+    passes:false. It fails CLOSED, which is the only reason this was survivable
+    - but a floor that silently becomes unmeasurable off one laptop is not a
+    floor, and a committed preflight.json recording 0/0 is how that travels.
+
+    provenance.local() already existed for exactly this; preflight simply never
+    called it. One loader now, so there is no second place to forget.
+    """
+    import provenance as _P
+    return {e["id"]: _P.local(e["dir"]) for e in
+            json.load(open(os.path.join(OUT, "parity50.json"), encoding="utf-8"))}
+
+
 def detection_floor(n_target=40, seed=7):
     """Falsifiable probes against the production comparator."""
     qs, known, amap = load()
-    par = {e["id"]: e["dir"] for e in
-           json.load(open(os.path.join(OUT, "parity50.json"), encoding="utf-8"))}
+    par = parity_dirs()
     rng = random.Random(seed)
     ids = list(par)
     rng.shuffle(ids)
@@ -124,8 +143,7 @@ def fp_floor():
     dv = dual_verified()
     qs, known, amap = load()
     gold_dir = os.path.join(HERE, "goldens")
-    par = {e["id"]: e["dir"] for e in
-           json.load(open(os.path.join(OUT, "parity50.json"), encoding="utf-8"))}
+    par = parity_dirs()
     clean = fp = stale = inadmissible = 0
     tiers = {}
     offenders = []
@@ -226,8 +244,13 @@ def main():
         print(f"  floor #2 needs ~{need} clean goldens with zero false positives "
               f"to bound at {PROBE_FP_CEILING:.0%}; have {f['clean']}.")
         print("  The gap is countersigned goldens, not comparator work.")
-    json.dump({"detection": d, "false_positive": f, "gate": "GREEN" if green else "RED"},
-              open(os.path.join(OUT, "preflight.json"), "w"), indent=1)
+    # ATOMIC: preflight.json is what ledger_io.launch_gate() reads to decide
+    # whether terminal writes are permitted. A half-written gate file is the one
+    # artifact that must never exist - an unreadable gate counts as RED, so a
+    # torn write would silently freeze terminal writes with no cause to find.
+    io_json.dump(os.path.join(OUT, "preflight.json"),
+                 {"detection": d, "false_positive": f,
+                  "gate": "GREEN" if green else "RED"})
 
 
 if __name__ == "__main__":

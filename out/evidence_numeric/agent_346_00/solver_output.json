@@ -1,0 +1,192 @@
+{
+ "id": "agent_346#00",
+ "rounding_convention": "decimal.Decimal throughout, ROUND_HALF_UP quantized to the cent each period and presented in whole dollars; all inputs are exact whole dollars so no rounding differences arise and no plug is used. The subsequent-measurement schedule closes exactly to zero carrying amount on disposal, with the valuation allowance removed equal to the cumulative HFS impairment balance ($6000).",
+ "answers": [
+  {
+   "label": "a: Carrying amount before HFS adjustment, Dec 31 Year 1 (cost $90,000 - accum. dep. $35,000)",
+   "value": 55000
+  },
+  {
+   "label": "a: Fair value less costs to sell, Dec 31 Year 1 ($48,000 - $3,000)",
+   "value": 45000
+  },
+  {
+   "label": "a: Initial HFS impairment loss recognized Dec 31 Year 1",
+   "value": 10000
+  },
+  {
+   "label": "a: Adjusted carrying amount of HFS asset, Dec 31 Year 1",
+   "value": 45000
+  },
+  {
+   "label": "a: Balance-sheet classification",
+   "value": "Current asset - reported separately as 'Milling machine held for sale, net' at $45000 (cost $90000 less accumulated depreciation $35000 less valuation allowance $10000); depreciation ceases at classification"
+  },
+  {
+   "label": "b: Row 1 (Dec 31, Year 1 - classification) carrying amount before adjustment",
+   "value": 55000
+  },
+  {
+   "label": "b: Row 1 (Dec 31, Year 1) FV - CTS",
+   "value": 45000
+  },
+  {
+   "label": "b: Row 1 (Dec 31, Year 1) ceiling (carrying amount at classification date)",
+   "value": 55000
+  },
+  {
+   "label": "b: Row 1 (Dec 31, Year 1) adjustment - impairment loss (decrease)",
+   "value": -10000
+  },
+  {
+   "label": "b: Row 1 (Dec 31, Year 1) carrying amount after adjustment",
+   "value": 45000
+  },
+  {
+   "label": "b: Row 1 (Dec 31, Year 1) cumulative HFS impairment",
+   "value": 10000
+  },
+  {
+   "label": "b: Row 2 (Dec 31, Year 2) carrying amount before adjustment",
+   "value": 45000
+  },
+  {
+   "label": "b: Row 2 (Dec 31, Year 2) FV - CTS ($52,000 - $3,000)",
+   "value": 49000
+  },
+  {
+   "label": "b: Row 2 (Dec 31, Year 2) ceiling (carrying amount at classification date)",
+   "value": 55000
+  },
+  {
+   "label": "b: Row 2 (Dec 31, Year 2) adjustment - recovery gain (increase, capped at cumulative impairment)",
+   "value": 4000
+  },
+  {
+   "label": "b: Row 2 (Dec 31, Year 2) carrying amount after adjustment",
+   "value": 49000
+  },
+  {
+   "label": "b: Row 2 (Dec 31, Year 2) cumulative HFS impairment",
+   "value": 6000
+  },
+  {
+   "label": "b: Row 3 (Mar 15, Year 3 - disposal) carrying amount at disposal",
+   "value": 49000
+  },
+  {
+   "label": "b: Row 3 (Mar 15, Year 3) net proceeds (FV realized less costs to sell)",
+   "value": 48500
+  },
+  {
+   "label": "b: Row 3 (Mar 15, Year 3) ceiling (carrying amount at classification date)",
+   "value": 55000
+  },
+  {
+   "label": "b: Row 3 (Mar 15, Year 3) adjustment - loss on sale",
+   "value": -500
+  },
+  {
+   "label": "b: Row 3 (Mar 15, Year 3) carrying amount after disposal",
+   "value": 0
+  },
+  {
+   "label": "b: Row 3 (Mar 15, Year 3) cumulative HFS impairment removed on disposal",
+   "value": 6000
+  },
+  {
+   "label": "c: Dec 31 Year 2 recovery of impairment recognized (gain)",
+   "value": 4000
+  },
+  {
+   "label": "c: Adjusted carrying amount after Dec 31 Year 2 entry",
+   "value": 49000
+  },
+  {
+   "label": "d: Cash proceeds received Mar 15 Year 3",
+   "value": 51000
+  },
+  {
+   "label": "d: Selling costs paid in cash Mar 15 Year 3",
+   "value": 2500
+  },
+  {
+   "label": "d: Net cash inflow at closing",
+   "value": 48500
+  },
+  {
+   "label": "d: Loss on sale of held-for-sale asset",
+   "value": 500
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "a",
+   "date": "Dec 31, Year 1",
+   "description": "Initial HFS write-down to fair value less costs to sell",
+   "lines": [
+    {
+     "account": "Loss on impairment - asset held for sale",
+     "debit": 10000,
+     "credit": 0
+    },
+    {
+     "account": "Allowance to reduce held-for-sale asset to fair value less cost to sell",
+     "debit": 0,
+     "credit": 10000
+    }
+   ]
+  },
+  {
+   "part": "c",
+   "date": "Dec 31, Year 2",
+   "description": "Period-end recovery of previously recognized HFS impairment (limited to cumulative loss)",
+   "lines": [
+    {
+     "account": "Allowance to reduce held-for-sale asset to fair value less cost to sell",
+     "debit": 4000,
+     "credit": 0
+    },
+    {
+     "account": "Recovery of impairment loss - asset held for sale",
+     "debit": 0,
+     "credit": 4000
+    }
+   ]
+  },
+  {
+   "part": "d",
+   "date": "March 15, Year 3",
+   "description": "Disposal of held-for-sale milling machine",
+   "lines": [
+    {
+     "account": "Cash (proceeds $51000 less selling costs paid $2500)",
+     "debit": 48500,
+     "credit": 0
+    },
+    {
+     "account": "Accumulated depreciation - milling machine",
+     "debit": 35000,
+     "credit": 0
+    },
+    {
+     "account": "Allowance to reduce held-for-sale asset to fair value less cost to sell",
+     "debit": 6000,
+     "credit": 0
+    },
+    {
+     "account": "Loss on sale of asset held for sale",
+     "debit": 500,
+     "credit": 0
+    },
+    {
+     "account": "Milling machine (equipment)",
+     "debit": 0,
+     "credit": 90000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "ASC 360-10-35-43/45: on classification the asset is measured at the lower of carrying amount ($55000) and fair value less cost to sell ($45000), and depreciation ceases. Subsequent gains are recognized only to the extent of cumulative losses previously recognized under the HFS model, so the Dec 31 Year 2 increase in FV-CTS from $45000 to $49000 ($4000) is fully recognized because cumulative impairment was $10000; carrying amount is capped by the $55000 ceiling (carrying amount at classification, unadjusted since no depreciation would have been taken). Write-downs are carried in a valuation allowance rather than credited directly to the asset, so cost and accumulated depreciation are both removed at disposal. Disposal: net cash $48500 vs. carrying amount $49000 gives a $500 loss on sale."
+}

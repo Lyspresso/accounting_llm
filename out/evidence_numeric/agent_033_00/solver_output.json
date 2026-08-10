@@ -1,0 +1,310 @@
+{
+ "id": "agent_033#00",
+ "rounding_convention": "Decimal arithmetic, ROUND_HALF_UP to the cent each period, presented in whole dollars (all inputs are exact whole dollars); no floats",
+ "answers": [
+  {
+   "label": "a: item 1 \u2014 Issued 4,000 shares of $5-par preferred stock at $30 cash \u2014 inflow, financing (F)",
+   "value": 120000
+  },
+  {
+   "label": "a: item 2 \u2014 Cash paid to retire long-term bonds early \u2014 outflow, financing (F)",
+   "value": -80000
+  },
+  {
+   "label": "a: item 3 \u2014 Cash collected from customers \u2014 inflow, operating (O)",
+   "value": 400000
+  },
+  {
+   "label": "a: item 4 \u2014 Nontrade loan advanced to affiliate \u2014 outflow, investing (I)",
+   "value": -50000
+  },
+  {
+   "label": "a: item 5 \u2014 Sold patent for cash \u2014 inflow, investing (I)",
+   "value": 30000
+  },
+  {
+   "label": "a: item 6 \u2014 Purchased equity securities (not held for trading) \u2014 outflow, investing (I)",
+   "value": -45000
+  },
+  {
+   "label": "a: item 7 \u2014 Issued bonds payable at par for cash \u2014 inflow, financing (F)",
+   "value": 200000
+  },
+  {
+   "label": "a: item 8 \u2014 Purchased treasury stock \u2014 outflow, financing (F)",
+   "value": -35000
+  },
+  {
+   "label": "a: item 9 \u2014 Sold land for cash \u2014 inflow, investing (I)",
+   "value": 70000
+  },
+  {
+   "label": "a: item 10 \u2014 Issued short-term trade note payable (inventory/operating) \u2014 inflow, operating (O)",
+   "value": 20000
+  },
+  {
+   "label": "a: item 11 \u2014 Paid cash dividends to preferred shareholders \u2014 outflow, financing (F)",
+   "value": -25000
+  },
+  {
+   "label": "a: item 12 \u2014 Paid cash operating expenses \u2014 outflow, operating (O)",
+   "value": -280000
+  },
+  {
+   "label": "a: item 13 \u2014 Purchased equipment for cash \u2014 outflow, investing (I)",
+   "value": -90000
+  },
+  {
+   "label": "a: item 14 \u2014 Collected principal on nontrade note receivable \u2014 inflow, investing (I)",
+   "value": 12000
+  },
+  {
+   "label": "a: item 15 \u2014 Paid interest on bonds payable \u2014 outflow, operating (O)",
+   "value": -16000
+  },
+  {
+   "label": "c: Net cash provided by operating activities",
+   "value": 124000
+  },
+  {
+   "label": "c: Net cash used in investing activities",
+   "value": -73000
+  },
+  {
+   "label": "c: Net cash provided by financing activities",
+   "value": 180000
+  },
+  {
+   "label": "c: Net increase in cash, cash equivalents and restricted cash",
+   "value": 231000
+  },
+  {
+   "label": "c: Beginning cash, cash equivalents and restricted cash (1/1/2025)",
+   "value": 25000
+  },
+  {
+   "label": "c: Ending cash, cash equivalents and restricted cash (12/31/2025) \u2014 proof",
+   "value": 256000
+  },
+  {
+   "label": "d: Cash flows from operating activities \u2014 Cash received from customers",
+   "value": 400000
+  },
+  {
+   "label": "d: Cash flows from operating activities \u2014 Proceeds from short-term trade note payable (operating)",
+   "value": 20000
+  },
+  {
+   "label": "d: Cash flows from operating activities \u2014 Cash paid for operating expenses",
+   "value": -280000
+  },
+  {
+   "label": "d: Cash flows from operating activities \u2014 Interest paid on bonds payable",
+   "value": -16000
+  },
+  {
+   "label": "d: Net cash provided by operating activities",
+   "value": 124000
+  },
+  {
+   "label": "d: Cash flows from investing activities \u2014 Proceeds from sale of patent",
+   "value": 30000
+  },
+  {
+   "label": "d: Cash flows from investing activities \u2014 Proceeds from sale of land",
+   "value": 70000
+  },
+  {
+   "label": "d: Cash flows from investing activities \u2014 Collection of principal on nontrade note receivable",
+   "value": 12000
+  },
+  {
+   "label": "d: Cash flows from investing activities \u2014 Nontrade loan advanced to affiliate",
+   "value": -50000
+  },
+  {
+   "label": "d: Cash flows from investing activities \u2014 Purchase of equity securities (non-trading)",
+   "value": -45000
+  },
+  {
+   "label": "d: Cash flows from investing activities \u2014 Purchase of equipment",
+   "value": -90000
+  },
+  {
+   "label": "d: Net cash used in investing activities",
+   "value": -73000
+  },
+  {
+   "label": "d: Cash flows from financing activities \u2014 Proceeds from issuance of preferred stock",
+   "value": 120000
+  },
+  {
+   "label": "d: Cash flows from financing activities \u2014 Proceeds from issuance of bonds payable at par",
+   "value": 200000
+  },
+  {
+   "label": "d: Cash flows from financing activities \u2014 Cash paid to retire bonds payable early",
+   "value": -80000
+  },
+  {
+   "label": "d: Cash flows from financing activities \u2014 Purchase of treasury stock",
+   "value": -35000
+  },
+  {
+   "label": "d: Cash flows from financing activities \u2014 Cash dividends paid on preferred stock",
+   "value": -25000
+  },
+  {
+   "label": "d: Net cash provided by financing activities",
+   "value": 180000
+  },
+  {
+   "label": "d: Net increase in cash, cash equivalents and restricted cash",
+   "value": 231000
+  },
+  {
+   "label": "d: Cash, cash equivalents and restricted cash, beginning of year",
+   "value": 25000
+  },
+  {
+   "label": "d: Cash, cash equivalents and restricted cash, end of year",
+   "value": 256000
+  }
+ ],
+ "journal_entries": [
+  {
+   "part": "b",
+   "label": "Item 1 \u2014 issuance of preferred stock for cash",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 120000,
+     "credit": 0
+    },
+    {
+     "account": "Preferred Stock ($5 par)",
+     "debit": 0,
+     "credit": 20000
+    },
+    {
+     "account": "Paid-in Capital in Excess of Par \u2014 Preferred",
+     "debit": 0,
+     "credit": 100000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "Item 2 \u2014 early retirement of bonds payable",
+   "lines": [
+    {
+     "account": "Bonds Payable (carrying amount)",
+     "debit": 78000,
+     "credit": 0
+    },
+    {
+     "account": "Loss on Extinguishment of Debt",
+     "debit": 2000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 80000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "Item 5 \u2014 sale of patent for cash",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 30000,
+     "credit": 0
+    },
+    {
+     "account": "Patent (carrying amount)",
+     "debit": 0,
+     "credit": 22000
+    },
+    {
+     "account": "Gain on Sale of Patent",
+     "debit": 0,
+     "credit": 8000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "Item 7 \u2014 issuance of bonds payable at par",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 200000,
+     "credit": 0
+    },
+    {
+     "account": "Bonds Payable",
+     "debit": 0,
+     "credit": 200000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "Item 8 \u2014 purchase of treasury stock (cost method)",
+   "lines": [
+    {
+     "account": "Treasury Stock",
+     "debit": 35000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 35000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "Item 9 \u2014 sale of land for cash",
+   "lines": [
+    {
+     "account": "Cash",
+     "debit": 70000,
+     "credit": 0
+    },
+    {
+     "account": "Land",
+     "debit": 0,
+     "credit": 55000
+    },
+    {
+     "account": "Gain on Sale of Land",
+     "debit": 0,
+     "credit": 15000
+    }
+   ]
+  },
+  {
+   "part": "b",
+   "label": "Item 13 \u2014 purchase of equipment for cash",
+   "lines": [
+    {
+     "account": "Equipment",
+     "debit": 90000,
+     "credit": 0
+    },
+    {
+     "account": "Cash",
+     "debit": 0,
+     "credit": 90000
+    }
+   ]
+  }
+ ],
+ "insufficient_info": false,
+ "notes": "Whole-dollar presentation; ROUND_HALF_UP; all Decimal, no floats; every JE proved Dr = Cr in code. Classification logic (ASC 230): interest paid (item 15) is OPERATING under US GAAP; dividends PAID (item 11) are FINANCING; the short-term note in item 10 is trade/inventory-related operating financing, so its proceeds are OPERATING (a nontrade short-term borrowing would have been financing); the item 4 advance and the item 14 principal collection are NONTRADE, so both are INVESTING; equity securities in item 6 are not held for trading, so the purchase is INVESTING; the item 2 payment to extinguish debt is FINANCING in full ($80,000) even though $2,000 is a loss, and the item 5/9 gains ($8,000 patent, $15,000 land) are non-operating gains \u2014 the full cash proceeds are INVESTING. Part (d) 'cash' under ASC 230/ASU 2016-18 = cash on hand and demand deposits, plus cash equivalents (short-term, highly liquid investments readily convertible to known amounts of cash and so near maturity that interest-rate risk is insignificant \u2014 generally original maturity of three months or less, e.g. T-bills, commercial paper, money market funds), plus amounts generally described as restricted cash and restricted cash equivalents; the total of these is what the beginning ($25,000) and ending ($256,000) amounts reconcile to. Bank overdrafts are not netted into cash. Only the direct-method operating lines actually given were presented; no noncash investing/financing transactions occurred."
+}
