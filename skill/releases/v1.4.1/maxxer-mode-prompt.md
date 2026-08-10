@@ -402,7 +402,7 @@ enforcement, meter, probes) is green; `tests/loop_protocol_sim.py` and
 ## 1.4.1 ADDENDUM — post-release accumulated law (spec catch-up; non-invalidating)
 
 Everything below is already running; this release documents it. Rationale
-and incident provenance for each rule: docs/v1.4-fold-queue.md.
+and incident provenance for each rule: docs/07-RULEBOOK.md.
 
 **State-store law (extends the ledger rules)**
 - ONE write API per state store: `ledger_io`-style, merge-only, atomic;

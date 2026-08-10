@@ -402,7 +402,7 @@ enforcement, meter, probes) is green; `tests/loop_protocol_sim.py` and
 ## 1.4.1 ADDENDUM — post-release accumulated law (spec catch-up; non-invalidating)
 
 Everything below is already running; this release documents it. Rationale
-and incident provenance for each rule: docs/v1.4-fold-queue.md.
+and incident provenance for each rule: docs/07-RULEBOOK.md.
 
 **State-store law (extends the ledger rules)**
 - ONE write API per state store: `ledger_io`-style, merge-only, atomic;
@@ -481,7 +481,7 @@ and incident provenance for each rule: docs/v1.4-fold-queue.md.
 
 ## 1.4.2 ADDENDUM — the case history is part of the system (spec catch-up; non-invalidating)
 
-DECISIONS.md (settled rulings), RETIRED.md (dead numbers, approaches,
+02-DECISIONS.md (settled rulings), 03-RETIRED.md (dead numbers, approaches,
 and beliefs), and the items casebook are maintained artifacts with the
 same standing as the ledger. A settled ruling reopens only by citing its
 ID with new evidence; a retired number or approach is never re-derived

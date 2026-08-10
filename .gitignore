@@ -21,3 +21,10 @@ build/
 # Editors
 .vscode/
 .idea/
+
+# Public repo: never commit textbook source material (Hanlon 4e)
+*_clean.txt
+chapter_*.txt
+textbook/
+sources/
+notes/

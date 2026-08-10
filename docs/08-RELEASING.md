@@ -18,8 +18,8 @@ patch version. Old releases are never deleted or rewritten.**
   before/after capture and a mover audit).
 - **Regression protocol**: suspect a regression → `diff -ru
   skill/releases/vA skill/releases/vB` (or `git diff tagA tagB`) to see
-  exactly what changed between any two releases; the fold-queue entry
+  exactly what changed between any two releases; the rulebook entry (docs/07-RULEBOOK.md)
   for each rule names the incident that motivated it.
-- `docs/v1.4-fold-queue.md` continues as the incident-provenance ledger:
+- `docs/07-RULEBOOK.md` (the rulebook) is the incident-provenance ledger:
   under continuous release, every new rule lands in the queue AND the
   current prompts AND a fresh release directory in the same commit.

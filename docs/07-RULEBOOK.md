@@ -1,3 +1,5 @@
+# RULEBOOK (formerly v1.4-fold-queue.md) — every rule + the incident that taught it
+
 # v1.4 Fold-Queue — every spec delta since v1.3, prompt-ready
 
 RELEASE TYPE: **spec catch-up**. Everything below is ALREADY RUNNING in the
@@ -542,7 +544,7 @@ Each entry: the rule as it should read in the prompts, then [origin].
   is scored.
 
 ---
-*Continuous-release standard adopted 2026-08-10 (see docs/RELEASING.md): rules now land in the prompts immediately as patch releases; this file continues as the incident-provenance ledger.*
+*Continuous-release standard adopted 2026-08-10 (see docs/08-08-RELEASING.md): rules now land in the prompts immediately as patch releases; this file continues as the incident-provenance ledger.*
 
 ## Added at the case-history consolidation (v1.4.2)
 

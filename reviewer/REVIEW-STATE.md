@@ -1,7 +1,7 @@
 # REVIEW-STATE — live continuity document
 Updated: 2026-08-10 · Supersedes docs/archive/HANDOFF-2026-08-08.md
 This is the reviewer's pick-up-here file. Read it with deliverables/STATUS.md
-(the executor's generated state) and docs/v1.4-fold-queue.md (the law). Case history: docs/DECISIONS.md, docs/RETIRED.md, docs/items-casebook.md, docs/PREDICTIONS.md, docs/OPEN-QUESTIONS.md.
+(the executor's generated state) and docs/07-RULEBOOK.md (the law). Case history: docs/02-02-DECISIONS.md, docs/03-03-RETIRED.md, docs/04-04-items-casebook.md, docs/06-06-PREDICTIONS.md, docs/05-05-OPEN-QUESTIONS.md.
 
 ## Gates and authorization
 
@@ -75,7 +75,7 @@ fixture pending as the seventh.
 Executor reports with artifacts (deliver.sh regenerates and stamps
 exports; verbal-only state does not exist). Reviewer verifies arithmetic
 independently, issues SELF-CONTAINED order blocks quoting exact artifact
-strings, keeps the fold-queue current, and scores every registered
+strings, keeps the rulebook (docs/07-RULEBOOK.md) current, and scores every registered
 prediction. Operator protocol: if a document the reviewer needs has not
 arrived, the reviewer replies with exactly one sentence — "I cannot
 continue until you give me the documents" — and nothing else. Numbers

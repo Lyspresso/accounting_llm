@@ -43,6 +43,12 @@ accounting first; the SUBJECT PACK section swaps to port it to any class.
 
 ## Changelog
 
+- **v1.4.3 (navigation release — no invalidation)** — repo reorganized
+  for zero-inference navigation: 00-START-HERE with role/where-is/hard-
+  rules tables, numbered docs/ read order (01–08), RULEBOOK renamed from
+  the fold-queue, generated-folder do-not-edit marker, textbook-source
+  gitignore. Prompt content unchanged except file references.
+
 - **v1.4.2 (spec catch-up — no invalidation)** — the case-history layer
   becomes law: DECISIONS/RETIRED/casebook are maintained artifacts;
   settled rulings reopen only by citation with new evidence; retired
@@ -71,7 +77,7 @@ accounting first; the SUBJECT PACK section swaps to port it to any class.
   as source of truth, timestamped generated exports); pack governance
   (suffix barriers, dominance rule, NOTATION class, resolution curves,
   duplicates); pre-registration, enforcement probes, and the full process
-  discipline. Rationale and incident provenance: docs/v1.4-fold-queue.md.
+  discipline. Rationale and incident provenance: docs/07-RULEBOOK.md.
 
 - **v1.0** — two-mode pipeline: normalize, blind Python solvers, grounded
   verification, adversary, coverage audit, hash-keyed ledger.

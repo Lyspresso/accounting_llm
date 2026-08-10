@@ -1,4 +1,4 @@
-# RETIRED.md — do not re-derive, re-try, or re-believe these
+# 03-RETIRED.md — do not re-derive, re-try, or re-believe these
 The anti-loop file. If a number or approach below appears in an older
 document, it is HISTORY, not state. Quoting a retired number as current,
 or re-trying a retired approach without citing this file and new

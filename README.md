@@ -1,8 +1,10 @@
+> **New here (human or AI)? Open [00-START-HERE.md](00-START-HERE.md) and follow it exactly.**
+
 # The Question-Verifier Project — what we're doing here
 
 *Current as of 2026-08-10. Owner: Lydia. Executor: a Claude Code agent on
 her machine. Reviewer: Claude (this chat). One page of orientation; the
-detailed law lives in `v1.4-fold-queue.md`, the live state in `STATUS.md`.*
+detailed law lives in `07-RULEBOOK.md`, the live state in `STATUS.md`.*
 
 ---
 
@@ -80,7 +82,7 @@ Three roles, deliberately separated:
   ships artifacts.
 - **Reviewer** (this chat): audits every report against its own
   arithmetic, issues self-contained order blocks, keeps the living
-  rulebook (`v1.4-fold-queue.md`) and folds it into the versioned
+  rulebook (`07-RULEBOOK.md`) and folds it into the versioned
   prompts.
 - **Operator** (Lydia): owns the budget, countersigns the goldens that
   certify the false-positive floor, and makes the calls no machine
@@ -129,15 +131,15 @@ questions being measured.
 
 
 ## New agent? Read in this order, before acting
-1. `docs/GLOSSARY.md` — the vocabulary is load-bearing.
+1. `docs/01-01-GLOSSARY.md` — the vocabulary is load-bearing.
 2. `reviewer/REVIEW-STATE.md` + `deliverables/STATUS.md` — where we are.
-3. `docs/DECISIONS.md` — settled rulings; reopening one requires citing
+3. `docs/02-02-DECISIONS.md` — settled rulings; reopening one requires citing
    its ID with new evidence.
-4. `docs/RETIRED.md` — numbers and approaches that are DEAD; quoting a
+4. `docs/03-03-RETIRED.md` — numbers and approaches that are DEAD; quoting a
    retired number as current is an error.
-5. `docs/items-casebook.md` — the famous items; do not re-investigate
+5. `docs/04-04-items-casebook.md` — the famous items; do not re-investigate
    from zero.
-Then: `docs/OPEN-QUESTIONS.md` is where genuine uncertainty lives.
+Then: `docs/05-05-OPEN-QUESTIONS.md` is where genuine uncertainty lives.
 **Executor joining from Lydia's machine: your first commit is the working
 tree — scripts (canon.py, ledger_io.py, builders, fixtures, deliver.sh),
 the ledger, goldens, and evidence bundles. The repo is incomplete without
@@ -150,10 +152,10 @@ README).**
 - `skill/` — the portable question-verifier skill, v1.4: both mode
   prompts, config template, subject pack, and simulation tests
   (`skill/tests/` must stay green).
-- `docs/RELEASING.md` — the continuous-release standard: publish every
+- `docs/08-08-RELEASING.md` — the continuous-release standard: publish every
   change as a new patch version, keep every old release verbatim under
   `skill/releases/`, compare any two on demand.
-- `docs/v1.4-fold-queue.md` — the living rulebook: every rule with the
+- `docs/07-RULEBOOK.md` — the living rulebook: every rule with the
   incident that taught it. Single source; the skill README points here.
 - `deliverables/` — the executor's current generated artifacts
   (STATUS.md is the live state; regenerate via deliver.sh, never edit).
@@ -161,8 +163,8 @@ README).**
   in-flight orders, prediction ledger, runway.
 - `reviewer/hand_check_verdicts_v1.json` — the 20-item cross-check
   packet (ai_cross_checked tier; operator countersign pending).
-- `docs/DECISIONS.md`, `docs/RETIRED.md`, `docs/items-casebook.md`,
-  `docs/PREDICTIONS.md`, `docs/OPEN-QUESTIONS.md`, `docs/GLOSSARY.md` —
+- `docs/02-02-DECISIONS.md`, `docs/03-03-RETIRED.md`, `docs/04-04-items-casebook.md`,
+  `docs/06-06-PREDICTIONS.md`, `docs/05-05-OPEN-QUESTIONS.md`, `docs/01-01-GLOSSARY.md` —
   the case-history layer: settled law, dead ends, famous items,
   scored predictions, live unknowns, vocabulary.
 - `docs/archive/` — historical snapshots, superseded but preserved.

@@ -1,7 +1,7 @@
-# DECISIONS.md — settled rulings ledger
+# 02-DECISIONS.md — settled rulings ledger
 Every entry is STANDING law unless a later entry supersedes it by citing
 it. Reopening any ruling requires citing its ID and presenting NEW
-evidence. Evidence details: deliverables/, reviewer/, docs/items-casebook.md.
+evidence. Evidence details: deliverables/, reviewer/, docs/04-04-items-casebook.md.
 
 - **D1 Authority**: `textbook_then_gaap`. The edition (Hanlon 4e) governs;
   current GAAP fills silence; divergences flag `conflict`, never fail.
@@ -80,4 +80,4 @@ evidence. Evidence details: deliverables/, reviewer/, docs/items-casebook.md.
   continue; human decisions at tranche boundaries only.
 - **D21 Continuous release** (operator's order, 2026-08-10): every spec
   change publishes immediately as the next patch version; releases are
-  append-only under skill/releases/; see docs/RELEASING.md.
+  append-only under skill/releases/; see docs/08-08-RELEASING.md.
